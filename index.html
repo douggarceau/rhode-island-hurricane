@@ -1916,7 +1916,7 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
 </script>
 <script>
 (async()=>{try{const k='ss.visited',seen=sessionStorage.getItem(k);
-  const r=await fetch('https://abacus.jasoncameron.dev/'+(seen?'get':'hit')+'/rhodeislandhurricane/visits');
+  let r=await fetch('https://abacus.jasoncameron.dev/'+(seen?'get':'hit')+'/rhodeislandhurricane/visits');if(!r.ok)r=await fetch('https://abacus.jasoncameron.dev/hit/rhodeislandhurricane/visits');
   const j=await r.json();const n=j&&j.value;if(!seen)try{sessionStorage.setItem(k,'1')}catch(e){}
   if(typeof n==='number')document.getElementById('visits').textContent=n.toLocaleString();}catch(e){}})();
 </script>
