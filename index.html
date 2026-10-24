@@ -177,7 +177,8 @@ html body #view .scbtn{font:800 12px/1 var(--lb)!important;letter-spacing:.12em!
 html body #view .dayh,html body #view .ch2 b,html body #view .dayh *{font:800 13px/1.2 var(--lb)!important;letter-spacing:.14em!important;text-transform:uppercase!important}
 html body #view .vb i{font:800 10px/1.2 var(--lb)!important;letter-spacing:.1em!important}
 </style>
-<style id="riHide">#nav [data-go="bars"],#nav [data-go="cal"],#nav [data-go="scene"],#nav [data-go="venues"],#nav [data-go="bands"],#nav [data-go="tech"]{display:none!important}#view .ticker{display:none!important}.lsrow .lspot.ri-cut{display:none!important}</style><style id="pvrule">.pv{display:none!important}html.stats .pv{display:block!important}</style><script>try{if(/[?&]stats\b/.test(location.search)||sessionStorage.getItem("pvstats")==="1"){sessionStorage.setItem("pvstats","1");document.documentElement.classList.add("stats")}}catch(_){}</script></head>
+<style id="riHide">#nav [data-go="bars"],#nav [data-go="cal"],#nav [data-go="scene"],#nav [data-go="venues"],#nav [data-go="bands"],#nav [data-go="tech"]{display:none!important}#view .ticker{display:none!important}.lsrow .lspot.ri-cut{display:none!important}</style><style id="pvrule">.pv{display:none!important}html.stats .pv{display:block!important}</style><script>try{if(/[?&]stats\b/.test(location.search)||sessionStorage.getItem("pvstats")==="1"){sessionStorage.setItem("pvstats","1");document.documentElement.classList.add("stats")}}catch(_){}</script><style>html body p.pv{display:block!important}</style>
+</head>
 <body>
 <title>Rhode Island Hurricane</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -1915,8 +1916,8 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
 </script>
 <script>
 (async()=>{try{const k='ss.visited',seen=sessionStorage.getItem(k);
-  const r=await fetch('https://api.counterapi.dev/v1/douggarceau-com/ri-visits'+(seen?'':'/up'));
-  const j=await r.json();const n=j&&j.count;if(!seen)try{sessionStorage.setItem(k,'1')}catch(e){}
+  const r=await fetch('https://abacus.jasoncameron.dev/'+(seen?'get':'hit')+'/rhodeislandhurricane/visits');
+  const j=await r.json();const n=j&&j.value;if(!seen)try{sessionStorage.setItem(k,'1')}catch(e){}
   if(typeof n==='number')document.getElementById('visits').textContent=n.toLocaleString();}catch(e){}})();
 </script>
 <script>
