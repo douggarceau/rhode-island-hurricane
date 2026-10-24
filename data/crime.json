@@ -1,1 +1,149 @@
-{"asof": "2026-10-23T21:00:00-04:00", "items": []}
+{
+ "asof": "2026-10-24T20:00:00-04:00",
+ "items": [
+  {
+   "kind": "crash",
+   "headline": "Crews respond to e-bike and vehicle crash in Cranston",
+   "blurb": "Emergency crews responded to a crash involving an e-bike and a motor vehicle in Cranston, according to photos from NBC 10 WJAR. Details on injuries were not immediately reported.",
+   "hood": "Cranston",
+   "date": "2026-10-24",
+   "url": "https://turnto10.com/news/local/gallery/crews-respond-to-crash-in-cranston-involving-an-e-bike-and-motor-vehicle-court-date-warrant-reports-on-scene-oct-24-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "arrest",
+   "headline": "Burrillville postal worker charged with stealing guns from mail",
+   "blurb": "Aubrey Dante, 54, is accused of taking firearms and other items from parcels at the Providence mail processing center and is held without bail, the attorney general's office said. Investigators allegedly seized eight guns and large amounts of drugs.",
+   "hood": "Burrillville",
+   "date": "2026-10-23",
+   "url": "https://riag.ri.gov/press-releases/burrillville-postal-worker-charged-stealing-firearms-drug-trafficking",
+   "outlet": "Rhode Island Attorney General"
+  },
+  {
+   "kind": "stabbing",
+   "headline": "Competency hearing continued for suspect in Providence stabbing",
+   "blurb": "A competency hearing was continued for Nelson Blanco, who is accused of stabbing a woman and her 2-year-old daughter on Oct. 7, WJAR reported. He is being held as a bail violator on separate charges.",
+   "hood": "Providence",
+   "date": "2026-10-23",
+   "url": "https://turnto10.com/i-team/bodycam-video-shows-arrest-of-man-accused-of-stabbing-providence-mother-toddler",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "courts",
+   "headline": "Central Falls woman gets probation in identity fraud case",
+   "blurb": "Marilyn Vazquez, 57, was sentenced to two years of probation and ordered to pay $54,713.98 in restitution for using a relative's identity for nearly two decades, WJAR reported, citing federal prosecutors.",
+   "hood": "Central Falls",
+   "date": "2026-10-22",
+   "url": "https://turnto10.com/news/local/rhode-island-woman-sentenced-in-decades-long-identity-fraud-scheme",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "courts",
+   "headline": "Jury convicts Central Falls man in domestic assault case",
+   "blurb": "A Providence County Superior Court jury found Javier Camacho Garcia, 51, guilty of domestic first-degree sexual assault and two related domestic counts, the attorney general's office said. Sentencing is set for Jan. 15, 2027.",
+   "hood": "Central Falls",
+   "date": "2026-10-22",
+   "url": "https://riag.ri.gov/press-releases/jury-convicts-central-falls-man-domestic-sexual-assault",
+   "outlet": "Rhode Island Attorney General"
+  },
+  {
+   "kind": "courts",
+   "headline": "Seven indicted in alleged $2 million Medicaid fraud",
+   "blurb": "Seven people tied to a now-closed Providence community health worker provider face a 51-count indictment alleging about $2 million in false Medicaid billing, WJAR reported. The defendants are presumed innocent.",
+   "hood": "Providence",
+   "date": "2026-10-22",
+   "url": "https://turnto10.com/news/local/7-people-charges-alleged-scheme-defraud-medicaid-rhode-island-unique-diversity-innovations-october-22-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "police",
+   "headline": "South Kingstown lieutenant sues police chief",
+   "blurb": "Lt. James Krajewski filed a federal lawsuit alleging malicious prosecution after the department dropped misconduct allegations against him, WJAR reported. Chief Matthew Moynihan referred questions to the town solicitor.",
+   "hood": "South Kingstown",
+   "date": "2026-10-22",
+   "url": "https://turnto10.com/i-team/south-kingstown-officer-suing-chief-department-following-dropped-allegations-police-suspended-malicious-prosecution-claims-money-rights-october-22-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "courts",
+   "headline": "Newport man pleads guilty to assault charge from 2025 flight",
+   "blurb": "James F. Brugman, 54, pleaded guilty in federal court to one count of simple assault stemming from conduct on a November 2025 Tampa-to-Providence flight, What'sUpNewp reported. Sentencing is set for Jan. 21, 2027.",
+   "hood": "Newport",
+   "date": "2026-10-22",
+   "url": "https://whatsupnewp.com/2026/10/newport-man-pleads-guilty-to-simple-assault-involving-16-year-old-on-tampa-to-providence-flight/",
+   "outlet": "What'sUpNewp"
+  },
+  {
+   "kind": "other",
+   "headline": "Rehabilitation hospital in North Smithfield evacuated",
+   "blurb": "The Rehabilitation Hospital of Rhode Island was evacuated after staff and patients felt ill, and the facility later said a boiler room malfunction overheated the building, WJAR reported. Responders found no gas leaks.",
+   "hood": "North Smithfield",
+   "date": "2026-10-22",
+   "url": "https://turnto10.com/news/local/north-smithfield-rehabilitation-hospital-evacuated-due-to-extreme-heat-nine-people-fell-ill-sickness-from-heat-mechanical-issue-high-temperatures-oct-23-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "police",
+   "headline": "State issues model policy for license plate reader cameras",
+   "blurb": "Gov. Dan McKee and State Police released guidelines requiring camera data to be deleted within 30 days unless held for an investigation, WJAR reported. A pause on new State Police cameras remains in place.",
+   "hood": "Statewide",
+   "date": "2026-10-19",
+   "url": "https://turnto10.com/news/local/rhode-islands-moratorium-on-flock-cameras-set-to-end-oct-19-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "police",
+   "headline": "Woonsocket police say man has been reunited with family",
+   "blurb": "Woonsocket police said a man they had asked the public to help identify has been reunited with his family, WJAR reported.",
+   "hood": "Woonsocket",
+   "date": "2026-10-19",
+   "url": "https://turnto10.com/news/local/woonsocket-police-seek-help-identifying-man-locating-his-family-oct-19-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "arrest",
+   "headline": "State Police detective charged with DUI in Jamestown",
+   "blurb": "Michael Bowen, 36, of East Greenwich, was charged with suspicion of DUI and refusal to submit to a chemical test after a stop on North Main Road, WJAR reported. State Police called it an open personnel matter.",
+   "hood": "Jamestown",
+   "date": "2026-10-15",
+   "url": "https://turnto10.com/news/local/rhode-island-state-trooper-charges-dui-refusal-submit-chemical-test-north-main-road-jamestown-october-15-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "courts",
+   "headline": "Seven charged in Medicaid fraud of more than $1 million",
+   "blurb": "The attorney general's office announced charges against seven people in connection with Medicaid fraud totaling more than $1 million.",
+   "hood": "Statewide",
+   "date": "2026-10-14",
+   "url": "https://riag.ri.gov/press-releases/seven-charged-crimes-related-medicaid-fraud-more-1-million",
+   "outlet": "Rhode Island Attorney General"
+  },
+  {
+   "kind": "courts",
+   "headline": "Exeter man sentenced in child solicitation case",
+   "blurb": "An Exeter man will serve more than four years in prison for child solicitation, the attorney general's office announced.",
+   "hood": "Exeter",
+   "date": "2026-10-07",
+   "url": "https://riag.ri.gov/press-releases/exeter-man-serve-more-four-years-prison-child-solicitation",
+   "outlet": "Rhode Island Attorney General"
+  },
+  {
+   "kind": "courts",
+   "headline": "Providence man convicted of murder in 2021 Pawtucket shooting",
+   "blurb": "A jury found Karel Martinez-Scarlet, 31, guilty of first-degree murder and related counts after a monthlong trial in Providence County Superior Court, WJAR reported.",
+   "hood": "Pawtucket",
+   "date": "2026-10-06",
+   "url": "https://turnto10.com/news/local/providence-man-convicted-of-murder-in-2021-pawtucket-shooting-october-6-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "homicide",
+   "headline": "Smithfield man charged in 1985 Newport killing",
+   "blurb": "William Morton, 61, was arraigned on a first-degree murder charge in the 1985 death of a 22-year-old Jamestown woman in Newport after a cold case DNA investigation, the Boston Globe reported.",
+   "hood": "Newport",
+   "date": "2026-10-06",
+   "url": "https://www.bostonglobe.com/2026/10/10/metro/william-morton-arrested-in-hillary-hellewell-cold-case-ri/",
+   "outlet": "Boston Globe"
+  }
+ ]
+}
