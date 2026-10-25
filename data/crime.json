@@ -1,6 +1,15 @@
 {
- "asof": "2026-10-24T20:00:00-04:00",
+ "asof": "2026-10-25T08:00:00-04:00",
  "items": [
+  {
+   "kind": "crash",
+   "headline": "Serious crash on Newport Avenue in East Providence",
+   "blurb": "East Providence Police Chief Michael Rapoza said a female driver was taken to Rhode Island Hospital with serious injuries after a crash Saturday night. Crash investigators were called to the scene, and the case is developing.",
+   "hood": "East Providence",
+   "date": "2026-10-24",
+   "url": "https://www.turnto10.com/news/local/crews-respond-to-serious-crash-in-east-providence-serious-injuries-under-investigation-newport-avenue-rumford-oct-24-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
   {
    "kind": "crash",
    "headline": "Crews respond to e-bike and vehicle crash in Cranston",
