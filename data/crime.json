@@ -1,6 +1,24 @@
 {
- "asof": "2026-10-25T08:00:00-04:00",
+ "asof": "2026-10-26T07:23:00-04:00",
  "items": [
+  {
+   "kind": "crash",
+   "headline": "Vehicle overturned in two-vehicle crash on Mendon Road in Cumberland",
+   "blurb": "NBC 10 reported that one car ended up on its side in a two-vehicle crash on Mendon Road on Sunday afternoon. The report did not say whether anyone was injured.",
+   "hood": "Cumberland",
+   "date": "2026-10-25",
+   "url": "https://turnto10.com/news/local/vehicle-upside-down-after-crash-in-cumberland-damage-to-multiple-vehicles-damage-to-two-vehicles-information-unclear-oct-25-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
+  {
+   "kind": "crash",
+   "headline": "Driver trapped after rollover crash in Pawtucket",
+   "blurb": "Pawtucket police and fire crews responded about 9:30 p.m. Saturday to a two-vehicle crash at Cedar and George streets, NBC 10 reported. The overturned driver was removed and taken to a local hospital, and the circumstances are under investigation.",
+   "hood": "Pawtucket",
+   "date": "2026-10-24",
+   "url": "https://turnto10.com/news/local/rollover-accident-in-pawtucket-leaves-driver-trapped-in-vehicle-car-crash-overturned-police-fire-removed-transported-local-hospital-injuries",
+   "outlet": "NBC 10 (WJAR)"
+  },
   {
    "kind": "crash",
    "headline": "Serious crash on Newport Avenue in East Providence",
