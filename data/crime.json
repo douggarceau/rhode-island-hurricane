@@ -1,6 +1,60 @@
 {
- "asof": "2026-10-26T07:23:00-04:00",
+ "asof": "2026-10-27T07:26:40-04:00",
  "items": [
+  {
+   "kind": "arrest",
+   "headline": "Man arrested on I-95 after pursuit crash and punch to Providence detective",
+   "blurb": "Providence police charged the man with disorderly conduct, resisting arrest and simple assault. Warwick police are pursuing reckless driving and eluding charges.",
+   "hood": "Providence",
+   "date": "2026-10-26",
+   "url": "https://turnto10.com/news/local/police-driver-crashes-in-providence-punches-detective-before-arrest-on-i-95-october-26-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
+  {
+   "kind": "assault",
+   "headline": "Pawtucket man accused of assaulting Miriam Hospital emergency technician",
+   "blurb": "Police said the man knocked a technician to the ground and kicked and punched him. He faces a charge of assault on healthcare personnel.",
+   "hood": "Providence",
+   "date": "2026-10-26",
+   "url": "https://turnto10.com/news/local/pawtucket-man-accused-of-assaulting-miriam-hospital-employee-police-report-providence-aggressive-emergency-room-technician-assault-october-26-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
+  {
+   "kind": "assault",
+   "headline": "Two arrested after Tiverton sports center altercation",
+   "blurb": "Police said a 32-year-old man kicked a 45-year-old man in the head after a fight at Longplex Sports Center. A 37-year-old man faces assault and disorderly conduct charges.",
+   "hood": "Tiverton",
+   "date": "2026-10-26",
+   "url": "https://turnto10.com/news/local/tiverton-police-arrest-2-after-sports-center-altercation-investigate-separate-incident-longplex-assault-basketball-game-referee-october-26-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
+  {
+   "kind": "courts",
+   "headline": "Providence man sentenced in multistate gift card fraud scheme",
+   "blurb": "A federal sentence was handed down in a scheme that used thousands of stolen gift cards, the U.S. Attorney's Office said.",
+   "hood": "Providence",
+   "date": "2026-10-26",
+   "url": "https://turnto10.com/news/local/providence-man-sentenced-for-multi-state-gift-card-fraud-scheme-stolen-gift-cards-from-schools-charities-churches-rhode-island-massachusetts-oct-26-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
+  {
+   "kind": "crash",
+   "headline": "Swansea man charged with drunk driving after truck hits house",
+   "blurb": "Police said a pickup truck struck a home over the weekend. No one was inside, and the driver faces OUI charges.",
+   "hood": "Swansea",
+   "date": "2026-10-26",
+   "url": "https://turnto10.com/news/local/swansea-man-faces-oui-charges-after-crashing-truck-into-a-home-oct-26-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
+  {
+   "kind": "burglary",
+   "headline": "Bristol man arrested after apartment break-in",
+   "blurb": "Bristol police arrested a man accused of breaking into an apartment on Saturday night.",
+   "hood": "Bristol",
+   "date": "2026-10-26",
+   "url": "https://turnto10.com/news/local/man-accused-of-breaking-into-apartment-in-bristol-assault-drugs-bail-police-court-arrest-charges-providence-october-26-2026",
+   "outlet": "NBC 10 (WJAR)"
+  },
   {
    "kind": "crash",
    "headline": "Vehicle overturned in two-vehicle crash on Mendon Road in Cumberland",

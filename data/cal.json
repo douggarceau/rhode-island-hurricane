@@ -1,5 +1,5 @@
 {
- "asof": "2026-10-26T07:23:00-04:00",
+ "asof": "2026-10-27T07:26:40-04:00",
  "events": [
   {
    "date": "2026-10-28",
@@ -299,6 +299,19 @@
    "url": "https://gorhody.com/news/2026/8/20/mens-basketball-non-conference-schedule-released.aspx",
    "src": "GoRhody.com",
    "blurb": "Rhody hosts Holy Cross at the Ryan Center; game time to be announced."
+  },
+  {
+   "date": "2026-11-03",
+   "time": "",
+   "artists": "Statewide election and five bond questions",
+   "venue": "Polling places statewide",
+   "hood": "Statewide",
+   "genre": "civic",
+   "price": "",
+   "ages": "",
+   "url": "https://turnto10.com/news/local/rhode-island-voters-to-decide-on-275-million-bond-for-higher-education-improvements-uri-ccri-ric-health-career-training-spaces-october-26-2026",
+   "src": "NBC 10 (WJAR)",
+   "blurb": "Rhode Island voters decide five statewide bond questions, including the $275 million higher-education bond."
   },
   {
    "date": "2026-11-04",
@@ -1157,6 +1170,19 @@
    "url": "https://www.discovernewport.org/blog/post/holidays-in-bristol/",
    "src": "Discover Newport",
    "blurb": "A holiday wine tasting and talk at the Bristol estate."
+  },
+  {
+   "date": "2026-11-19",
+   "time": "",
+   "artists": "Merrily We Roll Along",
+   "venue": "Jamestown Recreation Center",
+   "hood": "Jamestown",
+   "genre": "theater",
+   "price": "$20; $15 for seniors and students",
+   "ages": "",
+   "url": "https://whatsupnewp.com/2026/10/jamestown-community-theatre-stages-sondheims-merrily-we-roll-along-next-month/",
+   "src": "WhatsUpNewp",
+   "blurb": "Jamestown Community Theatre stages Sondheim's musical in five shows from Nov. 19 to 22."
   },
   {
    "date": "2026-11-21",
