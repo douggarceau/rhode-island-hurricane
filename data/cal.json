@@ -273,6 +273,21 @@
   },
   {
    "date": "2026-10-30",
+   "time": "8 PM",
+   "artists": "Vick Vapors, Holy Water, Craow, your iolaus and Vudu Sister",
+   "venue": "Fête Music Hall",
+   "hood": "Providence",
+   "genre": "rock",
+   "price": "",
+   "ages": "21+",
+   "url": "https://www.fetemusic.com/all-shows",
+   "src": "fetemusic.com",
+   "hours": "8 PM",
+   "address": "Fête Music Hall, Providence",
+   "blurb": "Doors 7 PM; $15 advance, $20 day of show."
+  },
+  {
+   "date": "2026-10-30",
    "time": "8:15 PM",
    "artists": "The King Vintage Band",
    "venue": "Narragansett Café",
@@ -315,6 +330,21 @@
    "hours": "9 PM",
    "address": "Lighthouse Bar, Bally’s Lincoln, Lincoln",
    "blurb": "At Lighthouse Bar, Bally’s Lincoln. Check the organizer for details."
+  },
+  {
+   "date": "2026-10-30",
+   "time": "9 PM doors",
+   "artists": "Beautiful Nightmare",
+   "venue": "The Strand",
+   "hood": "Providence",
+   "genre": "live",
+   "price": "",
+   "ages": "21+",
+   "url": "https://thestrandri.com/",
+   "src": "thestrandri.com",
+   "hours": "9 PM doors",
+   "address": "The Strand, Providence",
+   "blurb": "Halloween DJ night with DJ Rukiz, Keef The DJ, Supastar P and DJ Sleepy."
   },
   {
    "date": "2026-10-30",
@@ -423,6 +453,21 @@
   },
   {
    "date": "2026-10-31",
+   "time": "8 PM",
+   "artists": "Blackbeard’s Halloween Party",
+   "venue": "The Met",
+   "hood": "Pawtucket",
+   "genre": "rock",
+   "price": "",
+   "ages": "",
+   "url": "https://themetri.com/",
+   "src": "themetri.com",
+   "hours": "8 PM",
+   "address": "The Met, Pawtucket",
+   "blurb": "Doors 7:30 PM."
+  },
+  {
+   "date": "2026-10-31",
    "time": "8:30 PM",
    "artists": "The Smokin’ Toads Halloween party",
    "venue": "Narragansett Café",
@@ -450,6 +495,21 @@
    "hours": "9 PM",
    "address": "Lighthouse Bar, Bally’s Lincoln, Lincoln",
    "blurb": "At Lighthouse Bar, Bally’s Lincoln. Check the organizer for details."
+  },
+  {
+   "date": "2026-10-31",
+   "time": "9 PM doors",
+   "artists": "Halloween Fest 2026",
+   "venue": "The Strand",
+   "hood": "Providence",
+   "genre": "live",
+   "price": "",
+   "ages": "18+",
+   "url": "https://thestrandri.com/",
+   "src": "thestrandri.com",
+   "hours": "9 PM doors",
+   "address": "The Strand, Providence",
+   "blurb": "Halloween night party at The Strand; doors 9 PM."
   },
   {
    "date": "2026-10-31",
@@ -1050,6 +1110,21 @@
    "hours": "4–5 PM",
    "address": "AS220 Black Box, Providence",
    "blurb": "Listed as family and kid friendly."
+  },
+  {
+   "date": "2026-11-01",
+   "time": "6–10 PM",
+   "artists": "Jack-O-Lantern Spectacular: Last Call",
+   "venue": "Roger Williams Park Zoo",
+   "hood": "Providence",
+   "genre": "live",
+   "price": "",
+   "ages": "21+",
+   "url": "https://www.rwpzoo.org/events/",
+   "src": "rwpzoo.org",
+   "hours": "6–10 PM",
+   "address": "Roger Williams Park Zoo, Providence",
+   "blurb": "Closing night of the pumpkin trail, for adults 21 and over; timed tickets online."
   },
   {
    "date": "2026-11-02",
