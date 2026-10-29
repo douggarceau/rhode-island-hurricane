@@ -1,65 +1,85 @@
 {
- "asof": "2026-10-29T07:30:00-04:00",
- "items": [
-  {
-   "kind": "arrest",
-   "headline": "Crime Watch item 1 headline goes here",
-   "blurb": "Crime Watch item 1 summary goes here.",
-   "hood": "Rhode Island",
-   "spd": [],
-   "date": "2026-10-28",
-   "url": "https://rhodeislandhurricane.com/",
-   "outlet": "Source goes here"
-  },
-  {
-   "kind": "courts",
-   "headline": "Crime Watch item 2 headline goes here",
-   "blurb": "Crime Watch item 2 summary goes here.",
-   "hood": "Rhode Island",
-   "spd": [],
-   "date": "2026-10-27",
-   "url": "https://rhodeislandhurricane.com/",
-   "outlet": "Source goes here"
-  },
-  {
-   "kind": "fire",
-   "headline": "Crime Watch item 3 headline goes here",
-   "blurb": "Crime Watch item 3 summary goes here.",
-   "hood": "Rhode Island",
-   "spd": [],
-   "date": "2026-10-26",
-   "url": "https://rhodeislandhurricane.com/",
-   "outlet": "Source goes here"
-  },
-  {
-   "kind": "crash",
-   "headline": "Crime Watch item 4 headline goes here",
-   "blurb": "Crime Watch item 4 summary goes here.",
-   "hood": "Rhode Island",
-   "spd": [],
-   "date": "2026-10-25",
-   "url": "https://rhodeislandhurricane.com/",
-   "outlet": "Source goes here"
-  },
-  {
-   "kind": "arrest",
-   "headline": "Crime Watch item 5 headline goes here",
-   "blurb": "Crime Watch item 5 summary goes here.",
-   "hood": "Rhode Island",
-   "spd": [],
-   "date": "2026-10-24",
-   "url": "https://rhodeislandhurricane.com/",
-   "outlet": "Source goes here"
-  },
-  {
-   "kind": "courts",
-   "headline": "Crime Watch item 6 headline goes here",
-   "blurb": "Crime Watch item 6 summary goes here.",
-   "hood": "Rhode Island",
-   "spd": [],
-   "date": "2026-10-23",
-   "url": "https://rhodeislandhurricane.com/",
-   "outlet": "Source goes here"
-  }
- ]
+  "asof": "2026-10-29T08:00:00-04:00",
+  "items": [
+    {
+      "kind": "courts",
+      "headline": "Man held after Knight Street stabbing leaves victim critical",
+      "blurb": "A 31-year-old man was arrested in the Central Station parking lot after a man was stabbed four times in the back at 299 Knight Street on the night of Oct. 26. He faces felony assault and a prohibited-weapon charge; a judge set $20,000 surety bail and held him on a separate probation violation. The victim was listed in critical but stable condition.",
+      "hood": "Providence",
+      "spd": [],
+      "date": "2026-10-27",
+      "url": "https://turnto10.com/news/local/man-critically-injured-during-stabbing-on-knight-street-in-providence-oct-27-2026",
+      "outlet": "NBC 10 WJAR"
+    },
+    {
+      "kind": "courts",
+      "headline": "Warwick traffic stop turns into chase onto I-95; detective punched",
+      "blurb": "Police say a Providence man sped off from a reckless-driving stop near Jefferson Boulevard in Warwick Oct. 26, crashed into an embankment, punched a Providence police detective and ran onto I-95 before he was caught. He faces 11 new charges and remains held as an alleged bail violator.",
+      "hood": "Warwick / Providence",
+      "spd": [],
+      "date": "2026-10-27",
+      "url": "https://turnto10.com/newsletter-daily/suspect-interstate-95-pursuit-previously-charged-child-endangerment-providence-warwick-police-court-arraignment-october-27-2026",
+      "outlet": "NBC 10 WJAR"
+    },
+    {
+      "kind": "arrest",
+      "headline": "Task force arrests Providence man on federal fentanyl warrant",
+      "blurb": "The Rhode Island Violent Fugitive Task Force took a 51-year-old Providence man into custody without incident around 5:30 a.m. Oct. 27 on a federal warrant charging conspiracy to distribute fentanyl. He was brought to federal court in Providence.",
+      "hood": "Providence",
+      "spd": [],
+      "date": "2026-10-28",
+      "url": "https://www.newportdispatch.com/2026/10/28/man-arrested-on-federal-drug-charge-in-providence/",
+      "outlet": "Newport Dispatch"
+    },
+    {
+      "kind": "courts",
+      "headline": "New Jersey man charged with taking more than $10,000 from an elderly person",
+      "blurb": "A 39-year-old Lodi, N.J., man surrendered at State Police headquarters Oct. 19 and was charged with obtaining more than $10,000 from a person over 65 under false pretenses and elderly exploitation. He was ordered to give up his passport and held on $50,000 surety bail.",
+      "hood": "Statewide",
+      "spd": [],
+      "date": "2026-10-26",
+      "url": "https://patch.com/rhode-island/across-ri/nj-man-charged-rhode-island-stealing-more-10k-elderly-victim-cops",
+      "outlet": "Patch"
+    },
+    {
+      "kind": "arrest",
+      "headline": "Fugitive wanted in Mississippi arrested in Providence",
+      "blurb": "The Violent Fugitive Task Force arrested a 40-year-old man in Providence early Oct. 22. He is wanted in Mississippi on four counts of photographing or filming a person in violation of their expectation of privacy, plus a habitual-offender count, and is held pending extradition.",
+      "hood": "Providence",
+      "spd": [],
+      "date": "2026-10-23",
+      "url": "https://www.ri.gov/press/view/51592",
+      "outlet": "Rhode Island State Police"
+    },
+    {
+      "kind": "arrest",
+      "headline": "Weekend DUI arrests on Route 6, I-95 and in Woonsocket",
+      "blurb": "Troopers charged a 55-year-old East Greenwich man with DUI and refusal after a crash on Route 6 West in Providence Oct. 24, and a 30-year-old Warwick man after a stop on I-95 South early Oct. 25. In Woonsocket, a 45-year-old driver stopped Oct. 23 blew a 0.13 and was also charged with amphetamine possession and driving on a suspended license.",
+      "hood": "Providence / Warwick / Woonsocket",
+      "spd": [],
+      "date": "2026-10-25",
+      "url": "https://www.ri.gov/press/view/51601",
+      "outlet": "Rhode Island State Police"
+    },
+    {
+      "kind": "courts",
+      "headline": "State Police detective charged with DUI in Jamestown",
+      "blurb": "Jamestown police stopped an SUV driving on two flat tires on North Main Road late Oct. 15 and charged its driver, a State Police detective from East Greenwich, with suspicion of DUI and refusing a chemical test. State Police called it an open personnel matter.",
+      "hood": "Jamestown",
+      "spd": [],
+      "date": "2026-10-15",
+      "url": "https://turnto10.com/news/local/rhode-island-state-trooper-charges-dui-refusal-submit-chemical-test-north-main-road-jamestown-october-15-2026",
+      "outlet": "NBC 10 WJAR"
+    },
+    {
+      "kind": "arrest",
+      "headline": "Three arrested in State Police gang investigation in Providence and Cranston",
+      "blurb": "Troopers served search warrants Oct. 8 in an investigation into a street gang police say is tied to guns and drug trafficking in Providence and Cranston. Three people, ages 18 to 24, were charged; police seized two illegal guns, extended magazines, 50 grams of cocaine, 40 grams of fentanyl and $5,000.",
+      "hood": "Providence / Cranston",
+      "spd": [],
+      "date": "2026-10-09",
+      "url": "https://turnto10.com/news/local/state-police-arrest-3-on-drug-gun-charges-after-investigation-into-criminal-street-gang-rhode-island-cranston-providence-warrants-october-9-2026",
+      "outlet": "NBC 10 WJAR"
+    }
+  ]
 }
