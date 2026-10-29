@@ -2721,9 +2721,9 @@ function row(x){
  const ph=x.p?'<a href="tel:'+E(x.p.replace(/[^0-9+]/g,''))+'">'+E(x.p)+'</a>':'';
  const src=(x.s||[]).map(s=>'<a href="'+E(U(s[1]))+'" target="_blank" rel="noopener noreferrer">'+E(s[0])+'</a>').join(' · ');
  const notes=(x.nt||[]).filter(n=>!/TEMPORARILY CLOSED/i.test(n)).map(n=>'<small class="note">'+E(n)+'</small>').join('');
- return '<div class="drow'+(open===x.i?' open':'')+'" role="listitem" data-i="'+E(x.i)+'"><button class="dn" type="button" aria-expanded="'+(open===x.i)+'"><span class="nm">'+E(x.n)+'</span><span class="ty">'+E(x.c)+'</span></button>'+
+ return '<div class="drow'+(open===x.i?' open':'')+'" role="listitem" data-i="'+E(x.i)+'"><button class="dn" type="button" aria-expanded="'+(open===x.i)+'"><span class="nm">'+E(x.n)+'</span><span class="ty">'+E(/goes here/.test(x.a)?x.c:x.a)+'</span></button>'+
  '<div class="dd"'+(open===x.i?'':' hidden')+'>'+(x.cl?'<div class="clo">Temporarily closed — confirm before visiting</div>':'')+
- '<div class="ad">'+E(x.a)+', Rhode Island RI</div><div class="ct">'+[ph,em,web].filter(Boolean).join('')+'</div>'+
+ '<div class="ad">'+E(x.a)+', RI</div><div class="ct">'+[ph,em,web].filter(Boolean).join('')+'</div>'+
  '<button class="dmb" type="button" aria-expanded="false">More</button><div class="dm" hidden><p>'+E(x.b)+'</p>'+notes+(src?'<small>Sources: '+src+'</small>':'')+'</div></div></div>';
 }
 function draw(){
@@ -2735,7 +2735,15 @@ function draw(){
 fetch('data/directory.json?'+Math.floor(Date.now()/6e5),{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{
  if(!d||!d.items)throw 0;D=d;
  sel.innerHTML='<option value="all">All businesses ('+d.items.length+')</option>'+d.cats.map(c=>'<option value="'+E(c)+'">'+E(c)+' ('+d.items.filter(x=>x.c===c).length+')</option>').join('');
- draw();
+ sel.value=d.cats.find(c=>d.items.some(x=>x.c===c))||'all';draw();
+ const rc=d.cats.filter(c=>d.items.some(x=>x.c===c));let idle=0,hov=false;
+ const busy=()=>hov||q.value.trim()||open||col.contains(document.activeElement);
+ ['pointerenter','touchstart'].forEach(ev=>col.addEventListener(ev,()=>{hov=true},{passive:true}));
+ col.addEventListener('pointerleave',()=>{hov=false;idle=0});
+ ['input','change','click','scroll'].forEach(ev=>col.addEventListener(ev,()=>{idle=0},true));
+ if(rc.length>1)setInterval(()=>{if(document.hidden)return;if(busy()){idle=0;return}if((idle+=5)<45)return;idle=0;if(!rc.includes(sel.value)&&sel.value!=='all')return;
+  const nx=rc[(rc.indexOf(sel.value)+1)%rc.length];list.style.transition='opacity .4s';list.style.opacity='0';
+  setTimeout(()=>{sel.value=nx;draw();list.scrollTop=0;list.style.opacity='1'},420)},5000);
 }).catch(()=>{list.innerHTML='<div class="none">Directory unavailable. Please try again later.</div>'});
 q.addEventListener('input',draw);sel.addEventListener('change',draw);
 list.addEventListener('click',e=>{
