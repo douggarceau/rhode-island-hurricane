@@ -1,0 +1,65 @@
+{
+ "asof": "2026-10-29T07:30:00-04:00",
+ "items": [
+  {
+   "kind": "arrest",
+   "headline": "Crime Watch item 1 headline goes here",
+   "blurb": "Crime Watch item 1 summary goes here.",
+   "hood": "Rhode Island",
+   "spd": [],
+   "date": "2026-10-28",
+   "url": "https://rhodeislandhurricane.com/",
+   "outlet": "Source goes here"
+  },
+  {
+   "kind": "courts",
+   "headline": "Crime Watch item 2 headline goes here",
+   "blurb": "Crime Watch item 2 summary goes here.",
+   "hood": "Rhode Island",
+   "spd": [],
+   "date": "2026-10-27",
+   "url": "https://rhodeislandhurricane.com/",
+   "outlet": "Source goes here"
+  },
+  {
+   "kind": "fire",
+   "headline": "Crime Watch item 3 headline goes here",
+   "blurb": "Crime Watch item 3 summary goes here.",
+   "hood": "Rhode Island",
+   "spd": [],
+   "date": "2026-10-26",
+   "url": "https://rhodeislandhurricane.com/",
+   "outlet": "Source goes here"
+  },
+  {
+   "kind": "crash",
+   "headline": "Crime Watch item 4 headline goes here",
+   "blurb": "Crime Watch item 4 summary goes here.",
+   "hood": "Rhode Island",
+   "spd": [],
+   "date": "2026-10-25",
+   "url": "https://rhodeislandhurricane.com/",
+   "outlet": "Source goes here"
+  },
+  {
+   "kind": "arrest",
+   "headline": "Crime Watch item 5 headline goes here",
+   "blurb": "Crime Watch item 5 summary goes here.",
+   "hood": "Rhode Island",
+   "spd": [],
+   "date": "2026-10-24",
+   "url": "https://rhodeislandhurricane.com/",
+   "outlet": "Source goes here"
+  },
+  {
+   "kind": "courts",
+   "headline": "Crime Watch item 6 headline goes here",
+   "blurb": "Crime Watch item 6 summary goes here.",
+   "hood": "Rhode Island",
+   "spd": [],
+   "date": "2026-10-23",
+   "url": "https://rhodeislandhurricane.com/",
+   "outlet": "Source goes here"
+  }
+ ]
+}
