@@ -5,9 +5,9 @@
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="Rhode Island Hurricane: Rhode Island news, people, food, the calendar and Crime Watch for Rhode Island.">
+<meta name="description" content="Rhode Island Hurricane: the most complete listings in Rhode Island. Live music, 400+ events, top headlines, tides, 100 most-loved restaurants, the visitor guide and Crime Watch for all 39 cities and towns.">
 <meta property="og:title" content="Rhode Island Hurricane">
-<meta property="og:description" content="Island news, people, food and the calendar for Rhode Island.">
+<meta property="og:description" content="The most complete listings in Rhode Island: live music, 400+ events, top headlines, tides, restaurants and the visitor guide, updated every morning.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://rhodeislandhurricane.com/">
 <meta property="og:site_name" content="Rhode Island Hurricane">
@@ -22,10 +22,10 @@
 <meta name="twitter:description" content="Island news, people, food and the calendar for Rhode Island.">
 <meta name="twitter:image" content="https://rhodeislandhurricane.com/img/og-share.jpg">
 <link rel="canonical" href="https://rhodeislandhurricane.com/">
-<link rel="icon" type="image/png" href="https://seattlesinner.com/app/favicon.png">
+<link rel="icon" type="image/png" href="/app/favicon.png">
 <link rel="manifest" href="manifest.webmanifest">
 <meta name="theme-color" content="#0b0d10">
-<link rel="apple-touch-icon" href="https://seattlesinner.com/app/apple-touch-icon.png">
+<link rel="apple-touch-icon" href="/app/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Rhode Island Hurricane">
@@ -335,7 +335,7 @@ html body .cop::after{content:""!important;display:block!important;position:abso
  66%,73%{background:linear-gradient(180deg,rgba(255,255,255,.75),rgba(255,255,255,.15) 55%),linear-gradient(90deg,#3a0606 0 46%,#1b1f24 46% 54%,#4d8dff 54% 100%);box-shadow:inset 0 -2px 0 rgba(0,0,0,.5),14px -4px 22px 4px rgba(40,100,255,.75)}
  74%,100%{background:linear-gradient(180deg,rgba(255,255,255,.35),rgba(255,255,255,0) 45%),linear-gradient(90deg,#3a0606 0 46%,#1b1f24 46% 54%,#06123a 54% 100%);box-shadow:inset 0 -2px 0 rgba(0,0,0,.6)}}
 @media (prefers-reduced-motion:reduce){html body .cop::after{animation:none!important;background:linear-gradient(90deg,#ff5040 0 46%,#1b1f24 46% 54%,#4d8dff 54% 100%)!important}}
-</style></head>
+</style><style id="noPmCss">.pmlink,.pmnb,.lspot.t-pm,.lspot.t-pm2,.lspot.t-pmx{display:none!important}</style></head>
 <body>
 <title>Rhode Island Hurricane</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -1947,7 +1947,7 @@ document.addEventListener('click',async e=>{
     try{await DB.doc('stories/'+CM.slug+'/comments/'+id).delete();for(const k of CM.list.filter(x=>x.parent===id)){await DB.doc('stories/'+CM.slug+'/comments/'+k.id).delete()}}catch(x){}return}
 },true);
 
-function render(){
+function render(){if(typeof STATE!=='undefined'&&['tech','bands','venues','scene','bars','inbox'].includes(STATE.view)&&!(STATE.view==='inbox'&&window.OWNER))STATE.view='front';
   const v=STATE.view;
   {const cs=document.getElementById('coverSlot');if(cs)cs.innerHTML=v==='front'?vCover(CUR):''}
   {const sb=document.getElementById('seaBanner');if(sb){const CV=new Set(((typeof CUR!=='undefined'&&CUR&&CUR.lines)||[]).map(l=>l[0]));const L=STORIES.find(x=>!CV.has(x.slug)&&!(typeof FEATURES!=='undefined'&&FEATURES.has(x.slug)));sb.innerHTML=false&&L?`<button type="button" class="spr sea-spr${L.breaking?' brk':''}" data-story="${L.slug}"><span class="spr-tag">${L.breaking?'BREAKING NEWS · RHODE ISLAND':'RHODE ISLAND · TOP STORY'}</span><span><b>${esc(L.title)}</b><small>${esc(L.dek)}</small></span><span class="spr-go">Read it →</span></button>`:''}}
@@ -2023,7 +2023,7 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
   const MAP={click:"tap",pad:"tap",pad2:"tap",activate:"tap",drop:"open",tab:"nav",select:"toggle",boot:"toggle",answer:"ok",send:"ok",copy:"ok",malfunction:"err"};
   function play(k){if(!on)return;const n=MAP[k];if(!n||!init())return;if(ctx.state==="suspended")ctx.resume();const now=Date.now();if(now-last<45)return;last=now;try{S[n]()}catch(e){}}
   const BUF={},LOAD={},LOOPS={drone:1};
-  function get(k){if(BUF[k])return Promise.resolve(BUF[k]);return LOAD[k]||(LOAD[k]=fetch("https://seattlesinner.com/snd/"+k+".mp3").then(r=>{if(!r.ok)throw 0;return r.arrayBuffer()}).then(a=>new Promise((res,rej)=>ctx.decodeAudioData(a,res,rej))).then(b=>BUF[k]=b).catch(()=>{delete LOAD[k];return null}))}
+  function get(k){if(BUF[k])return Promise.resolve(BUF[k]);return LOAD[k]||(LOAD[k]=fetch("snd/"+k+".mp3").then(r=>{if(!r.ok)throw 0;return r.arrayBuffer()}).then(a=>new Promise((res,rej)=>ctx.decodeAudioData(a,res,rej))).then(b=>BUF[k]=b).catch(()=>{delete LOAD[k];return null}))}
   function loop(k,vol,fade){if(!on||!LOOPS[k]||!init())return ()=>{};if(ctx.state==="suspended")ctx.resume();let src=null,g=null,stopped=false;
     get(k).then(b=>{if(!b||stopped)return;src=ctx.createBufferSource();g=ctx.createGain();src.buffer=b;src.loop=true;const t=ctx.currentTime;g.gain.setValueAtTime(0,t);g.gain.linearRampToValueAtTime(vol==null?.5:vol,t+(fade||2.5));src.connect(g);g.connect(out);src.start()});
     return f=>{stopped=true;if(!src)return;const t=ctx.currentTime,d=f||1.5;g.gain.cancelScheduledValues(t);g.gain.setValueAtTime(g.gain.value,t);g.gain.linearRampToValueAtTime(0,t+d);src.stop(t+d+.05)}}
@@ -2217,7 +2217,7 @@ function showPromo(id,pool,off,flip){const A=adPool();const on=document.querySel
  if(A.length&&on<Math.min(2,A.length)&&Math.random()<(on?0.15:0.3))return showPromo0(id,adShuf(A),0,flip);return showPromo0(id,pool,off,flip)}
 function adShuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 const ADS_ON=true; /* Advertise Here boxes: set true to turn back on */
-const AD_SEED=[];
+const AD_SEED=[{tag:'Advertisement',img:'img/ad-eric-maluk.jpg',name:'Eric Maluk · Rate',sub:'Mortgages · (401) 254-4403',go:'Call Eric',theme:'adimg',k:'#c9a227',href:'tel:+14012544403',ext:0},{tag:'Advertisement',img:'img/ad-island-animal.jpg',name:'Island Animal',sub:'35 Narragansett Ave, Jamestown · (401) 560-0616',go:'Call the shop',theme:'adimg',k:'#c9a227',href:'tel:+14015600616',ext:0}];
 window.__adPool=()=>adPool();function adPool(){if(!ADS_ON)return AD_SEED;if(adPool.L)return adPool.L;const P='$30 / 30 days · no money up front · no design needed';return adPool.L=AD_SEED.concat([['#19b3a6','Real estate<em>brokers &amp; agents</em>','Waterfront listings in front of Rhode Island buyers.'],
 ['#e8b818','Wealth<em>&amp; advisors</em>','Financial planners, private banks and wealth managers.'],
 ['#9b7be0','Attorneys<em>&amp; estates</em>','Estate planning, real estate and family law.'],
@@ -2322,7 +2322,7 @@ document.addEventListener('click',e=>{const a=e.target.closest&&e.target.closest
 </script>
 <div class="appsheet" id="appSheet" hidden role="dialog" aria-modal="true" aria-label="Rhode Island Hurricane app">
   <div class="apbox">
-    <img src="https://seattlesinner.com/app/icon-192.png" alt="">
+    <img src="/app/icon-192.png" alt="">
     <div class="ttl">Rhode Island Hurricane</div>
     <div class="sub">No App Store needed</div>
     <div id="appSteps"></div>
@@ -2444,7 +2444,7 @@ q.addEventListener("keydown",e=>{const L=[...p.querySelectorAll("a")];if(!L.leng
 document.addEventListener("click",e=>{if(!p.contains(e.target)&&e.target!==q)p.hidden=true});addEventListener("scroll",()=>{if(!p.hidden)place()},{passive:true});addEventListener("resize",()=>{p.hidden=true})};
 document.readyState==="loading"?document.addEventListener("DOMContentLoaded",()=>setTimeout(go,0)):setTimeout(go,0)})();</script>
 <style>
-.lspot a.eadv{position:absolute;inset:0;z-index:5;display:block;width:auto;height:auto;padding:0;gap:0;background:#08090b url(img/eric-maluk-ad2.jpg) center/cover no-repeat;border-radius:inherit;opacity:0;pointer-events:none;transition:opacity .6s ease}
+.lspot a.eadv{position:absolute;inset:0;z-index:5;display:block;width:auto;height:auto;padding:0;gap:0;background:#08090b url(img/ad-eric-maluk.jpg) center/cover no-repeat;border-radius:inherit;opacity:0;pointer-events:none;transition:opacity .6s ease}
 .lspot a.eadv.on{opacity:1;pointer-events:auto}
 @media (prefers-reduced-motion:reduce){.lspot a.eadv{transition:none}}
 </style>
@@ -2725,6 +2725,28 @@ fetch('data/headlines.json?'+Math.floor(Date.now()/6e5),{cache:'no-cache'}).then
  let j=0;const rf=()=>{try{const vis=new Set([...document.querySelectorAll('.lsrow .lspot:not([hidden]) .ls-big')].map(x=>x.textContent));document.querySelectorAll('.lsrow .lspot[hidden] > a[id]').forEach(el=>{if(!window.__fill0||!P.length)return;let it=null;for(let n=0;n<P.length;n++){const c=P[(j+n)%P.length];if(!vis.has(c.bigText)){it=c;j=j+n+1;break}}if(!it)it=P[(j++)%P.length];vis.add(it.bigText);el.parentNode.hidden=false;window.__fill0(el,it)})}catch(_){}};rf();setInterval(rf,2500);
  let k=0;const dd=()=>{try{const seen=new Set();document.querySelectorAll('.lsrow .lspot > a').forEach(el=>{const bx=el.parentNode;if(/\bt-ad/.test(bx.className))return;const t=(el.querySelector('.ls-big')||{}).textContent||el.textContent||'';if(seen.has(t)){if(P.length&&window.__fill0)window.__fill0(el,P[(k++)%P.length])}else seen.add(t)})}catch(_){}};dd();setTimeout(dd,3000);setTimeout(dd,8000);setInterval(dd,20000);
  if(typeof STATE!=='undefined'&&STATE.view==='front'&&typeof render==='function')render()}catch(_){}put();const V=document.getElementById('view');if(V)new MutationObserver(put).observe(V,{childList:true})}).catch(()=>{});})();</script>
+<script>
+/* Eric Maluk ad: takes over one margin news box now and then; runs 30 days from 2026-10-20 */
+(function(){
+const START=Date.parse('2026-10-20T00:00:00-04:00'),END=START+30*864e5;
+if(Date.now()>=END)return;
+let ad;const mk=()=>{const a=document.getElementById('lsB'),box=a&&a.parentNode;if(!box)return null;
+ ad=document.createElement('a');ad.className='eadv';ad.href='tel:+14012544403';ad.setAttribute('role','img');ad.setAttribute('aria-label','Advertisement: Eric Maluk, Rate. Call (401) 254-4403');
+ box.appendChild(ad);return ad};
+const cycle=()=>{if(Date.now()>=END){if(ad)ad.classList.remove('on');return}
+ if(!ad&&!mk()){setTimeout(cycle,3000);return}
+ ad.classList.add('on');setTimeout(()=>ad.classList.remove('on'),11000);
+ setTimeout(cycle,11000+70000+Math.random()*30000)};
+setTimeout(cycle,8000);
+})();
+</script>
+<style id="featCss">#featBox .ftg{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;padding:14px 16px}#featBox .ft{display:flex;gap:12px;align-items:flex-start;padding:14px;border:1px solid #ffffff1a;border-radius:10px;background:linear-gradient(160deg,#ffffff0a,#ffffff03);text-decoration:none;color:inherit}#featBox .ft:hover{border-color:#ff7a1a88}#featBox .ft img{width:72px;height:72px;object-fit:cover;border-radius:8px;flex:none}#featBox .ft small{display:block;font:700 10px/1.2 var(--mono,monospace);letter-spacing:.14em;text-transform:uppercase;color:#ff9a3c}#featBox .ft b{display:block;font:700 17px/1.25 var(--hd,Georgia,serif);color:#fff;margin:5px 0 4px}#featBox .ft span{display:block;font:400 14px/1.45 var(--tx,Georgia,serif);color:#c9ccd3}@media (max-width:640px){#featBox .ftg{grid-template-columns:1fr}}#featBox .ft i{display:block;margin-top:8px;font:700 11px/1 var(--mono,monospace);letter-spacing:.12em;text-transform:uppercase;color:#ff9a3c;font-style:normal}</style>
+<script id="featJs">(()=>{let F=null;const E=t=>String(t==null?'':t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const SLOTS=[['business','Featured Rhode Island Business','Own a Rhode Island business? Tell us your story and you could be our next featured business.'],['musician','Featured Rhode Island Musician','Play in a Rhode Island band? Send us your music and you could be our next featured musician.'],['restaurant','Featured Restaurant','Run a Rhode Island kitchen? Tell us what makes it special.'],['artist','Featured Artist','Painters, makers and performers: show Rhode Island what you do.']];
+const tile=(k,t,inv)=>{const x=(F&&F.items||[]).find(i=>i.kind===k);if(x)return `<a class="ft" href="${E(/^https?:|^tel:|^mailto:/.test(x.url||'')?x.url:'#')}"${/^https?:/.test(x.url||'')?' target="_blank" rel="noopener"':''}>${x.img?`<img src="${E(x.img)}" alt="">`:''}<div><small>${E(t)}</small><b>${E(x.name)}</b><span>${E(x.blurb)}</span><i>${E(x.go||'Learn more')} →</i></div></a>`;return `<a class="ft" href="#coverage"><div><small>${E(t)}</small><b>Could be you</b><span>${E(inv)}</span><i>Tell us →</i></div></a>`};
+const box=()=>`<section class="box" id="featBox" style="--c:#ff7a1a"><div class="bh"><b>Featured Rhode Islanders</b><span>businesses, musicians and makers</span></div><div class="ftg">${SLOTS.map(s=>tile(...s)).join('')}</div></section>`;
+const put=()=>{const V=document.getElementById('view');if(!V||typeof STATE==='undefined'||STATE.view!=='front'||document.getElementById('featBox'))return;const h=document.getElementById('hlBox');h?h.insertAdjacentHTML('afterend',box()):null};
+fetch('data/featured.json?'+Math.floor(Date.now()/6e5),{cache:'no-cache'}).then(r=>r.ok?r.json():null).then(d=>{F=d||{items:[]};put();const V=document.getElementById('view');if(V)new MutationObserver(put).observe(V,{childList:true})}).catch(()=>{F={items:[]}});setInterval(put,1500)})();</script>
 <aside id="dirCol" aria-label="Rhode Island business directory"><div class="bulbs"></div><header><button class="dx" type="button" aria-label="Close directory">×</button><h2>Rhode Island Business Directory</h2><p>Local businesses and services</p><input id="dirQ" type="search" placeholder="Search businesses" aria-label="Search businesses" autocomplete="off"><select id="dirCat" aria-label="Filter by type"></select></header><div id="dirList" role="list"><div class="none">Loading…</div></div><div class="bf">Details gathered from public sources, Oct. 2026. Confirm hours before you go.</div><div class="bulbs"></div></aside>
 <script id="dirJs">(()=>{
 const col=document.getElementById('dirCol'),list=document.getElementById('dirList'),q=document.getElementById('dirQ'),sel=document.getElementById('dirCat');
