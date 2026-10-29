@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://rhodeislandhurricane.com/sitemap.xml
