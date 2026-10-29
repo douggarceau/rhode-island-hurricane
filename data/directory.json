@@ -2,8 +2,8 @@
  "asof": "2026-10-29",
  "cats": [
   "Entertainment venues",
+  "Restaurants",
   "Local favorites",
-  "Food and drink",
   "Shops and gifts",
   "Farms and flowers",
   "Pets",
@@ -1292,6 +1292,1357 @@
    "i": "098"
   },
   {
+   "n": "Al Forno",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://boston.eater.com/maps/best-restaurants-providence-rhode-island",
+   "wl": "Website",
+   "b": "Italian. Its lasting influence, grilled pizza, baked pastas, and central place in Rhode Island dining culture make it the leading editorial choice.",
+   "nt": [],
+   "s": [],
+   "i": "099"
+  },
+  {
+   "n": "Matunuck Oyster Bar",
+   "c": "Restaurants",
+   "a": "South Kingstown / Wakefield",
+   "p": "",
+   "e": "",
+   "w": "https://rhodyoysters.com/",
+   "wl": "Website",
+   "b": "Seafood and oysters. Perry Raso’s oyster-farming roots make this a defining coastal Rhode Island destination, with local shellfish central to its identity.",
+   "nt": [
+    "Rebuilding after fire. The official site advertises seasonal tent dining at 650 Succotash Road. Confirm service before visiting."
+   ],
+   "s": [],
+   "i": "100"
+  },
+  {
+   "n": "Los Andes",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://losandesri.com/",
+   "wl": "Website",
+   "b": "Peruvian and Bolivian. Ceviche, grilled meats, and generous South American hospitality have built a following extending well beyond its immediate neighborhood.",
+   "nt": [],
+   "s": [],
+   "i": "101"
+  },
+  {
+   "n": "Twin Oaks",
+   "c": "Restaurants",
+   "a": "Cranston",
+   "p": "",
+   "e": "",
+   "w": "https://twinoaksrestaurantri.com/history/",
+   "wl": "Website",
+   "b": "Italian-American and seafood. A multigenerational celebration restaurant whose reputation rests on family rituals, familiar food, and exceptional staying power.",
+   "nt": [],
+   "s": [],
+   "i": "102"
+  },
+  {
+   "n": "Wright’s Farm Restaurant",
+   "c": "Restaurants",
+   "a": "Burrillville / Harrisville",
+   "p": "",
+   "e": "",
+   "w": "https://www.wrightsfarm.com/restaurant/about/",
+   "wl": "Website",
+   "b": "Family-style chicken. An essential northern Rhode Island family outing built around roast chicken, pasta, salad, fries, and the pleasure of a shared table.",
+   "nt": [],
+   "s": [],
+   "i": "103"
+  },
+  {
+   "n": "Iggy’s Doughboys & Chowder House",
+   "c": "Restaurants",
+   "a": "Warwick and Narragansett",
+   "p": "",
+   "e": "",
+   "w": "https://iggysri.com/",
+   "wl": "Website",
+   "b": "Clam shack. Clam cakes, chowder, and doughboys connect this family business to generations of Rhode Island beach trips.",
+   "nt": [
+    "Confirm the selected location’s seasonal schedule."
+   ],
+   "s": [],
+   "i": "104"
+  },
+  {
+   "n": "Aunt Carrie’s",
+   "c": "Restaurants",
+   "a": "Narragansett / Point Judith",
+   "p": "",
+   "e": "",
+   "w": "https://auntcarriesri.com/our-story/",
+   "wl": "Website",
+   "b": "Clam shack. A century-spanning family seafood tradition, with clam cakes and chowder that belong in any serious account of Rhode Island food.",
+   "nt": [
+    "Seasonal; check opening and closing dates."
+   ],
+   "s": [],
+   "i": "105"
+  },
+  {
+   "n": "George’s of Galilee",
+   "c": "Restaurants",
+   "a": "Narragansett / Galilee",
+   "p": "",
+   "e": "",
+   "w": "https://www.georgesofgalilee.com/",
+   "wl": "Website",
+   "b": "Seafood. A working-port setting and decades of family meals give this seafood institution an appeal extending well beyond summer visitors.",
+   "nt": [],
+   "s": [],
+   "i": "106"
+  },
+  {
+   "n": "Angelo’s Civita Farnese",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.angelosri.com/history",
+   "wl": "Website",
+   "b": "Italian-American. Federal Hill’s enduring neighborhood kitchen combines red-sauce comfort food, meatballs, and a working-family tradition dating to 1924.",
+   "nt": [],
+   "s": [],
+   "i": "107"
+  },
+  {
+   "n": "Nicks on Broadway",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.goprovidence.com/blog/stories/post/pvd-pov-from-dish-pit-to-vintners-dinner-chef-derek-wagners-providence-story/",
+   "wl": "Website",
+   "b": "Seasonal American. Derek Wagner’s neighborhood restaurant combines serious local sourcing with the warmth and accessibility of a beloved brunch destination.",
+   "nt": [],
+   "s": [],
+   "i": "108"
+  },
+  {
+   "n": "Persimmon",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/persimmon-restaurant/4600/",
+   "wl": "Website",
+   "b": "Contemporary American. Precise seasonal cooking and an intimate dining room make this a strong choice for readers who value culinary craft.",
+   "nt": [],
+   "s": [],
+   "i": "109"
+  },
+  {
+   "n": "Oberlin",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://oberlinrestaurant.com/",
+   "wl": "Website",
+   "b": "Seasonal dining. An influential neighborhood restaurant built around seafood, pasta, and an evolving menu, with a creative reputation and substantial local following.",
+   "nt": [
+    "266 Westminster Street."
+   ],
+   "s": [],
+   "i": "110"
+  },
+  {
+   "n": "The Coast Guard House",
+   "c": "Restaurants",
+   "a": "Narragansett",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/classic-ri-restaurants/",
+   "wl": "Website",
+   "b": "Seafood. Oceanfront views, seafood, and a distinctive historic building make this one of the state’s enduring special-occasion meeting places.",
+   "nt": [],
+   "s": [],
+   "i": "111"
+  },
+  {
+   "n": "Jayd Bun",
+   "c": "Restaurants",
+   "a": "South Kingstown / Peace Dale",
+   "p": "",
+   "e": "",
+   "w": "https://jaydbun.us/",
+   "wl": "Website",
+   "b": "Chinese. Annie Parisi’s handmade buns, noodles, and dumplings have earned a following that comfortably exceeds this small restaurant’s footprint.",
+   "nt": [
+    "Takeout-only; consult current ordering instructions."
+   ],
+   "s": [],
+   "i": "112"
+  },
+  {
+   "n": "O Dinis",
+   "c": "Restaurants",
+   "a": "East Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.odinisrestaurant.com/about/",
+   "wl": "Website",
+   "b": "Portuguese. Traditional Portuguese cooking and a musical identity give this family restaurant a particular place in local community life.",
+   "nt": [
+    "Confirm individual music dates."
+   ],
+   "s": [],
+   "i": "113"
+  },
+  {
+   "n": "The Black Pearl",
+   "c": "Restaurants",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://www.blackpearlnewport.com/",
+   "wl": "Website",
+   "b": "Seafood and tavern dining. Chowder, a harbor setting, and established tavern character make this a recognizable Newport favorite with substantial historical continuity.",
+   "nt": [],
+   "s": [],
+   "i": "114"
+  },
+  {
+   "n": "Gracie’s",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://graciesprov.com/journey/",
+   "wl": "Website",
+   "b": "Contemporary fine dining. An independently built special-occasion institution valued for thoughtful hospitality, seasonal menus, and a personal dining experience.",
+   "nt": [],
+   "s": [],
+   "i": "115"
+  },
+  {
+   "n": "New Rivers",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.newriversrestaurant.com/about",
+   "wl": "Website",
+   "b": "Seasonal American. A small, longstanding restaurant whose seasonal cooking and relationships with southern New England producers sustain its appeal.",
+   "nt": [],
+   "s": [],
+   "i": "116"
+  },
+  {
+   "n": "Mike’s Kitchen",
+   "c": "Restaurants",
+   "a": "Cranston",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/secret-restaurant/",
+   "wl": "Website",
+   "b": "Italian-American. Inside the Tabor-Franchi VFW post, this unpretentious kitchen earns its place through polenta, meatballs, and deeply familiar Italian cooking.",
+   "nt": [
+    "Cash-only was reported in September 2025; reconfirm payment arrangements."
+   ],
+   "s": [],
+   "i": "117"
+  },
+  {
+   "n": "Sophia’s Tuscan Grille",
+   "c": "Restaurants",
+   "a": "Warwick",
+   "p": "",
+   "e": "",
+   "w": "https://www.sophiastuscangrille.com/story",
+   "wl": "Website",
+   "b": "Italian. A neighborhood BYOB with chef-led cooking and strong local support, representing Warwick’s independent dining scene.",
+   "nt": [],
+   "s": [],
+   "i": "118"
+  },
+  {
+   "n": "White Horse Tavern",
+   "c": "Restaurants",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://whitehorsenewport.com/history/",
+   "wl": "Website",
+   "b": "Contemporary American. Historic rooms and a longstanding dining tradition combine a memorable setting with a substantial restaurant experience.",
+   "nt": [],
+   "s": [],
+   "i": "119"
+  },
+  {
+   "n": "Dune Brothers",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.dunebrothers.com/",
+   "wl": "Website",
+   "b": "Seafood. Fish-and-chips and other seafood dishes connect a casual format to an explicit commitment to traceable New England catch.",
+   "nt": [
+    "Locations have different schedules; check the specific restaurant."
+   ],
+   "s": [],
+   "i": "120"
+  },
+  {
+   "n": "Gift Horse",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://gifthorsepvd.com/about",
+   "wl": "Website",
+   "b": "Raw bar and seafood. An inventive raw bar that gives Rhode Island oysters and regional seafood a prominent place in a contemporary dining room.",
+   "nt": [],
+   "s": [],
+   "i": "121"
+  },
+  {
+   "n": "Apsara Asian Restaurant",
+   "c": "Restaurants",
+   "a": "Providence (Public Street)",
+   "p": "",
+   "e": "",
+   "w": "https://apsaraasianri.com/about/",
+   "wl": "Website",
+   "b": "Cambodian and Southeast Asian. A longstanding community kitchen serving generous traditional dishes from Cambodia, Thailand, Vietnam, and China.",
+   "nt": [],
+   "s": [],
+   "i": "122"
+  },
+  {
+   "n": "Jahunger",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.jahunger.com/",
+   "wl": "Website",
+   "b": "Uyghur. Hand-pulled noodles and Uyghur cooking give this small restaurant a distinctive identity and a following beyond its immediate neighborhood.",
+   "nt": [],
+   "s": [],
+   "i": "123"
+  },
+  {
+   "n": "Aleppo Sweets",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.alepposweets.com/our-story/",
+   "wl": "Website",
+   "b": "Syrian cafe. Baklava is the calling card, but the cafe’s broader appeal lies in its savory food, hospitality, and family-built identity.",
+   "nt": [],
+   "s": [],
+   "i": "124"
+  },
+  {
+   "n": "Dolores",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://dolorespvd.com/",
+   "wl": "Website",
+   "b": "Regional Mexican. A destination for regional Mexican cooking whose menu reflects a distinctive family culinary perspective.",
+   "nt": [],
+   "s": [],
+   "i": "125"
+  },
+  {
+   "n": "Bacaro",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://bacarorestaurant.net/about-us/",
+   "wl": "Website",
+   "b": "Italian. Venetian-style small plates and fuller Italian meals offer an adaptable dining experience in a distinctive Providence riverfront building.",
+   "nt": [],
+   "s": [],
+   "i": "126"
+  },
+  {
+   "n": "Spain Restaurant",
+   "c": "Restaurants",
+   "a": "Cranston",
+   "p": "",
+   "e": "",
+   "w": "https://spaincranston.com/about.html",
+   "wl": "Website",
+   "b": "Spanish and Mediterranean. Traditional Spanish cooking and polished service have made this longstanding family restaurant a recurring celebration destination.",
+   "nt": [],
+   "s": [],
+   "i": "127"
+  },
+  {
+   "n": "Caserta Pizzeria",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://casertapizzeria.com/",
+   "wl": "Website",
+   "b": "Pizza and spinach pies. Federal Hill pizza and the signature Wimpy Skippy make this a recognizable expression of Rhode Island’s everyday Italian food culture.",
+   "nt": [],
+   "s": [],
+   "i": "128"
+  },
+  {
+   "n": "The Nordic",
+   "c": "Restaurants",
+   "a": "Charlestown",
+   "p": "",
+   "e": "",
+   "w": "https://thenordic.cc/",
+   "wl": "Website",
+   "b": "Seafood buffet. A family-run destination where lobster and an expansive seafood buffet have become an outing and tradition in their own right.",
+   "nt": [
+    "Seasonal calendar and limited weekly service; check before traveling."
+   ],
+   "s": [],
+   "i": "129"
+  },
+  {
+   "n": "Jigger’s Diner",
+   "c": "Restaurants",
+   "a": "East Greenwich",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/diners-rhode-island/",
+   "wl": "Website",
+   "b": "Diner. A small Main Street diner with local staying power, hearty breakfasts, and a distinctly Rhode Island johnnycake tradition.",
+   "nt": [],
+   "s": [],
+   "i": "130"
+  },
+  {
+   "n": "Modern Diner",
+   "c": "Restaurants",
+   "a": "Pawtucket",
+   "p": "",
+   "e": "",
+   "w": "https://themoderndinerri.com/",
+   "wl": "Website",
+   "b": "Diner. Its historic Sterling Streamliner provides the setting, while changing breakfast specials keep it an active dining destination.",
+   "nt": [],
+   "s": [],
+   "i": "131"
+  },
+  {
+   "n": "Stanley’s Famous Hamburgers",
+   "c": "Restaurants",
+   "a": "Central Falls",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/stanleys-famous-hamburgers/",
+   "wl": "Website",
+   "b": "Burgers. Onion-griddled burgers and a long Blackstone Valley history make this an essential representative of modestly priced Rhode Island dining.",
+   "nt": [],
+   "s": [],
+   "i": "132"
+  },
+  {
+   "n": "The Beef Barn",
+   "c": "Restaurants",
+   "a": "North Smithfield",
+   "p": "",
+   "e": "",
+   "w": "https://www.thebeefbarn.com/pages/Home.cfm",
+   "wl": "Website",
+   "b": "Roast beef and comfort food. A longstanding destination for roast beef sandwiches and accessible family meals, rooted in northern Rhode Island’s everyday dining habits.",
+   "nt": [],
+   "s": [],
+   "i": "133"
+  },
+  {
+   "n": "Evelyn’s Drive-in",
+   "c": "Restaurants",
+   "a": "Tiverton",
+   "p": "",
+   "e": "",
+   "w": "https://www.evelynsdrivein.com/restaurant",
+   "wl": "Website",
+   "b": "Clam shack. Fried seafood and a waterside setting have made this a durable East Bay summer tradition.",
+   "nt": [
+    "Seasonal; confirm current dates."
+   ],
+   "s": [],
+   "i": "134"
+  },
+  {
+   "n": "Andino’s",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://andinosrestaurant.com/about/",
+   "wl": "Website",
+   "b": "Italian-American. A Federal Hill institution built on familiar Italian cooking, convivial service, and sustained neighborhood loyalty.",
+   "nt": [],
+   "s": [],
+   "i": "135"
+  },
+  {
+   "n": "Cassarino’s",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.cassarinosri.com/",
+   "wl": "Website",
+   "b": "Italian. A familiar Federal Hill destination for Italian meals and family celebrations, with a local following built over decades.",
+   "nt": [],
+   "s": [],
+   "i": "136"
+  },
+  {
+   "n": "Julian’s",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/julians-anniversary/",
+   "wl": "Website",
+   "b": "Brunch and American. Inventive brunch, substantial vegetarian choices, and a distinctive West Side personality have made it a neighborhood reference point.",
+   "nt": [],
+   "s": [],
+   "i": "137"
+  },
+  {
+   "n": "Pot au Feu",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/pot-au-feu/4609/",
+   "wl": "Website",
+   "b": "French bistro. Classic French bistro cooking and an intimate downtown setting reward diners seeking a restaurant with continuity and character.",
+   "nt": [
+    "Limited dinner service; consult current reservations."
+   ],
+   "s": [],
+   "i": "138"
+  },
+  {
+   "n": "Enoteca Umberto",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/enoteca-umberto/4467/",
+   "wl": "Website",
+   "b": "Southern Italian. A tiny, personal restaurant with a close connection between the kitchen, dining room, and Southern Italian food traditions.",
+   "nt": [
+    "Very limited seating; confirm current booking and menu format."
+   ],
+   "s": [],
+   "i": "139"
+  },
+  {
+   "n": "Bayberry Garden",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.bayberrygarden.com/about",
+   "wl": "Website",
+   "b": "Seasonal New England. Seasonal New England ingredients, a plant-filled room, and a convivial dining style have established this as a more recent local favorite.",
+   "nt": [],
+   "s": [],
+   "i": "140"
+  },
+  {
+   "n": "Pizza Marvin",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/pizza-marvin/",
+   "wl": "Website",
+   "b": "Pizza. A chef-and-bartender partnership gives this neighborhood pizza shop an individual identity, inventive food, and an established local following.",
+   "nt": [],
+   "s": [],
+   "i": "141"
+  },
+  {
+   "n": "Tuxpan Taqueria",
+   "c": "Restaurants",
+   "a": "Central Falls",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/tuxpan-taqueria/11783/",
+   "wl": "Website",
+   "b": "Mexican. A small family restaurant centered on the Alcantars’ food traditions from Michoacan, with a reputation reaching beyond Central Falls.",
+   "nt": [],
+   "s": [],
+   "i": "142"
+  },
+  {
+   "n": "India Restaurant",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://indiarestaurant.com/history/",
+   "wl": "Website",
+   "b": "Indian. An established Hope Street destination with traditional favorites, a broad menu, and repeated local reader recognition.",
+   "nt": [],
+   "s": [],
+   "i": "143"
+  },
+  {
+   "n": "Kabob and Curry",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.kabobandcurry.com/about",
+   "wl": "Website",
+   "b": "Indian. A Thayer Street institution with decades of local history, scratch cooking, and substantial vegetarian and vegan choices.",
+   "nt": [],
+   "s": [],
+   "i": "144"
+  },
+  {
+   "n": "Perro Salado",
+   "c": "Restaurants",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://www.perrosalado.com/new-page",
+   "wl": "Website",
+   "b": "Mexican-inspired. Creative Mexican-inspired food and a historic-house setting give this restaurant a distinctive place in Newport dining.",
+   "nt": [],
+   "s": [],
+   "i": "145"
+  },
+  {
+   "n": "Mamma Luisa",
+   "c": "Restaurants",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/mamma-luisa-restaurant/6450/",
+   "wl": "Website",
+   "b": "Northern Italian. A family-and-friends restaurant built around Northern Italian cooking, with the intimate atmosphere of dining in a house.",
+   "nt": [],
+   "s": [],
+   "i": "146"
+  },
+  {
+   "n": "Corner Cafe",
+   "c": "Restaurants",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/corner-caf%C3%A9/9024/",
+   "wl": "Website",
+   "b": "Breakfast and neighborhood dining. A Broadway breakfast favorite with Irish, Portuguese, and American influences and a strong neighborhood identity.",
+   "nt": [],
+   "s": [],
+   "i": "147"
+  },
+  {
+   "n": "Plum Point Bistro",
+   "c": "Restaurants",
+   "a": "North Kingstown / Saunderstown",
+   "p": "",
+   "e": "",
+   "w": "https://thenewportbuzz.com/what-shes-having-take-it-to-the-bridge/54458",
+   "wl": "Website",
+   "b": "Italian-influenced bistro. Italian foundations, seasonal seafood, and a lively local dining room make this a neighborhood destination near the Jamestown Bridge.",
+   "nt": [],
+   "s": [],
+   "i": "148"
+  },
+  {
+   "n": "Red Dory",
+   "c": "Restaurants",
+   "a": "Tiverton",
+   "p": "",
+   "e": "",
+   "w": "https://www.reddoryrestaurant.com/about-us/",
+   "wl": "Website",
+   "b": "Mediterranean seafood. Chef-led seafood cooking and Sakonnet River views make this a strong choice for a quieter East Bay dinner.",
+   "nt": [],
+   "s": [],
+   "i": "149"
+  },
+  {
+   "n": "Foglia",
+   "c": "Restaurants",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "https://fogliabristol.com/bristol-foglia-about",
+   "wl": "Website",
+   "b": "Plant-based dining. Peter Carvelli’s restaurant earns a place through ambitious plant-based cooking and a clear culinary identity.",
+   "nt": [
+    "The official site lists special closure dates; check the selected date."
+   ],
+   "s": [],
+   "i": "150"
+  },
+  {
+   "n": "Metacom Kitchen",
+   "c": "Restaurants",
+   "a": "Warren",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/metacom-kitchen-is-making-a-return-to-warren/",
+   "wl": "Website",
+   "b": "Contemporary American. Rick and Susan Allaire’s returning neighborhood restaurant brings chef-led seasonal cooking back to a community that missed it.",
+   "nt": [
+    "Reopened after its earlier closure; consult the current restaurant calendar."
+   ],
+   "s": [],
+   "i": "151"
+  },
+  {
+   "n": "The Square Peg",
+   "c": "Restaurants",
+   "a": "Warren",
+   "p": "",
+   "e": "",
+   "w": "https://squarepegwarren.com/restaurant",
+   "wl": "Website",
+   "b": "Neighborhood American. Straightforward food and an explicitly community-centered identity make this a strong fit for a list about local affection.",
+   "nt": [],
+   "s": [],
+   "i": "152"
+  },
+  {
+   "n": "Dewolf Tavern",
+   "c": "Restaurants",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "https://dewolftavern.com/",
+   "wl": "Website",
+   "b": "Contemporary American with Indian influences. A historic waterfront setting and chef-owner Sai Viswanath’s culinary perspective give this restaurant a distinctive East Bay identity.",
+   "nt": [],
+   "s": [],
+   "i": "153"
+  },
+  {
+   "n": "Quito’s",
+   "c": "Restaurants",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "https://quitosrestaurant.com/",
+   "wl": "Website",
+   "b": "Seafood and Sicilian-inspired. A family-run coastal restaurant combining Rhode Island seafood with Sicilian influences and a strong summer-by-the-water identity.",
+   "nt": [],
+   "s": [],
+   "i": "154"
+  },
+  {
+   "n": "Pomodoro Italian Kitchen",
+   "c": "Restaurants",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "https://www.pomodorobristol.com/destination-basil",
+   "wl": "Website",
+   "b": "Italian. A neighborhood BYOB built on three generations of Micheletti family cooking and a personal approach to Italian dining.",
+   "nt": [],
+   "s": [],
+   "i": "155"
+  },
+  {
+   "n": "The Lobster Pot",
+   "c": "Restaurants",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "https://lobsterpotri.com/",
+   "wl": "Website",
+   "b": "Seafood. A longstanding waterfront institution whose seafood menu and familiar setting have drawn repeat visits across generations.",
+   "nt": [],
+   "s": [],
+   "i": "156"
+  },
+  {
+   "n": "The Shanty",
+   "c": "Restaurants",
+   "a": "Warwick",
+   "p": "",
+   "e": "",
+   "w": "https://theshantyri.com/about-us/",
+   "wl": "Website",
+   "b": "Seasonal American. A locally oriented neighborhood restaurant pairing seasonal ingredients with the comfortable atmosphere of an everyday gathering place.",
+   "nt": [],
+   "s": [],
+   "i": "157"
+  },
+  {
+   "n": "Tree House Tavern & Bistro",
+   "c": "Restaurants",
+   "a": "Warwick",
+   "p": "",
+   "e": "",
+   "w": "https://thetreehousetavern.com/about/",
+   "wl": "Website",
+   "b": "American bistro. A family-created setting, imaginative comfort food, and house-made desserts give this restaurant an individual character.",
+   "nt": [],
+   "s": [],
+   "i": "158"
+  },
+  {
+   "n": "Blackie’s",
+   "c": "Restaurants",
+   "a": "Smithfield",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/blackies/3227/",
+   "wl": "Website",
+   "b": "Seasonal American. A scratch kitchen with a strong neighborhood identity and attention to diners seeking a wide range of menu choices.",
+   "nt": [
+    "Discuss specific dietary needs directly with the restaurant."
+   ],
+   "s": [],
+   "i": "159"
+  },
+  {
+   "n": "Cook & Dagger",
+   "c": "Restaurants",
+   "a": "North Providence",
+   "p": "",
+   "e": "",
+   "w": "https://rhodeislandrecommends.com/cook-dagger-new-american-cuisine/",
+   "wl": "Website",
+   "b": "Contemporary comfort food. A husband-and-wife kitchen known for seasonal comfort food and a following that has continued through location changes.",
+   "nt": [
+    "Current location is North Providence, not the former Smithfield location."
+   ],
+   "s": [],
+   "i": "160"
+  },
+  {
+   "n": "Lucky Dog Tavern",
+   "c": "Restaurants",
+   "a": "North Smithfield",
+   "p": "",
+   "e": "",
+   "w": "https://www.luckydogtavern.net/",
+   "wl": "Website",
+   "b": "American tavern. A locally owned tavern offering an ambitious dinner option in northern Rhode Island while retaining its neighborhood atmosphere.",
+   "nt": [],
+   "s": [],
+   "i": "161"
+  },
+  {
+   "n": "Basta",
+   "c": "Restaurants",
+   "a": "Cranston / Pawtuxet Village",
+   "p": "",
+   "e": "",
+   "w": "https://www.bastaonbroad.com/the-team",
+   "wl": "Website",
+   "b": "Italian. A longstanding village restaurant whose Italian cooking and welcoming dining room support everyday visits and celebrations.",
+   "nt": [],
+   "s": [],
+   "i": "162"
+  },
+  {
+   "n": "Vanda Cucina",
+   "c": "Restaurants",
+   "a": "Warwick",
+   "p": "",
+   "e": "",
+   "w": "https://www.vandacucina.com/about-us",
+   "wl": "Website",
+   "b": "Italian. Family-inspired Italian cooking and inherited food traditions give this Warwick restaurant a personal identity.",
+   "nt": [],
+   "s": [],
+   "i": "163"
+  },
+  {
+   "n": "Rasoi",
+   "c": "Restaurants",
+   "a": "Pawtucket",
+   "p": "",
+   "e": "",
+   "w": "https://shoplocalri.com/vendors/rasoi",
+   "wl": "Website",
+   "b": "Indian. A longstanding local Indian restaurant with a broad regional menu and the hospitality of a family kitchen.",
+   "nt": [],
+   "s": [],
+   "i": "164"
+  },
+  {
+   "n": "Capriccio",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.capriccios.com/about-capriccio",
+   "wl": "Website",
+   "b": "Italian and continental. An old-school downtown special-occasion restaurant valued for continuity, formal service, and an increasingly uncommon dining-room style.",
+   "nt": [],
+   "s": [],
+   "i": "165"
+  },
+  {
+   "n": "Ella’s Food & Drink",
+   "c": "Restaurants",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://ellasfinefoodanddrink.com/",
+   "wl": "Website",
+   "b": "Contemporary French-American. Jeanie Roland’s chef-led restaurant gives Westerly a destination for carefully composed, seasonally inspired meals.",
+   "nt": [],
+   "s": [],
+   "i": "166"
+  },
+  {
+   "n": "The Cooked Goose",
+   "c": "Restaurants",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.thecookedgoose.com/about",
+   "wl": "Website",
+   "b": "Breakfast and lunch. A community breakfast-and-lunch favorite whose owners describe strong local support during its rebuilding after a fire.",
+   "nt": [
+    "Rebuilt after a fire; check current hours."
+   ],
+   "s": [],
+   "i": "167"
+  },
+  {
+   "n": "Celestial Cafe",
+   "c": "Restaurants",
+   "a": "Exeter",
+   "p": "",
+   "e": "",
+   "w": "https://celestialcaferi.com/",
+   "wl": "Website",
+   "b": "Farm-focused American. A family restaurant giving Exeter a distinctive dining destination through relationships with local farms and fisheries.",
+   "nt": [],
+   "s": [],
+   "i": "168"
+  },
+  {
+   "n": "Dante’s Kitchen",
+   "c": "Restaurants",
+   "a": "East Greenwich",
+   "p": "",
+   "e": "",
+   "w": "https://danteskitchenri.com/about-us-1",
+   "wl": "Website",
+   "b": "Southern-influenced breakfast. A small breakfast-and-lunch destination whose Southern influence distinguishes it within East Greenwich’s dining scene.",
+   "nt": [],
+   "s": [],
+   "i": "169"
+  },
+  {
+   "n": "Monahan’s Clam Shack",
+   "c": "Restaurants",
+   "a": "Narragansett and Charlestown",
+   "p": "",
+   "e": "",
+   "w": "https://www.monahansri.com/",
+   "wl": "Website",
+   "b": "Clam shack. Clam cakes, chowder, and seafood by the coast give this family business a strong Rhode Island summer identity.",
+   "nt": [
+    "Seasonal schedules differ by location."
+   ],
+   "s": [],
+   "i": "170"
+  },
+  {
+   "n": "Two Little Fish",
+   "c": "Restaurants",
+   "a": "Westerly / Misquamicut",
+   "p": "",
+   "e": "",
+   "w": "https://shoplocalri.com/vendors/two-little-fish",
+   "wl": "Website",
+   "b": "Clam shack. A family-run beach seafood stop with fried clams, fish-and-chips, lobster rolls, and a longstanding summer following.",
+   "nt": [
+    "Seasonal beach operation."
+   ],
+   "s": [],
+   "i": "171"
+  },
+  {
+   "n": "Noodle Revolution",
+   "c": "Restaurants",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/noodles-in-rhode-island/",
+   "wl": "Website",
+   "b": "Asian and global comfort food. An individually owned noodle restaurant whose globally influenced dishes provide a distinctive casual dining option.",
+   "nt": [],
+   "s": [],
+   "i": "172"
+  },
+  {
+   "n": "Jim’s Dock",
+   "c": "Restaurants",
+   "a": "South Kingstown / Jerusalem",
+   "p": "",
+   "e": "",
+   "w": "https://www.southcountyri.com/blog/post/14-south-county-waterfront-restaurants-with-al-fresco-dining/",
+   "wl": "Website",
+   "b": "Seafood. A family-run waterfront seafood restaurant where the dockside setting is closely tied to the experience and local identity.",
+   "nt": [
+    "Seasonal.",
+    "Jerusalem is in South Kingstown, despite some listings using Narragansett."
+   ],
+   "s": [],
+   "i": "173"
+  },
+  {
+   "n": "Hitching Post",
+   "c": "Restaurants",
+   "a": "Charlestown",
+   "p": "",
+   "e": "",
+   "w": "https://www.hitchingpostri.com/our-story.html",
+   "wl": "Website",
+   "b": "Clam shack and seafood. A family seafood tradition dating to 1950, with clam fritters and Rhode Island chowder central to its appeal.",
+   "nt": [
+    "Seasonal; verify service dates."
+   ],
+   "s": [],
+   "i": "174"
+  },
+  {
+   "n": "Middle of Nowhere Diner",
+   "c": "Restaurants",
+   "a": "Exeter",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/diners-rhode-island/",
+   "wl": "Website",
+   "b": "Diner. A rural comfort-food favorite built around substantial breakfasts and homestyle meals.",
+   "nt": [],
+   "s": [],
+   "i": "175"
+  },
+  {
+   "n": "Heng Thai & Rotisserie",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://hengpvd.com/",
+   "wl": "Website",
+   "b": "Thai. Boat noodles, wok dishes, and rotisserie meats provide a focused Thai street-food identity near College Hill.",
+   "nt": [],
+   "s": [],
+   "i": "176"
+  },
+  {
+   "n": "Den Den Cafe Asiana",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.dendenhospitality.com/dendencafe",
+   "wl": "Website",
+   "b": "Korean and Japanese. Hot-stone bibimbap, Korean pancakes, and Japanese comfort dishes make this a casual gathering place on Benefit Street.",
+   "nt": [],
+   "s": [],
+   "i": "177"
+  },
+  {
+   "n": "Taqueria Lupita",
+   "c": "Restaurants",
+   "a": "Central Falls",
+   "p": "",
+   "e": "",
+   "w": "https://www.visitrhodeisland.com/listing/taqueria-lupita/3972/",
+   "wl": "Website",
+   "b": "Mexican. A longstanding family Mexican kitchen with handmade tortillas, tamales, and everyday dishes that reward neighborhood loyalty.",
+   "nt": [],
+   "s": [],
+   "i": "178"
+  },
+  {
+   "n": "La Arepa",
+   "c": "Restaurants",
+   "a": "Pawtucket",
+   "p": "",
+   "e": "",
+   "w": "https://shoplocalri.com/vendors/la-arepa",
+   "wl": "Website",
+   "b": "Venezuelan. Arepas, cachapas, and family food traditions give this locally owned Venezuelan restaurant a distinctive place in the state’s dining landscape.",
+   "nt": [],
+   "s": [],
+   "i": "179"
+  },
+  {
+   "n": "Aguardente",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://aguardente.com/about",
+   "wl": "Website",
+   "b": "Portuguese and Latin tapas. Food and shared cultural traditions from Portugal, the Azores, and Guatemala give this intimate restaurant a coherent personal story.",
+   "nt": [],
+   "s": [],
+   "i": "180"
+  },
+  {
+   "n": "Sakonnet River Grille",
+   "c": "Restaurants",
+   "a": "Tiverton",
+   "p": "",
+   "e": "",
+   "w": "https://sakonnetrivergrille.com/about",
+   "wl": "Website",
+   "b": "American and seafood. A family-operated gathering place with approachable American cooking and seafood, well suited to regular neighborhood meals.",
+   "nt": [],
+   "s": [],
+   "i": "181"
+  },
+  {
+   "n": "15 Point Road",
+   "c": "Restaurants",
+   "a": "Portsmouth",
+   "p": "",
+   "e": "",
+   "w": "https://www.15pointroad.com/thecrew",
+   "wl": "Website",
+   "b": "Seafood and American. A small waterfront restaurant combining coastal cooking with a relaxed Sakonnet River setting.",
+   "nt": [],
+   "s": [],
+   "i": "182"
+  },
+  {
+   "n": "Our Table",
+   "c": "Restaurants",
+   "a": "Jamestown",
+   "p": "",
+   "e": "",
+   "w": "https://www.ourtablejamestown.com/our-story",
+   "wl": "Website",
+   "b": "Seasonal American. Marc Alexander and Marla Romash’s scratch cooking makes this a neighborhood dinner destination on Conanicut Island.",
+   "nt": [],
+   "s": [],
+   "i": "183"
+  },
+  {
+   "n": "Slice of Heaven",
+   "c": "Restaurants",
+   "a": "Jamestown",
+   "p": "",
+   "e": "",
+   "w": "https://www.newportlifemagazine.com/food-drinks/jamestowns-food-scene-reignites-enjoy-a-dinner-party-every-night/",
+   "wl": "Website",
+   "b": "Breakfast and lunch cafe. A longstanding village cafe for breakfast, lunch, and baked goods, with the familiar social role of a small-town meeting place.",
+   "nt": [],
+   "s": [],
+   "i": "184"
+  },
+  {
+   "n": "JB’s on The Water",
+   "c": "Restaurants",
+   "a": "Jamestown",
+   "p": "",
+   "e": "",
+   "w": "https://www.jamestownrichamber.com/welcome/dining",
+   "wl": "Website",
+   "b": "Coastal American. Bay views and an accessible menu give residents and visitors a relaxed waterfront gathering place.",
+   "nt": [],
+   "s": [],
+   "i": "185"
+  },
+  {
+   "n": "Eli’s",
+   "c": "Restaurants",
+   "a": "New Shoreham / Block Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.blockislandchamber.com/all-restaurants",
+   "wl": "Website",
+   "b": "Seasonal American bistro. A small island bistro with a longstanding following, creative food, and a sociable atmosphere central to its identity.",
+   "nt": [
+    "Seasonal; confirm dates before arranging ferry travel."
+   ],
+   "s": [],
+   "i": "186"
+  },
+  {
+   "n": "Winfield’s",
+   "c": "Restaurants",
+   "a": "New Shoreham / Block Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.winfieldsbi.com/",
+   "wl": "Website",
+   "b": "Seasonal American. An established island dining room combining seasonal land-and-sea dishes with an intimate special-occasion setting.",
+   "nt": [
+    "Seasonal; the 2026 season ended Oct. 17."
+   ],
+   "s": [],
+   "i": "187"
+  },
+  {
+   "n": "Village Haven",
+   "c": "Restaurants",
+   "a": "North Smithfield / Forestdale",
+   "p": "",
+   "e": "",
+   "w": "https://www.nrinow.news/2022/08/26/the-haven-returns-n-s-restaurant-reopens-under-new-management/",
+   "wl": "Website",
+   "b": "Family-style chicken. A northern Rhode Island family-dinner tradition preserved under new local ownership, including its familiar chicken meals and cinnamon rolls.",
+   "nt": [],
+   "s": [],
+   "i": "188"
+  },
+  {
+   "n": "Bella Restaurant",
+   "c": "Restaurants",
+   "a": "Burrillville",
+   "p": "",
+   "e": "",
+   "w": "https://www.nrinow.news/2022/12/22/luxury-dining-in-northern-ri-council-recognizes-bella-restaurant-for-25-years-of-success/",
+   "wl": "Website",
+   "b": "Italian. The Calapai family’s Italian restaurant gives northern Rhode Island a longstanding independent choice for celebrations and formal dinners.",
+   "nt": [],
+   "s": [],
+   "i": "189"
+  },
+  {
+   "n": "Adeline’s Speakeasy Kitchen Bar",
+   "c": "Restaurants",
+   "a": "Cumberland",
+   "p": "",
+   "e": "",
+   "w": "https://local.pawtuckettimes.com/cumberland-ri/adelines-speakeasy-kitchen-bar-401-405-0073",
+   "wl": "Website",
+   "b": "American tavern. A locally rooted family bar and kitchen, with poutine among the dishes that helped establish its northern Rhode Island following.",
+   "nt": [],
+   "s": [],
+   "i": "190"
+  },
+  {
+   "n": "Wein-O-Rama",
+   "c": "Restaurants",
+   "a": "Cranston",
+   "p": "",
+   "e": "",
+   "w": "https://weinoramari.com/about-us/",
+   "wl": "Website",
+   "b": "Hot wieners and diner food. A revived Cranston institution whose new local owners set out to preserve its original recipes and neighborhood identity.",
+   "nt": [
+    "Reopened after a temporary closure."
+   ],
+   "s": [],
+   "i": "191"
+  },
+  {
+   "n": "Original New York System",
+   "c": "Restaurants",
+   "a": "Providence / Smith Hill",
+   "p": "",
+   "e": "",
+   "w": "https://turnto10.com/news/local/original-new-york-system-announces-reopening-providence-smith-hill-hot-wieners-restaurant-rhode-island-september-1-2026",
+   "wl": "Website",
+   "b": "Hot wieners. The Smith Street wiener institution returned under new individual ownership, continuing a distinctive Providence food tradition.",
+   "nt": [
+    "Reopened in 2026."
+   ],
+   "s": [],
+   "i": "192"
+  },
+  {
+   "n": "Haven Brothers Diner",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://havenbrosdiner.com/about-us/",
+   "wl": "Website",
+   "b": "Late-night diner. The mobile diner beside City Hall is part of Providence’s late-night food identity, serving burgers, shakes, and familiar comfort dishes.",
+   "nt": [],
+   "s": [],
+   "i": "193"
+  },
+  {
+   "n": "Palo",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.paloprovidence.com/",
+   "wl": "Website",
+   "b": "Spanish tapas. An intimate independent tapas bar in a historic Steeple Street building, drawing its food and atmosphere from southern Spain.",
+   "nt": [],
+   "s": [],
+   "i": "194"
+  },
+  {
+   "n": "Frank & Laurie’s",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.rimonthly.com/frank-lauries/",
+   "wl": "Website",
+   "b": "Breakfast and lunch. A newer favorite whose carefully made breakfasts, sandwiches, and seasonal cooking merit inclusion.",
+   "nt": [],
+   "s": [],
+   "i": "195"
+  },
+  {
+   "n": "TSK / Thames Street Kitchen",
+   "c": "Restaurants",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://www.tsknpt.com/tsk-home",
+   "wl": "Website",
+   "b": "Boutique steakhouse. A small, chef-led steakhouse whose close-knit dining room supports a personal restaurant experience.",
+   "nt": [],
+   "s": [],
+   "i": "196"
+  },
+  {
+   "n": "Dan’s Place",
+   "c": "Restaurants",
+   "a": "West Greenwich",
+   "p": "",
+   "e": "",
+   "w": "https://www.danspizzaplace.com/",
+   "wl": "Website",
+   "b": "Pizza and American. A broad comfort-food menu and community-oriented identity make this a family gathering place in western Rhode Island.",
+   "nt": [],
+   "s": [],
+   "i": "197"
+  },
+  {
+   "n": "Pizza J",
+   "c": "Restaurants",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://pizzajprovidence.com/",
+   "wl": "Website",
+   "b": "Pizza. An individually styled neighborhood pizza restaurant combining approachable food with a distinctive West Side personality.",
+   "nt": [],
+   "s": [],
+   "i": "198"
+  },
+  {
    "n": "Wright’s Dairy Farm & Bakery",
    "c": "Local favorites",
    "a": "North Smithfield",
@@ -1302,7 +2653,7 @@
    "b": "Dairy and bakery. Fifth-generation family operation with deep Rhode Island roots and enduring community loyalty.",
    "nt": [],
    "s": [],
-   "i": "099"
+   "i": "199"
   },
   {
    "n": "Allie’s Donuts",
@@ -1315,7 +2666,7 @@
    "b": "Doughnut shop. Longstanding independent institution; doughnuts and doughnut cakes are part of Rhode Island tradition.",
    "nt": [],
    "s": [],
-   "i": "100"
+   "i": "200"
   },
   {
    "n": "Frog & Toad",
@@ -1328,7 +2679,7 @@
    "b": "Gifts and local merchandise. Locally owned shop recognized for charitable work, neighborhood involvement, and distinctive Rhode Island goods.",
    "nt": [],
    "s": [],
-   "i": "101"
+   "i": "201"
   },
   {
    "n": "Pastiche Fine Desserts",
@@ -1341,7 +2692,7 @@
    "b": "Bakery. Established in 1983; repeated dessert recognition and a strong reputation for celebration cakes.",
    "nt": [],
    "s": [],
-   "i": "102"
+   "i": "202"
   },
   {
    "n": "Brown & Hopkins Country Store",
@@ -1354,7 +2705,7 @@
    "b": "Country store and gifts. Historic village institution and 2026 statewide readers’ choice for home decor.",
    "nt": [],
    "s": [],
-   "i": "103"
+   "i": "203"
   },
   {
    "n": "Dave’s Fresh Marketplace",
@@ -1367,7 +2718,7 @@
    "b": "Grocery markets. Locally owned since 1969, with longstanding neighborhood relationships and an emphasis on fresh food.",
    "nt": [],
    "s": [],
-   "i": "104"
+   "i": "204"
   },
   {
    "n": "Barrington Books",
@@ -1380,7 +2731,7 @@
    "b": "Independent bookstore. Community bookstore with repeated recognition, including a 2026 statewide readers’ award.",
    "nt": [],
    "s": [],
-   "i": "105"
+   "i": "205"
   },
   {
    "n": "LaSalle Bakery",
@@ -1393,7 +2744,7 @@
    "b": "Bakery. Multigenerational local ownership and national recognition as Retail Bakery of the Year in 2011.",
    "nt": [],
    "s": [],
-   "i": "106"
+   "i": "206"
   },
   {
    "n": "Books on the Square",
@@ -1406,7 +2757,7 @@
    "b": "Independent bookstore. Neighborhood bookseller since 1992, with author events and a strong community role.",
    "nt": [],
    "s": [],
-   "i": "107"
+   "i": "207"
   },
   {
    "n": "Stock Culinary Goods",
@@ -1419,7 +2770,7 @@
    "b": "Kitchenware and gifts. Independent specialty shop recognized for thoughtful kitchen goods and support of local makers.",
    "nt": [],
    "s": [],
-   "i": "108"
+   "i": "208"
   },
   {
    "n": "Sweenor’s Chocolates",
@@ -1432,7 +2783,7 @@
    "b": "Chocolatier. Third- and fourth-generation confectioners with decades of Rhode Island gift-giving tradition.",
    "nt": [],
    "s": [],
-   "i": "109"
+   "i": "209"
   },
   {
    "n": "Belmont Market",
@@ -1445,7 +2796,7 @@
    "b": "Grocery market. Family business that grew from a produce stand into a longstanding community market.",
    "nt": [],
    "s": [],
-   "i": "110"
+   "i": "210"
   },
   {
    "n": "Seven Stars Bakery",
@@ -1458,7 +2809,7 @@
    "b": "Bakery. Rhode Island-owned neighborhood bakery built around artisan bread, pastry, and repeat local customers.",
    "nt": [],
    "s": [],
-   "i": "111"
+   "i": "211"
   },
   {
    "n": "Venda Ravioli",
@@ -1471,7 +2822,7 @@
    "b": "Italian market and pasta maker. Costantino family business and a longstanding Federal Hill destination for fresh pasta and Italian specialties.",
    "nt": [],
    "s": [],
-   "i": "112"
+   "i": "212"
   },
   {
    "n": "Stedman’s Bike Shop",
@@ -1484,7 +2835,7 @@
    "b": "Bicycle shop. Local cycling institution dating to 1920, with generations of sales and repair experience.",
    "nt": [],
    "s": [],
-   "i": "113"
+   "i": "213"
   },
   {
    "n": "Coffee Exchange",
@@ -1497,7 +2848,7 @@
    "b": "Coffee roaster and cafe. Established neighborhood gathering place with a longstanding specialty-coffee reputation.",
    "nt": [],
    "s": [],
-   "i": "114"
+   "i": "214"
   },
   {
    "n": "Jaswell’s Farm",
@@ -1510,7 +2861,7 @@
    "b": "Farm and farm market. Family farming since 1899, with multigenerational traditions around apples, cider, and seasonal visits.",
    "nt": [],
    "s": [],
-   "i": "115"
+   "i": "215"
   },
   {
    "n": "Baxter’s Fine Jewelry",
@@ -1523,7 +2874,7 @@
    "b": "Jeweler. Three generations of family ownership and a 2026 statewide readers’ award.",
    "nt": [],
    "s": [],
-   "i": "116"
+   "i": "216"
   },
   {
    "n": "McQuade’s Marketplace",
@@ -1536,7 +2887,7 @@
    "b": "Grocery markets. Independent family markets with longstanding ties to their coastal communities.",
    "nt": [],
    "s": [],
-   "i": "117"
+   "i": "217"
   },
   {
    "n": "Yacht Club Bottling Works",
@@ -1549,7 +2900,7 @@
    "b": "Soda maker. Family-operated Rhode Island soda producer with a history stretching back to 1915.",
    "nt": [],
    "s": [],
-   "i": "118"
+   "i": "218"
   },
   {
    "n": "Gray’s Ice Cream",
@@ -1562,7 +2913,7 @@
    "b": "Ice cream. Historic local ice cream business with roots in 1923 and generations of summer customers.",
    "nt": [],
    "s": [],
-   "i": "119"
+   "i": "219"
   },
   {
    "n": "Brickley’s Ice Cream",
@@ -1575,7 +2926,7 @@
    "b": "Ice cream. Family-founded shop with a strong South County following since 1995.",
    "nt": [],
    "s": [],
-   "i": "120"
+   "i": "220"
   },
   {
    "n": "Charter Books",
@@ -1588,7 +2939,7 @@
    "b": "Independent bookstore. Named New England Independent Bookstore of the Year in 2024.",
    "nt": [],
    "s": [],
-   "i": "121"
+   "i": "221"
   },
   {
    "n": "Gansett Craft Chocolate",
@@ -1601,7 +2952,7 @@
    "b": "Chocolate maker. Small local producer whose chocolate earned fourteen major awards between 2021 and its 2026 profile.",
    "nt": [],
    "s": [],
-   "i": "122"
+   "i": "222"
   },
   {
    "n": "Sweet Berry Farm",
@@ -1614,7 +2965,7 @@
    "b": "Farm market. Family-created farm and market with decades of local agricultural roots.",
    "nt": [],
    "s": [],
-   "i": "123"
+   "i": "223"
   },
   {
    "n": "Island Books",
@@ -1627,7 +2978,7 @@
    "b": "Independent bookstore. Serving Aquidneck Island since 1993, with repeated Newport County readers’ recognition.",
    "nt": [],
    "s": [],
-   "i": "124"
+   "i": "224"
   },
   {
    "n": "Warm Winds",
@@ -1640,7 +2991,7 @@
    "b": "Surf shop. Local surfboard-making roots dating to 1973 and longstanding ties to Rhode Island surfing.",
    "nt": [],
    "s": [],
-   "i": "125"
+   "i": "225"
   },
   {
    "n": "Craftland",
@@ -1653,7 +3004,7 @@
    "b": "Handmade goods and art. Artist-owned shop giving independent makers a permanent downtown retail presence.",
    "nt": [],
    "s": [],
-   "i": "126"
+   "i": "226"
   },
   {
    "n": "Kenyon’s Grist Mill",
@@ -1666,7 +3017,7 @@
    "b": "Grain mill and specialty foods. Historic local milling business preserving traditional stone-ground cornmeal and regional food traditions.",
    "nt": [],
    "s": [],
-   "i": "127"
+   "i": "227"
   },
   {
    "n": "Wakefield Books",
@@ -1679,7 +3030,7 @@
    "b": "Independent bookstore. Local ownership preserved the community bookstore after the former chain location faced closure.",
    "nt": [],
    "s": [],
-   "i": "128"
+   "i": "228"
   },
   {
    "n": "The Farmer’s Daughter",
@@ -1692,7 +3043,7 @@
    "b": "Garden center and farm. Locally owned growing business with an established reputation for plants and garden design.",
    "nt": [],
    "s": [],
-   "i": "129"
+   "i": "229"
   },
   {
    "n": "Fearless Fish Market",
@@ -1705,7 +3056,7 @@
    "b": "Seafood market. Locally owned fishmonger and 2026 statewide readers’ choice for seafood market.",
    "nt": [],
    "s": [],
-   "i": "130"
+   "i": "230"
   },
   {
    "n": "Le Bec Sucré",
@@ -1718,7 +3069,7 @@
    "b": "French bakery. Independent bakery with strong regional attention for carefully made French pastries.",
    "nt": [],
    "s": [],
-   "i": "131"
+   "i": "231"
   },
   {
    "n": "Scialo Bros. Bakery",
@@ -1731,7 +3082,7 @@
    "b": "Italian bakery. Federal Hill baking institution founded in 1916 and revived under new ownership in 2021.",
    "nt": [],
    "s": [],
-   "i": "132"
+   "i": "232"
   },
   {
    "n": "Rhode Runner",
@@ -1744,7 +3095,7 @@
    "b": "Running store. Locally owned specialist serving the running community through fitting expertise and personal service.",
    "nt": [],
    "s": [],
-   "i": "133"
+   "i": "233"
   },
   {
    "n": "The Kayak Centre",
@@ -1757,7 +3108,7 @@
    "b": "Paddlesports. Independent paddlesports business with decades of instruction, outfitting, and community activity.",
    "nt": [],
    "s": [],
-   "i": "134"
+   "i": "234"
   },
   {
    "n": "M.R.T. Jewelers",
@@ -1770,7 +3121,7 @@
    "b": "Jeweler. Family jewelry business tracing its history to 1918, with longstanding design and repair expertise.",
    "nt": [],
    "s": [],
-   "i": "135"
+   "i": "235"
   },
   {
    "n": "Wickford Appliance",
@@ -1783,7 +3134,7 @@
    "b": "Appliances and service. Family-owned Rhode Island retailer with a long operating history and its own service business.",
    "nt": [],
    "s": [],
-   "i": "136"
+   "i": "236"
   },
   {
    "n": "New Harvest Coffee Roasters",
@@ -1796,7 +3147,7 @@
    "b": "Coffee roaster. Independent Rhode Island roaster with longstanding relationships across the local coffee community.",
    "nt": [],
    "s": [],
-   "i": "137"
+   "i": "237"
   },
   {
    "n": "Dave’s Coffee",
@@ -1809,7 +3160,7 @@
    "b": "Coffee roaster and cafes. Rhode Island-founded coffee business known for its roasting and locally made coffee syrup.",
    "nt": [],
    "s": [],
-   "i": "138"
+   "i": "238"
   },
   {
    "n": "Hauser Chocolatier",
@@ -1822,7 +3173,7 @@
    "b": "Chocolatier. Second-generation family business carrying forward Swiss chocolate-making traditions.",
    "nt": [],
    "s": [],
-   "i": "139"
+   "i": "239"
   },
   {
    "n": "Rhody Craft",
@@ -1835,7 +3186,7 @@
    "b": "Handmade gifts. Independent shop focused on Rhode Island artists, makers, and locally themed goods.",
    "nt": [],
    "s": [],
-   "i": "140"
+   "i": "240"
   },
   {
    "n": "Simple Pleasures",
@@ -1848,7 +3199,7 @@
    "b": "Gifts and home goods. Mother-and-daughter business serving local shoppers since 1992.",
    "nt": [],
    "s": [],
-   "i": "141"
+   "i": "241"
   },
   {
    "n": "Noll Guitars",
@@ -1861,7 +3212,7 @@
    "b": "Instrument repair. Established local luthier team specializing in guitar repair, restoration, and custom work.",
    "nt": [],
    "s": [],
-   "i": "142"
+   "i": "242"
   },
   {
    "n": "Empire Guitars",
@@ -1874,7 +3225,7 @@
    "b": "Musical instruments. Locally owned music store with two decades of vintage-instrument and specialist-service experience.",
    "nt": [],
    "s": [],
-   "i": "143"
+   "i": "243"
   },
   {
    "n": "Ten Speed Spokes",
@@ -1887,7 +3238,7 @@
    "b": "Bicycle shop. Longstanding independent bike shop with documented support for Newport cycling initiatives.",
    "nt": [],
    "s": [],
-   "i": "144"
+   "i": "244"
   },
   {
    "n": "Dash Bicycle",
@@ -1900,7 +3251,7 @@
    "b": "Bicycle shop. Founded by local bicycle couriers; neighborhood-focused repairs, equipment, and cycling support.",
    "nt": [],
    "s": [],
-   "i": "145"
+   "i": "245"
   },
   {
    "n": "Pezza Farm & Garden Center",
@@ -1913,7 +3264,7 @@
    "b": "Farm and garden center. Four generations of family farming, with roots dating to 1947.",
    "nt": [],
    "s": [],
-   "i": "146"
+   "i": "246"
   },
   {
    "n": "Frerichs Farm",
@@ -1926,7 +3277,7 @@
    "b": "Farm and garden center. Family-run destination with established gardening, pumpkin-season, and community traditions.",
    "nt": [],
    "s": [],
-   "i": "147"
+   "i": "247"
   },
   {
    "n": "Confreda Farms",
@@ -1939,7 +3290,7 @@
    "b": "Farm and farm market. Rhode Island family farming since 1922, connecting generations of customers with local produce.",
    "nt": [],
    "s": [],
-   "i": "148"
+   "i": "248"
   },
   {
    "n": "Barden Family Orchard",
@@ -1952,7 +3303,7 @@
    "b": "Orchard. Family orchard established in 1931, with longstanding seasonal picking traditions.",
    "nt": [],
    "s": [],
-   "i": "149"
+   "i": "249"
   },
   {
    "n": "Salisbury Farm",
@@ -1965,7 +3316,7 @@
    "b": "Farm. Multigenerational family farm with deep local roots and seasonal community activities.",
    "nt": [],
    "s": [],
-   "i": "150"
+   "i": "250"
   },
   {
    "n": "Robert’s Musical Instruments",
@@ -1978,7 +3329,7 @@
    "b": "Music store. Longstanding locally owned instrument business supporting students, families, and working musicians.",
    "nt": [],
    "s": [],
-   "i": "151"
+   "i": "251"
   },
   {
    "n": "Olympic Records",
@@ -1991,7 +3342,7 @@
    "b": "Record store. Owner-operated vinyl shop serving collectors and neighborhood music fans since 2011.",
    "nt": [],
    "s": [],
-   "i": "152"
+   "i": "252"
   },
   {
    "n": "Armageddon Shop",
@@ -2004,7 +3355,7 @@
    "b": "Record store. Independent record shop with deep connections to punk, metal, and underground music.",
    "nt": [],
    "s": [],
-   "i": "153"
+   "i": "253"
   },
   {
    "n": "In Your Ear Records",
@@ -2017,7 +3368,7 @@
    "b": "Record store. Established independent record business with a substantial collector following and current Warren storefront.",
    "nt": [],
    "s": [],
-   "i": "154"
+   "i": "254"
   },
   {
    "n": "Symposium Books",
@@ -2030,7 +3381,7 @@
    "b": "Independent bookstore. Locally owned downtown bookseller with more than twenty years of community presence.",
    "nt": [],
    "s": [],
-   "i": "155"
+   "i": "255"
   },
   {
    "n": "Paper Nautilus Books",
@@ -2043,7 +3394,7 @@
    "b": "Used and rare books. Independent bookselling since 1996, with a longstanding reputation for carefully selected used books.",
    "nt": [],
    "s": [],
-   "i": "156"
+   "i": "256"
   },
   {
    "n": "Ink Fish Books",
@@ -2056,7 +3407,7 @@
    "b": "Independent bookstore. Locally owned bookstore recognized for community involvement and connections with local food businesses.",
    "nt": [],
    "s": [],
-   "i": "157"
+   "i": "257"
   },
   {
    "n": "Heartleaf Books",
@@ -2069,7 +3420,7 @@
    "b": "Cooperative bookstore. Community-oriented cooperative bookstore recognized in local independent-shopping coverage.",
    "nt": [],
    "s": [],
-   "i": "158"
+   "i": "258"
   },
   {
    "n": "Riffraff Bookstore & Bar",
@@ -2082,7 +3433,7 @@
    "b": "Bookstore and bar. Independent literary gathering place with author events and locally rooted ownership.",
    "nt": [],
    "s": [],
-   "i": "159"
+   "i": "259"
   },
   {
    "n": "Martin House Books",
@@ -2095,7 +3446,7 @@
    "b": "Independent bookstore. Locally owned downtown bookstore combining books, events, and a community gathering space.",
    "nt": [],
    "s": [],
-   "i": "160"
+   "i": "260"
   },
   {
    "n": "Queen of Hearts / Modern Love",
@@ -2108,7 +3459,7 @@
    "b": "Clothing, accessories and gifts. Local designer-owned retail business established through two complementary downtown shops.",
    "nt": [],
    "s": [],
-   "i": "161"
+   "i": "261"
   },
   {
    "n": "J Marcel",
@@ -2121,7 +3472,7 @@
    "b": "Clothing boutique. Locally owned Hope Street boutique with multiple Best of Rhode Island awards.",
    "nt": [],
    "s": [],
-   "i": "162"
+   "i": "262"
   },
   {
    "n": "Kreatelier",
@@ -2134,7 +3485,7 @@
    "b": "Textiles and home goods. Independent textile business combining original products, custom work, and local design expertise.",
    "nt": [],
    "s": [],
-   "i": "163"
+   "i": "263"
   },
   {
    "n": "Homestyle",
@@ -2147,7 +3498,7 @@
    "b": "Home goods and design. Owner-operated design shop with longstanding local presence and regional editorial recognition.",
    "nt": [],
    "s": [],
-   "i": "164"
+   "i": "264"
   },
   {
    "n": "Pleasant Surprise",
@@ -2160,7 +3511,7 @@
    "b": "Gifts. Family-run independent shop with a longstanding reputation for unusual and playful gifts.",
    "nt": [],
    "s": [],
-   "i": "165"
+   "i": "265"
   },
   {
    "n": "JW Graham / Yes! Gallery",
@@ -2173,7 +3524,7 @@
    "b": "Jewelry, art and gifts. Family-run village retail business supporting distinctive jewelry, artwork, and handmade goods.",
    "nt": [],
    "s": [],
-   "i": "166"
+   "i": "266"
   },
   {
    "n": "The World Store",
@@ -2186,7 +3537,7 @@
    "b": "Nature gifts and educational goods. Locally founded village shop serving nature enthusiasts and families since 1998.",
    "nt": [],
    "s": [],
-   "i": "167"
+   "i": "267"
   },
   {
    "n": "Beauty and the Bath",
@@ -2199,7 +3550,7 @@
    "b": "Bath and body gifts. Longstanding owner-operated boutique recognized in Yankee’s 2025 Rhode Island travel guide.",
    "nt": [],
    "s": [],
-   "i": "168"
+   "i": "268"
   },
   {
    "n": "Piccolo",
@@ -2212,7 +3563,7 @@
    "b": "Children’s boutique. Independent children’s store and 2026 statewide readers’ choice in its category.",
    "nt": [],
    "s": [],
-   "i": "169"
+   "i": "269"
   },
   {
    "n": "Feminine Fancies",
@@ -2225,7 +3576,7 @@
    "b": "Women’s clothing. Decades of local ownership and a 2026 statewide readers’ boutique award.",
    "nt": [],
    "s": [],
-   "i": "170"
+   "i": "270"
   },
   {
    "n": "Marc Allen Fine Clothiers",
@@ -2238,7 +3589,7 @@
    "b": "Men’s clothing. Local clothier recognized for charitable contributions and a 2026 statewide readers’ award.",
    "nt": [],
    "s": [],
-   "i": "171"
+   "i": "271"
   },
   {
    "n": "DISH Boutique",
@@ -2251,7 +3602,7 @@
    "b": "Clothing and accessories. Locally owned boutique since 2003, with attention to independent and sustainable fashion.",
    "nt": [],
    "s": [],
-   "i": "172"
+   "i": "272"
   },
   {
    "n": "Lazuli",
@@ -2264,7 +3615,7 @@
    "b": "Jewelry and handcrafted goods. Local maker-owned shop recognized for original jewelry and independent craftsmanship.",
    "nt": [],
    "s": [],
-   "i": "173"
+   "i": "273"
   },
   {
    "n": "Lindquist Object",
@@ -2277,7 +3628,7 @@
    "b": "Leather goods. Rhode Island design studio and workshop producing original, carefully crafted leather goods.",
    "nt": [],
    "s": [],
-   "i": "174"
+   "i": "274"
   },
   {
    "n": "Kent Stetson",
@@ -2290,7 +3641,7 @@
    "b": "Handbag designer. Independent Rhode Island designer whose distinctive handbags have attracted regional arts coverage.",
    "nt": [],
    "s": [],
-   "i": "175"
+   "i": "275"
   },
   {
    "n": "Newport Sea Salt Co.",
@@ -2303,7 +3654,7 @@
    "b": "Specialty food producer. Husband-and-wife local business producing sea salt connected directly to Rhode Island’s coast.",
    "nt": [],
    "s": [],
-   "i": "176"
+   "i": "276"
   },
   {
    "n": "Aura’s Chocolate Bar",
@@ -2316,7 +3667,7 @@
    "b": "Chocolatier. Family-supported artisan chocolate business rooted in its founder’s Venezuelan culinary background.",
    "nt": [],
    "s": [],
-   "i": "177"
+   "i": "277"
   },
   {
    "n": "Four Buds Floral Studio",
@@ -2329,7 +3680,7 @@
    "b": "Florist. Worker-owned studio reporting Providence readers’ florist awards in 2024, 2025, and 2026.",
    "nt": [],
    "s": [],
-   "i": "178"
+   "i": "278"
   },
   {
    "n": "Pastryland Bakery",
@@ -2342,7 +3693,7 @@
    "b": "Italian bakery. Family-owned bakery serving the community for more than four decades.",
    "nt": [],
    "s": [],
-   "i": "179"
+   "i": "279"
   },
   {
    "n": "Tony’s Colonial",
@@ -2355,7 +3706,7 @@
    "b": "Italian market. Federal Hill family business serving generations of customers since 1952.",
    "nt": [],
    "s": [],
-   "i": "180"
+   "i": "280"
   },
   {
    "n": "White Electric Coffee Co-op",
@@ -2368,7 +3719,7 @@
    "b": "Coffee shop. Neighborhood cafe established in 2000 and converted to worker ownership in 2021.",
    "nt": [],
    "s": [],
-   "i": "181"
+   "i": "281"
   },
   {
    "n": "Gardner’s Wharf Seafood",
@@ -2381,7 +3732,7 @@
    "b": "Seafood market. Independent waterfront fish market with longstanding ties to the local fishing community.",
    "nt": [],
    "s": [],
-   "i": "182"
+   "i": "282"
   },
   {
    "n": "Andrade’s Catch",
@@ -2394,7 +3745,7 @@
    "b": "Seafood market. Family seafood business operating since 1987, with strong connections to local shellfishing.",
    "nt": [],
    "s": [],
-   "i": "183"
+   "i": "283"
   },
   {
    "n": "The Local Catch",
@@ -2407,7 +3758,7 @@
    "b": "Seafood business. Fisherman-owned operation connecting Rhode Island catches directly with customers and farmers markets.",
    "nt": [],
    "s": [],
-   "i": "184"
+   "i": "284"
   },
   {
    "n": "Narragansett Creamery",
@@ -2420,7 +3771,7 @@
    "b": "Cheese maker. Family-owned Rhode Island creamery with award-winning cheeses and extensive local retail relationships.",
    "nt": [],
    "s": [],
-   "i": "185"
+   "i": "285"
   },
   {
    "n": "Navad Bakers",
@@ -2433,7 +3784,7 @@
    "b": "Artisan bakery. Independent bakery that grew through farmers markets and local partnerships; formerly Buns Bakery.",
    "nt": [],
    "s": [],
-   "i": "186"
+   "i": "286"
   },
   {
    "n": "Knead Doughnuts",
@@ -2446,7 +3797,7 @@
    "b": "Doughnut bakery. Rhode Island-founded business and 2026 readers’ choice for doughnuts.",
    "nt": [],
    "s": [],
-   "i": "187"
+   "i": "287"
   },
   {
    "n": "Ellie’s",
@@ -2459,7 +3810,7 @@
    "b": "Bakery and cafe. Locally owned bakery recognized for French-inspired pastry and its downtown presence.",
    "nt": [],
    "s": [],
-   "i": "188"
+   "i": "288"
   },
   {
    "n": "Clementine’s Homemade Ice Cream",
@@ -2472,7 +3823,7 @@
    "b": "Ice cream. Family-owned Rhode Island business that expanded through local demand; operates seasonally.",
    "nt": [],
    "s": [],
-   "i": "189"
+   "i": "289"
   },
   {
    "n": "Tricycle Ice Cream",
@@ -2485,7 +3836,7 @@
    "b": "Ice cream. Independent business grown from a local cart into a dedicated shop, specializing in creative frozen treats.",
    "nt": [],
    "s": [],
-   "i": "190"
+   "i": "290"
   },
   {
    "n": "Like No Udder",
@@ -2498,7 +3849,7 @@
    "b": "Vegan ice cream. Independent dairy-free specialist with a longstanding local following and a Hope Street storefront.",
    "nt": [],
    "s": [],
-   "i": "191"
+   "i": "291"
   },
   {
    "n": "Chariho Furniture",
@@ -2511,7 +3862,7 @@
    "b": "Furniture. Independent retailer established in 1987, emphasizing American craftsmanship and personalized selection.",
    "nt": [],
    "s": [],
-   "i": "192"
+   "i": "292"
   },
   {
    "n": "S&W TV & Appliance",
@@ -2524,7 +3875,7 @@
    "b": "Appliances. Longstanding Exter family business with local service relationships spanning decades.",
    "nt": [],
    "s": [],
-   "i": "193"
+   "i": "293"
   },
   {
    "n": "Island Animal",
@@ -2537,7 +3888,7 @@
    "b": "Pet supplies. Independent neighborhood shop whose customer feedback emphasizes knowledgeable, personal service.",
    "nt": [],
    "s": [],
-   "i": "194"
+   "i": "294"
   },
   {
    "n": "Bags by Iris",
@@ -2550,7 +3901,7 @@
    "b": "Clothing and accessories. Longstanding Main Street boutique with multiple neighborhood-favorite recognitions.",
    "nt": [],
    "s": [],
-   "i": "195"
+   "i": "295"
   },
   {
    "n": "The Mermaid’s Purl",
@@ -2563,7 +3914,7 @@
    "b": "Yarn and knitting supplies. Owner-operated shop since 2009, developed into a gathering place for local needle artists.",
    "nt": [],
    "s": [],
-   "i": "196"
+   "i": "296"
   },
   {
    "n": "Island Surf & Sport",
@@ -2576,7 +3927,7 @@
    "b": "Surf shop. Independent Aquidneck Island surf retailer with local roots dating to 1996.",
    "nt": [],
    "s": [],
-   "i": "197"
+   "i": "297"
   },
   {
    "n": "Fuzzy’s Fine Guitars",
@@ -2589,10 +3940,10 @@
    "b": "Music shop. Emerging owner-operated favorite recognized for repairs, lessons, open mics, and community music-making.",
    "nt": [],
    "s": [],
-   "i": "198"
+   "i": "298"
   },
   {
-   "i": "199",
+   "i": "299",
    "n": "Business 1 name goes here",
    "c": "Architecture and creative services",
    "a": "Street address goes here",
@@ -2605,7 +3956,7 @@
    "s": []
   },
   {
-   "i": "200",
+   "i": "300",
    "n": "Business 2 name goes here",
    "c": "Automotive",
    "a": "Street address goes here",
@@ -2618,7 +3969,7 @@
    "s": []
   },
   {
-   "i": "201",
+   "i": "301",
    "n": "Business 3 name goes here",
    "c": "Boating and recreation",
    "a": "Street address goes here",
@@ -2631,7 +3982,7 @@
    "s": []
   },
   {
-   "i": "202",
+   "i": "302",
    "n": "Business 4 name goes here",
    "c": "Building landscaping and home services",
    "a": "Street address goes here",
@@ -2644,7 +3995,7 @@
    "s": []
   },
   {
-   "i": "203",
+   "i": "303",
    "n": "Business 5 name goes here",
    "c": "Community and cultural resources",
    "a": "Street address goes here",
@@ -2657,7 +4008,7 @@
    "s": []
   },
   {
-   "i": "204",
+   "i": "304",
    "n": "Business 6 name goes here",
    "c": "Farms and flowers",
    "a": "Street address goes here",
@@ -2670,7 +4021,7 @@
    "s": []
   },
   {
-   "i": "205",
+   "i": "305",
    "n": "Business 7 name goes here",
    "c": "Finance law property and consulting",
    "a": "Street address goes here",
@@ -2683,20 +4034,7 @@
    "s": []
   },
   {
-   "i": "206",
-   "n": "Business 8 name goes here",
-   "c": "Food and drink",
-   "a": "Street address goes here",
-   "p": "401-000-0000",
-   "e": "",
-   "w": "",
-   "wl": "Website",
-   "b": "Business 8 description goes here.",
-   "nt": [],
-   "s": []
-  },
-  {
-   "i": "207",
+   "i": "306",
    "n": "Business 9 name goes here",
    "c": "Health beauty and fitness",
    "a": "Street address goes here",
@@ -2709,7 +4047,7 @@
    "s": []
   },
   {
-   "i": "208",
+   "i": "307",
    "n": "Business 10 name goes here",
    "c": "Lodging",
    "a": "Street address goes here",
@@ -2722,7 +4060,7 @@
    "s": []
   },
   {
-   "i": "209",
+   "i": "308",
    "n": "Business 11 name goes here",
    "c": "Pets",
    "a": "Street address goes here",
@@ -2735,7 +4073,7 @@
    "s": []
   },
   {
-   "i": "210",
+   "i": "309",
    "n": "Business 12 name goes here",
    "c": "Shops and gifts",
    "a": "Street address goes here",
@@ -2748,7 +4086,7 @@
    "s": []
   },
   {
-   "i": "211",
+   "i": "310",
    "n": "Business 13 name goes here",
    "c": "Architecture and creative services",
    "a": "Street address goes here",
@@ -2761,7 +4099,7 @@
    "s": []
   },
   {
-   "i": "212",
+   "i": "311",
    "n": "Business 14 name goes here",
    "c": "Automotive",
    "a": "Street address goes here",
@@ -2774,7 +4112,7 @@
    "s": []
   },
   {
-   "i": "213",
+   "i": "312",
    "n": "Business 15 name goes here",
    "c": "Boating and recreation",
    "a": "Street address goes here",
@@ -2787,7 +4125,7 @@
    "s": []
   },
   {
-   "i": "214",
+   "i": "313",
    "n": "Business 16 name goes here",
    "c": "Building landscaping and home services",
    "a": "Street address goes here",
@@ -2800,7 +4138,7 @@
    "s": []
   },
   {
-   "i": "215",
+   "i": "314",
    "n": "Business 17 name goes here",
    "c": "Community and cultural resources",
    "a": "Street address goes here",
@@ -2813,7 +4151,7 @@
    "s": []
   },
   {
-   "i": "216",
+   "i": "315",
    "n": "Business 18 name goes here",
    "c": "Farms and flowers",
    "a": "Street address goes here",
@@ -2826,7 +4164,7 @@
    "s": []
   },
   {
-   "i": "217",
+   "i": "316",
    "n": "Business 19 name goes here",
    "c": "Finance law property and consulting",
    "a": "Street address goes here",
@@ -2839,20 +4177,7 @@
    "s": []
   },
   {
-   "i": "218",
-   "n": "Business 20 name goes here",
-   "c": "Food and drink",
-   "a": "Street address goes here",
-   "p": "401-000-0000",
-   "e": "",
-   "w": "",
-   "wl": "Website",
-   "b": "Business 20 description goes here.",
-   "nt": [],
-   "s": []
-  },
-  {
-   "i": "219",
+   "i": "317",
    "n": "Business 21 name goes here",
    "c": "Health beauty and fitness",
    "a": "Street address goes here",
@@ -2865,7 +4190,7 @@
    "s": []
   },
   {
-   "i": "220",
+   "i": "318",
    "n": "Business 22 name goes here",
    "c": "Lodging",
    "a": "Street address goes here",
@@ -2878,7 +4203,7 @@
    "s": []
   },
   {
-   "i": "221",
+   "i": "319",
    "n": "Business 23 name goes here",
    "c": "Pets",
    "a": "Street address goes here",
@@ -2891,7 +4216,7 @@
    "s": []
   },
   {
-   "i": "222",
+   "i": "320",
    "n": "Business 24 name goes here",
    "c": "Shops and gifts",
    "a": "Street address goes here",
