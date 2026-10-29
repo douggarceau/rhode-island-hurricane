@@ -6,163 +6,1351 @@
    "title": "Beaches & Coastline",
    "items": [
     {
-     "name": "Beaches & Coastline: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Misquamicut State Beach",
+     "blurb": "An Atlantic beach destination for swimming, beach days, and coastal walks, with seasonal pavilion services.",
+     "address": "Westerly",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
     },
     {
-     "name": "Beaches & Coastline: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "East Beach",
+     "blurb": "A less-developed barrier beach with limited parking and fewer facilities than the larger state beaches.",
+     "address": "Charlestown",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
     },
     {
-     "name": "Beaches & Coastline: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Blue Shutters Town Beach",
+     "blurb": "A municipal ocean beach with seasonal facilities. Check Charlestown’s current parking and beach-pass rules.",
+     "address": "Charlestown",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    }
-   ]
-  },
-  {
-   "key": "walks",
-   "title": "Walks & Trails",
-   "items": [
-    {
-     "name": "Walks & Trails: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://charlestownri.org/index.asp?DE=00F6547F-9DE6-4B5B-A561-EB27BCC0BC93&SEC=74AE02F6-35B3-4D40-BB19-332CA1956158",
+     "src": "charlestownri.org"
     },
     {
-     "name": "Walks & Trails: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Charlestown Town Beach",
+     "blurb": "An oceanfront beach near the breachway. Nonresident seasonal passes are not accepted here; consult the town’s daily-access rules.",
+     "address": "Charlestown",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://charlestownri.org/index.asp?DE=00F6547F-9DE6-4B5B-A561-EB27BCC0BC93&SEC=74AE02F6-35B3-4D40-BB19-332CA1956158",
+     "src": "charlestownri.org"
     },
     {
-     "name": "Walks & Trails: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Charlestown Breachway",
+     "blurb": "Ocean beach and saltwater-fishing access beside the breachway.",
+     "address": "Charlestown",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "East Matunuck State Beach",
+     "blurb": "An ocean beach with seasonal pavilion services near the fishing village of Jerusalem.",
+     "address": "South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Scarborough North State Beach",
+     "blurb": "A substantial state beach for Atlantic surf, summer swimming, and shoreline walks.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Scarborough South State Beach",
+     "blurb": "The southern state-beach facility adjoining Scarborough North.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Roger W. Wheeler State Beach",
+     "blurb": "A family-oriented beach with a playground and seasonal amenities near Point Judith.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/beaches/roger-w-wheeler-state-beach",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Salty Brine State Beach",
+     "blurb": "A compact beach near the fishing docks, seafood restaurants, and Block Island ferry terminal.",
+     "address": "Narragansett / Galilee",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Narragansett Town Beach",
+     "blurb": "A signature surf beach near the Towers. Beach admission and parking are separate considerations; check municipal policies.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.narragansettri.gov/323/Narragansett-Town-Beach",
+     "src": "narragansettri.gov"
+    },
+    {
+     "name": "Easton’s Beach / First Beach",
+     "blurb": "An Atlantic-facing beach at the northern end of Cliff Walk, useful for combining a beach visit with coastal sightseeing.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportri.gov/visiting-newport/eastons-beach",
+     "src": "newportri.gov"
+    },
+    {
+     "name": "Sachuest Beach / Second Beach",
+     "blurb": "A broad sandy beach with swimming and surfing areas. Check which parking areas accept nonresidents.",
+     "address": "Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://middletownri.gov/Facilities/Facility/Details/Sachuest-Beach-Second-Beach-11",
+     "src": "middletownri.gov"
+    },
+    {
+     "name": "Third Beach",
+     "blurb": "A quieter cove beach. Seasonal parking restrictions apply, including resident-only lots.",
+     "address": "Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/beach-guide/",
+     "src": "discovernewport.org"
+    },
+    {
+     "name": "South Shore Beach",
+     "blurb": "A coastal beach offering open Atlantic views and a quieter rural setting. Municipal parking charges and seasonal services apply.",
+     "address": "Little Compton",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/beach-guide/",
+     "src": "discovernewport.org"
+    },
+    {
+     "name": "Goosewing Beach",
+     "blurb": "A beach and nature preserve reached on foot from South Shore Beach. Respect nesting-bird closures and marked habitat boundaries.",
+     "address": "Little Compton",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/beach-guide/",
+     "src": "discovernewport.org"
+    },
+    {
+     "name": "Mackerel Cove",
+     "blurb": "Jamestown’s town beach, suitable for a beach-and-village outing. Parking is limited and seasonal rules apply.",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/mackerelcove",
+     "src": "jamestownri.gov"
+    },
+    {
+     "name": "Oakland Beach",
+     "blurb": "A neighborhood waterfront destination for shoreline views and nearby clam-shack dining. Check current swimming advisories before entering the water.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitri.com/providence/beaches/",
+     "src": "visitri.com"
+    },
+    {
+     "name": "Fred Benson Town Beach",
+     "blurb": "A town-operated beach along Crescent Beach, with seasonal concessions, rentals, and visitor facilities.",
+     "address": "New Shoreham / Block Island",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/fred-benson-town-beach/8643/",
+     "src": "visitrhodeisland.com"
+    },
+    {
+     "name": "Mohegan Bluffs",
+     "blurb": "A dramatic coastal overlook above the Atlantic. Check stairway and beach-access notices; erosion has caused restrictions at the bottom of the stairs. Access notice: https://dem.ri.gov/press-releases/bottom-mohegan-bluffs-staircase-block-island-closed-until-further-notice-due-erosion",
+     "address": "New Shoreham / Block Island",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.blockislandinfo.com/blog/post/visitors-guide-to-mohegan-bluffs/",
+     "src": "blockislandinfo.com"
     }
    ]
   },
   {
    "key": "parks",
-   "title": "Parks & Sightseeing",
+   "title": "Parks & Scenic Outings",
    "items": [
     {
-     "name": "Parks & Sightseeing: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Beavertail State Park",
+     "blurb": "Rocky shoreline, ocean panoramas, walking routes, and lighthouse scenery. Particularly useful for a coastal sightseeing outing.",
+     "address": "Jamestown",
      "phone": "",
-     "hours": "Hours go here",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/beavertail-state-park",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Fort Wetherill State Park",
+     "blurb": "Former coastal defenses, wooded paths, coves, and elevated water views. Follow posted boundaries around the fortifications and cliffs.",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/fort-wetherill-state-park",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Fort Getty Park",
+     "blurb": "A town-owned waterfront park with old fortifications, shoreline, a boat ramp, and views across the West Passage.",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/rvcamping",
+     "src": "jamestownri.gov"
+    },
+    {
+     "name": "Fort Adams State Park",
+     "blurb": "Harbor views, waterfront grounds, and access to the historic fortress. Interior fort tours are a separate attraction.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Brenton Point State Park",
+     "blurb": "Ocean-facing open space along Ocean Drive, suited to picnics, kite watching, and coastal views.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Colt State Park",
+     "blurb": "Waterfront lawns, paths, picnic areas, and bay scenery. A useful anchor for a Bristol day trip.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/colt-state-park",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Haines Memorial State Park",
+     "blurb": "A waterfront park with picnic space and boating access near the East Bay Bike Path.",
+     "address": "East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Goddard Memorial State Park",
+     "blurb": "A large coastal park with woodland trails, picnic grounds, a beach, and recreation facilities.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/goddard-memorial-state-park",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Rocky Point State Park",
+     "blurb": "Bayfront walking and open space on the former amusement-park property, with a public fishing pier.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/rocky-point-state-park",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Lincoln Woods State Park",
+     "blurb": "Woodland recreation surrounding Olney Pond, with walking, paddling, and mountain-biking opportunities.",
+     "address": "Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Pulaski State Park",
+     "blurb": "Woodland recreation, trails, and a freshwater beach in northwestern Rhode Island.",
+     "address": "Glocester / Chepachet",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Snake Den State Park",
+     "blurb": "An undeveloped park with woodland trails and a working-farm landscape.",
+     "address": "Johnston",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/find",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Roger Williams Park",
+     "blurb": "A major city park containing gardens, ponds, walking areas, the zoo, and several separately operated attractions.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/city-of-providence-parks-and-playgrounds/",
+     "src": "providenceri.gov"
+    },
+    {
+     "name": "Slater Memorial Park",
+     "blurb": "A large municipal park with recreation facilities, historic carousel, gardens, picnic areas, and connections to the Ten Mile River Greenway.",
+     "address": "Pawtucket",
+     "phone": "",
+     "hours": "",
+     "url": "https://pawtucketri.gov/parks-and-recreation/playgrounds-courts-and-parks/",
+     "src": "pawtucketri.gov"
+    },
+    {
+     "name": "Ninigret Park",
+     "blurb": "A municipal recreation destination with open space and access to the Frosty Drew campus. Distinct from neighboring Ninigret National Wildlife Refuge.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://charlestownri.myrec.com/info/facilities/details.aspx?FacilityID=14697",
+     "src": "charlestownri.myrec.com"
+    }
+   ]
+  },
+  {
+   "key": "walks",
+   "title": "Walks, Hikes & Wildlife",
+   "items": [
+    {
+     "name": "Cliff Walk",
+     "blurb": "A 3.5-mile coastal walk combining ocean scenery and mansion views. Terrain varies; it is not uniformly paved or accessible. Note: The city posts a detour between Narragansett Avenue and Webster Street.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportri.gov/city-hall/departments/public-services/tree-parks-open-space/cliff-walk",
+     "src": "newportri.gov"
+    },
+    {
+     "name": "Sachuest Point National Wildlife Refuge",
+     "blurb": "Coastal walking and birdwatching, especially valuable for migratory and wintering birds. Storms can affect the access road.",
+     "address": "Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.fws.gov/refuge/sachuest-point",
+     "src": "fws.gov"
+    },
+    {
+     "name": "Trustom Pond National Wildlife Refuge",
+     "blurb": "Walking, wildlife photography, and birdwatching through varied coastal habitats. Location note: The visitor entrance is on Matunuck Schoolhouse Road in South Kingstown.",
+     "address": "South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.fws.gov/refuge/trustom-pond",
+     "src": "fws.gov"
+    },
+    {
+     "name": "Ninigret National Wildlife Refuge",
+     "blurb": "Salt-pond and woodland exploration, including trails associated with the Kettle Pond Visitor Center. Note: The Salt Pond Unit is scheduled to close November 14–15, 2026, for the Veterans Deer Hunt.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.fws.gov/refuge/ninigret",
+     "src": "fws.gov"
+    },
+    {
+     "name": "Block Island National Wildlife Refuge",
+     "blurb": "Coastal habitat and wildlife observation, with particularly strong migratory-bird interest.",
+     "address": "New Shoreham",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.fws.gov/refuge/block-island/visit-us",
+     "src": "fws.gov"
+    },
+    {
+     "name": "Neutaconkanut Hill",
+     "blurb": "An urban woodland escape with trails, elevated views, and recreation facilities in the Silver Lake neighborhood.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/parks/neutaconkanut-hill-and-park/",
+     "src": "providenceri.gov"
+    },
+    {
+     "name": "Weetamoo Woods",
+     "blurb": "A substantial trail network through woodland and historic rural landscapes. Expect roots, rocks, and seasonally wet sections.",
+     "address": "Tiverton",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/weetamoo-woods/8683/",
+     "src": "visitrhodeisland.com"
+    },
+    {
+     "name": "Claire D. Mcintosh Wildlife Refuge",
+     "blurb": "Walking and wildlife observation.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
      "url": "",
      "src": ""
     },
     {
-     "name": "Parks & Sightseeing: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Davis Memorial Wildlife Refuge",
+     "blurb": "Nature walks and birdwatching.",
+     "address": "North Kingstown",
      "phone": "",
-     "hours": "Hours go here",
+     "hours": "",
      "url": "",
      "src": ""
     },
     {
-     "name": "Parks & Sightseeing: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Emilie Ruecker Wildlife Refuge",
+     "blurb": "Quiet walks and wildlife observation.",
+     "address": "Tiverton",
      "phone": "",
-     "hours": "Hours go here",
+     "hours": "",
      "url": "",
      "src": ""
+    },
+    {
+     "name": "Fisherville Brook Wildlife Refuge",
+     "blurb": "Hiking and nature photography.",
+     "address": "Exeter",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Fort Wildlife Refuge",
+     "blurb": "Woodland hiking and birdwatching.",
+     "address": "North Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "George B. Parker Woodland",
+     "blurb": "Woodland walks and nature study.",
+     "address": "Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Lathrop Wildlife Refuge",
+     "blurb": "Walking and birdwatching.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Lewis-Dickens Farm Wildlife Refuge",
+     "blurb": "Island walking and wildlife observation.",
+     "address": "New Shoreham",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Long Pond Woods",
+     "blurb": "Woodland hiking and nature study.",
+     "address": "Hopkinton",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Maxwell Mays Wildlife Refuge",
+     "blurb": "Walking and wildlife observation.",
+     "address": "Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Powder Mill Ledges Wildlife Refuge",
+     "blurb": "Nature walks and birdwatching.",
+     "address": "Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Touisset Marsh Wildlife Refuge",
+     "blurb": "Walking and wildlife observation.",
+     "address": "Warren",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Waterman Pond Wildlife Refuge",
+     "blurb": "Nature exploration; expect rougher conditions.",
+     "address": "Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    }
+   ]
+  },
+  {
+   "key": "bike",
+   "title": "Bike Paths",
+   "items": [
+    {
+     "name": "East Bay Bike Path",
+     "blurb": "Paved shared-use path. Approximately 14.5 miles. India Point Park to Independence Park, passing through East Providence, Barrington, and Warren. Bay views, village stops, and longer recreational rides. Note: This path does not continue to Newport.",
+     "address": "Providence to Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://dot.ri.gov/travel/bikeri/eastbay.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Washington Secondary Bike Path",
+     "blurb": "Paved rail-trail. Approximately 19 miles. Longer inland rides through Cranston, Warwick, West Warwick, and Coventry. Note: Cranston Bike Path, Warwick Bike Path, West Warwick Greenway, Coventry Greenway, and Trestle Trail are sections of this corridor, not five unrelated trails.",
+     "address": "Cranston to Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/BikeRI/washington.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Blackstone River Bikeway",
+     "blurb": "Separated path plus connecting on-road and off-road segments. RIDOT describes an 18.2-mile network, including an 11.6-mile path between Cumberland and Woonsocket. River scenery and industrial-history outings. Some segments share the road with traffic.",
+     "address": "Northern Rhode Island",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/bikeri/blackstone.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "William C. O’neill / South County Bike Path",
+     "blurb": "Paved shared-use path. Approximately 7.8 miles. Kingston Station toward Mumford Road in Narragansett, with a separate URI connector. A rail-trail outing through South County.",
+     "address": "South Kingstown to Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/BikeRI/southcounty.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Ten Mile River Greenway",
+     "blurb": "Paved shared-use greenway. Approximately 3 miles. A shorter ride near Slater Park and the James V. Turner Reservoir. Note: The route includes rolling terrain.",
+     "address": "Pawtucket and East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/BikeRI/tenmile.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Quonset / Davisville Bike Path",
+     "blurb": "Separated paved path. Approximately 3.7 miles. Post Road toward the Calf Pasture Point area. A relatively short recreational ride with coastal access nearby.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/BikeRI/quonset.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Fred Lippitt Woonasquatucket River Greenway",
+     "blurb": "Mixed on-road and off-road route. Approximately 5 miles in RIDOT’s description. Urban cycling and connections through the Woonasquatucket corridor. Note: Road sections and busy crossings require traffic awareness.",
+     "address": "Providence and Johnston",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/BikeRI/woonasquatucket.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Newport Bike Path",
+     "blurb": "Off-road urban path network. Nearly 3 miles including its spur. Connections between the North End, CCRI area, and Newport Gateway Center. Note: This does not provide bicycle access across the Pell Bridge.",
+     "address": "Newport and Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/BikeRI/newport-bike-path.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Warren Bike Path",
+     "blurb": "Short paved rail-trail. Approximately 1 mile. Eastern Warren between the Kickemuit area and Long Lane. Note: Connections to the East Bay Bike Path involve streets.",
+     "address": "Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/BikeRI/warren.php",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Burrillville Bike Path",
+     "blurb": "Paved rail-trail. Approximately 1.2 miles. Pascoag to Harrisville. A shorter ride through woods and wetlands.",
+     "address": "Burrillville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.traillink.com/trail/burrillville-bike-path/",
+     "src": "traillink.com"
+    },
+    {
+     "name": "Colt State Park Cycling Paths",
+     "blurb": "Paved park paths and connecting routes. Waterfront recreational cycling and shorter loops within a larger park outing. Note: This is a park cycling network, not a separate long-distance rail-trail.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/colt-state-park",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Warwick City Park / Buttonwoods Paths",
+     "blurb": "Paved municipal park paths. The city identifies approximately 3 miles of paved bicycle paths. Short rides combined with playgrounds, picnic areas, and shoreline scenery.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.warwickri.gov/351/Parks-Playgrounds",
+     "src": "warwickri.gov"
+    }
+   ]
+  },
+  {
+   "key": "mtb",
+   "title": "Mountain-Bike Trails",
+   "items": [
+    {
+     "name": "Arcadia Management Area",
+     "blurb": "A large forest network with mountain biking and other outdoor recreation.",
+     "address": "Southwestern Rhode Island",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Big River Management Area",
+     "blurb": "An extensive, interconnected trail system; navigation preparation is particularly useful.",
+     "address": "West Greenwich area",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Burlingame",
+     "blurb": "Singletrack and woodland riding near the park and campground.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Lincoln Woods",
+     "blurb": "Rocky woodland riding with technical features and varied route choices.",
+     "address": "Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Diamond Hill",
+     "blurb": "Cross-country and technical riding, including advanced jumps and drops.",
+     "address": "Cumberland",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Woody Hill",
+     "blurb": "Trails ranging from approachable riding to more technical terrain.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Ryan Park",
+     "blurb": "Generally gentler trails that can suit newer mountain bikers.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Carolina Management Area",
+     "blurb": "Gravel and cross-country riding, with some more technical trail options.",
+     "address": "Richmond",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    }
+   ]
+  },
+  {
+   "key": "lights",
+   "title": "Lighthouses",
+   "items": [
+    {
+     "name": "Beavertail Lighthouse Museum",
+     "blurb": "Maritime history at one of Rhode Island’s defining coastal landmarks. Museum hours are seasonal; tower climbs occur only on announced dates.",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.beavertaillight.org/visitor-info/",
+     "src": "beavertaillight.org"
+    },
+    {
+     "name": "Rose Island Lighthouse",
+     "blurb": "An offshore lighthouse visit requiring transport arrangements. Overnight stays are also offered through the lighthouse organization.",
+     "address": "Newport Harbor",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/arts-culture-sightseeing/lighthouses/",
+     "src": "visitrhodeisland.com"
+    },
+    {
+     "name": "Watch Hill Lighthouse",
+     "blurb": "Walk to the lighthouse property from the village. The museum is seasonal; the tower and adjacent structures are not generally open.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://watchhilllighthousekeepers.org/",
+     "src": "watchhilllighthousekeepers.org"
+    },
+    {
+     "name": "North Light",
+     "blurb": "A lighthouse and seasonal interpretive museum reached by walking along the shore near the island’s northern tip. Note: The town lists the museum as closed after Columbus Day.",
+     "address": "New Shoreham",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newshorehamri.gov/322/North-Light",
+     "src": "newshorehamri.gov"
+    },
+    {
+     "name": "Southeast Lighthouse",
+     "blurb": "A landmark near Mohegan Bluffs with seasonal museum and guided tower visits. Note: The published schedule lists winter closure; grounds have separate access hours.",
+     "address": "New Shoreham",
+     "phone": "",
+     "hours": "",
+     "url": "https://southeastlighthouse.org/",
+     "src": "southeastlighthouse.org"
+    },
+    {
+     "name": "Pomham Rocks Lighthouse",
+     "blurb": "An offshore lighthouse visited through the Friends’ escorted boat tours. Note: Closed for the season. Private boat, canoe, and kayak landings are not permitted.",
+     "address": "East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://pomhamrockslighthouse.org/",
+     "src": "pomhamrockslighthouse.org"
+    },
+    {
+     "name": "Point Judith Lighthouse",
+     "blurb": "A coastal landmark at an active Coast Guard station. Treat this as a viewing destination; do not promise tower or station-ground access.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/arts-culture-sightseeing/lighthouses/",
+     "src": "visitrhodeisland.com"
+    },
+    {
+     "name": "Conimicut Lighthouse View",
+     "blurb": "View the offshore lighthouse from Conimicut Point Park or the water. The lighthouse itself is not a walk-in attraction.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/arts-culture-sightseeing/lighthouses/",
+     "src": "visitrhodeisland.com"
+    }
+   ]
+  },
+  {
+   "key": "history",
+   "title": "History & Museums",
+   "items": [
+    {
+     "name": "The Breakers",
+     "blurb": "The Vanderbilt mansion and a central introduction to Newport’s Gilded Age architecture. Note: Terrace restoration affects portions of the exterior visitor experience.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Marble House",
+     "blurb": "A Vanderbilt house emphasizing monumental architecture and elaborate interiors.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "The Elms",
+     "blurb": "A mansion with formal gardens and historic household technology. Note: The operator announces reopening November 16, 2026, with a new timed-ticket experience.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Rosecliff",
+     "blurb": "Architecture, a grand ballroom, and changing exhibitions. Consult the current exhibition and opening calendar.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Kings Cote / Kingscote",
+     "blurb": "A Gothic Revival house representing an earlier phase of Newport’s summer-estate development. Note: Listed as closed for the season.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Chateau-Sur-Mer",
+     "blurb": "A Victorian house with elaborate decorative interiors. Note: The operator announces reopening November 21, 2026.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Rough Point Museum",
+     "blurb": "Doris Duke’s former home, with art, interiors, and coastal grounds interpreted by the Newport Restoration Foundation.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportrestoration.org/plan-a-visit/",
+     "src": "newportrestoration.org"
+    },
+    {
+     "name": "Lippitt House Museum",
+     "blurb": "A preserved Victorian home interpreting industry, immigration, design, and domestic life. Tours follow a limited seasonal calendar.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.preserveri.org/visit-lippitt-house-museum",
+     "src": "preserveri.org"
+    },
+    {
+     "name": "The Museum at the John Brown House",
+     "blurb": "A historic house used to explore Rhode Island’s social, commercial, and family history.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/visit/",
+     "src": "rihs.org"
+    },
+    {
+     "name": "Museum of Work & Culture",
+     "blurb": "The stories of immigrants, workers, and families in the Blackstone Valley’s industrial communities.",
+     "address": "Woonsocket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/visit/",
+     "src": "rihs.org"
+    },
+    {
+     "name": "Old Slater Mill",
+     "blurb": "National Park Service interpretation of early textile manufacturing and the changes brought by industrialization. Note: Tour seasons vary; neighboring historic buildings may have separate closures.",
+     "address": "Pawtucket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.nps.gov/places/slater-mill.htm",
+     "src": "nps.gov"
+    },
+    {
+     "name": "Smith’s Castle",
+     "blurb": "A historic house and waterfront landscape interpreting four centuries of Rhode Island history, including its plantation past.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.smithscastle.org/visit/",
+     "src": "smithscastle.org"
+    },
+    {
+     "name": "Gilbert Stuart Birthplace & Museum",
+     "blurb": "The restored Stuart family home, mill setting, and exhibits about the portrait artist. Regular visits are seasonal.",
+     "address": "North Kingstown / Saunderstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://gilbertstuartmuseum.org/visit-our-museum/",
+     "src": "gilbertstuartmuseum.org"
+    },
+    {
+     "name": "South County Museum",
+     "blurb": "Rural, coastal, craft, and village history on the Canonchet Farm grounds. Note: Regular 2026 seasonal operation has ended; consult special programs and group-visit arrangements.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountymuseum.org/",
+     "src": "southcountymuseum.org"
+    },
+    {
+     "name": "Newport Historical Society Museum & Tours",
+     "blurb": "Exhibitions and walking tours exploring Newport’s history beyond the mansion district.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://newporthistory.org/",
+     "src": "newporthistory.org"
+    },
+    {
+     "name": "Fort Adams Interior Tours",
+     "blurb": "Guided or self-guided exploration of the coastal fortress, with access determined by the selected tour.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://fortadams.org/",
+     "src": "fortadams.org"
+    },
+    {
+     "name": "Seabee Museum & Memorial Park",
+     "blurb": "Quonset huts, artifacts, and exhibits at the original Rhode Island home of the Navy’s Seabees.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://seabeesmuseum.com/visit/",
+     "src": "seabeesmuseum.com"
+    },
+    {
+     "name": "New England Wireless & Steam Museum",
+     "blurb": "Historic steam machinery and early wireless technology. Note: Regular 2026 Saturday opening dates ended October 24; check special events.",
+     "address": "East Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://newsm.org/visit/",
+     "src": "newsm.org"
+    },
+    {
+     "name": "Clouds Hill Museum",
+     "blurb": "A Victorian house, carriage collection, and grounds. Visits take place during announced openings or by appointment.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.cloudshill.org/",
+     "src": "cloudshill.org"
+    },
+    {
+     "name": "Touro Synagogue",
+     "blurb": "A major site in American Jewish history and religious liberty. Public tours require registration and follow a specific calendar.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.thetourosynagogue.org/tours/",
+     "src": "thetourosynagogue.org"
+    },
+    {
+     "name": "First Baptist Church in America",
+     "blurb": "A historic meetinghouse connected to Roger Williams and the history of religious liberty. Consult the church’s own tour arrangements.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.firstbaptistchurchinamerica.org/tours-and-gift-shop/",
+     "src": "firstbaptistchurchinamerica.org"
+    },
+    {
+     "name": "Hearthside House / Great Road Heritage Campus",
+     "blurb": "Historic-house interpretation and related heritage buildings presented through scheduled tours and programs.",
+     "address": "Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://greatroadheritagecampus.org/",
+     "src": "greatroadheritagecampus.org"
+    }
+   ]
+  },
+  {
+   "key": "art",
+   "title": "Art & Gardens",
+   "items": [
+    {
+     "name": "Risd Museum",
+     "blurb": "Art and design collections with changing exhibitions, public programs, and substantial indoor exploration.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://risdmuseum.org/",
+     "src": "risdmuseum.org"
+    },
+    {
+     "name": "Newport Art Museum",
+     "blurb": "Historic buildings, regional and contemporary art, exhibitions, and educational programs.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://newportartmuseum.org/",
+     "src": "newportartmuseum.org"
+    },
+    {
+     "name": "Jamestown Arts Center",
+     "blurb": "A nonprofit destination for exhibitions, classes, performances, films, and artist talks.",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.jamestownartcenter.org/",
+     "src": "jamestownartcenter.org"
+    },
+    {
+     "name": "Warwick Center for the Arts",
+     "blurb": "Local and regional art exhibitions, classes, workshops, and community programs in Apponaug.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://warwickcfa.org/",
+     "src": "warwickcfa.org"
+    },
+    {
+     "name": "As220",
+     "blurb": "An independent nonprofit arts organization offering galleries, performances, workshops, and community creative spaces.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://as220.org/",
+     "src": "as220.org"
+    },
+    {
+     "name": "Waterfire & Waterfire Arts Center",
+     "blurb": "Downtown river installations on announced lighting dates, plus exhibitions and programs at the Arts Center. Note: WaterFire is not a nightly attraction.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://waterfire.org/",
+     "src": "waterfire.org"
+    },
+    {
+     "name": "Blithewold",
+     "blurb": "A historic mansion, gardens, and arboretum offering seasonal horticultural interest and special programs. Note: Mansion access can change for private events.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.blithewold.org/faq/",
+     "src": "blithewold.org"
+    },
+    {
+     "name": "Green Animals Topiary Garden",
+     "blurb": "A seasonal garden attraction known for sculpted plant forms and its historic coastal setting.",
+     "address": "Portsmouth",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportmansions.org/plan-a-visit/mansions-gardens/",
+     "src": "newportmansions.org"
+    },
+    {
+     "name": "Roger Williams Park Botanical Center",
+     "blurb": "Indoor greenhouses and outdoor gardens offering a useful cold-weather or rainy-day outing.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/botanical-center/",
+     "src": "providenceri.gov"
+    },
+    {
+     "name": "Swan Point Cemetery",
+     "blurb": "A historic garden cemetery welcoming quiet exploration under its visitor rules. Note: Respect services and graveside privacy; photography restrictions apply.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://swanpointcemetery.com/the-estate/etiquette-when-visiting/",
+     "src": "swanpointcemetery.com"
+    }
+   ]
+  },
+  {
+   "key": "family",
+   "title": "Family & Science",
+   "items": [
+    {
+     "name": "Roger Williams Park Zoo",
+     "blurb": "Animal habitats, educational programs, and separately scheduled seasonal attractions.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rwpzoo.org/",
+     "src": "rwpzoo.org"
+    },
+    {
+     "name": "Providence Children’s Museum",
+     "blurb": "Hands-on learning and play designed especially for children and their accompanying adults.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://providencechildrensmuseum.org/",
+     "src": "providencechildrensmuseum.org"
+    },
+    {
+     "name": "Biomes Marine Biology Center",
+     "blurb": "A private marine-education attraction focused on New England marine life and hands-on learning.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.biomescenter.com/",
+     "src": "biomescenter.com"
+    },
+    {
+     "name": "Save the Bay’s Hamilton Family Aquarium",
+     "blurb": "Marine-life exhibits and interactive learning focused on Narragansett Bay.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://savebay.org/family-fun/aquarium/plan-your-visit/",
+     "src": "savebay.org"
+    },
+    {
+     "name": "Audubon Nature Center & Aquarium",
+     "blurb": "Indoor nature exhibits and marine life, with outdoor exploration at the associated refuge.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://asri.org/",
+     "src": "asri.org"
+    },
+    {
+     "name": "Crescent Park Looff Carousel",
+     "blurb": "A historic carousel and local preservation landmark. Check the seasonal operating calendar.",
+     "address": "East Providence / Riverside",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.crescentparkcarousel.org/",
+     "src": "crescentparkcarousel.org"
+    },
+    {
+     "name": "Flying Horse Merry-Go-Round",
+     "blurb": "A historic seasonal children’s carousel in the village. Check current rider restrictions and opening dates.",
+     "address": "Westerly / Watch Hill",
+     "phone": "",
+     "hours": "",
+     "url": "https://watchhillfiredistrict.org/merry-go-round/",
+     "src": "watchhillfiredistrict.org"
+    },
+    {
+     "name": "Museum of Natural History & Planetarium",
+     "blurb": "Natural-history exhibits in Roger Williams Park, with separately scheduled planetarium programs.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/museum/",
+     "src": "providenceri.gov"
+    },
+    {
+     "name": "Frosty Drew Observatory & Science Center",
+     "blurb": "Public astronomy programs at Ninigret Park. Telescope viewing depends on weather, and some sessions require tickets.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://frostydrew.org/observatory/visiting.php",
+     "src": "frostydrew.org"
+    },
+    {
+     "name": "Norman Bird Sanctuary",
+     "blurb": "Trails, nature programs, and a hands-on Curiosity Lab. Check in at the Welcome Center before hiking. Note: Dogs and trail cycling are prohibited; service-animal provisions apply.",
+     "address": "Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://normanbirdsanctuary.org/visit/",
+     "src": "normanbirdsanctuary.org"
     }
    ]
   },
   {
    "key": "water",
-   "title": "Ferry & Boat Tours",
+   "title": "Ferries & Boat Trips",
    "items": [
     {
-     "name": "Ferry & Boat Tours: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Block Island Ferry",
+     "blurb": "The principal Rhode Island ferry gateway to Block Island. Choose the appropriate passenger or vehicle service and check current departures.",
+     "address": "Narragansett / Point Judith",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.blockislandferry.com/",
+     "src": "blockislandferry.com"
     },
     {
-     "name": "Ferry & Boat Tours: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Prudence & Bay Islands Transport",
+     "blurb": "Ferry service connecting Bristol and Prudence Island. Vehicle reservations and the current seasonal timetable require advance attention.",
+     "address": "Bristol",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://prudencebayislandstransport.com/",
+     "src": "prudencebayislandstransport.com"
     },
     {
-     "name": "Ferry & Boat Tours: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Jamestown Newport Ferry",
+     "blurb": "Seasonal passenger transportation linking waterfront destinations. Check which stops and services operate on the chosen date.",
+     "address": "Jamestown and Newport",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://cruiseri.com/",
+     "src": "cruiseri.com"
+    },
+    {
+     "name": "Coastal Queen / Cruise RI",
+     "blurb": "Scenic and themed cruises with departure points varying by trip. Consult the specific cruise listing.",
+     "address": "Narragansett Bay",
+     "phone": "",
+     "hours": "",
+     "url": "https://cruiseri.com/",
+     "src": "cruiseri.com"
+    },
+    {
+     "name": "Providence River Boat Company",
+     "blurb": "Narrated river tours offering views of downtown from the water. Note: Confirm boarding arrangements and accessibility directly with the operator.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://providenceriverboat.com/faqs",
+     "src": "providenceriverboat.com"
+    },
+    {
+     "name": "La Gondola",
+     "blurb": "Private Venetian-style gondola trips along the downtown waterways, with seasonal and special-event options.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.gondolari.com/",
+     "src": "gondolari.com"
+    },
+    {
+     "name": "Gansett Cruises",
+     "blurb": "Narrated harbor and bay cruises, including seasonal sunset departures.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://gansettcruises.com/",
+     "src": "gansettcruises.com"
+    },
+    {
+     "name": "Schooner Madeleine",
+     "blurb": "Day and sunset sailing aboard a traditional-style schooner on Newport Harbor and Narragansett Bay.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://sail-newport.com/our-boats/schooner-madeleine/",
+     "src": "sail-newport.com"
+    },
+    {
+     "name": "Blackstone Valley Explorer",
+     "blurb": "River tours interpreting the valley’s ecology and industrial heritage. Departure locations and schedules are program-specific.",
+     "address": "Central Falls / Blackstone Valley",
+     "phone": "",
+     "hours": "",
+     "url": "https://bvtcri.org/explorer",
+     "src": "bvtcri.org"
+    },
+    {
+     "name": "Save the Bay Seal & Nature Tours",
+     "blurb": "Seasonal wildlife trips interpreting harbor seals and the bay’s environment. Note: Wildlife sightings are not guaranteed; confirm the departure port.",
+     "address": "Narragansett Bay",
+     "phone": "",
+     "hours": "",
+     "url": "https://savebay.org/family-fun/seals/",
+     "src": "savebay.org"
     }
    ]
   },
   {
    "key": "boating",
-   "title": "Boating & Launches",
+   "title": "Paddling & Launches",
    "items": [
     {
-     "name": "Boating & Launches: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Allen Harbor Access",
+     "blurb": "A municipal access point for exploring the harbor and connected bay waters.",
+     "address": "North Kingstown",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.northkingstownri.gov/1154/Rights-of-Way-to-the-Shore",
+     "src": "northkingstownri.gov"
     },
     {
-     "name": "Boating & Launches: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Wilson Park Water Access",
+     "blurb": "A waterfront park and launch area useful for Wickford-oriented boating outings.",
+     "address": "North Kingstown / Wickford",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.northkingstownri.gov/1154/Rights-of-Way-to-the-Shore",
+     "src": "northkingstownri.gov"
     },
     {
-     "name": "Boating & Launches: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Haines Memorial Boat Ramp",
+     "blurb": "A public launch serving the upper bay area.",
+     "address": "East Providence",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://exploreri.org/criteria.php",
+     "src": "exploreri.org"
+    },
+    {
+     "name": "Colt State Park Boating Access",
+     "blurb": "Water access within the larger park setting. Consult the current launch map and facility information.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/colt-state-park",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Alton Pond Landing",
+     "blurb": "A launch serving Alton Pond and the Wood River corridor.",
+     "address": "Hopkinton",
+     "phone": "",
+     "hours": "",
+     "url": "https://exploreri.org/siteReport.php?siteID=137&src=criteria",
+     "src": "exploreri.org"
+    },
+    {
+     "name": "Upper Wood River Paddling Route",
+     "blurb": "A mapped river outing from the Route 165 area toward Wyoming Pond. Note: The full mapped trip includes a portage at Barberville Dam.",
+     "address": "Exeter to Hopkinton",
+     "phone": "",
+     "hours": "",
+     "url": "https://wpwa.org/paddling-maps/",
+     "src": "wpwa.org"
+    },
+    {
+     "name": "Worden Pond Access",
+     "blurb": "A public launch on a large freshwater pond. Open-water wind conditions matter when planning a paddle.",
+     "address": "South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://exploreri.org/criteria.php",
+     "src": "exploreri.org"
+    },
+    {
+     "name": "Olney Pond",
+     "blurb": "Freshwater paddling within Lincoln Woods State Park, with coves and islands to explore.",
+     "address": "Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://exploreri.org/waterTrails.php",
+     "src": "exploreri.org"
     }
    ]
   },
@@ -171,31 +1359,163 @@
    "title": "Fishing",
    "items": [
     {
-     "name": "Fishing: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Larry Mouradjian Fishing Pier",
+     "blurb": "The public fishing pier at Rocky Point State Park, with accessible design features.",
+     "address": "Warwick",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/rocky-point-state-park",
+     "src": "riparks.ri.gov"
     },
     {
-     "name": "Fishing: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Galilee Fishing Piers",
+     "blurb": "Saltwater pier fishing near the working port and Galilee breachway area.",
+     "address": "Narragansett",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://dem.ri.gov/sites/g/files/xkgbur861/files/2025-07/2023recmag.pdf",
+     "src": "dem.ri.gov"
     },
     {
-     "name": "Fishing: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Stone Bridge Pier",
+     "blurb": "Shore-based fishing beside the Grinnell’s Beach area on the Sakonnet River.",
+     "address": "Tiverton",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/beach-guide/",
+     "src": "discovernewport.org"
+    },
+    {
+     "name": "Carbuncle Pond",
+     "blurb": "An inland freshwater fishing destination included in DEM’s trout-water resources.",
+     "address": "Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "https://dem.ri.gov/natural-resources-bureau/fish-wildlife/freshwater-fishing/trout-stocked-waters",
+     "src": "dem.ri.gov"
+    },
+    {
+     "name": "Meadow Brook Pond",
+     "blurb": "A freshwater fishing destination identified in DEM’s stocking information.",
+     "address": "Richmond",
+     "phone": "",
+     "hours": "",
+     "url": "https://dem.ri.gov/press-releases/hooked-autumn-25-waterways-be-stocked-trout",
+     "src": "dem.ri.gov"
+    },
+    {
+     "name": "Stafford Pond",
+     "blurb": "A freshwater fishing option in the East Bay region. Consult DEM’s current water-specific information.",
+     "address": "Tiverton",
+     "phone": "",
+     "hours": "",
+     "url": "https://dem.ri.gov/natural-resources-bureau/fish-wildlife/freshwater-fishing/trout-stocked-waters",
+     "src": "dem.ri.gov"
+    },
+    {
+     "name": "Shippee Sawmill Pond",
+     "blurb": "A rural freshwater fishing destination included in DEM’s fall stocking program.",
+     "address": "Foster",
+     "phone": "",
+     "hours": "",
+     "url": "https://dem.ri.gov/press-releases/hooked-autumn-25-waterways-be-stocked-trout",
+     "src": "dem.ri.gov"
+    }
+   ]
+  },
+  {
+   "key": "farms",
+   "title": "Farms & Markets",
+   "items": [
+    {
+     "name": "Casey Farm",
+     "blurb": "A working historic farm with educational programs, farm interpretation, and a seasonal market.",
+     "address": "North Kingstown / Saunderstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.historicnewengland.org/property/casey-farm/",
+     "src": "historicnewengland.org"
+    },
+    {
+     "name": "Watson Farm",
+     "blurb": "A working coastal farm offering seasonal self-guided landscape visits. Note: The farmhouse is a private residence; regular 2026 walking-tour dates ended October 15.",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.historicnewengland.org/property/watson-farm/",
+     "src": "historicnewengland.org"
+    },
+    {
+     "name": "Wright’s Dairy Farm & Bakery",
+     "blurb": "A multigenerational working dairy farm with a bakery and creamery. Note: Distinct from Wright’s Farm Restaurant in Burrillville.",
+     "address": "North Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.wrightsri.com/",
+     "src": "wrightsri.com"
+    },
+    {
+     "name": "Jaswell’s Farm",
+     "blurb": "A family farm with a market, bakery, cider, and seasonal pick-your-own activities. Note: Crop availability changes; verify picking conditions before traveling.",
+     "address": "Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "https://jaswellsfarm.com/",
+     "src": "jaswellsfarm.com"
+    },
+    {
+     "name": "Steere Orchard",
+     "blurb": "A longstanding orchard offering seasonal fruit and pick-your-own opportunities.",
+     "address": "Smithfield / Greenville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.steereorchard.com/",
+     "src": "steereorchard.com"
+    },
+    {
+     "name": "Salisbury Farm",
+     "blurb": "A local farm destination for seasonal produce and farm activities. Confirm which activities are operating.",
+     "address": "Johnston",
+     "phone": "",
+     "hours": "",
+     "url": "https://rifruitgrowers.org/growers-by-region/",
+     "src": "rifruitgrowers.org"
+    },
+    {
+     "name": "Narrow Lane Orchard",
+     "blurb": "A local orchard at 213 Narrow Lane. Check the current crop and visiting schedule.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://rifruitgrowers.org/growers-by-region/",
+     "src": "rifruitgrowers.org"
+    },
+    {
+     "name": "Confreda Greenhouses & Farms",
+     "blurb": "A family agricultural business with a farm market, produce, plants, and seasonal activities. Location note: The market is in western Cranston despite its Hope mailing address.",
+     "address": "Cranston",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.confredafarms.com/",
+     "src": "confredafarms.com"
+    },
+    {
+     "name": "Farm Fresh RI Winter Farmers Market",
+     "blurb": "An indoor gathering of local farms and food producers at 10 Sims Avenue. 2026–27 schedule: Saturdays, November 7 through April 24, 9 a.m.–1 p.m.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.farmfreshri.org/programs/farmers-markets/pvdmarket/",
+     "src": "farmfreshri.org"
+    },
+    {
+     "name": "Hope Street Farmers Market",
+     "blurb": "A seasonal outdoor market at Lippitt Park featuring local growers and food producers. Note: Use the market’s own current calendar; do not assume year-round outdoor operation.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.farmfreshri.org/programs/farmers-markets/rimarketguide/",
+     "src": "farmfreshri.org"
     }
    ]
   },
@@ -204,31 +1524,94 @@
    "title": "Ice Cream & Treats",
    "items": [
     {
-     "name": "Ice Cream & Treats: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Gray’s Ice Cream",
+     "blurb": "A longstanding local ice-cream business, with its Tiverton shop anchoring the Four Corners area.",
+     "address": "Tiverton and Bristol",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.graysicecream.com/",
+     "src": "graysicecream.com"
     },
     {
-     "name": "Ice Cream & Treats: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Brickley’s Ice Cream",
+     "blurb": "A local ice-cream destination on Main Street, useful as part of a Wakefield or South County outing.",
+     "address": "South Kingstown / Wakefield",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.brickleys.com/",
+     "src": "brickleys.com"
     },
     {
-     "name": "Ice Cream & Treats: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Three Sisters",
+     "blurb": "Homemade ice cream on Hope Street, with year-round service advertised by the business.",
+     "address": "Providence",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.threesistersri.com/",
+     "src": "threesistersri.com"
+    },
+    {
+     "name": "The Inside Scoop",
+     "blurb": "A local homemade-ice-cream shop on Ten Rod Road. Note: Official site says closed for the 2026 season, returning in spring 2027.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.theinsidescoopri.com/",
+     "src": "theinsidescoopri.com"
+    },
+    {
+     "name": "Lincoln Creamery",
+     "blurb": "A family-owned neighborhood ice-cream stop serving the Blackstone Valley. Note: Confirm current hours; its homepage retains older seasonal wording.",
+     "address": "Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.lincolncreamery.com/",
+     "src": "lincolncreamery.com"
+    },
+    {
+     "name": "Clemmie’s Homemade Ice Cream",
+     "blurb": "The locally owned business formerly called Clementine’s. Note: Official site says closed for the 2026 season.",
+     "address": "East Greenwich, Middletown, and Portsmouth",
+     "phone": "",
+     "hours": "",
+     "url": "https://clemmiesicecream.com/welcome-1",
+     "src": "clemmiesicecream.com"
+    },
+    {
+     "name": "Holy Cow",
+     "blurb": "A local ice-cream stop with traditional and alternative frozen-dessert choices.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/holy-cow/9751/",
+     "src": "visitrhodeisland.com"
+    },
+    {
+     "name": "Cold Fusion Gelato",
+     "blurb": "A seasonal Thames Street gelato and sorbet destination.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://ediblerhody.ediblecommunities.com/eat/the-scoop-on-rhode-island-ice-cream/",
+     "src": "ediblerhody.ediblecommunities.com"
+    },
+    {
+     "name": "Pastiche Fine Desserts",
+     "blurb": "A longstanding Federal Hill bakery for cakes, tarts, and other desserts. Service note: The business describes itself as takeout-only.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://pastichefinedesserts.com/",
+     "src": "pastichefinedesserts.com"
+    },
+    {
+     "name": "Allie’s Donuts",
+     "blurb": "A Rhode Island doughnut institution at 3661 Quaker Lane, useful for a local-food stop on a South County trip.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/allies-donuts/7207/",
+     "src": "visitrhodeisland.com"
     }
    ]
   },
@@ -237,62 +1620,11 @@
    "title": "Eat & Drink",
    "items": [
     {
-     "name": "Eat & Drink: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "100 most-loved Rhode Island restaurants",
+     "blurb": "Our full list of independent restaurants, clam shacks, diners and bakeries lives in the business directory on every page. Pick \"Restaurants\" in the directory menu.",
+     "address": "Statewide",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    },
-    {
-     "name": "Eat & Drink: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    },
-    {
-     "name": "Eat & Drink: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    }
-   ]
-  },
-  {
-   "key": "stay",
-   "title": "Stay & Camp",
-   "items": [
-    {
-     "name": "Stay & Camp: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    },
-    {
-     "name": "Stay & Camp: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    },
-    {
-     "name": "Stay & Camp: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
+     "hours": "",
      "url": "",
      "src": ""
     }
@@ -300,166 +1632,295 @@
   },
   {
    "key": "shop",
-   "title": "Shops",
+   "title": "Villages & Shopping",
    "items": [
     {
-     "name": "Shops: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Wickford Village",
+     "blurb": "Harbor scenery, independent shops, galleries, gifts, and food stops in a compact historic village.",
+     "address": "North Kingstown",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://wickfordvillage.org/pages/shop",
+     "src": "wickfordvillage.org"
     },
     {
-     "name": "Shops: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Downtown Bristol",
+     "blurb": "Historic streets, waterfront scenery, and local storefronts around Hope Street and the harbor.",
+     "address": "Bristol",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.bristolri.gov/307/Visit",
+     "src": "bristolri.gov"
     },
     {
-     "name": "Shops: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Downtown Warren",
+     "blurb": "A walkable East Bay district with shops, galleries, restaurants, and waterfront character.",
+     "address": "Warren",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.eastbaychamberri.org/events-tourism.html",
+     "src": "eastbaychamberri.org"
+    },
+    {
+     "name": "Tiverton Four Corners",
+     "blurb": "A rural village cluster of shops, galleries, local food, and artisan businesses.",
+     "address": "Tiverton",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.tivertonfourcorners.com/shopsandgalleries",
+     "src": "tivertonfourcorners.com"
+    },
+    {
+     "name": "Chepachet Village",
+     "blurb": "Historic buildings, antiques, country-store shopping, and nearby rural outings.",
+     "address": "Glocester",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/trip-ideas-getaways/village-experiences-shops/chepachet-village/",
+     "src": "visitrhodeisland.com"
+    },
+    {
+     "name": "Downtown Westerly",
+     "blurb": "Independent shopping and dining near Wilcox Park, with a compact town-center atmosphere.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/media/shopping-districts/",
+     "src": "southcountyri.com"
+    },
+    {
+     "name": "Watch Hill Village",
+     "blurb": "A coastal village for seasonal shops, harbor views, and walks toward the lighthouse.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/media/shopping-districts/",
+     "src": "southcountyri.com"
+    },
+    {
+     "name": "Hope Street",
+     "blurb": "Neighborhood shops, locally made gifts, food businesses, and independent retail.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/blog/stories/post/providences-diverse-eclectic-neighborhoods-make-it-easy-to-celebrate-the-holidays/",
+     "src": "goprovidence.com"
+    },
+    {
+     "name": "Westminster Street",
+     "blurb": "Downtown independent retail, books, design, gifts, and nearby cultural destinations.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/blog/stories/post/providences-diverse-eclectic-neighborhoods-make-it-easy-to-celebrate-the-holidays/",
+     "src": "goprovidence.com"
+    },
+    {
+     "name": "Main Street",
+     "blurb": "A traditional downtown shopping and dining district with nearby waterfront streets.",
+     "address": "East Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/media/shopping-districts/",
+     "src": "southcountyri.com"
+    }
+   ]
+  },
+  {
+   "key": "stay",
+   "title": "Camping",
+   "items": [
+    {
+     "name": "Burlingame State Campground",
+     "blurb": "A large woodland campground near Watchaug Pond and other South County outdoor destinations. Note: Check current construction and facility notices.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/campgrounds",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Fishermen’s Memorial State Campground",
+     "blurb": "Tent and RV camping near Point Judith, state beaches, and the Block Island ferry.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/campgrounds",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "George Washington State Campground",
+     "blurb": "A wooded camping setting near Bowdish Reservoir, with a more rustic outdoor emphasis.",
+     "address": "Glocester / Chepachet",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/campgrounds",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Charlestown Breachway Camping",
+     "blurb": "A coastal camping option for self-contained vehicles; check the state’s camping requirements before booking.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/campgrounds",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "East Beach Camping",
+     "blurb": "A specialized barrier-beach camping option with vehicle, equipment, and access requirements. Note: Check the state’s requirements before including it in an itinerary.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://riparks.ri.gov/campgrounds",
+     "src": "riparks.ri.gov"
+    },
+    {
+     "name": "Fort Getty Campground",
+     "blurb": "Town-operated waterfront camping with distinct tent and RV arrangements. Note: The town lists camping as closed; RV sites involve assignment and waitlist procedures. Tent information: https://www.jamestownri.gov/tentsitereservations",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/rvcamping",
+     "src": "jamestownri.gov"
+    },
+    {
+     "name": "Melville Ponds Campground",
+     "blurb": "A camping base on Aquidneck Island, with the town directing visitors to the campground’s current operator website.",
+     "address": "Portsmouth",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.portsmouthri.gov/175/Melville-Ponds-Campground",
+     "src": "portsmouthri.gov"
     }
    ]
   },
   {
    "key": "getting",
-   "title": "Getting Here",
+   "title": "Getting Around",
    "items": [
     {
-     "name": "Getting Here: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Visit Rhode Island",
+     "blurb": "State tourism information for attractions, trip ideas, regions, and visitor planning.",
+     "address": "Statewide",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/",
+     "src": "visitrhodeisland.com"
     },
     {
-     "name": "Getting Here: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Discover Newport",
+     "blurb": "Regional planning information for Newport County and the wider destination area.",
+     "address": "Newport and surrounding communities",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.discovernewport.org/",
+     "src": "discovernewport.org"
     },
     {
-     "name": "Getting Here: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "South County Tourism",
+     "blurb": "Regional information for coastal communities, inland outings, shopping districts, and seasonal travel.",
+     "address": "Southern Rhode Island",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    }
-   ]
-  },
-  {
-   "key": "services",
-   "title": "Island Services",
-   "items": [
-    {
-     "name": "Island Services: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.southcountyri.com/",
+     "src": "southcountyri.com"
     },
     {
-     "name": "Island Services: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Blackstone Valley Tourism",
+     "blurb": "Industrial heritage, river experiences, cultural attractions, and northern Rhode Island exploration.",
+     "address": "Northern Rhode Island",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://bvtcri.org/",
+     "src": "bvtcri.org"
     },
     {
-     "name": "Island Services: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Block Island Tourism",
+     "blurb": "Island-specific information for attractions, seasons, transportation, and trip planning.",
+     "address": "New Shoreham",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.blockislandinfo.com/",
+     "src": "blockislandinfo.com"
+    },
+    {
+     "name": "RIPTA",
+     "blurb": "Public bus routes and schedules for visitors planning travel without a car.",
+     "address": "Statewide",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.ripta.com/",
+     "src": "ripta.com"
+    },
+    {
+     "name": "Ridot Travel Advisories",
+     "blurb": "Roadwork, closures, and detours that may affect travel between destinations.",
+     "address": "Statewide",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/traveladvisories/",
+     "src": "dot.ri.gov"
+    },
+    {
+     "name": "Rhode Island Beach Status",
+     "blurb": "Department of Health information for checking current monitored-beach swimming advisories.",
+     "address": "Statewide",
+     "phone": "",
+     "hours": "",
+     "url": "https://health.ri.gov/beaches",
+     "src": "health.ri.gov"
     }
    ]
   },
   {
    "key": "give",
-   "title": "Give & Volunteer",
+   "title": "Give Back",
    "items": [
     {
-     "name": "Give & Volunteer: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Save the Bay Volunteering",
+     "blurb": "Shoreline cleanups, habitat work, education support, and other scheduled opportunities.",
+     "address": "Statewide coastal and watershed locations",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://savebay.org/get-involved/volunteer-internships/",
+     "src": "savebay.org"
     },
     {
-     "name": "Give & Volunteer: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Audubon Community Science",
+     "blurb": "Bird, habitat, and other observation projects connecting outdoor exploration with conservation research.",
+     "address": "Statewide",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://asri.org/lead/community-science.html",
+     "src": "asri.org"
     },
     {
-     "name": "Give & Volunteer: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Hope’s Harvest",
+     "blurb": "Organized gleaning trips that recover surplus produce for hunger-relief organizations.",
+     "address": "Participating Rhode Island farms",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
-    }
-   ]
-  },
-  {
-   "key": "worship",
-   "title": "Churches",
-   "items": [
-    {
-     "name": "Churches: listing 1 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
-     "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://www.farmfreshri.org/programs/hopes-harvest/volunteers/",
+     "src": "farmfreshri.org"
     },
     {
-     "name": "Churches: listing 2 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Rhode Island Land Trust Council Volunteering",
+     "blurb": "Trail maintenance, stewardship, and other projects supporting local conservation properties.",
+     "address": "Statewide",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://rilandtrusts.org/volunteer/",
+     "src": "rilandtrusts.org"
     },
     {
-     "name": "Churches: listing 3 goes here",
-     "blurb": "Description goes here.",
-     "address": "Address goes here",
+     "name": "Waterfire Volunteering",
+     "blurb": "Opportunities to help produce and support one of Rhode Island’s signature public arts experiences.",
+     "address": "Providence",
      "phone": "",
-     "hours": "Hours go here",
-     "url": "",
-     "src": ""
+     "hours": "",
+     "url": "https://waterfire.org/",
+     "src": "waterfire.org"
     }
    ]
   }
