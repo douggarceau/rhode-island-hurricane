@@ -2073,18 +2073,18 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
     const commentsOf=slug=>{
       const q={orderBy(){return q},limit(){return q},
         onSnapshot(cb,err){let alive=true;
-          const load=async()=>{if(!alive)return;const {data,error}=await sb.from('comments').select('id,slug,parent,uid,handle,text,editor,t,comment_votes(uid,val)').eq('slug',slug).order('t').limit(500);
+          const load=async()=>{if(!alive)return;const {data,error}=await sb.from('comments').select('id,slug,parent,uid,handle,text,editor,t,comment_votes(uid,val)').eq('slug','rih-'+slug).order('t').limit(500);
             if(error){err&&err(error);return}
             cb(snap(data.map(c=>({...c,votes:Object.fromEntries((c.comment_votes||[]).map(v=>[v.uid,v.val]))}))))};
           CM.reload=load;load();const iv=setInterval(load,20000);
           return ()=>{alive=false;clearInterval(iv)}},
-        async add(o){const {error}=await sb.from('comments').insert({slug,parent:o.parent||null,handle:o.handle,text:o.text,editor:!!o.editor});if(error)throw error;CM.reload&&CM.reload()}};
+        async add(o){const {error}=await sb.from('comments').insert({slug:'rih-'+slug,parent:o.parent||null,handle:o.handle,text:o.text,editor:!!o.editor});if(error)throw error;CM.reload&&CM.reload()}};
       return q};
     const table=name=>{const q={orderBy(){return q},limit(){return q},
-        onSnapshot(cb){let alive=true;const load=async()=>{if(!alive)return;const {data}=await sb.from(name).select('*').order('t',{ascending:false}).limit(200);if(!data)return;
+        onSnapshot(cb){let alive=true;const load=async()=>{if(!alive)return;const {data}=await sb.from(name).select('*').like(name==='photos'?'caption':'text','[RI Hurricane]%').order('t',{ascending:false}).limit(200);if(!data)return;
             if(name==='photos'&&data.length){const {data:u}=await sb.storage.from('photos').createSignedUrls(data.map(r=>r.path),3600);(u||[]).forEach((x,i)=>{data[i].url=x.signedUrl})}
             cb(snap(data))};load();const iv=setInterval(load,60000);return ()=>{alive=false;clearInterval(iv)}},
-        async add(o){const row=name==='photos'?{path:o.asset,caption:o.caption,credit:o.credit}:{kind:o.kind||null,text:o.text,hood:o.hood||null,name:o.name||null,email:o.email||null,venue:o.venue||null,pkg:o.pkg||null,cat:o.cat||null};
+        async add(o){const row=name==='photos'?{path:o.asset,caption:'[RI Hurricane] '+(o.caption||''),credit:o.credit}:{kind:o.kind||null,text:'[RI Hurricane] '+o.text,hood:o.hood||null,name:o.name||null,email:o.email||null,venue:o.venue||null,pkg:o.pkg||null,cat:o.cat||null};
           const {error}=await sb.from(name).insert(row);if(error)throw error}};return q};
     DB={collection(path){const m=path.match(/^stories\/([^/]+)\/comments$/);return m?commentsOf(m[1]):table(path)},
       doc(path){const id=path.split('/').pop();return {
@@ -2108,7 +2108,7 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
   async function init(){
     /* tips work even before (or without) the Supabase library: anonymous insert over REST */
     if(!DB)DB={collection:n=>{const q={orderBy(){return q},limit(){return q},onSnapshot(){return ()=>{}},
-      async add(o){if(n!=='ideas')throw new Error('offline');const r=await fetch(SB_URL+'/rest/v1/ideas',{method:'POST',headers:{...H,Prefer:'return=minimal'},body:JSON.stringify({kind:o.kind||null,text:o.text,hood:o.hood||null,name:o.name||null,email:o.email||null,venue:o.venue||null,pkg:o.pkg||null,cat:o.cat||null})});if(!r.ok)throw new Error('HTTP '+r.status)}};return q}};
+      async add(o){if(n!=='ideas')throw new Error('offline');const r=await fetch(SB_URL+'/rest/v1/ideas',{method:'POST',headers:{...H,Prefer:'return=minimal'},body:JSON.stringify({kind:o.kind||null,text:'[RI Hurricane] '+o.text,hood:o.hood||null,name:o.name||null,email:o.email||null,venue:o.venue||null,pkg:o.pkg||null,cat:o.cat||null})});if(!r.ok)throw new Error('HTTP '+r.status)}};return q}};
     if(!SB_URL||!SB_KEY){msg('Sign-ups open soon.','');$('sbGo').disabled=true;return}
     try{let m=null;for(const u of ['https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/+esm','https://esm.sh/@supabase/supabase-js@2']){try{m=await import(u);break}catch(_){}}
       if(!m)throw new Error('lib');sb=m.createClient(SB_URL,SB_KEY);wireData(sb);
@@ -2117,7 +2117,7 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
   }
   /* Never lose a sign-up: if Supabase Auth is busy (email rate limit) or the library can't load, keep the email on the list. */
   const H={apikey:SB_KEY,Authorization:'Bearer '+SB_KEY,'Content-Type':'application/json'};
-  const keep=(email,username,why)=>fetch(SB_URL+'/rest/v1/ideas',{method:'POST',headers:{...H,Prefer:'return=minimal'},body:JSON.stringify({kind:'signup',text:'Sign-up waiting: '+why,email,name:username||null})}).then(r=>r.ok).catch(()=>false);
+  const keep=(email,username,why)=>fetch(SB_URL+'/rest/v1/ideas',{method:'POST',headers:{...H,Prefer:'return=minimal'},body:JSON.stringify({kind:'signup',text:'[RI Hurricane] Sign-up waiting: '+why,email,name:username||null})}).then(r=>r.ok).catch(()=>false);
   const busy=m=>/rate limit|too many|not authori[sz]ed|sending|smtp|confirmation email|over_email|429|5\d\d|fetch|network/i.test(m||'');
   async function restUp(email,password,username){const r=await fetch(SB_URL+'/auth/v1/signup',{method:'POST',headers:H,body:JSON.stringify({email,password,data:{username}})});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.msg||j.error_description||j.message||('HTTP '+r.status));return j}
   $('subBox').onsubmit=async e=>{e.preventDefault();
