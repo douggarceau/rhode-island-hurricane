@@ -335,7 +335,19 @@ html body .cop::after{content:""!important;display:block!important;position:abso
  66%,73%{background:linear-gradient(180deg,rgba(255,255,255,.75),rgba(255,255,255,.15) 55%),linear-gradient(90deg,#3a0606 0 46%,#1b1f24 46% 54%,#4d8dff 54% 100%);box-shadow:inset 0 -2px 0 rgba(0,0,0,.5),14px -4px 22px 4px rgba(40,100,255,.75)}
  74%,100%{background:linear-gradient(180deg,rgba(255,255,255,.35),rgba(255,255,255,0) 45%),linear-gradient(90deg,#3a0606 0 46%,#1b1f24 46% 54%,#06123a 54% 100%);box-shadow:inset 0 -2px 0 rgba(0,0,0,.6)}}
 @media (prefers-reduced-motion:reduce){html body .cop::after{animation:none!important;background:linear-gradient(90deg,#ff5040 0 46%,#1b1f24 46% 54%,#4d8dff 54% 100%)!important}}
-</style><style id="noPmCss">.pmlink,.pmnb,.lspot.t-pm,.lspot.t-pm2,.lspot.t-pmx{display:none!important}</style></head>
+</style><style id="noPmCss">.pmlink,.pmnb,.lspot.t-pm,.lspot.t-pm2,.lspot.t-pmx{display:none!important}</style><style id="storyGlow">
+.lsrow .lspot:not(.hasad){--gk:#4fa3ff;box-shadow:0 0 12px 2px color-mix(in srgb,var(--gk) 35%,transparent),0 0 0 1px color-mix(in srgb,var(--gk) 55%,transparent);animation:stGlow 5s ease-in-out infinite}
+.lsrow .lspot:not(.hasad):nth-child(6n+1){--gk:#ff7a1a}.lsrow .lspot:not(.hasad):nth-child(6n+2){--gk:#2fd3c8;animation-delay:-1.7s}.lsrow .lspot:not(.hasad):nth-child(6n+3){--gk:#b07cff;animation-delay:-3.3s}
+.lsrow .lspot:not(.hasad):nth-child(6n+4){--gk:#4fa3ff;animation-delay:-.8s}.lsrow .lspot:not(.hasad):nth-child(6n+5){--gk:#5fdc6a;animation-delay:-2.5s}.lsrow .lspot:not(.hasad):nth-child(6n){--gk:#ff5fa2;animation-delay:-4.1s}
+@keyframes stGlow{0%,100%{box-shadow:0 0 10px 1px color-mix(in srgb,var(--gk) 28%,transparent),0 0 0 1px color-mix(in srgb,var(--gk) 45%,transparent)}50%{box-shadow:0 0 24px 5px color-mix(in srgb,var(--gk) 50%,transparent),0 0 0 1px color-mix(in srgb,var(--gk) 70%,transparent)}}
+@media (prefers-reduced-motion:reduce){.lsrow .lspot:not(.hasad){animation:none}}
+</style><style id="hurGlowFix">
+html body .lsrow .lspot:not(.hasad){animation:hgStory 5s ease-in-out infinite}
+html body .lsrow .lspot.hasad{animation:hgAd 5s ease-in-out infinite}
+@keyframes hgStory{0%,100%{filter:drop-shadow(0 0 5px color-mix(in srgb,var(--gk,#4fa3ff) 45%,transparent))}50%{filter:drop-shadow(0 0 12px color-mix(in srgb,var(--gk,#4fa3ff) 75%,transparent))}}
+@keyframes hgAd{0%,100%{filter:drop-shadow(0 0 5px rgba(232,184,24,.4))}50%{filter:drop-shadow(0 0 13px rgba(232,184,24,.7))}}
+@media (prefers-reduced-motion:reduce){html body .lsrow .lspot{animation:none!important}}
+</style></head>
 <body>
 <title>Rhode Island Hurricane</title>
 <meta name="claude:viewport-fit-sides" content="cover">
@@ -2217,7 +2229,7 @@ function showPromo(id,pool,off,flip){const A=adPool();const on=document.querySel
  if(A.length&&on<Math.min(2,A.length)&&Math.random()<(on?0.15:0.3))return showPromo0(id,adShuf(A),0,flip);return showPromo0(id,pool,off,flip)}
 function adShuf(a){a=a.slice();for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a}
 const ADS_ON=true; /* Advertise Here boxes: set true to turn back on */
-const AD_SEED=[{tag:'Advertisement',img:'img/ad-eric-maluk.jpg',name:'Eric Maluk · Rate',sub:'Mortgages · (401) 254-4403',go:'Call Eric',theme:'adimg',k:'#c9a227',href:'tel:+14012544403',ext:0},{tag:'Advertisement',img:'img/ad-island-animal.jpg',name:'Island Animal',sub:'35 Narragansett Ave, Jamestown · (401) 560-0616',go:'Call the shop',theme:'adimg',k:'#c9a227',href:'tel:+14015600616',ext:0}];
+const AD_SEED=[];
 window.__adPool=()=>adPool();function adPool(){if(!ADS_ON)return AD_SEED;if(adPool.L)return adPool.L;const P='$30 / 30 days · no money up front · no design needed';return adPool.L=AD_SEED.concat([['#19b3a6','Real estate<em>brokers &amp; agents</em>','Waterfront listings in front of Rhode Island buyers.'],
 ['#e8b818','Wealth<em>&amp; advisors</em>','Financial planners, private banks and wealth managers.'],
 ['#9b7be0','Attorneys<em>&amp; estates</em>','Estate planning, real estate and family law.'],
@@ -2236,7 +2248,7 @@ function showPromo0(id,pool,offset=0,flip=false){{const el=document.getElementBy
  clearTimeout(promoTimers.get(a));box.classList.remove('flip');delete a.dataset.promoNext;
  if(narrowExtra(box)){box.hidden=true;delete a.dataset.promoKey;return}
  const used=new Set();document.querySelectorAll('.lsrow a[data-promo-key],.lsrow a[data-promo-next]').forEach(other=>{const b=other.parentNode;if(other===a||b.hidden||b.style.display==='none'||narrowExtra(b))return;if(other.dataset.promoKey)used.add(other.dataset.promoKey);if(other.dataset.promoNext)used.add(other.dataset.promoNext)});
- const nzT=x=>String(x||'').toLowerCase().replace(/\s+/g,' ').trim();const usedT=new Set([...document.querySelectorAll('.lsrow .lspot:not([hidden]) > a')].filter(e=>e!==a).map(e=>nzT((e.querySelector('.ls-big')||{}).textContent)).filter(Boolean));
+ const nzT=x=>String(x||'').toLowerCase().replace(/\s+/g,' ').trim();const usedT=new Set([...document.querySelectorAll('.lsrow .lspot:not([hidden]):not(.hasad) > a:not(.radv)')].filter(e=>e!==a).map(e=>nzT((e.querySelector('.ls-big')||{}).textContent)).filter(Boolean));
  let s;for(const list of [pool||[],STF]){for(let n=0;n<list.length;n++){const item=list[(offset+n)%list.length];if(item&&!used.has(promoKey(item))&&!usedT.has(nzT(item.bigText||item.name))){s=item;break}}if(s)break}
  if(!s){const L=(pool&&pool.length)?pool:STF;if(L.length)s=L[(offset+(parseInt((id.match(/\d+/)||[0])[0])||0))%L.length]}
  if(!s){box.hidden=true;delete a.dataset.promoKey;return}
@@ -2246,7 +2258,7 @@ function showPromo0(id,pool,offset=0,flip=false){{const el=document.getElementBy
 let JTEVI=0;function jtEvPool(){try{const L=(typeof jtWeekList==='function'?jtWeekList():[]);return L.map(e=>({tag:'ON THE ISLAND · '+(typeof shortDay==='function'?shortDay(e.date):e.date),bigText:(e.artists||'').replace(/\s*\([^)]*\)/g,'').trim(),name:e.venue||'Rhode Island',when:e.time||'',sub:'',go:'Details',theme:'mu',href:e.url||'#cal',ext:e.url?1:0,view:e.url?'':'cal',k:(typeof GENRE!=='undefined'&&GENRE[e.genre])||'#e8b818'}))}catch(_){return[]}}
 (function jtSweep(n){setTimeout(()=>{document.querySelectorAll('.lsrow .lspot.t-cw>a,.lsrow .lspot.t-spd>a,.lsrow .lspot.cwi>a').forEach(a=>{if(jtEvPool().length)fill(a,{theme:'cw',tag:'CRIME'})});if(n<8)jtSweep(n+1)},1500)})(0);
 function fill(a,s){if(s&&(s.theme==='cw'||s.theme==='spd'||s.cwi||/CRIME/i.test(s.tag||''))){const E=jtEvPool();if(E.length){s=E[JTEVI++%E.length]}}return fill0(a,s)}
-window.__fill0=(a,s)=>fill0(a,s);function fill0(a,s){if(!a||!s)return;try{const nz=x=>String(x||'').toLowerCase().replace(/\s+/g,' ').trim();const vis=new Set([...document.querySelectorAll('.lsrow .lspot:not([hidden]) > a')].filter(e=>e!==a).map(e=>nz((e.querySelector('.ls-big')||{}).textContent)).filter(Boolean));if(vis.has(nz(s.bigText||s.name))&&window.__PALT&&window.__PALT.length){const alt=window.__PALT.find(c=>!vis.has(nz(c.bigText||c.name)));if(alt)s=alt}}catch(_){}clearTimeout(promoTimers.get(a));a.dataset.promoKey=promoKey(s);delete a.dataset.promoNext;const box=a.parentNode;box.className=box.className.replace(/\bt-\S+/g,'').replace(/\bcwi\b/g,'').trim()+' t-'+s.theme+(s.cwi?' cwi':'');
+window.__fill0=(a,s)=>fill0(a,s);function fill0(a,s){if(!a||!s)return;try{const nz=x=>String(x||'').toLowerCase().replace(/\s+/g,' ').trim();const vis=new Set([...document.querySelectorAll('.lsrow .lspot:not([hidden]):not(.hasad) > a:not(.radv)')].filter(e=>e!==a).map(e=>nz((e.querySelector('.ls-big')||{}).textContent)).filter(Boolean));if(vis.has(nz(s.bigText||s.name))&&window.__PALT&&window.__PALT.length){const alt=window.__PALT.find(c=>!vis.has(nz(c.bigText||c.name)));if(alt)s=alt}}catch(_){}clearTimeout(promoTimers.get(a));a.dataset.promoKey=promoKey(s);delete a.dataset.promoNext;const box=a.parentNode;box.className=box.className.replace(/\bt-\S+/g,'').replace(/\bcwi\b/g,'').trim()+' t-'+s.theme+(s.cwi?' cwi':'');
  a.href=s.href;if(s.view)a.dataset.go=s.view;else delete a.dataset.go;if(s.story)a.dataset.story=s.story;else delete a.dataset.story;if(s.rep){a.dataset.rep=s.rep;a.dataset.hood=s.hood}else{delete a.dataset.rep;delete a.dataset.hood}
  if(s.ext){a.target='_blank';a.rel='noopener'}else{a.removeAttribute('target');a.removeAttribute('rel')}
  a.setAttribute('aria-label',s.bigText||s.name);box.style.setProperty('--k',s.k||'');if(!s.k)box.style.removeProperty('--k');if(s.sty)box.dataset.adv=s.sty;else delete box.dataset.adv;
@@ -2724,11 +2736,38 @@ fetch('data/headlines.json?'+Math.floor(Date.now()/6e5),{cache:'no-cache'}).then
  const P=d.items.slice().sort((a,b)=>(a.rank||999)-(b.rank||999)).slice(0,30).map(x=>({tag:'RHODE ISLAND NEWS'+(x.town&&x.town!=='Statewide'?' · '+x.town.toUpperCase():''),bigText:x.h,name:x.outlet,sub:x.sum,go:'Read it',theme:'st',href:x.url,ext:1}));
  [typeof STF!=='undefined'?STF:null,typeof SCF!=='undefined'?SCF:null,typeof MUF!=='undefined'?MUF:null,typeof AIF!=='undefined'?AIF:null,typeof WRF!=='undefined'?WRF:null].forEach(A=>{if(Array.isArray(A))A.push(...P)});
  let j=0;const rf=()=>{try{const vis=new Set([...document.querySelectorAll('.lsrow .lspot:not([hidden]) .ls-big')].map(x=>x.textContent));document.querySelectorAll('.lsrow .lspot[hidden] > a[id]').forEach(el=>{if(!window.__fill0||!P.length)return;let it=null;for(let n=0;n<P.length;n++){const c=P[(j+n)%P.length];if(!vis.has(c.bigText)){it=c;j=j+n+1;break}}if(!it)it=P[(j++)%P.length];vis.add(it.bigText);el.parentNode.hidden=false;window.__fill0(el,it)})}catch(_){}};rf();setInterval(rf,2500);
- window.__PALT=P;let k=0;const nz=s=>String(s||'').toLowerCase().replace(/\s+/g,' ').trim();const dd=()=>{try{const seen=new Set();document.querySelectorAll('.lsrow .lspot:not([hidden]) > a').forEach(el=>{const bx=el.parentNode;if(/\bt-ad/.test(bx.className))return;const t=nz((el.querySelector('.ls-big')||{}).textContent||el.textContent);if(seen.has(t)){if(P.length&&window.__fill0){let it=null;for(let n=0;n<P.length;n++){const c=P[(k+n)%P.length];if(!seen.has(nz(c.bigText))){it=c;k=k+n+1;break}}if(it){seen.add(nz(it.bigText));window.__fill0(el,it)}}}else seen.add(t)})}catch(_){}};dd();setInterval(dd,1500);
+ window.__PALT=P;let k=0;const nz=s=>String(s||'').toLowerCase().replace(/\s+/g,' ').trim();const dd=()=>{try{const seen=new Set();document.querySelectorAll('.lsrow .lspot:not([hidden]):not(.hasad) > a:not(.radv)').forEach(el=>{const bx=el.parentNode;if(/\bt-ad/.test(bx.className))return;const t=nz((el.querySelector('.ls-big')||{}).textContent||el.textContent);if(seen.has(t)){if(P.length&&window.__fill0){let it=null;for(let n=0;n<P.length;n++){const c=P[(k+n)%P.length];if(!seen.has(nz(c.bigText))){it=c;k=k+n+1;break}}if(it){seen.add(nz(it.bigText));window.__fill0(el,it)}}}else seen.add(t)})}catch(_){}};dd();setInterval(dd,1500);
  if(typeof STATE!=='undefined'&&STATE.view==='front'&&typeof render==='function')render()}catch(_){}put();const V=document.getElementById('view');if(V)new MutationObserver(put).observe(V,{childList:true})}).catch(()=>{});})();</script>
+<style>
+.lspot a.radv{position:absolute;inset:0;z-index:40;display:block;width:auto;height:auto;padding:0;gap:0;background:#08090b center/cover no-repeat;border-radius:inherit}
+.lspot.hasad{box-shadow:0 0 12px 1px rgba(232,184,24,.28),0 0 0 1px rgba(232,184,24,.35);animation:adGlow 5s ease-in-out infinite}
+@keyframes adGlow{0%,100%{box-shadow:0 0 10px 1px rgba(232,184,24,.22),0 0 0 1px rgba(232,184,24,.3)}50%{box-shadow:0 0 22px 4px rgba(232,184,24,.42),0 0 0 1px rgba(232,184,24,.55)}}
+@media (prefers-reduced-motion:reduce){.lspot.hasad{animation:none}}
+.lspot.hasad > :not(.radv),.lspot.hasad::before,.lspot.hasad::after{visibility:hidden}
+</style>
+<script id="topAds">
+/* Featured ads hold the top three margin boxes, newest ad on top, each with a soft gold glow.
+   To add one: put it in ADS with its start date; it goes to the top. Ads drop off after their end date. */
+(function(){
+const ADS=[
+ {img:'img/ad-eric-maluk.jpg',href:'tel:+14012544403',label:'Advertisement: Eric Maluk, Rate. Call (401) 254-4403',start:'2026-10-20',end:'2026-11-19'},
+ {img:'img/ad-island-animal.jpg',href:'tel:+14015600616',label:'Advertisement: Island Animal, 35 Narragansett Ave. Call (401) 560-0616',start:'2026-10-25'},
+ {img:'img/ad-conanicut-gift-shop.jpg',href:'tel:+14014231556,3',label:'Advertisement: Conanicut Gift Shop & Arcade, 20 Narragansett Ave. Call (401) 423-1556',start:'2026-10-29',end:'2026-11-28'}];
+const live=()=>ADS.filter(a=>!a.end||Date.now()<Date.parse(a.end+'T23:59:59-05:00')).sort((x,y)=>y.start.localeCompare(x.start));
+const boxes=()=>[...document.querySelectorAll('.lsrow .lspot')].filter(b=>!b.hidden&&b.getBoundingClientRect().width>0).sort((x,y)=>{const r=x.getBoundingClientRect(),s=y.getBoundingClientRect();return (r.top-s.top)||(r.left-s.left)});
+const place=()=>{const A=live(),B=boxes();if(!A.length)return;if(B.length<A.length)return;
+ B.forEach((bx,i)=>{const ad=A[i];const cur=bx.querySelector(':scope > a.radv');
+  if(!ad){if(cur){cur.remove();bx.classList.remove('hasad');delete bx.dataset.frozen}return}
+  if(cur&&cur.dataset.img===ad.img)return;
+  if(cur)cur.remove();
+  const el=document.createElement('a');el.className='radv';el.dataset.img=ad.img;el.href=ad.href;el.setAttribute('aria-label',ad.label);el.style.backgroundImage='url('+ad.img+')';bx.appendChild(el);bx.classList.add('hasad');bx.dataset.frozen='1'});
+ document.querySelectorAll('.lspot.hasad').forEach(bx=>{if(!bx.querySelector(':scope > a.radv'))bx.classList.remove('hasad')})};
+setTimeout(place,1500);setInterval(place,3000);addEventListener('resize',()=>setTimeout(place,300));
+})();
+</script>
 <script>
 /* Eric Maluk ad: takes over one margin news box now and then; runs 30 days from 2026-10-20 */
-(function(){
+(function(){return;/* replaced by top-three ad boxes */
 const START=Date.parse('2026-10-20T00:00:00-04:00'),END=START+30*864e5;
 if(Date.now()>=END)return;
 let ad;const mk=()=>{const a=document.getElementById('lsB'),box=a&&a.parentNode;if(!box)return null;
