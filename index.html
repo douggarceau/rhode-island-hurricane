@@ -2750,9 +2750,9 @@ fetch('data/headlines.json?'+Math.floor(Date.now()/6e5),{cache:'no-cache'}).then
    To add one: put it in ADS with its start date; it goes to the top. Ads drop off after their end date. */
 (function(){
 const ADS=[
- {img:'img/ad-eric-maluk.jpg',href:'tel:+14012544403',label:'Advertisement: Eric Maluk, Rate. Call (401) 254-4403',start:'2026-10-20',end:'2026-11-19'},
- {img:'img/ad-island-animal.jpg',href:'tel:+14015600616',label:'Advertisement: Island Animal, 35 Narragansett Ave. Call (401) 560-0616',start:'2026-10-25'},
- {img:'img/ad-conanicut-gift-shop.jpg',href:'tel:+14014231556,3',label:'Advertisement: Conanicut Gift Shop & Arcade, 20 Narragansett Ave. Call (401) 423-1556',start:'2026-10-29',end:'2026-11-28'}];
+ {img:'img/ad-eric-maluk.jpg',href:'https://www.rate.com/ericmaluk',label:'Advertisement: Eric Maluk, Rate. Visit his page or call (401) 254-4403',start:'2026-10-20',end:'2026-11-19'},
+ {img:'img/ad-island-animal.jpg',href:'https://www.google.com/maps/search/?api=1&query=Island+Animal+35+Narragansett+Ave+Jamestown+RI',label:'Advertisement: Island Animal, 35 Narragansett Ave, Jamestown. (401) 560-0616',start:'2026-10-25'},
+ {img:'img/ad-conanicut-gift-shop.jpg',href:'https://www.jamestownrichamber.com/conanicut-gift-shop',label:'Advertisement: Conanicut Gift Shop & Arcade, 20 Narragansett Ave, Jamestown. (401) 423-1556',start:'2026-10-29',end:'2026-11-28'}];
 const live=()=>ADS.filter(a=>!a.end||Date.now()<Date.parse(a.end+'T23:59:59-05:00')).sort((x,y)=>y.start.localeCompare(x.start));
 const boxes=()=>[...document.querySelectorAll('.lsrow .lspot')].filter(b=>!b.hidden&&b.getBoundingClientRect().width>0).sort((x,y)=>{const r=x.getBoundingClientRect(),s=y.getBoundingClientRect();return (r.top-s.top)||(r.left-s.left)});
 const place=()=>{const A=live(),B=boxes();if(!A.length)return;if(B.length<A.length)return;
@@ -2760,7 +2760,7 @@ const place=()=>{const A=live(),B=boxes();if(!A.length)return;if(B.length<A.leng
   if(!ad){if(cur){cur.remove();bx.classList.remove('hasad');delete bx.dataset.frozen}return}
   if(cur&&cur.dataset.img===ad.img)return;
   if(cur)cur.remove();
-  const el=document.createElement('a');el.className='radv';el.dataset.img=ad.img;el.href=ad.href;el.setAttribute('aria-label',ad.label);el.style.backgroundImage='url('+ad.img+')';bx.appendChild(el);bx.classList.add('hasad');bx.dataset.frozen='1'});
+  const el=document.createElement('a');el.className='radv';el.dataset.img=ad.img;el.href=ad.href;if(/^https?:/.test(ad.href)){el.target='_blank';el.rel='noopener'}el.setAttribute('aria-label',ad.label);el.style.backgroundImage='url('+ad.img+')';bx.appendChild(el);bx.classList.add('hasad');bx.dataset.frozen='1'});
  document.querySelectorAll('.lspot.hasad').forEach(bx=>{if(!bx.querySelector(':scope > a.radv'))bx.classList.remove('hasad')})};
 setTimeout(place,1500);setInterval(place,3000);addEventListener('resize',()=>setTimeout(place,300));
 })();
