@@ -1308,21 +1308,6 @@
   },
   {
    "date": "2026-11-02",
-   "time": "7 PM",
-   "artists": "Providence Friars basketball vs. Maine",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://friars.com/news/2026/7/21/mens-basketball-mens-basketball-announces-non-conference-schedule",
-   "src": "friars.com",
-   "hours": "7 PM",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "Friars men's basketball home game."
-  },
-  {
-   "date": "2026-11-02",
    "time": "10:00–11:00 AM",
    "artists": "AA: A Better Tomorrow",
    "venue": "Haven United Methodist Church",
@@ -2853,21 +2838,6 @@
   },
   {
    "date": "2026-11-10",
-   "time": "7 PM",
-   "artists": "Providence Friars basketball vs. Bryant",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://friars.com/news/2026/7/21/mens-basketball-mens-basketball-announces-non-conference-schedule",
-   "src": "friars.com",
-   "hours": "7 PM",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "Friars men's basketball home game."
-  },
-  {
-   "date": "2026-11-10",
    "time": "10:00–11:00 AM",
    "artists": "Al-Anon Works, If You Work It",
    "venue": "St. Luke's Episcopal Church, Room 5",
@@ -3060,21 +3030,6 @@
    "hours": "5:30 PM",
    "address": "2079 Matunuck Schoolhouse Rd, Charlestown",
    "blurb": "The chapel celebrates its Saturday vigil Mass."
-  },
-  {
-   "date": "2026-11-14",
-   "time": "6 PM",
-   "artists": "Providence Friars basketball vs. Colorado",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://friars.com/news/2026/7/21/mens-basketball-mens-basketball-announces-non-conference-schedule",
-   "src": "friars.com",
-   "hours": "6 PM",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "Friars men's basketball home game."
   },
   {
    "date": "2026-11-14",
@@ -3649,21 +3604,6 @@
   {
    "date": "2026-11-15",
    "time": "",
-   "artists": "Providence Bruins vs. Toronto Marlies",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://www.providencebruins.com/post/ahl-announces-providence-bruins-schedule-for-2026-27-season",
-   "src": "providencebruins.com",
-   "hours": "",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "AHL hockey; check the Bruins for puck-drop time."
-  },
-  {
-   "date": "2026-11-15",
-   "time": "",
    "artists": "Providence Fall Home Show",
    "venue": "Rhode Island Convention Center",
    "hood": "Providence",
@@ -3735,21 +3675,6 @@
    "hours": "7:00–8:15 PM",
    "address": "378 Hope St, Bristol",
    "blurb": "This is an open meeting."
-  },
-  {
-   "date": "2026-11-17",
-   "time": "7 PM",
-   "artists": "Providence Friars basketball vs. Sacred Heart",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://friars.com/news/2026/7/21/mens-basketball-mens-basketball-announces-non-conference-schedule",
-   "src": "friars.com",
-   "hours": "7 PM",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "Friars men's basketball home game."
   },
   {
    "date": "2026-11-17",
@@ -4545,21 +4470,6 @@
    "hours": "",
    "address": "The Met, Pawtucket",
    "blurb": "Live at The Met. Check the venue for showtime and tickets."
-  },
-  {
-   "date": "2026-11-22",
-   "time": "",
-   "artists": "Providence Bruins vs. Milwaukee Admirals",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://www.providencebruins.com/post/ahl-announces-providence-bruins-schedule-for-2026-27-season",
-   "src": "providencebruins.com",
-   "hours": "",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "AHL hockey; check the Bruins for puck-drop time."
   },
   {
    "date": "2026-11-23",
@@ -5477,21 +5387,6 @@
    "blurb": "Cirque du Soleil's holiday show, running Nov. 24–Dec. 6. Check PPAC for showtimes."
   },
   {
-   "date": "2026-12-01",
-   "time": "",
-   "artists": "Providence Friars basketball vs. Stonehill",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://friars.com/news/2026/7/21/mens-basketball-mens-basketball-announces-non-conference-schedule",
-   "src": "friars.com",
-   "hours": "",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "Friars men's basketball home game."
-  },
-  {
    "date": "2026-12-02",
    "time": "",
    "artists": "'Twas the Night Before... by Cirque du Soleil",
@@ -5580,21 +5475,6 @@
    "hours": "",
    "address": "Providence Performing Arts Center, Providence",
    "blurb": "Cirque du Soleil's holiday show, running Nov. 24–Dec. 6. Check PPAC for showtimes."
-  },
-  {
-   "date": "2026-12-08",
-   "time": "",
-   "artists": "Providence Friars basketball vs. Fairfield",
-   "venue": "Amica Mutual Pavilion",
-   "hood": "Providence",
-   "genre": "sports",
-   "price": "",
-   "ages": "",
-   "url": "https://friars.com/news/2026/7/21/mens-basketball-mens-basketball-announces-non-conference-schedule",
-   "src": "friars.com",
-   "hours": "",
-   "address": "Amica Mutual Pavilion, Providence",
-   "blurb": "Friars men's basketball home game."
   },
   {
    "date": "2026-12-12",
