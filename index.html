@@ -2739,6 +2739,7 @@ fetch('data/headlines.json?'+Math.floor(Date.now()/6e5),{cache:'no-cache'}).then
  window.__PALT=P;let k=0;const nz=s=>String(s||'').toLowerCase().replace(/\s+/g,' ').trim();const dd=()=>{try{const seen=new Set();document.querySelectorAll('.lsrow .lspot:not([hidden]):not(.hasad) > a:not(.radv)').forEach(el=>{const bx=el.parentNode;if(/\bt-ad/.test(bx.className))return;const t=nz((el.querySelector('.ls-big')||{}).textContent||el.textContent);if(seen.has(t)){if(P.length&&window.__fill0){let it=null;for(let n=0;n<P.length;n++){const c=P[(k+n)%P.length];if(!seen.has(nz(c.bigText))){it=c;k=k+n+1;break}}if(it){seen.add(nz(it.bigText));window.__fill0(el,it)}}}else seen.add(t)})}catch(_){}};dd();setInterval(dd,1500);
  if(typeof STATE!=='undefined'&&STATE.view==='front'&&typeof render==='function')render()}catch(_){}put();const V=document.getElementById('view');if(V)new MutationObserver(put).observe(V,{childList:true})}).catch(()=>{});})();</script>
 <style>
+html body .lsrow .lspot.hasad{height:auto!important;min-height:0!important;max-height:none!important;aspect-ratio:1660/948}
 .lspot a.radv{position:absolute;inset:0;z-index:40;display:block;width:auto;height:auto;padding:0;gap:0;background:#08090b center/cover no-repeat;border-radius:inherit}
 .lspot.hasad{box-shadow:0 0 12px 1px rgba(232,184,24,.28),0 0 0 1px rgba(232,184,24,.35);animation:adGlow 5s ease-in-out infinite}
 @keyframes adGlow{0%,100%{box-shadow:0 0 10px 1px rgba(232,184,24,.22),0 0 0 1px rgba(232,184,24,.3)}50%{box-shadow:0 0 22px 4px rgba(232,184,24,.42),0 0 0 1px rgba(232,184,24,.55)}}
