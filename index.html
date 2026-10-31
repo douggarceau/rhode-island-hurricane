@@ -2749,8 +2749,7 @@ html body .lsrow .lspot.hasad{height:auto!important;min-height:0!important;max-h
    To add one: put it in ADS with its start date; it goes to the top. Ads drop off after their end date. */
 (function(){
 const ADS=[
-{img:'img/ad-show-marty-stuart.jpg',href:'https://theparkri.com/event/marty-stuart-and-his-fabulous-superlatives/the-historic-park-theatre-event-center/',label:'Live show: Marty Stuart, Historic Park Theatre, Cranston, Sunday Nov. 8, 7 PM',start:'2026-10-31',end:'2026-11-08'},
-{at:6+Math.floor(Math.random()*4),img:'img/ad-island-animal.jpg',href:'https://www.google.com/maps/search/?api=1&query=Island+Animal+35+Narragansett+Ave+Jamestown+RI',label:'Advertisement: Island Animal, 35 Narragansett Ave, Jamestown. (401) 560-0616',start:'2026-10-25'}];
+{img:'img/ad-show-marty-stuart.jpg',href:'https://theparkri.com/event/marty-stuart-and-his-fabulous-superlatives/the-historic-park-theatre-event-center/',label:'Live show: Marty Stuart, Historic Park Theatre, Cranston, Sunday Nov. 8, 7 PM',start:'2026-10-31',end:'2026-11-08'}];
 const live=()=>ADS.filter(a=>!a.end||Date.now()<Date.parse(a.end+'T23:59:59-05:00')).sort((x,y)=>y.start.localeCompare(x.start));
 const boxes=()=>[...document.querySelectorAll('.lsrow .lspot')].filter(b=>!b.hidden&&b.getBoundingClientRect().width>0).sort((x,y)=>{const r=x.getBoundingClientRect(),s=y.getBoundingClientRect();return (r.top-s.top)||(r.left-s.left)});
 const place=()=>{const A=live(),B=boxes();if(!A.length)return;if(!B.length)return;
