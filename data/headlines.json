@@ -2,49 +2,13 @@
  "asof": "2026-10-29T08:30:00-04:00",
  "items": [
   {
-   "h": "I-195 will close in both directions for bridge demolition November 6–7",
-   "sum": "RIDOT plans a closure near East Providence’s Taunton Avenue interchange beginning at 10 p.m. Friday, with all lanes expected to reopen by noon Saturday.",
-   "outlet": "State of Rhode Island",
-   "url": "https://apps.ri.gov/press/view/51595",
-   "town": "East Providence",
-   "date": "2026-10-23",
-   "rank": 1
-  },
-  {
-   "h": "Rhode Island’s governor race enters its final stretch",
-   "sum": "Helena Foulkes, Ken Block, and Aaron Guckian delivered their closing arguments in the final televised debate ahead of the November 3 election.",
-   "outlet": "Providence Journal via AOL",
-   "url": "https://www.aol.com/articles/ri-governor-candidates-set-square-090000000.html",
-   "town": "Statewide",
-   "date": "2026-10-21",
-   "rank": 2
-  },
-  {
-   "h": "New state assistance could lower health insurance costs for thousands",
-   "sum": "HealthSource RI enrollment opens November 1; the new RIMAP program is expected to help more than 20,000 eligible customers afford 2027 coverage.",
-   "outlet": "HealthSource RI",
-   "url": "https://healthsourceri.com/healthsource-ri-partners-mark-upcoming-open-enrollment-season-new-health-coverage-affordability-options-through-rimap/",
-   "town": "Statewide",
-   "date": "2026-10-21",
-   "rank": 3
-  },
-  {
-   "h": "Winter electric bills rise, with refunds and discounts changing the total",
-   "sum": "Rhode Island Energy’s seasonal increases began October 1, alongside refunds; additional discounts are scheduled for early 2027.",
-   "outlet": "Rhode Island Current",
-   "url": "https://rhodeislandcurrent.com/2026/09/24/ri-energy-bills-are-going-up-then-down-then-up-again-what-to-expect-starting-oct-1/",
-   "town": "Statewide",
-   "date": "2026-09-24",
-   "rank": 4
-  },
-  {
    "h": "New housing report exposes the gap between Rhode Island incomes and home prices",
    "sum": "Newport’s median single-family price reached $1.51 million in the report’s 2025 data, requiring an estimated $459,600 income to buy affordably.",
    "outlet": "What's Up Newp",
    "url": "https://whatsupnewp.com/2026/10/housing-fact-book-it-now-takes-459600-a-year-to-afford-a-median-priced-house-in-newport/",
    "town": "Newport",
    "date": "2026-10-23",
-   "rank": 5
+   "rank": 1
   },
   {
    "h": "Voters face $600 million in statewide borrowing questions",
@@ -53,124 +17,7 @@
    "url": "https://www.oceanstatemedia.org/elections/2026-10-27/600-million-on-the-ballot-breaking-down-rhode-islands-proposed-bonds",
    "town": "Statewide",
    "date": "2026-10-27",
-   "rank": 6
-  },
-  {
-   "h": "Neronha prepares a proposal for a public health insurance option",
-   "sum": "The attorney general’s planned announcement includes restructuring state health oversight and creating a state-run insurance option.",
-   "outlet": "NBC 10",
-   "url": "https://turnto10.com/news/local/attorney-general-neronha-to-announce-health-care-system-proposal-oct-29-2026",
-   "town": "Statewide",
-   "date": "2026-10-29",
-   "rank": 7
-  },
-  {
-   "h": "Tiverton advances public water connections for homes with contaminated wells",
-   "sum": "Six households are targeted for connections; officials reported that 110 of nearly 200 tested wells were contaminated with PFAS.",
-   "outlet": "NBC 10",
-   "url": "https://turnto10.com/news/local/tiverton-moves-ahead-with-plans-to-provide-public-water-to-homes-with-contaminated-wells-oct-28-2026",
-   "town": "Tiverton",
-   "date": "2026-10-28",
-   "rank": 8
-  },
-  {
-   "h": "Hasbro CEO’s comments provoke backlash as the company leaves Pawtucket",
-   "sum": "Governor McKee joined local criticism of remarks about Rhode Island as Hasbro prepares to complete its move to Boston.",
-   "outlet": "NBC 10",
-   "url": "https://turnto10.com/news/local/connect-to-the-capitol-gov-mckee",
-   "town": "Pawtucket",
-   "date": "2026-10-28",
-   "rank": 9
-  },
-  {
-   "h": "Providence superintendent reportedly negotiates an exit",
-   "sum": "Reporting that Javier Montañez is discussing departure comes amid senior leadership turnover; the district has declined to comment on personnel matters.",
-   "outlet": "Providence Journal via AOL",
-   "url": "https://www.aol.com/articles/district-won-t-confirm-report-210746000.html",
-   "town": "Providence",
-   "date": "2026-10-28",
-   "rank": 10
-  },
-  {
-   "h": "Westerly Hospital patients face uncertainty over UnitedHealthcare negotiations",
-   "sum": "Its parent system is negotiating a new contract. The insurer says in-network treatment will continue through January 3, 2027, even without an agreement.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/westerly-hospital-parent-negotiating-to-maintain-unitedhealthcare-coverage/",
-   "town": "Westerly",
-   "date": "2026-10-27",
-   "rank": 11
-  },
-  {
-   "h": "Rhode Island’s falling unemployment rate comes with a warning",
-   "sum": "RIPEC and Bryant researchers say the improvement reflects people leaving the workforce, complicating the picture of the state’s economy.",
-   "outlet": "Providence Business News",
-   "url": "https://pbn.com/ripec-r-i-s-jobless-rate-lowest-level-since-2023-as-labor-force-shrinks/",
-   "town": "Statewide",
-   "date": "2026-10-28",
-   "rank": 12
-  },
-  {
-   "h": "Costco selects Smithfield for its proposed first Rhode Island store",
-   "sum": "The Route 116 location remains subject to approvals, with a proposed 2028 opening and more than 200 potential jobs.",
-   "outlet": "WPRO News Radio",
-   "url": "https://newsradiori.iheart.com/alternate/amp/2026-10-23-costco-selects-smithfield-for-its-first-rhode-island-store/",
-   "town": "Smithfield",
-   "date": "2026-10-23",
-   "rank": 13
-  },
-  {
-   "h": "Early voting surges as ballot-return deadlines approach",
-   "sum": "Participation during the first ten days was 88% above the comparable 2022 period. Mail ballots must arrive by 8 p.m. November 3.",
-   "outlet": "State of Rhode Island",
-   "url": "https://apps.ri.gov/press/view/51609",
-   "town": "Statewide",
-   "date": "2026-10-26",
-   "rank": 14
-  },
-  {
-   "h": "Providence parents challenge the district’s AI reading program",
-   "sum": "Concerns about AMIRA include consent, student recordings, privacy, and children with speech differences. District officials say new voice recordings are not retained.",
-   "outlet": "NBC 10",
-   "url": "https://turnto10.com/news/local/providence-parents-raise-concerns-over-the-districts-use-of-ai-reading-program-oct-28-2026",
-   "town": "Providence",
-   "date": "2026-10-28",
-   "rank": 15
-  },
-  {
-   "h": "Rhode Island’s new license-plate camera safeguards remain voluntary",
-   "sum": "McKee’s Flock camera guidelines leave unresolved questions about enforceability and privacy while the pause on new installations continues.",
-   "outlet": "Ocean State Media",
-   "url": "https://www.oceanstatemedia.org/politics/2026-10-20/rhode-island-has-new-rules-for-flock-cameras-will-anyone-have-to-follow-them",
-   "town": "Statewide",
-   "date": "2026-10-20",
-   "rank": 16
-  },
-  {
-   "h": "The General Assembly plans a post-election return",
-   "sum": "Lawmakers are expected to consider judicial appointments, potentially including McKee’s Supreme Court selection, in the first such session in six years.",
-   "outlet": "Rhode Island Current",
-   "url": "https://rhodeislandcurrent.com/2026/10/27/return-of-the-lame-duck-session-with-ri-general-assembly-set-to-reconvene-after-november-election/",
-   "town": "Statewide",
-   "date": "2026-10-27",
-   "rank": 17
-  },
-  {
-   "h": "Providence moves forward with major school consolidation plans",
-   "sum": "Proposed pairings include Young Woods with Roger Williams and Carnevale with DelSesto, affecting school assignments, facilities, and neighborhood expectations.",
-   "outlet": "Brown Daily Herald",
-   "url": "https://embed-rech-01.dialog.cm/browndailyherald/docs/friday_october_23_2026",
-   "town": "Providence",
-   "date": "2026-10-23",
-   "rank": 18
-  },
-  {
-   "h": "Providence School Board postpones a vote on removing its president",
-   "sum": "Members delayed action until November 18 while reviewing bylaws and pursuing a process to repair working relationships.",
-   "outlet": "Rhode Island Current",
-   "url": "https://rhodeislandcurrent.com/2026/10/22/providence-school-board-postpones-vote-on-presidents-removal-after-six-hour-meeting/",
-   "town": "Providence",
-   "date": "2026-10-22",
-   "rank": 19
+   "rank": 2
   },
   {
    "h": "NOAA’s Atlantic operations center is preparing to open in Newport",
@@ -179,115 +26,7 @@
    "url": "https://whatsupnewp.com/2026/10/noaas-atlantic-fleet-command-moves-to-newport-in-january-reed-tours-147m-complex-at-naval-station/",
    "town": "Newport",
    "date": "2026-10-08",
-   "rank": 20
-  },
-  {
-   "h": "Edesia expands its North Kingstown factory and adds jobs",
-   "sum": "The nutrition nonprofit opened 215,000 square feet of additional space, expanding production capacity following disruptions to federal aid funding.",
-   "outlet": "Providence Business News",
-   "url": "https://pbn.com/edesia-nearly-quadruples-space-adding-50-jobs-in-wake-of-usaid-disruption/",
-   "town": "North Kingstown",
-   "date": "2026-10-22",
-   "rank": 21
-  },
-  {
-   "h": "Large trucks are now restricted on part of Greenville Avenue in Smithfield",
-   "sum": "New signs follow findings that large trucks could not negotiate a turn without mounting the sidewalk.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/large-trucks-now-officially-banned-on-portion-of-greenville-avenue-in-smithfield/",
-   "town": "Smithfield",
-   "date": "2026-10-23",
-   "rank": 22
-  },
-  {
-   "h": "Kristin Sousa takes over as interim health and human services secretary",
-   "sum": "The Medicaid director’s appointment begins October 29 following Richard Charest’s departure from the cabinet position.",
-   "outlet": "Rhode Island Current",
-   "url": "https://rhodeislandcurrent.com/news/",
-   "town": "Statewide",
-   "date": "2026-10-27",
-   "rank": 23
-  },
-  {
-   "h": "Westerly’s property-tax assessment appeal deadline is today",
-   "sum": "The town’s calendar lists October 29 as the deadline to file assessment appeals.",
-   "outlet": "Town of Westerly",
-   "url": "https://westerlyri.gov/calendar.aspx?CID=0&month=10&view=list&year=2026",
-   "town": "Westerly",
-   "date": "2026-10-29",
-   "rank": 24
-  },
-  {
-   "h": "Four candidates compete in Senate District 17",
-   "sum": "Republican Thomas Paolino faces Democrat Nelly Burdette and independents John Barr and Jina Petrarca in the district spanning parts of Lincoln, North Smithfield, and North Providence.",
-   "outlet": "Rhode Island Current",
-   "url": "https://rhodeislandcurrent.com/2026/10/27/so-many-ri-general-assembly-seats-are-unopposed-but-this-senate-race-is-unusually-crowded/",
-   "town": "North Providence",
-   "date": "2026-10-27",
-   "rank": 25
-  },
-  {
-   "h": "Megan Cotter faces Jasmin Roy in House District 39",
-   "sum": "The western Rhode Island contest centers on affordability, education, local control, and balancing development with rural preservation.",
-   "outlet": "Rhode Island Current",
-   "url": "https://rhodeislandcurrent.com/2026/10/28/deja-vu-all-over-again-in-house-district-39-as-democratic-incumbent-faces-maga-republican/",
-   "town": "Statewide",
-   "date": "2026-10-28",
-   "rank": 26
-  },
-  {
-   "h": "Woonsocket’s mayoral race focuses on leadership and redevelopment",
-   "sum": "Candidates are debating City Hall management, downtown investment, paving, and how to move stalled properties forward.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/its-workhorse-vs-show-horse-for-woonsocket-mayor/",
-   "town": "Woonsocket",
-   "date": "2026-10-26",
-   "rank": 27
-  },
-  {
-   "h": "Write-in campaigns shape a Cumberland Fire Committee contest",
-   "sum": "Incumbent Paul Santoro joined the District 2 write-in race after not filing through the normal ballot process.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/incumbent-santoro-also-running-write-in-campaign-for-cumberland-fire-committee-district-2/",
-   "town": "Cumberland",
-   "date": "2026-10-26",
-   "rank": 28
-  },
-  {
-   "h": "Five candidates seek four South Kingstown School Committee seats",
-   "sum": "Enrollment losses, spending, educational equity, and competition with other school options are central issues.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/five-candidates-outline-priorities-in-south-kingstown-school-race/",
-   "town": "South Kingstown",
-   "date": "2026-10-21",
-   "rank": 29
-  },
-  {
-   "h": "Westerly’s School Committee election puts performance and leadership in focus",
-   "sum": "Six candidates are competing for three seats, with only one incumbent in the field.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/academic-performance-district-leadership-among-issues-in-westerly-school-committee-race/",
-   "town": "Westerly",
-   "date": "2026-10-18",
-   "rank": 30
-  },
-  {
-   "h": "Westerly voters will decide four town charter amendments",
-   "sum": "Questions address filling elected vacancies, School Committee term limits, and how the town publishes ordinance notices.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/westerly-voters-to-decide-four-town-charter-amendments/",
-   "town": "Westerly",
-   "date": "2026-10-18",
-   "rank": 31
-  },
-  {
-   "h": "RIC launches Whipple Hall’s cybersecurity-focused renovation",
-   "sum": "The project will create a home for its Institute for Cybersecurity and Emerging Technologies, following voter approval of a $73 million bond.",
-   "outlet": "NBC 10",
-   "url": "https://turnto10.com/news/local/rhode-island-college-breaks-ground-on-whipple-hall-renovations-oct-28-2026",
-   "town": "Statewide",
-   "date": "2026-10-28",
-   "rank": 32
+   "rank": 3
   },
   {
    "h": "URI announces an interdisciplinary artificial-intelligence degree",
@@ -296,169 +35,7 @@
    "url": "https://pbn.com/uri-launches-interdisciplinary-ai-bachelors-degree-program/",
    "town": "Statewide",
    "date": "2026-10-27",
-   "rank": 33
-  },
-  {
-   "h": "URI students and employees get statewide RIPTA rides at no cost",
-   "sum": "The new U-Pass agreement allows enrolled students, faculty, and staff to use university identification for unlimited bus travel.",
-   "outlet": "URI",
-   "url": "https://www.uri.edu/news/2026/10/uri-and-ripta-launch-u-pass-partnership-providing-free-bus-access-for-students-faculty-and-staff/",
-   "town": "Statewide",
-   "date": "2026-10-01",
-   "rank": 34
-  },
-  {
-   "h": "Central Falls teacher Briana Jones wins a $25,000 Milken award",
-   "sum": "She becomes the city’s first recipient of the national educator recognition.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/video-briana-jones-wins-25000-milken-educator-award-is-first-central-falls-recipient-ever/",
-   "town": "Central Falls",
-   "date": "2026-10-21",
-   "rank": 35
-  },
-  {
-   "h": "North Providence negotiates over its former public safety complex",
-   "sum": "The developer and town representatives are discussing a possible compromise after years of disagreement; the property’s future use remains unsettled.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/sides-discussing-compromise-redevelopment-for-former-north-providence-safety-complex/",
-   "town": "North Providence",
-   "date": "2026-10-27",
-   "rank": 36
-  },
-  {
-   "h": "Woonsocket’s vacant former school moves toward residential redevelopment",
-   "sum": "A groundbreaking marked progress on the Residences at Park Place. Published unit counts differ, so the final scale remains worth checking.",
-   "outlet": "Hoodline",
-   "url": "https://hoodline.com/2026/10/woonsocket-breaks-ground-on-old-school-turned-apartments-vacant-since-2010/",
-   "town": "Woonsocket",
-   "date": "2026-10-26",
-   "rank": 37
-  },
-  {
-   "h": "A Rhode Island design competition aims to make accessory homes more affordable",
-   "sum": "The +1 RI ADU initiative targets design costs associated with adding smaller homes to existing properties.",
-   "outlet": "Providence Business News",
-   "url": "https://pbn.com/r-i-competition-takes-adus-to-the-drawing-board/",
-   "town": "Statewide",
-   "date": "2026-10-23",
-   "rank": 38
-  },
-  {
-   "h": "Westerly’s Tower Street center prepares for education and health services",
-   "sum": "Nursing-assistant training, GED preparation, and a planned Wood River Health presence are part of the former school’s new role.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/westerlys-tower-street-community-center-prepares-to-open/",
-   "town": "Westerly",
-   "date": "2026-10-23",
-   "rank": 39
-  },
-  {
-   "h": "Westerly approves $710,000 for school maintenance projects",
-   "sum": "The allocation covers roof, flooring, and window work after debate about the district’s reserves and capital budgeting.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/westerly-council-approves-710k-for-school-projects-amid-fund-balance-debate/",
-   "town": "Westerly",
-   "date": "2026-10-21",
-   "rank": 40
-  },
-  {
-   "h": "Smith Hill is getting solar carports, batteries, and EV charging infrastructure",
-   "sum": "State energy officials announced projects costing approximately $9 million, with construction expected to begin in 2027.",
-   "outlet": "Rhode Island Office of Energy Resources",
-   "url": "https://energy.ri.gov/press-releases/office-energy-resources-announces-9-million-integrated-solar-carports-battery-energy",
-   "town": "Statewide",
-   "date": "2026-10-26",
-   "rank": 41
-  },
-  {
-   "h": "Rhode Island Energy begins an $8.2 million Middletown upgrade",
-   "sum": "The utility is replacing 65 aging wooden transmission structures with steel monopoles to improve reliability.",
-   "outlet": "Rhode Island Energy",
-   "url": "https://news.pplweb.com/Rhode-Island-Energy-invests-more-than-8-million-in-Middletown-transmission-upgrades-to-strengthen-electric-reliability-for-customers",
-   "town": "Middletown",
-   "date": "2026-10-21",
-   "rank": 42
-  },
-  {
-   "h": "Shellfishermen warn about declining quahog stocks and catches",
-   "sum": "Reporting examines shrinking landings and changing conditions in Narragansett Bay, with consequences for working fishermen and a signature Rhode Island food.",
-   "outlet": "Pulitzer Center",
-   "url": "https://pulitzercenter.org/stories/are-rhode-islands-beloved-quahogs-disappearing-shellfishermen-think-so",
-   "town": "Narragansett",
-   "date": "2026-10-15",
-   "rank": 43
-  },
-  {
-   "h": "Aquidneck Island’s long-discussed rail-with-trail project advances",
-   "sum": "Partners are developing a path alongside the Newport Secondary corridor and seeking public input, including a November 1 community train ride.",
-   "outlet": "Bike Newport",
-   "url": "https://bikenewportri.org/newport-rail-with-trail/",
-   "town": "Newport",
-   "date": "2026-10-14",
-   "rank": 44
-  },
-  {
-   "h": "Burrillville faces questions about costs after an anti-SLAPP ruling",
-   "sum": "Residents are asking who will pay legal fees and damages sought following the town’s unsuccessful claim against a synthetic-turf opponent.",
-   "outlet": "Uprise RI",
-   "url": "https://upriseri.com/article/resident-asks-who-pays-for-burrillvilles-lost-lawsuit-against-a-resident",
-   "town": "Burrillville",
-   "date": "2026-10-20",
-   "rank": 45
-  },
-  {
-   "h": "Narrow River dredging will miss the current season, town manager says",
-   "sum": "Funding and scheduling problems could push Narragansett’s project into the next available work window.",
-   "outlet": "South County Independent",
-   "url": "https://scindependent.com/narrow-river-dredging-delayed-narragansett/",
-   "town": "Narragansett",
-   "date": "2026-10-28",
-   "rank": 46
-  },
-  {
-   "h": "Charlestown asks RIDOT to address Old Post Road bicycle safety",
-   "sum": "The council approved a field meeting to consider signage and possible pavement markings along the proposed coastal bike route.",
-   "outlet": "South County Independent",
-   "url": "https://scindependent.com/charlestown-old-post-road-bike-safety-ridot/",
-   "town": "Charlestown",
-   "date": "2026-10-28",
-   "rank": 47
-  },
-  {
-   "h": "Officials lift the harmful-algae advisory at Cranston’s Blackamore Pond",
-   "sum": "Recent testing found low algae levels and no detected toxins, allowing the recreational advisory to be withdrawn.",
-   "outlet": "RI DEM",
-   "url": "https://dem.ri.gov/press-releases/ridoh-and-dem-lift-advisory-blackamore-pond",
-   "town": "Cranston",
-   "date": "2026-10-28",
-   "rank": 48
-  },
-  {
-   "h": "Traditional snow days return in Tiverton schools",
-   "sum": "The School Committee voted to discontinue electronic learning days for weather closures, with missed time made up when necessary.",
-   "outlet": "RI News Today",
-   "url": "https://rinewstoday.com/in-the-news-week-ending-october-23-2026/",
-   "town": "Tiverton",
-   "date": "2026-10-24",
-   "rank": 49
-  },
-  {
-   "h": "Barrington bans e-bikes and e-scooters from sidewalks and parks",
-   "sum": "The council unanimously expanded an existing ordinance; the change took effect October 5.",
-   "outlet": "Providence Journal via AOL",
-   "url": "https://www.aol.com/articles/barrington-bans-e-bikes-e-193129000.html",
-   "town": "Barrington",
-   "date": "2026-10-15",
-   "rank": 50
-  },
-  {
-   "h": "Rhode Island Life Science Hub signs a regional biobank agreement",
-   "sum": "The partnership will plan how Rhode Island hospitals can contribute samples and data for research, initially emphasizing Alzheimer’s and other brain diseases.",
-   "outlet": "MLSC",
-   "url": "https://www.masslifesciences.com/rhode-island-life-science-hub-and-massachusetts-life-sciences-center-sign-mou-to-build-a-shared-regional-biobank/",
-   "town": "Statewide",
-   "date": "2026-10-27",
-   "rank": 51
+   "rank": 4
   },
   {
    "h": "Merlin moves flight-testing operations from Quonset to Smithfield",
@@ -467,79 +44,7 @@
    "url": "https://merlinlabs.com/news/merlin-moves-us-flight-operations-to-north-central-state-airport/",
    "town": "Smithfield",
    "date": "2026-10-20",
-   "rank": 52
-  },
-  {
-   "h": "Cranston memory-care community changes ownership",
-   "sum": "Wingate Living acquired Victoria Court and renamed the 65-unit facility Wingate Residences at Cranston.",
-   "outlet": "Providence Business News",
-   "url": "https://pbn.com/wingate-living-acquires-cranston-memory-care-community/",
-   "town": "Cranston",
-   "date": "2026-10-23",
-   "rank": 53
-  },
-  {
-   "h": "Bradley Hospital appoints a new chief medical officer",
-   "sum": "Dr. Chase Samsel joins the East Providence children’s psychiatric hospital from Boston Children’s Hospital.",
-   "outlet": "Providence Business News",
-   "url": "https://pbn.com/bradley-hospital-taps-boston-childrens-director-for-chief-medical-officer-role/",
-   "town": "East Providence",
-   "date": "2026-10-25",
-   "rank": 54
-  },
-  {
-   "h": "Rhode Island health leaders warn that access remains unequal",
-   "sum": "At a Warwick summit, participants highlighted affordability, provider availability, and federal policy uncertainty affecting local patients.",
-   "outlet": "Providence Business News",
-   "url": "https://pbn.com/pbn-summit-as-federal-policy-changes-loom-r-i-healthcare-struggles-persist/",
-   "town": "Warwick",
-   "date": "2026-10-28",
-   "rank": 55
-  },
-  {
-   "h": "Westerly Hospital receives $100,000 for treatment rooms",
-   "sum": "Westerly Community Credit Union’s donation supports improvements to local hospital care.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/westerly-community-credit-union-gives-100k-for-new-hospital-treatment-rooms/",
-   "town": "Westerly",
-   "date": "2026-10-23",
-   "rank": 56
-  },
-  {
-   "h": "ServeRI distributes $1.45 million in AmeriCorps grants",
-   "sum": "Eight Rhode Island organizations will support 140 service members working on education, housing, workforce development, and environmental needs.",
-   "outlet": "Providence Business News",
-   "url": "https://pbn.com/serveri-distributes-1-45m-to-nonprofits-schools-through-americorps-program/",
-   "town": "Statewide",
-   "date": "2026-10-26",
-   "rank": 57
-  },
-  {
-   "h": "Pawtucket nonprofit receives funding for nursing-assistant training at no tuition cost",
-   "sum": "Harbor of Hope’s $30,000 Rhode Island Foundation grant supports training, certification preparation, and job-placement assistance.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/grant-will-help-pawtucket-nonprofit-train-residents-for-jobs-in-healthcare/",
-   "town": "Pawtucket",
-   "date": "2026-10-28",
-   "rank": 58
-  },
-  {
-   "h": "A new Smithfield swim school targets an early-2027 opening",
-   "sum": "The Cove Swim School plans lessons for children and adults, including quieter sessions for swimmers who benefit from reduced stimulation.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/new-swim-school-planned-to-open-in-area-behind-a-w-in-smithfield/",
-   "town": "Smithfield",
-   "date": "2026-10-26",
-   "rank": 59
-  },
-  {
-   "h": "Wakefield’s Looney Tunes II will close after more than 50 years",
-   "sum": "The record store plans to shut its doors November 30; nearby gift shop Nico Scout also plans to close its storefront.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/looney-tunes-ii-with-roots-in-westerly-to-close-after-decades-in-wakefield/",
-   "town": "Wakefield",
-   "date": "2026-10-28",
-   "rank": 60
+   "rank": 5
   },
   {
    "h": "Westerly remembers attorney and former legislator Peter Lewiss",
@@ -548,16 +53,7 @@
    "url": "https://southcountystar.org/westerly-mourns-the-passing-of-peter-l-lewiss-devoted-community-leader-advocate-for-animals-and-the-arts/",
    "town": "Westerly",
    "date": "2026-10-27",
-   "rank": 61
-  },
-  {
-   "h": "Big Brothers Big Sisters of Rhode Island marks 60 years",
-   "sum": "Its anniversary breakfast in Lincoln raised more than $100,000 for mentoring programs.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/big-brothers-big-sisters-of-ri-celebrates-60-years-of-mentorship/",
-   "town": "Lincoln",
-   "date": "2026-10-29",
-   "rank": 62
+   "rank": 6
   },
   {
    "h": "Newport County holiday-assistance registration is open",
@@ -566,7 +62,7 @@
    "url": "https://mlkccenter.org/holiday-help/",
    "town": "Newport",
    "date": "2026-10-29",
-   "rank": 63
+   "rank": 7
   },
   {
    "h": "Twenty-seven employers are expected at Newport’s November 5 career fair",
@@ -575,16 +71,7 @@
    "url": "https://whatsupnewp.com/news/",
    "town": "Newport",
    "date": "2026-10-27",
-   "rank": 64
-  },
-  {
-   "h": "Newport preservation projects receive Rhody Awards recognition",
-   "sum": "Honorees include Castle Hill’s fire restoration, a lead-paint guidance project, and Salve Regina’s Michael Semenza; public voting continues through noon October 30.",
-   "outlet": "What's Up Newp",
-   "url": "https://whatsupnewp.com/2026/10/three-newport-projects-honored-at-2026-rhody-awards-public-voting-open-through-friday/",
-   "town": "Newport",
-   "date": "2026-10-26",
-   "rank": 65
+   "rank": 8
   },
   {
    "h": "Rhode Island documentary “The Pizza Principal” announces its premiere",
@@ -593,6 +80,519 @@
    "url": "https://thelocalinsidernews.com/more-than-a-night-at-the-movies-the-pizza-principal-world-premiere-community-event-planned-nov-20/",
    "town": "Providence",
    "date": "2026-10-28",
+   "rank": 9
+  },
+  {
+   "h": "I-195 will close in both directions for bridge demolition November 6–7",
+   "sum": "RIDOT plans a closure near East Providence’s Taunton Avenue interchange beginning at 10 p.m. Friday, with all lanes expected to reopen by noon Saturday.",
+   "outlet": "State of Rhode Island",
+   "url": "https://apps.ri.gov/press/view/51595",
+   "town": "East Providence",
+   "date": "2026-10-23",
+   "rank": 10
+  },
+  {
+   "h": "Rhode Island’s governor race enters its final stretch",
+   "sum": "Helena Foulkes, Ken Block, and Aaron Guckian delivered their closing arguments in the final televised debate ahead of the November 3 election.",
+   "outlet": "Providence Journal via AOL",
+   "url": "https://www.aol.com/articles/ri-governor-candidates-set-square-090000000.html",
+   "town": "Statewide",
+   "date": "2026-10-21",
+   "rank": 11
+  },
+  {
+   "h": "New state assistance could lower health insurance costs for thousands",
+   "sum": "HealthSource RI enrollment opens November 1; the new RIMAP program is expected to help more than 20,000 eligible customers afford 2027 coverage.",
+   "outlet": "HealthSource RI",
+   "url": "https://healthsourceri.com/healthsource-ri-partners-mark-upcoming-open-enrollment-season-new-health-coverage-affordability-options-through-rimap/",
+   "town": "Statewide",
+   "date": "2026-10-21",
+   "rank": 12
+  },
+  {
+   "h": "Winter electric bills rise, with refunds and discounts changing the total",
+   "sum": "Rhode Island Energy’s seasonal increases began October 1, alongside refunds; additional discounts are scheduled for early 2027.",
+   "outlet": "Rhode Island Current",
+   "url": "https://rhodeislandcurrent.com/2026/09/24/ri-energy-bills-are-going-up-then-down-then-up-again-what-to-expect-starting-oct-1/",
+   "town": "Statewide",
+   "date": "2026-09-24",
+   "rank": 13
+  },
+  {
+   "h": "Neronha prepares a proposal for a public health insurance option",
+   "sum": "The attorney general’s planned announcement includes restructuring state health oversight and creating a state-run insurance option.",
+   "outlet": "NBC 10",
+   "url": "https://turnto10.com/news/local/attorney-general-neronha-to-announce-health-care-system-proposal-oct-29-2026",
+   "town": "Statewide",
+   "date": "2026-10-29",
+   "rank": 14
+  },
+  {
+   "h": "Tiverton advances public water connections for homes with contaminated wells",
+   "sum": "Six households are targeted for connections; officials reported that 110 of nearly 200 tested wells were contaminated with PFAS.",
+   "outlet": "NBC 10",
+   "url": "https://turnto10.com/news/local/tiverton-moves-ahead-with-plans-to-provide-public-water-to-homes-with-contaminated-wells-oct-28-2026",
+   "town": "Tiverton",
+   "date": "2026-10-28",
+   "rank": 15
+  },
+  {
+   "h": "Hasbro CEO’s comments provoke backlash as the company leaves Pawtucket",
+   "sum": "Governor McKee joined local criticism of remarks about Rhode Island as Hasbro prepares to complete its move to Boston.",
+   "outlet": "NBC 10",
+   "url": "https://turnto10.com/news/local/connect-to-the-capitol-gov-mckee",
+   "town": "Pawtucket",
+   "date": "2026-10-28",
+   "rank": 16
+  },
+  {
+   "h": "Providence superintendent reportedly negotiates an exit",
+   "sum": "Reporting that Javier Montañez is discussing departure comes amid senior leadership turnover; the district has declined to comment on personnel matters.",
+   "outlet": "Providence Journal via AOL",
+   "url": "https://www.aol.com/articles/district-won-t-confirm-report-210746000.html",
+   "town": "Providence",
+   "date": "2026-10-28",
+   "rank": 17
+  },
+  {
+   "h": "Westerly Hospital patients face uncertainty over UnitedHealthcare negotiations",
+   "sum": "Its parent system is negotiating a new contract. The insurer says in-network treatment will continue through January 3, 2027, even without an agreement.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/westerly-hospital-parent-negotiating-to-maintain-unitedhealthcare-coverage/",
+   "town": "Westerly",
+   "date": "2026-10-27",
+   "rank": 18
+  },
+  {
+   "h": "Rhode Island’s falling unemployment rate comes with a warning",
+   "sum": "RIPEC and Bryant researchers say the improvement reflects people leaving the workforce, complicating the picture of the state’s economy.",
+   "outlet": "Providence Business News",
+   "url": "https://pbn.com/ripec-r-i-s-jobless-rate-lowest-level-since-2023-as-labor-force-shrinks/",
+   "town": "Statewide",
+   "date": "2026-10-28",
+   "rank": 19
+  },
+  {
+   "h": "Costco selects Smithfield for its proposed first Rhode Island store",
+   "sum": "The Route 116 location remains subject to approvals, with a proposed 2028 opening and more than 200 potential jobs.",
+   "outlet": "WPRO News Radio",
+   "url": "https://newsradiori.iheart.com/alternate/amp/2026-10-23-costco-selects-smithfield-for-its-first-rhode-island-store/",
+   "town": "Smithfield",
+   "date": "2026-10-23",
+   "rank": 20
+  },
+  {
+   "h": "Early voting surges as ballot-return deadlines approach",
+   "sum": "Participation during the first ten days was 88% above the comparable 2022 period. Mail ballots must arrive by 8 p.m. November 3.",
+   "outlet": "State of Rhode Island",
+   "url": "https://apps.ri.gov/press/view/51609",
+   "town": "Statewide",
+   "date": "2026-10-26",
+   "rank": 21
+  },
+  {
+   "h": "Providence parents challenge the district’s AI reading program",
+   "sum": "Concerns about AMIRA include consent, student recordings, privacy, and children with speech differences. District officials say new voice recordings are not retained.",
+   "outlet": "NBC 10",
+   "url": "https://turnto10.com/news/local/providence-parents-raise-concerns-over-the-districts-use-of-ai-reading-program-oct-28-2026",
+   "town": "Providence",
+   "date": "2026-10-28",
+   "rank": 22
+  },
+  {
+   "h": "Rhode Island’s new license-plate camera safeguards remain voluntary",
+   "sum": "McKee’s Flock camera guidelines leave unresolved questions about enforceability and privacy while the pause on new installations continues.",
+   "outlet": "Ocean State Media",
+   "url": "https://www.oceanstatemedia.org/politics/2026-10-20/rhode-island-has-new-rules-for-flock-cameras-will-anyone-have-to-follow-them",
+   "town": "Statewide",
+   "date": "2026-10-20",
+   "rank": 23
+  },
+  {
+   "h": "The General Assembly plans a post-election return",
+   "sum": "Lawmakers are expected to consider judicial appointments, potentially including McKee’s Supreme Court selection, in the first such session in six years.",
+   "outlet": "Rhode Island Current",
+   "url": "https://rhodeislandcurrent.com/2026/10/27/return-of-the-lame-duck-session-with-ri-general-assembly-set-to-reconvene-after-november-election/",
+   "town": "Statewide",
+   "date": "2026-10-27",
+   "rank": 24
+  },
+  {
+   "h": "Providence moves forward with major school consolidation plans",
+   "sum": "Proposed pairings include Young Woods with Roger Williams and Carnevale with DelSesto, affecting school assignments, facilities, and neighborhood expectations.",
+   "outlet": "Brown Daily Herald",
+   "url": "https://embed-rech-01.dialog.cm/browndailyherald/docs/friday_october_23_2026",
+   "town": "Providence",
+   "date": "2026-10-23",
+   "rank": 25
+  },
+  {
+   "h": "Providence School Board postpones a vote on removing its president",
+   "sum": "Members delayed action until November 18 while reviewing bylaws and pursuing a process to repair working relationships.",
+   "outlet": "Rhode Island Current",
+   "url": "https://rhodeislandcurrent.com/2026/10/22/providence-school-board-postpones-vote-on-presidents-removal-after-six-hour-meeting/",
+   "town": "Providence",
+   "date": "2026-10-22",
+   "rank": 26
+  },
+  {
+   "h": "Edesia expands its North Kingstown factory and adds jobs",
+   "sum": "The nutrition nonprofit opened 215,000 square feet of additional space, expanding production capacity following disruptions to federal aid funding.",
+   "outlet": "Providence Business News",
+   "url": "https://pbn.com/edesia-nearly-quadruples-space-adding-50-jobs-in-wake-of-usaid-disruption/",
+   "town": "North Kingstown",
+   "date": "2026-10-22",
+   "rank": 27
+  },
+  {
+   "h": "Large trucks are now restricted on part of Greenville Avenue in Smithfield",
+   "sum": "New signs follow findings that large trucks could not negotiate a turn without mounting the sidewalk.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/large-trucks-now-officially-banned-on-portion-of-greenville-avenue-in-smithfield/",
+   "town": "Smithfield",
+   "date": "2026-10-23",
+   "rank": 28
+  },
+  {
+   "h": "Kristin Sousa takes over as interim health and human services secretary",
+   "sum": "The Medicaid director’s appointment begins October 29 following Richard Charest’s departure from the cabinet position.",
+   "outlet": "Rhode Island Current",
+   "url": "https://rhodeislandcurrent.com/news/",
+   "town": "Statewide",
+   "date": "2026-10-27",
+   "rank": 29
+  },
+  {
+   "h": "Westerly’s property-tax assessment appeal deadline is today",
+   "sum": "The town’s calendar lists October 29 as the deadline to file assessment appeals.",
+   "outlet": "Town of Westerly",
+   "url": "https://westerlyri.gov/calendar.aspx?CID=0&month=10&view=list&year=2026",
+   "town": "Westerly",
+   "date": "2026-10-29",
+   "rank": 30
+  },
+  {
+   "h": "Four candidates compete in Senate District 17",
+   "sum": "Republican Thomas Paolino faces Democrat Nelly Burdette and independents John Barr and Jina Petrarca in the district spanning parts of Lincoln, North Smithfield, and North Providence.",
+   "outlet": "Rhode Island Current",
+   "url": "https://rhodeislandcurrent.com/2026/10/27/so-many-ri-general-assembly-seats-are-unopposed-but-this-senate-race-is-unusually-crowded/",
+   "town": "North Providence",
+   "date": "2026-10-27",
+   "rank": 31
+  },
+  {
+   "h": "Megan Cotter faces Jasmin Roy in House District 39",
+   "sum": "The western Rhode Island contest centers on affordability, education, local control, and balancing development with rural preservation.",
+   "outlet": "Rhode Island Current",
+   "url": "https://rhodeislandcurrent.com/2026/10/28/deja-vu-all-over-again-in-house-district-39-as-democratic-incumbent-faces-maga-republican/",
+   "town": "Statewide",
+   "date": "2026-10-28",
+   "rank": 32
+  },
+  {
+   "h": "Woonsocket’s mayoral race focuses on leadership and redevelopment",
+   "sum": "Candidates are debating City Hall management, downtown investment, paving, and how to move stalled properties forward.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/its-workhorse-vs-show-horse-for-woonsocket-mayor/",
+   "town": "Woonsocket",
+   "date": "2026-10-26",
+   "rank": 33
+  },
+  {
+   "h": "Write-in campaigns shape a Cumberland Fire Committee contest",
+   "sum": "Incumbent Paul Santoro joined the District 2 write-in race after not filing through the normal ballot process.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/incumbent-santoro-also-running-write-in-campaign-for-cumberland-fire-committee-district-2/",
+   "town": "Cumberland",
+   "date": "2026-10-26",
+   "rank": 34
+  },
+  {
+   "h": "Five candidates seek four South Kingstown School Committee seats",
+   "sum": "Enrollment losses, spending, educational equity, and competition with other school options are central issues.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/five-candidates-outline-priorities-in-south-kingstown-school-race/",
+   "town": "South Kingstown",
+   "date": "2026-10-21",
+   "rank": 35
+  },
+  {
+   "h": "Westerly’s School Committee election puts performance and leadership in focus",
+   "sum": "Six candidates are competing for three seats, with only one incumbent in the field.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/academic-performance-district-leadership-among-issues-in-westerly-school-committee-race/",
+   "town": "Westerly",
+   "date": "2026-10-18",
+   "rank": 36
+  },
+  {
+   "h": "Westerly voters will decide four town charter amendments",
+   "sum": "Questions address filling elected vacancies, School Committee term limits, and how the town publishes ordinance notices.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/westerly-voters-to-decide-four-town-charter-amendments/",
+   "town": "Westerly",
+   "date": "2026-10-18",
+   "rank": 37
+  },
+  {
+   "h": "RIC launches Whipple Hall’s cybersecurity-focused renovation",
+   "sum": "The project will create a home for its Institute for Cybersecurity and Emerging Technologies, following voter approval of a $73 million bond.",
+   "outlet": "NBC 10",
+   "url": "https://turnto10.com/news/local/rhode-island-college-breaks-ground-on-whipple-hall-renovations-oct-28-2026",
+   "town": "Statewide",
+   "date": "2026-10-28",
+   "rank": 38
+  },
+  {
+   "h": "URI students and employees get statewide RIPTA rides at no cost",
+   "sum": "The new U-Pass agreement allows enrolled students, faculty, and staff to use university identification for unlimited bus travel.",
+   "outlet": "URI",
+   "url": "https://www.uri.edu/news/2026/10/uri-and-ripta-launch-u-pass-partnership-providing-free-bus-access-for-students-faculty-and-staff/",
+   "town": "Statewide",
+   "date": "2026-10-01",
+   "rank": 39
+  },
+  {
+   "h": "Central Falls teacher Briana Jones wins a $25,000 Milken award",
+   "sum": "She becomes the city’s first recipient of the national educator recognition.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/video-briana-jones-wins-25000-milken-educator-award-is-first-central-falls-recipient-ever/",
+   "town": "Central Falls",
+   "date": "2026-10-21",
+   "rank": 40
+  },
+  {
+   "h": "North Providence negotiates over its former public safety complex",
+   "sum": "The developer and town representatives are discussing a possible compromise after years of disagreement; the property’s future use remains unsettled.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/sides-discussing-compromise-redevelopment-for-former-north-providence-safety-complex/",
+   "town": "North Providence",
+   "date": "2026-10-27",
+   "rank": 41
+  },
+  {
+   "h": "Woonsocket’s vacant former school moves toward residential redevelopment",
+   "sum": "A groundbreaking marked progress on the Residences at Park Place. Published unit counts differ, so the final scale remains worth checking.",
+   "outlet": "Hoodline",
+   "url": "https://hoodline.com/2026/10/woonsocket-breaks-ground-on-old-school-turned-apartments-vacant-since-2010/",
+   "town": "Woonsocket",
+   "date": "2026-10-26",
+   "rank": 42
+  },
+  {
+   "h": "A Rhode Island design competition aims to make accessory homes more affordable",
+   "sum": "The +1 RI ADU initiative targets design costs associated with adding smaller homes to existing properties.",
+   "outlet": "Providence Business News",
+   "url": "https://pbn.com/r-i-competition-takes-adus-to-the-drawing-board/",
+   "town": "Statewide",
+   "date": "2026-10-23",
+   "rank": 43
+  },
+  {
+   "h": "Westerly’s Tower Street center prepares for education and health services",
+   "sum": "Nursing-assistant training, GED preparation, and a planned Wood River Health presence are part of the former school’s new role.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/westerlys-tower-street-community-center-prepares-to-open/",
+   "town": "Westerly",
+   "date": "2026-10-23",
+   "rank": 44
+  },
+  {
+   "h": "Westerly approves $710,000 for school maintenance projects",
+   "sum": "The allocation covers roof, flooring, and window work after debate about the district’s reserves and capital budgeting.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/westerly-council-approves-710k-for-school-projects-amid-fund-balance-debate/",
+   "town": "Westerly",
+   "date": "2026-10-21",
+   "rank": 45
+  },
+  {
+   "h": "Smith Hill is getting solar carports, batteries, and EV charging infrastructure",
+   "sum": "State energy officials announced projects costing approximately $9 million, with construction expected to begin in 2027.",
+   "outlet": "Rhode Island Office of Energy Resources",
+   "url": "https://energy.ri.gov/press-releases/office-energy-resources-announces-9-million-integrated-solar-carports-battery-energy",
+   "town": "Statewide",
+   "date": "2026-10-26",
+   "rank": 46
+  },
+  {
+   "h": "Rhode Island Energy begins an $8.2 million Middletown upgrade",
+   "sum": "The utility is replacing 65 aging wooden transmission structures with steel monopoles to improve reliability.",
+   "outlet": "Rhode Island Energy",
+   "url": "https://news.pplweb.com/Rhode-Island-Energy-invests-more-than-8-million-in-Middletown-transmission-upgrades-to-strengthen-electric-reliability-for-customers",
+   "town": "Middletown",
+   "date": "2026-10-21",
+   "rank": 47
+  },
+  {
+   "h": "Shellfishermen warn about declining quahog stocks and catches",
+   "sum": "Reporting examines shrinking landings and changing conditions in Narragansett Bay, with consequences for working fishermen and a signature Rhode Island food.",
+   "outlet": "Pulitzer Center",
+   "url": "https://pulitzercenter.org/stories/are-rhode-islands-beloved-quahogs-disappearing-shellfishermen-think-so",
+   "town": "Narragansett",
+   "date": "2026-10-15",
+   "rank": 48
+  },
+  {
+   "h": "Aquidneck Island’s long-discussed rail-with-trail project advances",
+   "sum": "Partners are developing a path alongside the Newport Secondary corridor and seeking public input, including a November 1 community train ride.",
+   "outlet": "Bike Newport",
+   "url": "https://bikenewportri.org/newport-rail-with-trail/",
+   "town": "Newport",
+   "date": "2026-10-14",
+   "rank": 49
+  },
+  {
+   "h": "Burrillville faces questions about costs after an anti-SLAPP ruling",
+   "sum": "Residents are asking who will pay legal fees and damages sought following the town’s unsuccessful claim against a synthetic-turf opponent.",
+   "outlet": "Uprise RI",
+   "url": "https://upriseri.com/article/resident-asks-who-pays-for-burrillvilles-lost-lawsuit-against-a-resident",
+   "town": "Burrillville",
+   "date": "2026-10-20",
+   "rank": 50
+  },
+  {
+   "h": "Narrow River dredging will miss the current season, town manager says",
+   "sum": "Funding and scheduling problems could push Narragansett’s project into the next available work window.",
+   "outlet": "South County Independent",
+   "url": "https://scindependent.com/narrow-river-dredging-delayed-narragansett/",
+   "town": "Narragansett",
+   "date": "2026-10-28",
+   "rank": 51
+  },
+  {
+   "h": "Charlestown asks RIDOT to address Old Post Road bicycle safety",
+   "sum": "The council approved a field meeting to consider signage and possible pavement markings along the proposed coastal bike route.",
+   "outlet": "South County Independent",
+   "url": "https://scindependent.com/charlestown-old-post-road-bike-safety-ridot/",
+   "town": "Charlestown",
+   "date": "2026-10-28",
+   "rank": 52
+  },
+  {
+   "h": "Officials lift the harmful-algae advisory at Cranston’s Blackamore Pond",
+   "sum": "Recent testing found low algae levels and no detected toxins, allowing the recreational advisory to be withdrawn.",
+   "outlet": "RI DEM",
+   "url": "https://dem.ri.gov/press-releases/ridoh-and-dem-lift-advisory-blackamore-pond",
+   "town": "Cranston",
+   "date": "2026-10-28",
+   "rank": 53
+  },
+  {
+   "h": "Traditional snow days return in Tiverton schools",
+   "sum": "The School Committee voted to discontinue electronic learning days for weather closures, with missed time made up when necessary.",
+   "outlet": "RI News Today",
+   "url": "https://rinewstoday.com/in-the-news-week-ending-october-23-2026/",
+   "town": "Tiverton",
+   "date": "2026-10-24",
+   "rank": 54
+  },
+  {
+   "h": "Barrington bans e-bikes and e-scooters from sidewalks and parks",
+   "sum": "The council unanimously expanded an existing ordinance; the change took effect October 5.",
+   "outlet": "Providence Journal via AOL",
+   "url": "https://www.aol.com/articles/barrington-bans-e-bikes-e-193129000.html",
+   "town": "Barrington",
+   "date": "2026-10-15",
+   "rank": 55
+  },
+  {
+   "h": "Rhode Island Life Science Hub signs a regional biobank agreement",
+   "sum": "The partnership will plan how Rhode Island hospitals can contribute samples and data for research, initially emphasizing Alzheimer’s and other brain diseases.",
+   "outlet": "MLSC",
+   "url": "https://www.masslifesciences.com/rhode-island-life-science-hub-and-massachusetts-life-sciences-center-sign-mou-to-build-a-shared-regional-biobank/",
+   "town": "Statewide",
+   "date": "2026-10-27",
+   "rank": 56
+  },
+  {
+   "h": "Cranston memory-care community changes ownership",
+   "sum": "Wingate Living acquired Victoria Court and renamed the 65-unit facility Wingate Residences at Cranston.",
+   "outlet": "Providence Business News",
+   "url": "https://pbn.com/wingate-living-acquires-cranston-memory-care-community/",
+   "town": "Cranston",
+   "date": "2026-10-23",
+   "rank": 57
+  },
+  {
+   "h": "Bradley Hospital appoints a new chief medical officer",
+   "sum": "Dr. Chase Samsel joins the East Providence children’s psychiatric hospital from Boston Children’s Hospital.",
+   "outlet": "Providence Business News",
+   "url": "https://pbn.com/bradley-hospital-taps-boston-childrens-director-for-chief-medical-officer-role/",
+   "town": "East Providence",
+   "date": "2026-10-25",
+   "rank": 58
+  },
+  {
+   "h": "Rhode Island health leaders warn that access remains unequal",
+   "sum": "At a Warwick summit, participants highlighted affordability, provider availability, and federal policy uncertainty affecting local patients.",
+   "outlet": "Providence Business News",
+   "url": "https://pbn.com/pbn-summit-as-federal-policy-changes-loom-r-i-healthcare-struggles-persist/",
+   "town": "Warwick",
+   "date": "2026-10-28",
+   "rank": 59
+  },
+  {
+   "h": "Westerly Hospital receives $100,000 for treatment rooms",
+   "sum": "Westerly Community Credit Union’s donation supports improvements to local hospital care.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/westerly-community-credit-union-gives-100k-for-new-hospital-treatment-rooms/",
+   "town": "Westerly",
+   "date": "2026-10-23",
+   "rank": 60
+  },
+  {
+   "h": "ServeRI distributes $1.45 million in AmeriCorps grants",
+   "sum": "Eight Rhode Island organizations will support 140 service members working on education, housing, workforce development, and environmental needs.",
+   "outlet": "Providence Business News",
+   "url": "https://pbn.com/serveri-distributes-1-45m-to-nonprofits-schools-through-americorps-program/",
+   "town": "Statewide",
+   "date": "2026-10-26",
+   "rank": 61
+  },
+  {
+   "h": "Pawtucket nonprofit receives funding for nursing-assistant training at no tuition cost",
+   "sum": "Harbor of Hope’s $30,000 Rhode Island Foundation grant supports training, certification preparation, and job-placement assistance.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/grant-will-help-pawtucket-nonprofit-train-residents-for-jobs-in-healthcare/",
+   "town": "Pawtucket",
+   "date": "2026-10-28",
+   "rank": 62
+  },
+  {
+   "h": "A new Smithfield swim school targets an early-2027 opening",
+   "sum": "The Cove Swim School plans lessons for children and adults, including quieter sessions for swimmers who benefit from reduced stimulation.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/new-swim-school-planned-to-open-in-area-behind-a-w-in-smithfield/",
+   "town": "Smithfield",
+   "date": "2026-10-26",
+   "rank": 63
+  },
+  {
+   "h": "Wakefield’s Looney Tunes II will close after more than 50 years",
+   "sum": "The record store plans to shut its doors November 30; nearby gift shop Nico Scout also plans to close its storefront.",
+   "outlet": "South County Star",
+   "url": "https://southcountystar.org/looney-tunes-ii-with-roots-in-westerly-to-close-after-decades-in-wakefield/",
+   "town": "Wakefield",
+   "date": "2026-10-28",
+   "rank": 64
+  },
+  {
+   "h": "Big Brothers Big Sisters of Rhode Island marks 60 years",
+   "sum": "Its anniversary breakfast in Lincoln raised more than $100,000 for mentoring programs.",
+   "outlet": "The Local Insider News",
+   "url": "https://thelocalinsidernews.com/big-brothers-big-sisters-of-ri-celebrates-60-years-of-mentorship/",
+   "town": "Lincoln",
+   "date": "2026-10-29",
+   "rank": 65
+  },
+  {
+   "h": "Newport preservation projects receive Rhody Awards recognition",
+   "sum": "Honorees include Castle Hill’s fire restoration, a lead-paint guidance project, and Salve Regina’s Michael Semenza; public voting continues through noon October 30.",
+   "outlet": "What's Up Newp",
+   "url": "https://whatsupnewp.com/2026/10/three-newport-projects-honored-at-2026-rhody-awards-public-voting-open-through-friday/",
+   "town": "Newport",
+   "date": "2026-10-26",
    "rank": 66
   },
   {
