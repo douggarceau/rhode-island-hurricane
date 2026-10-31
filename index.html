@@ -348,7 +348,7 @@ html body .lsrow .lspot.hasad{animation:hgAd 5s ease-in-out infinite}
 @keyframes hgAd{0%,100%{filter:drop-shadow(0 0 5px rgba(232,184,24,.4))}50%{filter:drop-shadow(0 0 13px rgba(232,184,24,.7))}}
 @media (prefers-reduced-motion:reduce){html body .lsrow .lspot{animation:none!important}}
 </style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#e8b818)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style><style id="natboxCss">.nat-l button.natbox{display:block;margin:4px 0 8px;padding:12px 14px!important;border:2px solid #ff7a1a!important;border-radius:6px;background:linear-gradient(180deg,#3a1a06,#241004);color:#ffb15c!important;box-shadow:0 0 14px #ff7a1a55}.nat-l button.natbox:hover{color:#fff!important;border-color:#ffb15c!important}.nat-l button.natbox .cvtag{background:#ff7a1a;color:#111}.nat-l button.natbox .cvtag{animation:natTagBlink 1.1s steps(1,end) infinite}@keyframes natTagBlink{0%{opacity:1}50%{opacity:.15}}@media (prefers-reduced-motion:reduce){.nat-l button.natbox .cvtag{animation:none}}</style>
-<script src="posters.js?v=13"></script>
+<script src="posters.js?v=15"></script>
 </head>
 <body>
 <title>Rhode Island Hurricane</title>
@@ -2824,7 +2824,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>{if(!SKIP.includes(x.slug)&&!S.includes(x.slug)&&VRX.test(x.title+' '+(x.dek||''))&&n-Date.parse(x.date)<14*864e5)S.push(x.slug)})}catch(e){}return S};
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
-new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=13">
+new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=15">
 <link rel="stylesheet" href="polish.css?v=3">
 </body>
 </html>
