@@ -2,12 +2,22 @@
  "asof": "2026-10-31T07:30:00-04:00",
  "items": [
   {
+   "h": "Halloween Weekend Across Rhode Island: Kids First, Then the Grown-Ups",
+   "sum": "Trick-or-treat time is for the kids: pumpkins at the zoo and a parade in Jamestown. After dark, costume parties in Providence, Pawtucket, Lincoln and Jamestown.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=halloween-weekend-rhode-island-2026",
+   "story": "halloween-weekend-rhode-island-2026",
+   "box": true,
+   "town": "Statewide",
+   "date": "2026-10-31",
+   "rank": 1
+  },
+  {
    "h": "Rhode Island Comic Con takes over Providence, Nov. 6–8",
    "sum": "Three days of pop culture at the Rhode Island Convention Center and Amica Mutual Pavilion.",
    "outlet": "Rhode Island Hurricane",
    "url": "?story=rhode-island-comic-con-2026-amica-weekend",
    "story": "rhode-island-comic-con-2026-amica-weekend",
-   "box": true,
    "town": "Providence",
    "date": "2026-10-31",
    "rank": 2
