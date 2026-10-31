@@ -1,15 +1,15 @@
 {
- "asof": "2026-10-29T08:30:00-04:00",
+ "asof": "2026-10-31T07:30:00-04:00",
  "items": [
   {
-   "h": "Last Weekend for the Jack-O-Lantern Spectacular at the Zoo",
-   "sum": "More than 5,000 carved pumpkins line 'The Great Pun-Kin Trail' at Roger Williams Park Zoo through Saturday, with an adults-only Last Call on Sunday.",
+   "h": "Rhode Island Comic Con takes over Providence, Nov. 6–8",
+   "sum": "Three days of pop culture at the Rhode Island Convention Center and Amica Mutual Pavilion.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=jack-o-lantern-spectacular-final-weekend",
-   "story": "jack-o-lantern-spectacular-final-weekend",
+   "url": "?story=rhode-island-comic-con-2026-amica-weekend",
+   "story": "rhode-island-comic-con-2026-amica-weekend",
    "box": true,
-   "town": "",
-   "date": "2026-10-30",
+   "town": "Providence",
+   "date": "2026-10-31",
    "rank": 2
   },
   {
@@ -22,15 +22,6 @@
    "rank": 1
   },
   {
-   "h": "I-195 will close in both directions for bridge demolition November 6–7",
-   "sum": "RIDOT plans a closure near East Providence’s Taunton Avenue interchange beginning at 10 p.m. Friday, with all lanes expected to reopen by noon Saturday.",
-   "outlet": "State of Rhode Island",
-   "url": "https://apps.ri.gov/press/view/51595",
-   "town": "East Providence",
-   "date": "2026-10-23",
-   "rank": 2
-  },
-  {
    "h": "Newport County holiday-assistance registration is open",
    "sum": "The MLK Community Center is accepting in-person applications for holiday food and children’s gifts; Thanksgiving registration ends November 13.",
    "outlet": "MLK Community Center",
@@ -38,24 +29,6 @@
    "town": "Newport",
    "date": "2026-10-29",
    "rank": 3
-  },
-  {
-   "h": "Central Falls teacher Briana Jones wins a $25,000 Milken award",
-   "sum": "She becomes the city’s first recipient of the national educator recognition.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/video-briana-jones-wins-25000-milken-educator-award-is-first-central-falls-recipient-ever/",
-   "town": "Central Falls",
-   "date": "2026-10-21",
-   "rank": 4
-  },
-  {
-   "h": "Newport sailor Ben Rosenberg joins America’s Cup challenger ARC Team USA",
-   "sum": "The local sailor will serve as an AC75 sailor and coaching-support analyst for the American campaign.",
-   "outlet": "ARC Team USA",
-   "url": "https://arcteamusa.com/news-media/arc-team-usa-strengthens-ac75-sailing-squad-with-annie-haeger-and-ben-rosenberg",
-   "town": "Newport",
-   "date": "2026-10-22",
-   "rank": 5
   },
   {
    "h": "Newport preservation projects receive Rhody Awards recognition",
@@ -76,40 +49,14 @@
    "rank": 7
   },
   {
-   "h": "Traditional snow days return in Tiverton schools",
-   "sum": "The School Committee voted to discontinue electronic learning days for weather closures, with missed time made up when necessary.",
-   "outlet": "RI News Today",
-   "url": "https://rinewstoday.com/in-the-news-week-ending-october-23-2026/",
-   "town": "Tiverton",
-   "date": "2026-10-24",
-   "rank": 8
-  },
-  {
-   "h": "Aquidneck Island’s long-discussed rail-with-trail project advances",
-   "sum": "Partners are developing a path alongside the Newport Secondary corridor and seeking public input, including a November 1 community train ride.",
-   "outlet": "Bike Newport",
-   "url": "https://bikenewportri.org/newport-rail-with-trail/",
+   "h": "Newport Classical's holiday concerts bring choral music to December",
+   "sum": "Christmas with Cantus, Messiah at the Mansion and Frisson play Dec. 5, 6 and 12.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=newport-classical-holiday-concerts-2026",
+   "story": "newport-classical-holiday-concerts-2026",
    "town": "Newport",
-   "date": "2026-10-14",
-   "rank": 9
-  },
-  {
-   "h": "Costco selects Smithfield for its proposed first Rhode Island store",
-   "sum": "The Route 116 location remains subject to approvals, with a proposed 2028 opening and more than 200 potential jobs.",
-   "outlet": "WPRO News Radio",
-   "url": "https://newsradiori.iheart.com/alternate/amp/2026-10-23-costco-selects-smithfield-for-its-first-rhode-island-store/",
-   "town": "Smithfield",
-   "date": "2026-10-23",
-   "rank": 10
-  },
-  {
-   "h": "Wakefield’s Looney Tunes II will close after more than 50 years",
-   "sum": "The record store plans to shut its doors November 30; nearby gift shop Nico Scout also plans to close its storefront.",
-   "outlet": "South County Star",
-   "url": "https://southcountystar.org/looney-tunes-ii-with-roots-in-westerly-to-close-after-decades-in-wakefield/",
-   "town": "Wakefield",
-   "date": "2026-10-28",
-   "rank": 11
+   "date": "2026-10-31",
+   "rank": 3
   }
  ]
 }

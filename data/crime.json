@@ -1,55 +1,45 @@
 {
-  "asof": "2026-10-29T08:00:00-04:00",
-  "items": [
-    {
-      "kind": "courts",
-      "headline": "Man held after Knight Street stabbing leaves victim critical",
-      "blurb": "A 31-year-old man was arrested in the Central Station parking lot after a man was stabbed four times in the back at 299 Knight Street on the night of Oct. 26. He faces felony assault and a prohibited-weapon charge; a judge set $20,000 surety bail and held him on a separate probation violation. The victim was listed in critical but stable condition.",
-      "hood": "Providence",
-      "spd": [],
-      "date": "2026-10-27",
-      "url": "https://turnto10.com/news/local/man-critically-injured-during-stabbing-on-knight-street-in-providence-oct-27-2026",
-      "outlet": "NBC 10 WJAR"
-    },
-    {
-      "kind": "courts",
-      "headline": "Warwick traffic stop turns into chase onto I-95; detective punched",
-      "blurb": "Police say a Providence man sped off from a reckless-driving stop near Jefferson Boulevard in Warwick Oct. 26, crashed into an embankment, punched a Providence police detective and ran onto I-95 before he was caught. He faces 11 new charges and remains held as an alleged bail violator.",
-      "hood": "Warwick / Providence",
-      "spd": [],
-      "date": "2026-10-27",
-      "url": "https://turnto10.com/newsletter-daily/suspect-interstate-95-pursuit-previously-charged-child-endangerment-providence-warwick-police-court-arraignment-october-27-2026",
-      "outlet": "NBC 10 WJAR"
-    },
-    {
-      "kind": "courts",
-      "headline": "New Jersey man charged with taking more than $10,000 from an elderly person",
-      "blurb": "A 39-year-old Lodi, N.J., man surrendered at State Police headquarters Oct. 19 and was charged with obtaining more than $10,000 from a person over 65 under false pretenses and elderly exploitation. He was ordered to give up his passport and held on $50,000 surety bail.",
-      "hood": "Statewide",
-      "spd": [],
-      "date": "2026-10-26",
-      "url": "https://patch.com/rhode-island/across-ri/nj-man-charged-rhode-island-stealing-more-10k-elderly-victim-cops",
-      "outlet": "Patch"
-    },
-    {
-      "kind": "arrest",
-      "headline": "Weekend DUI arrests on Route 6 and I-95",
-      "blurb": "Troopers charged a 55-year-old East Greenwich man with DUI and refusal after a crash on Route 6 West in Providence Oct. 24, and a 30-year-old Warwick man with DUI and refusal after a stop on I-95 South in Warwick early Oct. 25.",
-      "hood": "Providence / Warwick",
-      "spd": [],
-      "date": "2026-10-25",
-      "url": "https://www.ri.gov/press/view/51601",
-      "outlet": "Rhode Island State Police"
-    },
-    {
-      "kind": "courts",
-      "headline": "State Police detective charged with DUI in Jamestown",
-      "blurb": "Jamestown police stopped an SUV driving on two flat tires on North Main Road late Oct. 15 and charged its driver, a State Police detective from East Greenwich, with suspicion of DUI and refusing a chemical test. State Police called it an open personnel matter.",
-      "hood": "Jamestown",
-      "spd": [],
-      "date": "2026-10-15",
-      "url": "https://turnto10.com/news/local/rhode-island-state-trooper-charges-dui-refusal-submit-chemical-test-north-main-road-jamestown-october-15-2026",
-      "outlet": "NBC 10 WJAR"
-    }
-  ]
+ "asof": "2026-10-31T07:30:00-04:00",
+ "items": [
+  {
+   "kind": "courts",
+   "headline": "Warwick traffic stop turns into chase onto I-95; detective punched",
+   "blurb": "",
+   "hood": "Warwick / Providence",
+   "spd": [],
+   "date": "2026-10-27",
+   "url": "https://turnto10.com/newsletter-daily/suspect-interstate-95-pursuit-previously-charged-child-endangerment-providence-warwick-police-court-arraignment-october-27-2026",
+   "outlet": "NBC 10 WJAR"
+  },
+  {
+   "kind": "courts",
+   "headline": "New Jersey man charged with taking more than $10,000 from an elderly person",
+   "blurb": "",
+   "hood": "Statewide",
+   "spd": [],
+   "date": "2026-10-26",
+   "url": "https://patch.com/rhode-island/across-ri/nj-man-charged-rhode-island-stealing-more-10k-elderly-victim-cops",
+   "outlet": "Patch"
+  },
+  {
+   "kind": "arrest",
+   "headline": "Weekend DUI arrests on Route 6 and I-95",
+   "blurb": "",
+   "hood": "Providence / Warwick",
+   "spd": [],
+   "date": "2026-10-25",
+   "url": "https://www.ri.gov/press/view/51601",
+   "outlet": "Rhode Island State Police"
+  },
+  {
+   "kind": "courts",
+   "headline": "State Police detective charged with DUI in Jamestown",
+   "blurb": "",
+   "hood": "Jamestown",
+   "spd": [],
+   "date": "2026-10-15",
+   "url": "https://turnto10.com/news/local/rhode-island-state-trooper-charges-dui-refusal-submit-chemical-test-north-main-road-jamestown-october-15-2026",
+   "outlet": "NBC 10 WJAR"
+  }
+ ]
 }
