@@ -348,7 +348,7 @@ html body .lsrow .lspot.hasad{animation:hgAd 5s ease-in-out infinite}
 @keyframes hgAd{0%,100%{filter:drop-shadow(0 0 5px rgba(232,184,24,.4))}50%{filter:drop-shadow(0 0 13px rgba(232,184,24,.7))}}
 @media (prefers-reduced-motion:reduce){html body .lsrow .lspot{animation:none!important}}
 </style><style id="vwebCss">.vcard .vmeta a.vweb{font-weight:700;color:var(--k,#e8b818)!important;text-decoration:none}.vcard .vmeta a.vweb:hover{text-decoration:underline}.vcard p{margin:6px 0 8px}</style><style id="natboxCss">.nat-l button.natbox{display:block;margin:4px 0 8px;padding:12px 14px!important;border:2px solid #ff7a1a!important;border-radius:6px;background:linear-gradient(180deg,#3a1a06,#241004);color:#ffb15c!important;box-shadow:0 0 14px #ff7a1a55}.nat-l button.natbox:hover{color:#fff!important;border-color:#ffb15c!important}.nat-l button.natbox .cvtag{background:#ff7a1a;color:#111}.nat-l button.natbox .cvtag{animation:natTagBlink 1.1s steps(1,end) infinite}@keyframes natTagBlink{0%{opacity:1}50%{opacity:.15}}@media (prefers-reduced-motion:reduce){.nat-l button.natbox .cvtag{animation:none}}</style>
-<script src="posters.js?v=2"></script>
+<script src="posters.js?v=4"></script>
 </head>
 <body>
 <title>Rhode Island Hurricane</title>
@@ -2515,9 +2515,9 @@ function pbxFlip(b,r){const f=b.querySelector('.cevt');b._busy=true;b.style.tran
  setTimeout(()=>{f.dataset.kind=r.kind;f.innerHTML=r.html;b.style.transition='none';b.style.transform='perspective(1400px) rotateY(-90deg)';
   requestAnimationFrame(()=>requestAnimationFrame(()=>{b.style.transition='transform .38s ease-out';b.style.transform='perspective(1400px) rotateY(0deg)';setTimeout(()=>{b.style.transition='';b.style.transform='';b._busy=false},420)}))},380)}
 function pbxNext(first){const b=document.querySelector('.cvr .pbx');if(!b||b._busy||document.hidden)return;if(!first&&b.matches(':hover'))return;
- evLoad().then(()=>{const k=pk++%10;const kind=(k===4||k===9)?'biz':k===7?'worship':'ev';const r=evFace(kind)||evFace('ev');if(!r)return;if(first){const f=b.querySelector('.cevt');f.dataset.kind=r.kind;f.innerHTML=r.html}else pbxFlip(b,r)})}
+ evLoad().then(()=>{const k=pk++%10;const kind='ev';const r=evFace(kind)||evFace('ev');if(!r)return;if(first){const f=b.querySelector('.cevt');f.dataset.kind=r.kind;f.innerHTML=r.html}else pbxFlip(b,r)})}
 setInterval(()=>{const c=document.querySelector('.cvr');if(!c||!c.querySelector('.cimg')||c.querySelector('.pbx'))return;const b=document.createElement('div');b.className='pbx';b.innerHTML='<span class="cevt"></span>';c.appendChild(b);pbxNext(true)},1000);
-setTimeout(()=>setInterval(()=>pbxNext(false),14000),7000);
+setTimeout(()=>setInterval(()=>pbxNext(false),9000),5000);
 addEventListener('click',e=>{const c=e.target.closest&&e.target.closest('.cvr .pbx');if(!c)return;e.preventDefault();e.stopImmediatePropagation();const kd=(c.querySelector('.cevt')||{dataset:{}}).dataset.kind;if(kd==='biz'){const nb=document.getElementById('dirNb');if(nb&&nb.offsetParent)nb.click();else scrollTo({top:0,behavior:'smooth'})}else{try{go('cal')}catch(_){location.hash='cal'}}},true);
 
 let TK=null;
@@ -2750,7 +2750,7 @@ html body .lsrow .lspot.hasad{height:auto!important;min-height:0!important;max-h
 (function(){
 const ADS=[
 {img:'img/ad-show-marty-stuart.jpg',href:'https://theparkri.com/event/marty-stuart-and-his-fabulous-superlatives/the-historic-park-theatre-event-center/',label:'Live show: Marty Stuart, Historic Park Theatre, Cranston, Sunday Nov. 8, 7 PM',start:'2026-10-31',end:'2026-11-08'},
-{at:1+Math.floor(Math.random()*6),img:'img/ad-island-animal.jpg',href:'https://www.google.com/maps/search/?api=1&query=Island+Animal+35+Narragansett+Ave+Jamestown+RI',label:'Advertisement: Island Animal, 35 Narragansett Ave, Jamestown. (401) 560-0616',start:'2026-10-25'}];
+{at:6+Math.floor(Math.random()*4),img:'img/ad-island-animal.jpg',href:'https://www.google.com/maps/search/?api=1&query=Island+Animal+35+Narragansett+Ave+Jamestown+RI',label:'Advertisement: Island Animal, 35 Narragansett Ave, Jamestown. (401) 560-0616',start:'2026-10-25'}];
 const live=()=>ADS.filter(a=>!a.end||Date.now()<Date.parse(a.end+'T23:59:59-05:00')).sort((x,y)=>y.start.localeCompare(x.start));
 const boxes=()=>[...document.querySelectorAll('.lsrow .lspot')].filter(b=>!b.hidden&&b.getBoundingClientRect().width>0).sort((x,y)=>{const r=x.getBoundingClientRect(),s=y.getBoundingClientRect();return (r.top-s.top)||(r.left-s.left)});
 const place=()=>{const A=live(),B=boxes();if(!A.length)return;if(!B.length)return;
@@ -2825,7 +2825,7 @@ addEventListener('keydown',e=>{if(e.key==='Escape')close()});
 const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>{if(!SKIP.includes(x.slug)&&!S.includes(x.slug)&&VRX.test(x.title+' '+(x.dek||''))&&n-Date.parse(x.date)<14*864e5)S.push(x.slug)})}catch(e){}return S};
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
-new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=2">
+new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=4">
 <link rel="stylesheet" href="polish.css?v=1">
 </body>
 </html>
