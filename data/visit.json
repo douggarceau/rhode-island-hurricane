@@ -15154,58 +15154,14 @@
    "title": "Art & Gardens",
    "items": [
     {
-     "name": "Risd Museum",
-     "blurb": "Art and design collections with changing exhibitions, public programs, and substantial indoor exploration.",
-     "address": "Providence",
+     "name": "Art Night Bristol Warren",
+     "blurb": "This seasonal route links galleries, studios, and creative businesses in Bristol and Warren. Visitors choose their own stops using the event's venue guide. Has: gallery route, gallery district, open studios.",
+     "address": "Bristol; Warren",
      "phone": "",
-     "hours": "",
-     "url": "https://risdmuseum.org/",
-     "src": "risdmuseum.org"
-    },
-    {
-     "name": "Newport Art Museum",
-     "blurb": "Historic buildings, regional and contemporary art, exhibitions, and educational programs.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "https://newportartmuseum.org/",
-     "src": "newportartmuseum.org"
-    },
-    {
-     "name": "Jamestown Arts Center",
-     "blurb": "A nonprofit destination for exhibitions, classes, performances, films, and artist talks.",
-     "address": "Jamestown",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.jamestownartcenter.org/",
-     "src": "jamestownartcenter.org"
-    },
-    {
-     "name": "Warwick Center for the Arts",
-     "blurb": "Local and regional art exhibitions, classes, workshops, and community programs in Apponaug.",
-     "address": "Warwick",
-     "phone": "",
-     "hours": "",
-     "url": "https://warwickcfa.org/",
-     "src": "warwickcfa.org"
-    },
-    {
-     "name": "As220",
-     "blurb": "An independent nonprofit arts organization offering galleries, performances, workshops, and community creative spaces.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://as220.org/",
-     "src": "as220.org"
-    },
-    {
-     "name": "Waterfire & Waterfire Arts Center",
-     "blurb": "Downtown river installations on announced lighting dates, plus exhibitions and programs at the Arts Center. Note: WaterFire is not a nightly attraction.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://waterfire.org/",
-     "src": "waterfire.org"
+     "hours": "2026: May 28, June 25, July 30, August 27, and September 24, 5:30–8pm. · No charge",
+     "url": "https://artnightbristolwarren.org/events",
+     "src": "artnightbristolwarren.org",
+     "town": "Bristol; Warren"
     },
     {
      "name": "Blithewold",
@@ -15217,31 +15173,1982 @@
      "src": "blithewold.org"
     },
     {
-     "name": "Green Animals Topiary Garden",
-     "blurb": "A seasonal garden attraction known for sculpted plant forms and its historic coastal setting.",
-     "address": "Portsmouth",
+     "name": "Blithewold Manor, Gardens & Arboretum",
+     "blurb": "This waterfront estate combines an arboretum with designed gardens and a historic manor. Seasonal plantings and substantial tree collections make the landscape a major part of the visit. Has: arboretum, garden, parking, restrooms, partial accessibility, seasonal hours.",
+     "address": "101 Ferry Road, Bristol",
+     "phone": "401-253-2707",
+     "hours": "October 26–November 23, 2026: gardens Tuesday–Sunday 10am–4pm; manor closed. November 24–January 3, 2027: manor and gardens Tuesday–Sunday 11am–7pm; closed November 26, December 24 and December 25; some Monday exceptions. · Adults $22; ages 6–10 $6; ages 11–16 $11; family of two adults and two children $50; military and students $18; cyclists $14; SNAP/EBT $2; ages 0–5 and eligible members no charge; programs extra.",
+     "url": "https://www.blithewold.org/hours/",
+     "src": "blithewold.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Bristol Art Gallery",
+     "blurb": "Historical listings identify this Hope Street gallery as a venue for representational fine art. Its current operation and visiting arrangements could not be confirmed. Has: gallery, painting.",
+     "address": "423 Hope Street, Bristol, RI 02809",
+     "phone": "401-396-9699",
+     "hours": "",
+     "url": "https://gonewport.com/ViewPage.aspx?id=144",
+     "src": "gonewport.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Bristol Art Museum",
+     "blurb": "The museum presents changing visual-art exhibitions beside Linden Place. Gallery spaces and classrooms support exhibitions and art education. Has: art museum, accessible, restrooms, classes, street parking.",
+     "address": "10 Wardwell Street, Bristol",
+     "phone": "401-253-4400",
+     "hours": "Thursday–Sunday 1–4pm. · General admission $5; members, students with ID and children under 12 no charge.",
+     "url": "https://www.bristolartmuseum.org/info.html",
+     "src": "bristolartmuseum.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Bristol Art Museum Community Gallery",
+     "blurb": "This satellite gallery brings Bristol Art Museum exhibitions into the town library. Visitors can see community-focused displays during the library's published opening hours. Has: gallery, library exhibitions.",
+     "address": "525 Hope Street, Bristol",
+     "phone": "401-253-4400",
+     "hours": "Monday–Thursday 9am–8pm; Friday–Saturday 9am–5pm; closed Sunday.",
+     "url": "https://www.bristolartmuseum.org/",
+     "src": "bristolartmuseum.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Hotpoint Emporium Artists Collaborative",
+     "blurb": "This artist-run cooperative presents local work across two gallery levels. The selection includes paintings, sculpture, ceramics, jewelry, and other handmade objects. Has: gallery, artist cooperative, craft.",
+     "address": "39 State Street, Bristol, RI 02809",
+     "phone": "401-410-2985",
+     "hours": "Daily 10am–6pm, according to the state tourism listing.",
+     "url": "https://www.visitrhodeisland.com/listing/hotpoint-emporium/9594/",
+     "src": "visitrhodeisland.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Kendall Reiss Gallery and Studio",
+     "blurb": "This Bristol gallery and studio presents the work of artist Kendall Reiss. Visits are arranged by appointment. Has: gallery, studio.",
+     "address": "469 Wood Street, Bristol, RI",
+     "phone": "401-662-7935",
+     "hours": "By appointment.",
+     "url": "https://www.kendallreiss.com/",
+     "src": "kendallreiss.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Linden Place Museum and Sculpture Gardens",
+     "blurb": "Linden Place combines a historic mansion collection with landscaped grounds and sculpture. Visitors encounter decorative arts indoors and ornamental features in the gardens. Has: museum, decorative arts, garden, sculpture.",
+     "address": "500 Hope Street, Bristol, RI 02809",
+     "phone": "401-253-0390",
+     "hours": "Tuesday–Friday 10am–4pm. Saturday January 1–May 15 and October 31–December 31 10am–4pm; May 26–October 24 10am–1pm. Sunday May 24–August 23 noon–4pm; otherwise closed. Closed state and federal holidays. · Adults $12; seniors/students $10; ages 7–12 $5; children under 6 and members no charge. Special programs priced separately.",
+     "url": "https://www.lindenplace.org/hours-rates",
+     "src": "lindenplace.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Mount Hope Farm Arboretum and Gardens",
+     "blurb": "This historic farm includes gardens, walking paths, and an accredited arboretum. Visitors can explore the landscape alongside the property's agricultural features. Has: arboretum, garden, walking trails.",
+     "address": "250 Metacom Avenue, Bristol, RI",
+     "phone": "",
+     "hours": "Daily 8am–6pm, except private-event closures. · No charge",
+     "url": "https://www.mounthopefarm.org/about-the-farm",
+     "src": "mounthopefarm.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Plumb Gallery",
+     "blurb": "This Bristol gallery presents work by regional designers and visual artists. Its displays bring fine art and craftsmanship into the same setting. Has: gallery, design, craft, appointment visits.",
+     "address": "437 Hope Street, Bristol",
+     "phone": "401-336-0831",
+     "hours": "Tuesday–Sunday noon–5pm; Mondays and holidays by appointment.",
+     "url": "https://www.plumbgallery.com/",
+     "src": "plumbgallery.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "ROGER THAT Gallery",
+     "blurb": "This Roger Williams University gallery shares mill space with senior art studios. Its exhibitions include local artists, student work and archival material. Has: university gallery, student art, exhibition schedule.",
+     "address": "26 Burnside Street, Bristol",
      "phone": "",
      "hours": "",
-     "url": "https://www.newportmansions.org/plan-a-visit/mansions-gardens/",
-     "src": "newportmansions.org"
+     "url": "https://www.rwu.edu/academics/schools/fshae/departments/visual-arts/facilities",
+     "src": "rwu.edu",
+     "town": "Bristol"
+    },
+    {
+     "name": "Roger Williams University Arboretum",
+     "blurb": "The university's campus tree collection is an accredited arboretum. Volunteers and university participants support education and ecological care of the landscape. Has: arboretum, campus, education.",
+     "address": "1 Old Ferry Road, Bristol, RI 02809",
+     "phone": "401-254-3607",
+     "hours": "",
+     "url": "https://arbnet.org/morton-register/roger-williams-university-arboretum/",
+     "src": "arbnet.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "The Graham Gallery",
+     "blurb": "The Graham Gallery presents changing exhibitions in Bristol. Work by its resident artists remains on display alongside featured shows. Has: gallery, artist receptions, appointment visits.",
+     "address": "412A Thames Street, Bristol",
+     "phone": "401-293-0657",
+     "hours": "Thursday–Friday 4–7pm; Saturday 2–5pm; also when flag is out or by appointment.",
+     "url": "https://www.thegrahamgalleryri.com/",
+     "src": "thegrahamgalleryri.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "The Mint Gallery",
+     "blurb": "The Mint Gallery offers photographic prints and work by multiple artists. Its current website does not establish a confirmed walk-in location or visiting schedule. Has: gallery, photography, prints.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.themintgallery.com/",
+     "src": "themintgallery.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Art Box Studio and Retail Gallery",
+     "blurb": "Art Box combines a creative studio with a retail gallery. Children and adults can participate in classes, workshops, and themed art events. Has: gallery, arts center, classes, workshops.",
+     "address": "180 Tinkham Lane, Suite 2, Harrisville, RI 02830, Burrillville",
+     "phone": "401-568-5000",
+     "hours": "Classes and events as scheduled; preregistration required for classes. · Classes priced individually.",
+     "url": "https://www.artboxstudiori.com/",
+     "src": "artboxstudiori.com",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Charlestown Gallery",
+     "blurb": "Charlestown Gallery presents contemporary fine art with a regional emphasis. Its exhibitions include painting, sculpture, photography and mixed media. Has: gallery, sculpture, photography, appointment visits.",
+     "address": "5000 South County Trail, Charlestown",
+     "phone": "401-364-0120",
+     "hours": "Thursday–Monday 11am–4pm; also by appointment.",
+     "url": "https://www.charlestowngalleryri.com/contact/",
+     "src": "charlestowngalleryri.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Erik Rock and Greta Granit",
+     "blurb": "Two giant trolls by Thomas Dambo inhabit Ninigret Park. Their recycled-wood forms are reached by short walks through the grounds. Has: public art, sculpture, walking trails.",
+     "address": "Ninigret Park, 100 Park Lane, Charlestown, RI",
+     "phone": "",
+     "hours": "Park: daily 8am–sunset. · No charge",
+     "url": "https://www.southcountyri.com/thomas-dambo-trolls/",
+     "src": "southcountyri.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Fantastic Umbrella Factory Gardens and Artisan Loft",
+     "blurb": "Gardens and a bamboo grove connect a collection of small shops on a former farmstead. The site includes locally made art and craft displays. Has: garden, artisan gallery, bamboo grove, no dogs, winter weekend hours.",
+     "address": "4820 Old Post Road, Charlestown",
+     "phone": "401-364-1060",
+     "hours": "Published schedule: daily 10am–5pm; July–August until 6pm; January–February weekends only; listed holiday closures.",
+     "url": "https://www.fantasticumbrellafactory.com/",
+     "src": "fantasticumbrellafactory.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Artists' Exchange",
+     "blurb": "This nonprofit arts collaborative includes a gallery, art studios and a theater. Classes and public programs cover visual art, ceramics, music and performance. Has: arts center, gallery, ceramics, classes, theater.",
+     "address": "50 Rolfe Square, Cranston",
+     "phone": "401-490-9475",
+     "hours": "Monday–Friday 9am–8pm; weekends closed; hours subject to change.",
+     "url": "https://www.artists-exchange.org/",
+     "src": "artists-exchange.org",
+     "town": "Cranston"
+    },
+    {
+     "name": "Hand at Nature",
+     "blurb": "Angie Gonzalez created this outdoor artwork. It stands within Diamond Hill Park. Has: public art.",
+     "address": "Diamond Hill Park, 4125 Diamond Hill Road, Cumberland, RI",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://tourblackstone.com/things-to-do/arts-culture/public-art/",
+     "src": "tourblackstone.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "New England Humane Society Mural",
+     "blurb": "Joanna Vespia painted cats and dogs on the animal shelter's exterior. The project brought The Avenue Concept's mural program to Cumberland. Has: public art, mural.",
+     "address": "40 Martin Street, Cumberland, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://theavenueconcept.org/mural-program-2020-schedule-joanna-vespia/",
+     "src": "theavenueconcept.org",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Rowbottom Fine Art Gallery",
+     "blurb": "This gallery presents drawings, paintings and sculpture. Its inventory includes nineteenth-century, early twentieth-century and contemporary work. Has: gallery, sculpture, appointment visits, summer appointment hours.",
+     "address": "1590 Mendon Road, Cumberland",
+     "phone": "401-439-1990",
+     "hours": "Saturday 1–4:30pm and by appointment; July–August by appointment only.",
+     "url": "https://www.jhrowbottomfineartgallery.com/",
+     "src": "jhrowbottomfineartgallery.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Valley Falls Pond Mural",
+     "blurb": "Amy Bartlett created this mural at Cadillac Mills. It depicts Valley Falls Pond. Has: public art, mural.",
+     "address": "Cadillac Mills, Meeting Street, Cumberland, RI",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://tourblackstone.com/things-to-do/arts-culture/public-art/",
+     "src": "tourblackstone.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Candita Clayton Gallery",
+     "blurb": "This contemporary gallery operates inside Crestar in East Greenwich. Its exhibitions bring together artists working in multiple media. Has: gallery, contemporary art.",
+     "address": "51 Liberty Street, East Greenwich, RI",
+     "phone": "",
+     "hours": "Monday–Friday 8:30am–5pm; Saturday 10am–3pm.",
+     "url": "https://badger-point-ra4c.squarespace.com/about",
+     "src": "badger-point-ra4c.squarespace.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Heritage Gifts & Glass Studio",
+     "blurb": "This glass studio and gallery shop displays handcrafted work. Its program also includes glass classes for children and adults. Has: gallery, glass, classes.",
+     "address": "5580 Post Road, East Greenwich",
+     "phone": "401-884-0130",
+     "hours": "",
+     "url": "https://www.heritagegiftsandglass.com/",
+     "src": "heritagegiftsandglass.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Nancy Stephen Gallery and School of Art",
+     "blurb": "This gallery and art school combines exhibitions with instruction. Visitors can contact the school for information about classes and gallery access. Has: gallery, arts center, classes.",
+     "address": "6 King Street, East Greenwich, RI 02818",
+     "phone": "401-884-8979",
+     "hours": "",
+     "url": "https://nancystephenartschool.com/",
+     "src": "nancystephenartschool.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "YJ Contemporary Fine Art",
+     "blurb": "YJ Contemporary presents fine art in an East Greenwich gallery. Weekday opening hours are supplemented by weekend appointments. Has: gallery, contemporary art.",
+     "address": "42 Ladd Street, East Greenwich, RI 02818",
+     "phone": "401-885-4329",
+     "hours": "Monday–Friday 9am–5pm; Saturday–Sunday by appointment.",
+     "url": "https://www.yjcontemporary.com/",
+     "src": "yjcontemporary.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Mrs. Skipper",
+     "blurb": "Thomas Dambo's waterfront troll looks out toward the bay. The sculpture is part of Rhode Island's five-troll trail. Has: public art, sculpture, waterfront.",
+     "address": "Kettle Point Pier, 160 Kettle Point Avenue, Riverside, RI 02915, East Providence",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://www.visitrhodeisland.com/editorial/post/rhode-islands-troll-trail-a-whimsical-outdoor-adventure-with-purpose/",
+     "src": "visitrhodeisland.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Riverside Square Bicycle Bunnies",
+     "blurb": "Peter Diepenbrock's rabbit sculptures animate Riverside Square. The group includes bicycle-themed figures. Has: public art, sculpture.",
+     "address": "Riverside Square, East Providence, RI",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://tourblackstone.com/things-to-do/arts-culture/public-art/",
+     "src": "tourblackstone.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Watchemoket Square Waterfront Gateway Sculpture Garden",
+     "blurb": "This waterfront gateway provides a setting for outdoor sculpture. The city uses the site to introduce public art into Watchemoket Square. Has: sculpture garden, public art, waterfront.",
+     "address": "Watchemoket Square, Waterfront Drive, East Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://eastprovidenceri.gov/node/3733",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Tomaquag Museum",
+     "blurb": "This Indigenous-led museum interprets Native history, culture and art. Exhibitions and public programs connect historic material with contemporary Indigenous perspectives. Has: museum, Indigenous art, tours, educational programs.",
+     "address": "390A Summit Road, Exeter",
+     "phone": "401-491-9063",
+     "hours": "Wednesday 10am–5pm; Saturday 10am–2pm; Monday, Tuesday, Thursday and Friday by tour booking; Sunday closed. · Adults $6; elders and college students $5; children $3; age 5 and under no charge.",
+     "url": "https://www.tomaquagmuseum.org/plan-your-visit",
+     "src": "tomaquagmuseum.org",
+     "town": "Exeter"
+    },
+    {
+     "name": "Artist Open Studios — Western Rhode Island",
+     "blurb": "This regional studio route links artists in Foster, Glocester, and Scituate. Participating studios feature painting, sculpture, ceramics, and glass. Has: gallery route, open studios, painting, sculpture, craft.",
+     "address": "Foster; Glocester; Scituate",
+     "phone": "",
+     "hours": "Announced studio-tour dates; current schedule unconfirmed.",
+     "url": "https://artistopenstudios.org/artists-locations.htm",
+     "src": "artistopenstudios.org",
+     "town": "Foster; Glocester; Scituate"
+    },
+    {
+     "name": "Fuller Art and Frame Gallery",
+     "blurb": "Fuller combines a regional art gallery with custom framing and handmade gifts. Its selection includes painting, ceramics, glass, jewelry, and other craft media. Has: gallery, craft, framing.",
+     "address": "42 Narragansett Avenue, Jamestown, RI 02835",
+     "phone": "401-560-0090",
+     "hours": "Tuesday–Saturday 10am–5pm; Sunday noon–3pm; Monday closed.",
+     "url": "https://fullergallery.com/",
+     "src": "fullergallery.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Arts Center",
+     "blurb": "This nonprofit arts center presents visual-art exhibitions and cultural programs in a converted industrial building. Classes and workshops serve children, teens and adults. Has: arts center, gallery, classes, accessible.",
+     "address": "18 Valley Street, Jamestown",
+     "phone": "401-560-0979",
+     "hours": "Wednesday–Saturday 11am–3pm and by appointment. · Gallery admission no charge.",
+     "url": "https://www.jamestownartcenter.org/contact",
+     "src": "jamestownartcenter.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Arts Center Outdoor Sculpture Pad",
+     "blurb": "This outdoor display area presents rotating sculptures beside the arts center. It gives artists a public setting beyond the indoor galleries. Has: public art, sculpture, rotating exhibitions.",
+     "address": "18 Valley Street, Jamestown, RI",
+     "phone": "401-560-0979",
+     "hours": "",
+     "url": "https://www.jamestownartcenter.org/open-call-sculpture-pad",
+     "src": "jamestownartcenter.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Out of the Box Studio and Gallery",
+     "blurb": "This community art studio pairs creative activity with a public gallery. Exhibitions give participating artists a place to present their work. Has: gallery, arts center, studio.",
+     "address": "11 Clinton Avenue, Jamestown, RI",
+     "phone": "401-328-5066",
+     "hours": "Monday–Saturday 10am–2pm; Sunday closed.",
+     "url": "https://www.outoftheboxart.net/",
+     "src": "outoftheboxart.net",
+     "town": "Jamestown"
+    },
+    {
+     "name": "CCRI Flanagan Campus Art Gallery",
+     "blurb": "The Flanagan Campus gallery hosts exhibitions in a first-floor space. Displays connect visitors with art made and studied at CCRI. Has: gallery, university, exhibitions.",
+     "address": "1762 Old Louisquisset Pike, Room 1527, Lincoln, RI 02865",
+     "phone": "401-333-7251",
+     "hours": "Monday–Friday 10am–4pm; additional hours by appointment.",
+     "url": "https://www.ccri.edu/art/galleries.html",
+     "src": "ccri.edu",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Get The Picture Framing and Art",
+     "blurb": "This framing business also offers original art and fine-art reproductions. Visitors can inquire about the current selection and viewing hours. Has: gallery, original art, framing.",
+     "address": "893 Smithfield Avenue, Lincoln",
+     "phone": "401-725-3400",
+     "hours": "",
+     "url": "https://www.getthepictureframing.com/",
+     "src": "getthepictureframing.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Donovan Studio",
+     "blurb": "Kris Donovan's studio occupies a setting beside Almy Marsh. The artist welcomes visitors during announced South Coast Artists tour weekends. Has: gallery, studio, painting.",
+     "address": "9 Donovan Way, Little Compton, RI",
+     "phone": "",
+     "hours": "2026 open-studio weekends: July 18–19 and August 15–16; other visiting hours unconfirmed.",
+     "url": "https://krisdonovan.com/studio",
+     "src": "krisdonovan.com",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Serena's Studio",
+     "blurb": "Serena Parente Charlebois presents photographic work and guest artists at this studio gallery. Workshops add opportunities to explore photographic practice. Has: gallery, photography, workshops.",
+     "address": "Little Compton",
+     "phone": "401-635-8880",
+     "hours": "Contact the studio to arrange gallery visits.",
+     "url": "https://www.serenasstudio.com/",
+     "src": "serenasstudio.com",
+     "town": "Little Compton"
+    },
+    {
+     "name": "DeBlois Gallery",
+     "blurb": "DeBlois provides exhibition opportunities for local and regional artists. Its changing displays support community engagement with the fine arts. Has: gallery, regional art.",
+     "address": "134 Aquidneck Avenue, Middletown",
+     "phone": "401-847-9977",
+     "hours": "Wednesday–Sunday 1–5pm.",
+     "url": "https://www.debloisgallery.com/",
+     "src": "debloisgallery.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Prescott Farm Gardens",
+     "blurb": "Gardens surround a historic windmill and farm landscape at this preserved property. Visitors can also walk its grounds while observing signs for private areas. Has: garden, historic landscape, walking trails.",
+     "address": "2009 West Main Road, Middletown, RI",
+     "phone": "401-846-4152 ext. 123",
+     "hours": "Daily dawn–dusk. · No charge",
+     "url": "https://www.middletownri.gov/facilities/facility/details/Prescott-Farm-45",
+     "src": "middletownri.gov",
+     "town": "Middletown"
+    },
+    {
+     "name": "Stonybrook Arboretum",
+     "blurb": "Stonybrook is an accredited arboretum on a Middletown property. Its tree collection can be explored through announced special visits. Has: arboretum, limited access.",
+     "address": "501 Indian Avenue, Middletown, RI",
+     "phone": "",
+     "hours": "Announced guided tours only; regular public access unconfirmed.",
+     "url": "https://arbnet.org/morton-register/stonybrook-arboretum/",
+     "src": "arbnet.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "OneWay Gallery",
+     "blurb": "OneWay presents contemporary artwork by a roster of independent artists. Its offerings include original work, prints, and artist collectibles. Has: gallery, contemporary art, prints.",
+     "address": "140 Boon Street, Narragansett, RI 02882",
+     "phone": "401-500-6583",
+     "hours": "",
+     "url": "https://www.onewaygallery.com/",
+     "src": "onewaygallery.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Block Island Airport Gallery",
+     "blurb": "The airport gallery exhibits smaller-scale works by Rhode Island artists. It introduces island travelers to the state's visual-art community. Has: gallery, public art, airport.",
+     "address": "Block Island Airport, Block Island, RI, New Shoreham",
+     "phone": "401-222-3880",
+     "hours": "",
+     "url": "https://arts.ri.gov/galleries/airport-art-galleries",
+     "src": "arts.ri.gov",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "D. Chatowsky Art Gallery — Block Island",
+     "blurb": "The operator lists a Block Island gallery near the Red Bird parking area. Its published seasonal notice is old, so current access remains unconfirmed. Has: gallery, island location, access unconfirmed.",
+     "address": "47 Dodge Street, New Shoreham",
+     "phone": "401-835-4623",
+     "hours": "",
+     "url": "https://www.dchatowskyartgallery.com/",
+     "src": "dchatowskyartgallery.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Jessie Edwards Gallery",
+     "blurb": "This Block Island gallery overlooks Old Harbor and presents contemporary regional art. Its exhibitions include paintings, drawings, ceramics, photographs and prints. Has: gallery, seasonal, winter appointments.",
+     "address": "New Shoreham",
+     "phone": "",
+     "hours": "May–December; winter visits by appointment; daily hours not confirmed.",
+     "url": "https://jessieedwardsgallery.com/",
+     "src": "jessieedwardsgallery.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Spring Street Gallery",
+     "blurb": "This Block Island artist cooperative occupies a converted horse barn. Its displays include paintings, photographs, ceramics and jewelry by island artists. Has: gallery, artist cooperative, classes, seasonal.",
+     "address": "New Shoreham",
+     "phone": "",
+     "hours": "Published 2026 summer schedule through Labor Day: Monday–Saturday 10am–5pm; Sunday 11am–5pm; later-season hours not confirmed.",
+     "url": "https://www.springstreetgallery.com/",
+     "src": "springstreetgallery.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Arnold Art Store and Gallery",
+     "blurb": "Arnold Art presents marine and contemporary art alongside prints and art supplies. The longstanding Thames Street business also provides custom framing. Has: gallery, maritime art, prints, framing.",
+     "address": "210 Thames Street, Newport, RI 02840",
+     "phone": "401-847-2273",
+     "hours": "Monday–Saturday 10am–4pm; Sunday closed.",
+     "url": "https://www.arnoldart.com/",
+     "src": "arnoldart.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Atelier Newport",
+     "blurb": "Atelier Newport presents traditional and contemporary work by established and emerging artists. Its collection includes fine art, design and sculptural objects. Has: gallery, design, sculpture, appointment required.",
+     "address": "200 Bellevue Avenue, Newport",
+     "phone": "239-240-5326",
+     "hours": "By appointment.",
+     "url": "https://ateliercontemporary.com/",
+     "src": "ateliercontemporary.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Bailey Art Gallery",
+     "blurb": "The gallery's website identifies a Spring Street exhibition space. Its available visitor information is dated, so present operating status needs confirmation. Has: gallery, access unconfirmed.",
+     "address": "42 Spring Street, Suite 5, Newport",
+     "phone": "401-848-2919",
+     "hours": "",
+     "url": "https://www.baileyfineart.com/",
+     "src": "baileyfineart.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Bellevue House Arboretum",
+     "blurb": "This arboretum combines specimen trees with ornamental pools and garden sculpture. Regular public visiting arrangements have not been confirmed. Has: arboretum, garden, sculpture, limited access.",
+     "address": "304 Bellevue Avenue, Newport, RI 02840",
+     "phone": "",
+     "hours": "",
+     "url": "https://arbnet.org/morton-register/bellevue-house-arboretum/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Blink Gallery / Alexander Nesbitt Photography",
+     "blurb": "Blink Gallery displays photography by Alexander Nesbitt alongside his working studio. Newport scenes and travel images form part of its visual focus. Has: gallery, photography.",
+     "address": "89 Thames Street, Newport",
+     "phone": "",
+     "hours": "Typically Monday–Friday 11am–5pm.",
+     "url": "https://nesbittphoto.com/contact-us/",
+     "src": "nesbittphoto.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Bois Doré Arboretum",
+     "blurb": "Bois Doré preserves mature estate trees while adding native plantings and habitat. Public visits occur through announced special opportunities. Has: arboretum, historic landscape, limited access.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newporttreeconservancy.org/boisdore",
+     "src": "newporttreeconservancy.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Bonniecrest Arboretum",
+     "blurb": "Bonniecrest maintains a substantial tree collection within a historic residential landscape. Public visits depend on specially arranged opportunities. Has: arboretum, historic landscape, limited access.",
+     "address": "111 Harrison Avenue, Newport, RI",
+     "phone": "",
+     "hours": "Announced guided tours only; regular public access unconfirmed.",
+     "url": "https://arbnet.org/morton-register/bonniecrest/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Cory Silken Photography Gallery",
+     "blurb": "Cory Silken's gallery displays fine-art photography with a strong maritime focus. The gallery has moved to Bannister's Wharf. Has: gallery, photography, maritime art.",
+     "address": "1 Bannister's Wharf, second floor, Newport, RI 02840",
+     "phone": "401-203-7245",
+     "hours": "Regular seasonal opening Memorial Day–Columbus Day; limited hours otherwise, call for appointments.",
+     "url": "https://www.silkengallery.com/Newport-Fine-Art-Photography-Gallery",
+     "src": "silkengallery.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Dorrance H. Hamilton Gallery",
+     "blurb": "Salve Regina's gallery exhibits work by students and established artists. Its program includes regional, national and international art. Has: university gallery, accessible, parking nearby.",
+     "address": "44 and 56 Lawrence Avenue, Antone Academic Center, Newport",
+     "phone": "401-341-2981",
+     "hours": "Tuesday and Thursday 11am–6pm; Wednesday and Friday 11am–5pm; Saturday–Sunday noon–4pm; closed Monday. · No charge.",
+     "url": "https://salve.edu/academics/academic-departments/department-art-and-art-history/dorrance-h-hamilton-gallery",
+     "src": "salve.edu",
+     "town": "Newport"
+    },
+    {
+     "name": "Frederick Law Olmsted Park and Arboretum",
+     "blurb": "This arboretum preserves historic landscapes associated with the National Museum of American Illustration. Access needs confirmation while the museum is closed for renovation. Has: arboretum, historic garden, specimen trees.",
+     "address": "492 Bellevue Avenue, Newport, RI 02840",
+     "phone": "",
+     "hours": "",
+     "url": "https://arbnet.org/morton-register/frederick-law-olmsted-park-and-arboretum/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Harbor House Arboretum",
+     "blurb": "This residential property's arboretum preserves trees adapted to an exposed waterfront setting. Public access has not been confirmed. Has: arboretum, waterfront, limited access.",
+     "address": "111 Washington Street, Newport, RI 02840",
+     "phone": "401-619-1026",
+     "hours": "",
+     "url": "https://arbnet.org/morton-register/harbor-house/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Island Cemetery Arboretum",
+     "blurb": "Island Cemetery preserves a historic garden landscape with mature specimen trees and ornamental plantings. Memorial sculpture adds another dimension to walks through the arboretum. Has: arboretum, garden, sculpture, historic cemetery.",
+     "address": "30 Warner Street, Newport, RI 02840",
+     "phone": "401-846-0432",
+     "hours": "Gates open 9am–5pm.",
+     "url": "https://www.islandcemeterynewport.com/island-arboretum",
+     "src": "islandcemeterynewport.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Jessica Hagen Fine Art + Design",
+     "blurb": "The gallery presents work by artists from the Northeast and beyond. Its collection spans painting, sculpture, photography, ceramics and design. Has: gallery, sculpture, photography, appointment visits.",
+     "address": "9A Bridge Street, Newport",
+     "phone": "401-835-7682",
+     "hours": "Wednesday–Saturday 11am–5pm; Sunday noon–5pm; other days by appointment.",
+     "url": "https://www.jessicahagen.com/about-jessica-hagen",
+     "src": "jessicahagen.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Marble House and Grounds",
+     "blurb": "Marble House showcases richly decorated interiors associated with the Vanderbilt family. Its grounds include a Chinese-inspired tea house overlooking the Atlantic. Has: museum, decorative arts, garden, partially accessible.",
+     "address": "596 Bellevue Avenue, Newport, RI 02840",
+     "phone": "401-847-1000",
+     "hours": "Through November 20, 2026: daily 9am–5pm, last entry 4pm; later hours vary. · Adults $25; ages 6–12 $10; children under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/marble-house/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Mariner Gallery",
+     "blurb": "This Newport gallery presents fine art with a maritime emphasis. Its collection connects traditional and contemporary approaches to coastal subjects. Has: gallery, maritime art.",
+     "address": "267 Spring Street, Newport",
+     "phone": "",
+     "hours": "Friday–Sunday 1–6pm.",
+     "url": "https://www.marinergallery.com/",
+     "src": "marinergallery.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Montanaro Fine Art",
+     "blurb": "This Newport gallery specializes in modern and contemporary art. Its website presents available works and a contact channel for visiting inquiries. Has: gallery, modern art, contemporary art.",
+     "address": "181 Bellevue Avenue, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://montanarofineart.com/contact",
+     "src": "montanarofineart.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Art Museum",
+     "blurb": "This museum combines changing exhibitions with a collection rooted in Newport and New England art. Its historic campus also supports an art school and public programs. Has: art museum, classes, parking, winter hours.",
+     "address": "76 Bellevue Avenue, Newport",
+     "phone": "401-848-8200",
+     "hours": "Wednesday–Monday 11am–4pm; closed Tuesdays and listed holidays. · Adults $20; age 65+ $15; college students $10; members, active military and spouse, and age 17 and under no charge.",
+     "url": "https://newportartmuseum.org/visit/",
+     "src": "newportartmuseum.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Citywide Arboretum",
+     "blurb": "Newport's accredited citywide arboretum encompasses its urban tree canopy. Public streets and parks offer ways to explore it, while private-property access requires separate permission. Has: arboretum, urban landscape, self-guided exploration.",
+     "address": "Public streets and parks throughout Newport",
+     "phone": "401-324-9204",
+     "hours": "",
+     "url": "https://www.newporttreeconservancy.org/the-newport-arboretum",
+     "src": "newporttreeconservancy.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Oakwood Arboretum",
+     "blurb": "Oakwood preserves a tree-filled landscape dating to the nineteenth century. Its collection combines old specimen trees with newer conservation plantings. Has: arboretum, historic landscape, limited access.",
+     "address": "50 Narragansett Avenue, Newport, RI 02840",
+     "phone": "",
+     "hours": "Announced guided tours only; regular public access unconfirmed.",
+     "url": "https://arbnet.org/morton-register/oakwood-arboretum/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Overlap Art Space",
+     "blurb": "This artist-led nonprofit presents contemporary exhibitions and public programs. Its program encourages experimentation and discussion around art making. Has: gallery, contemporary art, workshops, parking.",
+     "address": "112 Van Zandt Avenue, Newport",
+     "phone": "",
+     "hours": "Thursday–Saturday noon–4pm; Sunday noon–3pm.",
+     "url": "https://overlapartspace.org/visit",
+     "src": "overlapartspace.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Pax et Bonum Arboretum",
+     "blurb": "This residential arboretum emphasizes espalier fruit trees and small-scale horticulture. Regular public visiting arrangements have not been confirmed. Has: arboretum, fruit trees, limited access.",
+     "address": "47 Catherine Street, Newport, RI 02840",
+     "phone": "",
+     "hours": "",
+     "url": "https://arbnet.org/morton-register/pax-et-bonum/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Peace Pocket Arboretum",
+     "blurb": "Peace Pocket is a small accredited arboretum in Newport. Regular public visiting arrangements have not been confirmed. Has: arboretum, limited access.",
+     "address": "6 Red Cross Terrace, Newport, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://arbnet.org/morton-register/peace-pocket/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Redwood Library and Athenaeum Art Galleries",
+     "blurb": "The Redwood combines a historic library with portraiture and changing art exhibitions. Visitors can explore its collections within an early American neoclassical building. Has: gallery, museum, portraiture, library.",
+     "address": "50 Bellevue Avenue, Newport, RI 02840",
+     "phone": "401-847-0292",
+     "hours": "Tuesday–Saturday 10am–4pm; Sunday 1–5pm; Monday and listed holidays closed.",
+     "url": "https://redwoodlibrary.org/visit/",
+     "src": "redwoodlibrary.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Rosecliff Exhibition Galleries",
+     "blurb": "Rosecliff's second floor hosts changing exhibitions of art, design, and culture. The mansion's architecture and landscaped setting complement the gallery visit. Has: gallery, museum, decorative arts, garden.",
+     "address": "548 Bellevue Avenue, Newport, RI 02840",
+     "phone": "401-847-1000",
+     "hours": "June 26–November 1, 2026: daily 9am–4pm; last entry 3pm. · Adults $25; ages 6–12 $10; children under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/rosecliff/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Rough Point Museum and Arboretum",
+     "blurb": "Doris Duke's former home displays fine art, decorative objects, and changing exhibitions. Oceanfront gardens and an accredited arboretum extend the visit outdoors. Has: museum, art, decorative arts, garden, arboretum, accessible.",
+     "address": "680 Bellevue Avenue, Newport, RI",
+     "phone": "401-847-8344",
+     "hours": "March 28–November 8, 2026: Tuesday–Friday 10am–4pm; Saturday–Sunday 10am–5pm. Holiday season November 27–December 27; check dated schedule. · Adults $25; students with ID $12.50; children 12 and under and Newport County residents no charge; EBT/WIC $5 per person.",
+     "url": "https://www.newportrestoration.org/plan-a-visit/",
+     "src": "newportrestoration.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Salve Regina University Arboretum",
+     "blurb": "The university welcomes visitors to explore its historic campus landscape and tree collection. The accredited arboretum contains more than 1,700 trees representing over one hundred species. Has: arboretum, self-guided walks, campus landscape.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://salve.edu/our-mission/our-campus-and-newport-advantage/arboretum-salve-regina-university",
+     "src": "salve.edu",
+     "town": "Newport"
+    },
+    {
+     "name": "Sheldon Fine Art",
+     "blurb": "This commercial gallery displays original fine art on Newport's waterfront corridor. Visitors can browse work during its published daily hours. Has: gallery, fine art.",
+     "address": "59 America's Cup Avenue, Newport",
+     "phone": "401-849-0030",
+     "hours": "Sunday–Thursday 9am–7pm; Friday–Saturday 9am–8pm.",
+     "url": "https://www.sheldonfineart.com/",
+     "src": "sheldonfineart.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Spring Bull Gallery",
+     "blurb": "This Newport artist cooperative exhibits original fine art in varied styles. Member displays are complemented by special exhibitions and visiting artists. Has: gallery, artist cooperative.",
+     "address": "55 Bellevue Avenue, Newport",
+     "phone": "401-849-9166",
+     "hours": "Wednesday–Monday noon–5pm; closed Tuesday.",
+     "url": "https://springbullgallery.com/",
+     "src": "springbullgallery.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Thames Glass",
+     "blurb": "This working glass studio displays handmade glass objects. Visitors can also book guided glassmaking experiences. Has: gallery, glass, working studio, classes.",
+     "address": "688 Thames Street, Newport",
+     "phone": "401-846-0576",
+     "hours": "Sunday–Friday noon–5pm; Saturday 10am–5pm. · Glassmaking experiences: ornament $42; paperweight or pumpkin $72; bubble bowl or wave $85; vase or bowl $195; gallery browsing admission not published.",
+     "url": "https://www.thamesglass.com/",
+     "src": "thamesglass.com",
+     "town": "Newport"
+    },
+    {
+     "name": "The Breakers and Gardens",
+     "blurb": "The Breakers preserves elaborate Gilded Age interiors and decorative art. The surrounding grounds provide gardens and ocean views. Has: museum, decorative arts, garden, partially accessible.",
+     "address": "44 Ochre Point Avenue, Newport, RI 02840",
+     "phone": "401-847-1000",
+     "hours": "Through November 20, 2026: daily 9am–5pm, last entry 4pm. Later holiday hours vary; terraces undergoing restoration through November. · Adults $32; ages 6–12 $14; children under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/the-breakers/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Third & Elm Press",
+     "blurb": "This printmaking shop includes a gallery in Newport's Point neighborhood. Visitors can browse the work during regular opening hours or arrange another visit. Has: gallery, printmaking, appointment visits.",
+     "address": "29 Elm Street, Newport",
+     "phone": "401-846-0228",
+     "hours": "Wednesday–Saturday noon–4pm and by appointment.",
+     "url": "https://thirdandelm.com/hours-visitor-information/",
+     "src": "thirdandelm.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Vernon House",
+     "blurb": "Vernon House hosts contemporary exhibitions and cultural programming in a historic building. Its seasonal displays connect present-day creative work with the site's past. Has: gallery, historic house, exhibitions.",
+     "address": "46 Clarke Street, Newport, RI",
+     "phone": "401-847-8344",
+     "hours": "October 3–November 22, 2026: Tuesday–Sunday 10am–5pm. · No charge",
+     "url": "https://www.newportrestoration.org/plan-a-visit/",
+     "src": "newportrestoration.org",
+     "town": "Newport"
+    },
+    {
+     "name": "William Vareika Fine Arts",
+     "blurb": "The gallery specializes in historic American paintings, watercolors, drawings and prints. Its Bellevue Avenue location offers public viewing and collecting services. Has: gallery, American art, historic art, appointment visits.",
+     "address": "212 Bellevue Avenue, Newport",
+     "phone": "401-849-6149",
+     "hours": "Monday–Saturday 10am–6pm; Sunday 1–6pm; also by appointment.",
+     "url": "https://vareikafinearts.com/",
+     "src": "vareikafinearts.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Wyndham Arboretum",
+     "blurb": "Wyndham's estate landscape contains mature conifers, broadleaf trees, and a planted pond. Regular public access has not been confirmed. Has: arboretum, historic landscape, limited access.",
+     "address": "36 Beacon Hill Road, Newport, RI 02840",
+     "phone": "",
+     "hours": "",
+     "url": "https://arbnet.org/morton-register/wyndham/",
+     "src": "arbnet.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Gilbert Stuart Birthplace and Museum / Bell Art Gallery",
+     "blurb": "The Bell Art Gallery displays original work by Gilbert Stuart, Jane Stuart and other artists. The surrounding museum connects portraiture with a historic house, mills and landscape. Has: art museum, gallery, accessible gallery, gardens, seasonal.",
+     "address": "815 Gilbert Stuart Road, Saunderstown, North Kingstown",
+     "phone": "401-294-3001",
+     "hours": "2026 season April 29–October 25, Wednesday–Sunday 10am–4pm; closed October 26, 2026–April 28, 2027. · Adults $15; ages 6–12 $8; members no charge.",
+     "url": "https://gilbertstuartmuseum.org/the-museum-more-attractions/",
+     "src": "gilbertstuartmuseum.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Iver Mudslider",
+     "blurb": "Thomas Dambo's wooden troll stands along a trail in Ryan Park. Visitors reach the sculpture on foot. Has: public art, sculpture, walking trails.",
+     "address": "Ryan Park, North Kingstown, RI; access from Lafayette Road or Oak Hill Road",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://www.northkingstownri.gov/1222/Plan-Your-Visit",
+     "src": "northkingstownri.gov",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "SEEFARI",
+     "blurb": "SEEFARI combines Janelle Feigley's studio with a boutique art and design gallery. Exhibitions, vintage objects, and classes share the space. Has: gallery, studio, classes, design.",
+     "address": "7512 Post Road, North Kingstown, RI",
+     "phone": "401-380-0784",
+     "hours": "Thursday–Saturday noon–6pm; Sunday noon–4pm; additional hours by appointment or chance.",
+     "url": "https://www.houseofseefari.com/",
+     "src": "houseofseefari.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "The Mill at Shady Lea",
+     "blurb": "This converted mill houses artists working in painting, glass, ceramics, textiles, and other media. Open-studio events provide opportunities to meet makers and view their work. Has: arts center, artist studios, open studios, craft.",
+     "address": "215 Shady Lea Road, North Kingstown, RI 02852",
+     "phone": "401-290-7548",
+     "hours": "Individual studio arrangements and announced open-studio events.",
+     "url": "https://www.themillatshadylea.com/",
+     "src": "themillatshadylea.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Wickford Art Association",
+     "blurb": "This Wickford organization maintains a public gallery for changing art exhibitions. Its location places gallery visits within the village's broader arts community. Has: gallery, arts association.",
+     "address": "36 Beach Street, North Kingstown",
+     "phone": "401-294-6840",
+     "hours": "Wednesday–Saturday noon–4pm; Sunday noon–3pm.",
+     "url": "https://wickfordart.org/",
+     "src": "wickfordart.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Dryden Gallery at Providence Picture Frame",
+     "blurb": "Dryden Gallery presents changing exhibitions within Providence Picture Frame's North Providence location. Its program features contemporary artists and regional work. Has: gallery, contemporary art, framing.",
+     "address": "1350 Mineral Spring Avenue, North Providence",
+     "phone": "401-421-6196",
+     "hours": "",
+     "url": "https://www.drydengallery.com/",
+     "src": "drydengallery.com",
+     "town": "North Providence"
+    },
+    {
+     "name": "Complements Art Gallery",
+     "blurb": "The gallery welcomes arranged visits to its farm setting in North Smithfield. Its collection includes paintings, art glass, sculpture and metalwork. Has: gallery, sculpture, art glass, appointment required.",
+     "address": "North Smithfield",
+     "phone": "401-766-6800",
+     "hours": "By appointment.",
+     "url": "https://complementsartgallery.com/contact/",
+     "src": "complementsartgallery.com",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Art League RI Gallery",
+     "blurb": "Art League RI maintains an exhibition space in Pawtucket. Visitors can see changing shows during scheduled weekend hours or arrange another visiting time. Has: gallery, appointment visits.",
+     "address": "80 Fountain Street, Suite 107A, Pawtucket",
+     "phone": "401-861-0500",
+     "hours": "During exhibitions: Saturday 2–6pm; Sunday 2–5pm; other visits by arrangement.",
+     "url": "https://artleagueri.org/visit-us/",
+     "src": "artleagueri.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Lorraine Mills Sculpture Garden",
+     "blurb": "Outdoor sculpture accompanies this former mill complex. It complements the site's artist spaces. Has: sculpture garden, public art.",
+     "address": "560 Mineral Spring Avenue, Pawtucket, RI",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://tourblackstone.com/things-to-do/arts-culture/public-art/",
+     "src": "tourblackstone.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Pawtucket Arts and Entertainment District",
+     "blurb": "Pawtucket's arts district links creative businesses and cultural destinations in the city. Galleries, studios, and public artworks contribute to its identity. Has: gallery district, arts district, public art, studios.",
+     "address": "Downtown Pawtucket, RI",
+     "phone": "",
+     "hours": "Individual venue and event schedules vary.",
+     "url": "https://pawtucketri.gov/arts/",
+     "src": "pawtucketri.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Pawtucket Arts Collaborative Gallery",
+     "blurb": "This artist collaborative operates a gallery in Lorraine Mills. Exhibitions bring together work by artists in Pawtucket and the surrounding region. Has: gallery, arts center, mill building.",
+     "address": "560 Mineral Spring Avenue, Lorraine Mills, Pawtucket",
+     "phone": "",
+     "hours": "Saturday 1–4pm; Sunday 10am–4pm.",
+     "url": "https://pawtucketartscollaborative.org/",
+     "src": "pawtucketartscollaborative.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Rhode Island Watercolor Society Gallery",
+     "blurb": "The society operates an exhibition gallery beside the pond in Slater Memorial Park. Watercolor and related works on paper are complemented by classes and workshops. Has: gallery, watercolor, classes, park setting.",
+     "address": "831 Armistice Boulevard, Slater Memorial Park, Pawtucket",
+     "phone": "401-726-1876",
+     "hours": "Thursday–Friday 10am–4pm; Saturday 10am–3pm; closed Sunday–Wednesday and holidays. · No charge.",
+     "url": "https://rhodeislandwatercolorsociety.wildapricot.org/Plan-Your-Visit",
+     "src": "rhodeislandwatercolorsociety.wildapricot.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Spun",
+     "blurb": "Gianna Stewart's suspended sculpture resembles a large ball of interwoven threads. It connects the area's textile history with the intersecting journeys of commuters. Has: public art, sculpture, transit.",
+     "address": "Pawtucket/Central Falls Transit Center, 300 Pine Street, Pawtucket, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.gianna.works/spun/",
+     "src": "gianna.works",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "The Gallery at Machines with Magnets",
+     "blurb": "This gallery presents contemporary art, craft, installation, and multimedia exhibitions. It shares an arts venue with recording and performance activity. Has: gallery, contemporary art, installation, performance.",
+     "address": "400 Main Street, Pawtucket, RI 02860",
+     "phone": "401-753-4049",
+     "hours": "During selected public events and by appointment.",
+     "url": "https://www.machineswithmagnets.com/gallery",
+     "src": "machineswithmagnets.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "D. Chatowsky Fish Print Museum",
+     "blurb": "This location is listed by the operator as a fish-print museum. Current public access and hours need confirmation. Has: gallery, fish prints, access unconfirmed.",
+     "address": "2572 East Main Road, Portsmouth",
+     "phone": "401-835-4623",
+     "hours": "",
+     "url": "https://www.dchatowskyartgallery.com/",
+     "src": "dchatowskyartgallery.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Green Animals Topiary Garden",
+     "blurb": "This seven-acre estate displays clipped living sculptures and flower gardens above Narragansett Bay. Its collection includes more than eighty topiary animals and other figures. Has: garden, topiary, parking, seasonal, not wheelchair accessible.",
+     "address": "380 Corys Lane, Portsmouth",
+     "phone": "401-847-1000",
+     "hours": "Seasonal; consult the dated operating calendar. · One-property ticket: adults $25; ages 6–12 $10; under 6 no charge; Portsmouth residents no charge when open.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/green-animals-topiary-garden/",
+     "src": "newportmansions.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Portsmouth Arts Guild",
+     "blurb": "The guild presents exhibitions and studio activities for local artists. Classes, demonstrations and workshops supplement its gallery program. Has: gallery, arts association, classes, appointment visits.",
+     "address": "2679 East Main Road, Portsmouth",
+     "phone": "401-215-0122",
+     "hours": "Current exhibition: Thursday 9:30am–noon and by appointment; exhibition ends November 15, 2026.",
+     "url": "https://portsmoutharts.org/",
+     "src": "portsmoutharts.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "African American Museum of Rhode Island",
+     "blurb": "This museum presents exhibitions on African American and African diasporic experience in Rhode Island. Its displays and cultural programs connect community stories with creative expression. Has: museum, gallery, African American culture.",
+     "address": "500 Broad Street, Unit 5B, Providence, RI 02907",
+     "phone": "401-536-3349",
+     "hours": "Thursday 2–6pm; Friday noon–5pm; Saturday 11am–6pm; Sunday noon–3pm; Tuesday–Wednesday group visits by appointment; Monday closed. · No charge",
+     "url": "https://www.aam-ri.org/",
+     "src": "aam-ri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Alcove Gallery",
+     "blurb": "Alcove presents portraiture centered on women and gender-expansive people. The public gallery is part of a broader creative community space. Has: gallery, portraiture, community art.",
+     "address": "189 Broadway, Providence, RI",
+     "phone": "401-443-3347",
+     "hours": "Tuesday–Friday 9am–5pm; Saturday 10am–3pm. Published 2026 closures include November 11, November 25–28, December 15, and December 22–January 2. · No charge",
+     "url": "https://www.alcoveri.org/",
+     "src": "alcoveri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Alfred DeCredico / ISB Gallery",
+     "blurb": "This RISD gallery occupies the Illustration Studies Building. Public access requires confirmation. Has: gallery, university.",
+     "address": "Illustration Studies Building, 1 Washington Place, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.risd.edu/news/campus-exhibitions",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Anahid Ypres Art Studio",
+     "blurb": "Anahid Ypres's studio presents paintings and ceramic work. Visits offer a look at the artist's interpretations of everyday life. Has: gallery, studio, painting, ceramics.",
+     "address": "118 North Main Street, third floor, Providence, RI 02903",
+     "phone": "",
+     "hours": "By appointment.",
+     "url": "https://www.anahidypres.com/",
+     "src": "anahidypres.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Angell Street Galleries",
+     "blurb": "This East Side gallery presents contemporary artwork in changing exhibitions. Its current location is on Angell Street. Has: gallery, contemporary art.",
+     "address": "324 Angell Street, Providence, RI",
+     "phone": "401-398-4323",
+     "hours": "Autumn schedule: Wednesday–Friday 1–6pm; Saturday–Sunday 1–5pm; Monday–Tuesday closed. · No charge",
+     "url": "https://www.angellstreetgalleries.com/",
+     "src": "angellstreetgalleries.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Art at Watson — Brook Street",
+     "blurb": "Brown's Watson School presents exhibitions that connect visual art with social inquiry. This Brook Street space is one of the program's current display locations. Has: gallery, university, contemporary art.",
+     "address": "280 Brook Street, first floor, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://home.watson.brown.edu/life-watson/art-watson",
+     "src": "home.watson.brown.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Art in the Atrium at First U",
+     "blurb": "Changing art exhibitions occupy the atrium of First Unitarian Church. The program brings visual art into a community gathering space. Has: gallery, community art.",
+     "address": "1 Benevolent Street, Providence, RI",
+     "phone": "401-421-7970",
+     "hours": "Sunday 9am–1pm; Monday–Friday 9am–5pm; Saturday and holidays closed. June 16–September 7: Sunday 9am–noon, Monday–Thursday 9am–4pm, Friday 9am–1:30pm. · No charge",
+     "url": "https://www.aitafirstu.org/",
+     "src": "aitafirstu.org",
+     "town": "Providence"
+    },
+    {
+     "name": "As220",
+     "blurb": "An independent nonprofit arts organization offering galleries, performances, workshops, and community creative spaces.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://as220.org/",
+     "src": "as220.org"
+    },
+    {
+     "name": "AS220 Aborn Gallery",
+     "blurb": "The Aborn presents curated exhibitions within AS220's Empire Street complex. Associated street-level windows extend the display outdoors. Has: gallery, window displays.",
+     "address": "95 Empire Street, second floor, Providence",
+     "phone": "401-831-9327 ext. 114",
+     "hours": "No charge.",
+     "url": "https://as220.org/galleries",
+     "src": "as220.org",
+     "town": "Providence"
+    },
+    {
+     "name": "AS220 Main Gallery",
+     "blurb": "This exhibition space shares AS220's main performance venue. Its changing shows primarily display work on the walls. Has: gallery, arts center, exhibitions.",
+     "address": "115 Empire Street, Providence",
+     "phone": "401-831-9327 ext. 114",
+     "hours": "Official pages differ: Thursday–Friday 1–6pm and Saturday noon–5pm, or Thursday–Saturday noon–5pm; confirm before visiting. · No charge.",
+     "url": "https://as220.org/galleries",
+     "src": "as220.org",
+     "town": "Providence"
+    },
+    {
+     "name": "AS220 Project Space and Reading Room",
+     "blurb": "These adjoining galleries offer two exhibition settings in the Dreyfus building. The smaller Reading Room supports close viewing. Has: gallery, contemporary art.",
+     "address": "93 Mathewson Street, Providence",
+     "phone": "401-831-9327 ext. 114",
+     "hours": "No charge.",
+     "url": "https://as220.org/galleries",
+     "src": "as220.org",
+     "town": "Providence"
+    },
+    {
+     "name": "AS220 Resident Gallery",
+     "blurb": "The Mercantile Block lobby displays work from AS220's resident community. Art can also be seen from Washington Street. Has: gallery, window viewing.",
+     "address": "131 Washington Street, Providence",
+     "phone": "401-831-9327 ext. 114",
+     "hours": "",
+     "url": "https://as220.org/exhibit",
+     "src": "as220.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Atrium Gallery at One Capitol Hill",
+     "blurb": "This state gallery presents rotating exhibitions by artists, schools, and cultural organizations. Its displays occupy the atrium of the Administration Building. Has: gallery, public art, community exhibitions.",
+     "address": "1 Capitol Hill, first floor, Providence, RI",
+     "phone": "401-222-3880",
+     "hours": "Monday–Friday 8:30am–4:30pm.",
+     "url": "https://arts.ri.gov/galleries/atrium-gallery-one-capitol-hill",
+     "src": "arts.ri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Bayard Ewing Building Gallery",
+     "blurb": "This RISD space presents architecture exhibitions. Public access requires confirmation. Has: gallery, architecture.",
+     "address": "231 South Main Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.risd.edu/news/campus-exhibitions",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Bert Gallery",
+     "blurb": "Bert Gallery specializes in the artistic traditions of Providence within American art. Its collection and exhibitions emphasize historic regional artists. Has: gallery, American art, appointment visits.",
+     "address": "24 Bridge Street, Providence",
+     "phone": "401-751-2628",
+     "hours": "By appointment; additional hours during selected exhibitions.",
+     "url": "https://www.bertgallery.com/about",
+     "src": "bertgallery.com",
+     "town": "Providence"
+    },
+    {
+     "name": "BIG NAZO Rocket Mill Studio",
+     "blurb": "BIG NAZO's studio houses the creation of large sculptural creatures used in performance. Special visits offer a look at the troupe's working environment. Has: arts center, studio, sculpture, performance.",
+     "address": "120 Manton Avenue, Unit 616, Providence, RI",
+     "phone": "",
+     "hours": "During announced tours and special events; regular walk-in hours unconfirmed.",
+     "url": "https://alumni.risd.edu/news-events/design-week-ri",
+     "src": "alumni.risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Bowen Project Space",
+     "blurb": "Bowen is a RISD exhibition space. Visits require advance arrangements. Has: gallery, university.",
+     "address": "132 Bowen Street, Providence, RI",
+     "phone": "",
+     "hours": "By appointment or invitation.",
+     "url": "https://www.risd.edu/news/campus-exhibitions",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Brown University Public Art Collection",
+     "blurb": "Brown's campus contains permanent and loaned sculptures spanning traditional and contemporary approaches. Outdoor walking tours introduce selections from the collection. Has: public art, sculpture, walking tours, university.",
+     "address": "Brown University campus, College Hill, Providence, RI",
+     "phone": "",
+     "hours": "Outdoor works; fall 2026 guided tours Saturday–Sunday 3pm, September 12–November 15.",
+     "url": "https://arts.brown.edu/programs/public-art",
+     "src": "arts.brown.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Chazan Gallery at Wheeler",
+     "blurb": "This nonprofit gallery at the Wheeler School presents contemporary regional artists. Its exhibition program uses an open jury process. Has: gallery, contemporary art, accessible.",
+     "address": "228 Angell Street, Providence",
+     "phone": "",
+     "hours": "No charge.",
+     "url": "https://www.gallerynight.org/partners/",
+     "src": "gallerynight.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Connection",
+     "blurb": "Savonnara Sok created this public artwork in 2025. It is located on Westminster Street. Has: public art, mural.",
+     "address": "719 Westminster Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://theavenueconcept.org/",
+     "src": "theavenueconcept.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Edward Mitchell Bannister Gallery",
+     "blurb": "Rhode Island College presents changing contemporary exhibitions in this gallery. Its academic-year program features artists working locally, regionally and internationally. Has: university gallery, accessible, academic calendar.",
+     "address": "600 Mount Pleasant Avenue, Roberts Hall, Providence",
+     "phone": "",
+     "hours": "Monday–Friday noon–8pm when exhibitions are on view. · No charge.",
+     "url": "https://www.ric.edu/visitors-arts-events/bannister-gallery",
+     "src": "ric.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Gallery at Providence City Hall",
+     "blurb": "City Hall's gallery offers changing exhibitions by Providence artists and organizations. The program gives public display space to groups that may lack a permanent gallery. Has: gallery, community art, accessible.",
+     "address": "25 Dorrance Street, second floor, Providence, RI",
+     "phone": "",
+     "hours": "Monday–Thursday 8:30am–4:30pm; current exhibition also lists Friday, so confirm Friday access. · No charge",
+     "url": "https://artculturetourism.com/galleries/main-gallery/",
+     "src": "artculturetourism.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Gallery at the State Health Laboratories",
+     "blurb": "Artworks and interpretive signs are arranged to be visible through the building's windows. Exhibitions explore connections between art and laboratory science. Has: gallery, window gallery, public art.",
+     "address": "150 Richmond Street, Providence, RI",
+     "phone": "401-222-3880",
+     "hours": "Sidewalk viewing; interior restricted to authorized visitors.",
+     "url": "https://arts.ri.gov/galleries/gallery-state-health-laboratories",
+     "src": "arts.ri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Gallery Belleau",
+     "blurb": "Gallery Belleau presents glass art and other handcrafted work on Wickenden Street. Visitors can browse its showroom throughout the week. Has: gallery, glass, craft.",
+     "address": "424 Wickenden Street, Providence, RI",
+     "phone": "401-456-0011",
+     "hours": "Monday 11am–5pm; Tuesday 11am–6pm; Wednesday 10am–5pm; Thursday–Friday 10am–6pm; Saturday 10am–5pm; Sunday 11am–5pm.",
+     "url": "https://www.gallerybelleau.org/",
+     "src": "gallerybelleau.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Gallery Night Providence",
+     "blurb": "This citywide gallery route connects museums, galleries, and artist spaces through guided bus and walking tours. Participating venues also welcome independent exploration during the event. Has: gallery route, gallery district, walking tours, bus tours.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "Third Thursday, March–November; tours begin between 5pm and 6:30pm. · No charge required; pay what you can.",
+     "url": "https://www.gallerynight.org/",
+     "src": "gallerynight.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Gelman Student Exhibitions Gallery and Dryfoos Gallery",
+     "blurb": "RISD students curate group exhibitions in the Gelman Gallery. The Dryfoos space within it focuses on new media. Has: gallery, student art, new media.",
+     "address": "Chace Center, second floor, 20 North Main Street, Providence, RI",
+     "phone": "401-709-8660",
+     "hours": "Tuesday–Sunday 10am–5pm.",
+     "url": "https://www.risd.edu/academics/campus-resources/gelman-student-exhibitions-gallery",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "GRID Gallery",
+     "blurb": "GRID Gallery presents work by queer artists of color. Its public exhibition space supports visibility and dialogue around their artistic practices. Has: gallery, contemporary art.",
+     "address": "105 Wickenden Street, Suite 2, Providence",
+     "phone": "401-484-0419",
+     "hours": "Saturday–Sunday noon–6pm.",
+     "url": "https://www.gridgalleryri.org/visit-us",
+     "src": "gridgalleryri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "It Will Come to Me Later",
+     "blurb": "Bee Daniel created this public artwork in 2025. It is located on Charles Street. Has: public art, mural.",
+     "address": "286 Charles Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://theavenueconcept.org/",
+     "src": "theavenueconcept.org",
+     "town": "Providence"
+    },
+    {
+     "name": "La Galería del Barrio",
+     "blurb": "Rhode Island Latino Arts presents exhibitions and community projects at this South Providence gallery. Its programs connect contemporary artwork with Latino cultural experience. Has: gallery, arts center, Latino art, community art.",
+     "address": "Southside Cultural Center, 393 Broad Street, Providence, RI 02907",
+     "phone": "",
+     "hours": "Monday–Friday 10am–3pm.",
+     "url": "https://www.rilatinoarts.org/GaleriaDelBarrioPVD.html",
+     "src": "rilatinoarts.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Memorial Hall Gallery",
+     "blurb": "This gallery hosts RISD campus exhibitions. Confirm access before visiting. Has: gallery, university.",
+     "address": "226 Benefit Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.risd.edu/news/campus-exhibitions",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "New Urban Arts",
+     "blurb": "New Urban Arts provides studio space and artist mentorship for young people. Its programs support creative exploration and community participation. Has: arts center, youth programs, studios, accessible.",
+     "address": "705 Westminster Street, Providence, RI 02903",
+     "phone": "401-751-4556",
+     "hours": "Afterschool studio Monday–Friday 2:45–6:45pm; office Monday–Friday 9am–5pm. Public visiting arrangements require confirmation. · Youth programs: no charge.",
+     "url": "https://newurbanarts.org/about/",
+     "src": "newurbanarts.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Art Club Galleries",
+     "blurb": "Three public galleries present work by members and invited artists in historic buildings. Exhibitions include regional group shows and the annual Little Pictures sale. Has: gallery, historic buildings, tours by appointment, winter hours.",
+     "address": "11 Thomas Street, Providence",
+     "phone": "401-331-1114",
+     "hours": "Sunday–Friday noon–4pm; closed Saturday. November 15–December 23, 2026: daily noon–5pm. · No charge.",
+     "url": "https://providenceartclub.org/galleries/",
+     "src": "providenceartclub.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Cabinet of Curiosities",
+     "blurb": "Shey Rivera Ríos created this public artwork in 2025. It occupies the AS220 Mercantile Block. Has: public art, mural.",
+     "address": "AS220 Mercantile Block, 125–135 Washington Street, Providence, RI 02903",
+     "phone": "",
+     "hours": "",
+     "url": "https://theavenueconcept.org/",
+     "src": "theavenueconcept.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence CityArts for Youth",
+     "blurb": "CityArts provides visual and performing arts education for Providence young people. Contact the organization for current program locations and enrollment arrangements. Has: arts center, classes, youth programs.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "Youth arts programs: no charge.",
+     "url": "https://www.providencecityarts.org/",
+     "src": "providencecityarts.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence College Hunt-Cavanagh Gallery",
+     "blurb": "Hunt-Cavanagh Gallery supports Providence College's contemporary visual-art program. Visitors needing assistance with its doors or elevator can contact gallery staff in advance. Has: university gallery, accessible with assistance, parking.",
+     "address": "Hunt-Cavanagh Hall; campus entrance at 212 Huxley Avenue, Providence",
+     "phone": "401-865-2400",
+     "hours": "Monday–Friday 11am–5pm; Saturday 10am–3pm on homepage, but visitor page says 11am–3pm; confirm Saturday opening. · No charge.",
+     "url": "https://pcgalleries.providence.edu/visit/",
+     "src": "pcgalleries.providence.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence College Reilly Gallery",
+     "blurb": "The Reilly Gallery presents contemporary exhibitions at Providence College. It is one of the college's two public gallery spaces. Has: university gallery, accessible, parking, appointment visits.",
+     "address": "Smith Center for the Arts; visitor parking at 63 Eaton Street, Providence",
+     "phone": "401-865-2400",
+     "hours": "Monday–Friday 11am–5pm; Saturday 10am–3pm on homepage, but visitor page says 11am–3pm; confirm Saturday opening. · No charge.",
+     "url": "https://pcgalleries.providence.edu/visit/",
+     "src": "pcgalleries.providence.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Riverwalk Art",
+     "blurb": "This 2026 public-art series adds murals and ceramic work along the Providence River. Installations occupy bridge walls, pillars, and other riverwalk surfaces. Has: public art, murals, ceramics, walking route.",
+     "address": "Riverwalk at Exchange, Steeple, Washington, College, and Crawford Street bridges and Memorial Boulevard, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/parks/riverwalk-art-2026/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Public Shop and Gallery",
+     "blurb": "Public now operates an art lounge, shop, and creative gathering space after ending regular rotating exhibitions in December 2025. Its programs include workshops, performances, and community events. Has: arts center, art lounge, shop, studios, accessible.",
+     "address": "50 Agnes Street, Suite 101, Providence, RI 02909",
+     "phone": "",
+     "hours": "Open during scheduled events. · Event prices vary.",
+     "url": "https://www.publicpvd.com/about",
+     "src": "publicpvd.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Random of the Obvious",
+     "blurb": "Above created this public artwork in 2025. It is displayed on Smith Street. Has: public art, mural.",
+     "address": "422 Smith Street, Providence, RI 02908",
+     "phone": "",
+     "hours": "",
+     "url": "https://theavenueconcept.org/",
+     "src": "theavenueconcept.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Red Eye Gallery",
+     "blurb": "Red Eye presents photography exhibitions at RISD. Public access requires confirmation. Has: gallery, photography.",
+     "address": "Design Center, fourth floor, 30 North Main Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.risd.edu/news/campus-exhibitions",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island Center for Photographic Arts",
+     "blurb": "This nonprofit center focuses on photography through changing exhibitions. Its program includes juried shows, member activities and workshops. Has: gallery, photography, workshops, appointment visits.",
+     "address": "118 North Main Street, second floor, Providence",
+     "phone": "401-400-2542",
+     "hours": "Wednesday–Saturday noon–6pm and by appointment. · No charge.",
+     "url": "https://www.riphotocenter.org/contact/",
+     "src": "riphotocenter.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island College Arboretum",
+     "blurb": "The college campus contains an accredited collection of more than one thousand trees. Public walking routes introduce a range of species and varieties. Has: arboretum, campus walks, parking.",
+     "address": "600 Mount Pleasant Avenue, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://our.ric.edu/department-directory/facilities-and-operations/arboretum-accreditation",
+     "src": "our.ric.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island Holocaust Memorial",
+     "blurb": "This memorial sculpture garden honors Holocaust victims and Rhode Island survivors. A winding stone path connects six pillars with an elliptical central stone. Has: public art, sculpture garden, memorial.",
+     "address": "Providence Riverwalk, Providence, RI",
+     "phone": "401-453-7860",
+     "hours": "",
+     "url": "https://bornsteinholocaustcenter.org/rhode-island-holocaust-memorial/",
+     "src": "bornsteinholocaustcenter.org",
+     "town": "Providence"
+    },
+    {
+     "name": "RISD Museum",
+     "blurb": "This art and design museum presents collections spanning ancient cultures through contemporary practice. Its galleries include painting, sculpture, textiles, decorative arts and design. Has: art museum, accessible, parking nearby, winter hours.",
+     "address": "20 North Main Street; 224 Benefit Street, Providence",
+     "phone": "401-709-8402",
+     "hours": "Tuesday, Wednesday, Friday–Sunday 10am–5pm; Thursday noon–8pm. Closed Mondays and listed holidays. · Adults $22; age 62+ $17; college students $12; age 18 and under no charge; all visitors no charge Sundays and Thursdays 5–8pm.",
+     "url": "https://risdmuseum.org/hours-admission",
+     "src": "risdmuseum.org",
+     "town": "Providence"
+    },
+    {
+     "name": "RISD Washington Place Lobby Gallery",
+     "blurb": "This lobby serves as a campus exhibition space. Public access requires confirmation. Has: gallery, university.",
+     "address": "20 Washington Place, first floor, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.risd.edu/news/campus-exhibitions",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Ritual Spaces Gallery",
+     "blurb": "Ritual Spaces hosts exhibitions and creative gatherings on Westminster Street. Its programming brings visual art together with performances and community activity. Has: gallery, performance, community art.",
+     "address": "719 Westminster Street, Providence, RI",
+     "phone": "",
+     "hours": "During announced exhibitions and events. · No charge",
+     "url": "https://ritualspacesgallery.com/",
+     "src": "ritualspacesgallery.com",
+     "town": "Providence"
     },
     {
      "name": "Roger Williams Park Botanical Center",
-     "blurb": "Indoor greenhouses and outdoor gardens offering a useful cold-weather or rainy-day outing.",
-     "address": "Providence",
+     "blurb": "Indoor conservatories and outdoor gardens provide plant displays across the seasons. Tropical collections, a rose maze and perennial gardens offer different experiences throughout the year. Has: botanical garden, conservatory, winter hours, classes, gardens.",
+     "address": "1 Floral Avenue, Providence",
+     "phone": "401-680-7263",
+     "hours": "Year-round Tuesday–Sunday 10am–4pm; last admission 3:30pm. · General admission $5; ages 6–12, age 65+ and military with ID $2; under 6 and members no charge; special events priced separately.",
+     "url": "https://www.providenceri.gov/botanical/tickets/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams Park Japanese Garden",
+     "blurb": "This Japanese-style garden offers a planted retreat within Roger Williams Park. Paths provide a quieter stop among the park's larger attractions. Has: garden, walking paths.",
+     "address": "Roger Williams Park, 1000 Elmwood Avenue, Providence, RI",
+     "phone": "",
+     "hours": "Park: daily 7am–9pm. · No charge",
+     "url": "https://www.rwpconservancy.org/explore/places-to-go/japanese-garden/",
+     "src": "rwpconservancy.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams Park Victorian Rose Garden",
+     "blurb": "The formal rose garden adds a seasonal floral display to Roger Williams Park. Its planted beds form a distinct garden destination within the larger landscape. Has: garden, roses, seasonal flowers.",
+     "address": "Roger Williams Park, 1000 Elmwood Avenue, Providence, RI",
+     "phone": "",
+     "hours": "Park: daily 7am–9pm. · No charge",
+     "url": "https://www.rwpconservancy.org/explore/places-to-go/victorian-rose-garden/",
+     "src": "rwpconservancy.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Ruth J. Simmons Center Gallery and Symbolic Garden",
+     "blurb": "The center combines a rotating gallery with a symbolic garden and permanent glass artwork. Its cultural programming examines slavery, justice, and their continuing legacies. Has: gallery, garden, public art, university.",
+     "address": "94 Waterman Street, Providence, RI 02906",
+     "phone": "",
+     "hours": "Monday–Friday 10am–noon and 1–3pm; school and federal holidays closed; arrange visits in advance.",
+     "url": "https://simmonscenter.brown.edu/get-involved/visit",
+     "src": "simmonscenter.brown.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Sol Koffler Graduate Student Gallery",
+     "blurb": "This RISD gallery focuses on graduate student work. Changing exhibitions offer opportunities to encounter developing contemporary practices. Has: university gallery, student art.",
+     "address": "169 Weybosset Street, first floor, Providence",
+     "phone": "401-277-4809",
+     "hours": "Daily noon–5pm.",
+     "url": "https://www.risd.edu/academics/campus-resources/sol-koffler-graduate-student-gallery",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Studio Hop",
+     "blurb": "Studio Hop combines fine art with objects made by artists and craftspeople. Its offerings include jewelry, furniture, and work for the home. Has: gallery, craft, furniture, jewelry.",
+     "address": "810 Hope Street, Providence, RI",
      "phone": "",
      "hours": "",
-     "url": "https://www.providenceri.gov/botanical-center/",
-     "src": "providenceri.gov"
+     "url": "https://studiohopri.com/",
+     "src": "studiohopri.com",
+     "town": "Providence"
     },
     {
      "name": "Swan Point Cemetery",
-     "blurb": "A historic garden cemetery welcoming quiet exploration under its visitor rules. Note: Respect services and graveside privacy; photography restrictions apply.",
+     "blurb": "This garden cemetery combines mature trees, planted landscapes, and memorial sculpture. Visits should respect its continuing use as a cemetery. Has: garden, trees, sculpture, walking paths.",
+     "address": "585 Blackstone Boulevard, Providence, RI",
+     "phone": "401-272-1314",
+     "hours": "April–September daily 8am–7pm; October–March daily 8am–5pm.",
+     "url": "https://swanpointcemetery.com/the-estate/etiquette-when-visiting/",
+     "src": "swanpointcemetery.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Avenue Concept Public Art Routes",
+     "blurb": "Self-guided routes connect murals and sculptures supported by The Avenue Concept. The mapped outdoor works span several Providence neighborhoods. Has: public art, murals, sculpture, self-guided tours.",
+     "address": "Downtown, South Side, and West End, Providence, RI",
+     "phone": "401-490-0929",
+     "hours": "",
+     "url": "https://theavenueconcept.org/public-art-providence-self-guided-tours/",
+     "src": "theavenueconcept.org",
+     "town": "Providence"
+    },
+    {
+     "name": "The Clubhouse Gallery",
+     "blurb": "The Providence Drum Troupe's Clubhouse combines an artist-run gallery with an event space. Exhibitions and performances contribute to its community programming. Has: gallery, arts center, performance, accessible.",
+     "address": "517 Atwells Avenue, Providence, RI 02909",
+     "phone": "",
+     "hours": "During announced events. · Gallery viewing: no charge; some special events ticketed.",
+     "url": "https://www.providencedrumtroupe.com/",
+     "src": "providencedrumtroupe.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Gallery at 134 Collaborative",
+     "blurb": "A rotating gallery occupies this historic downtown church and community space. Exhibitions contribute to the collaborative's neighborhood programming. Has: gallery, community art, accessible.",
+     "address": "134 Mathewson Street, Providence, RI 02903",
+     "phone": "401-331-1069",
+     "hours": "During Gallery Night and special events. · No charge",
+     "url": "https://134collaborative.org/",
+     "src": "134collaborative.org",
+     "town": "Providence"
+    },
+    {
+     "name": "The Gallery at Central",
+     "blurb": "Central Congregational Church presents changing exhibitions by local artists and groups. Its renovated gallery accommodates a range of media and styles. Has: gallery, community art.",
+     "address": "296 Angell Street, Providence, RI 02906; side entrance on Diman Place",
+     "phone": "401-331-1960",
+     "hours": "Monday–Friday 9:30am–4:30pm; Sunday 9:30am–12:30pm; federal holidays closed.",
+     "url": "https://www.centralchurch.us/the-gallery-at-central/",
+     "src": "centralchurch.us",
+     "town": "Providence"
+    },
+    {
+     "name": "The Gallery at Sprout — Providence",
+     "blurb": "Sprout incorporates a gallery into its shared workspace at Rising Sun Mills. Exhibitions introduce local art to the working community and visitors. Has: gallery, contemporary art, coworking.",
+     "address": "166 Valley Street, Building 6M, Suite 103, Providence, RI 02909",
+     "phone": "401-536-9336",
+     "hours": "",
+     "url": "https://sproutcoworking.com/",
+     "src": "sproutcoworking.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Steel Yard",
+     "blurb": "The Steel Yard offers industrial arts education in a former manufacturing complex. Its programs include metalwork, ceramics, jewelry, and public-art production. Has: arts center, classes, ceramics, metalwork, public art.",
+     "address": "27 Sims Avenue, Providence, RI 02909",
+     "phone": "401-273-7101",
+     "hours": "Public tours by arrangement; office Monday–Friday 9am–5pm. · Classes and events priced individually.",
+     "url": "https://www.thesteelyard.org/about/contact-us/",
+     "src": "thesteelyard.org",
+     "town": "Providence"
+    },
+    {
+     "name": "URI Providence Campus Gallery",
+     "blurb": "URI's Providence gallery presents visual art alongside cultural and performance programming. Exhibitions often address community experience and social issues. Has: gallery, arts center, university, community art.",
+     "address": "80 Washington Street, Providence, RI 02903",
+     "phone": "401-277-5206",
+     "hours": "Monday–Thursday 9am–9pm; Friday 9am–5pm; weekends and holidays closed. · No charge",
+     "url": "https://web.uri.edu/education/about/arts-and-culture-program/",
+     "src": "web.uri.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Waterfire & Waterfire Arts Center",
+     "blurb": "Downtown river installations on announced lighting dates, plus exhibitions and programs at the Arts Center. Note: WaterFire is not a nightly attraction.",
      "address": "Providence",
      "phone": "",
      "hours": "",
-     "url": "https://swanpointcemetery.com/the-estate/etiquette-when-visiting/",
-     "src": "swanpointcemetery.com"
+     "url": "https://waterfire.org/",
+     "src": "waterfire.org"
+    },
+    {
+     "name": "WaterFire Arts Center",
+     "blurb": "A former industrial building houses WaterFire's large exhibition and performance venue. The main hall accommodates installations and public programs on a substantial scale. Has: arts center, gallery, installations, accessible, parking.",
+     "address": "475 Valley Street, Providence",
+     "phone": "401-273-1155",
+     "hours": "Wednesday–Sunday 10am–5pm; Thursday until 9pm. · Gallery admission no charge; some events separately ticketed.",
+     "url": "https://waterfire.org/event-location/waterfire-arts-center/",
+     "src": "waterfire.org",
+     "town": "Providence"
+    },
+    {
+     "name": "WaterFire Providence",
+     "blurb": "Barnaby Evans's river installation combines burning braziers with music and movement. Scheduled lightings turn the downtown riverwalk into an outdoor art experience. Has: public art, installation, performance, waterfront.",
+     "address": "Waterplace Park and downtown rivers, Providence, RI",
+     "phone": "401-273-1155",
+     "hours": "Announced lighting dates; evening start and end times vary by event. · No charge",
+     "url": "https://waterfire.org/event-calendar/",
+     "src": "waterfire.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Waterman Gallery",
+     "blurb": "This gallery occupies RISD's Waterman Street Building. Public access requires confirmation. Has: gallery, university.",
+     "address": "13 Waterman Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.risd.edu/news/campus-exhibitions",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Woods-Gerry Gallery",
+     "blurb": "This RISD gallery presents undergraduate student exhibitions. Its rooms provide a public setting for work developed across the school's programs. Has: university gallery, student art, academic calendar.",
+     "address": "62 Prospect Street, first floor, Providence",
+     "phone": "401-454-6141",
+     "hours": "Fall 2026: Monday–Saturday 10am–5pm; Sunday 2–5pm.",
+     "url": "https://www.risd.edu/academics/campus-resources/woods-gerry-gallery",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Young Boulder",
+     "blurb": "This Thomas Dambo troll occupies the landscape near Browning Mill Pond. Its recycled-wood construction brings large-scale art to a woodland visit. Has: public art, sculpture, walking trails.",
+     "address": "Browning Mill Pond, Arcadia Management Area, Richmond/Exeter, RI, Richmond; Exeter",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://www.southcountyri.com/thomas-dambo-trolls/",
+     "src": "southcountyri.com",
+     "town": "Richmond; Exeter"
+    },
+    {
+     "name": "Chabot Gallery",
+     "blurb": "Chabot offers paintings, lithographs, sculpture, and other fine art. The gallery publishes a Greenville mailing address but no confirmed street address for visits. Has: gallery, painting, sculpture.",
+     "address": "Smithfield",
+     "phone": "",
+     "hours": "Monday–Saturday 9am–6pm, according to its website; confirm visiting location.",
+     "url": "https://www.chabotgallery.com/",
+     "src": "chabotgallery.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Courthouse Center for the Arts",
+     "blurb": "This arts center occupies the former county courthouse. Its program combines gallery activity, arts education and live performance. Has: arts center, gallery, classes, historic building.",
+     "address": "3481 Kingstown Road, West Kingston, South Kingstown",
+     "phone": "401-782-1018",
+     "hours": "",
+     "url": "https://courthousearts.org/contact-directions/",
+     "src": "courthousearts.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Heber W. Youngken Jr. Medicinal Garden",
+     "blurb": "URI's medicinal garden brings together plants used in healing traditions and scientific research. An audio tour, sculptural panels, and leaf-shaped benches enrich the outdoor collection. Has: botanical garden, medicinal plants, sculpture, audio tour.",
+     "address": "Avedisian Hall, 7 Greenhouse Road, Kingston, RI 02881, South Kingstown",
+     "phone": "401-874-2849",
+     "hours": "Scheduled tours: no charge.",
+     "url": "https://web.uri.edu/youngken-garden/",
+     "src": "web.uri.edu",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Hera Gallery",
+     "blurb": "This artist-run nonprofit presents contemporary exhibitions and public discussions in Wakefield. Its program includes artist talks, workshops and opportunities to encounter regional artists. Has: gallery, accessible, parking, workshops.",
+     "address": "10 High Street, Wakefield, South Kingstown",
+     "phone": "401-789-1488",
+     "hours": "Wednesday–Friday 1–5pm; Saturday 10am–4pm on homepage, but contact page lists Saturday 1–4pm; confirm Saturday hours. · No charge.",
+     "url": "https://www.heragallery.org/",
+     "src": "heragallery.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Kinney Azalea Gardens",
+     "blurb": "Woodland paths pass through extensive azalea collections and native plantings. The property also maintains notable trees and a variety of garden habitats. Has: garden, arboretum, woodland trails, roadside parking, accessible parking, no pets.",
+     "address": "2391 Kingstown Road, Kingston, South Kingstown",
+     "phone": "",
+     "hours": "Daily 9am–6pm unless otherwise posted. · Pay-what-you-can donation most days; peak-bloom periods and special events ticketed.",
+     "url": "https://www.kinneyazaleagardens.com/hours-admission",
+     "src": "kinneyazaleagardens.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Peace Dale Museum of Art and Culture",
+     "blurb": "This museum preserves archaeological and ethnological objects from around the world. Changing exhibits interpret material culture within a distinctive historic gallery. Has: art and culture museum, ethnological collections, second-floor gallery.",
+     "address": "1058 Kingstown Road, second floor, South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://peacedalemuseum.org/",
+     "src": "peacedalemuseum.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "South County Art Association",
+     "blurb": "The Helme House galleries present changing exhibitions by regional artists. The campus also contains pottery, painting and printmaking studios and a gallery store. Has: gallery, arts center, classes, pottery, parking, accessible gallery.",
+     "address": "2587 Kingstown Road, Kingston, South Kingstown",
+     "phone": "401-783-2195",
+     "hours": "Wednesday–Sunday 1–5pm; holiday exceptions and extended holiday-sale hours.",
+     "url": "https://www.southcountyart.org/campus",
+     "src": "southcountyart.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "The Glass Station Studio and Gallery",
+     "blurb": "This Wakefield studio and gallery specializes in American studio glass. It represents glass artists from across North America alongside work made by its founders. Has: gallery, glass, working studio.",
+     "address": "446 Main Street, Wakefield, South Kingstown",
+     "phone": "401-788-2500",
+     "hours": "Monday–Saturday 10am–6pm; Sunday noon–5pm; listed holiday closures.",
+     "url": "https://www.theglassstationstudio.com/",
+     "src": "theglassstationstudio.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "The Weaver",
+     "blurb": "Daniel Chester French's bronze relief depicts figures engaged in weaving and spinning. The memorial stands outside the Peace Dale library. Has: public art, sculpture, memorial.",
+     "address": "Peace Dale Library grounds, 1057 Kingstown Road, Peace Dale, RI 02879, South Kingstown",
+     "phone": "401-789-1555",
+     "hours": "",
+     "url": "https://www.southkingstownri.gov/753/The-Weaver-Sculpture",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "URI Gardens",
+     "blurb": "These teaching gardens occupy approximately four and a half acres behind the greenhouse complex. Collections demonstrate plant diversity and sustainable landscaping. Has: botanical garden, teaching garden, year-round grounds, parking.",
+     "address": "6 Greenhouse Road, Kingston, South Kingstown",
+     "phone": "",
+     "hours": "Daily sunrise–sunset year-round. · No charge; campus parking rules apply.",
+     "url": "https://web.uri.edu/greenhouse/botanical-gardens/",
+     "src": "web.uri.edu",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "URI Horridge Conservatory",
+     "blurb": "This university conservatory maintains indoor botanical collections for teaching and public interest. Special plant events occasionally bring additional visitor hours. Has: conservatory, botanical collections, parking.",
+     "address": "6 Greenhouse Road, Kingston, South Kingstown",
+     "phone": "",
+     "hours": "Monday–Friday 8:30am–4pm.",
+     "url": "https://www.uri.edu/news/2026/06/uri-corpse-flower-weekend-viewing-hours-announced/",
+     "src": "uri.edu",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "URI Main Art Gallery",
+     "blurb": "The university describes its Main Gallery as part of the Fine Arts Center's completed facilities. Current public visiting hours and access were not established by the available official page. Has: university gallery, contemporary art, access unconfirmed.",
+     "address": "105 Upper College Road, Fine Arts Center, Kingston, South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://web.uri.edu/art/about/professional-programs/",
+     "src": "web.uri.edu",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Four Corners Arts Center and Sculpture Park",
+     "blurb": "Outdoor sculpture occupies the grounds behind the Meeting House. The arts center also presents exhibitions, performances and classes. Has: arts center, sculpture park, outdoor art, classes.",
+     "address": "3850 Main Road, Tiverton",
+     "phone": "",
+     "hours": "Grounds dawn–dusk except during private events; indoor access follows event schedule.",
+     "url": "https://www.fourcornersarts.org/",
+     "src": "fourcornersarts.org",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Four Corners Gallery",
+     "blurb": "This gallery occupies the former Gallery at Four space in Tiverton Four Corners. Its artists work in painting, photography, jewelry, glass and other media. Has: gallery, artist cooperative, craft.",
+     "address": "3848 Main Road, Tiverton",
+     "phone": "",
+     "hours": "Tuesday–Friday and Sunday 11am–4pm; Saturday 9:30am–5pm.",
+     "url": "https://www.fourcornersgalleryri.com/biography",
+     "src": "fourcornersgalleryri.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Tiverton Four Corners Arts and Gallery Village",
+     "blurb": "A compact historic village brings together galleries, artist shops, and cultural venues. Visitors can walk between businesses and nearby arts attractions. Has: gallery district, galleries, craft, historic village.",
+     "address": "Tiverton Four Corners, Tiverton, RI",
+     "phone": "",
+     "hours": "Individual gallery hours vary.",
+     "url": "https://www.tivertonfourcorners.com/",
+     "src": "tivertonfourcorners.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "IMAGO Gallery",
+     "blurb": "Imago Foundation for the Arts maintains a contemporary gallery in downtown Warren. Its exhibitions and public programs connect artists with the surrounding community. Has: gallery, artist talks, appointment visits.",
+     "address": "36 Market Street, Warren",
+     "phone": "401-245-3348",
+     "hours": "Thursday noon–3pm; Friday–Saturday noon–6pm; Sunday noon–4pm; other visits by appointment.",
+     "url": "https://www.imagofoundation4art.org/visit",
+     "src": "imagofoundation4art.org",
+     "town": "Warren"
+    },
+    {
+     "name": "Made in Warren Artist Cooperative",
+     "blurb": "This cooperative displays work by artists from southeastern New England. Its selection includes glass, ceramics, paintings, textiles, woodwork and jewelry. Has: gallery, artist cooperative, demonstrations, craft.",
+     "address": "476 Main Street, Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.madeinwarren.com/",
+     "src": "madeinwarren.com",
+     "town": "Warren"
+    },
+    {
+     "name": "The Collaborative",
+     "blurb": "This nonprofit gallery supports local artists and community arts programming. Its activities include exhibitions and educational projects. Has: gallery, arts center, community programs.",
+     "address": "508 Main Street, Warren",
+     "phone": "401-903-0969",
+     "hours": "Saturday–Sunday noon–6pm.",
+     "url": "https://thecollaborative02885.squarespace.com/",
+     "src": "thecollaborative02885.squarespace.com",
+     "town": "Warren"
+    },
+    {
+     "name": "West Bay Open Studios",
+     "blurb": "This regional event opens artists' home studios and workspaces to visitors. The route offers opportunities to see works in progress and meet their makers. Has: gallery route, open studios.",
+     "address": "Warwick; East Greenwich",
+     "phone": "",
+     "hours": "November 7–8, 2026, 11am–5pm.",
+     "url": "https://warwickcfa.org/west-bay-open-studios/",
+     "src": "warwickcfa.org",
+     "town": "Warwick; East Greenwich"
+    },
+    {
+     "name": "CCRI Knight Campus Art Gallery",
+     "blurb": "CCRI's Warwick gallery presents art within the Knight Campus library building. Its exhibitions support the college's visual-arts community. Has: gallery, university, exhibitions.",
+     "address": "400 East Avenue, Room 3500, Warwick, RI 02886",
+     "phone": "401-825-2220",
+     "hours": "Monday, Wednesday, Friday 10am–4pm; Tuesday and Thursday 10am–5:30pm; additional hours by appointment. Request access at the fourth-floor library desk.",
+     "url": "https://www.ccri.edu/art/galleries.html",
+     "src": "ccri.edu",
+     "town": "Warwick"
+    },
+    {
+     "name": "Gallery Z",
+     "blurb": "Gallery Z has relocated from Providence to Warwick. Its collection includes paintings, photographs, sculpture, glass and mixed-media work. Has: gallery, sculpture, photography, appointment required.",
+     "address": "100 Bellows Street, Unit 8, Warwick",
+     "phone": "401-454-8844",
+     "hours": "By appointment only with 48 hours' notice; public exhibitions and receptions announced to resume spring 2027.",
+     "url": "https://www.galleryzprov.com/",
+     "src": "galleryzprov.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "GREEN SPACE Gallery at Rhode Island T. F. Green International Airport",
+     "blurb": "This airport gallery presents artwork by Rhode Island residents. Displays occupy walls and open areas within the terminal. Has: gallery, public art, airport.",
+     "address": "2000 Post Road, Warwick, RI 02886",
+     "phone": "401-222-3880",
+     "hours": "",
+     "url": "https://arts.ri.gov/galleries/airport-art-galleries",
+     "src": "arts.ri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Center for the Arts",
+     "blurb": "This community arts center presents changing exhibitions in the former armory. Its programming includes classes, workshops and creative activities for different ages. Has: arts center, gallery, classes, accessible lift, parking.",
+     "address": "3259 Post Road; parking behind building at 3273 Post Road, Warwick",
+     "phone": "401-737-0010",
+     "hours": "Wednesday–Saturday noon–5pm; occasional private-event changes. · Gallery admission no charge; classes and events priced separately.",
+     "url": "https://warwickcfa.org/",
+     "src": "warwickcfa.org",
+     "town": "Warwick"
+    },
+    {
+     "name": "JAYCEE Arboretum and Senator Roch Riverwalk",
+     "blurb": "This community-maintained arboretum adjoins the riverwalk and West Bay Bike Path. Plantings and memorial features create a landscaped entrance to Riverpoint Park. Has: arboretum, garden, walking trails, memorial.",
+     "address": "Riverpoint Community Park, 110 Hay Street, West Warwick, RI 02893",
+     "phone": "401-828-9191",
+     "hours": "",
+     "url": "https://volunteer.uwri.org/need/detail/?need_id=274891",
+     "src": "volunteer.uwri.org",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Artists' Cooperative Gallery of Westerly",
+     "blurb": "An artist cooperative exhibits in Westerly's former railway station. Changing shows include work in a range of fine-art and craft media. Has: gallery, artist cooperative, historic building.",
+     "address": "14 Railroad Avenue, Westerly",
+     "phone": "401-596-2221",
+     "hours": "Wednesday–Saturday 11am–7pm; Sunday 1–5pm; closed Monday–Tuesday.",
+     "url": "https://westerlyarts.com/contact-us/",
+     "src": "westerlyarts.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Avondale Arts",
+     "blurb": "Avondale Arts combines a gallery with creative programming. The space presents artwork and handcrafted objects. Has: gallery, classes.",
+     "address": "95 Watch Hill Road, Westerly",
+     "phone": "401-315-5479",
+     "hours": "Tuesday–Saturday 10am–4pm; Sunday 10am–3pm.",
+     "url": "https://www.avondalearts.com/contact-4013155479.html",
+     "src": "avondalearts.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Hoxie Gallery",
+     "blurb": "Westerly Library's Hoxie Gallery hosts changing art displays. The exhibition area is available during the library's operating hours. Has: gallery, library exhibitions.",
+     "address": "44 Broad Street, Westerly",
+     "phone": "401-596-2877",
+     "hours": "Monday–Thursday 9am–8pm; Friday 9am–6pm; Saturday 9am–4pm; closed Sunday.",
+     "url": "https://www.westerlylibrary.org/hours-and-contact",
+     "src": "westerlylibrary.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Setra Artes",
+     "blurb": "This artist-owned gallery and studio presents paintings, drawings, photography and craft. Its public program has included exhibitions and drawing workshops. Has: gallery, studio, workshops, appointment visits.",
+     "address": "40 High Street, Westerly",
+     "phone": "774-319-6144",
+     "hours": "Published schedule: Wednesday–Saturday 11am–5pm; Sunday–Tuesday by appointment.",
+     "url": "https://www.setraartes.com/",
+     "src": "setraartes.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Museum of American Impressionism",
+     "blurb": "This museum is dedicated to American Impressionism. Registered docent tours provide a closer look at the collection and are included with admission. Has: art museum, accessible, parking, restrooms, tours, winter hours.",
+     "address": "79 Watch Hill Road, Westerly, RI 02891",
+     "phone": "401-773-9767",
+     "hours": "Thursday–Sunday 10am–4pm; closed Monday–Wednesday and listed holidays; closed December 24, 2026–January 1, 2027. · Adults $12; age 65+, students with ID and veterans $10; members and under 18 no charge.",
+     "url": "https://wmairi.org/visit/",
+     "src": "wmairi.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Wilcox Park Arboretum",
+     "blurb": "This Victorian strolling park maintains an accredited tree collection and varied gardens. Self-guided routes connect specimen trees, monuments and landscape features. Has: arboretum, garden, public art, self-guided tour.",
+     "address": "44 Broad Street, Westerly",
+     "phone": "401-596-2877",
+     "hours": "Daily dawn–9pm.",
+     "url": "https://www.westerlylibrary.org/about-wilcox-park",
+     "src": "westerlylibrary.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Martin Luther King Jr. Memorial",
+     "blurb": "Riverzedge Arts created this public memorial. It honors Martin Luther King Jr. Has: public art, memorial.",
+     "address": "Mason Street and South Main Street, Woonsocket, RI",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://tourblackstone.com/things-to-do/arts-culture/public-art/",
+     "src": "tourblackstone.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Riverzedge Arts",
+     "blurb": "Riverzedge supports young people through visual art and design programs. Its work includes public art projects and collaborative studio practice. Has: arts center, classes, public art, youth programs.",
+     "address": "196 2nd Avenue, Woonsocket, RI",
+     "phone": "401-767-2100",
+     "hours": "",
+     "url": "https://www.riverzedgearts.org/",
+     "src": "riverzedgearts.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "St. Ann Arts and Cultural Center",
+     "blurb": "The former church preserves extensive fresco painting and stained glass. Public tours interpret the building's art and its connection to the local community. Has: arts center, frescoes, stained glass, tours, seasonal.",
+     "address": "84 Cumberland Street, Woonsocket",
+     "phone": "401-356-0713",
+     "hours": "Regional tourism directory lists Sunday tours 1–4pm, April–November; confirm before visiting.",
+     "url": "https://tourblackstone.com/listing/st-ann-arts-and-cultural-center/1078/",
+     "src": "tourblackstone.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Woonsocket Kids Mural / Dog Days of Summer",
+     "blurb": "Charles Clear and Bonnie Turner painted children and dogs enjoying a summer day. The mural stretches across retaining walls beside the park. Has: public art, mural.",
+     "address": "East School Street beside World War II Veterans Memorial Park, Woonsocket, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://theartoflife.com/portfolio/woonsocket-kids-mural/",
+     "src": "theartoflife.com",
+     "town": "Woonsocket"
     }
    ]
   },
