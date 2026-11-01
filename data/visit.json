@@ -13107,157 +13107,294 @@
    "title": "History & Museums",
    "items": [
     {
-     "name": "The Breakers",
-     "blurb": "The Vanderbilt mansion and a central introduction to Newport’s Gilded Age architecture. Note: Terrace restoration affects portions of the exterior visitor experience.",
-     "address": "Newport",
+     "name": "Barrington Preservation Society Museum",
+     "blurb": "Changing exhibits and permanent objects introduce Barrington’s local history. A research collection preserves town records, photographs and material about community organizations and families. Has: museum, research library, changing exhibits, appointments.",
+     "address": "Barrington Public Library, lower level",
      "phone": "",
-     "hours": "",
-     "url": "",
-     "src": ""
+     "hours": "Wednesday 10 am–noon; also by appointment. · No charge.",
+     "url": "https://barringtonpreservation.org/museum/",
+     "src": "barringtonpreservation.org",
+     "town": "Barrington"
     },
     {
-     "name": "Marble House",
-     "blurb": "A Vanderbilt house emphasizing monumental architecture and elaborate interiors.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "",
-     "src": ""
+     "name": "Blithewold Mansion, Gardens and Arboretum",
+     "blurb": "A country-house estate combines furnished interiors with extensive gardens overlooking the bay. General admission covers self-guided mansion and grounds visits, with separate booking for guided tours. Has: mansion, gardens, accessible first floor, accessible restrooms, parking.",
+     "address": "101 Ferry Road, Bristol",
+     "phone": "401-253-2707",
+     "hours": "Manor March 28–October 25: Tuesday–Sunday 11 am–3 pm; closed October 26–November 23. November 24–January 3, 2027: Tuesday–Sunday 11 am–7 pm. Grounds October 26–November 23: Tuesday–Sunday 10 am–4 pm. Closed Thanksgiving and December 24–25; special-event exceptions. · General admission: adults $22; ages 11–16 $11; ages 6–10 $6; military and students $18; family $50. Evening Sparkle event separately priced.",
+     "url": "https://www.blithewold.org/hours/",
+     "src": "blithewold.org",
+     "town": "Bristol"
     },
     {
-     "name": "The Elms",
-     "blurb": "A mansion with formal gardens and historic household technology. Note: The operator announces reopening November 16, 2026, with a new timed-ticket experience.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "",
-     "src": ""
+     "name": "Bristol Historical and Preservation Society Museum",
+     "blurb": "The former county jail houses museum exhibits and historical collections. Public programs and research resources explore Bristol’s communities and changing history. Has: museum, historic jail, archives, winter hours.",
+     "address": "48 Court Street, Bristol",
+     "phone": "401-253-7223",
+     "hours": "Wednesday–Friday 1–5 pm.",
+     "url": "https://bhpsri.org/",
+     "src": "bhpsri.org",
+     "town": "Bristol"
     },
     {
-     "name": "Rosecliff",
-     "blurb": "Architecture, a grand ballroom, and changing exhibitions. Consult the current exhibition and opening calendar.",
-     "address": "Newport",
+     "name": "Bristol State House",
+     "blurb": "The former statehouse and courthouse preserves Bristol’s role in Rhode Island civic history. Public open houses provide access to the building and its architectural features. Has: historic statehouse, former courthouse, special open houses.",
+     "address": "240 High Street, Bristol",
      "phone": "",
-     "hours": "",
-     "url": "",
-     "src": ""
+     "hours": "Announced public open houses and events.",
+     "url": "https://www.explorebristolri.com/bristol-state-house",
+     "src": "explorebristolri.com",
+     "town": "Bristol"
     },
     {
-     "name": "Kings Cote / Kingscote",
-     "blurb": "A Gothic Revival house representing an earlier phase of Newport’s summer-estate development. Note: Listed as closed for the season.",
-     "address": "Newport",
+     "name": "Bristol Train of Artillery Armory Museum",
+     "blurb": "The historic armory is associated with Bristol’s longstanding artillery organization. Museum access has been reported by appointment, but a current operator-published schedule was not verified. Has: historic armory, military museum, appointment availability unconfirmed.",
+     "address": "135 State Street, Bristol",
      "phone": "",
-     "hours": "",
-     "url": "",
-     "src": ""
+     "hours": "Appointment access reported; confirm directly before visiting.",
+     "url": "https://www.ri.gov/preservation/search/view.php?idnumber=BRIS01259",
+     "src": "ri.gov",
+     "town": "Bristol"
     },
     {
-     "name": "Chateau-Sur-Mer",
-     "blurb": "A Victorian house with elaborate decorative interiors. Note: The operator announces reopening November 21, 2026.",
-     "address": "Newport",
+     "name": "Coggeshall Farm Museum",
+     "blurb": "This coastal living-history farm interprets the work of eighteenth-century tenant farmers. Historic buildings, heritage livestock and seasonal demonstrations show how people lived on a salt-marsh farm. Has: living history, farm animals, demonstrations, historic buildings, seasonal schedule.",
+     "address": "Coggeshall Farm Road, accessed from Poppasquash Road, Bristol",
      "phone": "",
-     "hours": "",
-     "url": "",
-     "src": ""
+     "hours": "November 2026: Saturdays 10 am–4 pm with interpretation; Sundays 10 am–4 pm self-guided. · Standard daytime admission: adults $10; ages 4–17 $5; ages 3 and under no charge.",
+     "url": "https://coggeshallfarm.org/hours-rates-directions/",
+     "src": "coggeshallfarm.org",
+     "town": "Bristol"
     },
     {
-     "name": "Rough Point Museum",
-     "blurb": "Doris Duke’s former home, with art, interiors, and coastal grounds interpreted by the Newport Restoration Foundation.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.newportrestoration.org/plan-a-visit/",
-     "src": "newportrestoration.org"
+     "name": "Herreshoff Marine Museum",
+     "blurb": "Boatbuilding and marine design collections preserve the legacy of the Herreshoff manufacturing company. Visitors can examine vessels and arrange docent-led tours or archival research. Has: maritime museum, boats, parking, archives by appointment, winter appointments.",
+     "address": "1 Burnside Street, Bristol",
+     "phone": "401-253-5000",
+     "hours": "May–December: Tuesday–Saturday 10 am–5 pm; Sunday noon–5 pm. Closed Mondays, Thanksgiving, the following Friday and December 23–31; January–April by scheduled visit. · Adults $18; seniors over 65, military, students 11+, teachers and museum employees $15; ages 10 and under and members no charge.",
+     "url": "https://herreshoff.org/visit/",
+     "src": "herreshoff.org",
+     "town": "Bristol"
     },
     {
-     "name": "Lippitt House Museum",
-     "blurb": "A preserved Victorian home interpreting industry, immigration, design, and domestic life. Tours follow a limited seasonal calendar.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.preserveri.org/visit-lippitt-house-museum",
-     "src": "preserveri.org"
+     "name": "Linden Place",
+     "blurb": "This historic mansion offers self-guided visits and specially scheduled tours. Its rooms and grounds provide a setting for exploring Bristol’s social and architectural history. Has: mansion, self-guided tours, gift shop, winter hours.",
+     "address": "500 Hope Street, Bristol",
+     "phone": "401-253-0390",
+     "hours": "Tuesday–Friday year-round 10 am–4 pm; closed state and federal holidays. Saturdays January 1–May 15 and October 31–December 31: 10 am–4 pm; summer Saturdays 10 am–1 pm; Sundays May 24–August 23 noon–4 pm. · Adults $12; seniors/students $10; ages 7–12 $5; children under 6 and members no charge.",
+     "url": "https://www.lindenplace.org/hours-rates",
+     "src": "lindenplace.org",
+     "town": "Bristol"
     },
     {
-     "name": "The Museum at the John Brown House",
-     "blurb": "A historic house used to explore Rhode Island’s social, commercial, and family history.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.rihs.org/visit/",
-     "src": "rihs.org"
+     "name": "Mount Hope Farm",
+     "blurb": "The historic farm landscape connects Indigenous history, agriculture and later estate ownership. Walking routes introduce surviving buildings and grounds while marked neighboring tribal land remains private. Has: historic farm, walking tour, trails, parking, winter weather closures, grounds access.",
+     "address": "250 Metacom Avenue, Bristol",
+     "phone": "401-254-1745",
+     "hours": "Daily 8 am–6 pm except private events; closes before, during and immediately after winter snowstorms. · Grounds: no charge.",
+     "url": "https://www.mounthopefarm.org/faqs",
+     "src": "mounthopefarm.org",
+     "town": "Bristol"
     },
     {
-     "name": "Museum of Work & Culture",
-     "blurb": "The stories of immigrants, workers, and families in the Blackstone Valley’s industrial communities.",
-     "address": "Woonsocket",
+     "name": "Musée Patamécanique",
+     "blurb": "This unconventional museum combines mechanical curiosities with an immersive fictional experience. Small groups visit through a carefully arranged tour that moves between outdoor and indoor settings. Has: museum, immersive art, reservations required, groups of two to five, not wheelchair accessible, no restroom, winter closure.",
+     "address": "Bristol",
      "phone": "",
-     "hours": "",
-     "url": "https://www.rihs.org/visit/",
-     "src": "rihs.org"
+     "hours": "By advance arrangement late May–October, Thursday–Saturday evenings at sunset; closed until spring, with reservation reopening anticipated May 2027.",
+     "url": "https://www.museepata.org/tours",
+     "src": "museepata.org",
+     "town": "Bristol"
     },
     {
-     "name": "Old Slater Mill",
-     "blurb": "National Park Service interpretation of early textile manufacturing and the changes brought by industrialization. Note: Tour seasons vary; neighboring historic buildings may have separate closures.",
-     "address": "Pawtucket",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.nps.gov/places/slater-mill.htm",
-     "src": "nps.gov"
+     "name": "Bridgeton Schoolhouse Museum / Burrillville Historical and Preservation Society",
+     "blurb": "A former schoolhouse holds displays of Burrillville artifacts and memorabilia. Collections include material about the town’s mills, residents and everyday life. Has: schoolhouse museum, local history, monthly openings, appointments.",
+     "address": "16 Laurel Hill Avenue, Pascoag, Burrillville",
+     "phone": "401-568-8534",
+     "hours": "Museum room: second Sunday of the month 1–3 pm; group visits and research by appointment.",
+     "url": "https://blackstoneheritagecorridor.org/event/museum-room-at-burrillville-historical-society/2026-05-10/",
+     "src": "blackstoneheritagecorridor.org",
+     "town": "Burrillville"
     },
     {
-     "name": "Smith’s Castle",
-     "blurb": "A historic house and waterfront landscape interpreting four centuries of Rhode Island history, including its plantation past.",
-     "address": "North Kingstown",
+     "name": "Harrisville Historic Mill Village",
+     "blurb": "Historic buildings and waterways preserve the outline of Harrisville’s mill community. A heritage walking guide connects the surviving streetscape with industrial and village life. Has: historic district, self-guided walking tour, parking, exterior access.",
+     "address": "Main Street and East Avenue, Harrisville, Burrillville",
      "phone": "",
-     "hours": "",
-     "url": "https://www.smithscastle.org/visit/",
-     "src": "smithscastle.org"
+     "hours": "Self-guided exterior walking tour. · Tour-route parking: no charge.",
+     "url": "https://blackstoneheritagecorridor.org/wp-content/uploads/2020/06/Harrisville-Walking-Tour2020.pdf",
+     "src": "blackstoneheritagecorridor.org",
+     "town": "Burrillville"
     },
     {
-     "name": "Gilbert Stuart Birthplace & Museum",
-     "blurb": "The restored Stuart family home, mill setting, and exhibits about the portrait artist. Regular visits are seasonal.",
-     "address": "North Kingstown / Saunderstown",
-     "phone": "",
-     "hours": "",
-     "url": "https://gilbertstuartmuseum.org/visit-our-museum/",
-     "src": "gilbertstuartmuseum.org"
+     "name": "Cogswell Tower and Jenks Park",
+     "blurb": "The tower rises above Dexter’s Ledge in Jenks Park and serves as a symbol of Central Falls. Its overlook provides views across the Blackstone Valley. Has: historic tower, park, overlook, stairs.",
+     "address": "602 Broad Street, Central Falls",
+     "phone": "401-727-7480",
+     "hours": "No charge for the overlook.",
+     "url": "https://www.visitrhodeisland.com/listing/cogswell-tower/11906/",
+     "src": "visitrhodeisland.com",
+     "town": "Central Falls"
     },
     {
-     "name": "South County Museum",
-     "blurb": "Rural, coastal, craft, and village history on the Canonchet Farm grounds. Note: Regular 2026 seasonal operation has ended; consult special programs and group-visit arrangements.",
-     "address": "Narragansett",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.southcountymuseum.org/",
-     "src": "southcountymuseum.org"
+     "name": "Charlestown Historical Society Museum and 1838 Schoolhouse",
+     "blurb": "The museum and surviving schoolhouse interpret Charlestown’s villages and daily life. Collections also address Native American heritage and the wartime naval airbase. Has: museum, schoolhouse, archives, winter appointments.",
+     "address": "4417B Old Post Road, Charlestown",
+     "phone": "401-364-1838",
+     "hours": "Memorial Day weekend–September: Friday–Saturday 10 am–noon; appointments year-round.",
+     "url": "https://www.charlestownhistorical.org/",
+     "src": "charlestownhistorical.org",
+     "town": "Charlestown"
     },
     {
-     "name": "Newport Historical Society Museum & Tours",
-     "blurb": "Exhibitions and walking tours exploring Newport’s history beyond the mansion district.",
-     "address": "Newport",
+     "name": "Fort Ninigret / Niantic Fort",
+     "blurb": "Earthen and stone features mark a historic Niantic site overlooking the coastal ponds. The surviving landscape reflects Indigenous occupation and contact with European traders. Has: outdoor historic site, Indigenous history, archaeological remains.",
+     "address": "Fort Ninigret Road, off Old Post Road, Charlestown",
      "phone": "",
      "hours": "",
-     "url": "https://newporthistory.org/",
-     "src": "newporthistory.org"
+     "url": "https://www.charlestownhistorical.org/fort-ninigret/",
+     "src": "charlestownhistorical.org",
+     "town": "Charlestown"
     },
     {
-     "name": "Fort Adams Interior Tours",
-     "blurb": "Guided or self-guided exploration of the coastal fortress, with access determined by the selected tour.",
-     "address": "Newport",
+     "name": "Coventry Historical Society / Summit Collections",
+     "blurb": "The society preserves photographs, business records and recorded accounts of Coventry history. Current public access to its collections was not confirmed. Has: historical society, local-history collections, access schedule unconfirmed.",
+     "address": "12 Old Summit Road, Coventry",
      "phone": "",
      "hours": "",
-     "url": "https://fortadams.org/",
-     "src": "fortadams.org"
+     "url": "https://www.rihs.org/directory_item/coventry-historical-society/",
+     "src": "rihs.org",
+     "town": "Coventry"
     },
     {
-     "name": "Seabee Museum & Memorial Park",
-     "blurb": "Quonset huts, artifacts, and exhibits at the original Rhode Island home of the Navy’s Seabees.",
-     "address": "North Kingstown",
+     "name": "General Nathanael Greene Homestead",
+     "blurb": "The Revolutionary War general’s former home survives as a furnished historic museum. Tours connect the house and its period objects with Greene’s life and military career. Has: historic house, tours, parking, seasonal opening.",
+     "address": "50 Taft Street, Coventry",
+     "phone": "401-821-8630",
+     "hours": "April–October Friday–Monday; current daily tour times not verified. · $10, as listed in the town’s April 2026 comprehensive plan.",
+     "url": "https://www.nathanaelgreenehomestead.org/",
+     "src": "nathanaelgreenehomestead.org",
+     "town": "Coventry"
+    },
+    {
+     "name": "Paine House Museum",
+     "blurb": "The former house and inn displays household objects, clothing and community artifacts. An operating loom and textile exhibits help explain domestic production. Has: historic house, guided tours, textile exhibits, parking across street, steps.",
+     "address": "7 Station Street, Coventry",
+     "phone": "401-623-0682",
+     "hours": "2026 regular tours May–October: Friday–Saturday 10 am–2 pm; last regular weekend October 30–31. Special holiday programs continue in November and December; group tours by appointment. · Adults $6; children $4.",
+     "url": "https://www.westernrihistory.org/house-tours/",
+     "src": "westernrihistory.org",
+     "town": "Coventry"
+    },
+    {
+     "name": "Read School",
+     "blurb": "The small schoolhouse preserves evidence of nineteenth-century rural education in Coventry. Its surviving form and historic use provide context for the town’s former district-school system. Has: historic schoolhouse, tour availability unconfirmed.",
+     "address": "1670 Flat River Road, Coventry",
+     "phone": "",
+     "hours": "Tours historically offered by arrangement with the Coventry Historical Society; current availability unconfirmed.",
+     "url": "https://npgallery.nps.gov/GetAsset/62324f56-74bc-4f93-a8ed-364321596acb",
+     "src": "npgallery.nps.gov",
+     "town": "Coventry"
+    },
+    {
+     "name": "Governor Sprague Mansion / Cranston Historical Society",
+     "blurb": "The mansion preserves the history of the Sprague family and Cranston’s industrial community. Furnished interiors and historical collections support tours and special events. Has: mansion, historical society, tours, winter appointments.",
+     "address": "1351 Cranston Street",
+     "phone": "401-944-9226",
+     "hours": "Thursday 1–4 pm April–November; other visits by appointment.",
+     "url": "https://www.cranstonhistory.org/",
+     "src": "cranstonhistory.org",
+     "town": "Cranston"
+    },
+    {
+     "name": "Joy Homestead",
+     "blurb": "The colonial homestead preserves rooms associated with the Joy family and early local industry. Educational programs and arranged visits interpret household activities and the nearby Revolutionary march route. Has: historic house, tours by appointment, school programs, winter open house.",
+     "address": "156 Scituate Avenue, Cranston",
+     "phone": "401-944-9226",
+     "hours": "By appointment and special events, including the first Sunday in December open house.",
+     "url": "https://www.cranstonhistory.org/joy-homestead",
+     "src": "cranstonhistory.org",
+     "town": "Cranston"
+    },
+    {
+     "name": "Rhode Island Grand Army of the Republic Civil War Museum and Library",
+     "blurb": "The organization preserves material related to the Civil War and its veterans. A current public-visiting schedule for its museum and library was not verified. Has: military museum, library, Civil War history, access schedule unconfirmed.",
+     "address": "762 Dyer Avenue, Cranston",
      "phone": "",
      "hours": "",
-     "url": "https://seabeesmuseum.com/visit/",
-     "src": "seabeesmuseum.com"
+     "url": "https://www.rihs.org/directory_item/rhode-island-grand-army-of-the-republic-civil-war-museum-library/",
+     "src": "rihs.org",
+     "town": "Cranston"
+    },
+    {
+     "name": "Ashton Historic Mill Village",
+     "blurb": "The surviving mill village includes housing and community buildings arranged around a former textile works. Its exterior landscape illustrates the organization of work and family life under the Rhode Island manufacturing system. Has: historic district, exterior walking route, industrial heritage.",
+     "address": "Ashton village, beside the Blackstone River, Cumberland",
+     "phone": "",
+     "hours": "Self-guided exterior exploration; mill and residential interiors are private.",
+     "url": "https://home.nps.gov/places/ashton-mill-village.htm",
+     "src": "home.nps.gov",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Historic Metcalf-Franklin Farm",
+     "blurb": "This town-owned farm preserves buildings and fields from Cumberland’s agricultural past. Restoration, educational activities and community programs keep the historic landscape in public use. Has: historic farm, community programs, preserved barns, scheduled access.",
+     "address": "142 Abbott Run Valley Road, Cumberland",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.franklinfarmri.org/",
+     "src": "franklinfarmri.org",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Monastery Park and Nine Men's Misery Memorial",
+     "blurb": "The former monastery grounds contain historic remnants and a memorial associated with King Philip’s War. Public trails link the monument with woodland, former quarry areas and the surrounding landscape. Has: outdoor historic site, trails, war memorial, daylight access.",
+     "address": "1464 Diamond Hill Road, Cumberland",
+     "phone": "",
+     "hours": "Trails during daylight hours. · No charge for trails.",
+     "url": "https://www.cumberlandlibrary.org/sites/default/files/images/HikingTrails/Cumberland-Monastery-Poster-%5B1939%5D.pdf",
+     "src": "cumberlandlibrary.org",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Valley Falls Heritage Park",
+     "blurb": "Interpretive panels explain the history of this riverside industrial site. Public paths and a picnic area provide access to the surviving landscape along the Blackstone. Has: outdoor historic site, interpretive panels, accessible, parking, picnic area.",
+     "address": "Broad Street and Mill Street, Cumberland",
+     "phone": "401-334-9996",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/valley-falls-heritage-park/8571/",
+     "src": "visitrhodeisland.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "East Greenwich Historic Preservation Society",
+     "blurb": "The society collects historical material and promotes preservation throughout East Greenwich. Its programs and tours connect residents and visitors with the town’s buildings and past communities. Has: historical society, public programs, walking tours, archives.",
+     "address": "East Greenwich",
+     "phone": "401-826-0178",
+     "hours": "Monthly public programs; consult event calendar for dates and locations. · Monthly programs: no charge.",
+     "url": "https://eghps.org/",
+     "src": "eghps.org",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "East Greenwich Veteran Firemen’s Museum",
+     "blurb": "Restored fire trucks and firefighting memorabilia document the town’s emergency services. Public open houses provide opportunities to see the collection and its historic vehicles. Has: fire museum, antique apparatus, special open houses.",
+     "address": "80 Queen Street, East Greenwich",
+     "phone": "",
+     "hours": "Announced public open houses; regular hours not verified.",
+     "url": "https://eghps.org/eventListings.php?ec=A&nm=34&nr=A&page=1&tf=P",
+     "src": "eghps.org",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Kentish Guards Armory",
+     "blurb": "The historic militia armory preserves the setting of the Kentish Guards. Visitor openings introduce a military organization with deep connections to Rhode Island history. Has: historic armory, military history, evening access.",
+     "address": "East Greenwich",
+     "phone": "",
+     "hours": "Tuesday and Wednesday evenings from 7 pm; confirm before traveling.",
+     "url": "https://www.kentishguards.org/",
+     "src": "kentishguards.org",
+     "town": "East Greenwich"
     },
     {
      "name": "New England Wireless & Steam Museum",
@@ -13269,31 +13406,344 @@
      "src": "newsm.org"
     },
     {
-     "name": "Clouds Hill Museum",
-     "blurb": "A Victorian house, carriage collection, and grounds. Visits take place during announced openings or by appointment.",
-     "address": "Warwick",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.cloudshill.org/",
-     "src": "cloudshill.org"
+     "name": "New England Wireless and Steam Museum",
+     "blurb": "Collections of wireless equipment and steam machinery trace changes in communications and power. Tours and special events connect the equipment with the history of engineering. Has: technology museum, steam machinery, wireless equipment, winter appointments.",
+     "address": "1300 Frenchtown Road, East Greenwich",
+     "phone": "401-885-0545",
+     "hours": "2026: Saturdays May 30–October 24, 9 am–3 pm; additional visits by appointment. · Adults $15; ages 6–17 $7; family $50; museum and NARM members no charge.",
+     "url": "https://newsm.org/visit/",
+     "src": "newsm.org",
+     "town": "East Greenwich"
     },
     {
-     "name": "Touro Synagogue",
-     "blurb": "A major site in American Jewish history and religious liberty. Public tours require registration and follow a specific calendar.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.thetourosynagogue.org/tours/",
-     "src": "thetourosynagogue.org"
+     "name": "Varnum Armory Museum",
+     "blurb": "Military collections span Rhode Island service from early settlement through modern conflicts. Guided visits can include discussion of artifact preservation and ongoing conservation work. Has: military museum, guided tours, appointments, stairs required, parking.",
+     "address": "6 Main Street, East Greenwich",
+     "phone": "401-884-4110",
+     "hours": "Announced open houses and advance-booked private tours. · Open houses: no charge, donations encouraged. Private tours: 1–5 adults $75 total; 6+ adults $15 each; under 18 and members no charge.",
+     "url": "https://varnumcontinentals.org/armory-museum/tours/",
+     "src": "varnumcontinentals.org",
+     "town": "East Greenwich"
     },
     {
-     "name": "First Baptist Church in America",
-     "blurb": "A historic meetinghouse connected to Roger Williams and the history of religious liberty. Consult the church’s own tour arrangements.",
-     "address": "Providence",
+     "name": "Varnum House Museum",
+     "blurb": "The historic house introduces the life and surroundings of James Mitchell Varnum. Public openings and private arrangements provide access to its museum rooms. Has: historic house, tours, appointments, event openings.",
+     "address": "57 Peirce Street, East Greenwich",
+     "phone": "401-884-1776",
+     "hours": "Select Sundays 11 am–3 pm, designated town events and by appointment.",
+     "url": "https://varnumcontinentals.org/house-museum/tours-rentals/",
+     "src": "varnumcontinentals.org",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Crescent Park Looff Carousel",
+     "blurb": "The surviving carousel preserves a major attraction from historic Crescent Park. The surrounding waterfront setting and carved ride make the site a living reminder of the area’s amusement-park past. Has: historic carousel, restrooms, concessions, seasonal operation.",
+     "address": "700 Bullocks Point Avenue, Riverside, East Providence",
+     "phone": "401-435-7518",
+     "hours": "Seasonal; operating times vary.",
+     "url": "https://eastprovidenceri.gov/node/1497",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "John Hunt House Museum / East Providence Historical Society",
+     "blurb": "The Hunt House displays local-history collections beside the Ten Mile River. Docent-led open houses introduce East Providence’s people, industries and neighborhoods. Has: historic house, museum, docent tours, monthly open houses.",
+     "address": "65 Hunt's Mills Road, East Providence",
+     "phone": "",
+     "hours": "Second Sunday of the month 1–3:30 pm.",
+     "url": "https://ephist.org/about-us/",
+     "src": "ephist.org",
+     "town": "East Providence"
+    },
+    {
+     "name": "Pomham Rocks Lighthouse",
+     "blurb": "The restored lighthouse preserves rooms and objects illustrating life at a working navigational station. Guided boat visits include historical interpretation and an optional climb to the lantern room. Has: lighthouse museum, guided tours, boat access only, reservations, stairs, not wheelchair accessible, winter closure.",
+     "address": "Pomham Rocks, Providence River; tour boats depart Edgewood Yacht Club in Cranston, East Providence",
+     "phone": "",
+     "hours": "Guided boat tours mid-June–September by reservation; closed for the current season. · Adults $50; current members $35; ages 6–17 $25; children under 6 not admitted.",
+     "url": "https://pomhamrockslighthouse.org/tours/",
+     "src": "pomhamrockslighthouse.org",
+     "town": "East Providence"
+    },
+    {
+     "name": "Exeter Historical Association",
+     "blurb": "The association works to preserve and share Exeter’s local history. A current public museum or research-visiting schedule was not verified. Has: historical association, public-access arrangements unconfirmed.",
+     "address": "773 Ten Rod Road, Exeter",
      "phone": "",
      "hours": "",
-     "url": "https://www.firstbaptistchurchinamerica.org/tours-and-gift-shop/",
-     "src": "firstbaptistchurchinamerica.org"
+     "url": "https://www.rihs.org/directory_item/exeter-historical-association/",
+     "src": "rihs.org",
+     "town": "Exeter"
+    },
+    {
+     "name": "Tomaquag Museum",
+     "blurb": "This Indigenous museum shares Native history, culture and contemporary perspectives. Public drop-in hours and reserved tours provide different ways to engage with its collections and educators. Has: Indigenous museum, guided programs, appointments, accessibility assistance.",
+     "address": "390 A Summit Road, Exeter",
+     "phone": "401-491-9063",
+     "hours": "Wednesday 10 am–5 pm; Saturday 10 am–2 pm. Monday, Tuesday, Thursday and Friday by booked tour; Sunday closed. · Adults $6; elders and college students $5; children $3; ages 5 and under no charge.",
+     "url": "https://www.tomaquagmuseum.org/plan-your-visit",
+     "src": "tomaquagmuseum.org",
+     "town": "Exeter"
+    },
+    {
+     "name": "Borders Farm Museum and Historic Farm",
+     "blurb": "A preserved working farm includes a farmhouse museum and an agricultural landscape. Public trails and scheduled programs connect visitors with rural life and the property’s history. Has: historic farm, farmhouse museum, trails, parking, portable toilet.",
+     "address": "31 North Road; trail parking at 38 North Road and Balcom Road, Foster",
+     "phone": "401-647-5689",
+     "hours": "Trails daily dawn–dusk; museum and event openings as announced.",
+     "url": "https://bordersfarm.org/visit",
+     "src": "bordersfarm.org",
+     "town": "Foster"
+    },
+    {
+     "name": "Foster Town House / Foster Preservation Society",
+     "blurb": "The society occupies the lower level of the historic town house. Visitors can explore local-history resources and arrange tours of the building. Has: historic town house, historical society, rear entrance, appointments.",
+     "address": "180 Howard Hill Road, Foster",
+     "phone": "401-397-5687",
+     "hours": "Wednesday 9 am–noon; other tours and visits by appointment.",
+     "url": "https://sites.google.com/view/fosterpreservationsociety/about-us",
+     "src": "sites.google.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Evans Schoolhouse",
+     "blurb": "The restored one-room schoolhouse represents the rural district schools once used across Glocester. Its preservation allows the building to support interpretation of local educational history. Has: schoolhouse museum, special openings, current schedule unconfirmed.",
+     "address": "Behind Glocester Town Hall, Putnam Pike",
+     "phone": "",
+     "hours": "Special public openings and educational programs; current dates unconfirmed.",
+     "url": "https://www.glocesterheritagesociety.org/evansschoolhouse.htm",
+     "src": "glocesterheritagesociety.org",
+     "town": "Glocester"
+    },
+    {
+     "name": "Job Armstrong Store / Glocester Heritage Society",
+     "blurb": "The restored store houses exhibits and the Glocester Heritage Society’s collections. Its visitor displays and archives interpret the community’s commercial and local history. Has: historic store, exhibits, archives, appointments.",
+     "address": "1181 Main Street, Chepachet, Glocester",
+     "phone": "401-568-8967",
+     "hours": "By appointment only.",
+     "url": "https://www.glocesterheritagesociety.org/index.htm",
+     "src": "glocesterheritagesociety.org",
+     "town": "Glocester"
+    },
+    {
+     "name": "Pettingill-Mason House / Dorr Rebellion Museum",
+     "blurb": "The house served as a militia base during the Dorr Rebellion. Following restoration, it houses a museum devoted to that conflict and its local setting. Has: historic house, museum, Dorr Rebellion history.",
+     "address": "1043 Putnam Pike, Glocester",
+     "phone": "",
+     "hours": "",
+     "url": "https://home.nps.gov/places/pettingill-mason-house.htm",
+     "src": "home.nps.gov",
+     "town": "Glocester"
+    },
+    {
+     "name": "Canonchet Brook Preserve",
+     "blurb": "The preserve combines woodland habitat with stonework and remnants of earlier land use. Its trails offer access to a landscape shaped by Indigenous and colonial communities. Has: historic landscape, trails, leashed dogs, seasonal hunting precautions.",
+     "address": "Hopkinton",
+     "phone": "",
+     "hours": "Daylight hours year-round.",
+     "url": "https://www.nature.org/en-us/get-involved/how-to-help/places-we-protect/canonchet-brook-preserve/",
+     "src": "nature.org",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Hopkinton Historical Association Museum",
+     "blurb": "The association preserves objects and records documenting Hopkinton’s families, villages and industries. Seasonal museum exhibitions complement its local-history and genealogy resources. Has: museum, historical association, genealogy, winter closure.",
+     "address": "2 Town House Road, Hopkinton",
+     "phone": "",
+     "hours": "Seasonal Sundays 10 am–2 pm; operator posts mid-May–mid-October. The 2026 sampler exhibition announced May 3–October 11.",
+     "url": "https://hopkintonhistorical.org/contact-us/",
+     "src": "hopkintonhistorical.org",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Kenyon Crossroads Historic Site",
+     "blurb": "Woodland trails pass the remains of an eighteenth-century settlement and historic road junction. Stone foundations and surviving landscape features help visitors imagine the former crossroads community. Has: outdoor historic site, trails, parking, year-round landscape.",
+     "address": "Trail access from Woodville Road and Collins Road, Hopkinton",
+     "phone": "",
+     "hours": "Sunrise–sunset.",
+     "url": "https://www.hopkintonri.gov/sites/g/files/vyhlif8546/f/uploads/kenyonx_bw_broad_9-6-13.pdf",
+     "src": "hopkintonri.gov",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Beavertail Lighthouse Museum",
+     "blurb": "The museum interprets the lighthouse and maritime history at the entrance to Narragansett Bay. Tower access is limited to announced climbing dates, with separate special openings late in the year. Has: lighthouse museum, scheduled tower climbs, gift shop, nearby public toilets.",
+     "address": "Beavertail State Park, Jamestown",
+     "phone": "401-423-3270",
+     "hours": "Seasonal museum; scheduled tower climbs. Group museum visits April 1–November 15 with at least two weeks notice; holiday shopping December 5–6 and 12–13, 2026, noon–3 pm. · Museum: no charge.",
+     "url": "https://www.beavertaillight.org/",
+     "src": "beavertaillight.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Conanicut Battery Historic Park",
+     "blurb": "Surviving earthworks mark a coastal battery built during the Revolutionary War. Trails also introduce later military uses of the site and its commanding position over the bay. Has: fort earthworks, trails, outdoor historic site, year-round grounds.",
+     "address": "Battery Lane, Jamestown",
+     "phone": "",
+     "hours": "Daily sunrise–sunset.",
+     "url": "https://jamestownhistoricalsociety.org/conanicut-battery/",
+     "src": "jamestownhistoricalsociety.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Conanicut Friends Meetinghouse",
+     "blurb": "The surviving Quaker meetinghouse reflects the island’s early religious community. Restoration has interrupted visits, and a current public-opening schedule needs confirmation. Has: historic meetinghouse, restoration, visitor access unconfirmed.",
+     "address": "North Road and Weeden Lane, Jamestown",
+     "phone": "",
+     "hours": "Restoration closure announced for 2025; the proposed 2026 reopening was not confirmed.",
+     "url": "https://jamestownhistoricalsociety.org/meetinghouse/",
+     "src": "jamestownhistoricalsociety.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Fort Burnside",
+     "blurb": "The former coastal-defense installation preserves evidence of wartime surveillance at the bay entrance. Its disguised control post and battery landscape can be explored through public park areas and arranged interpretation. Has: fort, military museum, outdoor remains, appointments, year-round grounds.",
+     "address": "Beavertail Road, Beavertail State Park, Jamestown",
+     "phone": "401-423-1771",
+     "hours": "Park grounds daily sunrise–sunset; museum and building access by appointment or scheduled programs. · Park grounds and parking: no charge.",
+     "url": "https://fortburnside.org/visit/",
+     "src": "fortburnside.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Fort Getty Park",
+     "blurb": "Historic fortifications survive within this town park overlooking the bay. Public park access combines views of the military remains with shoreline and walking areas. Has: fort remains, park, walking trail, parking, seasonal camping.",
+     "address": "End of Fort Getty Road, Jamestown",
+     "phone": "401-423-7264",
+     "hours": "Park 7 am–10 pm; campground seasonal and currently closed for camping. · Summer daily parking $20; parking with boat $30; resident and seasonal passes available.",
+     "url": "https://www.jamestownri.gov/rvcamping",
+     "src": "jamestownri.gov",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Fort Wetherill State Park",
+     "blurb": "This former coastal-defense installation occupies granite cliffs overlooking Narragansett Bay. Visitors can explore the public park landscape and view surviving military structures. Has: fort, outdoor historic site, coastal views, trails.",
+     "address": "Fort Wetherill Road, Jamestown",
+     "phone": "401-667-6200",
+     "hours": "",
+     "url": "https://riparks.ri.gov/parks/fort-wetherill-state-park",
+     "src": "riparks.ri.gov",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Fire Department Memorial Museum",
+     "blurb": "The fire department’s museum preserves material associated with local firefighting. Its building stands beside the main station, but current visitor hours need confirmation. Has: fire museum, access schedule unconfirmed.",
+     "address": "50 Narragansett Avenue, Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/directory_item/jamestown-fire-department-memorial-museum/",
+     "src": "rihs.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Historical Society Museum",
+     "blurb": "Local-history exhibitions occupy a former one-room schoolhouse that later served as the town library. The building has an accessible entrance and welcomes special visit requests. Has: museum, accessible, seasonal exhibitions, appointments.",
+     "address": "92 Narragansett Avenue, Jamestown",
+     "phone": "",
+     "hours": "May 22–October 12, 2026: Friday–Sunday and holidays 1–4 pm; visits by appointment outside regular hours.",
+     "url": "https://jamestownhistoricalsociety.org/jamestown-museum/",
+     "src": "jamestownhistoricalsociety.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Town Pound",
+     "blurb": "The stone enclosure once held stray farm animals until their owners reclaimed them. Interpretive signage explains the history of animal pounds on the island. Has: outdoor historic site, interpretive signs, roadside parking, winter access.",
+     "address": "East side of North Road, north of Route 138, Jamestown",
+     "phone": "",
+     "hours": "Daylight hours year-round.",
+     "url": "https://jamestownhistoricalsociety.org/town-pound/",
+     "src": "jamestownhistoricalsociety.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Windmill",
+     "blurb": "This surviving windmill illustrates the island’s agricultural and milling history. Visitors can inspect the historic structure during seasonal openings or arrange a visit. Has: windmill, tours, parking, stairs, not wheelchair accessible.",
+     "address": "378 North Road, Jamestown",
+     "phone": "",
+     "hours": "May 22–October 12, 2026: Friday–Sunday and holidays 1–4 pm, weather permitting; also by appointment. · No charge; donations welcome.",
+     "url": "https://jamestownhistoricalsociety.org/jamestownwindmill/",
+     "src": "jamestownhistoricalsociety.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Watson Farm",
+     "blurb": "A working coastal farm preserves a landscape shaped by generations of agricultural use. Self-guided walks pass livestock and fields, while the farmhouse remains a private residence viewed only from outside. Has: historic farm, self-guided walks, parking, farmhouse exterior only.",
+     "address": "455 North Road, Jamestown",
+     "phone": "401-423-0005",
+     "hours": "June–mid-October: Thursday and Saturday 1–4 pm. · Adults $10; seniors $9; students $5; family $25.",
+     "url": "https://www.historicnewengland.org/property/watson-farm/",
+     "src": "historicnewengland.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Clemence-Irons House",
+     "blurb": "This rare stone-ender house preserves evidence of early Rhode Island construction and later restoration. Guided tours explain both the building’s long occupancy and its twentieth-century reconstruction. Has: guided tours, historic house, street parking, stairs, no public restroom.",
+     "address": "38 George Waterman Road, Johnston",
+     "phone": "401-728-9696",
+     "hours": "Sundays June–early October; tours at 11 am, noon and 1 pm. · Adults $10; seniors $9; students and children $5; members and Johnston residents no charge.",
+     "url": "https://www.historicnewengland.org/property/clemence-irons-house/",
+     "src": "historicnewengland.org",
+     "town": "Johnston"
+    },
+    {
+     "name": "Johnston Historical Society Museum and Elijah Angell House",
+     "blurb": "A historic house and museum barn hold Johnston’s local-history collections. The house’s first floor is maintained as a museum, with artifacts and archives in the rear building. Has: historic house, museum barn, archives, appointments.",
+     "address": "101 Putnam Pike, Johnston",
+     "phone": "401-231-3380",
+     "hours": "Tuesday 6:30–8:30 pm; Thursday 9 am–noon; also by appointment.",
+     "url": "https://www.rihs.org/directory_item/johnston-historical-society/",
+     "src": "rihs.org",
+     "town": "Johnston"
+    },
+    {
+     "name": "Arnold House",
+     "blurb": "The seventeenth-century stone-ender combines a massive masonry end wall with surviving timber construction. Tours trace the house’s use, alteration and restoration over several centuries. Has: guided tours, historic house, parking at Gateway Park, stairs, seasonal opening.",
+     "address": "487 Great Road, Lincoln",
+     "phone": "401-728-9696",
+     "hours": "Sundays June–early October; hourly tours 11 am–3 pm, last tour 3 pm. · Adults $10; seniors $9; students and children $5; members no charge.",
+     "url": "https://www.historicnewengland.org/property/arnold-house/",
+     "src": "historicnewengland.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Arnold's Lonsdale Bakery",
+     "blurb": "The historic bakery building preserves a part of the Blackstone Valley’s commercial life. Special open days connect it with the nearby toll house and the society’s historical interpretation. Has: historic bakery, special openings, historical society campus.",
+     "address": "North Gate campus, 1873 Old Louisquisset Pike, Lincoln",
+     "phone": "",
+     "hours": "Announced special openings, including Great Road Day; no regular weekly schedule published.",
+     "url": "https://www.bvhsri.org/",
+     "src": "bvhsri.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Captain Wilbur Kelly House Museum of Transportation",
+     "blurb": "Exhibits in the former canal captain’s house explain transportation changes in the Blackstone Valley. The surrounding park connects the museum with surviving canal and industrial landscapes. Has: museum, historic house, parking, accessible with uneven areas, winter exterior access.",
+     "address": "1075 Lower River Road, Lincoln",
+     "phone": "",
+     "hours": "Seasonal spring–October; DEM posts 9 am–5 pm except Friday. Grounds dawn–dusk year-round; confirm museum dates because agency schedules differ. · No charge.",
+     "url": "https://www.nps.gov/thingstodo/kelly-house-museum-of-transportation.htm",
+     "src": "nps.gov",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Hannaway Blacksmith Shop",
+     "blurb": "The relocated shop preserves equipment and skills associated with traditional blacksmithing. Demonstrations and small classes bring the historic forge into use. Has: historic workshop, demonstrations, advance class booking, winter programs.",
+     "address": "Great Road Heritage Campus, Chase Farm Park, Lincoln",
+     "phone": "401-726-0597",
+     "hours": "Classes and demonstrations on published calendar dates year-round; advance booking for classes.",
+     "url": "https://greatroadheritagecampus.org/hannaway-blacksmith-shop",
+     "src": "greatroadheritagecampus.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Hearthside House",
+     "blurb": "The stone mansion presents furnished rooms and changing historical programs. Costumed docents interpret the families who lived there and the community around Great Road. Has: historic mansion, guided tours, period furnishings, scheduled programs.",
+     "address": "677 Great Road, Lincoln",
+     "phone": "401-726-0597",
+     "hours": "Scheduled tour and program dates only; no regular daily schedule.",
+     "url": "https://greatroadheritagecampus.org/",
+     "src": "greatroadheritagecampus.org",
+     "town": "Lincoln"
     },
     {
      "name": "Hearthside House / Great Road Heritage Campus",
@@ -13303,6 +13753,1399 @@
      "hours": "",
      "url": "https://greatroadheritagecampus.org/",
      "src": "greatroadheritagecampus.org"
+    },
+    {
+     "name": "Moffett Mill",
+     "blurb": "This early machine shop retains tools and equipment from its working life. Supervised visits interpret the varied products once made for local farms and businesses. Has: historic mill, machinery, shuttle access only, seasonal closure.",
+     "address": "Access by shuttle from Hearthside, 677 Great Road, Lincoln",
+     "phone": "401-726-0597",
+     "hours": "Closed for the 2026 season; access only by shuttle on scheduled campus tour dates.",
+     "url": "https://greatroadheritagecampus.org/great-road-heritage-campus",
+     "src": "greatroadheritagecampus.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "North Gate Toll House / Blackstone Valley Historical Society",
+     "blurb": "The former toll house houses historical collections associated with the Blackstone Valley. Exhibits and public programs connect the building with local roads, communities and industry. Has: historic house, historical society, museum collections, event-based access.",
+     "address": "1873 Old Louisquisset Pike, Lincoln",
+     "phone": "",
+     "hours": "Announced public programs and special openings.",
+     "url": "https://www.bvhsri.org/",
+     "src": "bvhsri.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Pullen's Corner Schoolhouse",
+     "blurb": "The restored one-room schoolhouse recalls education in a rural nineteenth-century community. It was moved to Chase Farm Park and reopened for visitors and educational groups. Has: schoolhouse, educational programs, calendar-based openings.",
+     "address": "Chase Farm Park, Lincoln",
+     "phone": "401-726-0597",
+     "hours": "Scheduled open houses, school visits and campus programs.",
+     "url": "https://greatroadheritagecampus.org/great-road-heritage-campus",
+     "src": "greatroadheritagecampus.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Wilbor House Museum / Little Compton Historical Society",
+     "blurb": "The Wilbor House and surrounding museum campus interpret Little Compton’s people and domestic life. Guided house tours and self-guided exhibits follow different seasonal schedules. Has: historic house, exhibits, outbuildings, winter weekday access, house tours by appointment.",
+     "address": "548 West Main Road, Little Compton",
+     "phone": "401-635-4035",
+     "hours": "Exhibits 10 am–5 pm, last entry 4:30 pm: mid-October–May Tuesday–Friday; June Tuesday–Saturday; July–mid-October Tuesday–Sunday. House tours June Saturdays, July–August Thursday–Sunday, September–early October weekends; year-round by appointment.",
+     "url": "https://littlecompton.org/about/planning-your-visit/",
+     "src": "littlecompton.org",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Boyd's Windmill",
+     "blurb": "The restored windmill illustrates Middletown’s agricultural and milling heritage. Seasonal docent visits supplement outdoor interpretation available in Paradise Park. Has: windmill, guided tours, parking, exterior year-round.",
+     "address": "Paradise Park, Paradise Avenue and Prospect Avenue, Middletown",
+     "phone": "401-849-1870",
+     "hours": "2026 summer: Sunday 2–4 pm; interior visits seasonal; park and exterior interpretation year-round.",
+     "url": "https://www.middletownhistoricalsociety.org/boyds-mill",
+     "src": "middletownhistoricalsociety.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "Paradise School Museum / Middletown Historical Society",
+     "blurb": "The historic schoolhouse contains the society’s museum, archives and main office. Its collections interpret Middletown and the landscape around Paradise Valley. Has: schoolhouse museum, archives, adjacent park, seasonal schedule.",
+     "address": "Paradise Avenue and Prospect Avenue, Middletown",
+     "phone": "401-849-1870",
+     "hours": "2026 summer: Sunday 2–4 pm and Wednesday 9–11 am; office hours vary seasonally.",
+     "url": "https://www.middletownhistoricalsociety.org/paradise-school",
+     "src": "middletownhistoricalsociety.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "Prescott Farm",
+     "blurb": "This historic landscape includes a windmill and agricultural outbuildings. Visitors can explore the public grounds while respecting marked private areas. Has: historic farm, windmill, outdoor exploration, grounds year-round.",
+     "address": "2009 West Main Road, Middletown",
+     "phone": "401-846-4152 ext. 123",
+     "hours": "Daily dawn–dusk. · Grounds: no charge.",
+     "url": "https://www.middletownri.gov/facilities/facility/details/Prescott-Farm-45",
+     "src": "middletownri.gov",
+     "town": "Middletown"
+    },
+    {
+     "name": "Whitehall Museum House",
+     "blurb": "The former home of philosopher George Berkeley preserves an early eighteenth-century domestic setting. Its architecture and interpretation explore Berkeley’s brief residence on Aquidneck Island. Has: historic house, tours, seasonal opening, winter closure.",
+     "address": "311 Berkeley Avenue, Middletown",
+     "phone": "401-846-3116",
+     "hours": "2026 season July 7–September 1: Tuesday 1–4 pm. Closed for the season; summer 2027 reopening anticipated. · Suggested donation $5.",
+     "url": "https://nscdari.org/property/whitehall-museum-house/",
+     "src": "nscdari.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "Witherbee School",
+     "blurb": "The preserved schoolhouse offers a setting for exploring Middletown’s educational history. Seasonal openings and programs introduce the building and its community context. Has: schoolhouse, limited parking, seasonal opening.",
+     "address": "Green End Avenue and Valley Road, Middletown",
+     "phone": "401-849-1870",
+     "hours": "Selected summer Sundays 2–4 pm; seasonal opening only.",
+     "url": "https://www.middletownhistoricalsociety.org/witherbee-school",
+     "src": "middletownhistoricalsociety.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "Narragansett Historical Society",
+     "blurb": "The society documents Narragansett’s buildings, neighborhoods and community history. Its public activities include historical programs, walking tours and resources for exploring the town independently. Has: historical society, walking tours, public programs.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "Public programs and walking tours on announced dates; no regular museum hours published.",
+     "url": "https://www.narragansetthistoricalsociety.com/",
+     "src": "narragansetthistoricalsociety.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "South County Museum",
+     "blurb": "An outdoor museum campus explores the region’s farming, coastal trades and village life. Historic craft shops, agricultural displays and remnants of the Canonchet estate connect artifacts with the landscape. Has: living history, craft demonstrations, farm animals, trails, seasonal buildings.",
+     "address": "115 Strathmore Street, Narragansett",
+     "phone": "401-786-2442",
+     "hours": "Regular 2026 season ended; special events and classes continue. In-season published hours: Thursday–Saturday 10 am–4 pm, last admission 3 pm. · Adults $12; seniors and students $10; children over six $5; members no charge.",
+     "url": "https://www.southcountymuseum.org/",
+     "src": "southcountymuseum.org",
+     "town": "Narragansett"
+    },
+    {
+     "name": "The Towers",
+     "blurb": "The surviving section of the Narragansett Pier Casino spans Ocean Road near the shore. Historical interpretation and public music, dance and cultural events give visitors access to the restored landmark. Has: historic casino remains, history gallery, public events, summer tours, accessible.",
+     "address": "35 Ocean Road, Narragansett",
+     "phone": "",
+     "hours": "Public events on announced dates; summer tours offered; regular gallery hours not verified.",
+     "url": "https://www.thetowersri.com/",
+     "src": "thetowersri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Block Island Historical Society Museum",
+     "blurb": "The museum occupies a former home and summer hotel in the Old Harbor district. Collections trace Indigenous history, maritime work, farming and the island’s visitor economy. Has: museum, historic building, gallery, gift shop, seasonal holiday opening.",
+     "address": "18 Old Town Road, New Shoreham",
+     "phone": "401-466-2481",
+     "hours": "Closed for regular 2026 season; reopening for Holiday Stroll weekend beginning November 27. Summer daily 10 am–4 pm; shoulder seasons Friday–Monday 10 am–2 pm.",
+     "url": "https://www.blockislandhistorical.org/",
+     "src": "blockislandhistorical.org",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Block Island North Light Maritime Museum",
+     "blurb": "The first floor of the granite lighthouse contains a maritime museum. Reaching the building requires a walk from the parking area at the north end of the island. Has: lighthouse museum, beach approach, seasonal opening, winter closure.",
+     "address": "North end of Corn Neck Road, New Shoreham",
+     "phone": "401-466-3213",
+     "hours": "Posted seasonal hours: Saturday 10 am–4 pm; Sunday noon–4 pm; Columbus Day 10 am–4 pm. Closed after Columbus Day and during rain. · Ages 12 and over $3.",
+     "url": "https://www.newshorehamri.gov/322/North-Light",
+     "src": "newshorehamri.gov",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Block Island Southeast Lighthouse Museum",
+     "blurb": "The lighthouse museum interprets an important navigation landmark and its relocation away from the eroding bluff. Guided tower tours provide an additional way to experience the structure. Has: lighthouse museum, guided tower tours, grounds year-round, winter interior closure.",
+     "address": "122 Mohegan Trail, New Shoreham",
+     "phone": "401-466-5009",
+     "hours": "Spring May 24–June 22 weekends 10 am–4 pm; summer through Labor Day daily 10 am–4 pm; fall through October 12 weekends 10 am–4 pm. Winter closed; grounds daily sunrise–sunset. · Museum $10 adults/$8 seniors, active military and students; tower $15/$12; combined $20/$16; ages 9 and under with adult no charge.",
+     "url": "https://southeastlighthouse.org/",
+     "src": "southeastlighthouse.org",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Artillery Company of Newport Museum",
+     "blurb": "The militia museum preserves military objects and material associated with Rhode Island service. Its holdings include historic cannon and artifacts connected with the company’s long history. Has: military museum, artillery, seasonal opening.",
+     "address": "23 Clarke Street, Newport",
+     "phone": "401-846-8488",
+     "hours": "Memorial Day–Columbus Day Saturday–Sunday 10 am–2 pm; also by appointment. · Admission by donation.",
+     "url": "https://newportartillery.org/our-museum/",
+     "src": "newportartillery.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Audrain Automobile Museum",
+     "blurb": "Rotating exhibitions present rare vehicles from different periods of automotive history. The museum emphasizes the relationship between design, technology and the automobile. Has: automobile museum, changing exhibitions, winter hours.",
+     "address": "222 Bellevue Avenue, Newport",
+     "phone": "401-856-4420",
+     "hours": "Daily 10 am–4 pm. · Adults $18; seniors 65+, military and students with ID $10; ages 6–17 $8; members no charge.",
+     "url": "https://www.audrainautomuseum.org/tickets",
+     "src": "audrainautomuseum.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Belcourt of Newport",
+     "blurb": "Belcourt offers guided visits focused on its architecture, history and restoration. Museum exhibitions provide additional cultural material within the historic estate. Has: mansion, guided tours, museum exhibitions, winter visits.",
+     "address": "657 Bellevue Avenue, Newport",
+     "phone": "",
+     "hours": "Generally Friday–Sunday year-round; guided tour times in ticket calendar.",
+     "url": "https://www.belcourt.com/",
+     "src": "belcourt.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Chateau-sur-Mer",
+     "blurb": "The house preserves a richly layered example of Victorian design and decoration. Audio and landscape tours explore the Wetmore family’s residence and grounds. Has: mansion, audio tours, parking, not wheelchair accessible, winter weekend openings.",
+     "address": "474 Bellevue Avenue, Newport",
+     "phone": "401-847-1000",
+     "hours": "Closed until November 21, 2026; then Saturday–Sunday 9 am–5 pm through January 3, 2027, last admission 4 pm. · One-property admission: adults $25; ages 6–12 $10; under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/chateau-sur-mer/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Chepstow",
+     "blurb": "This summer residence preserves Morris-Gallatin furnishings and American art. Guided visits explore its collections and the family history reflected in its rooms. Has: guided tours, timed tickets, parking, not wheelchair accessible, seasonal opening.",
+     "address": "120 Narragansett Avenue, Newport",
+     "phone": "401-847-1000",
+     "hours": "Closed for the 2026 season; next regular opening dates not published on the reviewed page.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/chepstow/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Common Burying Ground and God's Little Acre",
+     "blurb": "The colonial burying ground preserves carved gravestones and evidence of Newport’s early communities. Its African heritage burial area provides an important setting for remembering Black Newporters. Has: historic cemetery, African American history, gravestone art, outdoor access, uneven ground.",
+     "address": "Farewell Street, Newport",
+     "phone": "",
+     "hours": "Daily 7 am–sunset.",
+     "url": "https://www.newportri.gov/city-hall/departments/public-services/tree-parks-open-space/historic-cemeteries",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Fort Adams",
+     "blurb": "The coastal fort interprets the military defenses guarding Newport Harbor. Guided and self-guided visits reveal its engineering, buildings and waterfront position. Has: fort, guided tours, self-guided visits, seasonal tour schedule.",
+     "address": "90 Fort Adams Drive, Newport",
+     "phone": "401-841-0707",
+     "hours": "Daily April–November; visitor center 9 am–4 pm; tour times vary with season, weather and events. · Admission starts at $10.",
+     "url": "https://fortadams.org/visit/",
+     "src": "fortadams.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Fort Adams Interior Tours",
+     "blurb": "Guided or self-guided exploration of the coastal fortress, with access determined by the selected tour.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://fortadams.org/",
+     "src": "fortadams.org"
+    },
+    {
+     "name": "Great Friends Meeting House",
+     "blurb": "The historic Quaker meetinghouse reflects Newport’s early religious life. Its large surviving interior is interpreted through limited site visits and public programs. Has: historic building, limited site tours, advance inquiry.",
+     "address": "21 Farewell Street, Newport",
+     "phone": "401-841-8770",
+     "hours": "Site tours on a limited basis, subject to guide and building availability.",
+     "url": "https://newporthistory.org/properties/great-friends-meeting-house/",
+     "src": "newporthistory.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Hunter House",
+     "blurb": "The colonial house presents Newport craftsmanship and the lives of its wealthy merchant households. Interpretation also addresses the enslaved people whose labor supported those households. Has: guided tours, timed tickets, street parking, not wheelchair accessible, seasonal opening.",
+     "address": "54 Washington Street, Newport",
+     "phone": "401-847-1000",
+     "hours": "Closed for the 2026 season; next regular opening dates not published on the reviewed page.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/hunter-house/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "International Tennis Hall of Fame Museum / Newport Casino",
+     "blurb": "The museum explores tennis history through objects, stories and interactive exhibits. Its setting within the historic Newport Casino adds an architectural dimension to the visit. Has: sports-history museum, historic complex, tours, accessible, elevator, winter hours.",
+     "address": "194 Bellevue Avenue, Newport",
+     "phone": "401-849-3990",
+     "hours": "Daily 10 am–5 pm, last admission 4:30 pm; closed Thanksgiving and December 24–25, 2026. Selected guided tours Friday and Sunday; event exceptions apply. · Adults $25; seniors, military, students and USTA members $21.50; ages 12 and under no charge.",
+     "url": "https://www.tennisfame.com/visit/hours-and-admission",
+     "src": "tennisfame.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Isaac Bell House",
+     "blurb": "This Shingle Style house emphasizes architectural design and craftsmanship. Sparsely furnished interiors make its materials and spatial arrangement central to the visit. Has: historic house, architecture, parking, not wheelchair accessible, seasonal opening.",
+     "address": "70 Perry Street, Newport",
+     "phone": "401-847-1000",
+     "hours": "Closed for the 2026 season; next regular opening dates not published on the reviewed page. · One-property admission: adults $25; ages 6–12 $10; under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/isaac-bell-house/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Kings Cote / Kingscote",
+     "blurb": "A Gothic Revival house representing an earlier phase of Newport’s summer-estate development. Note: Listed as closed for the season.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "Kingscote",
+     "blurb": "The Gothic Revival house preserves its landscape setting and family collections. An audio tour introduces its design and the history of Newport’s early summer residences. Has: historic house, audio tours, parking, not wheelchair accessible, seasonal opening.",
+     "address": "253 Bellevue Avenue, Newport",
+     "phone": "401-847-1000",
+     "hours": "Closed for the 2026 season; next regular opening dates not published on the reviewed page. · One-property admission: adults $25; ages 6–12 $10; under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/kingscote/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Loeb Visitors Center",
+     "blurb": "The visitor center introduces Newport’s Jewish history and the setting of Touro Synagogue. Exhibits and history presentations complement separately operated synagogue tours. Has: history exhibits, accessible, walking tours, no on-site parking.",
+     "address": "52 Spring Street, Newport",
+     "phone": "401-847-0070",
+     "hours": "Seasonal schedule; consult the linked visitor information and foundation calendar. · Center: no charge; history presentation suggested $5 donation; Colonial Jewish Walking Tour $18.",
+     "url": "https://www.loebvisitors.org/visit/",
+     "src": "loebvisitors.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Marble House",
+     "blurb": "This Vanderbilt residence combines monumental architecture with elaborately decorated interiors. Audio interpretation explores Alva Vanderbilt’s life and the mansion’s place in Newport society. Has: mansion, audio tours, parking, partial wheelchair access, winter hours.",
+     "address": "596 Bellevue Avenue, Newport",
+     "phone": "401-847-1000",
+     "hours": "November 2026–January 3, 2027: daily 9 am–5 pm, last entry 4 pm; December 24 closes 2 pm; closed Thanksgiving and Christmas. · One-property admission: adults $25; ages 6–12 $10; under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/marble-house/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Museum of Newport History at the Brick Market",
+     "blurb": "Exhibits inside the historic Brick Market introduce Newport’s people and development. Objects and interpretive displays connect the port’s architecture with everyday community life. Has: museum, historic market building, gift shop, conflicting access notices.",
+     "address": "127 Thames Street, Newport",
+     "phone": "401-841-8770",
+     "hours": "Dedicated visitor page posts daily 10 am–5 pm, but the exhibitions page carries a temporary-closure notice; confirm before visiting. · Suggested donation $4 adults; $2 children over age 5.",
+     "url": "https://www.newporthistoricalsociety.org/museum-shop/museum-of-newport-history/",
+     "src": "newporthistoricalsociety.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Museum of Newport Irish History Interpretive Center",
+     "blurb": "Maps, photographs, video and artifacts trace Irish immigration and community life in Newport County. Docents connect the displays with the city’s neighborhoods and historic workplaces. Has: museum, Irish-American history, docent interpretation, winter appointments.",
+     "address": "648 Lower Thames Street, Newport",
+     "phone": "401-848-0661",
+     "hours": "Regular 2026 season May 22–October 25: Thursday–Sunday noon–5 pm; off-season visits by arrangement.",
+     "url": "https://newportirishhistory.org/",
+     "src": "newportirishhistory.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Naval War College Museum",
+     "blurb": "The museum interprets naval warfare, the Naval War College and the region’s naval history. Public visits take place on an active military installation and require advance access clearance. Has: naval museum, historic building, advance reservations, security requirements, winter hours.",
+     "address": "Naval Station Newport, Coasters Harbor Island",
+     "phone": "401-856-5270",
+     "hours": "Monday–Friday 10 am–4 pm; closed federal holidays. Advance base-access arrangements required; allow several business days for United States visitors and at least 14 days for foreign visitors.",
+     "url": "https://usnwc.edu/NWC-Museum",
+     "src": "usnwc.edu",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Art Museum / John N. A. Griswold House",
+     "blurb": "The art museum occupies a historic campus that includes the Griswold House. Collections and changing exhibitions connect regional artistic traditions with wider creative work. Has: art museum, historic house, exhibitions, limited parking, winter hours.",
+     "address": "76 Bellevue Avenue, Newport",
+     "phone": "401-848-8200",
+     "hours": "Wednesday–Monday 11 am–4 pm; Tuesday closed. Closed New Year’s Eve, New Year’s Day, Easter, Thanksgiving, Christmas Eve and Christmas Day. · Adults $20; seniors 65+ $15; college students $10; members, ages 17 and under, active military and spouse no charge.",
+     "url": "https://newportartmuseum.org/visit/",
+     "src": "newportartmuseum.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Colony House",
+     "blurb": "The former colonial government building preserves an important chapter of Rhode Island civic history. Limited tours and programs introduce its architecture and public uses. Has: historic building, limited site tours, advance inquiry.",
+     "address": "Washington Square, Newport",
+     "phone": "401-841-8770",
+     "hours": "Site tours on a limited basis, subject to guide and building availability.",
+     "url": "https://newporthistory.org/properties/the-colony-house/",
+     "src": "newporthistory.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Historical Society / Richard I. Burnham Resource Center",
+     "blurb": "The resource center combines historical exhibitions with access to the society’s research collections. Its current exhibition examines Newport’s experiences during the Revolutionary War. Has: historical society, exhibitions, archives, research appointments, winter weekday hours.",
+     "address": "82 Touro Street, Newport",
+     "phone": "401-846-0813",
+     "hours": "Current exhibition Monday–Friday 9 am–3 pm through December 2026; research by appointment. Selected third-Tuesday evening openings 4–7 pm. · Current exhibition: no charge.",
+     "url": "https://newporthistory.org/occupied-newport-and-the-fight-for-independence-exhibition/",
+     "src": "newporthistory.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Tower Museum",
+     "blurb": "The small museum focuses on interpretations of Newport’s historic stone tower. Its published contact page is old, so current visitor access and hours require confirmation. Has: museum, tower interpretation, current access unconfirmed.",
+     "address": "152 Mill Street, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://newporttowermuseum.com/styled-13/index.html",
+     "src": "newporttowermuseum.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Ochre Court",
+     "blurb": "The former summer mansion now serves as a university administration building. Public access to the main hall, salons and ballrooms offers a view of its elaborate interiors and restored ceiling painting. Has: mansion, public first-floor access, university building, limited hours.",
+     "address": "16 Ochre Point Avenue, Newport",
+     "phone": "401-341-2908",
+     "hours": "Public first-floor spaces subject to university operations; confirm daily access with Salve Regina. · Public first-floor spaces: no charge.",
+     "url": "https://salve.edu/news/news-listing/salve-recognized-2025-doris-duke-historic-preservation-award",
+     "src": "salve.edu",
+     "town": "Newport"
+    },
+    {
+     "name": "Redwood Library and Athenaeum",
+     "blurb": "This historic library combines a working collection with art and architectural interest. Visitors can explore its public spaces and use an audio tour to learn about the institution. Has: historic library, art collections, audio tour, parking, winter hours.",
+     "address": "50 Bellevue Avenue, Newport",
+     "phone": "401-847-0292",
+     "hours": "Tuesday–Saturday 10 am–4 pm; Sunday 1–5 pm; Monday closed. Closed selected holidays, including November 11 and 26–27, December 24–25 and 31, and January 1.",
+     "url": "https://redwoodlibrary.org/visit/",
+     "src": "redwoodlibrary.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Rose Island Lighthouse and Fort Hamilton Barracks Museums",
+     "blurb": "The island combines lighthouse exhibits with a historic barracks museum and coastal landscape. Day visitors arrive by boat, and wildlife nesting restrictions limit parts of the island seasonally. Has: lighthouse museum, fort remains, barracks museum, boat access, seasonal landing restrictions.",
+     "address": "Rose Island; boat access only, Newport",
+     "phone": "",
+     "hours": "May 16–October 12: daily 10 am–4 pm; some tours, events and overnight visits April–November by arrangement.",
+     "url": "https://www.roseisland.org/faqs",
+     "src": "roseisland.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Rosecliff",
+     "blurb": "Rosecliff pairs grand entertaining spaces with changing museum exhibitions. Audio interpretation tells the story of its owners and the building’s role in Newport’s social life. Has: mansion, exhibitions, audio tours, parking, seasonal schedule.",
+     "address": "548 Bellevue Avenue, Newport",
+     "phone": "401-847-1000",
+     "hours": "June 26–November 1, 2026: daily 9 am–4 pm, last admission 3 pm; later winter schedule not published in the reviewed calendar. · One-property admission: adults $25; ages 6–12 $10; under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/rosecliff/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Rough Point Museum",
+     "blurb": "The oceanfront estate presents historic rooms, collections and exhibitions connected with Doris Duke. Self-guided visits include the house and grounds, supported by a digital guide. Has: mansion, museum, gardens, elevator, accessible restrooms, limited parking, seasonal holiday opening.",
+     "address": "680 Bellevue Avenue, Newport",
+     "phone": "401-847-8344",
+     "hours": "March 28–November 8, 2026: Tuesday–Friday 10 am–4 pm; Saturday–Sunday 10 am–5 pm. Holiday season November 27–December 27; specific holiday hours pending. · General admission $25; students $12.50; ages 12 and under and Newport County residents no charge; eligible EBT/WIC visitors $5.",
+     "url": "https://www.newportrestoration.org/plan-a-visit/",
+     "src": "newportrestoration.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Samuel Whitehorne House",
+     "blurb": "The Federal-style mansion survives as part of Newport Restoration Foundation’s historic property collection. A current public interior visiting schedule was not verified. Has: historic mansion, former museum, interior access unconfirmed.",
+     "address": "416 Thames Street, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportrestoration.org/properties/416-thames-street/",
+     "src": "newportrestoration.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Seventh Day Baptist Meeting House",
+     "blurb": "The eighteenth-century meetinghouse survives within the Newport Historical Society’s complex. Its architecture and furnishings reflect the history of the city’s Sabbatarian congregation. Has: historic building, limited site tours, advance inquiry.",
+     "address": "82 Touro Street, Newport",
+     "phone": "401-841-8770",
+     "hours": "Site tours on a limited basis, subject to guide and building availability.",
+     "url": "https://www.newporthistoricalsociety.org/properties/seventh-day-baptist-meeting-house/",
+     "src": "newporthistoricalsociety.org",
+     "town": "Newport"
+    },
+    {
+     "name": "The Breakers",
+     "blurb": "The Vanderbilt mansion showcases Gilded Age architecture, interiors and domestic technology. Audio tours interpret family and staff experiences, with additional specialty visits sold separately. Has: mansion, audio tours, parking, partial wheelchair access, winter hours.",
+     "address": "44 Ochre Point Avenue, Newport",
+     "phone": "401-847-1000",
+     "hours": "November 1–19: daily 9 am–5 pm; November 20 closes 3 pm. November 21–January 3: Monday–Wednesday 9 am–5 pm, Thursday–Sunday 9 am–3 pm; December 21–23 closes 3 pm; December 24 closes 2 pm; closed Thanksgiving and Christmas. Last entry one hour before closing. · Adults $32; ages 6–12 $14; under 6 no charge; evening lights and specialty tours separately ticketed.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/the-breakers/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "The Breakers Stable and Carriage House",
+     "blurb": "The stable complex preserves an important service component of the Vanderbilt estate. It houses the Preservation Society’s historic carriage collection. Has: historic stable, carriage collection, street parking, seasonal opening.",
+     "address": "53 Coggeshall Avenue, Newport",
+     "phone": "401-847-1000",
+     "hours": "Closed for the 2026 season; next regular opening dates not published on the reviewed page.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/the-breakers-stable-carriage-house/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "The Elms",
+     "blurb": "A mansion with formal gardens and historic household technology. Note: The operator announces reopening November 16, 2026, with a new timed-ticket experience.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": ""
+    },
+    {
+     "name": "The Sailing Museum and National Sailing Hall of Fame",
+     "blurb": "Interactive exhibits explore sailing through its people, techniques and history. Hall of Fame displays recognize contributors to the sport alongside broader maritime interpretation. Has: maritime museum, interactive exhibits, sports history, winter hours.",
+     "address": "365 Thames Street, Newport",
+     "phone": "",
+     "hours": "Daily 10 am–5 pm, last admission 4:15 pm. Closes 3 pm November 25, December 24 and December 31; closed Thanksgiving and Christmas. · Adults $20; ages 11–17 $15; ages 5–10 $8; under 5 no charge.",
+     "url": "https://thesailingmuseum.org/visit/",
+     "src": "thesailingmuseum.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Touro Synagogue",
+     "blurb": "Guided tours interpret the historic synagogue and Newport’s Jewish community. The building remains an active place of worship, so visitor access follows a separate reservation calendar. Has: historic synagogue, guided tours, reservations required, no on-site parking, no public restroom, not wheelchair accessible.",
+     "address": "72 Touro Street, Newport",
+     "phone": "401-843-9362",
+     "hours": "Reserved public tours on published dates. Winter dates include December 13, 20 and 27, 2026, and January 3 and 17, 2027, at 11:30 am and 12:45 pm; no Sabbath or major religious-holiday tours. · Adults $18; seniors 65+ and children under 13 $10.",
+     "url": "https://www.thetourosynagogue.org/tours/",
+     "src": "thetourosynagogue.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Trinity Church and Historic Graveyard",
+     "blurb": "The historic church preserves an eighteenth-century worship space in central Newport. Church and graveyard tours connect its architecture with the people of the colonial town. Has: historic church, graveyard, tours, accessible, limited restrooms, winter Sunday tours.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "Sunday 11:30 am–12:30 pm year-round; April–Memorial Day also Friday–Saturday 10 am–4 pm; Memorial Day–October Monday–Saturday 10 am–4 pm. Additional winter holiday dates announced separately; private tours by appointment. · Suggested donation $5; children no charge. Private tours $5 per person, minimum $50.",
+     "url": "https://www.trinitynewport.org/tours",
+     "src": "trinitynewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Vernon House",
+     "blurb": "This early Newport house is used for exhibitions, public dialogue and preservation learning. Its architectural fabric and surviving decorative panels support ongoing interpretation of the building’s past. Has: historic house, exhibitions, stairs to upper floors, seasonal access.",
+     "address": "46 Clarke Street, Newport",
+     "phone": "401-847-8344",
+     "hours": "October 3–November 22, 2026: Tuesday–Sunday 10 am–5 pm; other programs and private visits by arrangement. · No charge for the announced exhibition.",
+     "url": "https://www.newportrestoration.org/programs-initiatives/telling-stories-dispersed-monument/vernon-house/",
+     "src": "newportrestoration.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Wanton-Lyman-Hazard House",
+     "blurb": "One of Newport’s oldest surviving houses preserves evidence of several prominent households. Its interpretation connects domestic life with the city’s colonial history. Has: historic building, limited site tours, advance inquiry.",
+     "address": "17 Broadway, Newport",
+     "phone": "401-841-8770",
+     "hours": "Site tours on a limited basis, subject to guide and building availability.",
+     "url": "https://newporthistory.org/properties/wanton-lyman-hazard-house/",
+     "src": "newporthistory.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Casey Farm",
+     "blurb": "This historic farm combines an agricultural landscape with a farmhouse museum gallery. Guided visits address the lives of the people who owned and worked the property, including enslaved people and tenant farmers. Has: guided tours, historic farm, parking, unpaved paths, seasonal market.",
+     "address": "2325 Boston Neck Road, Saunderstown, North Kingstown",
+     "phone": "401-295-1030",
+     "hours": "Farm tours: Saturdays May 16–October 31 at 9, 10 and 11 am; Tuesdays June–October 15 at 1, 2 and 3 pm. Market: Saturdays mid-May–October 8:30 am–12:30 pm. · Tours: adults $10; seniors $9; students and children $5; family $25; members and North Kingstown residents no charge.",
+     "url": "https://www.historicnewengland.org/property/casey-farm/",
+     "src": "historicnewengland.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Gilbert Stuart Birthplace and Museum",
+     "blurb": "The restored Stuart family home introduces the life of the portrait painter Gilbert Stuart. The property also offers gardens, woodland trails and a historic millpond setting. Has: historic house, museum, gardens, trails, winter closure.",
+     "address": "815 Gilbert Stuart Road, Saunderstown, North Kingstown",
+     "phone": "401-294-3001",
+     "hours": "April 29–October 25, 2026: Wednesday–Sunday 10 am–4 pm. Closed October 26, 2026–April 28, 2027. · Adults $15; children 6–12 $8; members no charge.",
+     "url": "https://gilbertstuartmuseum.org/the-museum-more-attractions/",
+     "src": "gilbertstuartmuseum.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Old Narragansett Church",
+     "blurb": "The surviving colonial church retains a distinctive historic interior. Summer tours interpret its architecture and the congregation’s long history in the region. Has: historic church, docent tours, seasonal access.",
+     "address": "60 Church Lane, North Kingstown",
+     "phone": "401-294-4357",
+     "hours": "Docent-led tours during summer; special events separately scheduled. Winter routine tour hours not published.",
+     "url": "https://www.stpaulswickford.org/our-campus.html",
+     "src": "stpaulswickford.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Rhode Island Computer Museum",
+     "blurb": "The museum preserves computers and related technology as evidence of the information age. Exhibits and educational activities connect older machines with the ways people learned, worked and communicated. Has: technology museum, educational programs, winter hours.",
+     "address": "1051 Ten Rod Road, North Kingstown",
+     "phone": "",
+     "hours": "Tuesday and Friday noon–4 pm; Saturday 10 am–5 pm; Sunday noon–4 pm.",
+     "url": "https://www.ricomputermuseum.org/",
+     "src": "ricomputermuseum.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Seabee Museum & Memorial Park",
+     "blurb": "Quonset huts, artifacts, and exhibits at the original Rhode Island home of the Navy’s Seabees.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://seabeesmuseum.com/visit/",
+     "src": "seabeesmuseum.com"
+    },
+    {
+     "name": "Seabee Museum and Memorial Park",
+     "blurb": "Quonset huts, artifacts and memorials tell the story of the Navy’s construction battalions at their original Rhode Island base. Group visits can be tailored to students, veterans and other visitors. Has: military museum, memorial park, Quonset huts, accessible parking, group tours.",
+     "address": "21 Iafrate Way, North Kingstown",
+     "phone": "401-294-7233",
+     "hours": "Wednesday, Friday and Saturday 9:30 am–2 pm; other days closed.",
+     "url": "https://seabeesmuseum.com/visit/",
+     "src": "seabeesmuseum.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Smith's Castle",
+     "blurb": "Docent-led tours interpret this early house and the layered history of Cocumscussoc. The site addresses Indigenous history, colonial settlement and enslavement as well as the surviving building. Has: guided tours only, historic house, gardens, seasonal tours, winter special events.",
+     "address": "55 Richard Smith Drive, North Kingstown",
+     "phone": "401-294-3521",
+     "hours": "May and October: Saturday–Sunday tours noon, 1, 2 and 3 pm; June–September: Friday–Sunday at those times. Regular 2026 tour season ended; fall and winter special events continue. · Adults $10; seniors and military $8; children 6–12 $5; ages 5 and under no charge.",
+     "url": "https://www.smithscastle.org/visit/smiths-castle-tours/",
+     "src": "smithscastle.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Old North Providence Town Hall",
+     "blurb": "The town identifies its former town hall as a protected historic building. A current public interior-visiting schedule was not verified, so access needs confirmation. Has: historic civic building, public interior access unconfirmed.",
+     "address": "2226 Mineral Spring Avenue, North Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://northprovidenceri.gov/historic-district-commission/",
+     "src": "northprovidenceri.gov",
+     "town": "North Providence"
+    },
+    {
+     "name": "Forestdale Schoolhouse / North Smithfield Heritage Association",
+     "blurb": "The restored schoolhouse contains the heritage association’s museum and local school-history resources. Its exhibits and research collections introduce North Smithfield’s communities and educational past. Has: schoolhouse museum, historical association, gift shop, monthly opening.",
+     "address": "190 School Street, North Smithfield",
+     "phone": "401-769-8177",
+     "hours": "Second and third Thursday and Saturday of each month 10 am–3 pm; call before traveling.",
+     "url": "https://www.nsheritageassn.org/shop",
+     "src": "nsheritageassn.org",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Heritage Hall",
+     "blurb": "The restored former grange hall hosts historical and cultural programs. Special exhibitions and regular presentations provide public access to the community building. Has: historic grange hall, historical programs, occasional exhibitions, winter programs.",
+     "address": "101 Green Street, North Smithfield",
+     "phone": "401-376-2927",
+     "hours": "History Nights third Friday of each month at 7 pm; additional exhibitions and programs on announced dates.",
+     "url": "https://www.nsheritageassn.org/history-nights",
+     "src": "nsheritageassn.org",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Memorial Town Building / North Smithfield Heritage Association Archives",
+     "blurb": "The former town hall was built as a memorial to residents who served in the First World War. It now houses the heritage association’s archives, research center and headquarters. Has: historic civic building, historical association, archives, winter hours.",
+     "address": "1 Main Street, North Smithfield",
+     "phone": "401-376-2927",
+     "hours": "Monday and Wednesday 10 am–noon; Tuesday 9 am–noon.",
+     "url": "https://www.nsheritageassn.org/memorial-town-building",
+     "src": "nsheritageassn.org",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Slatersville Historic Mill Village",
+     "blurb": "The planned mill village preserves the relationship between factories, housing and community spaces. A National Park Service walking route explains how its layout influenced later industrial settlements. Has: historic district, self-guided tour, interpretive information, exterior access.",
+     "address": "Self-guided tour begins at 20 Main Street, Slatersville, North Smithfield",
+     "phone": "",
+     "hours": "Self-guided exterior walking route on public sidewalks and paths.",
+     "url": "https://www.nps.gov/blrv/planyourvisit/slatersville-self-guided-tour.htm",
+     "src": "nps.gov",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Cape Verdean Museum",
+     "blurb": "The museum explores Cape Verdean history and the community’s experience in the United States. Photographs, documents and objects connect island life, migration and cultural traditions. Has: museum, cultural history, research resources.",
+     "address": "617 Prospect Street, Pawtucket",
+     "phone": "401-228-7292",
+     "hours": "Group visits can be arranged by email; current weekly opening times not verified.",
+     "url": "https://capeverdeanmuseum.org/contact",
+     "src": "capeverdeanmuseum.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Daggett House Museum",
+     "blurb": "The early house survives within Slater Park as a museum of local domestic history. Announced heritage events provide opportunities to visit its historic rooms. Has: historic house, museum, special-event tours, park setting.",
+     "address": "Slater Memorial Park, Newport Avenue, Pawtucket",
+     "phone": "",
+     "hours": "Public tours during announced heritage events; regular schedule not verified.",
+     "url": "https://www.pawtucketartsfest.com/2026-events/heritage-festival",
+     "src": "pawtucketartsfest.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Old Slater Mill",
+     "blurb": "National Park Service interpretation of early textile manufacturing and the changes brought by industrialization. Note: Tour seasons vary; neighboring historic buildings may have separate closures.",
+     "address": "Pawtucket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.nps.gov/places/slater-mill.htm",
+     "src": "nps.gov"
+    },
+    {
+     "name": "Old Slater Mill National Historic Landmark",
+     "blurb": "The historic cotton-spinning mill interprets the industrial transformation of the Blackstone Valley. Ranger tours and exhibits explain the machinery, labor and investment behind early manufacturing. Has: historic mill, ranger tours, parking, accessible entrance, winter interior closure.",
+     "address": "67 Roosevelt Avenue, Pawtucket",
+     "phone": "401-725-8638",
+     "hours": "November 1–28, 2026: Friday–Saturday 10 am–4 pm; tours 10:30 am, 12:30 pm and 2:30 pm. Interior winter closure November 29–April 23; grounds daily dawn–dusk. · No charge.",
+     "url": "https://home.nps.gov/blrv/planyourvisit/basicinfo.htm",
+     "src": "home.nps.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Rhode Island Music Hall of Fame",
+     "blurb": "Displays honor musicians and other people who helped shape Rhode Island’s musical life. The public exhibition occupies a hallway inside the former mill complex at Hope Artiste Village. Has: music history, museum displays, historic mill building, winter hours.",
+     "address": "Hope Artiste Village, 999 Main Street, Pawtucket",
+     "phone": "",
+     "hours": "Daily 9 am–5 pm. · No charge.",
+     "url": "https://www.ripopmusic.org/about/",
+     "src": "ripopmusic.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Slater Park Looff Carousel",
+     "blurb": "The surviving wooden carousel preserves the work of historic carousel maker Charles Looff. Seasonal rides allow visitors to experience an amusement associated with generations of parkgoers. Has: historic carousel, seasonal rides, park setting, winter closure.",
+     "address": "Slater Memorial Park, Armistice Boulevard, Pawtucket",
+     "phone": "401-952-7768",
+     "hours": "Seasonal April–October; daily during the main summer season and weekends in spring and fall. Posted weekend hours 11 am–4:45 pm; confirm current dates.",
+     "url": "https://www.looffcarouselslaterpark.org/",
+     "src": "looffcarouselslaterpark.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Sylvanus Brown House",
+     "blurb": "The historic house stands within the Slater Mill campus. Its exterior remains visible from the grounds while interior visits are suspended. Has: historic house, exterior viewing, interior closed.",
+     "address": "67 Roosevelt Avenue, Pawtucket",
+     "phone": "401-725-8638",
+     "hours": "Interior closed pending safety and accessibility work; surrounding grounds daily dawn–dusk. · Grounds: no charge.",
+     "url": "https://www.nps.gov/thingstodo/visit-old-slater-mill-national-historic-landmark.htm",
+     "src": "nps.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Wilkinson Mill",
+     "blurb": "This industrial building forms part of the Slater Mill historic campus. Visitors can view its exterior from public grounds while interior access remains suspended. Has: historic mill, exterior viewing, interior closed.",
+     "address": "67 Roosevelt Avenue, Pawtucket",
+     "phone": "401-725-8638",
+     "hours": "Interior closed pending safety and accessibility work; surrounding grounds daily dawn–dusk. · Grounds: no charge.",
+     "url": "https://www.nps.gov/thingstodo/visit-old-slater-mill-national-historic-landmark.htm",
+     "src": "nps.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Butts Hill Fort",
+     "blurb": "Earthworks survive from a Revolutionary War fort associated with the Battle of Rhode Island. Public paths provide access to the site and its defensive landscape. Has: fort earthworks, outdoor historic site, walking paths, parking restrictions near school.",
+     "address": "Dyer Street, off Sprague Street, Portsmouth",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.portsmouthri.gov/170/Public-Parks-Playgrounds",
+     "src": "portsmouthri.gov",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Green Animals Topiary Garden",
+     "blurb": "The historic garden contains carefully maintained topiary figures and seasonal flower displays. Its bayfront landscape preserves a distinctive tradition of ornamental gardening. Has: historic garden, topiary, parking, not wheelchair accessible, winter closure.",
+     "address": "380 Corys Lane, Portsmouth",
+     "phone": "401-847-1000",
+     "hours": "Closed for the 2026 season; next opening dates not published on the reviewed page. · One-property admission: adults $25; ages 6–12 $10; under 6 no charge.",
+     "url": "https://www.newportmansions.org/mansions-and-gardens/green-animals-topiary-garden/",
+     "src": "newportmansions.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Newport Car Museum",
+     "blurb": "The museum presents automobiles as examples of engineering and industrial design. Themed galleries trace changing styles and performance across different periods of motoring history. Has: automobile museum, galleries, winter hours.",
+     "address": "1947 West Main Road, Portsmouth",
+     "phone": "401-848-2277",
+     "hours": "Daily 10 am–5 pm; closed Thanksgiving, Christmas and New Year’s Day; closes 2 pm on their preceding days. · Adults $20; seniors, military and students $17; children 5–12 $10.",
+     "url": "https://newportcarmuseum.org/",
+     "src": "newportcarmuseum.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Portsmouth Historical Society Museum, Southermost Schoolhouse and Old Town Hall",
+     "blurb": "The former Christian Union Church houses Portsmouth’s local-history museum. The society also preserves an early schoolhouse and the old town hall at its historic campus. Has: museum, historic church, schoolhouse, town hall, winter appointments.",
+     "address": "East Main Road and Union Street, Portsmouth",
+     "phone": "",
+     "hours": "Closed for winter except special events; private tours and research visits by arrangement. · Suggested donation $5 per nonmember; members no charge.",
+     "url": "https://portsmouthhistorical.org/visit/",
+     "src": "portsmouthhistorical.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Prudence Island Historical Museum",
+     "blurb": "The island museum preserves objects and records connected with Prudence Island’s past. Its displays place local families and island activities within Narragansett Bay history. Has: island museum, accessible, street parking, ferry travel required, schedule unconfirmed.",
+     "address": "370 Narragansett Avenue, Prudence Island, Portsmouth",
+     "phone": "401-683-1204",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/prudence-island-historical-museum/8857/",
+     "src": "visitrhodeisland.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Aldrich House",
+     "blurb": "The historic house serves as the headquarters of the Rhode Island Historical Society. Arranged visits and public programs offer access to a building associated with the Aldrich family. Has: historic house, historical society headquarters, accessible, appointments.",
+     "address": "110 Benevolent Street, Providence",
+     "phone": "401-331-8575 ext. 129",
+     "hours": "By appointment and for announced Rhode Island Historical Society events and programs.",
+     "url": "https://www.rihs.org/locations/the-aldrich-house/",
+     "src": "rihs.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Annmary Brown Memorial",
+     "blurb": "This university memorial combines an art gallery, historical collections and a mausoleum. Displays include European and American paintings and personal material associated with its founders. Has: art collection, historic memorial, access schedule unconfirmed.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://lib.brown.edu/using-library/visiting-library/locations-hours/annmary-brown-memorial",
+     "src": "lib.brown.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "First Baptist Church in America",
+     "blurb": "The historic meetinghouse interprets the congregation’s place in Providence and religious history. Public tours introduce the building while it continues to serve an active congregation. Has: historic church, tours, reservations for groups, winter tours.",
+     "address": "75 North Main Street, Providence",
+     "phone": "401-454-3418",
+     "hours": "Tours Tuesday and Thursday at noon, 12:30, 1 and 1:30 pm; Sunday after worship, approximately 12:15 pm September–May and 11:15 am June–August. Group visits by reservation.",
+     "url": "https://www.firstbaptistchurchinamerica.org/tours-and-gift-shop/",
+     "src": "firstbaptistchurchinamerica.org",
+     "town": "Providence"
+    },
+    {
+     "name": "John Carter Brown Library Exhibition Gallery",
+     "blurb": "Exhibitions draw on rare books, maps and manuscripts concerning the early Americas. The historic research library offers a broader view of colonial and revolutionary history across the hemisphere. Has: historic library, historical exhibitions, research appointments, winter hours.",
+     "address": "94 George Street, Providence",
+     "phone": "401-863-3923",
+     "hours": "Monday–Thursday 10 am–12:45 pm and 2–4:45 pm; Friday 10 am–12:45 pm. Research seats require appointments. · Exhibitions: no charge.",
+     "url": "https://jcblibrary.org/visit/",
+     "src": "jcblibrary.org",
+     "town": "Providence"
+    },
+    {
+     "name": "John Hay Library Exhibition Gallery and Special Collections",
+     "blurb": "The historic library houses rare books, manuscripts and university archives. Its exhibition gallery makes selected historical collections available to visitors during designated public-access periods. Has: historic library, exhibitions, special collections, limited public hours, appointments.",
+     "address": "20 Prospect Street, Providence",
+     "phone": "401-863-2146",
+     "hours": "Limited public exhibition access on posted days; check the live university calendar. Collection research by appointment; university breaks and renovation work can affect access.",
+     "url": "https://lib.brown.edu/using-library/visiting-library",
+     "src": "lib.brown.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Ladd Observatory",
+     "blurb": "The historic observatory remains a place for public astronomy education. Scheduled viewing nights connect visitors with its scientific setting and observations of the sky. Has: historic observatory, public viewing, reservations, weather dependent, winter programs.",
+     "address": "210 Doyle Avenue, Providence",
+     "phone": "401-863-2641",
+     "hours": "Tuesday public evenings, weather permitting, with advance tickets; current sessions 7–9 pm. Closed November 3, 2026; next scheduled opening November 10. · No charge; reservation required.",
+     "url": "https://physics.brown.edu/about/ladd-observatory",
+     "src": "physics.brown.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Lippitt House Museum",
+     "blurb": "The Victorian mansion preserves richly decorated interiors and the stories of its residents and workers. Guided tours connect domestic life with Providence’s industry, immigration and civic history. Has: historic mansion, guided tours, accessible main floor with staff assistance, winter appointments.",
+     "address": "199 Hope Street, Providence",
+     "phone": "401-453-0688",
+     "hours": "Public tours July–October on selected dates; private tours by appointment including off-season, preferably two weeks ahead. · Public tours: adults $10; students $5; ages 0–12 no charge. Private tours weekdays 9 am–5 pm: $25 for first two guests, then $10 each; off-hours $40 for first two, then $10 each.",
+     "url": "https://www.preserveri.org/visit-lippitt-house-museum",
+     "src": "preserveri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Mary Elizabeth Robinson Research Center / Rhode Island Historical Society",
+     "blurb": "The research center provides public access to Rhode Island historical and genealogical collections. Reference materials and appointment-based archival resources support research into people, places and institutions. Has: historical society, archives, research library, appointments, winter access.",
+     "address": "121 Hope Street, Providence",
+     "phone": "401-273-8107",
+     "hours": "Reading room Wednesday–Friday; consult current calendar for daily times and occasional Saturday openings. Manuscripts and selected collections by appointment. · Reading-room admission currently waived; no charge. Separate collection-research services may have fees.",
+     "url": "https://www.rihs.org/how-to-visit/",
+     "src": "rihs.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Museum at the John Brown House",
+     "blurb": "The historic mansion houses exhibitions on Rhode Island and its connections with the wider world. Objects and scholarship address colonial society, enslavement, commerce and the China trade. Has: historic mansion, museum, digital guide, winter hours, ramp entrance.",
+     "address": "52 Power Street, Providence",
+     "phone": "401-273-7507",
+     "hours": "Tuesday–Thursday 1–4 pm; Friday–Saturday 10 am–4 pm. December 1–March: Friday–Saturday only 10 am–4 pm; closed Thanksgiving, December 24–25, December 31 and January 1. · Adults $10; seniors 62+, veterans and students $8; children under 10, members and eligible EBT parties no charge.",
+     "url": "https://www.rihs.org/locations/the-john-brown-house-museum/",
+     "src": "rihs.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Museum of Natural History and Planetarium",
+     "blurb": "Natural-history collections introduce the diversity of the natural world. The adjoining planetarium offers separately scheduled astronomy shows inside a dome theater. Has: natural history museum, planetarium, limited-size elevator, winter hours.",
+     "address": "Roger Williams Park, Providence",
+     "phone": "401-680-7221",
+     "hours": "Museum daily 10 am–4 pm, last admission 3:30 pm; planetarium generally Saturday–Sunday 2 pm. Museum closes at 1 pm November 9 and December 7; holiday closures listed online. · Museum $2; children under 4 and members no charge. Planetarium $5 including museum; minimum age 4.",
+     "url": "https://www.providenceri.gov/museum/museum-admission/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "North Burial Ground",
+     "blurb": "Providence’s historic municipal cemetery preserves three centuries of community history. Self-guided and arranged walking tours explore the lives of people buried there. Has: historic cemetery, guided tours, self-guided maps, winter hours.",
+     "address": "5 Branch Avenue, Providence",
+     "phone": "401-680-5318",
+     "hours": "Daily 8 am–4 pm year-round, last vehicle entry 3:45 pm; May 1–October 1 weekends may extend to 6 pm, weather permitting.",
+     "url": "https://www.providenceri.gov/parks/north-burial-ground/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Old Brick School House / Providence Preservation Society",
+     "blurb": "The historic schoolhouse housed several important stages in Providence’s public education history. It later became the preservation society’s headquarters, although current walk-in interior access was not verified. Has: historic schoolhouse, preservation organization, public interior access unconfirmed.",
+     "address": "24 Meeting Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/the-old-brick-school-house/8059/",
+     "src": "visitrhodeisland.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Old State House",
+     "blurb": "The restored former capitol now houses the state preservation agency. Visitors may arrange a tour to learn about the building and its place in Rhode Island history. Has: historic capitol, tours by arrangement, government offices.",
+     "address": "150 Benefit Street, Providence",
+     "phone": "401-222-2678",
+     "hours": "Tours by arrangement; not open for daily historic-site tours.",
+     "url": "https://preservation.ri.gov/",
+     "src": "preservation.ri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Athenaeum",
+     "blurb": "The historic lending library preserves distinctive reading rooms and literary collections. Self-guided visits introduce its architecture and connections with Providence’s cultural life. Has: historic library, self-guided tours, limited parking, accessible rear entrance, stairs to some levels, winter hours.",
+     "address": "251 Benefit Street, Providence",
+     "phone": "401-421-6970",
+     "hours": "Tuesday–Saturday 10 am–6 pm; Sunday 11 am–5 pm; Monday closed. Summer Sundays closed; holiday closures include Christmas Eve through New Year’s Day. · Weekdays pay what you can, suggested $5; weekends $5; members and children 12 and under no charge.",
+     "url": "https://providenceathenaeum.org/visit/plan-your-visit/",
+     "src": "providenceathenaeum.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Children's Museum",
+     "blurb": "Hands-on exhibits encourage children to learn through play and exploration. The museum offers family visits, educational experiences and reserved group access. Has: children’s museum, interactive exhibits, online reservations, winter hours.",
+     "address": "100 South Street, Providence",
+     "phone": "401-273-5437",
+     "hours": "Daily 9:30 am–4:30 pm. · Adults and children $20; infants under 12 months and members no charge; eligible EBT visitors $5 each for up to four.",
+     "url": "https://providencechildrensmuseum.org/plan-your-visit/",
+     "src": "providencechildrensmuseum.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island Black Heritage Society",
+     "blurb": "The society preserves and shares the history of Black communities in Rhode Island. Archival research and public programs connect individual experiences with the state’s larger history. Has: historical society, archives, public programs, advance inquiry.",
+     "address": "600 Mount Pleasant Avenue, Building 8, Providence",
+     "phone": "401-343-2620",
+     "hours": "",
+     "url": "https://riblackheritage.org/contact-us/",
+     "src": "riblackheritage.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island Jewish Historical Association",
+     "blurb": "The association preserves records and objects documenting Jewish life in Rhode Island. Its research resources connect individual families and institutions with the state’s wider history. Has: historical association, archives, research visits, winter hours.",
+     "address": "401 Elmgrove Avenue, Providence",
+     "phone": "401-331-1360",
+     "hours": "Monday–Thursday; contact before visiting because posted office times differ. Closed most federal and Jewish holidays.",
+     "url": "https://rijha.org/contact/",
+     "src": "rijha.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island State Archives",
+     "blurb": "The State Archives provides public access to records of Rhode Island’s history and government. Visitors can use historical resources and explore the institution’s public offerings. Has: archives, public history, limited on-site parking, metered street parking.",
+     "address": "33 Broad Street, Providence",
+     "phone": "401-222-2353",
+     "hours": "Monday–Friday 8:30 am–4:30 pm. · No charge.",
+     "url": "https://www.sos.ri.gov/divisions/State-Archives",
+     "src": "sos.ri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island State House",
+     "blurb": "Public tours introduce the architecture and history of Rhode Island’s capitol. Self-guided materials and audio resources offer additional ways to explore the building. Has: historic capitol, guided tours, self-guided tour materials.",
+     "address": "82 Smith Street, Providence",
+     "phone": "401-330-3182",
+     "hours": "Docent-led public tours Monday–Friday at 10 am and 1 pm; reservations available. · No charge for public tours.",
+     "url": "https://www.sos.ri.gov/divisions/civics-and-education/ri-state-house/state-house-tours",
+     "src": "sos.ri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "RISD Museum",
+     "blurb": "The museum presents art and design across cultures and historical periods. Its collections and changing exhibitions support both close looking and broader histories of making. Has: art museum, design collections, changing exhibitions, winter hours.",
+     "address": "20 North Main Street, Providence",
+     "phone": "401-709-8402",
+     "hours": "Tuesday, Wednesday, Friday–Sunday 10 am–5 pm; Thursday noon–8 pm; Monday closed. Closed Thanksgiving, December 24–25, December 31, January 1, June 19 and July 4. · Adults $22; seniors 62+ $17; college students $12; ages 18 and under and members no charge; Sunday and Thursday 5–8 pm no charge.",
+     "url": "https://risdmuseum.org/hours-admission",
+     "src": "risdmuseum.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams National Memorial and Antram-Gray House Visitor Center",
+     "blurb": "The memorial interprets Roger Williams and his influence on religious liberty. Exhibits in a historic house complement outdoor interpretive panels and landscaped grounds. Has: historic site, visitor-center exhibits, outdoor interpretation, parking.",
+     "address": "282 North Main Street, Providence",
+     "phone": "401-521-7266",
+     "hours": "Grounds daily dawn–dusk; visitor center Thursday–Sunday 10 am–4 pm; closed Thanksgiving, Christmas and New Year’s Day.",
+     "url": "https://home.nps.gov/rowi/visitor-center.htm",
+     "src": "home.nps.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Sandra Bornstein Holocaust Education Center",
+     "blurb": "The center uses historical resources and educational programs to teach about the Holocaust. Its work connects survivor testimony and documented history with public learning. Has: historical education, collections, programs, winter hours.",
+     "address": "401 Elmgrove Avenue, Providence",
+     "phone": "401-453-7860",
+     "hours": "Monday–Thursday 9 am–4 pm; Friday 9 am–2 pm; weekends and national and Jewish holidays closed.",
+     "url": "https://bornsteinholocaustcenter.org/",
+     "src": "bornsteinholocaustcenter.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Shakespeare's Head House and Garden",
+     "blurb": "The former home and workplace of printer John Carter connects Providence’s publishing and postal history. Its garden remains accessible while the house is prepared for a new public-history use. Has: historic house, public garden, house interior closed, winter garden access.",
+     "address": "21 Meeting Street, Providence",
+     "phone": "",
+     "hours": "Garden daylight hours; house undergoing conversion for a proposed public history center, with interior reopening anticipated around 2027. · Garden: no charge.",
+     "url": "https://theclio.com/tour/659/22/reverse",
+     "src": "theclio.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Stephen Hopkins House",
+     "blurb": "The house interprets the home of Declaration signer Stephen Hopkins, his family and the people they enslaved. The operator reports a seasonal closure following exterior restoration work. Has: historic house, seasonal tours, winter closure, restoration.",
+     "address": "15 Hopkins Street, Providence",
+     "phone": "401-846-3116",
+     "hours": "Closed for the 2026 season; interior painting planned over winter; reopening expected spring 2027.",
+     "url": "https://nscdari.org/property/the-stephen-hopkins-house/",
+     "src": "nscdari.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Swan Point Cemetery",
+     "blurb": "The historic garden cemetery combines monuments, landscaped grounds and significant burials. Visitors can explore its setting quietly while respecting active services and the cemetery’s rules. Has: historic cemetery, landscaped grounds, walking, winter hours.",
+     "address": "585 Blackstone Boulevard, Providence",
+     "phone": "401-272-1314",
+     "hours": "Grounds April 1–September 30 daily 8 am–7 pm; October 1–March 31 daily 8 am–5 pm, conditions permitting.",
+     "url": "https://swanpointcemetery.com/the-estate/etiquette-when-visiting/",
+     "src": "swanpointcemetery.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Museum at the John Brown House",
+     "blurb": "A historic house used to explore Rhode Island’s social, commercial, and family history.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/visit/",
+     "src": "rihs.org"
+    },
+    {
+     "name": "Richmond Historical Society Archives",
+     "blurb": "The society’s archives preserve photographs, maps, records and other material about Richmond. Visits at the library provide access to local and family history resources. Has: historical society, archives, advance confirmation advised.",
+     "address": "Clark Memorial Library, 7 Pinehurst Drive, Carolina, Richmond",
+     "phone": "401-284-8131",
+     "hours": "Most Wednesdays 10 am–4 pm by the society’s published notice; call the library at 401-364-6100 before visiting.",
+     "url": "https://richmondhistoricalsociety.wordpress.com/contact-us/",
+     "src": "richmondhistoricalsociety.wordpress.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Rhode Island State Police Museum",
+     "blurb": "The museum preserves the history of the Rhode Island State Police. Objects and displays trace changes in the organization and its work over time. Has: museum, law-enforcement history, appointments, monthly opening.",
+     "address": "311 Danielson Pike, Scituate",
+     "phone": "",
+     "hours": "Third Wednesday of each month 10 am–1 pm; also by appointment.",
+     "url": "https://rispmuseum.org/",
+     "src": "rispmuseum.org",
+     "town": "Scituate"
+    },
+    {
+     "name": "Scituate Preservation Society",
+     "blurb": "The society preserves and interprets historical and cultural material relating to Scituate. Its public educational work is documented, but a current drop-in museum schedule was not verified. Has: historical society, local-history collections, public access schedule unconfirmed.",
+     "address": "706 Hartford Pike, Scituate",
+     "phone": "401-647-5010",
+     "hours": "",
+     "url": "https://www.rihs.org/directory_item/scituate-preservation-society/",
+     "src": "rihs.org",
+     "town": "Scituate"
+    },
+    {
+     "name": "Smith-Appleby House Museum / Historical Society of Smithfield",
+     "blurb": "The furnished house preserves early woodwork, decorative finishes and rooms added over many generations. Exhibits and archives connect the building with the wider history of Smithfield. Has: historic house, guided tours, archives, calendar-based openings.",
+     "address": "220 Stillwater Road, Smithfield",
+     "phone": "401-231-7363",
+     "hours": "House tours on dates in the operator calendar.",
+     "url": "https://smithapplebyhouse.org/",
+     "src": "smithapplebyhouse.org",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Fayerweather House",
+     "blurb": "The historic house now provides a home for a guild of local craftspeople. Visitors encounter the building through its craft shop, demonstrations and seasonal events. Has: historic house, craft shop, demonstrations, seasonal events, limited winter season.",
+     "address": "1859 Mooresfield Road, Kingston, South Kingstown",
+     "phone": "401-789-9072",
+     "hours": "April Thursday–Saturday 10 am–4 pm; May–December Tuesday–Saturday 10 am–4 pm; November–December also Sunday noon–4 pm. Closed January–March.",
+     "url": "https://www.fayerweathercraftguild.com/",
+     "src": "fayerweathercraftguild.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Great Swamp Monument",
+     "blurb": "The monument marks the landscape associated with the Great Swamp Massacre during King Philip’s War. A walking approach leads visitors to a memorial connected with the devastating attack on the Narragansett community. Has: outdoor memorial, Indigenous history, walking access.",
+     "address": "Great Swamp Monument Road, off Route 2, South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/great-swamp-monument/8362/",
+     "src": "visitrhodeisland.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Hale House",
+     "blurb": "This former summer home of Edward Everett Hale preserves a Second Empire house and period interiors. House interpretation and art exhibitions connect the property with local cultural life. Has: historic house, tours, art exhibitions, winter closure.",
+     "address": "2625 Commodore Perry Highway, South Kingstown",
+     "phone": "401-830-4677",
+     "hours": "Closed for the 2026 season; operator anticipates the 2027 season.",
+     "url": "https://halehouseri.org/visit/",
+     "src": "halehouseri.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Oliver Watson House",
+     "blurb": "The colonial farmhouse survives on the university campus as a furnished historic house. Household objects, weaving equipment and other furnishings illustrate domestic life in an earlier period. Has: historic house, tours, appointments, campus setting.",
+     "address": "Farm House Road, University of Rhode Island, Kingston, South Kingstown",
+     "phone": "",
+     "hours": "By appointment; group tours welcomed.",
+     "url": "https://web.uri.edu/specialcollections/watsonhouse/",
+     "src": "web.uri.edu",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Peace Dale Museum of Art and Culture",
+     "blurb": "Archaeological and ethnological collections explore cultures from North America and other parts of the world. Changing exhibits occupy a historic gallery with Southwest Mission-inspired design. Has: museum, archaeology, cultural history, educational appointments.",
+     "address": "1058 Kingstown Road, second floor, South Kingstown",
+     "phone": "401-783-5711",
+     "hours": "Wednesday 10 am–2 pm during the school year; individuals and groups also by appointment.",
+     "url": "https://peacedalemuseum.org/contact-us/",
+     "src": "peacedalemuseum.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Rhode Island Railroad Museum / Kingston Station",
+     "blurb": "The railroad collection is associated with Kingston’s historic working station. A current museum-opening schedule was not verified, so exhibition access requires confirmation. Has: railroad museum, historic station, access schedule unconfirmed.",
+     "address": "1 Railroad Avenue, West Kingston, South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/directory_item/friends-of-the-kingston-station/",
+     "src": "rihs.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "South County History Center / Old Washington County Jail",
+     "blurb": "The former county jail houses changing local-history exhibits and research collections. Separate appointments are offered for exhibition viewing, library use and archival research. Has: museum, historic jail, archives, appointments, not wheelchair accessible.",
+     "address": "2636 Kingstown Road, Kingston, South Kingstown",
+     "phone": "401-783-1328",
+     "hours": "Advance appointment required except announced open houses; exhibit visits are 60 minutes. · No charge; donations appreciated.",
+     "url": "https://southcountyhistorycenter.org/visit",
+     "src": "southcountyhistorycenter.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "University of Rhode Island Textile Gallery and Historic Textile Collection",
+     "blurb": "The university’s textile collection preserves clothing and fabrics used for research and teaching. Public gallery exhibitions introduce aspects of dress, design and material history. Has: textile museum collection, changing exhibitions, academic-year hours, appointments.",
+     "address": "Quinn Hall, University of Rhode Island, Kingston, South Kingstown",
+     "phone": "401-874-4574",
+     "hours": "Gallery weekdays 8:30 am–4:30 pm during the academic year; other access by arrangement.",
+     "url": "https://uritextilecollection.omeka.net/about",
+     "src": "uritextilecollection.omeka.net",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Chace-Cory House / Tiverton Historical Society",
+     "blurb": "The gambrel-roofed house presents Tiverton history in the Four Corners district. Seasonal exhibits and arranged visits introduce the historic building and its collections. Has: historic house, museum, seasonal exhibits, appointments.",
+     "address": "3908 Main Road, Tiverton",
+     "phone": "401-624-4013",
+     "hours": "May–September: Sunday 2–4:30 pm; also by appointment.",
+     "url": "https://www.tiverton.ri.gov/242/History",
+     "src": "tiverton.ri.gov",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Fort Barton",
+     "blurb": "Revolutionary War earthworks survive on a hill above the Sakonnet River. An observation tower and woodland trails help visitors understand the site’s strategic position. Has: fort earthworks, observation tower, trails, parking, winter grounds access.",
+     "address": "Highland Road, opposite Town Hall, Tiverton",
+     "phone": "",
+     "hours": "Year-round sunrise–sunset. · Parking: no charge.",
+     "url": "https://www.tiverton.ri.gov/242/History",
+     "src": "tiverton.ri.gov",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Charles Whipple Greene Museum",
+     "blurb": "The museum preserves objects and documents connected with Warren’s residents and industries. Domestic, military and maritime material supports exhibits and local-history research. Has: museum, local history, library setting, appointments.",
+     "address": "George Hail Library, 530 Main Street, Warren",
+     "phone": "401-245-7686",
+     "hours": "Wednesday 2–4 pm and selected second and fourth Saturdays; consult calendar for Saturday times. Private viewings and special tours by arrangement.",
+     "url": "https://www.georgehail.org/charles-whipple-greene-museum",
+     "src": "georgehail.org",
+     "town": "Warren"
+    },
+    {
+     "name": "Historic Warren Armory",
+     "blurb": "The restored armory reflects the history of the Warren Artillery Company and the town. The building welcomes visitors by arrangement and hosts public events. Has: historic armory, appointments, public events.",
+     "address": "11 Jefferson Street, Warren",
+     "phone": "401-245-5037",
+     "hours": "Visitors by appointment; public events as scheduled.",
+     "url": "https://www.visitrhodeisland.com/listing/warren-artillery-armory/8740/",
+     "src": "visitrhodeisland.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Maxwell House / Massasoit Historical Association",
+     "blurb": "The eighteenth-century brick house is maintained as a working historical museum. Tours and demonstrations explore domestic life and early American household skills. Has: historic house, tours by appointment, living-history demonstrations.",
+     "address": "59 Church Street, Warren",
+     "phone": "401-245-0392",
+     "hours": "By chance and appointment. · No charge; donations appreciated.",
+     "url": "https://www.massasoithistorical.org/maxwell-house",
+     "src": "massasoithistorical.org",
+     "town": "Warren"
+    },
+    {
+     "name": "Warren Fire Department Museum",
+     "blurb": "An old fire station houses antique apparatus and firefighting objects. Arranged visits introduce Warren’s fire service and the equipment used by earlier generations. Has: fire museum, historic station, antique apparatus, appointments.",
+     "address": "38 Baker Street, Warren",
+     "phone": "401-245-7600",
+     "hours": "Visits by arrangement with the fire chief.",
+     "url": "https://www.historicwarren.org/warren-fire-department-museum",
+     "src": "historicwarren.org",
+     "town": "Warren"
+    },
+    {
+     "name": "Clouds Hill Museum",
+     "blurb": "The Victorian house museum preserves a family home and its historic collections. Volunteer-led access is offered through announced openings and arranged visits. Has: historic house, Victorian interiors, appointments, special events.",
+     "address": "4157 Post Road, Warwick",
+     "phone": "401-884-9490",
+     "hours": "Scheduled public openings and by appointment.",
+     "url": "https://www.cloudshill.org/",
+     "src": "cloudshill.org",
+     "town": "Warwick"
+    },
+    {
+     "name": "John Waterman Arnold House / Warwick Historical Society",
+     "blurb": "This restored historic house serves as the Warwick Historical Society’s headquarters. Period objects, maps, photographs and genealogy records illustrate the city’s history. Has: historic house, museum, genealogy, appointments.",
+     "address": "25 Roger Williams Circle, Warwick",
+     "phone": "401-467-7647",
+     "hours": "Wednesday 11 am–2 pm; also by appointment. · Requested donation $5.",
+     "url": "https://www.warwickrihistoricalsociety.org/",
+     "src": "warwickrihistoricalsociety.org",
+     "town": "Warwick"
+    },
+    {
+     "name": "Pawtuxet Rangers Armory",
+     "blurb": "The restored armory preserves the home of a historic Rhode Island militia organization. Arranged visits introduce Revolutionary history, military equipment and the Rangers’ continuing traditions. Has: historic armory, military collections, educational tours, winter appointments.",
+     "address": "59 Remington Street, Warwick",
+     "phone": "401-785-1774",
+     "hours": "Educational visits and historical presentations by arrangement throughout the year.",
+     "url": "https://www.pawtuxetrangers.com/education/",
+     "src": "pawtuxetrangers.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Steamship Historical Society of America / Ship History Center",
+     "blurb": "The center preserves photographs, documents and artifacts relating to steamships and other powered vessels. Researchers can arrange access to collections that are not available online. Has: historical society, maritime collections, research appointments, winter appointments.",
+     "address": "2500 Post Road, Warwick",
+     "phone": "401-463-3570",
+     "hours": "Research visits by appointment Monday–Friday 10 am–4 pm; contact ahead about tour eligibility.",
+     "url": "https://shiphistory.org/collections/",
+     "src": "shiphistory.org",
+     "town": "Warwick"
+    },
+    {
+     "name": "Louttit Library / Former Louttit School",
+     "blurb": "The public library occupies a former school building associated with West Greenwich’s educational history. The town also identifies it as a repository for local historical-society holdings. Has: historic school building, public library, local-history resources, winter hours.",
+     "address": "274 Victory Highway, West Greenwich",
+     "phone": "401-397-3434",
+     "hours": "Monday–Thursday 10 am–7 pm; Friday 10 am–5 pm; Saturday 10 am–2 pm; Sunday closed. Holiday exceptions published online.",
+     "url": "https://louttitlibrary.org/hours-holiday-closings",
+     "src": "louttitlibrary.org",
+     "town": "West Greenwich"
+    },
+    {
+     "name": "Pawtuxet Valley Preservation and Historical Society",
+     "blurb": "The society preserves objects and records relating to the Pawtuxet Valley. Museum displays and research collections introduce local communities, industries and family histories. Has: historical society, museum, archives, winter hours, appointments.",
+     "address": "1679 Main Street, West Warwick",
+     "phone": "401-821-9726",
+     "hours": "Year-round Saturday 9 am–2 pm; also by appointment.",
+     "url": "https://www.pvhistorian.com/",
+     "src": "pvhistorian.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Babcock-Smith House Museum",
+     "blurb": "The house and associated buildings preserve stories of Westerly families and the local granite industry. Seasonal visiting hours are supplemented by appointments throughout the year. Has: historic house, guided tours, parking, accessible carriage house, winter appointments.",
+     "address": "124 Granite Street, Westerly",
+     "phone": "401-596-5704",
+     "hours": "Memorial Day weekend–October 31: Saturday 2–5 pm, guided tour 3 pm; July–September Thursday–Sunday 2–5 pm, closed July 4. Tours by appointment year-round. · Suggested donation: adults $10; children under 12 no charge; groups of 10 or more $8 per person; cash only.",
+     "url": "https://babcocksmithhouse.org/visit-us/",
+     "src": "babcocksmithhouse.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Flying Horse Merry-Go-Round",
+     "blurb": "The historic carousel suspends its carved horses from an overhead structure. Seasonal operation preserves a longstanding seaside amusement for children and visitors to Watch Hill. Has: historic carousel, children’s rides, seasonal operation, winter closure.",
+     "address": "151–153 Bay Street, Watch Hill, Westerly",
+     "phone": "401-388-8136",
+     "hours": "Seasonal operation; horses placed in storage during winter. Consult operator for current daily times.",
+     "url": "https://watchhillfiredistrict.org/merry-go-round/",
+     "src": "watchhillfiredistrict.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Living Sharks Museum",
+     "blurb": "This small museum uses objects and historical material to examine the human relationship with sharks. Exhibits connect shark history with exploitation and conservation. Has: museum, natural history, seasonal opening.",
+     "address": "47 High Street, Westerly",
+     "phone": "860-961-7720",
+     "hours": "Memorial Day–Labor Day; consult operator announcements for daily hours. · No charge.",
+     "url": "https://www.livingsharks.org/visit",
+     "src": "livingsharks.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Watch Hill Lighthouse Museum",
+     "blurb": "The museum interprets the lighthouse through artifacts and images of its maritime setting. The grounds remain accessible beyond the museum’s summer season, although the tower is closed to visitors. Has: lighthouse museum, seasonal exhibits, winter grounds access, restricted vehicle access, no public toilets.",
+     "address": "14 Lighthouse Road, Westerly",
+     "phone": "",
+     "hours": "Museum July–August: Tuesday–Friday noon–4 pm, extended Thursday to 8 pm; Saturday 4–8 pm. Grounds daily 8 am–sunset year-round; tower and keeper’s residence closed. · Donations welcome.",
+     "url": "https://watchhilllighthousekeepers.org/",
+     "src": "watchhilllighthousekeepers.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Armory Museum",
+     "blurb": "The historic armory displays community and military memorabilia. Its collections link local lives with wider Rhode Island and national history. Has: museum, historic armory, military history, community history.",
+     "address": "41 Railroad Avenue, Westerly",
+     "phone": "401-596-8554",
+     "hours": "Monday and Thursday 9 am–4 pm.",
+     "url": "https://westerlyarmory.com/",
+     "src": "westerlyarmory.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Historical Society",
+     "blurb": "The society preserves Westerly’s history through collections, publications and oral histories. Public talks and other programs share research about the town and its communities. Has: historical society, public programs, oral history, research collections.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "Public talks and events on announced dates; no regular museum-visiting schedule published.",
+     "url": "https://westerlyhistoricalsociety.org/",
+     "src": "westerlyhistoricalsociety.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "American-French Genealogical Society / Franco-American Heritage Center",
+     "blurb": "The heritage center preserves resources concerning French and French Canadian communities. Its research library and cultural programs help visitors investigate family histories and regional migration. Has: historical society, genealogy library, accessible, elevator, rear entrance, winter hours.",
+     "address": "78 Earle Street, Woonsocket",
+     "phone": "401-765-6141",
+     "hours": "Tuesday 1–9 pm; Saturday 10 am–4 pm, with Saturdays closed in July. Closed designated holidays. · Library use $5 per visitor per day.",
+     "url": "https://afgs.org/visit/",
+     "src": "afgs.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Museum of Work & Culture",
+     "blurb": "The stories of immigrants, workers, and families in the Blackstone Valley’s industrial communities.",
+     "address": "Woonsocket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/visit/",
+     "src": "rihs.org"
+    },
+    {
+     "name": "Museum of Work and Culture",
+     "blurb": "Exhibits explore immigration, work and community life in the Blackstone Valley’s industrial towns. A restored mill building provides the setting for stories of the people who shaped the region. Has: museum, labor history, immigration history, winter hours.",
+     "address": "42 South Main Street, Woonsocket",
+     "phone": "401-769-9675",
+     "hours": "Tuesday–Friday 9:30 am–4 pm; Saturday 10 am–4 pm. Closed Sunday–Monday and listed major holidays, including Thanksgiving, December 24–25 and December 31–January 1. · Adults $10; seniors 62+, veterans and students $8; children under 10 with adult, members and eligible EBT parties no charge.",
+     "url": "https://www.rihs.org/locations/museum-of-work-culture/",
+     "src": "rihs.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Saint Ann Arts and Cultural Center",
+     "blurb": "The former church is preserved as an arts and cultural destination. Tours introduce its decorated interior and the history embodied in the building. Has: historic church, guided tours, art, group appointments.",
+     "address": "84 Cumberland Street, Woonsocket",
+     "phone": "401-356-0713",
+     "hours": "Sunday noon–4 pm; approximately 45-minute tours. Other group tours by advance booking; check cancellations. · General admission $15; children 4 and under no charge on Sunday tours.",
+     "url": "https://www.stannartsandculturalcenter.org/tours.html",
+     "src": "stannartsandculturalcenter.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Veterans Memorial Museum of Rhode Island",
+     "blurb": "Military artifacts and personal memorabilia tell stories of veterans and their service. Guided conversations and arranged group visits add context to the collections. Has: military museum, veteran history, group appointments.",
+     "address": "78 Earle Street, Woonsocket",
+     "phone": "401-222-9025",
+     "hours": "Tuesday and Saturday 10 am–4 pm; group tours on other days by appointment. · $5; veterans and students no charge.",
+     "url": "https://veteransmemorialmuseumri.org/",
+     "src": "veteransmemorialmuseumri.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Woonsocket Historical Society",
+     "blurb": "The society preserves photographs, documents and objects connected with Woonsocket’s people and places. Research visits and exhibits explore the city’s mill villages, institutions and changing community life. Has: historical society, archives, museum collections, appointments, winter hours.",
+     "address": "42 South Main Street, garden level, Woonsocket",
+     "phone": "401-356-0067",
+     "hours": "Wednesday 9 am–noon; Saturday noon–2 pm; also by appointment.",
+     "url": "https://woonsockethistoricalsociety.com/",
+     "src": "woonsockethistoricalsociety.com",
+     "town": "Woonsocket"
     }
    ]
   },
