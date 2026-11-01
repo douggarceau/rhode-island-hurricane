@@ -119,3 +119,6 @@ html body #coverSlot .cvr .cvbrk{position:relative!important;overflow:hidden!imp
 #recov .rc-h{margin:22px 0 8px;font:700 18px/1.2 Georgia,serif;color:#fff}
 #recov .rc-o{margin:0;padding-left:18px;color:#e8e2d4;font-size:15px;line-height:1.7}#recov .rc-o a{color:#ffcf5a}
 #recov .rc-e{color:#c9bfa8}
+.vtownbar{display:flex;gap:10px;align-items:center;margin:4px 0 12px}
+.vtownbar label{font:800 12px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:#ffcf5a}
+.vtownbar select{font:600 15px/1.2 "Helvetica Neue",Arial,sans-serif;padding:8px 10px;border-radius:6px;border:1px solid #ffcf5a66;background:#1b130a;color:#fff}
