@@ -3,9 +3,29 @@
  "cats": [
   "Entertainment venues",
   "Restaurants",
-  "Local favorites"
+  "Local favorites",
+  "Clubs, fitness and outdoor groups"
  ],
  "items": [
+  {
+   "i": "417",
+   "n": "AMC Narragansett Chapter",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://amc-narragansett.org/",
+   "wl": "Website",
+   "b": "The chapter offers hiking, cycling, paddling, climbing and trail stewardship. Register for individual outings through the chapter.",
+   "nt": [],
+   "s": [
+    [
+     "amc-narragansett.org",
+     "https://amc-narragansett.org/"
+    ]
+   ],
+   "cl": false
+  },
   {
    "n": "Amica Mutual Pavilion",
    "c": "Entertainment venues",
@@ -85,6 +105,101 @@
    "i": "302"
   },
   {
+   "i": "363",
+   "n": "Barrington Library Cookbook Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "281 County Road, Barrington, RI",
+   "p": "",
+   "e": "",
+   "w": "https://barringtonlibrary.org/sites/barringtonlibrary.org/files/attachments/January%202026%20-%20Digital%20Newsletter.pdf",
+   "wl": "Website",
+   "b": "Participants explore recipes and discuss cookbooks. Meets at Barrington Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "barringtonlibrary.org",
+     "https://barringtonlibrary.org/sites/barringtonlibrary.org/files/attachments/January%202026%20-%20Digital%20Newsletter.pdf"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "364",
+   "n": "Barrington Village Neighborhood Walks",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Route 114, Barrington, RI",
+   "p": "",
+   "e": "",
+   "w": "https://villagecommonri.org/content.aspx?action=cira&club_id=908317&page_id=4001&vd=8%2F13%2F2026",
+   "wl": "Website",
+   "b": "Neighbors explore Barrington on conversational walks. Meets at Police Cove Park.",
+   "nt": [],
+   "s": [
+    [
+     "villagecommonri.org",
+     "https://villagecommonri.org/content.aspx?action=cira&club_id=908317&page_id=4001&vd=8%2F13%2F2026"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "390",
+   "n": "Be Balanced Tai Chi at Roger Williams Park",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.rwpconservancy.org/event/tai-chi-introduction-class/2026-10-30/",
+   "wl": "Website",
+   "b": "Beginners practice coordinated tai chi movements in a guided class. Meets at Roger Williams Park Gateway Center. Register using the contact on the event page.",
+   "nt": [],
+   "s": [
+    [
+     "rwpconservancy.org",
+     "https://www.rwpconservancy.org/event/tai-chi-introduction-class/2026-10-30/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "365",
+   "n": "Bristol Garden Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "https://www.bristolrigc.org/meetings",
+   "wl": "Website",
+   "b": "Garden enthusiasts share horticultural learning and garden visits.",
+   "nt": [],
+   "s": [
+    [
+     "bristolrigc.org",
+     "https://www.bristolrigc.org/meetings"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "348",
+   "n": "Chess Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events",
+   "wl": "Website",
+   "b": "Players of different ages and abilities gather for chess. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "Chorus of Westerly",
    "c": "Entertainment venues",
    "a": "Westerly",
@@ -96,6 +211,25 @@
    "nt": [],
    "s": [],
    "i": "313"
+  },
+  {
+   "i": "345",
+   "n": "Clark Memorial Library Book Discussion",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Richmond",
+   "p": "",
+   "e": "",
+   "w": "https://www.clarklib.org/",
+   "wl": "Website",
+   "b": "Adults gather to discuss a selected book. Meets at Clark Memorial Library. Pick up the book at the front desk.",
+   "nt": [],
+   "s": [
+    [
+     "clarklib.org",
+     "https://www.clarklib.org/"
+    ]
+   ],
+   "cl": false
   },
   {
    "n": "Columbus Theatre",
@@ -111,6 +245,234 @@
    "i": "304"
   },
   {
+   "i": "349",
+   "n": "Cookbook Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0",
+   "wl": "Website",
+   "b": "Participants cook from selected books and discuss the results. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "339",
+   "n": "Cross' Mills Book Discussion Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "4417 Old Post Road, Charlestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.crossmills.org/library/book-group/",
+   "wl": "Website",
+   "b": "Readers meet monthly to discuss a selected book. Meets at Cross' Mills Public Library. Call or email to register.",
+   "nt": [],
+   "s": [
+    [
+     "crossmills.org",
+     "https://www.crossmills.org/library/book-group/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "340",
+   "n": "Cross' Mills Bridge",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "4417 Old Post Road, Charlestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.crossmills.org/library/programs-events/",
+   "wl": "Website",
+   "b": "Players meet for social bridge. Meets at Cross' Mills Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "crossmills.org",
+     "https://www.crossmills.org/library/programs-events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "341",
+   "n": "Cross' Mills Knitting Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "4417 Old Post Road, Charlestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.crossmills.org/library/programs-events/",
+   "wl": "Website",
+   "b": "Knitters bring projects and exchange ideas. Meets at Cross' Mills Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "crossmills.org",
+     "https://www.crossmills.org/library/programs-events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "342",
+   "n": "Cross' Mills Mah Jongg",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "4417 Old Post Road, Charlestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.crossmills.org/library/programs-events/",
+   "wl": "Website",
+   "b": "Players gather for mah jongg. Meets at Cross' Mills Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "crossmills.org",
+     "https://www.crossmills.org/library/programs-events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "343",
+   "n": "Cross' Mills Quilting Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "4417 Old Post Road, Charlestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.crossmills.org/library/programs-events/",
+   "wl": "Website",
+   "b": "Quilters work together on fabric projects. Meets at Cross' Mills Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "crossmills.org",
+     "https://www.crossmills.org/library/programs-events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "371",
+   "n": "Cumberland Library Evening Book Discussion",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Cumberland",
+   "p": "",
+   "e": "",
+   "w": "https://cumberlandlibrary.libcal.com/",
+   "wl": "Website",
+   "b": "Readers gather to discuss the group's selected book. Meets at Cumberland Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "cumberlandlibrary.libcal.com",
+     "https://cumberlandlibrary.libcal.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "350",
+   "n": "Dramatic Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0",
+   "wl": "Website",
+   "b": "Readers explore dramatic literature together. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "373",
+   "n": "East Greenwich Library Crafternoon Social",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "East Greenwich",
+   "p": "",
+   "e": "",
+   "w": "https://eastgreenwichlibrary.org/",
+   "wl": "Website",
+   "b": "Adults gather for a social craft session. Meets at East Greenwich Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "eastgreenwichlibrary.org",
+     "https://eastgreenwichlibrary.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "391",
+   "n": "Edgewood Village Park Walks",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://villagecommonri.org/content.aspx?club_id=908317&page_id=4001",
+   "wl": "Website",
+   "b": "Walkers take an hour-long route on paved park paths. Meets at Roger Williams Park Botanical Center parking lot. No registration required.",
+   "nt": [],
+   "s": [
+    [
+     "villagecommonri.org",
+     "https://villagecommonri.org/content.aspx?club_id=908317&page_id=4001"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "314",
+   "n": "Evening Knitting & Crochet Circle",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "26 North Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://jplri.libcal.com/event/16485716",
+   "wl": "Website",
+   "b": "Residents gather to work on knitting, crochet and other fiber projects. Meets at Jamestown Philomenian Library, Green Conference Room. Open to Jamestown residents.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/event/16485716"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "344",
+   "n": "Exeter Library OverBooked",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Exeter",
+   "p": "",
+   "e": "",
+   "w": "https://www.exeterri.gov/library/page/overbooked-book-club-adults",
+   "wl": "Website",
+   "b": "Adults discuss an eclectic selection of fiction and nonfiction in person or online. Meets at Exeter Public Library. RSVP through the event calendar or email the library.",
+   "nt": [],
+   "s": [
+    [
+     "exeterri.gov",
+     "https://www.exeterri.gov/library/page/overbooked-book-club-adults"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "Fete Music Hall",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -122,6 +484,576 @@
    "nt": [],
    "s": [],
    "i": "306"
+  },
+  {
+   "i": "411",
+   "n": "Fidelity Amateur Radio Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "45 Kernick Street, Warwick, RI",
+   "p": "",
+   "e": "",
+   "w": "https://k1nqg.wordpress.com/about-us/",
+   "wl": "Website",
+   "b": "Radio enthusiasts share technical knowledge, projects and operating activities. Meets at Greenwood Fire Company & Museum. Newcomers can seek help with licensing and equipment.",
+   "nt": [],
+   "s": [
+    [
+     "k1nqg.wordpress.com",
+     "https://k1nqg.wordpress.com/about-us/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "409",
+   "n": "George Hail Friday Favorites Book Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Warren",
+   "p": "",
+   "e": "",
+   "w": "https://olis.ri.gov/directory/library-events?language=en&page=100",
+   "wl": "Website",
+   "b": "Readers discuss a selected book on Friday mornings. Meets at George Hail Library, Reading Room.",
+   "nt": [],
+   "s": [
+    [
+     "olis.ri.gov",
+     "https://olis.ri.gov/directory/library-events?language=en&page=100"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "410",
+   "n": "George Hail Library Knitters Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Warren",
+   "p": "",
+   "e": "",
+   "w": "https://olis.ri.gov/directory/library-events?language=en&page=104",
+   "wl": "Website",
+   "b": "Knitters gather to work on projects together. Meets at George Hail Library, Reading Room.",
+   "nt": [],
+   "s": [
+    [
+     "olis.ri.gov",
+     "https://olis.ri.gov/directory/library-events?language=en&page=104"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "376",
+   "n": "Glocester Manton Fantasy Book & Pizza Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Glocester",
+   "p": "",
+   "e": "",
+   "w": "https://www.glocesterlibraries.org/book-discussions.html",
+   "wl": "Website",
+   "b": "Readers share pizza and discuss fantasy books. Meets at Glocester Manton Library.",
+   "nt": [],
+   "s": [
+    [
+     "glocesterlibraries.org",
+     "https://www.glocesterlibraries.org/book-discussions.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "377",
+   "n": "Glocester Senior Center Book Discussion",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Glocester",
+   "p": "",
+   "e": "",
+   "w": "https://www.glocesterlibraries.org/book-discussions.html",
+   "wl": "Website",
+   "b": "Senior-center readers discuss monthly book selections. Meets at Glocester Senior Center, multipurpose room.",
+   "nt": [],
+   "s": [
+    [
+     "glocesterlibraries.org",
+     "https://www.glocesterlibraries.org/book-discussions.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "408",
+   "n": "Greenville Library Knitting Mavens",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Smithfield",
+   "p": "",
+   "e": "",
+   "w": "https://olis.ri.gov/directory/library-events?language=en&page=104",
+   "wl": "Website",
+   "b": "Knitters meet to work on projects together. Meets at Greenville Public Library, Baker Room.",
+   "nt": [],
+   "s": [
+    [
+     "olis.ri.gov",
+     "https://olis.ri.gov/directory/library-events?language=en&page=104"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "332",
+   "n": "Hale Library Evening Knitters and Crocheters",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "2601 Commodore Perry Highway, South Kingstown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://skpl.libcal.com/calendars",
+   "wl": "Website",
+   "b": "Knitters and crocheters work on their own projects in a supportive group. Meets at Robert Beverly Hale Library. Drop in; all skill levels welcome.",
+   "nt": [],
+   "s": [
+    [
+     "skpl.libcal.com",
+     "https://skpl.libcal.com/calendars"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "378",
+   "n": "Harmony Cookbook Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Glocester",
+   "p": "",
+   "e": "",
+   "w": "https://www.glocesterlibraries.org/2026-programs.html",
+   "wl": "Website",
+   "b": "Participants prepare and discuss recipes from a selected cookbook. Meets at Harmony Library. Contact the library to join the waiting list.",
+   "nt": [],
+   "s": [
+    [
+     "glocesterlibraries.org",
+     "https://www.glocesterlibraries.org/2026-programs.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "379",
+   "n": "Harmony Mystery Book Discussion",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Glocester",
+   "p": "",
+   "e": "",
+   "w": "https://www.glocesterlibraries.org/book-discussions.html",
+   "wl": "Website",
+   "b": "Mystery readers meet for monthly discussion. Meets at Harmony Library.",
+   "nt": [],
+   "s": [
+    [
+     "glocesterlibraries.org",
+     "https://www.glocesterlibraries.org/book-discussions.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "380",
+   "n": "Harmony Second Thursday Book Discussion",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Glocester",
+   "p": "",
+   "e": "",
+   "w": "https://www.glocesterlibraries.org/book-discussions.html",
+   "wl": "Website",
+   "b": "Readers discuss a monthly literary selection. Meets at Harmony Library.",
+   "nt": [],
+   "s": [
+    [
+     "glocesterlibraries.org",
+     "https://www.glocesterlibraries.org/book-discussions.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "381",
+   "n": "Harmony Writers' Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Glocester",
+   "p": "",
+   "e": "",
+   "w": "https://www.glocesterlibraries.org/2026-programs.html",
+   "wl": "Website",
+   "b": "Writers share work and receive feedback across genres. Meets at Harmony Library. Drop in; social gathering begins at 6:00 PM and discussion at 6:30 PM.",
+   "nt": [],
+   "s": [
+    [
+     "glocesterlibraries.org",
+     "https://www.glocesterlibraries.org/2026-programs.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "368",
+   "n": "Hiking With Your Dog",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Coventry",
+   "p": "",
+   "e": "",
+   "w": "https://www.meetup.com/hiking-with-your-dog/",
+   "wl": "Website",
+   "b": "Dog owners and dog lovers meet for hikes. Join the Meetup group.",
+   "nt": [],
+   "s": [
+    [
+     "meetup.com",
+     "https://www.meetup.com/hiking-with-your-dog/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "403",
+   "n": "Hope Library Not Your Average Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Scituate",
+   "p": "",
+   "e": "",
+   "w": "https://hopelibraryri.org/adults/",
+   "wl": "Website",
+   "b": "Readers choose books around a shared annual reading theme. Meets at Hope Library.",
+   "nt": [],
+   "s": [
+    [
+     "hopelibraryri.org",
+     "https://hopelibraryri.org/adults/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "323",
+   "n": "Innerlight Yoga",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "850 Aquidneck Avenue, Middletown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.innerlightyoga.com/events",
+   "wl": "Website",
+   "b": "The studio offers yoga, meditation and related group practices. Meets at Innerlight Center for Yoga & Meditation. Book through the studio.",
+   "nt": [],
+   "s": [
+    [
+     "innerlightyoga.com",
+     "https://www.innerlightyoga.com/events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "351",
+   "n": "Irish Coastal Club Language Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0",
+   "wl": "Website",
+   "b": "Participants learn and practice the Irish language. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "315",
+   "n": "Island Heron Yoga",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Jamestown",
+   "p": "",
+   "e": "",
+   "w": "https://www.islandheronyoga.com/",
+   "wl": "Website",
+   "b": "A community yoga studio offers classes for different experience levels. Meets at Island Heron Yoga. Book through the studio class schedule.",
+   "nt": [],
+   "s": [
+    [
+     "islandheronyoga.com",
+     "https://www.islandheronyoga.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "362",
+   "n": "Island Library Book Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "9 Dodge Street, New Shoreham, RI",
+   "p": "",
+   "e": "",
+   "w": "https://islandfreelibrary.org/wp-content/uploads/2026/03/MARCH-2026.pdf",
+   "wl": "Website",
+   "b": "Readers discuss literature in person and over Zoom. Meets at Island Library.",
+   "nt": [],
+   "s": [
+    [
+     "islandfreelibrary.org",
+     "https://islandfreelibrary.org/wp-content/uploads/2026/03/MARCH-2026.pdf"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "367",
+   "n": "Jesse M. Smith Library Knit & Crochet Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "100 Tinkham Lane, Burrillville, RI",
+   "p": "",
+   "e": "",
+   "w": "https://jmslibrary.org/wp-content/uploads/2025/12/December-2025-Newsletter-Compressed.pdf",
+   "wl": "Website",
+   "b": "Knitters and crocheters bring projects to a social library gathering. Meets at Jesse M. Smith Memorial Library, Lounge. Drop in; registration is not required. Cost: no charge.",
+   "nt": [],
+   "s": [
+    [
+     "jmslibrary.org",
+     "https://jmslibrary.org/wp-content/uploads/2025/12/December-2025-Newsletter-Compressed.pdf"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "333",
+   "n": "Kingston Library Mah Jongg Open Play",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "South Kingstown",
+   "p": "",
+   "e": "",
+   "w": "https://libraryaware.com/4283/NewsletterIssues/LatestIssueForList/a1910ec8-92a3-409f-aeeb-e772808574d7",
+   "wl": "Website",
+   "b": "Players gather for mah jongg without formal instruction. Meets at Kingston Library, Potter Hall.",
+   "nt": [],
+   "s": [
+    [
+     "libraryaware.com",
+     "https://libraryaware.com/4283/NewsletterIssues/LatestIssueForList/a1910ec8-92a3-409f-aeeb-e772808574d7"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "392",
+   "n": "Knight Memorial Knitting Circle",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "275 Elmwood Avenue, Providence, RI",
+   "p": "",
+   "e": "",
+   "w": "https://clpvd.org/events/category/knitting/list/",
+   "wl": "Website",
+   "b": "Crafters work on projects and share techniques in a social group. Meets at Knight Memorial Library. Consult the library calendar.",
+   "nt": [],
+   "s": [
+    [
+     "clpvd.org",
+     "https://clpvd.org/events/category/knitting/list/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "352",
+   "n": "Knit & Crochet Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events",
+   "wl": "Website",
+   "b": "Fiber crafters gather to work on knitting and crochet. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "369",
+   "n": "Lake Taco Line and Partner Dancing",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "446 Tiogue Avenue, Coventry, RI",
+   "p": "",
+   "e": "",
+   "w": "https://getinlineri.com/rhode-island-line-dance-lessons-and-events/",
+   "wl": "Website",
+   "b": "Participants learn and share line dances. Meets at Lake Taco. Consult the organizer for registration and holiday exceptions. Cost: no charge.",
+   "nt": [],
+   "s": [
+    [
+     "getinlineri.com",
+     "https://getinlineri.com/rhode-island-line-dance-lessons-and-events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "346",
+   "n": "Langworthy Library Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Hopkinton",
+   "p": "",
+   "e": "",
+   "w": "https://langworthylibrary.org/lpl/events-calendar/",
+   "wl": "Website",
+   "b": "Readers discuss a selected book at the library. Meets at Langworthy Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "langworthylibrary.org",
+     "https://langworthylibrary.org/lpl/events-calendar/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "316",
+   "n": "Let's LEGO Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "26 North Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://jplri.libcal.com/",
+   "wl": "Website",
+   "b": "Children build together with materials supplied by the library. Meets at Jamestown Philomenian Library, Meeting Hall.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "384",
+   "n": "Lincoln Thursday Night Book Discussion",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "145 Old River Road, Lincoln, RI",
+   "p": "",
+   "e": "",
+   "w": "https://lincolnlibrary.com/book-movie-groups",
+   "wl": "Website",
+   "b": "Readers discuss monthly selections in the library. Meets at Lincoln Public Library, Program Room. Everyone is welcome.",
+   "nt": [],
+   "s": [
+    [
+     "lincolnlibrary.com",
+     "https://lincolnlibrary.com/book-movie-groups"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "382",
+   "n": "Mohr Library Knitting and Crochet Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "1 Memorial Avenue, Johnston, RI",
+   "p": "",
+   "e": "",
+   "w": "https://mohrlibrary.org/calendar.php",
+   "wl": "Website",
+   "b": "Knitters and crocheters gather for a social session without formal instruction. Meets at Marian J. Mohr Memorial Library, Program Room. New members welcome.",
+   "nt": [],
+   "s": [
+    [
+     "mohrlibrary.org",
+     "https://mohrlibrary.org/calendar.php"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "353",
+   "n": "Mostly Fiction Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events",
+   "wl": "Website",
+   "b": "Readers discuss a monthly fiction selection. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "393",
+   "n": "Mt. Pleasant Knitting, Crochet and Needlework Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "315 Academy Avenue, Providence, RI",
+   "p": "",
+   "e": "",
+   "w": "https://clpvd.org/events/category/knitting/list/",
+   "wl": "Website",
+   "b": "Crafters work on projects and share techniques in a social group. Meets at Mt. Pleasant Library. Consult the library calendar.",
+   "nt": [],
+   "s": [
+    [
+     "clpvd.org",
+     "https://clpvd.org/events/category/knitting/list/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "317",
+   "n": "My First Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "26 North Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://jplri.libcal.com/",
+   "wl": "Website",
+   "b": "Children in grades one and two share a story and related activity. Meets at Jamestown Philomenian Library, Green Conference Room. Sign up through the library.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "337",
+   "n": "Natural Fitness Beach Yoga",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Narragansett",
+   "p": "",
+   "e": "",
+   "w": "https://naturalfitnessyoga.com/site/",
+   "wl": "Website",
+   "b": "All ages and levels practice yoga on the beach. Meets at Narragansett Town Beach, lifeguard chairs 3 and 4. Bring a towel and water. Cost: $20 drop-in; $90 for five classes.",
+   "nt": [],
+   "s": [
+    [
+     "naturalfitnessyoga.com",
+     "https://naturalfitnessyoga.com/site/"
+    ]
+   ],
+   "cl": false
   },
   {
    "n": "Newport Art Museum",
@@ -137,6 +1069,215 @@
    "i": "309"
   },
   {
+   "i": "324",
+   "n": "Newport County YMCA Masters Swimming",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "792 Valley Road, Middletown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Swimmers share small-group pool workouts. Meets at Newport County YMCA. Reserve a place through the YMCA schedule up to 72 hours in advance.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "320",
+   "n": "Newport Library ESL Advanced Reading & Conversation Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://newportlibraryri.libcal.com/",
+   "wl": "Website",
+   "b": "Participants practice English through discussion of reading materials. Meets at Newport Public Library, Rotary Board Room. All are welcome.",
+   "nt": [],
+   "s": [
+    [
+     "newportlibraryri.libcal.com",
+     "https://newportlibraryri.libcal.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "321",
+   "n": "Newport Photo Guild",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://www.newportphotoguild.org/join-us",
+   "wl": "Website",
+   "b": "Photographers meet for presentations, image discussions and photography activities. Meets at Edward King House, second floor. Join through the guild website.",
+   "nt": [],
+   "s": [
+    [
+     "newportphotoguild.org",
+     "https://www.newportphotoguild.org/join-us"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "322",
+   "n": "Newport Public Library Chess Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://newportlibraryri.libcal.com/event/17512466",
+   "wl": "Website",
+   "b": "Adults of different skill levels gather for casual chess. Meets at Newport Public Library, Maker Lab. Drop in; ages 18 and older.",
+   "nt": [],
+   "s": [
+    [
+     "newportlibraryri.libcal.com",
+     "https://newportlibraryri.libcal.com/event/17512466"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "338",
+   "n": "North Kingstown Murder by the Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "100 Boone Street, North Kingstown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.nklibrary.org/sites/nklibrary.org/files/article-attachments/January%202025_0.pdf",
+   "wl": "Website",
+   "b": "Mystery enthusiasts discuss selected crime novels. Meets at North Kingstown Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "nklibrary.org",
+     "https://www.nklibrary.org/sites/nklibrary.org/files/article-attachments/January%202025_0.pdf"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "386",
+   "n": "North Providence Library Mystery Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "North Providence",
+   "p": "",
+   "e": "",
+   "w": "https://olis.ri.gov/directory/library-events?language=en&page=9",
+   "wl": "Website",
+   "b": "Readers gather to discuss a selected mystery. Meets at North Providence Union Library.",
+   "nt": [],
+   "s": [
+    [
+     "olis.ri.gov",
+     "https://olis.ri.gov/directory/library-events?language=en&page=9"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "404",
+   "n": "North Scituate Classics Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Scituate",
+   "p": "",
+   "e": "",
+   "w": "https://scituatelibrary.org/events/list/",
+   "wl": "Website",
+   "b": "Readers discuss classic literature. Meets at North Scituate Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "scituatelibrary.org",
+     "https://scituatelibrary.org/events/list/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "405",
+   "n": "North Scituate Cookbook Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Scituate",
+   "p": "",
+   "e": "",
+   "w": "https://scituatelibrary.org/events/list/",
+   "wl": "Website",
+   "b": "Participants prepare dishes from selected cookbooks and share them. Meets at North Scituate Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "scituatelibrary.org",
+     "https://scituatelibrary.org/events/list/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "406",
+   "n": "North Scituate Mystery Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Scituate",
+   "p": "",
+   "e": "",
+   "w": "https://scituatelibrary.org/events/list/",
+   "wl": "Website",
+   "b": "Readers discuss mystery novels. Meets at North Scituate Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "scituatelibrary.org",
+     "https://scituatelibrary.org/events/list/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "407",
+   "n": "North Scituate Scituate Sewists",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Scituate",
+   "p": "",
+   "e": "",
+   "w": "https://scituatelibrary.org/events/list/",
+   "wl": "Website",
+   "b": "Sewers gather to work on projects together. Meets at North Scituate Public Library.",
+   "nt": [],
+   "s": [
+    [
+     "scituatelibrary.org",
+     "https://scituatelibrary.org/events/list/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "318",
+   "n": "One More Chapter Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "26 North Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://jplri.libcal.com/",
+   "wl": "Website",
+   "b": "Young readers meet monthly to discuss chapter books. Meets at Jamestown Philomenian Library, Green Conference Room. Sign up at the Youth Desk and borrow the selected book.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "Park Theatre",
    "c": "Entertainment venues",
    "a": "Cranston",
@@ -148,6 +1289,633 @@
    "nt": [],
    "s": [],
    "i": "303"
+  },
+  {
+   "i": "327",
+   "n": "Portsmouth Recreation Mahjong",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Portsmouth",
+   "p": "",
+   "e": "",
+   "w": "https://portsmouthri.gov/406/Parks-Recreation",
+   "wl": "Website",
+   "b": "Players meet for open mahjong sessions. Bring the 2026 card; tiles are supplied. Cost: $3.",
+   "nt": [],
+   "s": [
+    [
+     "portsmouthri.gov",
+     "https://portsmouthri.gov/406/Parks-Recreation"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "394",
+   "n": "Providence Gambit Chess Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "10 Sims Avenue, Providence, RI",
+   "p": "",
+   "e": "",
+   "w": "https://oceanstatechess.com/event/providence-gambit-chess-club/",
+   "wl": "Website",
+   "b": "Chess players of all experience levels meet for casual games. Meets at New Harvest Café. Attend the public meeting; bring a set and clock if available. Cost: no charge.",
+   "nt": [],
+   "s": [
+    [
+     "oceanstatechess.com",
+     "https://oceanstatechess.com/event/providence-gambit-chess-club/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "387",
+   "n": "Providence Practicing Spanish",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "285 Main Street, Pawtucket, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.meetup.com/providencepracticingspanish/?scroll=true",
+   "wl": "Website",
+   "b": "Spanish speakers and learners practice conversation in a relaxed setting. Meets at Delicias de mi Tierra. RSVP through Meetup. Cost: no charge.",
+   "nt": [],
+   "s": [
+    [
+     "meetup.com",
+     "https://www.meetup.com/providencepracticingspanish/?scroll=true"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "383",
+   "n": "Providence Radio Association",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Johnston",
+   "p": "",
+   "e": "",
+   "w": "https://w1op.club/",
+   "wl": "Website",
+   "b": "The club welcomes newcomers interested in radio operation and technical experimentation. Contact the club to join.",
+   "nt": [],
+   "s": [
+    [
+     "w1op.club",
+     "https://w1op.club/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "395",
+   "n": "Providence Village Walks with Bonnie",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://villagecommonri.org/content.aspx?club_id=908317&page_id=4001",
+   "wl": "Website",
+   "b": "Neighbors walk together along Blackstone Boulevard. Meets at North end of Blackstone Boulevard.",
+   "nt": [],
+   "s": [
+    [
+     "villagecommonri.org",
+     "https://villagecommonri.org/content.aspx?club_id=908317&page_id=4001"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "354",
+   "n": "Qigong & Meditation",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0",
+   "wl": "Website",
+   "b": "Participants practice gentle movement and meditation. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "418",
+   "n": "Rhode Island Canoe and Kayak Association",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://www.ricka.org/index.html",
+   "wl": "Website",
+   "b": "Paddlers organize flatwater, sea-kayaking and whitewater outings. Consult the calendar and trip leader.",
+   "nt": [],
+   "s": [
+    [
+     "ricka.org",
+     "https://www.ricka.org/index.html"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "396",
+   "n": "Rhode Island Center for Photographic Arts — Saturday Shares",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.riphotocenter.org/",
+   "wl": "Website",
+   "b": "Photographers gather to share prints and photography books. Meets at Rhode Island Center for Photographic Arts.",
+   "nt": [],
+   "s": [
+    [
+     "riphotocenter.org",
+     "https://www.riphotocenter.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "325",
+   "n": "Rhode Island Gaming Group — Middletown Board Games",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "1818 West Main Road, Middletown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.meetup.com/rigaming/events/316983960/",
+   "wl": "Website",
+   "b": "Players share a rotating selection of board games. Meets at Middletown Baptist Church. RSVP through Meetup.",
+   "nt": [],
+   "s": [
+    [
+     "meetup.com",
+     "https://www.meetup.com/rigaming/events/316983960/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "412",
+   "n": "Rhode Island Hiking Club — Walks and Rambles",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Warwick",
+   "p": "",
+   "e": "",
+   "w": "https://www.meetup.com/rhodeislandhikingclub/",
+   "wl": "Website",
+   "b": "Volunteer organizers lead hikes and walks around Rhode Island. Join the Meetup group and follow each hike's requirements.",
+   "nt": [],
+   "s": [
+    [
+     "meetup.com",
+     "https://www.meetup.com/rhodeislandhikingclub/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "419",
+   "n": "Rhode Island NEMBA",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://www.rinemba.org/",
+   "wl": "Website",
+   "b": "Mountain bikers organize rides and maintain trails. Consult the chapter calendar.",
+   "nt": [],
+   "s": [
+    [
+     "rinemba.org",
+     "https://www.rinemba.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "388",
+   "n": "Rhode Island Watercolor Society",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Pawtucket",
+   "p": "",
+   "e": "",
+   "w": "https://www.riws.org/page-1681668",
+   "wl": "Website",
+   "b": "Watercolor artists learn and share techniques through classes and workshops. Meets at Rhode Island Watercolor Society Classroom. Register through the society's calendar; individual workshops may fill.",
+   "nt": [],
+   "s": [
+    [
+     "riws.org",
+     "https://www.riws.org/page-1681668"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "415",
+   "n": "RIDEM Fall Fly Tying Series",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "West Greenwich",
+   "p": "",
+   "e": "",
+   "w": "https://dem.ri.gov/events/annual-fall-fly-tying-series",
+   "wl": "Website",
+   "b": "Fly tyers learn techniques together during a seasonal workshop series. Meets at Louttit Library. Preregister with the organizer. Cost: $5 per session.",
+   "nt": [],
+   "s": [
+    [
+     "dem.ri.gov",
+     "https://dem.ri.gov/events/annual-fall-fly-tying-series"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "397",
+   "n": "Roger Williams Park Bird Walks",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.rwpconservancy.org/event/roger-williams-park-bird-walks-2/2026-11-21/",
+   "wl": "Website",
+   "b": "Participants observe seasonal birds on a guided park walk. Meets at Museum of Natural History and Planetarium, Roger Williams Park. Advance registration preferred. Cost: $3; no charge for museum members.",
+   "nt": [],
+   "s": [
+    [
+     "rwpconservancy.org",
+     "https://www.rwpconservancy.org/event/roger-williams-park-bird-walks-2/2026-11-21/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "398",
+   "n": "Ronald McDonald House of Providence Running Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://rmhprovidencerc.org/",
+   "wl": "Website",
+   "b": "Runners and walkers join coached training and social runs. Become a club member.",
+   "nt": [],
+   "s": [
+    [
+     "rmhprovidencerc.org",
+     "https://rmhprovidencerc.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "319",
+   "n": "Rusty Pens Writing & Storytelling Workshop",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "26 North Road, Jamestown, RI",
+   "p": "",
+   "e": "",
+   "w": "https://jplri.libcal.com/",
+   "wl": "Website",
+   "b": "Participants use creative writing to explore memories and life experiences. Meets at Jamestown Philomenian Library, Sydney Wright Room.",
+   "nt": [],
+   "s": [
+    [
+     "jplri.libcal.com",
+     "https://jplri.libcal.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "355",
+   "n": "Sewers in Stitches",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events",
+   "wl": "Website",
+   "b": "Sewers bring projects and work alongside other makers. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "334",
+   "n": "Shepherd's Run Masters Swimming",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "South Kingstown",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Experienced swimmers train together. Meets at Shepherd's Run. USMS membership required; obtain coach approval for drop-ins. Cost: $18 nonmember drop-in; $9 member drop-in.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "389",
+   "n": "Shri Yoga",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "390 Pine Street, Pawtucket, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.shriyoga.org/class-descriptions",
+   "wl": "Website",
+   "b": "The studio offers public yoga and meditation. Meets at Shri Yoga. Register before attending. Cost: $15 drop-in; selected outreach classes at no charge.",
+   "nt": [],
+   "s": [
+    [
+     "shriyoga.org",
+     "https://www.shriyoga.org/class-descriptions"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "356",
+   "n": "Silent Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0",
+   "wl": "Website",
+   "b": "Participants gather for quiet shared reading. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "399",
+   "n": "Smith Hill Crochet Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "31 Candace Street, Providence, RI",
+   "p": "",
+   "e": "",
+   "w": "https://clpvd.org/events/category/knitting/list/",
+   "wl": "Website",
+   "b": "Crafters work on projects and share techniques in a social group. Meets at Smith Hill Library. Consult the library calendar.",
+   "nt": [],
+   "s": [
+    [
+     "clpvd.org",
+     "https://clpvd.org/events/category/knitting/list/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "400",
+   "n": "Smith Hill Model Building Workshop",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "31 Candace Street, Providence, RI",
+   "p": "",
+   "e": "",
+   "w": "https://clpvd.org/events/category/workshop/",
+   "wl": "Website",
+   "b": "Children and teens build plastic models in a group. Meets at Smith Hill Library. Consult the library calendar.",
+   "nt": [],
+   "s": [
+    [
+     "clpvd.org",
+     "https://clpvd.org/events/category/workshop/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "401",
+   "n": "Smith Hill Monday Painting",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "31 Candace Street, Providence, RI",
+   "p": "",
+   "e": "",
+   "w": "https://clpvd.org/events/category/workshop/",
+   "wl": "Website",
+   "b": "Participants learn painting techniques and work alongside neighbors. Meets at Smith Hill Library. Consult the library calendar. Cost: no charge.",
+   "nt": [],
+   "s": [
+    [
+     "clpvd.org",
+     "https://clpvd.org/events/category/workshop/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "331",
+   "n": "Sogkonate Garden Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Little Compton",
+   "p": "",
+   "e": "",
+   "w": "https://www.sogkonate.org/",
+   "wl": "Website",
+   "b": "Gardeners share horticultural interests through programs and projects. Contact the club about membership and programs.",
+   "nt": [],
+   "s": [
+    [
+     "sogkonate.org",
+     "https://www.sogkonate.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "335",
+   "n": "South County YMCA Masters Swimming",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "South Kingstown",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Adults train in group swimming practices. Meets at South County YMCA. Contact the coach for placement and space; membership and session fees apply.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "336",
+   "n": "South Kingstown Land Trust Guided Hikes",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "South Kingstown",
+   "p": "",
+   "e": "",
+   "w": "https://sklt.org/events_calendar/",
+   "wl": "Website",
+   "b": "The land trust leads public walks on conserved local trails. Register for individual walks. Cost: no charge.",
+   "nt": [],
+   "s": [
+    [
+     "sklt.org",
+     "https://sklt.org/events_calendar/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "370",
+   "n": "St. Mary's Line Dancing",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "15 Phenix Avenue, Cranston, RI",
+   "p": "",
+   "e": "",
+   "w": "https://getinlineri.com/rhode-island-line-dance-lessons-and-events/",
+   "wl": "Website",
+   "b": "Participants learn and share line dances. Meets at St. Mary's. Consult the organizer for registration and holiday exceptions. Cost: $10.",
+   "nt": [],
+   "s": [
+    [
+     "getinlineri.com",
+     "https://getinlineri.com/rhode-island-line-dance-lessons-and-events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "372",
+   "n": "SwimRI Cumberland Masters",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Cumberland",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Adults attend coached morning swims. Meets at Cumberland High School. Contact the program about attendance requirements.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "374",
+   "n": "SwimRI East Providence Boys & Girls Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "East Providence",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Adults share coached pool workouts. Meets at East Providence Boys & Girls Club. Contact the program; early practices require intermediate or advanced swimming ability.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "375",
+   "n": "SwimRI Kendbrin",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "East Providence",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Swimmers share summer pool workouts. Meets at Kendbrin Swim & Tennis Club. Contact the program about attendance requirements.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "385",
+   "n": "SwimRI MacColl Masters",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Lincoln",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Adults attend coached evening swims. Meets at MacColl YMCA. YMCA membership required; contact the program before attending.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "366",
+   "n": "SwimRI Roger Williams University Masters",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Adults share pool workouts. Meets at Roger Williams University Aquatic Center. Contact the program about attendance requirements.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "326",
+   "n": "SwimRI St. George's Masters",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Middletown",
+   "p": "",
+   "e": "",
+   "w": "https://swimri.org/practice-schedules",
+   "wl": "Website",
+   "b": "Adults attend coached swimming practices. Meets at St. George's School Hoyt Pool. Ages 18 and older; contact the coach or use the linked registration page.",
+   "nt": [],
+   "s": [
+    [
+     "swimri.org",
+     "https://swimri.org/practice-schedules"
+    ]
+   ],
+   "cl": false
   },
   {
    "n": "The Parlour",
@@ -215,6 +1983,44 @@
    "i": "312"
   },
   {
+   "i": "357",
+   "n": "The Poetry Gathering",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0",
+   "wl": "Website",
+   "b": "Poetry enthusiasts share and discuss their work. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events?event-category=All&event-type=Adults&event_categories=All&event_type=22&page=0"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "413",
+   "n": "The Rally Line Dancing",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "1800 Post Road, Warwick, RI",
+   "p": "",
+   "e": "",
+   "w": "https://getinlineri.com/rhode-island-line-dance-lessons-and-events/",
+   "wl": "Website",
+   "b": "Participants learn and share line dances. Meets at The Rally. Consult the organizer for registration and holiday exceptions. Cost: $5.",
+   "nt": [],
+   "s": [
+    [
+     "getinlineri.com",
+     "https://getinlineri.com/rhode-island-line-dance-lessons-and-events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "The Red Door",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -254,6 +2060,25 @@
    "i": "308"
   },
   {
+   "i": "328",
+   "n": "The Sacred Center Gentle Yoga",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Portsmouth",
+   "p": "",
+   "e": "",
+   "w": "https://www.sacred-center.org/Class-Descriptions.php",
+   "wl": "Website",
+   "b": "An accessible group yoga class meets in person and online. Meets at Common Fence Point Community Center.",
+   "nt": [],
+   "s": [
+    [
+     "sacred-center.org",
+     "https://www.sacred-center.org/Class-Descriptions.php"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "The Scurvy Dog",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -280,6 +2105,25 @@
    "i": "008"
   },
   {
+   "i": "402",
+   "n": "The Steel Yard Community Studio",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "27 Sims Avenue, Providence, RI",
+   "p": "",
+   "e": "",
+   "w": "https://www.thesteelyard.org/news/yard-calendar/",
+   "wl": "Website",
+   "b": "Makers practice ceramics, jewelry and metalworking through public classes and studio programs. Meets at The Steel Yard. Register for the relevant workshop or studio session.",
+   "nt": [],
+   "s": [
+    [
+     "thesteelyard.org",
+     "https://www.thesteelyard.org/news/yard-calendar/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "The Strand",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -291,6 +2135,44 @@
    "nt": [],
    "s": [],
    "i": "305"
+  },
+  {
+   "i": "329",
+   "n": "Tiverton Library Crochet Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "34 Roosevelt Avenue, Tiverton, RI",
+   "p": "",
+   "e": "",
+   "w": "https://tivertonlibrary.org/events/",
+   "wl": "Website",
+   "b": "Teens and adults crochet together on selected Mondays. Meets at Tiverton Public Library, Teen Room.",
+   "nt": [],
+   "s": [
+    [
+     "tivertonlibrary.org",
+     "https://tivertonlibrary.org/events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "414",
+   "n": "Tri-City Elks Line Dancing",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "1915 West Shore Road, Warwick, RI",
+   "p": "",
+   "e": "",
+   "w": "https://tricityelks14.org/events/line-dancing-1",
+   "wl": "Website",
+   "b": "Participants learn and share line dances. Meets at Tri-City Elks Lodge. Consult the organizer for registration and holiday exceptions. Cost: $10.",
+   "nt": [],
+   "s": [
+    [
+     "tricityelks14.org",
+     "https://tricityelks14.org/events/line-dancing-1"
+    ]
+   ],
+   "cl": false
   },
   {
    "n": "Trinity Repertory Company",
@@ -317,6 +2199,101 @@
    "nt": [],
    "s": [],
    "i": "300"
+  },
+  {
+   "i": "330",
+   "n": "Union Library Book Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "3832 Main Road, Tiverton, RI",
+   "p": "",
+   "e": "",
+   "w": "https://tivertonlibrary.org/adults/book-groups/",
+   "wl": "Website",
+   "b": "Readers gather monthly at the Union Library to discuss a selected book. Meets at Union Library. Contact the library.",
+   "nt": [],
+   "s": [
+    [
+     "tivertonlibrary.org",
+     "https://tivertonlibrary.org/adults/book-groups/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "358",
+   "n": "Watch Hill Conservancy Bird and Learn",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Fort Road, Westerly, RI",
+   "p": "",
+   "e": "",
+   "w": "https://thewatchhillconservancy.org/events/",
+   "wl": "Website",
+   "b": "New and experienced birders explore coastal habitats together. Meets at Napatree Point Conservation Area.",
+   "nt": [],
+   "s": [
+    [
+     "thewatchhillconservancy.org",
+     "https://thewatchhillconservancy.org/events/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "359",
+   "n": "Westerly Area Needleworkers",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events",
+   "wl": "Website",
+   "b": "Needleworkers gather to share projects and techniques. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "360",
+   "n": "Westerly Land Trust and WildRoots Wonder Walks",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://westerlylandtrust.org/event/wonder-walk-at-camp-q-riverwood/",
+   "wl": "Website",
+   "b": "Families explore local preserves through guided nature walks. Register through the organizer. Cost: no charge.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylandtrust.org",
+     "https://westerlylandtrust.org/event/wonder-walk-at-camp-q-riverwood/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "361",
+   "n": "Westerly Writers Group",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.westerlylibrary.org/calendar-of-events",
+   "wl": "Website",
+   "b": "Writers meet to exchange work and discuss writing. Meets at Westerly Library.",
+   "nt": [],
+   "s": [
+    [
+     "westerlylibrary.org",
+     "https://www.westerlylibrary.org/calendar-of-events"
+    ]
+   ],
+   "cl": false
   },
   {
    "n": "Wilbury Theatre Group",
@@ -1266,6 +3243,44 @@
    "nt": [],
    "s": [],
    "i": "082"
+  },
+  {
+   "i": "347",
+   "n": "Wood River Village Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Hopkinton",
+   "p": "",
+   "e": "",
+   "w": "https://villagecommonri.org/content.aspx?club_id=908317&page_id=4001",
+   "wl": "Website",
+   "b": "Readers gather at Ashaway Library for community book discussions. Meets at Ashaway Library.",
+   "nt": [],
+   "s": [
+    [
+     "villagecommonri.org",
+     "https://villagecommonri.org/content.aspx?club_id=908317&page_id=4001"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "416",
+   "n": "Woonsocket Harris Library Silent Book Club",
+   "c": "Clubs, fitness and outdoor groups",
+   "a": "Woonsocket",
+   "p": "",
+   "e": "",
+   "w": "https://woonsocketlibrary.org/book-club/",
+   "wl": "Website",
+   "b": "Participants gather to read their own books quietly. Meets at Woonsocket Harris Public Library. Contact the reference department.",
+   "nt": [],
+   "s": [
+    [
+     "woonsocketlibrary.org",
+     "https://woonsocketlibrary.org/book-club/"
+    ]
+   ],
+   "cl": false
   },
   {
    "n": "Yellow Kittens Tavern",
