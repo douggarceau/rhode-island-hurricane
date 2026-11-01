@@ -7,6 +7,19 @@
  ],
  "items": [
   {
+   "n": "Amica Mutual Pavilion",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.amicamutualpavilion.com/",
+   "wl": "Website",
+   "b": "Downtown Providence's arena for the biggest touring concerts, family shows and comedy.",
+   "nt": [],
+   "s": [],
+   "i": "301"
+  },
+  {
    "n": "AS220",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -31,6 +44,110 @@
    "nt": [],
    "s": [],
    "i": "002"
+  },
+  {
+   "n": "Avon Cinema",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.avoncinema.com/",
+   "wl": "Website",
+   "b": "Thayer Street's beloved independent cinema since 1938, showing first-run art-house and independent films.",
+   "nt": [],
+   "s": [],
+   "i": "307"
+  },
+  {
+   "n": "Ballet RI",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.balletri.org/",
+   "wl": "Website",
+   "b": "Rhode Island's professional ballet company, presenting The Nutcracker and new works each season.",
+   "nt": [],
+   "s": [],
+   "i": "310"
+  },
+  {
+   "n": "Bally's Event Center",
+   "c": "Entertainment venues",
+   "a": "Lincoln",
+   "p": "",
+   "e": "",
+   "w": "https://casinos.ballys.com/lincoln/entertainment/",
+   "wl": "Website",
+   "b": "Concerts, comedians and tribute shows at Bally's Twin River in Lincoln.",
+   "nt": [],
+   "s": [],
+   "i": "302"
+  },
+  {
+   "n": "Chorus of Westerly",
+   "c": "Entertainment venues",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "https://www.chorusofwesterly.org/",
+   "wl": "Website",
+   "b": "Beloved community chorus and festival orchestra, famous for its holiday Pops and Twelfth Night shows.",
+   "nt": [],
+   "s": [],
+   "i": "313"
+  },
+  {
+   "n": "Columbus Theatre",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.columbustheatre.com/",
+   "wl": "Website",
+   "b": "Historic 1926 theater on Broadway in Providence, hosting indie, folk and rock concerts.",
+   "nt": [],
+   "s": [],
+   "i": "304"
+  },
+  {
+   "n": "Fete Music Hall",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.fetemusic.com/",
+   "wl": "Website",
+   "b": "Concert hall and ballroom in Olneyville hosting touring bands and big nights out.",
+   "nt": [],
+   "s": [],
+   "i": "306"
+  },
+  {
+   "n": "Newport Art Museum",
+   "c": "Entertainment venues",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "https://newportartmuseum.org/",
+   "wl": "Website",
+   "b": "Exhibitions of New England art, artist talks and classes in a historic Newport setting.",
+   "nt": [],
+   "s": [],
+   "i": "309"
+  },
+  {
+   "n": "Park Theatre",
+   "c": "Entertainment venues",
+   "a": "Cranston",
+   "p": "",
+   "e": "",
+   "w": "https://www.theparkri.com/",
+   "wl": "Website",
+   "b": "Restored 1926 Cranston theater with national touring musicians, comedians and tribute acts.",
+   "nt": [],
+   "s": [],
+   "i": "303"
   },
   {
    "n": "The Parlour",
@@ -72,6 +189,32 @@
    "i": "005"
   },
   {
+   "n": "Providence Performing Arts Center (PPAC)",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.ppacri.org/",
+   "wl": "Website",
+   "b": "Rhode Island's grand 1928 movie palace, home to touring Broadway musicals, concerts and comedy.",
+   "nt": [],
+   "s": [],
+   "i": "299"
+  },
+  {
+   "n": "Providence Singers",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.providencesingers.org/",
+   "wl": "Website",
+   "b": "Rhode Island's premier symphonic chorus, known for Messiah and major choral works.",
+   "nt": [],
+   "s": [],
+   "i": "312"
+  },
+  {
    "n": "The Red Door",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -83,6 +226,32 @@
    "nt": [],
    "s": [],
    "i": "006"
+  },
+  {
+   "n": "Rhode Island Philharmonic",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.riphil.org/",
+   "wl": "Website",
+   "b": "The state's professional orchestra, performing classical, pops and holiday concerts at The VETS.",
+   "nt": [],
+   "s": [],
+   "i": "311"
+  },
+  {
+   "n": "RISD Museum",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://risdmuseum.org/",
+   "wl": "Website",
+   "b": "Rhode Island School of Design's world-class art museum, with major exhibitions and public programs.",
+   "nt": [],
+   "s": [],
+   "i": "308"
   },
   {
    "n": "The Scurvy Dog",
@@ -111,6 +280,19 @@
    "i": "008"
   },
   {
+   "n": "The Strand",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://thestrandri.com/",
+   "wl": "Website",
+   "b": "Downtown Providence ballroom for concerts and dance parties.",
+   "nt": [],
+   "s": [],
+   "i": "305"
+  },
+  {
    "n": "Trinity Repertory Company",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -122,6 +304,19 @@
    "nt": [],
    "s": [],
    "i": "009"
+  },
+  {
+   "n": "The VETS",
+   "c": "Entertainment venues",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "https://www.thevetsri.com/",
+   "wl": "Website",
+   "b": "The historic Veterans Memorial Auditorium, home of the RI Philharmonic and Ballet RI's Nutcracker.",
+   "nt": [],
+   "s": [],
+   "i": "300"
   },
   {
    "n": "Wilbury Theatre Group",
