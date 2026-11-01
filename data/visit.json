@@ -42466,6 +42466,122 @@
      "town": "Tiverton"
     }
    ]
+  },
+  {
+   "key": "minigolf",
+   "title": "Mini Golf",
+   "items": [
+    {
+     "name": "Mr. Doughboy / Sweet Caroline's miniature golf, later Chapman's",
+     "blurb": "This former family fun center had an outdoor 18-hole miniature golf course and batting cages. The property now houses Landing Zone Bronco, but public miniature golf operation could not be confirmed. Has: 18 holes historically, outdoor, former go-karts, former batting cages, former ice cream stand, current golf availability unconfirmed.",
+     "address": "1950 Bronco Highway, Burrillville, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.nrinow.news/2025/12/04/former-chapmans-property-on-track-to-become-community-hub-gathering-place-for-veterans-and-first-responders/",
+     "src": "nrinow.news",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Holiday Acres Campground miniature golf",
+     "blurb": "An older campground listing includes miniature golf at Holiday Acres. The operator's current amenities page does not confirm that a course remains available. Has: campground, miniature golf historically listed, game room, boating, current golf availability unconfirmed.",
+     "address": "593 Snake Hill Road, North Scituate, RI 02857, Glocester",
+     "phone": "401-934-0780",
+     "hours": "",
+     "url": "https://holidayacrescampground.com/campground-amenities/",
+     "src": "holidayacrescampground.com",
+     "town": "Glocester"
+    },
+    {
+     "name": "Ashaway RV Resort miniature golf",
+     "blurb": "Miniature golf is an advertised amenity at this seasonal RV resort, formerly called Ashaway Pines. The property also has a heated pool, splash pad, game room and playground. Has: resort amenity, seasonal camping, heated pool, splash pad, game room, playground, sports courts.",
+     "address": "235 Ashaway Road, Bradford, RI 02808, Hopkinton",
+     "phone": "401-377-8100",
+     "hours": "Resort season: mid-April through mid-October.",
+     "url": "https://www.zemanrv.com/resorts/ashaway-pines-rv-resort",
+     "src": "zemanrv.com",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Hi-Way Bowl & Mini Golf",
+     "blurb": "Older local guides list this combined bowling and miniature golf business in Middletown. A current operator, playable course and operating schedule could not be verified. Has: historical listing, bowling historically offered, current golf availability unconfirmed.",
+     "address": "Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rwu.edu/sites/default/files/rwu_notstuckinri.pdf",
+     "src": "rwu.edu",
+     "town": "Middletown"
+    },
+    {
+     "name": "Newport Mini Golf / Aquidneck Mini Golf",
+     "blurb": "This outdoor 18-hole course operates in Middletown under the Newport Mini Golf name. Birthday parties and corporate group packages are available by inquiry. Has: 18 holes, outdoor, Capt'n Lucky Puttz theme, birthday parties, corporate groups, 9 accessible holes reported by a 2025 community event organizer, coffee shop at the property.",
+     "address": "40 Valley Road, Middletown, RI 02842",
+     "phone": "401-324-7231",
+     "hours": "Monday through Thursday closed; Friday 4pm-8pm; Saturday noon-8pm; Sunday noon-7pm. Hours depend on weather. · General admission $16 for all ages, including adults, children and seniors.",
+     "url": "https://newportminigolf.com/",
+     "src": "newportminigolf.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Adventureland Family Fun Park",
+     "blurb": "This family fun park has an outdoor 18-hole nautical miniature golf course with water features. Go-karts, batting cages, bumper boats, a carousel and ice cream provide additional activities at the same property. Has: 18 holes, outdoor, nautical theme, water features, seasonal, go-karts, batting cages.",
+     "address": "112 Point Judith Road, Narragansett, RI 02882",
+     "phone": "401-789-0030",
+     "hours": "Seasonal; closed for the 2026 season. When operating, the last miniature golf round is sold 30 minutes before park closing. · Adult $14; children 9 and under $12; toddlers 5 and under $6. These age categories are published by the operator.",
+     "url": "https://adventurelandri.com/attraction/mini-golf/",
+     "src": "adventurelandri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Easton's Beach miniature golf",
+     "blurb": "A 2004 state coastal access guide lists miniature golf among the amusements at Easton's Beach. The city's current beach information does not confirm an operating course. Has: historical beach attraction, beach nearby, boardwalk nearby, current golf availability unconfirmed.",
+     "address": "175 Memorial Boulevard, Newport, RI 02840",
+     "phone": "401-845-5810",
+     "hours": "",
+     "url": "https://www.crmc.ri.gov/shorelineaccess/RI-Access-Guide.pdf",
+     "src": "crmc.ri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Carousel Village miniature golf",
+     "blurb": "Regional tourism material lists a themed miniature golf course at Carousel Village. The current operator's attraction list does not include miniature golf, so its availability is unconfirmed. Has: historical miniature golf listing, carousel nearby, playground nearby, zoo nearby, current golf availability unconfirmed.",
+     "address": "Carousel Village, Roger Williams Park, Providence, RI 02907",
+     "phone": "401-785-3510 ext. 316",
+     "hours": "",
+     "url": "https://www.rwpzoo.org/carousel-village/",
+     "src": "rwpzoo.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Warren Family Fun Center / Warren Driving Range",
+     "blurb": "State tourism lists a nine-hole miniature golf course beside the driving range. Current miniature golf operation, hours and prices could not be verified with the operator. Has: 9 holes, outdoor, driving range, current golf availability unconfirmed.",
+     "address": "326 Market Street, Warren, RI 02885",
+     "phone": "508-491-6003",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/warren-family-fun-center/12520/",
+     "src": "visitrhodeisland.com",
+     "town": "Warren"
+    },
+    {
+     "name": "imPOSSIBLE Dream Playground miniature golf",
+     "blurb": "Miniature golf is part of this integrated playground designed for children with different physical abilities. Families can also use the playground and picnic areas, and party pavilion rentals are available. Has: outdoor, seasonal, integrated playground, complete facility wheelchair access listed by state tourism, accessible restrooms, picnic tables, party pavilion rentals.",
+     "address": "575 Centerville Road, Warwick, RI 02886",
+     "phone": "401-823-5566",
+     "hours": "April through October, daily 10am-3pm except holidays and holiday weekends. · Family admission: no charge; suggested donation $1 per child.",
+     "url": "https://www.visitrhodeisland.com/listing/impossible-dream-playground/8385/",
+     "src": "visitrhodeisland.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Urban Air Warwick announced miniature golf",
+     "blurb": "Warwick tourism included miniature golf in its preopening description of this indoor adventure park. The operator's current page does not confirm a miniature golf course. Has: indoor adventure park, miniature golf announced but unverified, birthday parties.",
+     "address": "300 Quaker Lane, Warwick, RI 02886",
+     "phone": "401-227-0103",
+     "hours": "",
+     "url": "https://visitwarwickri.com/blog/post/new-indoor-recreation-opportunities-abound-in-warwick-ri/",
+     "src": "visitwarwickri.com",
+     "town": "Warwick"
+    }
+   ]
   }
  ]
 }
