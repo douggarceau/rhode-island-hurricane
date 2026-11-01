@@ -5,9 +5,29 @@
   "Restaurants",
   "Local favorites",
   "Clubs, fitness and outdoor groups",
-  "Churches and houses of worship"
+  "Churches and houses of worship",
+  "Recovery and support groups"
  ],
  "items": [
+  {
+   "i": "852",
+   "n": "Alcoholics Anonymous Area 61",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-438-8860",
+   "e": "",
+   "w": "https://aainri.com/",
+   "wl": "Website",
+   "b": "Coordinates Rhode Island AA information and a frequently changing statewide directory of in-person, telephone, online and hybrid meetings. Helpline: 401-438-8860. Meeting list: https://aainri.com/meetings/",
+   "nt": [],
+   "s": [
+    [
+     "aainri.com",
+     "https://aainri.com/"
+    ]
+   ],
+   "cl": false
+  },
   {
    "i": "659",
    "n": "All Nations Revival Center (Pawtucket)",
@@ -43,6 +63,25 @@
     "Schedule from the church or denomination listing; confirm before visiting."
    ],
    "s": [],
+   "cl": false
+  },
+  {
+   "i": "894",
+   "n": "Alzheimer’s Association Rhode Island Chapter",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-421-0008",
+   "e": "",
+   "w": "https://www.alz.org/ri",
+   "wl": "Website",
+   "b": "Publishes frequently updated caregiver and early-stage dementia groups, with registration or screening required and exact venues available through its resource finder. Helpline: 800-272-3900. Meeting list: https://www.alz.org/ri/support",
+   "nt": [],
+   "s": [
+    [
+     "alz.org",
+     "https://www.alz.org/ri"
+    ]
+   ],
    "cl": false
   },
   {
@@ -86,6 +125,25 @@
    "cl": false
   },
   {
+   "i": "872",
+   "n": "American Parkinson Disease Association Rhode Island Chapter",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-591-7890",
+   "e": "",
+   "w": "https://www.apdaparkinson.org/community/rhode-island/",
+   "wl": "Website",
+   "b": "Lists local Parkinson’s and care-partner groups, with schedule changes and the South County group currently on hiatus. Meeting list: https://www.apdaparkinson.org/community/rhode-island/resources-support-ri/support-groups/",
+   "nt": [],
+   "s": [
+    [
+     "apdaparkinson.org",
+     "https://www.apdaparkinson.org/community/rhode-island/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "Amica Mutual Pavilion",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -112,6 +170,25 @@
     "Schedule from the church or denomination listing; confirm before visiting."
    ],
    "s": [],
+   "cl": false
+  },
+  {
+   "i": "897",
+   "n": "Anchor Recovery Community Centers",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-889-5770",
+   "e": "",
+   "w": "https://anchorrecovery.providencecenter.org/",
+   "wl": "Website",
+   "b": "Offers peer recovery groups and activities through a frequently changing calendar, with conflicting Providence address information requiring confirmation. Meeting list: https://anchorrecovery.providencecenter.org/events",
+   "nt": [],
+   "s": [
+    [
+     "anchorrecovery.providencecenter.org",
+     "https://anchorrecovery.providencecenter.org/"
+    ]
+   ],
    "cl": false
   },
   {
@@ -545,6 +622,25 @@
    "cl": false
   },
   {
+   "i": "892",
+   "n": "BHDDH Recovery Services",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://bhddh.ri.gov/",
+   "wl": "Website",
+   "b": "Lists Rhode Island recovery community centers whose current meeting calendars require checking directly with each center. Meeting list: https://bhddh.ri.gov/substance-useaddiction/recovery-services",
+   "nt": [],
+   "s": [
+    [
+     "bhddh.ri.gov",
+     "https://bhddh.ri.gov/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "589",
    "n": "Blackstone Valley Baptist Church (Cumberland)",
    "c": "Churches and houses of worship",
@@ -618,6 +714,44 @@
     [
      "bristolrigc.org",
      "https://www.bristolrigc.org/meetings"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "875",
+   "n": "Brown University Health",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.brownhealth.org/",
+   "wl": "Website",
+   "b": "Offers condition-specific support groups with schedules and eligibility that vary, including cancer groups restricted to its patients and families. Meeting list: https://www.brownhealth.org/centers-services/cancer-institute/support-groups",
+   "nt": [],
+   "s": [
+    [
+     "brownhealth.org",
+     "https://www.brownhealth.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "869",
+   "n": "Butler Hospital",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.butler.org/",
+   "wl": "Website",
+   "b": "Hosts community mental health and recovery groups with differing enrollment requirements and schedules that can change. Meeting list: https://www.butler.org/patient-resources/support-groups",
+   "nt": [],
+   "s": [
+    [
+     "butler.org",
+     "https://www.butler.org/"
     ]
    ],
    "cl": false
@@ -1373,6 +1507,25 @@
    "cl": false
   },
   {
+   "i": "862",
+   "n": "Co-Dependents Anonymous Providence",
+   "c": "Recovery and support groups",
+   "a": "Providence and Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://coda.org/",
+   "wl": "Website",
+   "b": "Offers a Providence CoDA literature and step meeting through a directory that may change, with its Thursday schedule stated in the listing instructions. Meeting list: https://coda.org/meeting/co-dependents-anonymous-providence/",
+   "nt": [],
+   "s": [
+    [
+     "coda.org",
+     "https://coda.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "n": "Columbus Theatre",
    "c": "Entertainment venues",
    "a": "Providence",
@@ -1877,6 +2030,25 @@
    "cl": false
   },
   {
+   "i": "896",
+   "n": "DivorceCare Rhode Island groups",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.divorcecare.org/",
+   "wl": "Website",
+   "b": "Publishes church-hosted divorce and separation support series, with frequently changing seasonal schedules and published end dates. Meeting list: https://find.divorcecare.org/countries/us/states/ri",
+   "nt": [],
+   "s": [
+    [
+     "divorcecare.org",
+     "https://www.divorcecare.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "350",
    "n": "Dramatic Book Club",
    "c": "Clubs, fitness and outdoor groups",
@@ -1912,6 +2084,25 @@
     [
      "eastbaybaptistri.com",
      "https://www.eastbaybaptistri.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "898",
+   "n": "East Bay Recovery Center",
+   "c": "Recovery and support groups",
+   "a": "Newport, Warren and Providence",
+   "p": "401-289-2055",
+   "e": "",
+   "w": "https://ebcap.org/programs/east-bay-recovery-center/",
+   "wl": "Website",
+   "b": "Publishes frequently changing monthly peer-recovery calendars for three Rhode Island locations, with October 2026 the latest retrieved calendars. Meeting list: https://ebcap.org/east-bay-recovery-center-whats-happening-this-month/",
+   "nt": [],
+   "s": [
+    [
+     "ebcap.org",
+     "https://ebcap.org/programs/east-bay-recovery-center/"
     ]
    ],
    "cl": false
@@ -2112,6 +2303,25 @@
     [
      "emmanuelri.adventistchurch.org",
      "http://emmanuelri.adventistchurch.org"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "900",
+   "n": "Emotions Anonymous at East Bay Recovery Center",
+   "c": "Recovery and support groups",
+   "a": "Warren",
+   "p": "",
+   "e": "",
+   "w": "https://ebcap.org/programs/east-bay-recovery-center/",
+   "wl": "Website",
+   "b": "Appears in the center’s October 2026 calendar, but its recurring weekday and monthly pattern could not be verified. Meeting list: https://9e947cb6.delivery.rocketcdn.me/wp-content/uploads/2026/10/Warren-EBRC-Event-Calendar-October-2026.pdf",
+   "nt": [],
+   "s": [
+    [
+     "ebcap.org",
+     "https://ebcap.org/programs/east-bay-recovery-center/"
     ]
    ],
    "cl": false
@@ -2727,6 +2937,25 @@
    "cl": false
   },
   {
+   "i": "884",
+   "n": "FRIENDS WAY",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-921-0980",
+   "e": "",
+   "w": "https://www.friendsway.org/",
+   "wl": "Website",
+   "b": "Offers family bereavement peer groups on alternating school-year evenings after an intake appointment, with schedules that may change. Meeting list: https://www.friendsway.org/programs",
+   "nt": [],
+   "s": [
+    [
+     "friendsway.org",
+     "https://www.friendsway.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "836",
    "n": "FuHui Temple (Woonsocket)",
    "c": "Churches and houses of worship",
@@ -2743,6 +2972,25 @@
     [
      "wisdom-temple.org",
      "https://wisdom-temple.org/en/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "866",
+   "n": "Gamblers Anonymous",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "909-931-9056",
+   "e": "",
+   "w": "https://gamblersanonymous.org/",
+   "wl": "Website",
+   "b": "Publishes frequently changing local meeting listings for people seeking recovery from compulsive gambling. Helpline: 855-222-5542. Meeting list: https://gamblersanonymous.org/find-a-meeting/",
+   "nt": [],
+   "s": [
+    [
+     "gamblersanonymous.org",
+     "https://gamblersanonymous.org/"
     ]
    ],
    "cl": false
@@ -2895,6 +3143,25 @@
     "Schedule from the church or denomination listing; confirm before visiting."
    ],
    "s": [],
+   "cl": false
+  },
+  {
+   "i": "879",
+   "n": "Gloria Gemma Breast Cancer Resource Foundation",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-861-4376",
+   "e": "",
+   "w": "https://www.gloriagemma.org/",
+   "wl": "Website",
+   "b": "Offers breast cancer peer groups and survivor programs whose current group schedules are supplied through its calendar and program contacts. Meeting list: https://www.gloriagemma.org/programs",
+   "nt": [],
+   "s": [
+    [
+     "gloriagemma.org",
+     "https://www.gloriagemma.org/"
+    ]
+   ],
    "cl": false
   },
   {
@@ -3063,6 +3330,25 @@
    "cl": false
   },
   {
+   "i": "856",
+   "n": "Greater Providence Area of Narcotics Anonymous",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island and nearby Massachusetts",
+   "p": "1-866-624-3578",
+   "e": "",
+   "w": "https://gpana.org/",
+   "wl": "Website",
+   "b": "Publishes a frequently changing NA meeting list, with the October 2026 edition used for the Rhode Island records. Helpline: 1-866-624-3578. Meeting list: https://gpana.org/?current-meeting-list=1",
+   "nt": [],
+   "s": [
+    [
+     "gpana.org",
+     "https://gpana.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "641",
    "n": "Greater Providence church of Christ (Lincoln)",
    "c": "Churches and houses of worship",
@@ -3136,6 +3422,25 @@
     [
      "olis.ri.gov",
      "https://olis.ri.gov/directory/library-events?language=en&page=104"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "895",
+   "n": "GriefShare Rhode Island groups",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.griefshare.org/",
+   "wl": "Website",
+   "b": "Lists church-hosted grief support series and holiday workshops, with frequent seasonal schedule changes and series end dates recorded in the audit. Meeting list: https://find.griefshare.org/countries/us/states/ri",
+   "nt": [],
+   "s": [
+    [
+     "griefshare.org",
+     "https://www.griefshare.org/"
     ]
    ],
    "cl": false
@@ -3585,6 +3890,44 @@
    "cl": false
   },
   {
+   "i": "871",
+   "n": "HopeHealth Caregiver Support",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island and Massachusetts",
+   "p": "401-415-4664",
+   "e": "",
+   "w": "https://www.hopehealthco.org/",
+   "wl": "Website",
+   "b": "Offers virtual caregiver groups for dementia, Parkinson’s and other caregiving situations through schedules that can change. Meeting list: https://www.hopehealthco.org/services/caregiver-support/caregiver-support-group/",
+   "nt": [],
+   "s": [
+    [
+     "hopehealthco.org",
+     "https://www.hopehealthco.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "870",
+   "n": "HopeHealth Center for Hope & Healing",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island and Massachusetts",
+   "p": "888-528-9077",
+   "e": "",
+   "w": "https://www.hopehealthco.org/",
+   "wl": "Website",
+   "b": "Offers registration-based grief support and seasonal workshops, with frequent schedule and availability changes and some groups currently closed to enrollment. Meeting list: https://www.hopehealthco.org/services/hospice-care/grief-support/find-a-grief-support-group/",
+   "nt": [],
+   "s": [
+    [
+     "hopehealthco.org",
+     "https://www.hopehealthco.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "718",
    "n": "Iglesia Alianza Providence — Centro Cristiano de Adoración",
    "c": "Churches and houses of worship",
@@ -3996,6 +4339,25 @@
     [
      "kcicmasjidaisha.com",
      "https://kcicmasjidaisha.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "874",
+   "n": "Kent Hospital",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.kentri.org/",
+   "wl": "Website",
+   "b": "Hosts cancer and stroke support groups, with changing schedules and no December meeting for the stroke group. Meeting list: https://www.kentri.org/services/cancer/support-groups",
+   "nt": [],
+   "s": [
+    [
+     "kentri.org",
+     "https://www.kentri.org/"
     ]
    ],
    "cl": false
@@ -4479,6 +4841,44 @@
    "cl": false
   },
   {
+   "i": "868",
+   "n": "MDDA-DBSA Rhode Island",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-309-7575",
+   "e": "",
+   "w": "https://www.butler.org/",
+   "wl": "Website",
+   "b": "Provides peer support for mood disorders through meetings listed by Butler Hospital, whose directory can change. Meeting list: https://www.butler.org/patient-resources/support-groups",
+   "nt": [],
+   "s": [
+    [
+     "butler.org",
+     "https://www.butler.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "902",
+   "n": "Mended Hearts",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://mendedhearts.org/",
+   "wl": "Website",
+   "b": "Offers heart-disease peer support nationally, but no current Rhode Island chapter meeting schedule was verified in this research. Meeting list: https://mendedhearts.org/connect/chapters_groups/",
+   "nt": [],
+   "s": [
+    [
+     "mendedhearts.org",
+     "https://mendedhearts.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "733",
    "n": "Mercy of God (Providence)",
    "c": "Churches and houses of worship",
@@ -4722,6 +5122,63 @@
    "cl": false
   },
   {
+   "i": "867",
+   "n": "NAMI Rhode Island",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-331-3060",
+   "e": "",
+   "w": "https://namirhodeisland.org/",
+   "wl": "Website",
+   "b": "Offers peer and family mental health support through frequently changing schedules, with conflicting Newport and Warren listings flagged in the audit. Helpline: 800-950-6264. Meeting list: https://namirhodeisland.org/individuals/support-group-schedule/",
+   "nt": [],
+   "s": [
+    [
+     "namirhodeisland.org",
+     "https://namirhodeisland.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "864",
+   "n": "Nar-Anon Family Groups",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island referral and New England regional network",
+   "p": "401-353-6119",
+   "e": "",
+   "w": "https://nar-anon.org/",
+   "wl": "Website",
+   "b": "Provides family recovery support, but no current Rhode Island-hosted meeting was confirmed in the regional schedules reviewed and its directories change frequently. Meeting list: https://nar-anon.org/meetings-page/",
+   "nt": [],
+   "s": [
+    [
+     "nar-anon.org",
+     "https://nar-anon.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "903",
+   "n": "National Multiple Sclerosis Society",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.nationalmssociety.org/",
+   "wl": "Website",
+   "b": "Offers multiple-sclerosis support resources, but no current Rhode Island group schedule from an official directory was verified in this research. Meeting list: https://www.nationalmssociety.org/",
+   "nt": [],
+   "s": [
+    [
+     "nationalmssociety.org",
+     "https://www.nationalmssociety.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "337",
    "n": "Natural Fitness Beach Yoga",
    "c": "Clubs, fitness and outdoor groups",
@@ -4736,6 +5193,25 @@
     [
      "naturalfitnessyoga.com",
      "https://naturalfitnessyoga.com/site/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "857",
+   "n": "New England Region of Narcotics Anonymous",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island and New England",
+   "p": "1-866-624-3578",
+   "e": "",
+   "w": "https://nerna.org/",
+   "wl": "Website",
+   "b": "Maintains regional NA schedules that change frequently and include Rhode Island meetings outside the Greater Providence list. Helpline: 1-866-624-3578. Meeting list: https://nerna.org/find-a-meeting/meetings/",
+   "nt": [],
+   "s": [
+    [
+     "nerna.org",
+     "https://nerna.org/"
     ]
    ],
    "cl": false
@@ -4877,6 +5353,25 @@
    "cl": false
   },
   {
+   "i": "876",
+   "n": "Newport Hospital",
+   "c": "Recovery and support groups",
+   "a": "Newport County",
+   "p": "",
+   "e": "",
+   "w": "https://www.brownhealth.org/locations/newport-hospital",
+   "wl": "Website",
+   "b": "Hosts stroke and cancer support programs for eligible participants, with schedules that may change. Meeting list: https://www.stroke.org/en/stroke-groups/stroke-support-group-newport-hospital",
+   "nt": [],
+   "s": [
+    [
+     "brownhealth.org",
+     "https://www.brownhealth.org/locations/newport-hospital"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "320",
    "n": "Newport Library ESL Advanced Reading & Conversation Group",
    "c": "Clubs, fitness and outdoor groups",
@@ -4891,6 +5386,25 @@
     [
      "newportlibraryri.libcal.com",
      "https://newportlibraryri.libcal.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "901",
+   "n": "Newport Mental Health",
+   "c": "Recovery and support groups",
+   "a": "Newport County",
+   "p": "401-846-1213",
+   "e": "",
+   "w": "https://www.newportmentalhealth.org/",
+   "wl": "Website",
+   "b": "Provides veteran and mental health services, but the location on an older state-listed peer group notice has closed and no replacement meeting schedule was verified. Meeting list: https://www.newportmentalhealth.org/contact-us/",
+   "nt": [],
+   "s": [
+    [
+     "newportmentalhealth.org",
+     "https://www.newportmentalhealth.org/"
     ]
    ],
    "cl": false
@@ -4929,6 +5443,25 @@
     [
      "newportlibraryri.libcal.com",
      "https://newportlibraryri.libcal.com/event/17512466"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "899",
+   "n": "Nicotine Anonymous at East Bay Recovery Center",
+   "c": "Recovery and support groups",
+   "a": "Warren",
+   "p": "",
+   "e": "",
+   "w": "https://ebcap.org/programs/east-bay-recovery-center/",
+   "wl": "Website",
+   "b": "Appears in the center’s October 2026 calendar, but its recurring weekday and monthly pattern could not be verified. Meeting list: https://9e947cb6.delivery.rocketcdn.me/wp-content/uploads/2026/10/Warren-EBRC-Event-Calendar-October-2026.pdf",
+   "nt": [],
+   "s": [
+    [
+     "ebcap.org",
+     "https://ebcap.org/programs/east-bay-recovery-center/"
     ]
    ],
    "cl": false
@@ -5160,6 +5693,25 @@
    "cl": false
   },
   {
+   "i": "858",
+   "n": "Ocean & Bay Intergroup of Overeaters Anonymous",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island, southeastern Massachusetts and southeastern Connecticut",
+   "p": "401-264-0606",
+   "e": "",
+   "w": "https://oceanandbay.org/",
+   "wl": "Website",
+   "b": "Publishes OA meetings in a frequently changing regional directory, with out-of-state physical meetings excluded from this Rhode Island file. Meeting list: https://oceanandbay.org/meetings/",
+   "nt": [],
+   "s": [
+    [
+     "oceanandbay.org",
+     "https://oceanandbay.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "445",
    "n": "OceanPointe Christian Church (Middletown)",
    "c": "Churches and houses of worship",
@@ -5176,6 +5728,25 @@
     [
      "oceanpointeri.com",
      "https://www.oceanpointeri.com/contact-us"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "854",
+   "n": "Oficina Intergrupal Hispana de Rhode Island",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-621-9698",
+   "e": "",
+   "w": "https://aainri.com/",
+   "wl": "Website",
+   "b": "Connects Spanish-speaking people with AA recovery meetings in Rhode Island through the frequently changing statewide directory. Helpline: 401-621-9698. Meeting list: https://aainri.com/meetings/",
+   "nt": [],
+   "s": [
+    [
+     "aainri.com",
+     "https://aainri.com/"
     ]
    ],
    "cl": false
@@ -5419,6 +5990,25 @@
    "cl": false
   },
   {
+   "i": "887",
+   "n": "Parent Support Network of Rhode Island",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://psnri.org/",
+   "wl": "Website",
+   "b": "Publishes recurring parent and caregiver groups through a frequently changing calendar, with older program pages sometimes showing different times. Meeting list: https://psnri.org/calendar",
+   "nt": [],
+   "s": [
+    [
+     "psnri.org",
+     "https://psnri.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "672",
    "n": "Park Place Congregational UCC (Pawtucket)",
    "c": "Churches and houses of worship",
@@ -5446,6 +6036,25 @@
    "nt": [],
    "s": [],
    "i": "303"
+  },
+  {
+   "i": "878",
+   "n": "Partnership to Reduce Cancer in Rhode Island",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-584-9895",
+   "e": "",
+   "w": "https://www.prcri.org/",
+   "wl": "Website",
+   "b": "Coordinates cancer support and publishes a resource directory whose entries and schedules may change. Meeting list: https://www.prcri.org/support-groups",
+   "nt": [],
+   "s": [
+    [
+     "prcri.org",
+     "https://www.prcri.org/"
+    ]
+   ],
+   "cl": false
   },
   {
    "i": "527",
@@ -5811,6 +6420,25 @@
    "cl": false
   },
   {
+   "i": "890",
+   "n": "Providence Vet Center",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.va.gov/providence-vet-center/",
+   "wl": "Website",
+   "b": "Provides eligibility-based veteran and family groups whose current schedules are available from the center rather than its public page. Meeting list: https://www.va.gov/providence-vet-center/",
+   "nt": [],
+   "s": [
+    [
+     "va.gov",
+     "https://www.va.gov/providence-vet-center/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "395",
    "n": "Providence Village Walks with Bonnie",
    "c": "Clubs, fitness and outdoor groups",
@@ -5907,6 +6535,668 @@
    "cl": false
   },
   {
+   "i": "863",
+   "n": "RD Rhode Island",
+   "c": "Recovery and support groups",
+   "a": "Providence and Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://recoverydharma.org/",
+   "wl": "Website",
+   "b": "Offers a Buddhist-informed recovery meeting in Providence, with the official listing subject to schedule changes. Meeting list: https://recoverydharma.org/meetings/rd-rhode-island/",
+   "nt": [],
+   "s": [
+    [
+     "recoverydharma.org",
+     "https://recoverydharma.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "918",
+   "n": "Recovery and support meetings in Barrington",
+   "c": "Recovery and support groups",
+   "a": "Barrington",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "5 weekly meetings. Alzheimer’s Association Rhode Island Chapter: Barrington Area Caregivers Support Group, 1st Monday 1:00 PM; American Parkinson Disease Association: The Parkinson’s Connection, 3rd Monday 1:00 PM, The Peck Center for Adult Enrichment; Alcoholics Anonymous: Men's 12 Step Workshop, Monday 7:00 PM, Saint Matthew & Mark Episcopal Church; Alcoholics Anonymous: Tuesday Night Women, Tuesday 7:00 PM, Online - Rhode Island (online); Al-Anon: Loving Hearts Al-Anon Group, Saturday 11:00 AM, St. James Lutheran Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "919",
+   "n": "Recovery and support meetings in Bristol",
+   "c": "Recovery and support groups",
+   "a": "Bristol",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "5 weekly meetings. Alcoholics Anonymous: Bristol Monday Night, Monday 7:00 PM, Saint Michael's Parish Hall; Alcoholics Anonymous: Tuesday Night Big Book - Beginners, Tuesday 7:00 PM, Saint Mary's Rectory; Alcoholics Anonymous: On Course, Wednesday 7:00 PM, Saint Mary's Rectory; NAMI Rhode Island: NAMI Family Support Group, 4th Thursday 6:00 PM, Herreshoff Room; Alcoholics Anonymous: Sunday Night Freedom, Sunday 7:00 PM, Columban Fathers.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "920",
+   "n": "Recovery and support meetings in Burrillville",
+   "c": "Recovery and support groups",
+   "a": "Burrillville",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "2 weekly meetings. Alcoholics Anonymous: Day By Day, Tuesday 7:00 PM, Our Lady Of Good Help Church; Alcoholics Anonymous: As Bill Sees It, Friday 10:30 AM, Berean Baptist Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "921",
+   "n": "Recovery and support meetings in Central Falls",
+   "c": "Recovery and support groups",
+   "a": "Central Falls",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "4 weekly meetings. Alcoholics Anonymous: Grupo Internacional, Monday 7:00 PM, High Street (468); Alcoholics Anonymous: Grupo Internacional, Thursday 7:00 PM, High Street (468); Alcoholics Anonymous: Grupo Internacional, Friday 7:00 PM, High Street (468); Alcoholics Anonymous: Grupo Internacional, Sunday 7:00 PM, High Street (468).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "910",
+   "n": "Recovery and support meetings in Charlestown",
+   "c": "Recovery and support groups",
+   "a": "Charlestown",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "7 weekly meetings. Partnership to Reduce Cancer in Rhode Island: Bead Cafe, 2nd Tuesday 10:00 AM, Cross Mills Public Library; Al-Anon: Charlestown New Life, Tuesday 7:00 PM, Cross Mills 1st Baptist Church (hybrid); Alcoholics Anonymous: How It Works, Tuesday 7:00 PM, Saint Andrews Lutheran Church; Partnership to Reduce Cancer in Rhode Island: CANcer Talks, 1st Thursday 5:00 PM, Cross Mills Public Library; Alcoholics Anonymous: Anchor 1 A, Thursday 7:00 PM, Saint Andrews Lutheran Church; Alcoholics Anonymous: Really Good Meeting, Saturday 7:00 PM, Saint Andrews Lutheran Church; Alcoholics Anonymous: Charlestown Big Book, Sunday 10:00 AM, Saint Mary's Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "922",
+   "n": "Recovery and support meetings in Coventry",
+   "c": "Recovery and support groups",
+   "a": "Coventry",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "6 weekly meetings. Alcoholics Anonymous: Pass It On, Monday 6:00 PM, Church of the Apostles; Al-Anon: Step Up To The Summit, Monday 7:30 PM, Summit Baptist Church; Alcoholics Anonymous: Steps To The Summit, Monday 7:30 PM, Summit Baptist Church; Alcoholics Anonymous: Women In The Solution, Tuesday 7:00 PM, Cornerstone Of Faith UMC; Alcoholics Anonymous: Fellowship Too, Wednesday 7:30 PM, Saint John & Paul Church; Alcoholics Anonymous: Simple, Sunday 7:00 PM, Cornerstone Of Faith UMC.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "923",
+   "n": "Recovery and support meetings in Cranston",
+   "c": "Recovery and support groups",
+   "a": "Cranston",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "22 weekly meetings. SMART Recovery: SMART Recovery 4-Point Recovery #5109, Monday 11:00 AM, Zoom (online); Alcoholics Anonymous: Garden City Beginners, Monday 6:00 PM, Woodridge Congregational Church; Alcoholics Anonymous: Garden City, Monday 7:00 PM, Woodridge Congregational Church; Alcoholics Anonymous: Responsible, Monday 7:30 PM, Trinity Episcopal Church; Overeaters Anonymous: You are Never Alone, Tuesday 6:30 PM, Praise Tabernacle; Alcoholics Anonymous: Cranston Tuesday Night, Tuesday 7:00 PM, Phillips Memorial Baptist Church; Alcoholics Anonymous: Washington Park, Tuesday 7:00 PM, Edgewood Congregational Church; Narcotics Anonymous: Serenity Maniacs, Tuesday 7:00 PM, Woodridge United Church; Alcoholics Anonymous: Asbury, Tuesday 7:30 PM, Pawtuxet Baptist Church; RI Kinship Community Connections: Grandparents and Daytime Kinship Support Group, 4th Wednesday 10:00 AM, The Village, Trinity Episcopal Church basement; Narcotics Anonymous: Edgewood NA, Wednesday 7:00 PM, Edgewood Congregational Church (hybrid); Al-Anon: Alanon United, Thursday 7:00 PM, Praise Tabernacle Church; Alateen: United Alateen, Thursday 7:00 PM, Praise Tabernacle Church, lower level youth group area; Alcoholics Anonymous: Edgewood Women's Big Book, Thursday 7:00 PM, Trinity Episcopal Church; Alcoholics Anonymous: This Is It, Thursday 7:00 PM, Trinity Episcopal Church; Narcotics Anonymous: The Warehouse Meeting, Thursday 7:00 PM, Building 1; Alcoholics Anonymous: P.A.D.D.L.E, Friday 7:00 PM, Phillips Memorial Baptist Church; Alcoholics Anonymous: Bell Tower, Saturday 8:00 AM, Immaculate Conception Church; Alcoholics Anonymous: AA Cranston Saturday Night, Saturday 7:00 PM, Saint Pauls Church; Alcoholics Anonymous: May Day, Saturday 7:00 PM, Woodridge Congregational Church; Alcoholics Anonymous: Bell Tower, Sunday 8:00 AM, Immaculate Conception Church; Alcoholics Anonymous: Pawtuxet PM, Sunday 7:00 PM, Edgewood Congregational Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "924",
+   "n": "Recovery and support meetings in Cumberland",
+   "c": "Recovery and support groups",
+   "a": "Cumberland",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "6 weekly meetings. Al-Anon: Let Go and Let God, Wednesday 7:00 PM, St. Aidan's Church; Alzheimer’s Association Rhode Island Chapter: Cumberland Area Caregiver Support Group, 3rd Thursday 5:30 PM; Alcoholics Anonymous: New View, Thursday 7:00 PM, Emmanuel Episcopal Church; Narcotics Anonymous: Recovery In The Chapel Group (Hybrid), Friday 7:30 PM, Emmanuel Episcopal Church (hybrid); SMART Recovery: SMART Recovery Family & Friends #9525, 1st Sunday 3:30 PM, Zoom (online); Alcoholics Anonymous: Sunday Night Step, Sunday 7:00 PM, Emmanuel Episcopal Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "925",
+   "n": "Recovery and support meetings in East Greenwich",
+   "c": "Recovery and support groups",
+   "a": "East Greenwich",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "18 weekly meetings. Alcoholics Anonymous: Monday Meditation Meeting, Monday 10:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: 11th Step Meditation, Monday 7:00 PM, Saint Luke's Episcopal Church; Al-Anon: Al-Anon Works, If You Work It, Tuesday 10:00 AM, St Luke's Episcopal Church, room 5 (hybrid); Alcoholics Anonymous: Lost And Found, Tuesday 10:00 AM, Westminster Unitarian Church; Brown University Health Cancer Institute: Caregiver Support Group, 1st Tuesday 10:00 AM, Brown University Health Cancer Institute; Al-Anon: New Beginning Al-Anon Family Group, Tuesday 7:00 PM, St Luke's Episcopal Church; Alcoholics Anonymous: The Grateful Group, Tuesday 7:30 PM, Saint Luke's Episcopal Church; Alcoholics Anonymous: Grateful Hearts, Wednesday 6:30 PM, Online - Rhode Island (online); Alcoholics Anonymous: Come To Live, Wednesday 7:30 PM, Saint Luke's Episcopal Church; Alcoholics Anonymous: Lit Young People's Big Book, Wednesday 7:30 PM, Saint Luke's Episcopal Church; Alcoholics Anonymous: Lost And Found, Thursday 10:00 AM, Westminster Unitarian Church; American Parkinson Disease Association: East Greenwich/Harborhill Parkinson’s Support Group, 1st Thursday 1:00 PM, Atria Harborhill; HopeHealth: General Grief Support Group, Thursday 2:00 PM, The Seasons; Alcoholics Anonymous: Women Of Dignity, Thursday 7:00 PM, Saint Luke's Episcopal Church; Alcoholics Anonymous: It Works...If You Work It, Thursday 7:30 PM, Christ Church; Alcoholics Anonymous: Friday Women Study The Steps, Friday 10:00 AM, Saint Luke's Episcopal Church; Alcoholics Anonymous: Men's 12 And 12, Saturday 9:00 AM, Saint Luke's Episcopal Church; Alcoholics Anonymous: Came To Live, Sunday 7:00 PM, Saint Luke's Episcopal Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "926",
+   "n": "Recovery and support meetings in East Providence",
+   "c": "Recovery and support groups",
+   "a": "East Providence",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "35 weekly meetings. Alcoholics Anonymous: A Better Tomorrow, Monday 10:00 AM, Haven United Methodist Church; Alcoholics Anonymous: Path To Happiness, Monday 10:00 AM, Church of the Epiphany; Alcoholics Anonymous: Rule 62, Monday 12:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Seeds Of Hope, Monday 12:00 PM, East Providence City Hall; Alcoholics Anonymous: Acceptance, Monday 7:00 PM, Rumford Grange Hall; Alcoholics Anonymous: A Better Tomorrow, Tuesday 10:00 AM, Haven United Methodist Church; Alcoholics Anonymous: Path To Happiness, Tuesday 10:00 AM, Church of the Epiphany; Alcoholics Anonymous: Seeds Of Hope, Tuesday 12:00 PM, East Providence City Hall; American Parkinson Disease Association: East Providence Support Group, 3rd Tuesday 1:00 PM, Evergreen House Health Center; Brown University Health: East Bay RSVP Stroke Club, 1st Tuesday 1:30 PM, East Providence Senior Center/Breed Hall; Gamblers Anonymous: Rumford G.A. – Tuesday, Tuesday 7:00 PM; Alcoholics Anonymous: Wisdom, Tuesday 7:15 PM, Haven United Methodist Church; Alcoholics Anonymous: Day's End, Tuesday 8:30 PM, Saint Brendan School; Alcoholics Anonymous: A Better Tomorrow, Wednesday 10:00 AM, Haven United Methodist Church; Alcoholics Anonymous: Path To Happiness, Wednesday 10:00 AM, Church of the Epiphany; Alcoholics Anonymous: Seeds Of Hope, Wednesday 12:00 PM, East Providence City Hall; Alcoholics Anonymous: Beginners Step 1,2,3, Wednesday 2:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: The Key To Freedom, Wednesday 7:30 PM, Haven United Methodist Church; Alcoholics Anonymous: A Better Tomorrow, Thursday 12:00 AM, Haven United Methodist Church; Alcoholics Anonymous: Path To Happiness, Thursday 10:00 AM, Church of the Epiphany; Alcoholics Anonymous: Seeds Of Hope, Thursday 12:00 PM, East Providence City Hall; Narcotics Anonymous: Why Are We Here, Thursday 7:00 PM, Riverside Congregational Church; Alcoholics Anonymous: Helping Hand, Thursday 7:30 PM, Bethany Church of the Nazarene; Alcoholics Anonymous: Solid Step, Thursday 7:30 PM, Church of the Epiphany; Alcoholics Anonymous: A Better Tomorrow, Friday 10:00 AM, Haven United Methodist Church; Alcoholics Anonymous: Path To Happiness, Friday 10:00 AM, Church of the Epiphany; Adult Children of Alcoholics: Seeds of Hope, Friday 12:00 PM, City Hall, 3rd Floor Conference Room; Alcoholics Anonymous: Women & The Big Book In Sobriety, Friday 12:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Carousel, Friday 7:30 PM, Riverside Congregational Church; Alcoholics Anonymous: Everybody's Step, Saturday 10:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Path To Happiness, Saturday 10:00 AM, Church of the Epiphany; Alcoholics Anonymous: Better Late Than Never, Saturday 7:00 PM, Bethany Church of the Nazarene; Alcoholics Anonymous: Welcome Chance, Sunday 10:00 AM, Haven United Methodist Church; Gamblers Anonymous: Rumford G.A. – Sunday, Sunday 6:00 PM; Alcoholics Anonymous: Sunday Night Hope, Sunday 7:00 PM, Haven United Methodist Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "927",
+   "n": "Recovery and support meetings in Foster",
+   "c": "Recovery and support groups",
+   "a": "Foster",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "1 weekly meetings. Alcoholics Anonymous: Upon Awakening, Saturday 8:00 AM, Woody Lowden Recreation Center.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "928",
+   "n": "Recovery and support meetings in Glocester",
+   "c": "Recovery and support groups",
+   "a": "Glocester",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "3 weekly meetings. Alcoholics Anonymous: The Big Book, Tuesday 12:00 PM, Greenville Baptist Church House; Alcoholics Anonymous: New Freedom, Wednesday 8:00 PM, Saint Eugene Church; Alcoholics Anonymous: The Grace Gift, Thursday 7:00 PM, Chepachet Union Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "911",
+   "n": "Recovery and support meetings in Hopkinton",
+   "c": "Recovery and support groups",
+   "a": "Hopkinton",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "7 weekly meetings. Alcoholics Anonymous: Chariho Big Book Step Study, Monday 6:00 PM, Chariho Southern Baptist Church; Alcoholics Anonymous: Primary Purpose, Tuesday 9:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Tuesday Night Women's Step, Tuesday 6:00 PM, First Baptist Church; Alcoholics Anonymous: Primary Purpose, Tuesday 9:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Primary Purpose, Thursday 9:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Living Sober, Friday 6:00 PM, First Baptist Church; Alcoholics Anonymous: Primary Purpose, Saturday 9:00 AM, Online - Rhode Island (online).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "904",
+   "n": "Recovery and support meetings in Jamestown",
+   "c": "Recovery and support groups",
+   "a": "Jamestown",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "9 weekly meetings. Alcoholics Anonymous: Morning Glory, Monday 6:00 AM, Saint Matthews Episcopal Church; Al-Anon: Live & Let Live Group, Monday 6:00 PM, St. Matthew's Episcopal Church; Alcoholics Anonymous: Happy Hour II, Tuesday 5:15 PM, Saint Matthews Episcopal Church; Alcoholics Anonymous: Come To Believe, Wednesday 5:30 PM, Saint Matthews Episcopal Church; Alcoholics Anonymous: Morning Glory, Thursday 6:00 AM, Saint Matthews Episcopal Church; Alcoholics Anonymous: Eleventh Step, Thursday 5:30 PM, Saint Matthews Episcopal Church; Alcoholics Anonymous: Happy Hour I, Friday 5:00 PM, Saint Matthews Episcopal Church (hybrid); Alcoholics Anonymous: Jamestown Step Workshop, Saturday 9:00 AM, Saint Matthews Episcopal Church; Alcoholics Anonymous: Time For Promises, Sunday 4:30 PM, Saint Matthews Episcopal Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "929",
+   "n": "Recovery and support meetings in Johnston",
+   "c": "Recovery and support groups",
+   "a": "Johnston",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "5 weekly meetings. Overeaters Anonymous: Let’s Be Honest, Monday 10:00 AM, Marian Mohr Library; Alcoholics Anonymous: New Dawn, Wednesday 7:00 AM, Saint Robert Bellarmine Church; Alcoholics Anonymous: Making The Change, Friday 7:00 PM, Saint Roccos Church; Narcotics Anonymous: The Lie Is Dead Group, Friday 7:00 PM, Kings Tabernacle Church; Alcoholics Anonymous: Sunday Night Grapevine, Sunday 6:00 PM, Saint Robert Bellarmine Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "930",
+   "n": "Recovery and support meetings in Lincoln",
+   "c": "Recovery and support groups",
+   "a": "Lincoln",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "7 weekly meetings. Brown University Health Cancer Institute: Women’s Cancer Support Group, 1st Monday 3:30 PM, Online (online); Alcoholics Anonymous: Saylesville Monday Night, Monday 7:30 PM, Chapel Street Congregational; American Parkinson Disease Association: APDA Lincoln Support Group, 2nd Tuesday 10:00 AM, Lincoln Senior Center; Overeaters Anonymous: New Beginning, Thursday 10:00 AM, Lincoln Senior Center (hybrid); Alcoholics Anonymous: Step Into Action, Thursday 6:30 PM, Chapel Street Congregational; Alcoholics Anonymous: Peace Of Mind, Saturday 10:30 AM, Saint James Church; Alcoholics Anonymous: Remember When, Sunday 7:00 PM, Christ Church in Lonsdale.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "909",
+   "n": "Recovery and support meetings in Little Compton",
+   "c": "Recovery and support groups",
+   "a": "Little Compton",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "8 weekly meetings. Alcoholics Anonymous: Little Compton Zoom AA, Monday 8:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Little Compton Zoom AA, Tuesday 8:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Little Compton Zoom AA, Wednesday 8:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Little Compton Zoom AA, Thursday 8:00 AM, Online - Rhode Island (online); American Parkinson Disease Association: Empowering PWP Support Group, 2nd Thursday 3:00 PM, Little Compton Wellness Center; Alcoholics Anonymous: Little Compton Zoom AA, Friday 8:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Little Compton Zoom AA, Saturday 8:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Little Compton Zoom AA, Sunday 8:00 AM, Online - Rhode Island (online).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "906",
+   "n": "Recovery and support meetings in Middletown",
+   "c": "Recovery and support groups",
+   "a": "Middletown",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "26 weekly meetings. Alcoholics Anonymous: Clean and Sober, Monday 7:00 AM, Saint Columba Parish Hall; Alcoholics Anonymous: Lunch Bunch Nooners, Monday 12:00 PM, Y.A.N.A Club (hybrid); Alcoholics Anonymous: Into Action, Monday 7:30 PM, United Congregational Church; Alcoholics Anonymous: Clean and Sober, Tuesday 7:00 AM, Saint Columba Parish Hall; Alcoholics Anonymous: Lunch Bunch Nooners, Tuesday 12:00 PM, Y.A.N.A Club (hybrid); NAMI Rhode Island: NAMI Family Support Group, 2nd Tuesday 5:00 PM, St. Lucy's Church; Al-Anon: How Al-anon Works, Tuesday 6:30 PM, Newport YANA Club Building; Alcoholics Anonymous: Hang 12, Tuesday 6:30 PM, Y.A.N.A Club (hybrid); Alcoholics Anonymous: Clean and Sober, Wednesday 7:00 AM, Saint Columba Parish Hall; Alcoholics Anonymous: Lunch Bunch Nooners, Wednesday 12:00 PM, Y.A.N.A Club (hybrid); Alcoholics Anonymous: Big Book Awakening, Wednesday 6:30 PM, Y.A.N.A Club; Alcoholics Anonymous: Aquidneck Island Men's Step, Wednesday 7:30 PM, Calvary Methodist Church; Alcoholics Anonymous: Clean and Sober, Thursday 7:00 AM, Saint Columba Parish Hall; Alcoholics Anonymous: Lunch Bunch Nooners, Thursday 12:00 PM, Y.A.N.A Club (hybrid); Alcoholics Anonymous: Clean and Sober, Friday 7:00 AM, Saint Columba Parish Hall; Alcoholics Anonymous: Hope At Eight, Friday 8:00 AM, Y.A.N.A Club; Alcoholics Anonymous: Lunch Bunch Nooners, Friday 12:00 PM, Y.A.N.A Club (hybrid); Alcoholics Anonymous: Fresh Air, Friday 7:30 PM, Y.A.N.A Club; Narcotics Anonymous: Newport NA, Friday 7:30 PM, Calvary United Methodist Church; Overeaters Anonymous: A Room with a View, Saturday 9:30 AM, YANA; Alcoholics Anonymous: Benign Anarchy, Saturday 3:00 PM, Y.A.N.A Club; Alcoholics Anonymous: Enlightened 11th Step, Saturday 5:00 PM, Y.A.N.A Club; Alcoholics Anonymous: Saturday Night Live, Saturday 7:00 PM, Y.A.N.A Club (hybrid); American Parkinson Disease Association: Aquidneck Island Parkinson’s Support Group, 2nd Saturday, Middletown Public Library; Al-Anon: Serenity On Sunday, Sunday 6:00 PM, YANA Clubhouse; Alateen: You Are Not Alone Alateen, Sunday 6:00 PM, YANA Clubhouse.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "912",
+   "n": "Recovery and support meetings in Narragansett",
+   "c": "Recovery and support groups",
+   "a": "Narragansett",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "28 weekly meetings. Alcoholics Anonymous: Spiritual Awakening, Monday 7:00 AM, Narragansett Town Beach; Alcoholics Anonymous: Spiritual Awakening, Monday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Just For Today (Wakefield), Monday 12:30 PM, Anchor Christian Fellowship; Alcoholics Anonymous: We Heard It Through The Grapevine, Monday 6:00 PM, Anchor Christian Fellowship; Alcoholics Anonymous: Spiritual Awakening, Tuesday 7:00 AM, Narragansett Town Beach; Alcoholics Anonymous: Spiritual Awakening, Tuesday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: G.O.D., Tuesday 12:30 PM, Anchor Christian Fellowship; Alcoholics Anonymous: Tuesday 12&12, Tuesday 7:30 PM, Anchor Christian Fellowship; Alcoholics Anonymous: Spiritual Awakening, Wednesday 7:00 AM, Narragansett Town Beach; Alcoholics Anonymous: Spiritual Awakening, Wednesday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Just For Today (Wakefield), Wednesday 12:30 PM, Anchor Christian Fellowship; Alcoholics Anonymous: Ocean View, Wednesday 7:30 PM, Anchor Christian Fellowship; Alcoholics Anonymous: Spiritual Awakening, Thursday 7:00 AM, Narragansett Town Beach; Alcoholics Anonymous: Spiritual Awakening, Thursday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: G.O.D., Thursday 12:30 PM, Anchor Christian Fellowship; Alcoholics Anonymous: Anchor Of Hope, Thursday 6:00 PM, Anchor Christian Fellowship; Alcoholics Anonymous: Spiritual Awakening, Friday 7:00 AM, Narragansett Town Beach; Alcoholics Anonymous: Spiritual Awakening, Friday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Just For Today (Wakefield), Friday 12:30 PM, Anchor Christian Fellowship; Al-Anon: Anchor of Hope, Friday 6:00 PM, Christian Anchor Fellowship Assembly; Alcoholics Anonymous: Spiritual Awakening, Saturday 7:00 AM, Narragansett Town Beach; Alcoholics Anonymous: Spiritual Awakening, Saturday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: AA We Care A Lot, Saturday 10:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: 11th Step Language Of The Heart, Saturday 5:00 PM, Anchor Christian Fellowship; Narcotics Anonymous: Opt For Life, Saturday 7:30 PM, St Peter's By The Sea; Alcoholics Anonymous: Spiritual Awakening, Sunday 7:00 AM, Narragansett Town Beach; Alcoholics Anonymous: Spiritual Awakening, Sunday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Promises, Sunday 2:00 PM, Anchor Christian Fellowship.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "913",
+   "n": "Recovery and support meetings in New Shoreham",
+   "c": "Recovery and support groups",
+   "a": "New Shoreham",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "10 weekly meetings. Alcoholics Anonymous: Off Shore, Monday 4:30 PM, Harbor Church; Alcoholics Anonymous: Off Shore, Tuesday 12:00 PM, Harbor Church; Alcoholics Anonymous: Off Shore, Wednesday 7:30 AM, Harbor Church; Al-Anon: Serenity by the Sea AFG, Wednesday 4:30 PM, Harbor Baptist Church; Alcoholics Anonymous: Off Shore, Thursday 8:30 AM, Harbor Church; Alcoholics Anonymous: Off Shore, Thursday 4:30 PM, Harbor Church; Alcoholics Anonymous: Off Shore, Friday 5:00 PM, Harbor Church; Alcoholics Anonymous: Off Shore, Saturday 8:30 AM, Harbor Church; Alcoholics Anonymous: Off Shore, Saturday 4:00 PM, Harbor Church; Narcotics Anonymous: The Offshore Meeting, Sunday 4:30 PM, Harbor Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "905",
+   "n": "Recovery and support meetings in Newport",
+   "c": "Recovery and support groups",
+   "a": "Newport",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "39 weekly meetings. Alcoholics Anonymous: Hope At Seven, Monday 7:00 AM, Seamans Church Institute; East Bay Recovery Center: Cultivate Creativity, Monday 9:00 AM, East Bay Recovery Center; Alcoholics Anonymous: Just For Today (Newport), Monday 10:00 AM, Saint Pauls Church; East Bay Recovery Center: All Recovery, Monday 11:00 AM, East Bay Recovery Center (hybrid); Alcoholics Anonymous: meeting, Monday 12:00 PM, Saint Peters Lutheran Church; Brown University Health Cancer Institute: Early Breast Cancer Support Group, 1st Monday 2:00 PM, Newport Hospital, Birthing Center Conference Room; Brown University Health Cancer Institute: Men’s Cancer Support Group, 3rd Monday 2:00 PM, Newport Hospital, seventh-floor conference room; Brown University Health Cancer Institute: Women’s Cancer Support Group, 2nd Monday 2:00 PM, Newport Hospital, Birthing Center Conference Room; Alcoholics Anonymous: Grupo de AA Nueva Esperanza, Monday 6:00 PM, CrossPoint Church; Alcoholics Anonymous: Hope At Seven, Tuesday 7:00 AM, Seamans Church Institute; Alcoholics Anonymous: Just For Today (Newport), Tuesday 10:00 AM, Saint Pauls Church; East Bay Recovery Center: All Recovery, Tuesday 11:00 AM, East Bay Recovery Center (hybrid); Alcoholics Anonymous: meeting, Tuesday 12:00 PM, Saint Peters Lutheran Church; Alcoholics Anonymous: Newport Young People, Tuesday 8:00 PM, Seamans Church Institute; NAMI Rhode Island: NAMI Connection Group, Tuesday, East Bay Recovery Center (hybrid); Alcoholics Anonymous: Hope At Seven, Wednesday 7:00 AM, Seamans Church Institute; Alcoholics Anonymous: Just For Today (Newport), Wednesday 10:00 AM, Saint Pauls Church; East Bay Recovery Center: All Recovery, Wednesday 11:00 AM, East Bay Recovery Center (hybrid); Alcoholics Anonymous: meeting, Wednesday 12:00 PM, Saint Peters Lutheran Church; Recovery Dharma: Recovery Dharma, Wednesday 12:30 PM, East Bay Recovery Center; Alcoholics Anonymous: Bowen Wharf Discussion, Wednesday 8:00 PM, Seamans Church Institute; Alcoholics Anonymous: Hope At Seven, Thursday 7:00 AM, Seamans Church Institute; East Bay Recovery Center: Soulful Serenity, Thursday 9:00 AM, East Bay Recovery Center (hybrid); Alcoholics Anonymous: Just For Today (Newport), Thursday 10:00 AM, Saint Pauls Church; Newport Hospital: Stroke Support Group, 3rd Thursday 10:00 AM, Newport Hospital; East Bay Recovery Center: All Recovery, Thursday 11:00 AM, East Bay Recovery Center (hybrid); Alcoholics Anonymous: meeting, Thursday 12:00 PM, Saint Peters Lutheran Church; Alcoholics Anonymous: Beginners - Living Sober, Thursday 5:30 PM, Chapel of Hope (hybrid); Alcoholics Anonymous: Steps By The Sea, Thursday 8:00 PM, Seamans Church Institute; Alcoholics Anonymous: Hope At Seven, Friday 7:00 AM, Seamans Church Institute; East Bay Recovery Center: Play to Heal, Friday 9:00 AM, East Bay Recovery Center; Alcoholics Anonymous: Just For Today (Newport), Friday 10:00 AM, Saint Pauls Church; East Bay Recovery Center: All Recovery, Friday 11:00 AM, East Bay Recovery Center (hybrid); Alcoholics Anonymous: meeting, Friday 12:00 PM, Saint Peters Lutheran Church; Alcoholics Anonymous: Super Duper Sober, Friday 7:00 PM, Saint Joseph's Church; Alcoholics Anonymous: Cliffside Serenity, Saturday 8:30 AM, Seamans Church Institute; Alcoholics Anonymous: Just For Today (Newport), Saturday 10:00 AM, Saint Pauls Church; Alcoholics Anonymous: Seaside Sunday Morning, Sunday 9:45 AM, Seamans Church Institute; Alcoholics Anonymous: Sunday Beginners, Sunday 7:00 PM, Saint Peters Lutheran Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "914",
+   "n": "Recovery and support meetings in North Kingstown",
+   "c": "Recovery and support groups",
+   "a": "North Kingstown",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "27 weekly meetings. Alcoholics Anonymous: Friends Of Bill W., Monday 12:30 PM, First Baptist Church-Wickford; Alcoholics Anonymous: The Big Book Does Matter, Monday 6:00 PM, United Methodist Church; NAMI Rhode Island: NAMI Family Support Group, 1st Monday 6:00 PM, St. Paul's Parish House; Adult Children of Alcoholics: meeting, Monday 7:00 PM; Alcoholics Anonymous: Drunk Squad, Monday 7:30 PM, United Methodist Church; Alcoholics Anonymous: Monday Night Step, Monday 7:30 PM, Saint Paul's Parish Hall; Alcoholics Anonymous: Fellowship In The Morning, Tuesday 8:00 AM, First Baptist Church of North Kingstown; Alcoholics Anonymous: Friends Of Bill W., Tuesday 12:30 PM, First Baptist Church-Wickford; Alcoholics Anonymous: Age Doesn't Matter, Tuesday 7:30 PM, United Methodist Church (hybrid); Alcoholics Anonymous: Friends Of Bill W., Wednesday 12:30 PM, First Baptist Church-Wickford; NAMI Rhode Island: NAMI Family Support Group, 3rd Wednesday 6:00 PM, St. Paul's Library; Alcoholics Anonymous: Broken Elevator, Wednesday 7:30 PM, First Baptist Church of North Kingstown; Alcoholics Anonymous: School Street Survivors, Wednesday 7:30 PM, Saint Francis DeSales Church; Alcoholics Anonymous: Fellowship In The Morning, Thursday 8:00 AM, First Baptist Church of North Kingstown; Alcoholics Anonymous: Friends Of Bill W., Thursday 12:30 PM, First Baptist Church-Wickford; Alcoholics Anonymous: Cheers, Thursday 6:00 PM, First Baptist Church-Wickford; Alcoholics Anonymous: Dry Dock #14, Thursday 7:30 PM, Saint Paul's Parish Hall; Alcoholics Anonymous: It's All Here, Thursday 7:30 PM, First Baptist Church of North Kingstown; Alcoholics Anonymous: Friends Of Bill W., Friday 12:30 PM, First Baptist Church-Wickford; Al-Anon: Let It Begin With Me AFG, Friday 5:00 PM, St. Paul's Parish Hall; Alcoholics Anonymous: 11th Step Meditation, Friday 6:30 PM, First Baptist Church of North Kingstown; Alcoholics Anonymous: Step Into Life, Friday 7:00 PM, Mt. Vernon Masonic Lodge No. 4; Alcoholics Anonymous: Homeport, Friday 7:30 PM, Online - Rhode Island (online); Alcoholics Anonymous: Wickford Reflections, Saturday 9:00 AM, Saint Paul's Parish Hall; Alcoholics Anonymous: Fireside, Saturday 10:00 AM, First Baptist Church-Wickford; Alcoholics Anonymous: Road To Recovery, Saturday 10:00 AM, United Methodist Church; Adult Children of Alcoholics: meeting, Saturday 10:30 AM.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "931",
+   "n": "Recovery and support meetings in North Providence",
+   "c": "Recovery and support groups",
+   "a": "North Providence",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "7 weekly meetings. Alcoholics Anonymous: Grupo Divina Providencia, Tuesday 7:00 PM, Charles(847); Adult Children of Alcoholics: ACA 7PM Meeting, Wednesday 7:00 PM, St. James Episcopal Church; Alcoholics Anonymous: Reflections In Sobriety, Wednesday 7:30 PM, Allendale Baptist Church; Alcoholics Anonymous: Peaceful Ways, Thursday 7:00 PM, Saint James Episcopal Church; Alcoholics Anonymous: Grupo Divina Providencia, Friday 7:00 PM, Charles(847); Alcoholics Anonymous: Grupo Divina Providencia, Saturday 4:00 PM, Charles(847); Alcoholics Anonymous: Grupo Divina Providencia, Sunday 4:00 PM, Charles(847).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "932",
+   "n": "Recovery and support meetings in North Smithfield",
+   "c": "Recovery and support groups",
+   "a": "North Smithfield",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "3 weekly meetings. Alcoholics Anonymous: Homestead Big Book, Monday 7:00 PM, Slatersville Congregational Church; Alcoholics Anonymous: K.I.S.S, Friday 7:30 PM, Saint Johns Church; Al-Anon: Serenity on the Hill, Sunday 10:45 AM, The Villa at St. Antoine, Community Room.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "942",
+   "n": "Recovery and support meetings in Online and statewide",
+   "c": "Recovery and support groups",
+   "a": "Online and statewide",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "78 weekly meetings. Adult Children of Alcoholics: RI Area ACA Morning Meeting, Monday 7:00 AM, Zoom (online); Overeaters Anonymous: Two Way Prayer, Monday 8:00 AM, Zoom (online); Narcotics Anonymous: NA In The Day, Monday 12:00 PM, Zoom (online); Alzheimer’s Association Rhode Island Chapter: Caregivers Support Group, Monday 3:30 PM (online); NAMI Rhode Island: NAMI Connection Recovery Support Group, Monday 4:30 PM; HopeHealth: Loss of Adult Child Support Group, Monday 5:00 PM, Zoom (online); HopeHealth: Loss of Parent Support Group, Monday 5:00 PM, Zoom (online); HopeHealth: Parkinson’s Caregiver Support Group, 1st Monday 5:00 PM, Zoom (online); HopeHealth: Parkinson’s Caregiver Support Group, 3rd Monday 5:00 PM, Zoom (online); HopeHealth: General Caregiver Support Group, 1st Monday 5:30 PM, Zoom (online); HopeHealth: General Caregiver Support Group, 3rd Monday 5:30 PM, Zoom (online); Adult Children of Alcoholics: Zoom Kids Are Alright ACA, Monday 6:00 PM, Zoom (online); Adult Children of Alcoholics: ACA MEETING, Monday 7:00 PM, Zoom (online); HopeHealth: Young Adult Grief Support Group, Monday 7:00 PM, Zoom (online); Overeaters Anonymous: Big Book Celebration, Monday 7:00 PM, Zoom (online); RIPIN: Family Voices English Peer Support Group, 3rd Monday, Zoom (online); Adult Children of Alcoholics: RI Area ACA Morning Meeting, Tuesday 7:00 AM, Zoom (online); Alzheimer’s Association Rhode Island Chapter: Caregivers support group, Tuesday 10:00 AM (online); Al-Anon: Higher Powered Lunch Bunch, Tuesday 12:00 PM, Zoom (online); American Parkinson Disease Association: Parkinson’s Disease Support Group, Tuesday 12:00 PM, Spaulding Outpatient Center at Kent Hospital; Narcotics Anonymous: NA In The Day, Tuesday 12:00 PM, Zoom (online); HopeHealth: Mindfulness for Caregivers, 1st Tuesday 1:00 PM, Zoom (online); HopeHealth: Mindfulness for Caregivers, 3rd Tuesday 1:00 PM, Zoom (online); HopeHealth: Dementia Caregiver Support Group, Tuesday 3:00 PM, Zoom (online); HopeHealth: Children & Teens Grief Support Group, 1st Tuesday 3:30 PM, Zoom (online); HopeHealth: Loss of Spouse/Life Partner Support Group, Tuesday 4:00 PM, Zoom (online); HopeHealth: Young Adult Loss of Parent Support Group, Tuesday 5:00 PM, Zoom (online); HopeHealth: Soulful Signs, Tuesday 5:30 PM, Zoom (online); Alzheimer’s Association Rhode Island Chapter: Young-Onset Support Group for Person Diagnosed and a Care Partner, 3rd Tuesday 6:00 PM; Overeaters Anonymous: Big Book Step Study, Tuesday 6:30 PM, Zoom (online); Narcotics Anonymous: Regardless of Sexual Identity (Online), Tuesday 7:00 PM, Zoom (online); Overeaters Anonymous: Surrender to Win, Tuesday 7:00 PM, Zoom (online); Al-Anon: How You Get Serenity (HUGS), Tuesday 7:30 PM, Zoom (online); Al-Anon: Our Daily Bread AFG, Tuesday 7:30 PM, Zoom (online); RI Kinship Community Connections: Virtual Evening Resource Parent Support Group, 3rd Tuesday 8:00 PM, Zoom (online); NAMI Rhode Island: NAMI Family Support Group, 3rd Tuesday, Zoom (online); Adult Children of Alcoholics: RI Area ACA Morning Meeting, Wednesday 7:00 AM, Zoom (online); Overeaters Anonymous: Two Way Prayer, Wednesday 7:00 AM, Zoom (online); HopeHealth: Mindfulness Meditation, Wednesday 10:00 AM, Zoom (online); Narcotics Anonymous: NA In The Day, Wednesday 12:00 PM, Zoom (online); RIPIN: Grupo de apoyo en español para familias de niños con necesidades especiales, 4th Wednesday 12:30 PM, Zoom (online); HopeHealth: Life Beyond Loss: Discovering You, Wednesday 1:00 PM, Zoom (online); HopeHealth: Loss of Spouse/Life Partner Support Group, Wednesday 3:30 PM, Zoom (online); NAMI Rhode Island: Successfully Surviving Support Group, Wednesday 4:00 PM, Zoom (online); South County Health: Blood Cancer Support Group, 3rd Wednesday 4:00 PM; East Bay Recovery Center: Rainbow Resilience, Wednesday 5:00 PM; HopeHealth: Dementia Caregiver Support Group, Wednesday 5:00 PM, Zoom (online); HopeHealth: Loss of Spouse/Life Partner Support Group, Wednesday 5:30 PM, Zoom (online); Brown University Health: Stroke Caregiver Support Group, 3rd Wednesday 6:00 PM, Zoom (online); RIPIN: Grupo de apoyo en español para familias de niños con necesidades especiales, 4th Wednesday 6:00 PM, Zoom (online); Al-Anon: Courage and Hope AFG, Wednesday 7:00 PM, Zoom (online); Al-Anon: The Gratitude Group, Wednesday 7:00 PM, Zoom (online); HopeHealth: Loss of Young Child Support Group, Wednesday 7:00 PM, Zoom (online); Overeaters Anonymous: 100-Pounder, Wednesday 7:30 PM, Zoom (online); Adult Children of Alcoholics: RI Area ACA Morning Meeting, Thursday 7:00 AM, Zoom (online); American Parkinson Disease Association: Care Partners Support Group, 1st Thursday 10:00 AM, Zoom (online); HopeHealth: Dementia Caregiver Support Group, Thursday 10:00 AM, Zoom (online); NAMI Rhode Island: Women’s NAMI Connection Group, Thursday 10:00 AM, Zoom (online); Al-Anon: Step up to Serenity, Thursday 10:15 AM, Zoom (online); Narcotics Anonymous: NA In The Day, Thursday 12:00 PM, Zoom (online); Parent Support Network of Rhode Island: Circle of Parents en Español | Grupo de Apoyo virtual, 3rd Thursday 1:00 PM, Zoom (online); NAMI Rhode Island: NAMI Connection Group, Thursday 5:00 PM; Adult Children of Alcoholics: Awakening the True Self, Thursday 7:00 PM, Zoom (online); Overeaters Anonymous: Full-Service Recovery, Thursday 7:00 PM, Zoom (online); Overeaters Anonymous: Two Way Prayer, Friday 6:00 AM, Zoom (online); Adult Children of Alcoholics: RI Area ACA Morning Meeting, Friday 7:00 AM, Zoom (online); Overeaters Anonymous: Freedom Through the Big Book, Friday 9:30 AM, Zoom (online); HopeHealth: Dementia Caregiver Support Group, Friday 10:00 AM, Zoom (online); Narcotics Anonymous: NA In The Day, Friday 12:00 PM, Zoom (online); Overeaters Anonymous: Courage to Change, Friday 7:30 PM, Zoom (online); Adult Children of Alcoholics: RI Area ACA Morning Meeting, Saturday 7:00 AM, Zoom (online); Al-Anon: Serenity Saturday AFG, Saturday 9:00 AM, Zoom (online); Al-Anon: Courage and Hope AFG, Saturday 5:00 PM, Zoom (online); Narcotics Anonymous: Recovery And Beyond, Saturday 7:00 PM, Bridgemont Church; Adult Children of Alcoholics: RI Area ACA Morning Meeting, Sunday 7:00 AM, Zoom (online); Overeaters Anonymous: Two Way Prayer, Sunday 7:00 AM, Zoom (online); Al-Anon: Change What You Can, Sunday 10:00 AM, Zoom (online); Overeaters Anonymous: Body Image, Relationships & Sexuality, Sunday 10:00 AM, Zoom (online).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "933",
+   "n": "Recovery and support meetings in Pawtucket",
+   "c": "Recovery and support groups",
+   "a": "Pawtucket",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "19 weekly meetings. Alcoholics Anonymous: New Beginnings, Monday 7:00 PM, First Baptist Church; Gamblers Anonymous: Pawtucket G.A. – Monday, Monday 7:00 PM; Alcoholics Anonymous: New Day At A Time, Tuesday 10:00 AM, Northern Plaza; Alcoholics Anonymous: Live And Let Live, Tuesday 7:30 PM, Saint Luke's Church; Narcotics Anonymous: meeting, Tuesday 7:30 PM, First Baptist Church; Alzheimer’s Association Rhode Island Chapter: Pawtucket Area Caregivers Support Group, 3rd Wednesday 10:00 AM; Alcoholics Anonymous: New Day At A Time, Thursday 10:00 AM, Northern Plaza; Alcoholics Anonymous: Group Of Dames Staying Sober, Thursday 12:00 PM, Online - Rhode Island (online); RI Kinship Community Connections: In-Person Evening Resource Parent Support Group, 3rd Thursday 6:00 PM, Pawtucket Public Library, Campbell Auditorium; Alcoholics Anonymous: The Thursday Night Group, Thursday 7:00 PM, Saint Luke's Church; Alcoholics Anonymous: Pawtucket #1, Thursday 7:30 PM, Epworth United Methodist Church; Alcoholics Anonymous: New Day At A Time, Friday 10:00 AM, Northern Plaza; Alcoholics Anonymous: Active, Friday 7:00 PM, Epworth United Methodist Church; Alcoholics Anonymous: Triangle, Friday 7:00 PM, Saint Luke's Church; Narcotics Anonymous: Breakfast Club, Saturday 10:30 AM, Epworth Methodist Church (hybrid); SMART Recovery: SMART Recovery 4-Point Recovery #3254, Saturday 3:30 PM, Pawtucket Library; Alcoholics Anonymous: Sober Sweep, Saturday 7:00 PM, Epworth United Methodist Church; Narcotics Anonymous: Meeting in the Bucket, Saturday 7:30 PM, BLM; Alcoholics Anonymous: Village Woman's Step, Sunday 6:00 PM, Online - Rhode Island (online).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "907",
+   "n": "Recovery and support meetings in Portsmouth",
+   "c": "Recovery and support groups",
+   "a": "Portsmouth",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "23 weekly meetings. Al-Anon: Monday Morning Al-Anon, Monday 9:30 AM, St. Mary's Episcopal (hybrid); Alcoholics Anonymous: Teddy's Beach, Monday 10:30 AM, Teddy's Beach Island Park; Alzheimer’s Association Rhode Island Chapter: Portsmouth Area Caregivers Support Group, 1st Monday 10:30 AM; Alzheimer’s Association Rhode Island Chapter: Portsmouth Area Caregivers Support Group, 3rd Monday 10:30 AM; Alcoholics Anonymous: Portsmouth Nooners, Monday 12:00 PM, Online - Rhode Island (online); Overeaters Anonymous: Just for Today, Tuesday 9:30 AM, St. Mary’s Parish House; Alcoholics Anonymous: Teddy's Beach, Tuesday 10:30 AM, Teddy's Beach Island Park; Alcoholics Anonymous: Portsmouth Nooners, Tuesday 12:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Teddy's Beach, Wednesday 10:30 AM, Teddy's Beach Island Park; Alcoholics Anonymous: Portsmouth Nooners, Wednesday 12:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Women Of Grace, Wednesday 6:00 PM, St. Barnabas Chapel Meeting Room; Alcoholics Anonymous: Teddy's Beach, Thursday 10:30 AM, Teddy's Beach Island Park; Alcoholics Anonymous: Portsmouth Nooners, Thursday 12:00 PM, Online - Rhode Island (online); Adult Children of Alcoholics: Children of Grace, Thursday 7:00 PM, Zoom (online); Overeaters Anonymous: Design for Living, Friday 9:30 AM, St. Mary’s Parish House; Alcoholics Anonymous: Teddy's Beach, Friday 10:30 AM, Teddy's Beach Island Park; Alcoholics Anonymous: Portsmouth Nooners, Friday 12:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Saturdays In The Park, Saturday 10:00 AM, Tremblays Island Park Café; Alcoholics Anonymous: Teddy's Beach, Saturday 10:30 AM, Teddy's Beach Island Park; Alcoholics Anonymous: Teddy's Beach, Sunday 10:30 AM, Teddy's Beach Island Park; Alcoholics Anonymous: Portsmouth Sunday Morning, Sunday 11:00 AM, Common Fence Point Community Center; Alcoholics Anonymous: Women Of Grace, Sunday 7:00 PM, St. Barnabas Chapel Meeting Room; Alcoholics Anonymous: Aquidneck Island Men, Sunday 7:30 PM, Saint Mary's Episcopal Church (hybrid).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "934",
+   "n": "Recovery and support meetings in Providence",
+   "c": "Recovery and support groups",
+   "a": "Providence",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "151 weekly meetings. Alcoholics Anonymous: Breakfast With Bill, Monday 7:00 AM, Our Lady Of The Rosary Church (hybrid); Alcoholics Anonymous: AA Today, Monday 8:00 AM, Freedom Hall; East Bay Recovery Center: All Recovery, Monday 10:00 AM, East Bay Recovery Center, Recovery Room; NAMI Rhode Island: NAMI Connection Group with Oasis, Monday 10:00 AM, Oasis Wellness & Recovery Center (hybrid); Alcoholics Anonymous: Grupo Un Nuevo Despartar, Monday 11:00 AM, Manton Avenue (233); Alcoholics Anonymous: United In Sobriety, Monday 12:00 PM, Saint Martins Church; Brown University Health Cancer Institute: Adjusting to a New Cancer Diagnosis, 3rd Monday 12:00 PM, The Miriam Hospital Fain Building, third-floor conference room; Narcotics Anonymous: One Day At A Time, Monday 12:00 PM; Recovery Dharma: RD Rhode Island, Monday 12:00 PM, VICTA suite; NAMI Rhode Island: NAMI Connection LGTBQ+ Support Group, Monday 6:00 PM, Butler Hospital, Ray Conference Center Room 1 (hybrid); Alcoholics Anonymous: meeting, Monday 6:30 PM, Bell Street Chapel Basement; Narcotics Anonymous: The New Normal Group of NA, Monday 6:30 PM; Alcoholics Anonymous: Grupo 23 de Noviembre, Monday 7:00 PM, Hartford Ave (658); Alcoholics Anonymous: Grupo La Derrota, Monday 7:00 PM, Reservoir (310); Alcoholics Anonymous: Magnificent Reality, Monday 7:00 PM, Providence Presbyterian Church; Narcotics Anonymous: Step Sisters, Monday 7:00 PM, Amos House; SMART Recovery: SMART Recovery Meeting #8101, last Monday 7:00 PM, Federal Hill; The Compassionate Friends: TCF Providence Chapter, 2nd Monday 7:00 PM, Central Congregational Church; Alcoholics Anonymous: Saint Pius Monday Night, Monday 7:30 PM, Saint Pius Church; Alcoholics Anonymous: AA@8, Monday 8:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Basic Young People, Monday 8:00 PM, First Unitarian Church of Providence; Alcoholics Anonymous: Breakfast With Bill, Tuesday 7:00 AM, Our Lady Of The Rosary Church (hybrid); Alcoholics Anonymous: AA Today, Tuesday 8:00 AM, Freedom Hall; East Bay Recovery Center: All Recovery, Tuesday 10:00 AM, East Bay Recovery Center, Recovery Room; HopeHealth: General Grief Support Group, 2nd Tuesday 10:00 AM, HopeHealth; HopeHealth: General Grief Support Group, 4th Tuesday 10:00 AM, HopeHealth; Women & Infants Hospital: Metastatic Breast Cancer Support Group, 2nd Tuesday 10:30 AM, Women & Infants, third-floor conference room; Alcoholics Anonymous: United In Sobriety, Tuesday 12:00 PM, Saint Martins Church; Narcotics Anonymous: One Day At A Time, Tuesday 12:00 PM; Women & Infants Hospital: Young Women’s Support Group, 3rd Tuesday 5:00 PM, Women & Infants; Brown University Health Cancer Institute: Glioblastoma Caregiver Support Group, 2nd Tuesday 5:30 PM, Rhode Island Hospital, Leone Conference Room; Narcotics Anonymous: The Journey of Hope, Tuesday 6:30 PM, John Hope Settlement House, 2nd floor Conference Room; The Samaritans of Rhode Island: Safe Place Grief Support, Tuesday 6:30 PM, First Unitarian Church Community Center; Alcoholics Anonymous: 12 & 12, Tuesday 7:00 PM, Freedom Hall; Alcoholics Anonymous: Grupo Un Nuevo Despartar, Tuesday 7:00 PM, Manton Avenue (233); Alcoholics Anonymous: R.I. L.G.B.T Group, Tuesday 7:00 PM, Bell Street Chapel Basement (hybrid); Alcoholics Anonymous: The Miracle, Tuesday 7:00 PM, Amos House; Alcoholics Anonymous: Tuesday Night Men's Meeting, Tuesday 7:00 PM, Central Congregational Church; Alcoholics Anonymous: Tuesday Night Step, Tuesday 7:00 PM, Saint Patrick Church; DBSA: MDDA-DBSA Support Group, Tuesday 7:00 PM, Butler Hospital, Ray Conference Center Room 2; Alcoholics Anonymous: AA@8, Tuesday 8:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Meeting In Print, Tuesday 8:00 PM, First Unitarian Church of Providence; Adult Children of Alcoholics: ACA AM Meeting, Wednesday 7:00 AM, Central Congregational Church, Fireplace Room; Alcoholics Anonymous: Breakfast With Bill, Wednesday 7:00 AM, Our Lady Of The Rosary Church (hybrid); Alcoholics Anonymous: AA Today, Wednesday 8:00 AM, Freedom Hall; East Bay Recovery Center: All Recovery, Wednesday 10:00 AM, East Bay Recovery Center, Recovery Room; Alcoholics Anonymous: Stiffnecks, Wednesday 12:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: United In Sobriety, Wednesday 12:00 PM, Saint Martins Church; Narcotics Anonymous: One Day At A Time, Wednesday 12:00 PM; Alcoholics Anonymous: Mustard Seed, Wednesday 12:15 PM, First Unitarian Church of Providence; Brown University Health: Hispanic Stroke Club, 2nd Wednesday 1:00 PM, St. Martin DePorres; NAMI Rhode Island: Connection Group with Oasis, Wednesday 1:00 PM, Oasis Wellness & Recovery Center; SMART Recovery: SMART Recovery 4-Point Recovery #6505, Wednesday 3:00 PM, Anchor Recovery Community Center; Alzheimer’s Association Rhode Island Chapter: Providence Area Caregivers Support Group, 1st Wednesday 5:30 PM (online); Brown University Health: Stroke Support Group, 2nd Wednesday 6:00 PM, Ambulatory Patient Center, 10th floor (hybrid); Butler Hospital: Suicide Survivors Hope Support Group, Wednesday 6:00 PM, Butler Hospital, Ray Conference Center Room 2; Women & Infants Hospital: Crohn’s Disease and Colitis Support Group for Women, 1st Wednesday 6:00 PM, Women & Infants Health Education Center, lower-level classroom; Adult Children of Alcoholics: Inclusive Women's ACA Meeting, Wednesday 6:30 PM; American Parkinson Disease Association: Providence Young Onset Support Group, 1st Wednesday 6:30 PM, Spaulding Rehabilitation, Butler Campus; Women & Infants Hospital: Choices in Family Building, 2nd Wednesday 6:30 PM, Women & Infants Fertility Center, third floor; Al-Anon: Un Dia De La Vez, Wednesday 7:00 PM; Alcoholics Anonymous: Grupo Despertar Latino, Wednesday 7:00 PM, District 8 Hispano Office; Alcoholics Anonymous: Grupo Un Nuevo Despartar, Wednesday 7:00 PM, Manton Avenue (233); Alcoholics Anonymous: The Gate, Wednesday 7:00 PM, Amos House; Narcotics Anonymous: Men With A Vision, Wednesday 7:00 PM; Women & Infants Hospital: Miscarriage, Infant Death & Stillbirth (M.I.S.) Group, 1st Wednesday 7:00 PM, Women & Infants Office Building, third-floor conference room; Women & Infants Hospital: Miscarriage, Infant Death & Stillbirth (M.I.S.) Group, 3rd Wednesday 7:00 PM, Women & Infants Office Building, third-floor conference room; Women & Infants Hospital: Pregnancy After Loss Support (P.A.L.S.) Group, 2nd Wednesday 7:00 PM, Women & Infants Office Building, third-floor conference room; Al-Anon: Gift of Hope Al-Anon, Wednesday 7:30 PM, St. Martin's Church, 3rd floor; Alcoholics Anonymous: Providence Sit, Wednesday 7:30 PM, Central Congregational Church; Alcoholics Anonymous: Wednesday Night Men's Step, Wednesday 7:30 PM, Online - Rhode Island (online); Narcotics Anonymous: Loveline Group, Wednesday 7:30 PM, First Unitarian Church; Alcoholics Anonymous: AA@8, Wednesday 8:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: The Fifth Dimension Young People's Group of AA, Wednesday 9:30 PM, Online - Rhode Island (online); Alcoholics Anonymous: Breakfast With Bill, Thursday 7:00 AM, Our Lady Of The Rosary Church (hybrid); Alcoholics Anonymous: AA Today, Thursday 8:00 AM, Freedom Hall; East Bay Recovery Center: All Recovery, Thursday 10:00 AM, East Bay Recovery Center, Recovery Room; Women & Infants Hospital: Breastfeeding Support Group, Thursday 11:00 AM, Women & Infants, Outpatient Lactation, first floor; Alcoholics Anonymous: United In Sobriety, Thursday 12:00 PM, Saint Martins Church; Narcotics Anonymous: One Day At A Time, Thursday 12:00 PM; NAMI Rhode Island: Adult Coloring Circle, Thursday 1:00 PM, Rochambeau Library; Women & Infants Hospital: GYN Cancer Support Group, 1st Thursday 5:00 PM, Women & Infants, third-floor conference room; Alzheimer’s Association Rhode Island Chapter: Providence Area Couples Support Group, 1st Thursday 5:30 PM (online); Women & Infants Hospital: Take Off Pounds Sensibly (T.O.P.S), 2nd Thursday 5:30 PM, Women & Infants Breast Health Center; Women & Infants Hospital: Take Off Pounds Sensibly (T.O.P.S), 4th Thursday 5:30 PM, Women & Infants Breast Health Center; Butler Hospital: Anxiety and Depression Support Group, Thursday 6:00 PM, Butler Hospital, Ray Conference Center Room 2; NAMI Rhode Island: NAMI Family Support Group, 1st Thursday 6:00 PM, Community Church; RI Kinship Community Connections: In-Person Evening Spanish-speaking Families Support Group, last Thursday 6:00 PM; Alcoholics Anonymous: Grupo 23 de Noviembre, Thursday 7:00 PM, Hartford Ave (658); Alcoholics Anonymous: Sober Sisters, Thursday 7:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: West Side Topic, Thursday 7:00 PM, Bell Street Chapel Basement; Co-Dependents Anonymous: Co-DEPENDENTS ANONYMOUS PROVIDENCE, Thursday 7:00 PM, First Unitarian Church of Providence, Diversity Room; Narcotics Anonymous: Straight Forward, Thursday 7:00 PM, Freedom Hall, Salvation Army; SMART Recovery: SMART Recovery, Thursday 7:00 PM, Butler Hospital, Ray Hall, Room 5; Alcoholics Anonymous: You Don't Have To Be Irish, Thursday 7:30 PM, Providence Presbyterian Church; Alcoholics Anonymous: AA@8, Thursday 8:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Breakfast With Bill, Friday 7:00 AM, Our Lady Of The Rosary Church (hybrid); Alcoholics Anonymous: AA Today, Friday 8:00 AM, Freedom Hall; East Bay Recovery Center: All Recovery, Friday 10:00 AM, East Bay Recovery Center, Recovery Room; Alcoholics Anonymous: United In Sobriety, Friday 12:00 PM, Saint Martins Church; Alcoholics Anonymous: Zoom At Noon, Friday 12:00 PM, Online - Rhode Island (online); Narcotics Anonymous: One Day At A Time, Friday 12:00 PM; Alcoholics Anonymous: Agape, Friday 12:15 PM, First Unitarian Church of Providence; Alcoholics Anonymous: Agape, Friday 12:15 PM, Online - Rhode Island (online); Pulmonary Fibrosis Foundation: Lungs and Laughs, 1st Friday 1:00 PM, Brown University Health; Anchor Recovery Community Centers: Recovery Art Club, Friday 2:00 PM, Anchor Recovery Community Center; Alcoholics Anonymous: Sunlight Of The Spirit, Friday 6:00 PM, Bell Street Chapel Basement; Alcoholics Anonymous: We Agnostics, Friday 6:00 PM, Saint Martins Church; Narcotics Anonymous: Back 2 Basics Group of N.A., Friday 6:30 PM, Church of the Master; Adult Children of Alcoholics: Friday Night A C A, Friday 7:00 PM, Central Congregational Church, Fireplace Room; Alcoholics Anonymous: Grupo 23 de Noviembre, Friday 7:00 PM, Hartford Ave (658); Alcoholics Anonymous: Grupo Despertar Latino, Friday 7:00 PM, District 8 Hispano Office; Alcoholics Anonymous: Grupo La Derrota, Friday 7:00 PM, Reservoir (310); Alcoholics Anonymous: Grupo Un Nuevo Despartar, Friday 7:00 PM, Manton Avenue (233); Alcoholics Anonymous: The Gift, Friday 7:00 PM, Butler Hospital(Ray Conference Center); Narcotics Anonymous: Room to Grow, Friday 7:00 PM, Brown University - Smith-Buonanno, Room G12; Alcoholics Anonymous: AA@8, Friday 8:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Breakfast With Bill, Saturday 7:00 AM, Our Lady Of The Rosary Church (hybrid); Adult Children of Alcoholics: ACA Saturday Step Group, Saturday 8:30 AM, Salvation Army Freedom Hall; Alcoholics Anonymous: Promises, Saturday 9:00 AM, Community Church of Providence; DBSA: MDDA-DBSA Support Group, 2nd Saturday 10:00 AM, Butler Hospital, Back Hall; DBSA: MDDA-DBSA Support Group, 4th Saturday 10:00 AM, Butler Hospital, Back Hall; SMART Recovery: SMART Recovery, Saturday 10:00 AM, Butler Hospital, Ray Hall, Room 5; Alcoholics Anonymous: No Frills Sobriety, Saturday 12:00 PM, Butler Hospital(Ray Conference Center); NAMI Rhode Island: NAMI-RI and Oasis Wellness & Recovery Center Coffee Hour Support Group, Saturday 1:00 PM, Oasis Wellness & Recovery Center; Narcotics Anonymous: Keep It Simple Saturday Group, Saturday 1:00 PM, St Patrick's Academy, Room 104 (hybrid); Narcotics Anonymous: New Perspectives, Saturday 2:30 PM, Brown University - Smith-Buonanno, Room 201; Alcoholics Anonymous: Grupo La Derrota, Saturday 5:00 PM, Reservoir (310); Alcoholics Anonymous: Slogans On Saturday, Saturday 5:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Ticket-2-Sobriety, Saturday 5:30 PM, Central Congregational Church; Alcoholics Anonymous: Brothers In Sobriety, Saturday 6:30 PM, Saint Martins Church; Alcoholics Anonymous: Grupo Despertar Latino, Saturday 7:00 PM, District 8 Hispano Office; Alcoholics Anonymous: Grupo Un Nuevo Despartar, Saturday 7:00 PM, Manton Avenue (233); Alcoholics Anonymous: AA@8, Saturday 8:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Booze Busters, Saturday 8:00 PM, Saint Augustine Church; Alcoholics Anonymous: Saturday Night Live, Saturday 10:30 PM, Providence Presbyterian Church; Alcoholics Anonymous: Breakfast With Bill, Sunday 7:00 AM, Our Lady Of The Rosary Church (hybrid); Alcoholics Anonymous: Grupo Despertar Latino, Sunday 9:00 AM, District 8 Hispano Office; Alcoholics Anonymous: Day At A Time, Sunday 10:00 AM, Butler Hospital(Ray Conference Center); Alcoholics Anonymous: Room To Grow, Sunday 10:00 AM, Smith-Buonanno Hall - Brown University; Narcotics Anonymous: Sunday Serenity Insanity Group, Sunday 10:30 AM, Emmanuel House; NAMI Rhode Island: Oasis/NAMI-RI Sunday Hearing Voices Group, Sunday 1:00 PM, Oasis Wellness & Recovery Center; Alcoholics Anonymous: Sunday Serenity, Sunday 3:00 PM, Providence Presbyterian Church; Alcoholics Anonymous: Grupo La Derrota, Sunday 5:00 PM, Reservoir (310); Al-Anon: Sunday Evening Al-Anon, Sunday 7:00 PM, First Unitarian Church; Al-Anon: Un Dia De La Vez, Sunday 7:00 PM; Alcoholics Anonymous: Breathing Easy I, Sunday 7:00 PM, First Unitarian Church of Providence; Alcoholics Anonymous: Grupo 23 de Noviembre, Sunday 7:00 PM, Hartford Ave (658); Narcotics Anonymous: Never Alone Never again, Sunday 7:00 PM; Narcotics Anonymous: Recovery Is More Than Abstinence Group, Sunday 7:00 PM, Zoom (online); Alcoholics Anonymous: Breathing Easy II, Sunday 8:30 PM, First Unitarian Church of Providence.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "915",
+   "n": "Recovery and support meetings in Richmond",
+   "c": "Recovery and support groups",
+   "a": "Richmond",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "1 weekly meetings. Alcoholics Anonymous: Richmond Sunday Morning, Sunday 10:00 AM, Richmond Police Station (hybrid).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "935",
+   "n": "Recovery and support meetings in Scituate",
+   "c": "Recovery and support groups",
+   "a": "Scituate",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "2 weekly meetings. Alcoholics Anonymous: Country Pines, Monday 7:30 PM, Trinity Episcopal Church; Alcoholics Anonymous: Broken Elevator (Use The Steps), Wednesday 5:00 PM, Trinity Episcopal Church (Thrift Store Building, 2nd floor).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "936",
+   "n": "Recovery and support meetings in Smithfield",
+   "c": "Recovery and support groups",
+   "a": "Smithfield",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "3 weekly meetings. Narcotics Anonymous: Recovery In The Country, Tuesday 8:00 PM, St Thomas Church; GriefShare: Church of the Cross GriefShare, Thursday 6:30 PM, Church of the Cross (hybrid); Alcoholics Anonymous: Open Step, Sunday 7:00 PM, Saint Thomas Episcopal Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "916",
+   "n": "Recovery and support meetings in South Kingstown",
+   "c": "Recovery and support groups",
+   "a": "South Kingstown",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "40 weekly meetings. Alcoholics Anonymous: Daily Reflections Virtual, Monday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections, Monday 7:00 AM, Unitarian Universalist Congregation; Alcoholics Anonymous: Tuckertown Park, Monday 1:00 PM, Tuckertown Park; South County Health: Caregiver Support Group, last Monday 1:00 PM, South County Hospital Cancer Center Consultation Lounge; Alcoholics Anonymous: Monday Night Men, Monday 6:45 PM, Wakefield Baptist Church; Alcoholics Anonymous: I Can't, We Can, Monday 7:00 PM, Church of the Ascension; Narcotics Anonymous: Learn to Live - Step, Tradition & Concept Lite, Monday 7:00 PM, PeaceDale Congregational Church, 2nd floor; Al-Anon: Wakefield Just for Today, Monday 7:30 PM, Wakefield Baptist Church, Fellowship Hall; Alcoholics Anonymous: Daily Reflections Virtual, Tuesday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections, Tuesday 7:00 AM, Unitarian Universalist Congregation; Alcoholics Anonymous: The Big Red Group, Tuesday 10:00 AM, Wakefield Baptist Church; Alcoholics Anonymous: End Of Day, Tuesday 4:30 PM, Kingston Congregational Church; Alcoholics Anonymous: A Way Out, Tuesday 6:30 PM, Peace Dale Congregational Church; Alcoholics Anonymous: Women In Action, Tuesday 7:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections Virtual, Wednesday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections, Wednesday 7:00 AM, Unitarian Universalist Congregation; Al-Anon: meeting, Wednesday 12:00 PM, Kingston Congregational Church, Fireplace Room; Alcoholics Anonymous: Tuckertown Park, Wednesday 1:00 PM, Tuckertown Park; South Kingstown Senior Center: Women’s Cancer Support Group, 4th Wednesday 1:00 PM, South Kingstown Senior Center; Alcoholics Anonymous: Wednesday Night Step, Wednesday 7:00 PM, Christ United Methodist Church; Alcoholics Anonymous: Daily Reflections Virtual, Thursday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections, Thursday 7:00 AM, Unitarian Universalist Congregation; Alcoholics Anonymous: Thursday Afternoon Step, Thursday 4:30 PM, South Kingstown Office Park; Overeaters Anonymous: There is a Solution, Thursday 6:00 PM, Kingston Congregational Church; DivorceCare: The Harbor Church DivorceCare, Thursday 6:30 PM, The Harbor Church; Alcoholics Anonymous: We Want To Live, Thursday 7:30 PM, Kingston Congregational Church; Alcoholics Anonymous: Daily Reflections Virtual, Friday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections, Friday 7:00 AM, Unitarian Universalist Congregation; Alcoholics Anonymous: Tuckertown Park, Friday 1:00 PM, Tuckertown Park; Alcoholics Anonymous: 164, Friday 6:00 PM, South Kingstown Recreational Center; Alcoholics Anonymous: Office Park Big Book, Friday 6:00 PM, South Kingstown Office Park; Alcoholics Anonymous: Kingston Young People, Friday 7:00 PM, St. Augustine's Church & The Episcopal Center at URI; Alcoholics Anonymous: Daily Reflections Virtual, Saturday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections, Saturday 7:00 AM, Unitarian Universalist Congregation; Alcoholics Anonymous: Tuckertown Park, Saturday 1:00 PM, Tuckertown Park; Alcoholics Anonymous: Kingston Saturday Night, Saturday 7:30 PM, St. Augustine's Church & The Episcopal Center at URI; Alcoholics Anonymous: Daily Reflections Virtual, Sunday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: Daily Reflections, Sunday 7:00 AM, Unitarian Universalist Congregation; Alcoholics Anonymous: Sunday Night Women, Sunday 6:00 PM, Wakefield Baptist Church; Alcoholics Anonymous: New Freedom, Sunday 7:00 PM, New Life Assembly.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "908",
+   "n": "Recovery and support meetings in Tiverton",
+   "c": "Recovery and support groups",
+   "a": "Tiverton",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "12 weekly meetings. Alcoholics Anonymous: Early Risers, Monday 7:00 AM, Saint Madeleine Sophie Church; Alcoholics Anonymous: Commuter Group, Monday 5:30 PM, Saint Theresas Catholic Church; Al-Anon: There Is Hope AFG, Monday 7:30 PM, Amicable Congregational Church; Alcoholics Anonymous: Early Risers, Tuesday 7:00 AM, Saint Madeleine Sophie Church; Alcoholics Anonymous: A Vision For You, Tuesday 7:30 PM, Community Of Christ; Alcoholics Anonymous: Early Risers, Wednesday 7:00 AM, Saint Madeleine Sophie Church; Alcoholics Anonymous: Early Risers, Thursday 7:00 AM, Saint Madeleine Sophie Church; Alcoholics Anonymous: Early Risers, Friday 7:00 AM, Saint Madeleine Sophie Church; Gamblers Anonymous: Tiverton G.A. – Friday, Friday 7:00 PM, Holy Trinity Episcopal Church; Alcoholics Anonymous: Keep It Simple, Friday 7:30 PM, Saint Theresas Catholic Church; Alcoholics Anonymous: Little Compton Saturday Morning, Saturday 8:00 AM, Saint Madeleine Sophie Church; Alcoholics Anonymous: SOS, Sunday 7:00 PM, Saint Madeleine Sophie Church.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "937",
+   "n": "Recovery and support meetings in Warren",
+   "c": "Recovery and support groups",
+   "a": "Warren",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "26 weekly meetings. Alcoholics Anonymous: East Bay Sunrise, Monday 7:00 AM, Warren Town Hall; Alcoholics Anonymous: Women And The 12 & 12, Monday 5:45 PM, Saint Alexander's Church Hall; Narcotics Anonymous: 12 & 12 for all, Monday 7:30 PM, East Bay Recovery Center, Community Room; Alcoholics Anonymous: East Bay Sunrise, Tuesday 7:00 AM, Warren Town Hall; Alcoholics Anonymous: Misfits, Tuesday 5:30 PM, Radiant Christian Church; East Bay Recovery Center: Finding Your Calm, Tuesday 5:30 PM, East Bay Recovery Center (hybrid); Overeaters Anonymous: Welcome Home, Tuesday 6:30 PM, Warren Town Hall, Youth Center Room; Alcoholics Anonymous: East Bay Sunrise, Wednesday 7:00 AM, Warren Town Hall; Yoga of 12-Step Recovery: Y12SR Yoga, Wednesday 5:30 PM, East Bay Recovery Center (hybrid); Alzheimer’s Association Rhode Island Chapter: Warren Area Caregivers Support Group, 4th Wednesday 6:30 PM; Al-Anon: Serenity by the Bay, 1st Wednesday 7:00 PM, Telephone (online); Al-Anon: Serenity by the Bay, Wednesday 7:00 PM, Warren Town Hall; Alcoholics Anonymous: East Bay Sunrise, Thursday 7:00 AM, Warren Town Hall; Al-Anon: Hope for Today, Thursday 10:00 AM, Warren Town Hall, training room (hybrid); Alcoholics Anonymous: East Bay Sunrise, Friday 7:00 AM, Warren Town Hall; Alcoholics Anonymous: Saturday Morning Live, Saturday 8:00 AM, Warren Town Hall; Alcoholics Anonymous: Warren Reflections, Saturday 8:00 AM, First United Methodist Church; East Bay Recovery Center: All Recovery Meeting, Saturday 10:00 AM, Zoom (online); SMART Recovery: SMART Recovery, Saturday 10:00 AM, Zoom (online); Alcoholics Anonymous: Safe Harbor, Saturday 7:00 PM, Baptist Church; Alcoholics Anonymous: A Newfound Providence, Sunday 8:00 AM, Warren Town Hall; Alcoholics Anonymous: Sunday Serenity, Sunday 8:00 AM, East Bay Recovery Center; Alcoholics Anonymous: The Real Tosspots, Sunday 5:00 PM, Warren Town Hall; Emotions Anonymous: Emotions Anonymous,  10:55 AM, East Bay Recovery Center (hybrid); Nicotine Anonymous: Nicotine Anonymous,  10:55 AM, East Bay Recovery Center (hybrid); NAMI Rhode Island: NAMI RI East Bay Connection Group, , East Bay Recovery Center (hybrid).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "938",
+   "n": "Recovery and support meetings in Warwick",
+   "c": "Recovery and support groups",
+   "a": "Warwick",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "123 weekly meetings. Alcoholics Anonymous: Sobriety Fix At Six, Monday 6:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Hope, Monday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: 30 Minute Weekday Reflection, Monday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird (via Phone), Monday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird II, Monday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird, Monday 8:00 AM, Saint Paul Evangelical Lutheran Church; Alzheimer’s Association Rhode Island Chapter: Warwick Area Caregivers Support Group, 2nd Monday 9:00 AM; Alcoholics Anonymous: Keep It Simple Live, Monday 10:00 AM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Keep It Simple, Monday 10:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Lunchtime AA, Monday 12:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Pause A While, Monday 2:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Expect A Miracle, Monday 5:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Circle Of Sisters, Monday 6:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Warwick Mall at 6PM, Monday 6:00 PM, Southern Rhode Island Intergroup Office (Craik Building); Parent Support Network of Rhode Island: Circle of Parents Group for Children’s Behavioral Health, 1st Monday 6:00 PM, Parent Support Network of Rhode Island; Alcoholics Anonymous: Kent County/Apponaug, Monday 6:30 PM, Saint Paul Evangelical Lutheran Church; FRIENDS WAY: FRIENDS WAY Peer Support Groups, Monday 6:30 PM, FRIENDS WAY; Alcoholics Anonymous: Just You Step, Monday 7:00 PM, Pilgrim Lutheran Church; Alcoholics Anonymous: New Way Of Life, Monday 7:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Sailing Through Sobriety, Monday 7:00 PM, Join by Phone - Rhode Island (online); Narcotics Anonymous: New Freedom, Monday 7:00 PM, Faith Baptist Church; Narcotics Anonymous: Steps To Freedom, Monday 7:00 PM, Asbury United Methodist Church; Alcoholics Anonymous: It's Never Too Early, Monday 7:30 PM, Faith Baptist Church; Alcoholics Anonymous: Sobriety Fix At Six, Tuesday 6:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Hope, Tuesday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: 30 Minute Weekday Reflection, Tuesday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird (via Phone), Tuesday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird II, Tuesday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird, Tuesday 8:00 AM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Keep It Simple Live, Tuesday 10:00 AM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Keep It Simple, Tuesday 10:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Lunchtime AA, Tuesday 12:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Pause A While, Tuesday 2:00 PM, Join by Phone - Rhode Island (online); Al-Anon: Hope For Today, Tuesday 4:30 PM, Craik Building; Alcoholics Anonymous: Living the Big Book, Tuesday 6:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Warwick Mall at 6PM, Tuesday 6:00 PM, Southern Rhode Island Intergroup Office (Craik Building); Celebrate Recovery: Celebrate Recovery, Tuesday 6:30 PM, SouthPointe Christian Church, Family Center Gathering Room; DivorceCare: Southpointe Christian Church DivorceCare, Tuesday 6:30 PM, Southpointe Christian Church; FRIENDS WAY: FRIENDS WAY Peer Support Groups, Tuesday 6:30 PM, FRIENDS WAY; Alcoholics Anonymous: Apponaug Group, Tuesday 7:00 PM, Warwick Central Baptist Church; Alcoholics Anonymous: Sailing through Sobriety, Tuesday 7:00 PM (hybrid); Alcoholics Anonymous: Warwick Big Book Step Study, Tuesday 7:00 PM, Saint Paul Evangelical Lutheran Church; Narcotics Anonymous: Recovery In The Beach, Tuesday 7:00 PM, 1st Congregation Church; Alzheimer’s Association Rhode Island Chapter: Support Group for Caregivers in the Warwick Area, 2nd Tuesday; Alzheimer’s Association Rhode Island Chapter: Support Group for Caregivers in the Warwick Area, last Tuesday; Alcoholics Anonymous: Sobriety Fix At Six, Wednesday 6:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Hope, Wednesday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: 30 Minute Weekday Reflection, Wednesday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird (via Phone), Wednesday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird II, Wednesday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird, Wednesday 8:00 AM, Saint Paul Evangelical Lutheran Church; Al-Anon: Serenity at Sunrise, Wednesday 9:00 AM, Saints Rose and Clement Church; Alcoholics Anonymous: Keep It Simple Live, Wednesday 10:00 AM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Keep It Simple, Wednesday 10:00 AM, Join by Phone - Rhode Island (online); Kent Hospital: Stroke Support Group, last Wednesday 11:30 AM, Kent Hospital; Alcoholics Anonymous: Lunchtime AA, Wednesday 12:00 PM, Saint Paul Evangelical Lutheran Church; Kent Hospital: Breast Cancer Support Group, 3rd Wednesday 2:00 PM, Kent Breast Health Center; SMART Recovery: SMART Recovery 4-Point Recovery #9573, Wednesday 3:00 PM, Empower IHS; Alcoholics Anonymous: Expect A Miracle, Wednesday 5:00 PM, Saint Paul Evangelical Lutheran Church; Parent Support Network of Rhode Island: Father 2 Father Group, Wednesday 5:30 PM, Parent Support Network of Rhode Island; Alcoholics Anonymous: Circle Of Sisters, Wednesday 6:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Warwick Mall At 6 PM, Wednesday 6:00 PM, Southern Rhode Island Intergroup Office (Craik Building); FRIENDS WAY: FRIENDS WAY Peer Support Groups, Wednesday 6:30 PM, FRIENDS WAY; FRIENDS WAY: Specialized Bereavement Groups for Children and Teens Affected by Suicide or Addiction, Wednesday 6:30 PM, FRIENDS WAY; Alcoholics Anonymous: Big Book For Beginners, Wednesday 7:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Survival, Wednesday 7:00 PM, Warwick Central Baptist Church; Alcoholics Anonymous: Sobriety Fix At Six, Thursday 6:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Hope, Thursday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: 30 Minute Weekday Reflection, Thursday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird (via Phone), Thursday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird II, Thursday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird, Thursday 8:00 AM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Keep It Simple Live, Thursday 10:00 AM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Keep It Simple, Thursday 10:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Fourth Dimension Big Book, Thursday 12:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Lunchtime AA, Thursday 12:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Sarah's Friends of Bill W., Thursday 12:30 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Pause A While (Join via Phone), Thursday 2:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Warwick Mall At 6 PM, Thursday 6:00 PM, Southern Rhode Island Intergroup Office (Craik Building); Parent Support Network of Rhode Island: Birth Parent Support Group, 1st Thursday 6:00 PM, Parent Support Network of Rhode Island; Alcoholics Anonymous: Reaching Out, Thursday 7:00 PM, Saint Kevin Church; Gamblers Anonymous: Warwick G.A. – Thursday, Thursday 7:00 PM, St. Paul's Episcopal Church; Narcotics Anonymous: Hope in the Dark (WOMEN's Meeting), Thursday 7:00 PM; Narcotics Anonymous: IP Time Group, Thursday 7:00 PM, Asbury Methodist Church; Alcoholics Anonymous: Serenity, Thursday 7:30 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Full Measures, Thursday 8:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Sobriety Fix At Six, Friday 6:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Get To The Point, Friday 7:00 AM, Rocky Point; Alcoholics Anonymous: Hope, Friday 7:00 AM, Online - Rhode Island (online); Alcoholics Anonymous: 30 Minute Weekday Reflection, Friday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird (via Phone), Friday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird II, Friday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird, Friday 8:00 AM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Keep It Simple Live, Friday 10:00 AM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Keep It Simple, Friday 10:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Lunchtime AA, Friday 12:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Expect A Miracle, Friday 5:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Living Sober in Rhode Island, Friday 6:00 PM, Online - Rhode Island (online); Alcoholics Anonymous: Warwick Mall At 6 PM, Friday 6:00 PM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Fourth Dimension, Friday 7:00 PM, Saint Paul Evangelical Lutheran Church; Narcotics Anonymous: Clean And Serene, Friday 7:00 PM, Faith Baptist Church; Narcotics Anonymous: Each one Teach one, Friday 7:30 PM; Alcoholics Anonymous: Sobriety Fix At Six, Saturday 6:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Circle Of Sisters, Saturday 8:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Early Bird, Saturday 8:00 AM, Saint Paul Evangelical Lutheran Church; Gamblers Anonymous: Warwick G.A. – Saturday, Saturday 9:30 AM, St. Paul's Episcopal Church; Alcoholics Anonymous: Keep It Simple, Saturday 10:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: The Bridge, Saturday 10:00 AM, Bridgemark Recovery; Alcoholics Anonymous: Tranquility, Saturday 10:00 AM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Lunchtime AA, Saturday 12:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Pause A While, Saturday 2:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Positive New Beginnings, Saturday 5:00 PM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Sailing Through Sobriety, Saturday 7:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Warwick Central, Saturday 7:00 PM, Warwick Central Baptist Church; Alcoholics Anonymous: Sobriety Fix At Six, Sunday 6:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Keep It Simple, Sunday 10:00 AM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Keep On Coming For Beginners, Sunday 5:00 PM, Saint Paul Evangelical Lutheran Church; Alcoholics Anonymous: Sunday Go To Meetin', Sunday 5:00 PM, Join by Phone - Rhode Island (online); Alcoholics Anonymous: Warwick Mall At 6PM, Sunday 6:00 PM, Southern Rhode Island Intergroup Office (Craik Building); Alcoholics Anonymous: Sailing Through Sobriety, Sunday 7:00 PM, Join by Phone - Rhode Island (online); Narcotics Anonymous: Dedication, Sunday 7:00 PM, Faith Baptist Church (hybrid); Alcoholics Anonymous: AA@8, Sunday 8:00 PM, Join by Phone - Rhode Island (online); Anchor Recovery Community Centers: Grief in Recovery,  11:00 AM, Anchor Recovery Community Center.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "939",
+   "n": "Recovery and support meetings in West Greenwich",
+   "c": "Recovery and support groups",
+   "a": "West Greenwich",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "1 weekly meetings. Al-Anon: Al-Anon Forever Hope, Sunday 10:00 AM, Town Hall (hybrid).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "940",
+   "n": "Recovery and support meetings in West Warwick",
+   "c": "Recovery and support groups",
+   "a": "West Warwick",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "4 weekly meetings. Al-Anon: Self Discovery Al-Anon, Monday 7:00 PM, Emanuel Lutheran Church; Narcotics Anonymous: Out to Lunch Bunch, Wednesday 12:00 PM; Narcotics Anonymous: Cookies & Recovery, Wednesday 7:00 PM, St Therese Old Catholic Church; Narcotics Anonymous: Serenity Seekers, Saturday 10:00 AM, Christ the King church, Parish Building (hybrid).",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "917",
+   "n": "Recovery and support meetings in Westerly",
+   "c": "Recovery and support groups",
+   "a": "Westerly",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "35 weekly meetings. Alcoholics Anonymous: 24 Hours A Day Morning Meeting, Monday 7:30 AM, Franklin Lodge; Alcoholics Anonymous: A.A. In The A.M., Monday 7:30 AM, Westerly Senior Center; Alcoholics Anonymous: Bradford Open Discussion, Monday 9:00 AM, Pantry On The Lane; Alcoholics Anonymous: Conscience Contact, Monday 12:00 PM, Pantry On The Lane; Westerly Hospital: Diabetes Support Group, 4th Monday 12:00 PM, Westerly Hospital, Henry J. Nardone Conference Center; Alcoholics Anonymous: First Step, Monday 7:00 PM, Westerly Senior Center; Alcoholics Anonymous: 24 Hours A Day Morning Meeting, Tuesday 7:30 AM, Franklin Lodge; Alcoholics Anonymous: A.A. In The A.M., Tuesday 7:30 AM, Westerly Senior Center; Al-Anon: Courage to Change AFG, Tuesday 12:00 PM, Christ Church Episcopal, St Stephens Room; GriefShare: Dunn's Corners Community Church Presbyterian GriefShare, Tuesday 5:30 PM, Dunn's Corners Community Church Presbyterian, sanctuary; Alcoholics Anonymous: Tuesday Night’s, Tuesday 6:00 PM, Westerly Senior Center; Alcoholics Anonymous: Heat Is On, Tuesday 7:00 PM, Warm Shelter; Alcoholics Anonymous: 24 Hours A Day Morning Meeting, Wednesday 7:30 AM, Franklin Lodge; Alcoholics Anonymous: A.A. In The A.M., Wednesday 7:30 AM, Westerly Senior Center; Alcoholics Anonymous: Westerly Women's AA, Wednesday 10:00 AM, Westerly Senior Center; Alcoholics Anonymous: Grapevine Meeting, Wednesday 6:00 PM, Franklin Lodge; Alcoholics Anonymous: Five and Dime, Wednesday 7:00 PM, Westerly Senior Center; Alzheimer’s Association Rhode Island Chapter: Support group for caregivers in the Westerly area, 1st Wednesday; Alcoholics Anonymous: 24 Hours A Day Morning Meeting, Thursday 7:30 AM, Franklin Lodge; Alcoholics Anonymous: A.A. In The A.M., Thursday 7:30 AM, Westerly Senior Center; Alcoholics Anonymous: Misquamicut Step, Thursday 6:00 PM, Saint Clare Church; Westerly Hospital: Sensational Child Support Group, 2nd Thursday 6:00 PM, Westerly Hospital, Henry J. Nardone Conference Center; Alcoholics Anonymous: 24 Hours A Day Morning Meeting, Friday 7:30 AM, Franklin Lodge; Alcoholics Anonymous: A.A. In The A.M., Friday 7:30 AM, Westerly Senior Center; Alcoholics Anonymous: Alive Again, Friday 10:00 AM, Franklin Lodge; Al-Anon: Westerly Friday Night AFG, Friday 7:00 PM, Westerly Senior Center; Alcoholics Anonymous: Westerly Friday Night, Friday 7:00 PM, Westerly Senior Center; Alcoholics Anonymous: 24 Hours A Day Morning Meeting, Saturday 7:30 AM, Franklin Lodge; Alcoholics Anonymous: A.A. In The A.M., Saturday 7:30 AM, Westerly Senior Center; Westerly Hospital: Post-Polio Support Group, 3rd Saturday 10:00 AM, Westerly Hospital, Henry J. Nardone Conference Center; Alcoholics Anonymous: Saturday Night Living Sober, Saturday 7:00 PM, Franklin Lodge; Alcoholics Anonymous: 24 Hours A Day Morning Meeting, Sunday 7:30 AM, Franklin Lodge; Alcoholics Anonymous: A.A. In The A.M., Sunday 7:30 AM, Westerly Senior Center; Alcoholics Anonymous: Beginners 1, 2, 3, Sunday 5:00 PM, Westerly Senior Center; Alcoholics Anonymous: Entirely Ready Step, Sunday 7:00 PM, Westerly Senior Center.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "941",
+   "n": "Recovery and support meetings in Woonsocket",
+   "c": "Recovery and support groups",
+   "a": "Woonsocket",
+   "p": "",
+   "e": "",
+   "w": "",
+   "wl": "",
+   "b": "25 weekly meetings. Alcoholics Anonymous: Early Bird, Monday 10:30 AM, Holy Family Church; Alcoholics Anonymous: 12 Golden Steps, Monday 12:00 PM, Holy Family Church; Alcoholics Anonymous: Unity, Monday 7:30 PM, Precious Blood Parish Hall; Alcoholics Anonymous: Early Bird, Tuesday 10:30 AM, Holy Family Church; Alcoholics Anonymous: 12 Golden Steps, Tuesday 12:00 PM, Holy Family Church; Alcoholics Anonymous: Fog Lifters, Tuesday 7:00 PM, Holy Family Church; Alcoholics Anonymous: Coming Back, Tuesday 7:30 PM, Saint James Episcopal Church; Alcoholics Anonymous: Early Bird, Wednesday 10:30 AM, Holy Family Church; Alcoholics Anonymous: 12 Golden Steps, Wednesday 12:00 PM, Holy Family Church; Alcoholics Anonymous: Together We Rise, Wednesday 7:00 PM, Saint Joseph Church; Gamblers Anonymous: Woonsocket G.A. – Wednesday, Wednesday 7:00 PM, Boys & Girls Club; Narcotics Anonymous: The 3rd Tradition Meeting, Wednesday 7:00 PM, Holy Family Parish; Alcoholics Anonymous: Early Bird, Thursday 10:30 AM, Holy Family Church; Alcoholics Anonymous: 12 Golden Steps, Thursday 12:00 PM, Holy Family Church; Alcoholics Anonymous: Woonsocket Number One, Thursday 7:30 PM, Holy Family Church; Alcoholics Anonymous: Early Bird, Friday 10:30 AM, Holy Family Church; Alcoholics Anonymous: 12 Golden Steps, Friday 12:00 PM, Holy Family Church; Al-Anon: You Are Not Alone, Friday 7:00 PM, Landmark Hospital (hybrid); Alcoholics Anonymous: Men's Friday Night 12-Step, Friday 7:00 PM, Holy Family Church; Alcoholics Anonymous: Saint James, Friday 8:00 PM, Saint James Episcopal Church; Alcoholics Anonymous: Saint James Saturday Morning, Saturday 9:30 AM, Saint James Baptist Church; Alcoholics Anonymous: 12 Golden Steps, Saturday 12:00 PM, Holy Family Church; Alcoholics Anonymous: Let It Begin With Me, Saturday 6:30 PM, Holy Family Church; Alcoholics Anonymous: Happy Wanderers, Sunday 11:00 AM, Holy Family Church; Alcoholics Anonymous: Redhead, Sunday 7:00 PM, Holy Trinity Parish.",
+   "nt": [
+    "Meeting lists change often; confirm with the group before attending."
+   ],
+   "s": [],
+   "cl": false
+  },
+  {
+   "i": "865",
+   "n": "Refuge Recovery",
+   "c": "Recovery and support groups",
+   "a": "",
+   "p": "",
+   "e": "",
+   "w": "https://refugerecovery.org/",
+   "wl": "Website",
+   "b": "Maintains a changing Buddhist-oriented recovery directory, but a current Rhode Island-hosted meeting was not verified in this research. Meeting list: https://refugerecoverymeetings.org/locations/",
+   "nt": [],
+   "s": [
+    [
+     "refugerecovery.org",
+     "https://refugerecovery.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "617",
    "n": "Renaissance Church (East Providence)",
    "c": "Churches and houses of worship",
@@ -5976,6 +7266,44 @@
    "cl": false
   },
   {
+   "i": "855",
+   "n": "Rhode Island Al-Anon Family Groups",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-781-0044",
+   "e": "",
+   "w": "https://www.riafg.org/",
+   "wl": "Website",
+   "b": "Publishes family and teen recovery meetings, with frequently changing schedules and some conflicting online and in-person entries that require confirmation. Meeting list: https://www.riafg.org/meeting-lists.html",
+   "nt": [],
+   "s": [
+    [
+     "riafg.org",
+     "https://www.riafg.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "859",
+   "n": "Rhode Island Area ACA Intergroup",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.riareaaca.org/",
+   "wl": "Website",
+   "b": "Coordinates ACA meetings and online rooms through a frequently changing directory whose current webpage and older brochure contain some different times. Meeting list: https://www.riareaaca.org/meeting-info.html",
+   "nt": [],
+   "s": [
+    [
+     "riareaaca.org",
+     "https://www.riareaaca.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "418",
    "n": "Rhode Island Canoe and Kayak Association",
    "c": "Clubs, fitness and outdoor groups",
@@ -6030,6 +7358,25 @@
     [
      "sdarm.org",
      "https://sdarm.org/locations/churches/rhode-island-church/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "893",
+   "n": "Rhode Island Department of Health",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://health.ri.gov/",
+   "wl": "Website",
+   "b": "Publishes bereavement and peer-support referral resources for Rhode Island families. Meeting list: https://health.ri.gov/publications/lists/peer-support-and-counseling.pdf",
+   "nt": [],
+   "s": [
+    [
+     "health.ri.gov",
+     "https://health.ri.gov/"
     ]
    ],
    "cl": false
@@ -6111,6 +7458,44 @@
    "cl": false
   },
   {
+   "i": "891",
+   "n": "Rhode Island Office of Veterans Services",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://vets.ri.gov/",
+   "wl": "Website",
+   "b": "Lists veteran peer resources and community events, with changing listings and no verified current recurring peer meeting in this research. Meeting list: https://vets.ri.gov/events",
+   "nt": [],
+   "s": [
+    [
+     "vets.ri.gov",
+     "https://vets.ri.gov/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "881",
+   "n": "Rhode Island Pulmonary Fibrosis Support Group",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.pulmonaryfibrosis.org/",
+   "wl": "Website",
+   "b": "Connects people affected by pulmonary fibrosis through a Providence support group listed in the foundation’s directory. Meeting list: https://www.pulmonaryfibrosis.org/patients-caregivers/medical-and-support-resources/find-medical-care/care-center-new/rhode-island-pulmonary-fibrosis-support-group",
+   "nt": [],
+   "s": [
+    [
+     "pulmonaryfibrosis.org",
+     "https://www.pulmonaryfibrosis.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "388",
    "n": "Rhode Island Watercolor Society",
    "c": "Clubs, fitness and outdoor groups",
@@ -6125,6 +7510,25 @@
     [
      "riws.org",
      "https://www.riws.org/page-1681668"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "886",
+   "n": "RI Kinship Community Connections",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://kinshipcommunityconnections.org/",
+   "wl": "Website",
+   "b": "Lists peer groups for kinship, foster and adoptive families, with registration requirements and occasional schedule changes. Meeting list: https://kinshipcommunityconnections.org/support-groups/",
+   "nt": [],
+   "s": [
+    [
+     "kinshipcommunityconnections.org",
+     "https://kinshipcommunityconnections.org/"
     ]
    ],
    "cl": false
@@ -6162,6 +7566,25 @@
     "Schedule from the church or denomination listing; confirm before visiting."
    ],
    "s": [],
+   "cl": false
+  },
+  {
+   "i": "888",
+   "n": "RIPIN",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-270-0101",
+   "e": "",
+   "w": "https://ripin.org/",
+   "wl": "Website",
+   "b": "Provides family peer support and chronic-condition self-management programs with registration-based schedules that change by session. Meeting list: https://ripin.org/support-groups-at-ripin/",
+   "nt": [],
+   "s": [
+    [
+     "ripin.org",
+     "https://ripin.org/"
+    ]
+   ],
    "cl": false
   },
   {
@@ -6707,6 +8130,25 @@
    "cl": false
   },
   {
+   "i": "860",
+   "n": "SMART Recovery",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://smartrecovery.org/",
+   "wl": "Website",
+   "b": "Publishes frequently changing secular recovery and family meetings, with local times taken from calendar data explicitly labeled America/New_York when the display is converted to another timezone. Meeting list: https://meetings.smartrecovery.org/meetings/",
+   "nt": [],
+   "s": [
+    [
+     "smartrecovery.org",
+     "https://smartrecovery.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "399",
    "n": "Smith Hill Crochet Club",
    "c": "Clubs, fitness and outdoor groups",
@@ -6815,6 +8257,25 @@
    "cl": false
   },
   {
+   "i": "877",
+   "n": "South County Health",
+   "c": "Recovery and support groups",
+   "a": "South County",
+   "p": "",
+   "e": "",
+   "w": "https://www.southcountyhealth.org/",
+   "wl": "Website",
+   "b": "Provides cancer and caregiver support programs with schedules and registration details published on its changing service pages. Meeting list: https://www.southcountyhealth.org/services-care/specialty-care/cancer-care/cancer-rehab-wellness-support",
+   "nt": [],
+   "s": [
+    [
+     "southcountyhealth.org",
+     "https://www.southcountyhealth.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "335",
    "n": "South County YMCA Masters Swimming",
    "c": "Clubs, fitness and outdoor groups",
@@ -6869,6 +8330,44 @@
     [
      "sklt.org",
      "https://sklt.org/events_calendar/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "853",
+   "n": "Southern Rhode Island Intergroup",
+   "c": "Recovery and support groups",
+   "a": "Southern Rhode Island",
+   "p": "401-739-8777",
+   "e": "",
+   "w": "https://aainri.com/",
+   "wl": "Website",
+   "b": "Provides AA help and meeting information for southern Rhode Island, with schedules subject to frequent changes. Helpline: 401-739-8777. Meeting list: https://aainri.com/meetings/",
+   "nt": [],
+   "s": [
+    [
+     "aainri.com",
+     "https://aainri.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "861",
+   "n": "SouthPointe Christian Church Care Groups",
+   "c": "Recovery and support groups",
+   "a": "Warwick and Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.southpointeri.com/",
+   "wl": "Website",
+   "b": "Hosts weekly Celebrate Recovery and seasonal divorce and grief programs whose dates and registration should be checked in the current calendar. Meeting list: https://www.southpointeri.com/care-groups",
+   "nt": [],
+   "s": [
+    [
+     "southpointeri.com",
+     "https://www.southpointeri.com/"
     ]
    ],
    "cl": false
@@ -9699,6 +11198,25 @@
    "cl": false
   },
   {
+   "i": "883",
+   "n": "The Compassionate Friends Providence Chapter",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-231-9229",
+   "e": "",
+   "w": "https://www.tcfprovidence.com/",
+   "wl": "Website",
+   "b": "Supports families grieving a child through monthly meetings and remembrance activities, with current arrangements published by the chapter. Meeting list: https://www.compassionatefriends.org/chapter/providence-chapter/",
+   "nt": [],
+   "s": [
+    [
+     "tcfprovidence.com",
+     "https://www.tcfprovidence.com/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "518",
    "n": "The Harbor Church (South Kingstown)",
    "c": "Churches and houses of worship",
@@ -9876,6 +11394,25 @@
     [
      "sacred-center.org",
      "https://www.sacred-center.org/Class-Descriptions.php"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "882",
+   "n": "The Samaritans of Rhode Island",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-272-4044",
+   "e": "",
+   "w": "https://www.samaritansri.org/",
+   "wl": "Website",
+   "b": "Offers an adult suicide-loss peer group and listening support, with meeting exceptions for holidays, severe weather and church closures. Helpline: 401-272-4044. Meeting list: https://www.samaritansri.org/hotline/safe-place-grief-support",
+   "nt": [],
+   "s": [
+    [
+     "samaritansri.org",
+     "https://www.samaritansri.org/"
     ]
    ],
    "cl": false
@@ -10297,6 +11834,25 @@
    "cl": false
   },
   {
+   "i": "885",
+   "n": "VNA of Care New England",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-737-6050",
+   "e": "",
+   "w": "https://www.vnacarenewengland.org/",
+   "wl": "Website",
+   "b": "Offers public seasonal bereavement series and remembrance programs, with dates and locations supplied by its bereavement coordinator. Meeting list: https://www.vnacarenewengland.org/grief-and-bereavement-support",
+   "nt": [],
+   "s": [
+    [
+     "vnacarenewengland.org",
+     "https://www.vnacarenewengland.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "781",
    "n": "Voz Que Clama En El Desierto (Providence)",
    "c": "Churches and houses of worship",
@@ -10449,6 +12005,25 @@
    "cl": false
   },
   {
+   "i": "889",
+   "n": "Weekend Warriors of New England",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "",
+   "e": "",
+   "w": "https://www.weekendwarriorsofnewengland.us/",
+   "wl": "Website",
+   "b": "Offers veteran peer gatherings described by the Rhode Island Office of Veterans Services, but no recurring schedule was verified. Meeting list: https://www.weekendwarriorsofnewengland.us/events-2026/",
+   "nt": [],
+   "s": [
+    [
+     "weekendwarriorsofnewengland.us",
+     "https://www.weekendwarriorsofnewengland.us/"
+    ]
+   ],
+   "cl": false
+  },
+  {
    "i": "650",
    "n": "Wesley United Methodist Church (Lincoln)",
    "c": "Churches and houses of worship",
@@ -10484,6 +12059,25 @@
     [
      "westerlylibrary.org",
      "https://www.westerlylibrary.org/calendar-of-events"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "880",
+   "n": "Westerly Hospital",
+   "c": "Recovery and support groups",
+   "a": "Westerly and surrounding communities",
+   "p": "401-596-6000",
+   "e": "",
+   "w": "https://www.westerlyhospital.org/",
+   "wl": "Website",
+   "b": "Hosts publicly listed condition-specific and family support groups whose schedules may change. Meeting list: https://www.westerlyhospital.org/services/support-groups-and-social-work",
+   "nt": [],
+   "s": [
+    [
+     "westerlyhospital.org",
+     "https://www.westerlyhospital.org/"
     ]
    ],
    "cl": false
@@ -11546,6 +13140,25 @@
     [
      "winnerschapelri.org",
      "https://winnerschapelri.org/"
+    ]
+   ],
+   "cl": false
+  },
+  {
+   "i": "873",
+   "n": "Women & Infants Hospital",
+   "c": "Recovery and support groups",
+   "a": "Rhode Island",
+   "p": "401-274-1100",
+   "e": "",
+   "w": "https://www.womenandinfants.org/",
+   "wl": "Website",
+   "b": "Publishes support groups for cancer, pregnancy, parenting and chronic illness, with enrollment and schedules that can change. Meeting list: https://www.womenandinfants.org/patient-resources/support-groups",
+   "nt": [],
+   "s": [
+    [
+     "womenandinfants.org",
+     "https://www.womenandinfants.org/"
     ]
    ],
    "cl": false
