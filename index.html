@@ -1266,9 +1266,9 @@ h2.room{text-shadow:0 2px 0 #000,0 0 30px rgba(0,0,0,.7)!important;filter:satura
     <button class="nb" data-go="bars">Rhode Island News</button>
     <button class="nb" data-go="crime"><img class="cwmark xs" src="img/prowler-mark.jpg" alt="">Crime Watch</button>
     <button class="nb pmnb" data-go="tech">Tech &amp; AI</button>
-    <button class="nb" data-go="cal">Rhode Island Calendar</button>
+    <button class="nb" data-go="cal">Rhode Island Event Calendar</button>
     <button class="nb" data-go="visit">Visit Rhode Island</button>
-    <button class="nb" data-go="scene">Rhode Island Scene</button>
+    <button class="nb" data-go="scene">Rhode Island Arts &amp; Entertainment</button>
     <button class="nb" data-go="venues">Rhode Island Venues</button>
     <button class="nb" data-go="bands">Rhode Island Bands</button>
     
@@ -1500,7 +1500,7 @@ function vFront(){setTimeout(()=>{cwFill();cwLoad()},0);
     <div class="stack">
       <section class="box" style="--c:#d9a400"><div class="bh"><b>The wire · nightlife &amp; scene</b><span>${BARS.length} items</span></div>
         <div class="bwl">${BARS.slice(0,7).map(b=>{const k=BK[b.kind]||BK.other;return `<a class="bwr" href="${esc(b.url)}" target="_blank" rel="noopener"><span class="gtag" style="--gc:${k[0]}">${k[1]}</span><span class="bwt"><b>${esc(b.headline)}</b><span>${esc(b.venue)}${b.hood?' · '+esc(b.hood):''} · ${shortDay(b.date)}</span></span></a>`}).join('')||'<div class="empty">The wire is loading.</div>'}</div>
-        <div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="bars">Full wire →</button></div></section>
+        <div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="bars">All news headlines →</button></div></section>
 
 
       
@@ -1510,7 +1510,7 @@ function vFront(){setTimeout(()=>{cwFill();cwLoad()},0);
       <section class="box" style="--c:#1e90ff"><div class="bh"><b>Shows this week</b><span>tap for tickets</span></div><div class="rows">${wk.map(showRow).join('')||'<div class="empty">No shows listed this week.</div>'}</div>
         <div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="cal">Full calendar →</button></div></section>
       <section class="box" style="--c:#2fd3c8"><div class="bh"><b>Tech &amp; AI wire</b><span class="techsrc">via AI Signals</span></div><div class="bwl">${((TECH&&TECH.news)||[]).slice(0,4).map(techRow).join('')||'<div class="empty">Feed is loading.</div>'}</div>
-        <div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="tech">Tech &amp; AI room →</button></div></section>
+        <div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="tech">All Tech &amp; AI →</button></div></section>
       <section class="box jtwk" style="--c:#e8b818"><div class="bh"><b><span class="live" style="background:#e8b818;color:#111">● THIS WEEK</span> In Rhode Island</b><span>${jtWeekSpan()}</span></div><div id="jtWeek">${jtWeek()}</div><div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="cal">Full Rhode Island calendar →</button></div></section>
     </div></div>
     <div class="front-local">
@@ -1519,8 +1519,8 @@ function vFront(){setTimeout(()=>{cwFill();cwLoad()},0);
       ${VNEWS.length?`<section class="box" style="--c:#ff3a2a"><div class="bh"><b>Venue desk</b><span>${VENUES.length} venues watched</span></div>${VNEWS.slice().sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||'')).slice(0,3).map(vnRow).join('')}<div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="venues">All venues →</button></div></section>`:''}
     </div>
     <div class="stack">
-      <section class="box" style="--c:#39ff14"><div class="bh"><b>Scene picks</b><span>not concerts</span></div><div style="display:grid;gap:10px;padding:12px">${upScene.slice(0,3).map(evCard).join('')||'<div class="empty">No events listed.</div>'}</div><div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="scene">More scene picks →</button></div></section>
-      <section class="box" style="--c:#1e90ff"><div class="bh"><b>Band watch</b><span>Rhode Island bands</span></div>${BNEWS.slice().sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||'')).slice(0,2).map(bnRow).join('')}${upEv(BEV).slice(0,2).map(evRow).join('')}${!BNEWS.length&&!upEv(BEV).length?'<div class="empty">The band desk is on it.</div>':''}<div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="bands">All 200 bands →</button></div></section>
+      <section class="box" style="--c:#39ff14"><div class="bh"><b>Scene picks</b><span>not concerts</span></div><div style="display:grid;gap:10px;padding:12px">${upScene.slice(0,3).map(evCard).join('')||'<div class="empty">No events listed.</div>'}</div><div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="scene">More arts &amp; entertainment →</button></div></section>
+      <section class="box" style="--c:#1e90ff"><div class="bh"><b>Band watch</b><span>Rhode Island bands</span></div>${BNEWS.slice().sort((a,b)=>(b.published_at||'').localeCompare(a.published_at||'')).slice(0,2).map(bnRow).join('')}${upEv(BEV).slice(0,2).map(evRow).join('')}${!BNEWS.length&&!upEv(BEV).length?'<div class="empty">The band desk is on it.</div>':''}<div style="padding:10px 14px;border-top:1px solid var(--line)"><button class="nb" data-go="bands">All Rhode Island bands →</button></div></section>
     </div></div>`;
 }
 function vGuide(compact){const cats=Object.keys(VSHORT).filter(c=>VENUES.some(v=>v.cat===c));const ex=c=>VENUES.filter(v=>v.cat===c).slice(0,40).sort(()=>0).slice(0,3).map(v=>v.name).join(', ');
@@ -1638,7 +1638,7 @@ function bDetail(id){const b=BBY[id];if(!b)return '';const N=BN_BY[id]||[],U=upE
   ${P.length?`<div class="dayh">Recently played</div><div class="bwl">${P.map(evRow).join('')}</div>`:''}
   ${!N.length&&!U.length?'<div class="empty">No fresh news yet. The desk checks every band at least once a week.</div>':''}</section>`}
 function vBands(){if(STATE.bsel)return bDetail(STATE.bsel);const latest=BNEWS.slice().sort((a,b)=>(b.published_at||b.discovered_at||'').localeCompare(a.published_at||a.discovered_at||''));const U=upEv(BEV);
-  return `<h2 class="room">Bands</h2><div class="intro"><b>200 Boston bands, big and small</b><p>The legends and the bar-room regulars. New records, shows, breakups, reunions and who's playing where. The desk checks every band at least once a week.</p></div>
+  return `<h2 class="room">Bands</h2><div class="intro"><b>Rhode Island bands, big and small</b><p>The legends and the bar-room regulars. New records, shows, breakups, reunions and who's playing where. The desk checks every band at least once a week.</p></div>
   ${latest.length?`<section class="box" style="--c:#ff3a2a"><div class="bh"><b>Band news</b><span>${latest.length} items</span></div>${latest.slice(0,STATE.bnmore||10).map(bnRow).join('')}${latest.length>(STATE.bnmore||10)?`<div style="padding:12px"><button class="go" data-bnmore>More band news</button></div>`:''}</section>`:''}
   ${U.length?`<section class="box" style="--c:#1e90ff"><div class="bh"><b>Listed bands playing around town</b><span>${U.length}</span></div><div class="bwl">${U.slice(0,12).map(evRow).join('')}</div></section>`:''}
   <div class="pads">${BLISTS.map(([k,l])=>`<button class="pad${STATE.blist===k?' on':''}" data-blist="${k}" style="--gc:${k==='top_100_bands'?'#ff3a2a':'#d9a400'}"><span>${l}</span><small>100</small></button>`).join('')}</div>
@@ -1654,7 +1654,7 @@ document.addEventListener('input',e=>{if(e.target.id==='bq'){STATE.bq=e.target.v
 function vVenues(){if(STATE.vsel)return vDetail(STATE.vsel);
   const cats=Object.keys(VSHORT).filter(c=>VENUES.some(v=>v.cat===c));const regs=[...new Set(VENUES.map(v=>v.region))];
   const latest=VNEWS.slice().sort((a,b)=>(b.published_at||b.discovered_at||'').localeCompare(a.published_at||a.discovered_at||''));
-  return `<h2 class="room">Venues</h2><div class="intro"><b>${VENUES.length} bars, clubs, stages, screens and lanes</b><p>Every room from the dive bars to the arenas, from the North Shore to the South Shore. Who opened, who closed, who's playing. The desk checks every venue at least once a week.</p></div>
+  return `<h2 class="room">Venues</h2><div class="intro"><b>${VENUES.length} bars, clubs, stages, screens and lanes</b><p>Every room from the dive bars to the arenas. Who opened, who closed, who's playing. The desk checks every venue at least once a week.</p></div>
   ${VNEWS.length?vNewsBox():''}
   <div class="pads">${['all',...cats].map(c=>`<button class="pad${STATE.vcat===c?' on':''}" data-vcat="${esc(c)}" style="--gc:${c==='all'?'#8fb3d9':VCAT[c]}"><span>${c==='all'?'All':VSHORT[c]}</span><small>${c==='all'?VENUES.length:VENUES.filter(v=>v.cat===c).length}</small></button>`).join('')}</div>
   <div class="vfil"><div class="fld"><label for="vq">Search venues</label><input type="search" id="vq" value="${esc(STATE.vq)}" placeholder="Name, neighborhood, city…" autocomplete="off"></div>
@@ -1761,7 +1761,7 @@ function vBars(){
   <div class="bwg">${L.map(brief).join('')||'<div class="empty">Nothing on the wire yet.</div>'}</div>`;
 }
 
-function vScreen(){const L=STORIES.filter(s=>s.topic==='screen');return `<h2 class="room">The Screen</h2><div class="intro"><b>Movie reviews</b><p>What's worth your ticket money this week, and what to skip. New verdicts every opening weekend.</p></div><div class="sgrid">${L.map(storyCard).join('')||'<div class="empty">Reviews coming.</div>'}</div>`}
+function vScreen(){const L=STORIES.filter(s=>s.topic==='screen');return `<h2 class="room">Movie Reviews</h2><div class="intro"><b>Movie reviews</b><p>What's worth your ticket money this week, and what to skip. New verdicts every opening weekend.</p></div><div class="sgrid">${L.map(storyCard).join('')||'<div class="empty">Reviews coming.</div>'}</div>`}
 function vInk(){const L=STORIES.filter(s=>s.topic==='ink');return `<h2 class="room">Ink &amp; Steel</h2>
   <div class="intro"><b>Tattoos · piercing · body mod</b><p>Shops, artists, the law, the ink, the regrets and what's next. Skin Deep is back.</p></div>
   <div class="sgrid">${L.map(storyCard).join('')}</div>`}
@@ -1769,7 +1769,7 @@ function vInk(){const L=STORIES.filter(s=>s.topic==='ink');return `<h2 class="ro
 const FEATURES=new Set([]);
 function vStories(){
   const LS=STORIES.filter(s=>!FEATURES.has(s.slug));
-  return `<h2 class="room">Stories</h2>
+  return `<h2 class="room">Rhode Island Stories</h2>
   <div class="sgrid">${LS.map(storyCard).join('')}</div>`;
 }
 const PAY_LINK='';
@@ -1817,7 +1817,7 @@ function vCal(){
   const hoods=[...new Set(up.map(e=>e.hood).filter(Boolean))].sort();
   let html='',day='';
   for(const e of L){ if(e.date!==day){if(day)html+='</div>';day=e.date;html+=`<div class="dayh">${longDay(e.date)} · ${L.filter(x=>x.date===day).length} listings</div><div class="cald">`;} html+=showRow(e); } if(day)html+='</div>';
-  return `<h2 class="room">Rhode Island calendar</h2>
+  return `<h2 class="room">Rhode Island Event Calendar</h2>
   <div class="intro"><b>Everything happening in Rhode Island</b><p>Music, arts, family outings, town meetings, worship and community support, by date. Tap a listing to reach the organizer. Updated ${esc(CAL_UPDATED)}. Schedules can change, so confirm with the organizer.</p></div>
   <div class="pads">${['all',...gs].map(g=>`<button class="pad${STATE.genre===g?' on':''}" data-genre="${g}" style="--gc:${g==='all'?'#8fb3d9':GENRE[g]||'#6f8aa8'}"><span>${g==='all'?'All':esc(g)}</span><small>${(n=>n+' '+(g==='all'?'listings':g==='worship'?(n===1?'service':'services'):g==='support'?(n===1?'meeting':'meetings'):['live','rock','jazz','classical','theater'].includes(g)?(n===1?'show':'shows'):(n===1?'event':'events')))(g==='all'?up.length:up.filter(e=>e.genre===g).length)}</small></button>`).join('')}</div>
   <div class="ctrl"><div class="fld"><label for="cq">Search the calendar</label><input type="search" id="cq" value="${esc(STATE.cq)}" placeholder="Event, church or place…" autocomplete="off"></div>
@@ -1827,7 +1827,7 @@ function vCal(){
 function vScene(){
   const ks=[...new Set(upScene.map(e=>e.kind))];
   const L=upScene.filter(e=>STATE.kind==='all'||e.kind===STATE.kind);
-  return `<h2 class="room">The scene</h2>
+  return `<h2 class="room">Rhode Island Arts &amp; Entertainment</h2>
   <div class="intro"><b>After dark, not on stage</b><p>Markets, art walks, screenings and family outings around Rhode Island. Tap a card for the source.</p></div>
   <div class="pads">${['all',...ks].map(k=>`<button class="pad${STATE.kind===k?' on':''}" data-kind="${k}" style="--gc:${k==='all'?'#8fb3d9':KIND[k]||'#8b949c'}"><span>${k==='all'?'All':esc(k)}</span><small>${k==='all'?upScene.length:upScene.filter(e=>e.kind===k).length}</small></button>`).join('')}</div>
   <div class="sgrid">${L.map(evCard).join('')||'<div class="empty">No events listed.</div>'}</div>`;
@@ -1853,7 +1853,7 @@ function wireAd(){const m=$('#adMail');if(m){m.onclick=e=>{e.preventDefault();co
   try{await DB.collection('ideas').add({kind:'ad',venue,pkg:$('#aP').value,cat:STATE.adcat||'',name:$('#aN').value.trim(),email:contact,text:'AD REQUEST · '+venue+' · '+$('#aP').value+(STATE.adcat?' · '+STATE.adcat:'')+'\n'+$('#aM').value.trim(),t:Date.now()});say('#aMsg','ok','Request sent. The editor will be in touch.');f.reset()}
   catch(e){say('#aMsg','err',NOT_OPEN)}finally{$('#aGo').disabled=false}}}
 function vSubmit(){
-  return `<h2 class="room">Submit to the Report</h2>
+  return `<h2 class="room">Submit an Event or Story Tip</h2>
   <div class="intro"><b>The paper is yours too</b><p>Pitch a story, rat out a scandal, or send a photo of the city after dark. The best ones may run online and in print. You don't need to give your name.</p></div>
   <div class="two">
     <section class="box" style="--c:#e3170a"><div class="bh"><b>Story idea or tip</b><span>anonymous is fine</span></div>
@@ -1879,7 +1879,7 @@ function vSubmit(){
   <p class="note">Submissions go straight to the editor's inbox. Nothing you send is shown on the site unless the editor picks it.</p>`;
 }
 function vInbox(){
-  return `<h2 class="room">Editor's inbox</h2>
+  return `<h2 class="room">Inbox</h2>
   <div class="intro"><b>Only you see this</b><p>Tips and photos sent through the Submit page, newest first.</p></div>
   ${INBOX.ideas.some(x=>x.kind==='ad')?`<section class="box" style="--c:#ff6a00"><div class="bh"><b>Ad requests</b><span>${INBOX.ideas.filter(x=>x.kind==='ad').length}</span></div><div class="ibx">${INBOX.ideas.filter(x=>x.kind==='ad').map(x=>`<div class="it"><div class="h"><span>${new Date(x.t).toLocaleString()}</span><span>${esc(x.pkg||'')}</span></div><p><b>${esc(x.venue||'')}</b>${x.cat?' · '+esc(x.cat):''}</p><p>${esc((x.text||'').split('\n').slice(1).join('\n'))}</p><div class="h"><span>${esc(x.name||'')}</span><span>${esc(x.email||'')}</span></div></div>`).join('')}</div></section>`:''}
   <div class="two">
@@ -2830,6 +2830,6 @@ const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
 new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=23">
-<link rel="stylesheet" href="polish.css?v=27"><script src="whatson.js?v=5" defer></script>
+<link rel="stylesheet" href="polish.css?v=27"><script src="whatson.js?v=6" defer></script>
 </body>
 </html>
