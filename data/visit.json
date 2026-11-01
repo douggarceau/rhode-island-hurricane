@@ -18169,76 +18169,44 @@
    "title": "Ferries & Boat Trips",
    "items": [
     {
-     "name": "Block Island Ferry",
-     "blurb": "The principal Rhode Island ferry gateway to Block Island. Choose the appropriate passenger or vehicle service and check current departures.",
-     "address": "Narragansett / Point Judith",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.blockislandferry.com/",
-     "src": "blockislandferry.com"
+     "name": "East Bay Boat Tours",
+     "blurb": "East Bay Boat Tours offers custom sightseeing aboard the cabin cruiser Seas The Bay. Its upper-bay itineraries can include lighthouse views, waterfront communities and swimming stops. Has: private charter, lighthouse tours, sunset cruises, onboard restroom, covered seating.",
+     "address": "Barrington",
+     "phone": "401-222-0277",
+     "hours": "Private trips by reservation; https://www.eastbayboattours.com/ · $250/hour for 1–6 guests; electronic-payment fee additional; https://www.eastbayboattours.com/",
+     "url": "https://www.eastbayboattours.com/",
+     "src": "eastbayboattours.com",
+     "town": "Barrington"
     },
     {
-     "name": "Prudence & Bay Islands Transport",
-     "blurb": "Ferry service connecting Bristol and Prudence Island. Vehicle reservations and the current seasonal timetable require advance attention.",
-     "address": "Bristol",
-     "phone": "",
-     "hours": "",
+     "name": "Prudence & Bay Islands Transport — Bristol–Prudence Island",
+     "blurb": "This passenger and vehicle ferry connects Bristol with Prudence Island in roughly 30 minutes. Bristol's terminal lot is reserved for marina users, so ferry passengers must use permitted parking elsewhere. Has: car ferry, bikes for additional fare, off-site municipal day parking at no charge, paid overnight options, parking information: https://prudencebayislandstransport.com/parking-info/.",
+     "address": "147 Thames Street, Bristol, RI 02809; 855 Narragansett Avenue, Prudence Island, RI, Bristol; Portsmouth",
+     "phone": "401-683-0430",
+     "hours": "Year-round with four seasonal timetables; schedules: https://prudencebayislandstransport.com/schedules/ · Base adult $5.40 one way; standard vehicle up to 18 feet $31 including driver; monthly fuel surcharge additional; rates: https://prudencebayislandstransport.com/rates/",
      "url": "https://prudencebayislandstransport.com/",
-     "src": "prudencebayislandstransport.com"
+     "src": "prudencebayislandstransport.com",
+     "town": "Bristol; Portsmouth"
     },
     {
-     "name": "Jamestown Newport Ferry",
-     "blurb": "Seasonal passenger transportation linking waterfront destinations. Check which stops and services operate on the chosen date.",
-     "address": "Jamestown and Newport",
-     "phone": "",
-     "hours": "",
-     "url": "https://cruiseri.com/",
-     "src": "cruiseri.com"
+     "name": "Herreshoff Sailing Charters — Patrician",
+     "blurb": "Patrician offers private sails from the Herreshoff Museum waterfront into Bristol Harbor. Routes may pass Hog Island and Prudence Island, with sunset and special-event options. Has: private sailing, sunset cruises, up to six passengers, museum parking across street at no charge.",
+     "address": "Herreshoff Marine Museum waterfront docks, across from 1 Burnside Street, Bristol, RI",
+     "phone": "401-253-5000",
+     "hours": "Charter calendar: https://www.hmmcharterandevents.com/booknow; advertised sunset departure 6:30 p.m. · 2.5-hour private sunset sail $600 for up to six; other options: https://www.hmmcharterandevents.com/tours-charters",
+     "url": "https://www.hmmcharterandevents.com/",
+     "src": "hmmcharterandevents.com",
+     "town": "Bristol"
     },
     {
-     "name": "Coastal Queen / Cruise RI",
-     "blurb": "Scenic and themed cruises with departure points varying by trip. Consult the specific cruise listing.",
-     "address": "Narragansett Bay",
+     "name": "Ocean State Tiki Tours",
+     "blurb": "This captain-led pontoon boat provides private cruises around Bristol Harbor. Daytime and sunset outings accommodate up to six guests. Has: private charter, harbor tour, sunset cruise, six-passenger maximum.",
+     "address": "Bristol Town Dock, Thames Street, Bristol, RI 02809",
      "phone": "",
-     "hours": "",
-     "url": "https://cruiseri.com/",
-     "src": "cruiseri.com"
-    },
-    {
-     "name": "Providence River Boat Company",
-     "blurb": "Narrated river tours offering views of downtown from the water. Note: Confirm boarding arrangements and accessibility directly with the operator.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://providenceriverboat.com/faqs",
-     "src": "providenceriverboat.com"
-    },
-    {
-     "name": "La Gondola",
-     "blurb": "Private Venetian-style gondola trips along the downtown waterways, with seasonal and special-event options.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.gondolari.com/",
-     "src": "gondolari.com"
-    },
-    {
-     "name": "Gansett Cruises",
-     "blurb": "Narrated harbor and bay cruises, including seasonal sunset departures.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "https://gansettcruises.com/",
-     "src": "gansettcruises.com"
-    },
-    {
-     "name": "Schooner Madeleine",
-     "blurb": "Day and sunset sailing aboard a traditional-style schooner on Newport Harbor and Narragansett Bay.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "https://sail-newport.com/our-boats/schooner-madeleine/",
-     "src": "sail-newport.com"
+     "hours": "Booking calendar: https://www.oceanstatetikitours.com/book-online · 90-minute private daytime or sunset trip $325; https://www.oceanstatetikitours.com/book-online",
+     "url": "https://www.oceanstatetikitours.com/",
+     "src": "oceanstatetikitours.com",
+     "town": "Bristol"
     },
     {
      "name": "Blackstone Valley Explorer",
@@ -18250,6 +18218,105 @@
      "src": "bvtcri.org"
     },
     {
+     "name": "Explorer River Tours — Blackstone River",
+     "blurb": "The Explorer offers guided nature and heritage cruises along the Blackstone River. Its 50-minute public trips introduce the valley's ecology and industrial history. Has: river cruise, accessible with advance assistance arrangements, binoculars, private charters.",
+     "address": "Central Falls Landing, 15 Madeira Avenue, Central Falls, RI",
+     "phone": "401-724-2200",
+     "hours": "Operator lists Sunday departures at 1 pm, 2 pm and 3 pm during May–October; https://bvtcri.org/explorer · Private charter $325/hour; public-tour booking information: https://bvtcri.org/explorer",
+     "url": "https://bvtcri.org/explorer",
+     "src": "bvtcri.org",
+     "town": "Central Falls"
+    },
+    {
+     "name": "Pomham Rocks Lighthouse — Lady Pomham II tours",
+     "blurb": "A short boat trip from Cranston brings visitors to Pomham Rocks Lighthouse for a guided visit. The complete outing lasts about 90 minutes and requires passengers to manage ramps, steps, and uneven ground. Has: lighthouse tours, island landing, covered boat, ages six and older, no pets.",
+     "address": "Edgewood Yacht Club, Cranston, RI, Cranston; East Providence",
+     "phone": "",
+     "hours": "June–September 2026; now closed for season; calendar: https://pomhamrockslighthouse.org/tours/ · Adult $50; member $35; ages 6–17 $25; https://pomhamrockslighthouse.org/tours/",
+     "url": "https://pomhamrockslighthouse.org/tours/",
+     "src": "pomhamrockslighthouse.org",
+     "town": "Cranston; East Providence"
+    },
+    {
+     "name": "Jamestown Newport Ferry — Hop-On Hop-Off",
+     "blurb": "This passenger ferry connects Jamestown with Rose Island and three Newport waterfront stops. Rose Island admission is separate from the ferry fare. Has: passenger ferry, hop-on hop-off, bicycles for additional fare, all-day public parking at 11 Knowles Court, parking information: https://cruiseri.com/jamestown-newport-ferry/parking-faq/.",
+     "address": "1 East Ferry Wharf, Jamestown, RI 02835; Rose Island; Alofsin Pier, 90 Fort Adams Drive; Ann Street Pier behind 365 Thames Street; Perrotti Park, 39 America's Cup Avenue, Newport, RI, Jamestown; Newport",
+     "phone": "401-423-9900",
+     "hours": "May–October; 2026 daily service began May 16; schedules: https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/ · 2026 adult all-day pass $34; one-way cross-bay $22; fuel surcharge additional; all fares: https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/",
+     "url": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/",
+     "src": "cruiseri.com",
+     "town": "Jamestown; Newport"
+    },
+    {
+     "name": "New England Sailing Center — Discover Sailing and Cruising Day Sail",
+     "blurb": "The center offers sailing introductions and relaxed two-and-a-half-hour cruises around Newport Harbor. Group and private options range from a small keelboat to larger cruising yachts. Has: sailing cruises, sunset sails, instruction available, private sails, public waterfront parking guide: https://www.nesailingcenter.com/getting-to-us/.",
+     "address": "Required check-in: 47 Conanicus Avenue, Jamestown, RI 02835; crew directs guests to boat, Jamestown; Newport",
+     "phone": "401-619-1697",
+     "hours": "Up to two sessions daily by arrangement; schedule details: https://www.nesailingcenter.com/discover-sailing/ · Intro sailing $110/person; cruising monohull $150/person; catamaran day sail $200/person; https://www.nesailingcenter.com/discover-sailing/",
+     "url": "https://www.nesailingcenter.com/discover-sailing/",
+     "src": "nesailingcenter.com",
+     "town": "Jamestown; Newport"
+    },
+    {
+     "name": "Conanicut Marina — East Ferry launch",
+     "blurb": "The marina launch connects East Ferry Wharf with vessels in the mooring field. This service is intended for marina members and visiting boaters during their stay. Has: harbor launch, mooring transfers, VHF channel 71, marina guests.",
+     "address": "1 East Ferry Wharf, Unit 1, Jamestown, RI 02835",
+     "phone": "401-423-7158",
+     "hours": "May 1–October 31, 2026; peak June 7–September 6 daily 8 a.m.–10 p.m.; full schedule: https://www.conanicutmarina.com/launch-hours/ · No charge for marina members and transient guests during an active stay; https://www.conanicutmarina.com/launch-hours/",
+     "url": "https://www.conanicutmarina.com/launch-hours/",
+     "src": "conanicutmarina.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Dutch Harbor Boat Yard — mooring launch",
+     "blurb": "Dutch Harbor's marina listing includes launch transportation between its dock and moorings. Current launch hours should be confirmed with the boatyard. Has: harbor launch, mooring transfers, parking at no charge, street parking.",
+     "address": "252 Narragansett Avenue, Jamestown, RI 02835",
+     "phone": "401-423-0630",
+     "hours": "Launch included with mooring; https://www.visitrhodeisland.com/listing/dutch-harbor-boat-yard/8327/",
+     "url": "https://www.visitrhodeisland.com/listing/dutch-harbor-boat-yard/8327/",
+     "src": "visitrhodeisland.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Viking Fleet — Montauk–Block Island",
+     "blurb": "Viking Fleet runs a seasonal passenger ferry between Montauk and Block Island. The crossing is listed at approximately 75 minutes and does not carry cars. Has: high-speed, passenger ferry, bikes and surfboards for additional fare, Montauk parking $15/day.",
+     "address": "462 West Lake Drive, Montauk, NY 11954",
+     "phone": "631-668-5700",
+     "hours": "Seasonal; departure calendar: https://vikingfleet.com/ferry-service/ · Online adult $45 one way; child 5–12 $30; child 4 and under no charge; rates: https://vikingfleet.com/schedule-fares/montauk-to-block-island-ferry/",
+     "url": "https://vikingfleet.com/schedule-fares/montauk-to-block-island-ferry/",
+     "src": "vikingfleet.com",
+     "town": "Montauk, NY; New Shoreham"
+    },
+    {
+     "name": "Frances Fleet — Whale Watch and Dolphin Excursion",
+     "blurb": "Frances Fleet runs offshore wildlife excursions from Point Judith during summer. Trips search for whales, dolphins, and other marine life, with sightings dependent on conditions. Has: whale watching, dolphin watching, wildlife cruises, limited adjacent parking at no charge, paid overflow parking.",
+     "address": "33 State Street, Narragansett, RI, Narragansett (Point Judith)",
+     "phone": "401-783-4988",
+     "hours": "Published season June 26–August 30; Tuesday, Thursday, Friday and Saturday 1–5:30 p.m.; https://www.francesfleet.com/whale-watching/ · Adult $65; senior $60; child 12 and under $55; https://www.francesfleet.com/whale-watching/",
+     "url": "https://www.francesfleet.com/whale-watching/",
+     "src": "francesfleet.com",
+     "town": "Narragansett (Point Judith)"
+    },
+    {
+     "name": "Snappa Charters — sightseeing and sunset cruises",
+     "blurb": "Snappa offers narrated coastal and sunset trips to Narragansett Bay or Block Island. The charter menu also includes lighthouse, birding, whale, and wind-farm outings. Has: private cruises, sunset cruises, lighthouse tours, wildlife tours, wind-farm tours.",
+     "address": "33 State Street, Narragansett, RI 02882, Narragansett (Point Judith)",
+     "phone": "401-487-9044",
+     "hours": "Operator season April–late December; sunset trips usually Thursday–Sunday departing 3–5 p.m.; https://www.snappacharters.com/sunset_cruises.html · 3.5-hour sunset trip $70 per person or $925 private for 12; additional passengers $60 each; stated 20% crew gratuity; https://www.snappacharters.com/sunset_cruises.html",
+     "url": "https://www.snappacharters.com/",
+     "src": "snappacharters.com",
+     "town": "Narragansett (Point Judith)"
+    },
+    {
+     "name": "Coastal Queen / Cruise RI",
+     "blurb": "Scenic and themed cruises with departure points varying by trip. Consult the specific cruise listing.",
+     "address": "Narragansett Bay",
+     "phone": "",
+     "hours": "",
+     "url": "https://cruiseri.com/",
+     "src": "cruiseri.com"
+    },
+    {
      "name": "Save the Bay Seal & Nature Tours",
      "blurb": "Seasonal wildlife trips interpreting harbor seals and the bay’s environment. Note: Wildlife sightings are not guaranteed; confirm the departure port.",
      "address": "Narragansett Bay",
@@ -18257,6 +18324,554 @@
      "hours": "",
      "url": "https://savebay.org/family-fun/seals/",
      "src": "savebay.org"
+    },
+    {
+     "name": "Block Island Ferry — Point Judith traditional ferry",
+     "blurb": "The traditional ferry connects Galilee with Old Harbor on Block Island and carries passengers and vehicles. Vehicle reservations must be made in advance by telephone. Has: car ferry, bikes allowed, pets under operator rules, paid independent parking near Point Judith terminal ($15–30/day), parking information: https://www.blockislandferry.com/things-to-do/.",
+     "address": "304 Great Island Road, Narragansett, RI 02882; Old Harbor, Block Island, RI, Narragansett; New Shoreham",
+     "phone": "866-783-7996",
+     "hours": "Year-round; daily and holiday timetables: https://www.blockislandferry.com/schedules-and-fares/ · Adult $12.30 one way or $22.60 same-day return; vehicle and other fares: https://www.blockislandferry.com/schedules-and-fares/",
+     "url": "https://www.blockislandferry.com/schedules-and-fares/",
+     "src": "blockislandferry.com",
+     "town": "Narragansett; New Shoreham"
+    },
+    {
+     "name": "Block Island Express — New London–Block Island",
+     "blurb": "This high-speed passenger service connects New London with Block Island's Old Harbor. It also provides a coordinated connection for passengers starting on Long Island. Has: high-speed, passenger ferry, bicycles for additional fare, paid Water Street garage nearby, parking information: https://www.goblockisland.com/Common/directions.aspx.",
+     "address": "2 Ferry Street, New London, CT 06320; Old Harbor, Block Island, RI",
+     "phone": "860-444-4624",
+     "hours": "Seasonal May–September calendar; schedule: https://www.goblockisland.com/CommonHtml/schedule.html · Adult $33.25 one way before posted fuel surcharge; fares: https://www.goblockisland.com/CommonHtml/fares.html",
+     "url": "https://www.goblockisland.com/",
+     "src": "goblockisland.com",
+     "town": "New London, CT; New Shoreham"
+    },
+    {
+     "name": "Cross Sound Cruises — Lights & Sights",
+     "blurb": "This narrated cruise leaves Connecticut and travels east to the Watch Hill coast of Rhode Island. The roughly two-hour itinerary includes lighthouses, the Ocean House, and other coastal landmarks. Has: lighthouse cruises, harbor sightseeing, catamaran, air-conditioned cabin, limited terminal parking $5 for cruise duration, nearby garages.",
+     "address": "2 Ferry Street, New London, CT 06320",
+     "phone": "860-444-4620",
+     "hours": "Selected June–October 2026 dates at 2 p.m.; schedule: https://www.longislandferry.com/pdf/lighthouse/2026/NLLH2026.pdf · Adult $35; age 2–11 $17.50; under 2 no charge; https://www.lighthouse.cruises/",
+     "url": "https://www.lighthouse.cruises/",
+     "src": "lighthouse.cruises",
+     "town": "New London, CT; Westerly waters"
+    },
+    {
+     "name": "Block Island Community Sailing — Cape Dory charters",
+     "blurb": "Community Sailing offers private outings on the Cape Dory sailboat Mischief. Cruises leave New Harbor to explore Block Island Sound with up to six guests. Has: private sailing, up to six passengers, sailing instruction available.",
+     "address": "New Harbor Boat Basin, West Side Road, Block Island, RI, New Shoreham (Block Island)",
+     "phone": "401-741-5136",
+     "hours": "Charter availability: https://www.sailbi.org/charter.html · Booking and charter rates: https://www.sailbi.org/charter.html",
+     "url": "https://www.sailbi.org/",
+     "src": "sailbi.org",
+     "town": "New Shoreham (Block Island)"
+    },
+    {
+     "name": "Block Island Fishing Charters — Wind Farm Tours",
+     "blurb": "This operator offers one-hour boat trips to view the Block Island offshore wind farm. The cruise also provides ocean views of the island and commentary about local waters. Has: wind-farm tours, private cruises, sightseeing.",
+     "address": "Old Harbor charter dock, Block Island, RI, New Shoreham (Block Island)",
+     "phone": "401-487-2425",
+     "hours": "One-hour tours by reservation; https://blockislandfishingcharters.net/rates-tours/ · Request quote: https://blockislandfishingcharters.net/rates-tours/",
+     "url": "https://blockislandfishingcharters.net/rates-tours/",
+     "src": "blockislandfishingcharters.net",
+     "town": "New Shoreham (Block Island)"
+    },
+    {
+     "name": "Catch 22 Luxury Charters",
+     "blurb": "The Block Island chamber lists Catch 22 for private day cruises, sunset outings, and island excursions. Current boarding details and a published schedule could not be confirmed. Has: private cruises, sunset cruises, island excursions.",
+     "address": "New Shoreham (Block Island)",
+     "phone": "401-591-7579",
+     "hours": "",
+     "url": "https://www.blockislandchamber.com/tours",
+     "src": "blockislandchamber.com",
+     "town": "New Shoreham (Block Island)"
+    },
+    {
+     "name": "Salt Pond Tours",
+     "blurb": "Salt Pond Tours arranges private outings on the Great Salt Pond and surrounding waters. Guests can request cruising, clamming, or fishing itineraries. Has: private cruises, harbor tours, clamming outings.",
+     "address": "New Shoreham (Block Island)",
+     "phone": "401-406-1242",
+     "hours": "Custom charters by request: https://saltpondtours.com/ · Charter quote by request: https://saltpondtours.com/",
+     "url": "https://saltpondtours.com/",
+     "src": "saltpondtours.com",
+     "town": "New Shoreham (Block Island)"
+    },
+    {
+     "name": "Snowfly Charters — Block Island seal and sightseeing tours",
+     "blurb": "The Block Island chamber lists Captain Greg Snow for seal trips to North Point and sunset cruises. Current sightseeing dates and fares require confirmation with the operator. Has: seal-watch cruises, sightseeing, sunset cruises, private charters.",
+     "address": "New Shoreham (Block Island)",
+     "phone": "401-439-0953",
+     "hours": "",
+     "url": "https://www.snowflycharters.com/",
+     "src": "snowflycharters.com",
+     "town": "New Shoreham (Block Island)"
+    },
+    {
+     "name": "Champlin's Water Taxi",
+     "blurb": "The state regulator lists Champlin's Water Taxi on Block Island. A current public schedule, departure dock and passenger fare were not confirmed. Has: water taxi.",
+     "address": "New Shoreham",
+     "phone": "401-466-7777",
+     "hours": "",
+     "url": "https://ripuc.ri.gov/utility-information/regulated-utilities",
+     "src": "ripuc.ri.gov",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "12 Meter Yacht Charters",
+     "blurb": "This operator takes visitors sailing on historic America's Cup class yachts. Ticketed departures and private charters offer a chance to participate in sailing or enjoy the view. Has: sailing cruises, racing yachts, private charters, paid Gateway Center and Mary Street parking, meet 30 minutes before departure.",
+     "address": "Meeting point: entrance to The Mooring Restaurant, 1 Sayers Wharf, Newport, RI",
+     "phone": "401-851-1216",
+     "hours": "Ticketed-sail calendar: https://www.12meteryachtcharters.com/ticketed-sails · Two-hour ticketed sails: adult $110 and child $50; fares: https://www.12meteryachtcharters.com/ticketed-sails",
+     "url": "https://www.12meteryachtcharters.com/",
+     "src": "12meteryachtcharters.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Afternoon Delight Sailing Charters",
+     "blurb": "Afternoon Delight offers private sailing outings for up to six passengers. Longer bookings can combine sailing with time for swimming. Has: private sailing, up to six passengers, swimming on selected charters.",
+     "address": "Newport",
+     "phone": "727-485-6039",
+     "hours": "Charter availability: https://afternoondelightcharters.com/ · Two-hour private sail from $400; rates: https://afternoondelightsailing.com/pricing/",
+     "url": "https://afternoondelightcharters.com/",
+     "src": "afternoondelightcharters.com",
+     "town": "Newport"
+    },
+    {
+     "name": "All Hands Sailing Charters",
+     "blurb": "All Hands offers private sailing experiences and longer custom itineraries around Narragansett Bay. Trips can include sailing instruction and overnight arrangements. Has: private sailing, up to six passengers, sailing instruction, overnight charters, custom pickup by arrangement.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "Charters by arrangement: https://allhandssailing.com/contact/ · Three hours $675 for four; five hours $875 for four; rates and group options: https://allhandssailing.com/contact/",
+     "url": "https://allhandssailing.com/",
+     "src": "allhandssailing.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Amazing Grace Harbor Tours",
+     "blurb": "Amazing Grace offers narrated one-hour cruises around Newport Harbor and Narragansett Bay. The route features waterfront estates, Fort Adams, Rose Island Lighthouse and the Newport Bridge. Has: narrated harbor cruise, sunset cruises, private charters.",
+     "address": "1 Sayers Wharf, Newport, RI 02840",
+     "phone": "401-847-9109",
+     "hours": "Mid-May–mid-October; departures: https://amazinggracenewport.com/schedule/ · Adult $25; senior 65+ $22; child 4–11 $10; under 4 no charge; surcharge may apply; https://amazinggracenewport.com/harbor-tours/",
+     "url": "https://amazinggracenewport.com/harbor-tours/",
+     "src": "amazinggracenewport.com",
+     "town": "Newport"
+    },
+    {
+     "name": "America's Cup Charters",
+     "blurb": "This operator offers ticketed sails and private charters on a fleet of historic 12 Meter yachts. Passengers can experience America's Cup style sailing on Narragansett Bay. Has: sailing cruises, racing yachts, private charters, recommended parking garage at 1 West Marlborough Street.",
+     "address": "Newport Harbor Hotel Marina Dock, 49 America's Cup Avenue, Newport, RI 02840",
+     "phone": "401-849-5868",
+     "hours": "Mid-May–October; ticketed calendar: https://www.americascupcharters.com/ticketed-sails · Ticketed-sail fares and private charter information: https://www.americascupcharters.com/ticketed-sails",
+     "url": "https://www.americascupcharters.com/",
+     "src": "americascupcharters.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Castle Hill Inn — M/V Mistress water taxi",
+     "blurb": "The inn advertises a water taxi between Castle Hill Marina and downtown Newport. Its page contains conflicting fare language and an undated calendar, so current operation needs confirmation. Has: water taxi, harbor sightseeing.",
+     "address": "Castle Hill Marina, Newport, RI; Ann Street Pier; Perrotti Park",
+     "phone": "401-849-3800",
+     "hours": "https://www.castlehillinn.com/stay/getting-here/water-taxi",
+     "url": "https://www.castlehillinn.com/stay/getting-here/water-taxi",
+     "src": "castlehillinn.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Coastal Queen — Scenic Bay Cruises",
+     "blurb": "Coastal Queen's narrated 75-minute trips explore Newport Harbor and the East Passage. The boat has a heated interior and a covered upper deck. Has: harbor tour, heated cabin, lighthouse views, paid downtown parking, parking information: https://cruiseri.com/starting-destinations/newport/.",
+     "address": "5 Bowen's Landing, Bowen's Wharf, Newport, RI",
+     "phone": "401-423-9900",
+     "hours": "2026 April 3–November 15; published 1:30 pm and 3:30 pm departures subject to charter bookings; https://cruiseri.com/cruises-tours/scenic-bay-cruise/ · From $33; https://cruiseri.com/cruises-tours/scenic-bay-cruise/",
+     "url": "https://cruiseri.com/cruises-tours/scenic-bay-cruise/",
+     "src": "cruiseri.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Fish'n Tales Adventures — lobster tours",
+     "blurb": "Tourism listings describe lobster and harbor excursions aboard Northeastern from Newport. The former operator domain now contains unrelated content, so current operation could not be confirmed. Has: lobster tours, harbor tours.",
+     "address": "31 Bowen's Wharf, Newport, RI",
+     "phone": "401-619-4431",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/fishn-tales-adventures-newport/8192/",
+     "src": "visitrhodeisland.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Gansett Cruises",
+     "blurb": "Gansett offers narrated harbor trips and evening cruises aboard a restored lobster boat. Voyages explore Newport and Jamestown scenery in approximately 60–70 minutes. Has: harbor tours, sunset cruises, covered seating, private charters.",
+     "address": "2 Bowen's Landing, Newport, RI 02840",
+     "phone": "401-619-1300",
+     "hours": "Daily offerings and departure availability: https://gansettcruises.com/tours-cruises/ · Starting prices: early bird $34; morning or afternoon $37; golden hour $42; sunset $45; fees additional; https://gansettcruises.com/tours-cruises/",
+     "url": "https://gansettcruises.com/tours-cruises/",
+     "src": "gansettcruises.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Heron Luxury Charters",
+     "blurb": "Heron is a sailing catamaran available for private group excursions from Newport during summer. The operator also works in Florida, so select the Newport departure when booking. Has: private sailing, catamaran, group charters, swimming.",
+     "address": "Newport",
+     "phone": "207-838-4041",
+     "hours": "Newport season June–September; booking: https://heronluxury.com/ · Charter rates: https://heronluxury.com/floridasailingcharters/",
+     "url": "https://heronluxury.com/",
+     "src": "heronluxury.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Island Charter Co",
+     "blurb": "Island Charter Co offers private catamaran experiences for up to 12 guests. Newport itineraries include harbor tours and options for overnight or Block Island travel. Has: private sailing, catamaran, up to 12 passengers, overnight charters, Block Island excursions.",
+     "address": "Newport",
+     "phone": "401-474-4169",
+     "hours": "Newport charter availability: https://islandcharterco.com/ · Trip-specific rates and inclusions: https://islandcharterco.com/",
+     "url": "https://islandcharterco.com/",
+     "src": "islandcharterco.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Ladybird Sailing",
+     "blurb": "Ladybird offers private Newport cruises aboard a traditional Friendship sloop. The boat accommodates up to 12 passengers and has a small onboard restroom. Has: private sailing, sunset cruises, up to 12 passengers, restroom.",
+     "address": "IYRS docks, 449 Thames Street, Newport, RI",
+     "phone": "",
+     "hours": "Sailing calendar: https://www.ladybirdsailing.com/ · Booking and charter rates: https://www.ladybirdsailing.com/",
+     "url": "https://www.ladybirdsailing.com/",
+     "src": "ladybirdsailing.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Martini Boat",
+     "blurb": "The Martini Boat runs private motorboat outings from Newport's IYRS Marina. Its 75-minute cruises accommodate groups of up to 14, with prices based on party size and date. Has: private cruises, harbor tours, up to 14 passengers.",
+     "address": "IYRS Marina, Newport, RI",
+     "phone": "401-662-2794",
+     "hours": "Cruise calendar: https://www.martiniboat.com/ · 75-minute private cruises from $349 weekdays or $395 weekends for one or two; larger-group rates: https://www.martiniboat.com/",
+     "url": "https://www.martiniboat.com/",
+     "src": "martiniboat.com",
+     "town": "Newport"
+    },
+    {
+     "name": "McCurdy Sailing — Hurrah",
+     "blurb": "Hurrah is a 36-foot sloop available for private Newport sailing trips for up to six guests. Boarding begins with a harbor launch transfer from Perrotti Park. Has: private sailing, launch transfer, restroom, small non-shedding dogs under 20 pounds with flotation device, paid visitor center parking.",
+     "address": "Perrotti Park harbor launch gazebo, Newport, RI",
+     "phone": "401-236-5005",
+     "hours": "2026 charter calendar: https://www.mccurdysailing.com/book-your-sail · Booking and rates: https://www.mccurdysailing.com/book-your-sail",
+     "url": "https://www.mccurdysailing.com/",
+     "src": "mccurdysailing.com",
+     "town": "Newport"
+    },
+    {
+     "name": "NCG Launch Services — Newport Harbor Island Resort water taxi",
+     "blurb": "This water taxi connects the Goat Island resort with Bowen's Landing and Ann Street Pier. The 2026 state order describes the service as open to the general public with no passenger fare. Has: water taxi, public access, no passenger fare.",
+     "address": "Newport Harbor Island Resort, 1 Goat Island, Newport, RI 02840; Bowen's Landing; Ann Street Pier",
+     "phone": "",
+     "hours": "Published water-taxi season May 23–September 20; daily times by inquiry; https://www.newportharborisland.com/faq/ · No charge to riders under 2026 PUC order: https://ripuc.ri.gov/sites/g/files/xkgbur841/files/2026-01/NCG%20Launch%20Services%2025-42-FR%20Ord25575%20%281-9-26%29.pdf",
+     "url": "https://www.newportharborisland.com/faq/",
+     "src": "newportharborisland.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Boat Adventures",
+     "blurb": "This operator offers private motorboat cruises, swim outings, and Block Island day trips. Parties of seven to 12 use a bareboat arrangement with a separately selected captain. Has: private cruises, sunset cruises, swimming, Block Island excursions, alternate pickup locations.",
+     "address": "Ann Street Pier, Thames Street, Newport, RI; alternate pickups by arrangement",
+     "phone": "401-830-3839",
+     "hours": "May–October; booking calendar: https://newportboatadventuresri.com/ · Four hours from $799 for up to six; eight hours from $1,250; sunset from $499; captain and fuel charges for larger-group bareboat trips additional; rates: https://newportboatadventuresri.com/",
+     "url": "https://newportboatadventuresri.com/",
+     "src": "newportboatadventuresri.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Boat Ride — Baywatch",
+     "blurb": "Baywatch offers private motorboat cruises from downtown Newport for groups of up to 21. Longer charters can include swimming stops as well as harbor sightseeing. Has: private cruises, harbor tours, sunset cruises, swimming, restroom, up to 21 passengers.",
+     "address": "Waterfront at Saltwater Restaurant, 49 America's Cup Avenue, Newport, RI",
+     "phone": "401-662-2794",
+     "hours": "Departure and charter calendar: https://www.newportboatride.com/ · Rates vary by group size and duration; booking: https://www.newportboatride.com/",
+     "url": "https://www.newportboatride.com/",
+     "src": "newportboatride.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Classic Cruises — Rum Runner II",
+     "blurb": "This motor yacht runs narrated lighthouse and sunset cruises through Newport Harbor and Narragansett Bay. The vessel has covered seating and an onboard restroom. Has: harbor tours, lighthouse cruises, sunset cruises, motor yacht, restroom, nearby public and private paid parking, no operator parking lot.",
+     "address": "Bannister's Wharf, 24 Bannister's Wharf, Newport, RI",
+     "phone": "401-847-0000",
+     "hours": "May–October; departure calendar: https://sail-newport.com/browse-by-boat-yacht-rum-runner-ii/ · Lighthouse cruise $42–$52; sunset cruise $40–$60; current fares: https://sail-newport.com/browse-by-boat-yacht-rum-runner-ii/",
+     "url": "https://sail-newport.com/browse-by-boat-yacht-rum-runner-ii/",
+     "src": "sail-newport.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Harbor Shuttle",
+     "blurb": "The harbor shuttle allows passengers to board and leave at several Newport waterfront stops. Its complete harbor loop takes about one hour. Has: hop-on hop-off, harbor tour, wheelchair accessible, paid public parking near Perrotti Park.",
+     "address": "Perrotti Park, 39 America's Cup Avenue, Newport, RI 02840",
+     "phone": "401-847-9109",
+     "hours": "Memorial Day weekend–October holiday weekend; published departures Monday–Thursday noon–6 pm and Friday–Sunday 11 am–7 pm; https://newportharborshuttle.com/ · Fare pages differ ($18 on shuttle website and $19 on parent operator site); confirm current fare: https://newportharborshuttle.com/",
+     "url": "https://newportharborshuttle.com/",
+     "src": "newportharborshuttle.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Hidden Cove Charters — Scup",
+     "blurb": "Scup runs private harbor, mansion-viewing, and picnic cruises for up to six passengers. Longer trips can include swimming in sheltered coves. Has: private cruises, harbor tours, swimming, dogs allowed, restroom, paid parking at meeting point.",
+     "address": "Meeting point between The Mooring and Oldport Marine, 1 Sayers Wharf, Newport, RI",
+     "phone": "401-236-4674",
+     "hours": "Trip calendar: https://nptcharter.starboardsuite.com/ · Booking and rates: https://nptcharter.com/",
+     "url": "https://nptcharter.com/",
+     "src": "nptcharter.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Sailing School and Tours",
+     "blurb": "This Goat Island operator offers captained sailing tours as well as instruction. Private harbor and bay outings accommodate up to six passengers. Has: sailing cruises, private charters, sunset cruises, sailing instruction, parking at kiosk at no charge.",
+     "address": "Goat Island Marina, Dock A5, 5 Marina Plaza, Newport, RI",
+     "phone": "401-848-2266",
+     "hours": "May–November; schedule: https://www.newportsailing.com/sailing-tours · Private 75-minute sail $400 for up to six; current rates: https://www.newportsailing.com/sailing-tours",
+     "url": "https://www.newportsailing.com/sailing-tours",
+     "src": "newportsailing.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Oldport Launch — Newport Harbor",
+     "blurb": "Oldport provides launch trips between docks, moorings and anchorages in Newport Harbor. Request service on marine VHF channel 68. Has: water taxi, mooring launch, cash only, leashed dogs allowed.",
+     "address": "1 Sayers Wharf, Newport, RI 02840",
+     "phone": "401-847-9109",
+     "hours": "2026 May 4–November 1 with changing hours; timetable: https://www.oldportmarine.com/launch-service.html · Typically $5 each way in harbor; specified outer anchorage and off-season trips $10; https://www.oldportmarine.com/launch-service.html",
+     "url": "https://www.oldportmarine.com/launch-service.html",
+     "src": "oldportmarine.com",
+     "town": "Newport"
+    },
+    {
+     "name": "On Watch Sailing — Lyra and Wren",
+     "blurb": "Lyra and Wren each offer private sailing trips for up to six guests. Passengers take a short launch ride from Sayers Wharf to board the sailboats. Has: private sailing, sunset cruises, up to six passengers per boat, launch transfer.",
+     "address": "Launch pickup: 1 Sayers Wharf, Newport, RI",
+     "phone": "401-239-2229; 508-847-3244",
+     "hours": "Mid-April–late October; booking calendar: https://www.onwatchsailing.com/book-a-trip/ · Private-sail booking and rates: https://www.onwatchsailing.com/private-sails/",
+     "url": "https://www.onwatchsailing.com/",
+     "src": "onwatchsailing.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Pineapple Sailing",
+     "blurb": "Pineapple Sailing offers private Newport outings on sailing and party boats. Customers choose the vessel and duration through the operator's charter menu. Has: private cruises, sailing cruises, group charters, sunset cruises.",
+     "address": "31 Bowen's Wharf, Newport, RI 02840",
+     "phone": "401-662-5598",
+     "hours": "Charter calendar: https://www.pineapplesailing.com/book-online · Charter options and current prices: https://www.pineapplesailing.com/book-online",
+     "url": "https://www.pineapplesailing.com/",
+     "src": "pineapplesailing.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Rose Island — private tours aboard Rose",
+     "blurb": "The lighthouse trust offers private boat transport and guided Rose Island visits for up to 16 guests. These outings include time to explore the island and lighthouse. Has: private launch, lighthouse tours, island landing, up to 16 passengers.",
+     "address": "Fort Adams, Newport, RI; other Newport pickup locations by arrangement",
+     "phone": "401-847-4242",
+     "hours": "Private tours by arrangement, usually 90 minutes; https://www.roseisland.org/private-tours-events · Request private-tour quote: https://www.roseisland.org/private-tours-events",
+     "url": "https://www.roseisland.org/private-tours-events",
+     "src": "roseisland.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Sail Newport — Try Sailing",
+     "blurb": "Certified instructors introduce visitors to sailing while exploring Newport from the water. Each outing accommodates up to four adults or a family group of two adults and three children. Has: instructor-led sailing, family outings, life jackets provided, parking near Dock Office at no charge.",
+     "address": "Dock Office, 72 Fort Adams Drive, Newport, RI 02840",
+     "phone": "401-849-8385",
+     "hours": "Reservations through Dock Office; availability varies with weather and programs: https://sailnewport.org/adult-sailing-programs/try-sailing/ · 2026 weekday adult $50 and age 11–17 $20; weekend/holiday adult $65 and age 11–17 $25; age 10 and under no charge; minimum two participants; https://sailnewport.org/adult-sailing-programs/try-sailing/",
+     "url": "https://sailnewport.org/adult-sailing-programs/try-sailing/",
+     "src": "sailnewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Sailing Yacht Tree of Life",
+     "blurb": "Tree of Life offers private sailing charters on Narragansett Bay for up to six guests. Options range from shorter day sails to longer and overnight trips. Has: private sailing, up to six passengers, overnight charters.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "Private charter availability: https://www.sailingnewportri.com/private-charter · Two hours $1,600; four hours $3,000; eight hours $5,200; rates: https://www.sailingnewportri.com/private-charter",
+     "url": "https://www.sailingnewportri.com/",
+     "src": "sailingnewportri.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Save The Bay — Newport Seal Tours",
+     "blurb": "These one-hour cruises look for wintering seals near Rose Island. Confirm the departure dock when booking because the operator page lists both Bowen's Wharf and Perrotti Park. Has: seal watching, narrated nature cruise, accessibility by advance arrangement, paid downtown parking.",
+     "address": "Newport",
+     "phone": "401-203-7325",
+     "hours": "November–April; dates and booking: https://savebay.org/family-fun/seals/ · One hour $25; members and eligible concessions $20; under 3 no charge; https://savebay.org/family-fun/seals/",
+     "url": "https://savebay.org/family-fun/seals/",
+     "src": "savebay.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Schooner Madeleine",
+     "blurb": "Day and sunset sailing aboard a traditional-style schooner on Newport Harbor and Narragansett Bay.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://sail-newport.com/our-boats/schooner-madeleine/",
+     "src": "sail-newport.com"
+    },
+    {
+     "name": "Sightsailing — Schooner Aquidneck",
+     "blurb": "Aquidneck runs public daytime and sunset sails from downtown Newport. Trips last approximately one hour and 45 minutes and combine harbor scenery with sailing on the bay. Has: sailing cruises, sunset cruises, schooner, nearby paid parking.",
+     "address": "32 Bowen's Wharf, Newport, RI",
+     "phone": "401-849-3333",
+     "hours": "May 2–November 1, 2026; schedule: https://sightsailing.com/schedule-rates/ · Day sails $58–$62; sunset sails $69–$75; current rates: https://sightsailing.com/schedule-rates/",
+     "url": "https://sightsailing.com/",
+     "src": "sightsailing.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Martha's Vineyard Fast Ferry — Quonset Point–Oak Bluffs",
+     "blurb": "This high-speed passenger service connects Quonset Point with Oak Bluffs on Martha's Vineyard. Its dockside parking lot closes overnight and is accessible around ferry operating hours. Has: high-speed, passenger ferry, bikes for additional fare, accessible, dockside parking $15/calendar day, parking information: https://www.fastferry.com/marthas-vineyard-fast-ferry/parking-in-quonset-point/.",
+     "address": "1347 Roger Williams Way, North Kingstown, RI 02852; 10 Circuit Avenue Extension, Oak Bluffs, MA 02557, North Kingstown; Oak Bluffs, MA",
+     "phone": "401-295-4040",
+     "hours": "2026 season ended; 2027 service announced without dates; calendar: https://www.fastferry.com/marthas-vineyard-fast-ferry/ · 2026 advance adult: $75–85 one way or $115–135 return before fuel surcharge and port fee; full fares: https://www.fastferry.com/marthas-vineyard-fast-ferry/",
+     "url": "https://www.fastferry.com/marthas-vineyard-fast-ferry/",
+     "src": "fastferry.com",
+     "town": "North Kingstown; Oak Bluffs, MA"
+    },
+    {
+     "name": "Coastal Princess — Wickford Seal & Harbor Tours",
+     "blurb": "Coastal Princess departs Wickford for seal watching and narrated coastal sightseeing. The advertised route includes Fox Island, Rome Point and Plum Beach Lighthouse. Has: seal watching, narrated cruise, indoor seating, binoculars provided.",
+     "address": "170 Main Street, Wickford, North Kingstown, RI 02852",
+     "phone": "401-423-9900",
+     "hours": "Returns November 6, 2026; tide-dependent 75-minute cruises; https://cruiseri.com/cruises-tours/seal-harbor-tour/ · From $33; https://cruiseri.com/cruises-tours/seal-harbor-tour/",
+     "url": "https://cruiseri.com/cruises-tours/seal-harbor-tour/",
+     "src": "cruiseri.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Rhode Island Bay Cruises — Lighthouse and Newport Harbor Tour",
+     "blurb": "This 100-minute cruise tours Narragansett Bay from Quonset Point. Its sightseeing itinerary covers ten lighthouses, ten islands and Newport Harbor. Has: lighthouse tour, high-speed catamaran, dockside parking, private charters.",
+     "address": "1347 Roger Williams Way, North Kingstown, RI 02852",
+     "phone": "401-295-4040",
+     "hours": "2026 season ended; calendar: https://www.fastferry.com/rhode-island-bay-cruises/ · 2026 advance adult $45; senior 60+ $43; child 3–11 $30; full rates: https://www.fastferry.com/rhode-island-bay-cruises/",
+     "url": "https://www.fastferry.com/rhode-island-bay-cruises/",
+     "src": "fastferry.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Shaw's Water Taxi",
+     "blurb": "Rhode Island's utility regulator lists Shaw's Water Taxi as a Prudence Island carrier. Current boarding points, fares and operating dates were not confirmed. Has: water taxi.",
+     "address": "Portsmouth",
+     "phone": "401-683-2021",
+     "hours": "",
+     "url": "https://ripuc.ri.gov/utility-information/ferry-services",
+     "src": "ripuc.ri.gov",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Seastreak — Providence–Newport ferry",
+     "blurb": "This seasonal ferry links Providence and downtown Newport through Narragansett Bay. The Providence terminal provides on-site daytime parking and a connecting downtown shuttle at no charge. Has: passenger ferry, bikes by reservation, pets, accessible terminal, Providence parking at no charge, Newport paid parking nearby.",
+     "address": "25 Portugal Parkway, Providence, RI 02903; Perrotti Park, 39 America's Cup Avenue, Newport, RI 02840, Providence; Newport",
+     "phone": "800-262-8743",
+     "hours": "2026: June 12–October 12; four daily round trips; schedule: https://seastreak.com/ferry-routes-and-schedules/between-providence-newport-ri/ · Adult $12 one way; child 3–12 and eligible reduced-fare passengers $6; booking fee additional; fares: https://seastreak.com/ferry-routes-and-schedules/between-providence-newport-ri/",
+     "url": "https://seastreak.com/ferry-routes-and-schedules/between-providence-newport-ri/",
+     "src": "seastreak.com",
+     "town": "Providence; Newport"
+    },
+    {
+     "name": "La Gondola",
+     "blurb": "Private Venetian-style gondola trips along the downtown waterways, with seasonal and special-event options.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.gondolari.com/",
+     "src": "gondolari.com"
+    },
+    {
+     "name": "La Gondola Providence",
+     "blurb": "La Gondola offers private Venetian-style rides on Providence's downtown rivers. Special packages include music, narrated outings and WaterFire trips. Has: gondola, private rides, WaterFire trips, six-passenger maximum.",
+     "address": "Gondola Landing, One Citizens Plaza, below Cafe Nuovo, Providence, RI 02903",
+     "phone": "401-421-8877",
+     "hours": "2026 May 1–November 7, daily weather permitting; booking: https://www.gondolari.com/make-a-reservation · Standard 40-minute private trip $89 for two plus $30 per additional passenger; other packages: https://www.gondolari.com/make-a-reservation",
+     "url": "https://www.gondolari.com/",
+     "src": "gondolari.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence River Boat Company",
+     "blurb": "Providence River Boat Company offers narrated city tours, twilight cruises, WaterFire rides and themed excursions. It also operates private charters and larger bay cruises aboard Mariner. Has: river tours, harbor cruises, WaterFire trips, private charters.",
+     "address": "101 Dyer Street, Providence, RI 02903",
+     "phone": "401-580-2628",
+     "hours": "Departure calendars by cruise: https://providenceriverboat.com/ · Tour-specific fares and booking: https://providenceriverboat.com/",
+     "url": "https://providenceriverboat.com/",
+     "src": "providenceriverboat.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams Park Boats — Pirate Boat Tours",
+     "blurb": "The park's captain-led pirate boat makes a 25-minute cruise through its lake system. Children must travel with an adult. Has: lake cruise, family attraction.",
+     "address": "Roger Williams Park boat docks, Providence, RI",
+     "phone": "508-984-8264",
+     "hours": "Current operating information: https://www.providenceri.gov/parks/roger-williams-park-boating/ · Adult 13+ $15; child 1–12 $10; adults accompanying children $10; https://www.providenceri.gov/parks/roger-williams-park-boating/",
+     "url": "https://www.providenceri.gov/parks/roger-williams-park-boating/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "WaterFire Access Boat — Sandra Jane",
+     "blurb": "This reserved boat experience serves people with mobility or accessibility challenges and one companion. Trips provide a river-level view of WaterFire during full lightings. Has: accessible boat, advance reservations, eligibility restrictions, dock drop-off, public parking nearby, no long-term dock parking.",
+     "address": "Dyer Street Dock, beside Rhode Island Irish Famine Memorial, Providence, RI",
+     "phone": "",
+     "hours": "Full WaterFire lightings only; reservations at least two weeks ahead; https://waterfire.org/visit/access-program/ · No charge for eligible riders; https://waterfire.org/visit/access-program/",
+     "url": "https://waterfire.org/visit/access-program/",
+     "src": "waterfire.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Aerie Charters — sightseeing cruises",
+     "blurb": "Aerie offers private sightseeing and sunset trips from Snug Harbor. Customized excursions can include a visit to Block Island or time exploring the South County coast. Has: private cruises, sunset cruises, up to six passengers, Block Island excursions.",
+     "address": "Snug Harbor Marina, 410 Gooseberry Road, Wakefield, RI 02879, South Kingstown (Snug Harbor)",
+     "phone": "401-578-9829",
+     "hours": "Custom departure times by reservation: https://www.aeriecharters.com/contact-us · Sightseeing $150/hour with two-hour minimum for up to six; crew gratuity additional; https://www.aeriecharters.com/sightseeing---memorial",
+     "url": "https://www.aeriecharters.com/sightseeing---memorial",
+     "src": "aeriecharters.com",
+     "town": "South Kingstown (Snug Harbor)"
+    },
+    {
+     "name": "Matunuck Oyster Farm Tours",
+     "blurb": "The farm advertises approximately one-hour visits to its shellfish-growing operation in Potter Pond. Confirm current boat-tour availability and meeting arrangements while the restaurant is being rebuilt. Has: oyster farm tour, pond boat excursion, private tours by arrangement.",
+     "address": "South Kingstown",
+     "phone": "401-783-4202 ext. 2",
+     "hours": "Tour booking information: https://rhodyoysters.com/oyster_farm_tours/ · Tour booking and quote requests: https://rhodyoysters.com/oyster_farm_tours/",
+     "url": "https://rhodyoysters.com/oyster_farm_tours/",
+     "src": "rhodyoysters.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Rhode Island Sailing Charters — Aujourd'hui",
+     "blurb": "Aujourd'hui sails from Tiverton on private outings for up to six passengers. Afternoon, sunset, and overnight options explore the Sakonnet River and nearby waters. Has: private sailing, sunset cruises, up to six passengers, overnight charters.",
+     "address": "Stone Bridge dock, south side of harbor opposite Grinnell's Beach, 1860 Main Road, Tiverton, RI",
+     "phone": "401-862-4686",
+     "hours": "Summer; afternoon sail 2–4:30 p.m. and sunset departures varying by date: https://rhodeislandsailingcharters.com/charter-services · Afternoon or sunset charter $600; overnight from $999 for up to four; rates: https://rhodeislandsailingcharters.com/charter-services",
+     "url": "https://rhodeislandsailingcharters.com/",
+     "src": "rhodeislandsailingcharters.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Sail Trim Again",
+     "blurb": "Trim Again offers private sailing trips on a historic wooden catboat from Watch Hill. Routes explore the harbor, nearby river, and Fishers Island Sound with up to six guests. Has: private sailing, sunset cruises, up to six passengers, parking for one car at no charge, public parking for additional cars.",
+     "address": "Watch Hill North Docks, end floating dock near 31 Bay Street, Westerly, RI, Westerly (Watch Hill)",
+     "phone": "860-227-2339",
+     "hours": "May–October; daily 10 a.m., 1 p.m., 3 p.m. and seasonal sunset times: https://www.sail-trim-again.com/sailing-experiences/ · 90-minute private day sail $500; sunset $600; three hours $1,000; https://www.sail-trim-again.com/sailing-experiences/",
+     "url": "https://www.sail-trim-again.com/",
+     "src": "sail-trim-again.com",
+     "town": "Westerly (Watch Hill)"
+    },
+    {
+     "name": "Hard Tail Charters",
+     "blurb": "The state tourism directory lists Hard Tail for scenic cruises between Watch Hill and neighboring coastal towns. A current operating schedule and boarding location could not be confirmed. Has: harbor tours, scenic cruises, private charters.",
+     "address": "Westerly",
+     "phone": "401-234-1171",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/hard-tail-charters/8813/",
+     "src": "visitrhodeisland.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Watch Hill Charters — scenic cruises and island transfers",
+     "blurb": "Watch Hill Charters offers scenic and sunset cruises alongside its fishing trips. Private transportation to Fishers Island and Montauk is also available by arrangement. Has: private cruises, sunset cruises, island transfers, parking at boatyard, shore restrooms.",
+     "address": "Frank Hall Boat Yard, 3 India Point, Westerly, RI 02891",
+     "phone": "401-474-5095",
+     "hours": "By arrangement; trip options: https://watchhillcharters.com/ · Custom scenic-cruise and transfer quotes: https://watchhillcharters.com/",
+     "url": "https://watchhillcharters.com/",
+     "src": "watchhillcharters.com",
+     "town": "Westerly"
     }
    ]
   },
