@@ -32034,76 +32034,1684 @@
    "title": "Villages & Shopping",
    "items": [
     {
+     "name": "Barrington Books",
+     "blurb": "Barrington Books combines books with gifts and toys. It serves readers of different ages from its County Road shop. Has: bookstore, toys, gifts, children's books.",
+     "address": "184 County Road, Barrington",
+     "phone": "401-245-7925",
+     "hours": "",
+     "url": "https://bookshop.org/shop/barringtonbooks",
+     "src": "bookshop.org",
+     "town": "Barrington"
+    },
+    {
+     "name": "Barrington Shopping Center",
+     "blurb": "This open-air center combines independent businesses with national retailers. It is adjacent to the East Bay Bike Path. Has: shopping center, outdoor, bookstore, bike path nearby.",
+     "address": "Barrington",
+     "phone": "",
+     "hours": "",
+     "url": "https://paolinoproperties.com/portfolio/barrington-shopping-center/",
+     "src": "paolinoproperties.com",
+     "town": "Barrington"
+    },
+    {
+     "name": "Stitch Source",
+     "blurb": "Stitch Source sells yarn, fabric and sewing materials. Its official contact page lists Barrington while another current directory lists Providence, so the storefront location requires confirmation. Has: craft shop, yarn, fabric, quilting, sewing.",
+     "address": "10 Anoka Avenue, Barrington",
+     "phone": "401-337-5578",
+     "hours": "",
+     "url": "https://www.stitchsourceri.com/pages/contact",
+     "src": "stitchsourceri.com",
+     "town": "Barrington"
+    },
+    {
+     "name": "Belltower Plaza",
+     "blurb": "Belltower Plaza is a Metacom Avenue retail center. Its leasing page identifies a grocery store as a neighboring anchor. Has: shopping center.",
+     "address": "576 Metacom Avenue, Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.hayessherry.com/pages/Commercial-Property-Listings-Detail.cfm?propertyID=71",
+     "src": "hayessherry.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Bristol Looms",
+     "blurb": "Bristol Looms makes handwoven textiles for the home. Studio visits and discussions about custom pieces are arranged by appointment. Has: craft shop, handmade, weaving, textiles, appointments.",
+     "address": "49 Bradford Street, Bristol",
+     "phone": "401-787-1462",
+     "hours": "By appointment",
+     "url": "https://bristollooms.com/",
+     "src": "bristollooms.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Bristol Shopping Center",
+     "blurb": "This neighborhood shopping center sits near Gooding Avenue and Hope Street. Its leasing information identifies parking in front of the stores. Has: shopping center, parking.",
+     "address": "6–40 Gooding Avenue, Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.commercialcafe.com/commercial-property/us/ri/bristol/the-bristol-shopping-center/",
+     "src": "commercialcafe.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Downtown Bristol",
+     "blurb": "Downtown Bristol has a merchants association supporting its local businesses. Shops participate in seasonal shopping events. Has: shopping district, downtown, boutiques.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.bristolmerchantsassociation.com/",
+     "src": "bristolmerchantsassociation.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Jesse-James Antiques",
+     "blurb": "Jesse-James Antiques offers older furniture and decorative objects in Bristol. Its selection includes fine art and pieces from earlier centuries. Has: antiques, fine art, furniture.",
+     "address": "44 State Street, Bristol",
+     "phone": "401-253-2240",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/jesee-james-antiques/9376/",
+     "src": "visitrhodeisland.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Roger Williams University Campus Store",
+     "blurb": "This campus shop provides books and university merchandise. Its published schedule changes with the academic calendar. Has: bookstore, campus store, textbooks, apparel.",
+     "address": "1 Old Ferry Road, The Commons, Bristol",
+     "phone": "401-254-3036",
+     "hours": "Nov 2–8, 2026: Mon–Thu 9am–5pm; Fri 9am–4pm; Sat 10am–2pm; Sun 9am–1pm",
+     "url": "https://www.bkstr.com/rwustore/store-hours",
+     "src": "bkstr.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Harrisville Village",
+     "blurb": "Harrisville's village center contains local businesses in a former mill community. Its Main Street includes shops and services. Has: shopping district, village, services.",
+     "address": "Harrisville Main Street, Burrillville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.burrillville.org/business-directory/by-category/all",
+     "src": "burrillville.org",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Herald Square Shops",
+     "blurb": "This Pascoag property was previously known as Merchant Square. It contains storefronts and other commercial spaces. Has: shopping center, village, mixed use.",
+     "address": "40–82 North Main Street, Pascoag, Burrillville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.nrinow.news/2025/02/13/pascoag-plaza-sells-for-1-75-million/",
+     "src": "nrinow.news",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Pascoag Village",
+     "blurb": "Pascoag's downtown groups small businesses around its main streets. Seasonal village events bring vendors and shopping activities to the area. Has: shopping district, village, downtown, seasonal events.",
+     "address": "Pascoag Main Street and North Main Street, Burrillville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.nrinow.news/2025/11/28/just-in-time-for-a-victorian-holiday-redevelopment-agency-extends-lighting-over-pascoag/",
+     "src": "nrinow.news",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Wright's Farm Gift Shop",
+     "blurb": "This gift shop carries toys alongside clothing, accessories and specialty foods. It is part of the Wright's Farm restaurant property. Has: toys, gifts, clothing, candy.",
+     "address": "84 Inman Road, Harrisville, Burrillville",
+     "phone": "401-765-5745",
+     "hours": "Thu–Fri 4pm–8pm; Sat noon–8:30pm; Sun noon–8pm",
+     "url": "https://www.wrightsfarm.com/gift-shop/",
+     "src": "wrightsfarm.com",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Peter Patchis Yarns",
+     "blurb": "Peter Patchis Yarns sells yarn from an upstairs mill space. The shop profile lists reserved parking and access by two flights of stairs. Has: craft shop, yarn, reserved parking, stairs.",
+     "address": "174 Cross Street, Central Falls",
+     "phone": "401-723-3116",
+     "hours": "Mon–Sat 10am–3pm",
+     "url": "https://www.ravelry.com/shops/peter-patchis-yarns",
+     "src": "ravelry.com",
+     "town": "Central Falls"
+    },
+    {
+     "name": "Rusty Rabbit Antiques & Unique Gifts",
+     "blurb": "Rusty Rabbit combines antiques with vintage decor and gifts. The official site gives conflicting season dates, so opening and closing dates require confirmation. Has: antiques, vintage, gifts, seasonal.",
+     "address": "5219 Old Post Road, Charlestown",
+     "phone": "401-322-1111",
+     "hours": "During the season: Thu–Sun 11am–4pm; Mon–Wed closed",
+     "url": "https://rustyrabbitantiques.com/",
+     "src": "rustyrabbitantiques.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "The Fantastic Umbrella Factory",
+     "blurb": "This former farmstead houses a collection of independent shops in several buildings. Gardens and shell paths connect the shopping spaces. Has: shopping center, crafts, gifts, gardens, seasonal hours.",
+     "address": "4820 Old Post Road, Charlestown",
+     "phone": "401-364-1060",
+     "hours": "Mar–Jun and Sep–Dec daily 10am–5pm; Jul–Aug daily 10am–6pm; Jan–Feb weekends only 10am–5pm; closed Thanksgiving, Christmas Day, New Year's Day and Easter Sunday",
+     "url": "https://www.fantasticumbrellafactory.com/",
+     "src": "fantasticumbrellafactory.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Binds & Blooms",
+     "blurb": "Binds & Blooms is a local bookstore on Sandy Bottom Road. Its published schedule includes evening browsing on several weekdays. Has: bookstore.",
+     "address": "45 Sandy Bottom Road, Coventry",
+     "phone": "401-854-9454",
+     "hours": "Tue, Thu–Fri 11am–7pm; Wed 11am–4pm; Sat 11am–5pm; Sun–Mon closed",
+     "url": "https://www.bindsandblooms.com/",
+     "src": "bindsandblooms.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Centre of New England",
+     "blurb": "This commercial development groups larger retailers with smaller shopping plazas. Parking areas serve the individual retail buildings. Has: shopping center, retail district, parking.",
+     "address": "Centre of New England Boulevard, Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.crexi.com/lease/properties/1161893/rhode-island-705-735-centre-of-new-england-blvd",
+     "src": "crexi.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Coventry Crossing",
+     "blurb": "Coventry Crossing is a neighborhood shopping center on New London Turnpike. Its tenant mix combines everyday retail and food businesses. Has: shopping center, dining, pharmacy.",
+     "address": "2250–2380 New London Turnpike, Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "https://rcgventures.com/properties/coventry-crossing/",
+     "src": "rcgventures.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Coventry Plaza",
+     "blurb": "Coventry Plaza contains retail spaces along Tiogue Avenue. Its leasing materials identify customer parking at the property. Has: shopping center, parking.",
+     "address": "1020–1050 Tiogue Avenue, Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "https://images3.loopnet.com/d2/HVRvXNKC4O2l56mKMRsTDMzVzofr3C7tUWTNZLCIwwA/document.pdf",
+     "src": "images3.loopnet.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Pawtuxet Village",
+     "blurb": "Pawtuxet Village groups small shops and dining near the harbor. Its merchant directory includes books, antiques and local services. Has: shopping district, village, waterfront, bookstore, antiques, dining.",
+     "address": "Broad Street, Cranston / Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.friendsofpawtuxetvillage.org/PawtuxetVillageMerchants.html",
+     "src": "friendsofpawtuxetvillage.org",
+     "town": "Cranston / Warwick"
+    },
+    {
+     "name": "Banana Republic Factory — Garden City Center",
+     "blurb": "This factory store sells men's and women's clothing in Garden City Center. Its selection includes workwear and casual clothing. Has: outlets, clothing, outdoor shopping center, parking.",
+     "address": "72 Hillside Road, Cranston",
+     "phone": "401-942-0192",
+     "hours": "Mon–Sat 10am–8pm; Sun 11am–6pm",
+     "url": "https://bananarepublicfactory.gapfactory.com/stores/ri/cranston/banana-republic-1605.html",
+     "src": "bananarepublicfactory.gapfactory.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Chapel View",
+     "blurb": "Chapel View combines retail and restaurants with offices and residences. Its buildings incorporate the site's historic architecture. Has: shopping center, dining, mixed use.",
+     "address": "1000 Chapel View Boulevard, Cranston",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.chapel-view.com/",
+     "src": "chapel-view.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Cranston Parkade",
+     "blurb": "Cranston Parkade is a multi-store shopping center on Garfield Avenue. Improved road connections provide access from surrounding neighborhoods. Has: shopping center.",
+     "address": "200–292 Garfield Avenue, Cranston",
+     "phone": "",
+     "hours": "",
+     "url": "https://paolinoproperties.com/portfolio/200-292-garfield-avenue/",
+     "src": "paolinoproperties.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Garden City Center",
+     "blurb": "Garden City is an outdoor shopping center arranged around landscaped pedestrian areas. Its parking areas include electric vehicle charging. Has: shopping center, outdoor, dining, parking, EV charging.",
+     "address": "100 Midway Road, Cranston",
+     "phone": "401-942-2800",
+     "hours": "Mon–Sat 10am–8pm; Sun 11am–6pm; individual business hours vary",
+     "url": "https://gardencitycenter.com/about/",
+     "src": "gardencitycenter.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Lakeshore Learning",
+     "blurb": "Lakeshore Learning sells educational toys and classroom materials. Its Cranston store serves families as well as educators. Has: toys, educational toys, craft supplies, teacher supplies.",
+     "address": "1400 Oaklawn Avenue, Cranston",
+     "phone": "401-463-8800",
+     "hours": "",
+     "url": "https://www.lakeshorelearning.com/stores/locator/cranston/059/",
+     "src": "lakeshorelearning.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Marshalls Plaza",
+     "blurb": "Marshalls Plaza is a retail center on Oaklawn Avenue. Its shopping mix includes clothing and specialty stores. Has: shopping center, clothing, toys.",
+     "address": "1400 Oaklawn Avenue, Cranston",
+     "phone": "",
+     "hours": "",
+     "url": "https://gramercypg.com/properties/marshalls-plaza/",
+     "src": "gramercypg.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "The Time Capsule",
+     "blurb": "The Time Capsule specializes in comic books and related collectibles. Its inventory also includes records, toys and video games. Has: bookstore, comics, toys, collectibles, records, video games.",
+     "address": "537 Pontiac Avenue, Cranston",
+     "phone": "401-781-5017",
+     "hours": "",
+     "url": "https://www.timecapsuleri.com/about",
+     "src": "timecapsuleri.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Twice Told Tales",
+     "blurb": "Twice Told Tales is a small bookstore in Pawtuxet Village. Cards, clothing, jewelry and gifts share space with its books. Has: bookstore, village, cards, gifts.",
+     "address": "2145 Broad Street, Cranston",
+     "phone": "401-785-9599",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/twice-told-tales/11931/",
+     "src": "visitrhodeisland.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Blackstone Quilting Company",
+     "blurb": "Blackstone Quilting sells fabric, patterns and sewing supplies. It also offers quilting services and classes. Has: craft shop, quilting, fabric, classes.",
+     "address": "3751 Mendon Road, Cumberland Village Shopping Center",
+     "phone": "",
+     "hours": "Tue, Wed and Fri 10am–4pm; Thu 10am–7pm; Sat 9am–4pm; Sun–Mon closed",
+     "url": "https://www.blackstonequiltingco.com/",
+     "src": "blackstonequiltingco.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Cumberland Plaza",
+     "blurb": "Cumberland Plaza combines grocery shopping with everyday retail. It is located on the Mendon Road corridor. Has: shopping center, grocery, pharmacy, hardware.",
+     "address": "2000 Mendon Road, Cumberland",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.commercialcafe.com/commercial-property/us/ri/cumberland/cumberland-plaza/",
+     "src": "commercialcafe.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Cumberland Village Shopping Center",
+     "blurb": "This Mendon Road center provides neighborhood shopping. Its property listing identifies a mix of retail spaces. Has: shopping center.",
+     "address": "3751 Mendon Road, Cumberland",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.thediscoverygroupinc.com/properties/cumberland-village-shopping-center/",
+     "src": "thediscoverygroupinc.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Modern Farmhouse",
+     "blurb": "Modern Farmhouse combines vintage pieces with home decor. Its shop offers a rustic approach to furnishing and gifting. Has: antiques, vintage, home decor, gifts.",
+     "address": "3383 Mendon Road, Cumberland",
+     "phone": "401-425-8000",
+     "hours": "Wed–Fri 10am–5pm; Sat 10am–4pm; Sun 11am–3pm",
+     "url": "https://www.modernfarmhouseri.com/",
+     "src": "modernfarmhouseri.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "East Greenwich Square",
+     "blurb": "East Greenwich Square groups grocery shopping with smaller stores and services. It is located along Division Street. Has: shopping center, grocery, services.",
+     "address": "1000 Division Street, East Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.regencycenters.com/property/detail/61045/East-Greenwich-Square",
+     "src": "regencycenters.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Main Street — East Greenwich",
+     "blurb": "Main Street combines local shopping and restaurants. The historic Hill and Harbor area adds nearby walking opportunities. Has: shopping district, downtown, boutiques.",
+     "address": "Main Street, East Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.eastgreenwichri.gov/195/About-East-Greenwich",
+     "src": "eastgreenwichri.gov",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Skein Yarn Shop",
+     "blurb": "Skein carries yarn, knitting supplies and crochet tools. Its workshops serve beginners and more experienced makers. Has: craft shop, yarn, knitting, crochet, classes.",
+     "address": "5600 Post Road, Suite 123, East Greenwich",
+     "phone": "401-398-0110",
+     "hours": "Tue 10am–5pm; Wed 3pm–8pm; Thu–Fri 10am–5pm; Sat 10am–4pm; Sun noon–4pm; Mon closed",
+     "url": "https://skeinyarnshop.com/pages/upcoming-events",
+     "src": "skeinyarnshop.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "TeddyBearskins — East Greenwich",
+     "blurb": "This TeddyBearskins location is in the former Benny's Plaza. The shop sells children's merchandise and provides customer parking. Has: toys, children's clothing, parking.",
+     "address": "5600 Post Road, East Greenwich",
+     "phone": "401-398-2737",
+     "hours": "Tue–Sat 10am–5pm; Sun–Mon closed",
+     "url": "https://teddybearskins.com/our-locations/",
+     "src": "teddybearskins.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Lakeside Shopping Center",
+     "blurb": "Lakeside Shopping Center is a neighborhood plaza in Riverside. The property listing identifies a customer parking lot. Has: shopping center, parking.",
+     "address": "198–220 Willett Avenue, Riverside, East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.loopnet.com/Listing/198-220-Willett-Ave-East-Providence-RI/21351428/",
+     "src": "loopnet.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Riverside Square",
+     "blurb": "Riverside Square is a neighborhood commercial center in East Providence. Street parking shares curb space with transit stops. Has: shopping district, village, street parking, transit.",
+     "address": "Riverside Square, East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://eastprovidenceri.gov/sites/default/files/field/files-docs/comprehensive_plan_july_2024_final_draft.pdf",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Wampanoag Plaza",
+     "blurb": "Wampanoag Plaza combines grocery shopping with clothing, resale and other retailers. It occupies the Pawtucket Avenue and Taunton Avenue area. Has: shopping center, grocery, clothing, resale.",
+     "address": "1925 Pawtucket Avenue, East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.sterlingorganization.com/properties/wampanoag-plaza/",
+     "src": "sterlingorganization.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Watchemoket Square / Warren Avenue",
+     "blurb": "This East Providence commercial corridor contains local businesses near the waterfront. The city has invested in streetscape improvements for the area. Has: shopping district, neighborhood businesses.",
+     "address": "Warren Avenue, East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://eastprovidenceri.gov/node/6368",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Cooke Shop Antique Store",
+     "blurb": "This Exeter shop is listed by the state's tourism office as an antique destination. Its merchandise includes antiques and collectibles. Has: antiques, collectibles.",
+     "address": "331 Nooseneck Hill Road, Exeter",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/cooke-shop-antique-store/9790/",
+     "src": "visitrhodeisland.com",
+     "town": "Exeter"
+    },
+    {
+     "name": "Oak Harbor Village Square",
+     "blurb": "Oak Harbor Village Square combines shops, restaurants and services across several buildings. The property provides on-site parking. Has: shopping center, dining, services, parking.",
+     "address": "567 South County Trail, Exeter",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.marcusmillichap.com/properties/184732/oak-harbor-village-square",
+     "src": "marcusmillichap.com",
+     "town": "Exeter"
+    },
+    {
+     "name": "Aunt B's Eclectic Finds",
+     "blurb": "This multi-vendor shop brings antique, vintage and artisan merchandise together. Its current operating schedule requires confirmation. Has: antiques, antique center, craft shop, consignment.",
+     "address": "114 Danielson Pike, Foster",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.resaling.com/shops/aunt-bs-eclectic-finds/",
+     "src": "resaling.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Old Man Mercantile & Antiques",
+     "blurb": "Old Man Mercantile & Antiques is listed in Foster's economic development inventory. The shop's current public browsing schedule remains unconfirmed. Has: antiques, vintage, home goods.",
+     "address": "52A Danielson Pike, Foster",
+     "phone": "401-837-6747",
+     "hours": "",
+     "url": "https://www.townoffoster.com/sites/g/files/vyhlif4421/f/pages/final_report_-_economic_development_strategy_-_2023.pdf",
+     "src": "townoffoster.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Chepachet Village",
+     "blurb": "Chepachet is a historic village with several antique shops. Country-store goods and small boutiques complement the antiques. Has: shopping district, village, antiques, country store.",
+     "address": "Putnam Pike, Chepachet, Glocester",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/trip-ideas-getaways/village-experiences-shops/chepachet-village/",
+     "src": "visitrhodeisland.com",
+     "town": "Glocester"
+    },
+    {
+     "name": "The Old Post Office Antiques",
+     "blurb": "This multi-dealer antique shop occupies a former home and post office. Its merchandise includes estate jewelry, collectibles and primitive furnishings. Has: antique center, antiques, collectibles, jewelry.",
+     "address": "1178B Putnam Pike, Chepachet, Glocester",
+     "phone": "401-568-1795",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/the-old-post-office-antiques/9131/",
+     "src": "visitrhodeisland.com",
+     "town": "Glocester"
+    },
+    {
+     "name": "The Town Trader",
+     "blurb": "The Town Trader fills a historic Chepachet building with dealer booths. Antique furniture and period-inspired furnishings are part of the mix. Has: antique center, antiques, furniture, village.",
+     "address": "1177 Putnam Pike, Chepachet, Glocester",
+     "phone": "401-568-8800",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/the-town-trader/9127/",
+     "src": "visitrhodeisland.com",
+     "town": "Glocester"
+    },
+    {
+     "name": "Hope Valley Village",
+     "blurb": "Hope Valley has a small cluster of shops within Hopkinton. The chamber identifies it as a village shopping stop. Has: shopping district, village, independent shops.",
+     "address": "Hopkinton",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.oceanchamber.org/Richmond-Hopkinton",
+     "src": "oceanchamber.org",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Jamestown Village",
+     "blurb": "Jamestown's village shops offer gifts, home goods and locally made work. The chamber maintains a directory of island shopping businesses. Has: shopping district, village, crafts, gifts.",
+     "address": "Narragansett Avenue and Conanicus Avenue, Jamestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.jamestownrichamber.com/welcome/shopping",
+     "src": "jamestownrichamber.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "The Purple Door Bead Shop",
+     "blurb": "The Purple Door sells beads and jewelry-making materials in Jamestown. Its coastal shop also offers finished jewelry. Has: craft shop, beads, jewelry making, jewelry.",
+     "address": "7 Conanicus Avenue, Jamestown",
+     "phone": "401-439-6346",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/the-purple-door-bead-shop/11943/",
+     "src": "visitrhodeisland.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Johnston Plaza",
+     "blurb": "Johnston Plaza is a neighborhood retail center on Atwood Avenue. The owner lists a surface parking area with 649 spaces. Has: shopping center, parking.",
+     "address": "1414 Atwood Avenue, Johnston",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.carpionatogroup.com/portfolio/johnston-plaza/",
+     "src": "carpionatogroup.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "Johnston Towne Centre",
+     "blurb": "Johnston Towne Centre groups retailers along Hartford Avenue. The property is listed in its owner's commercial portfolio. Has: shopping center.",
+     "address": "1450 Hartford Avenue, Johnston",
+     "phone": "401-944-5900",
+     "hours": "",
+     "url": "https://saletinregroup.com/johnston",
+     "src": "saletinregroup.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "The Find on 6",
+     "blurb": "The Find on 6 combines antique dealers with consignment inventory. Its shop carries furniture, textiles and decorative objects. Has: antiques, antique center, consignment, furniture, parking.",
+     "address": "2953 Hartford Avenue, Johnston",
+     "phone": "401-764-0651",
+     "hours": "",
+     "url": "https://www.yellowpages.com/johnston-ri/mip/the-find-on-6-495886680",
+     "src": "yellowpages.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "CCRI Bookstore — Flanagan Campus",
+     "blurb": "The Flanagan campus bookstore provides course materials and college merchandise. Its operating calendar follows the needs of the academic term. Has: bookstore, campus store, textbooks, apparel.",
+     "address": "1762 Louisquisset Pike, Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://catalog.ccri.edu/about-community-college/student-services/campus-store-dining-facilities/",
+     "src": "catalog.ccri.edu",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Lincoln Commons (formerly Lincoln Mall)",
+     "blurb": "Lincoln Commons is the current name used for the former Lincoln Mall property. The center serves daily shopping needs near Routes 116 and 146. Has: shopping center.",
+     "address": "622 George Washington Highway, Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://acadiarealty.com/properties/lincoln-commons/",
+     "src": "acadiarealty.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Lincoln Shopping Center",
+     "blurb": "This Front Street center groups neighborhood shops, food businesses and personal services. Its directory provides separate contacts for individual tenants. Has: shopping center, dining, services.",
+     "address": "172–210 Front Street, Lincoln",
+     "phone": "401-728-3570",
+     "hours": "",
+     "url": "https://www.lincolnshoppingcenterri.com/",
+     "src": "lincolnshoppingcenterri.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "The Commons — Little Compton",
+     "blurb": "Little Compton's village center includes a longstanding general store and other small businesses. Shopping is concentrated around the common. Has: shopping district, village, general store.",
+     "address": "The Commons, Little Compton",
+     "phone": "",
+     "hours": "",
+     "url": "https://wilbursgeneralstore.com/",
+     "src": "wilbursgeneralstore.com",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Wilbur's General Store",
+     "blurb": "Wilbur's combines everyday provisions with a dedicated toy room. Its other rooms contain gifts, clothing and household supplies. Has: toys, general store, gifts, clothing, groceries.",
+     "address": "50 The Commons, Little Compton",
+     "phone": "401-635-2356",
+     "hours": "",
+     "url": "https://wilbursgeneralstore.com/groceries%2C-gifts%2C-%26-more-1",
+     "src": "wilbursgeneralstore.com",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Barnes & Noble — Middletown",
+     "blurb": "This Barnes & Noble serves Aquidneck Island from West Main Road. It carries books for adults and children. Has: bookstore, children's books, toys, games.",
+     "address": "1311 West Main Road, Middletown",
+     "phone": "401-846-3313",
+     "hours": "Mon–Sat 9am–8pm; Sun 10am–7pm",
+     "url": "https://stores.barnesandnoble.com/store/2160",
+     "src": "stores.barnesandnoble.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Island Books",
+     "blurb": "Island Books is an independent shop serving Aquidneck Island. Its selection includes local-interest titles and books for children. Has: bookstore, children's books, local interest.",
+     "address": "575 East Main Road, Wyatt Square, Middletown",
+     "phone": "401-849-2665",
+     "hours": "Mon–Sat 10am–5pm; Sun closed",
+     "url": "https://islandbooksri.indielite.org/contact-us",
+     "src": "islandbooksri.indielite.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "Michaels — Middletown",
+     "blurb": "This Michaels serves creative projects from Middletown Village. Its departments include art materials, crafts and seasonal decorations. Has: craft shop, art supplies, framing, seasonal decor.",
+     "address": "1305 West Main Road, Middletown",
+     "phone": "401-848-5303",
+     "hours": "Mon–Sat 9am–9pm; Sun 10am–7pm",
+     "url": "https://locations.michaels.com/ri/middletown/3711",
+     "src": "locations.michaels.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "RK Brown's Lane",
+     "blurb": "This Route 114 center combines grocery shopping with specialty retail. Its entrance is controlled by a traffic signal. Has: shopping center, grocery, specialty retail.",
+     "address": "1360 West Main Road, Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rkcenters.com/properties/rk-browns-lane-middletown/",
+     "src": "rkcenters.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "RK Middletown Square",
+     "blurb": "This shopping center combines books, crafts and other retail. Its main tenants include Barnes & Noble and Michaels. Has: shopping center, bookstore, crafts, beauty.",
+     "address": "1315 West Main Road, Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rkcenters.com/properties/rk-middletown-square-middletown/",
+     "src": "rkcenters.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "RK Plaza",
+     "blurb": "RK Plaza groups discount retailers on East Main Road. Its tenant mix includes clothing and home goods. Has: shopping center, clothing, home goods.",
+     "address": "288 East Main Road, Middletown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rkcenters.com/properties/rk-plaza-middletown/",
+     "src": "rkcenters.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "The Fabric Connection",
+     "blurb": "The Fabric Connection is a textile shop in Middletown. Customers are directed to the rear parking lot off Turner Road. Has: craft shop, fabric, rear parking lot.",
+     "address": "741 East Main Road, Middletown",
+     "phone": "401-847-2856",
+     "hours": "Mon–Fri 10am–5:30pm; Sat 10am–2pm",
+     "url": "https://www.fabricconnectionri.com/contact",
+     "src": "fabricconnectionri.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Galilee Village",
+     "blurb": "Galilee is a working fishing village with shops and seafood restaurants. Its commercial waterfront also serves ferries and charter boats. Has: shopping district, village, waterfront, dining, ferries.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://narragansettri.gov/383/Port-of-Galilee",
+     "src": "narragansettri.gov",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Kitt Kites — Narragansett Pier",
+     "blurb": "Kitt Kites is listed as a kite retailer at Narragansett Pier. Its current seasonal schedule requires confirmation. Has: toys, kites, beach toys.",
+     "address": "18A Pier Marketplace, Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.bbb.org/us/ri/narragansett/profile/kite/skye-parker-company-0021-575266",
+     "src": "bbb.org",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Narragansett Pier Marketplace",
+     "blurb": "Pier Marketplace groups shops, restaurants and services across from Narragansett Town Beach. It is a convenient stop within the Pier neighborhood. Has: shopping center, dining, beach nearby.",
+     "address": "Pier Marketplace, Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/listing/narragansett-pier-marketplace/341/",
+     "src": "southcountyri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "RI Flags",
+     "blurb": "RI Flags sells flags and flagpole equipment in Narragansett. Kites and windsocks broaden its outdoor merchandise selection. Has: toys, kites, flags, windsocks.",
+     "address": "909 Boston Neck Road, Narragansett",
+     "phone": "401-782-0318",
+     "hours": "",
+     "url": "https://www.riflags.com/about-us",
+     "src": "riflags.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Salt Pond Shopping Center",
+     "blurb": "Salt Pond Shopping Center serves the Point Judith Road retail corridor. Its stores include a HomeGoods location. Has: shopping center, home goods.",
+     "address": "91 Point Judith Road, Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.homegoods.com/all-stores",
+     "src": "homegoods.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Island Bound Bookstore",
+     "blurb": "Island Bound stocks general literature and books about Block Island. Its children's section includes books and rainy-day activities. Has: bookstore, children's books, puzzles, year round.",
+     "address": "Adrian House Lane, Block Island, New Shoreham",
+     "phone": "401-466-8878",
+     "hours": "Year round, 10am–5pm",
+     "url": "https://www.blockislandinfo.com/plan-your-visit/seasonal-hours/",
+     "src": "blockislandinfo.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Minnow 02807",
+     "blurb": "Minnow is a Block Island toy shop. Its selection includes puzzles, sensory toys, crafts and beach toys. Has: toys, puzzles, crafts, beach toys.",
+     "address": "459 Chapel Street, Block Island, New Shoreham",
+     "phone": "914-645-7421",
+     "hours": "",
+     "url": "https://www.minnow02807.com/",
+     "src": "minnow02807.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Old Harbor / Water Street — Block Island",
+     "blurb": "Block Island's harbor area contains shops serving visitors and residents. Its retail directory includes books, gifts and specialty goods. Has: shopping district, waterfront, seasonal businesses.",
+     "address": "Water Street, Block Island, New Shoreham",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.blockislandchamber.com/retail-shops",
+     "src": "blockislandchamber.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Aardvark Antiques",
+     "blurb": "Aardvark Antiques specializes in architectural pieces and unusual decorative objects. Its Newport grounds provide room for large indoor and outdoor finds. Has: antiques, architectural salvage, garden objects.",
+     "address": "9 JT Connell Highway, Newport",
+     "phone": "401-849-7233",
+     "hours": "Mon–Sat 9am–4pm; Sun by appointment",
+     "url": "https://aardvarkantiques.com/contact/",
+     "src": "aardvarkantiques.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Annex Comics",
+     "blurb": "Annex Comics carries comics and other books in Newport. Music and video media are also part of its collection. Has: bookstore, comics, music, DVDs.",
+     "address": "308 Broadway, Newport",
+     "phone": "401-847-4607",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/annex-comics/12443/",
+     "src": "visitrhodeisland.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Bannister's Wharf",
+     "blurb": "This historic harbor wharf contains boutiques and galleries alongside places to eat. It provides a waterfront setting for a shopping walk. Has: shopping district, waterfront, boutiques, galleries.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.bannistersnewport.com/",
+     "src": "bannistersnewport.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Bellevue Avenue",
+     "blurb": "Bellevue Avenue includes boutiques and specialty retailers. Children's merchandise and home goods complement clothing shops. Has: shopping district, boutiques, toys.",
+     "address": "Bellevue Avenue, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/guide-to-holiday-shopping/",
+     "src": "discovernewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Bellevue Kids — Bannister's Wharf",
+     "blurb": "This branch carries children's goods above Bannister's Wharf. The shop reports stair access without an accessible entrance and posts conflicting hours online. Has: toys, children's clothing, baby gifts, stairs.",
+     "address": "1 Bannister's Wharf, second floor, Newport",
+     "phone": "401-847-0420",
+     "hours": "",
+     "url": "https://www.bellevuekids.net/locations",
+     "src": "bellevuekids.net",
+     "town": "Newport"
+    },
+    {
+     "name": "Bowen's Wharf",
+     "blurb": "Bowen's Wharf groups waterfront shops and restaurants in central Newport. An on-site lot serves visitors. Has: shopping district, waterfront, parking lot, holiday hours.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "Winter, Sep 8, 2026–May 28, 2027: Mon–Sat 10am–5pm, Sun noon–5pm; holiday hours Nov 27–Dec 23, 2026: Fri–Sat 10am–8pm, Sun–Thu 10am–5pm; Dec 24 varies by store",
+     "url": "https://bowenswharf.com/contact/",
+     "src": "bowenswharf.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Brick Market Place",
+     "blurb": "Brick Market Place groups independent shops and eateries between Thames Street and America's Cup Avenue. The property is promoted as a year-round shopping destination. Has: shopping center, pedestrian shopping, dining, year round.",
+     "address": "221 1/2 Goddard Row, Newport",
+     "phone": "",
+     "hours": "Open daily; individual shop hours vary",
+     "url": "https://www.brickmarketnewport.com/about",
+     "src": "brickmarketnewport.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Broadway — Newport",
+     "blurb": "Broadway is one of Newport's recognized village-style shopping areas. Independent businesses share the neighborhood with restaurants. Has: shopping district, neighborhood shops, dining.",
+     "address": "Broadway, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/trip-ideas-getaways/village-experiences-shops/",
+     "src": "visitrhodeisland.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Charter Books",
+     "blurb": "Charter Books carries general-interest and children's books in downtown Newport. Nearby options include time-limited street spaces and paid parking lots. Has: bookstore, children's books, author events, street parking, paid parking nearby.",
+     "address": "8 Broadway, Newport",
+     "phone": "401-236-8678",
+     "hours": "Mon–Sat 10am–6pm; Sun 10am–4pm",
+     "url": "https://charterbookstore.com/hours-and-directions",
+     "src": "charterbookstore.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Commonwealth Books",
+     "blurb": "Commonwealth Books sells older books alongside historic prints and maps. Its collection ranges from collectible bindings to reading copies. Has: bookstore, used books, rare books, prints, maps.",
+     "address": "29 Touro Street, Newport",
+     "phone": "401-487-0128",
+     "hours": "Thu–Sun 10am–5:30pm",
+     "url": "https://cwbnewport.blackwidowpress.com/",
+     "src": "cwbnewport.blackwidowpress.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Franklin Street",
+     "blurb": "Franklin Street contains a compact group of independent boutiques. Glass art, jewelry and vintage clothing feature in the mix. Has: shopping district, crafts, jewelry, vintage.",
+     "address": "Franklin Street, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/guide-to-holiday-shopping/",
+     "src": "discovernewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Knitting Needles",
+     "blurb": "Knitting Needles supplies yarn and knitting materials on Thames Street. Its shop profile lists reserved customer parking. Has: craft shop, yarn, knitting, reserved parking.",
+     "address": "555 Thames Street, Newport",
+     "phone": "401-841-5648",
+     "hours": "Tue–Thu 10am–5pm; Fri 11am–7pm; Sat 11am–6pm; Sun–Mon closed",
+     "url": "https://www.ravelry.com/shops/knitting-needles",
+     "src": "ravelry.com",
+     "town": "Newport"
+    },
+    {
+     "name": "RK Newport Towne Center",
+     "blurb": "Newport Towne Center combines grocery shopping with larger national retailers. Clothing and household goods are part of its retail mix. Has: shopping center, grocery, clothing, home goods.",
+     "address": "199 Connell Highway, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rkcenters.com/properties/rk-newport-towne-center-newport/",
+     "src": "rkcenters.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Salve Regina Bookstore",
+     "blurb": "The Salve Regina bookstore supplies course materials and campus merchandise. Its opening schedule can change during university breaks. Has: bookstore, campus store, textbooks, apparel.",
+     "address": "100 Ochre Point Avenue, Miley Hall, Newport",
+     "phone": "401-847-9086",
+     "hours": "Mon–Fri 8:30am–5pm; Sat 10am–2pm; Sun closed",
+     "url": "https://www.bkstr.com/salvereginastore/store-hours",
+     "src": "bkstr.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Shops at Long Wharf",
+     "blurb": "Long Wharf groups shops near Newport's waterfront and Washington Square. Its parking lot is on West Marlborough Street between America's Cup Avenue and Thames Street. Has: shopping center, parking lot.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.shopsatlongwharf.com/",
+     "src": "shopsatlongwharf.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Spring Street",
+     "blurb": "Spring Street runs parallel to Thames Street. Its smaller shops include clothing and home-gift businesses. Has: shopping district, boutiques, gifts.",
+     "address": "Spring Street, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/guide-to-holiday-shopping/",
+     "src": "discovernewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Thames Street",
+     "blurb": "Thames Street is a central Newport shopping corridor. Boutiques, galleries and specialty food shops line its length. Has: shopping district, boutiques, galleries.",
+     "address": "Thames Street, Newport",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/trip-ideas-getaways/village-experiences-shops/thames-street-newport/",
+     "src": "visitrhodeisland.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Different Drummer",
+     "blurb": "Different Drummer sells American-made crafts and work by Rhode Island artists. Pottery, jewelry and stained glass are among its offerings. Has: craft shop, handmade, pottery, jewelry, gifts.",
+     "address": "15 West Main Street, Wickford, North Kingstown",
+     "phone": "401-294-4867",
+     "hours": "Mon–Sat 10am–5pm; Sun noon–5pm",
+     "url": "https://www.differentdrummerri.com/contact",
+     "src": "differentdrummerri.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Fantasy Zone Comics & Used Books",
+     "blurb": "Fantasy Zone specializes in comic books and used books. Its official site lists a Post Road shop, but the dated operating schedule requires confirmation. Has: bookstore, comics, used books, graphic novels.",
+     "address": "7610 Post Road, North Kingstown",
+     "phone": "401-294-6044",
+     "hours": "",
+     "url": "https://fzcomicsandbooks.com/",
+     "src": "fzcomicsandbooks.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Happy Bookday Bookstore",
+     "blurb": "Happy Bookday is a general bookstore in North Kingstown. Its online selection highlights local Rhode Island authors. Has: bookstore, children's books, local authors.",
+     "address": "683 Boston Neck Road, North Kingstown",
+     "phone": "401-533-6916",
+     "hours": "",
+     "url": "https://bookshop.org/shop/happybookday",
+     "src": "bookshop.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Harbor View Artisans",
+     "blurb": "Harbor View Artisans is a cooperative shop in Wickford. Its members offer locally made art and crafts. Has: craft shop, art, cooperative, handmade.",
+     "address": "24 Brown Street, Wickford, North Kingstown",
+     "phone": "401-662-3372",
+     "hours": "Daily 10am–6pm",
+     "url": "https://www.alexandrajedreyart.com/",
+     "src": "alexandrajedreyart.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Hunt River Commons",
+     "blurb": "Hunt River Commons is a grocery-anchored neighborhood center. Its entrance is at the Post Road and Frenchtown Road area. Has: shopping center, grocery.",
+     "address": "20 Frenchtown Road, North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.broadreachretail.com/property/hunt-river-commons/",
+     "src": "broadreachretail.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Kingstown Plaza",
+     "blurb": "Kingstown Plaza combines national retailers along Post Road. Its leasing page identifies a large parking area. Has: shopping center, parking.",
+     "address": "6653 Post Road, North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://easternretail.com/properties/ri/kingstown-plaza/",
+     "src": "easternretail.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Nimori Bookshop",
+     "blurb": "Nimori describes a planned independent bookstore in Wickford Village. Its website still announces a future opening while the building is renovated. Has: bookstore, planned opening, village.",
+     "address": "North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.nimoribookshop.com/",
+     "src": "nimoribookshop.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Re Antiques & Interiors",
+     "blurb": "Re Antiques & Interiors sells older furnishings and decorative pieces. Private shopping visits can be arranged with the store. Has: antiques, furniture, home decor, appointments.",
+     "address": "7511 Post Road, North Kingstown",
+     "phone": "401-667-5996",
+     "hours": "Mon and Thu–Sat 10am–5:30pm; Sun noon–5pm; Tue–Wed closed",
+     "url": "https://rerhodeisland.com/pages/store-hours",
+     "src": "rerhodeisland.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Serendipity",
+     "blurb": "Serendipity features handmade gifts and home accessories. Its selection draws on local artisans and independent makers. Has: craft shop, handmade, gifts, home decor.",
+     "address": "3 Main Street, Wickford, North Kingstown",
+     "phone": "401-486-5532",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/serendipity/9134/",
+     "src": "visitrhodeisland.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Spring Pottery & Gallery",
+     "blurb": "This artist-operated studio sells pottery and paintings made in Wickford. Visitors may be able to watch pottery being produced behind the shop. Has: craft shop, pottery, art, studio, appointments.",
+     "address": "14 Brown Street, Wickford, North Kingstown",
+     "phone": "401-284-6626",
+     "hours": "Saturdays and by telephone arrangement; exact daily times require confirmation",
+     "url": "https://springpotteryofwickford.com/",
+     "src": "springpotteryofwickford.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "The Mermaid's Purl",
+     "blurb": "The Mermaid's Purl specializes in small-batch yarn and craft supplies. Its Wickford shop also supports classes and a community of needleworkers. Has: craft shop, yarn, knitting, classes.",
+     "address": "68 Brown Street, Wickford, North Kingstown",
+     "phone": "401-268-3899",
+     "hours": "",
+     "url": "https://themermaidspurl.com/pages/contact",
+     "src": "themermaidspurl.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "The Sew Op",
+     "blurb": "The Sew Op combines sewing materials with instruction in Wickford. Its shop supports projects through fabric, supplies and classes. Has: craft shop, sewing, fabric, classes.",
+     "address": "31 West Main Street, North Kingstown",
+     "phone": "401-447-5500",
+     "hours": "Mon–Fri 11am–5pm; Sat–Sun noon–5pm",
+     "url": "https://www.the-sew-op.com/",
+     "src": "the-sew-op.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "The Shops at Quonset Point",
+     "blurb": "The Shops at Quonset Point sits near the business park entrance. Grocery, clothing and home-goods retailers anchor the property. Has: shopping center, grocery, clothing, home goods.",
+     "address": "100 Gate Road, North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.carpionatogroup.com/portfolio/shops-at-quonset-north-kingstown/",
+     "src": "carpionatogroup.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "The World Store",
+     "blurb": "The World Store focuses on nature-themed merchandise and Rhode Island gifts. Its selection includes science kits and fossils. Has: toys, science kits, gifts, nature.",
+     "address": "16 West Main Street, North Kingstown",
+     "phone": "401-295-0081",
+     "hours": "",
+     "url": "https://wickfordvillage.org/pages/shop",
+     "src": "wickfordvillage.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "The Woven Path",
+     "blurb": "The Woven Path sells handmade gifts and textiles in Wickford. Its own woven pieces are designed and finished in the shop. Has: craft shop, handmade, weaving, textiles, gifts.",
+     "address": "11 Brown Street, Wickford, North Kingstown",
+     "phone": "401-667-3722",
+     "hours": "Wed–Sat 11am–4pm; Sun–Tue closed",
+     "url": "https://thewovenpath.com/",
+     "src": "thewovenpath.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Wickford Junction Shopping Plaza",
+     "blurb": "This shopping plaza is beside Wickford Junction station. National retailers share the property with smaller service businesses. Has: shopping center, train station nearby.",
+     "address": "1051 Ten Rod Road, North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/listing/wickford-junction-shopping-plaza/969/",
+     "src": "southcountyri.com",
+     "town": "North Kingstown"
+    },
+    {
      "name": "Wickford Village",
-     "blurb": "Harbor scenery, independent shops, galleries, gifts, and food stops in a compact historic village.",
+     "blurb": "Wickford groups independent shops around its historic harbor. Crafts, jewelry and home goods feature prominently. Has: shopping district, village, crafts, waterfront.",
      "address": "North Kingstown",
      "phone": "",
      "hours": "",
      "url": "https://wickfordvillage.org/pages/shop",
-     "src": "wickfordvillage.org"
+     "src": "wickfordvillage.org",
+     "town": "North Kingstown"
     },
     {
-     "name": "Downtown Bristol",
-     "blurb": "Historic streets, waterfront scenery, and local storefronts around Hope Street and the harbor.",
-     "address": "Bristol",
+     "name": "Douglas Crossings",
+     "blurb": "Douglas Crossings occupies the intersection of Mineral Spring and Douglas avenues. The owner lists on-site customer parking. Has: shopping center, parking.",
+     "address": "1650 Mineral Spring Avenue, North Providence",
      "phone": "",
      "hours": "",
-     "url": "https://www.bristolri.gov/307/Visit",
-     "src": "bristolri.gov"
+     "url": "https://www.carpionatogroup.com/portfolio/douglas-crossings-north-providence/",
+     "src": "carpionatogroup.com",
+     "town": "North Providence"
     },
     {
-     "name": "Downtown Warren",
-     "blurb": "A walkable East Bay district with shops, galleries, restaurants, and waterfront character.",
-     "address": "Warren",
+     "name": "North Providence Marketplace",
+     "blurb": "This grocery-anchored shopping center serves North Providence. Smaller retailers include discount and clothing shops. Has: shopping center, grocery, clothing, discount stores.",
+     "address": "41 Smithfield Road, North Providence",
      "phone": "",
      "hours": "",
-     "url": "https://www.eastbaychamberri.org/events-tourism.html",
-     "src": "eastbaychamberri.org"
+     "url": "https://shopone.propertycapsule.com/web/property/c05d22911eb81383af3a4398827941cc-a77dbafe89319fb70557baabc5d59e0d",
+     "src": "shopone.propertycapsule.com",
+     "town": "North Providence"
     },
     {
-     "name": "Tiverton Four Corners",
-     "blurb": "A rural village cluster of shops, galleries, local food, and artisan businesses.",
-     "address": "Tiverton",
+     "name": "Dowling Village",
+     "blurb": "Dowling Village is a large mixed-use retail development. Its engineering project description includes extensive parking and signal-controlled access. Has: shopping center, parking, dining.",
+     "address": "Eddie Dowling Highway and Old Louisquisset Pike, North Smithfield",
      "phone": "",
      "hours": "",
-     "url": "https://www.tivertonfourcorners.com/shopsandgalleries",
-     "src": "tivertonfourcorners.com"
+     "url": "https://diprete-eng.com/project/dowling-village/",
+     "src": "diprete-eng.com",
+     "town": "North Smithfield"
     },
     {
-     "name": "Chepachet Village",
-     "blurb": "Historic buildings, antiques, country-store shopping, and nearby rural outings.",
-     "address": "Glocester",
+     "name": "North Smithfield Shopping Center / Slatersville Plaza",
+     "blurb": "This center combines grocery shopping with stores and neighborhood services. It sits near the intersection of Routes 146A and 5. Has: shopping center, grocery, dining, services.",
+     "address": "900 Victory Highway, North Smithfield",
      "phone": "",
      "hours": "",
-     "url": "https://www.visitrhodeisland.com/things-to-do/trip-ideas-getaways/village-experiences-shops/chepachet-village/",
-     "src": "visitrhodeisland.com"
+     "url": "https://crosspt.com/property/north-smithfield-shopping-center/",
+     "src": "crosspt.com",
+     "town": "North Smithfield"
     },
     {
-     "name": "Downtown Westerly",
-     "blurb": "Independent shopping and dining near Wilcox Park, with a compact town-center atmosphere.",
-     "address": "Westerly",
+     "name": "Book Around",
+     "blurb": "Book Around occupies a space in Hope Artiste Village. Its website directs visitors to courtyard parking and the courtyard entrance. Has: bookstore, children's books, courtyard parking.",
+     "address": "1005 Main Street, Suite 2117, Pawtucket",
+     "phone": "401-480-5804",
+     "hours": "Tue, Wed and Fri 10:30am–2:30pm; Thu 10:30am–7pm; Mon closed; Sat–Sun temporarily closed",
+     "url": "https://www.bookaround.net/",
+     "src": "bookaround.net",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Downtown Pawtucket",
+     "blurb": "Downtown Pawtucket combines independent businesses with an active arts community. Restored buildings house shops and creative enterprises. Has: shopping district, downtown, art, independent shops.",
+     "address": "Main Street and Exchange Street, Pawtucket",
      "phone": "",
      "hours": "",
-     "url": "https://www.southcountyri.com/media/shopping-districts/",
-     "src": "southcountyri.com"
+     "url": "https://www.pawtucketfoundation.org/the-pawtucket-experience",
+     "src": "pawtucketfoundation.org",
+     "town": "Pawtucket"
     },
     {
-     "name": "Watch Hill Village",
-     "blurb": "A coastal village for seasonal shops, harbor views, and walks toward the lighthouse.",
-     "address": "Westerly",
+     "name": "Hope Artiste Village",
+     "blurb": "This former mill contains studios, shops and other businesses. The property provides on-site parking. Has: shopping center, artisan studios, crafts, bookstore, parking.",
+     "address": "999–1005 Main Street, Pawtucket",
      "phone": "",
      "hours": "",
-     "url": "https://www.southcountyri.com/media/shopping-districts/",
-     "src": "southcountyri.com"
+     "url": "https://hopeartistevillage.com/the-complex/",
+     "src": "hopeartistevillage.com",
+     "town": "Pawtucket"
     },
     {
-     "name": "Hope Street",
-     "blurb": "Neighborhood shops, locally made gifts, food businesses, and independent retail.",
+     "name": "Narragansett Park Plaza",
+     "blurb": "This regional shopping center serves the Newport Avenue corridor. The owner describes extensive surface parking for customers. Has: shopping center, surface parking.",
+     "address": "675 Beverage Hill Avenue, Pawtucket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.carpionatogroup.com/portfolio/narragansett-park-plaza/",
+     "src": "carpionatogroup.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Rhode Island Antiques Mall",
+     "blurb": "This multi-dealer antique center fills two levels with furniture, art and collectibles. Its property provides customer parking. Has: antiques, antique center, furniture, collectibles, parking.",
+     "address": "345 Fountain Street, Pawtucket",
+     "phone": "401-475-3400",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/rhode-island-antiques-mall/9451/",
+     "src": "visitrhodeisland.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Portsmouth Shopping Plaza",
+     "blurb": "Portsmouth Shopping Plaza contains shops and services on East Main Road. Its present tenant lineup and hours require confirmation. Has: shopping center, crafts, services.",
+     "address": "3001 East Main Road, Portsmouth",
+     "phone": "",
+     "hours": "",
+     "url": "https://localitybiz.com/rhode-island/home-decor-shop-in-rhode-island",
+     "src": "localitybiz.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Sew Nice Fabrics",
+     "blurb": "Sew Nice Fabrics is a fabric retailer in Portsmouth. Its listed specialty includes materials for sewing and quilting. Has: craft shop, fabric, quilting.",
+     "address": "3001 East Main Road, Suite 10, Portsmouth",
+     "phone": "401-683-9238",
+     "hours": "",
+     "url": "https://www.sewnicefabrics.com/",
+     "src": "sewnicefabrics.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "BLICK Art Materials",
+     "blurb": "BLICK supplies materials for drawing, painting and craft projects. The store serves artists, students and educators. Has: craft shop, art supplies.",
+     "address": "200 Wickenden Street, Providence",
+     "phone": "401-331-3780",
+     "hours": "Mon–Sat 10am–6pm; Sun 10am–5pm",
+     "url": "https://www.dickblick.com/stores/rhode-island/providence/",
+     "src": "dickblick.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Books on the Square",
+     "blurb": "Books on the Square is an independent bookstore in Wayland Square. Its selection includes children's books and general-interest reading. Has: bookstore, children's books, independent.",
+     "address": "471 Angell Street, Providence",
+     "phone": "401-331-9097",
+     "hours": "",
+     "url": "https://www.booksq.com/",
+     "src": "booksq.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Brown Bookstore",
+     "blurb": "Brown's bookstore sells general-interest titles alongside university merchandise and course materials. Street parking is available on Thayer Street and surrounding streets. Has: bookstore, campus store, gifts, street parking.",
+     "address": "244 Thayer Street, Providence",
+     "phone": "401-863-3168",
+     "hours": "Mon–Fri 9am–6pm; Sat 10am–6pm; Sun 10am–4pm",
+     "url": "https://www.shopbrown.com/store-location",
+     "src": "shopbrown.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Build-A-Bear Workshop — Providence Place",
+     "blurb": "This Providence Place shop lets visitors customize stuffed animals. Clothing and accessories are sold alongside the plush toys. Has: toys, stuffed animals, mall, garage parking.",
+     "address": "1 Providence Place, Suite 5240",
+     "phone": "401-824-5508",
+     "hours": "",
+     "url": "https://www.buildabear.com/locations?StoreID=199",
+     "src": "buildabear.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Craftland",
+     "blurb": "Craftland sells handmade work by independent makers. Its downtown shop includes gifts, accessories and decorative pieces. Has: craft shop, handmade, gifts, local artists.",
+     "address": "212 Westminster Street, Providence",
+     "phone": "401-272-4285",
+     "hours": "Daily noon–6pm",
+     "url": "https://www.craftlandshop.com/pages/connect",
+     "src": "craftlandshop.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Creative Reuse Center of Rhode Island",
+     "blurb": "The Creative Reuse Center sells donated art and craft materials. It has a street-level entrance and recommends nearby street parking, especially on Harris Avenue. Has: craft shop, art supplies, reuse, street parking, street-level entrance.",
+     "address": "50 Sims Avenue, Space 117b, Providence",
+     "phone": "",
+     "hours": "Wed–Fri 10am–6pm; Sat–Sun 10am–4pm; Mon–Tue closed",
+     "url": "https://creativereusecenterri.org/visit",
+     "src": "creativereusecenterri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Downcity / Westminster Street",
+     "blurb": "Westminster Street contains independent shops and galleries. The historic Arcade is part of this downtown shopping area. Has: shopping district, downtown, crafts, galleries.",
+     "address": "Westminster Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/things-to-do/trip-ideas-getaways/village-experiences-shops/westminster-street-providence/",
+     "src": "visitrhodeisland.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Eagle Square",
+     "blurb": "Eagle Square combines retail with offices and housing in reused mill buildings. The property has parking and connections to transit and a riverside path. Has: shopping center, grocery, clothing, parking, transit, bike path.",
+     "address": "623 Atwells Avenue, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://feldcodevelopment.com/property/eagle-square-providence-ri/",
+     "src": "feldcodevelopment.com",
+     "town": "Providence"
+    },
+    {
+     "name": "East Bay Comics",
+     "blurb": "East Bay Comics sells comics and related collectibles. More recent listings place it in Providence while the tourism directory still lists Bristol, so the current storefront requires confirmation. Has: bookstore, comics, toys, collectibles.",
+     "address": "116 Union Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.ebcomix.com/",
+     "src": "ebcomix.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Elmwood",
+     "blurb": "Elmwood contains businesses reflecting many cultures. Local shops and restaurants form part of the neighborhood's commercial streets. Has: shopping district, neighborhood shops, dining.",
      "address": "Providence",
      "phone": "",
      "hours": "",
-     "url": "https://www.goprovidence.com/blog/stories/post/providences-diverse-eclectic-neighborhoods-make-it-easy-to-celebrate-the-holidays/",
-     "src": "goprovidence.com"
+     "url": "https://www.goprovidence.com/neighborhoods/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Federal Hill",
+     "blurb": "Federal Hill combines specialty food shopping with other neighborhood businesses. Atwells Avenue forms its main commercial corridor. Has: shopping district, specialty food, dining.",
+     "address": "Atwells Avenue, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/neighborhoods/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Fox Point / Wickenden Street",
+     "blurb": "Fox Point combines independent shops and restaurants. Wickenden Street is a central browsing corridor. Has: shopping district, antiques, boutiques.",
+     "address": "Wickenden Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/neighborhoods/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Frog & Toad — Hope Street",
+     "blurb": "Frog & Toad sells an eclectic mix of gifts and locally made goods. Its range includes cards and items designed in its own Rhode Island workshop. Has: craft shop, gifts, cards, local makers.",
+     "address": "795 Hope Street, Providence",
+     "phone": "401-831-3434",
+     "hours": "",
+     "url": "https://www.rimonthly.com/promotions/holiday-gift-guide/frog-and-toad/",
+     "src": "rimonthly.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Heartleaf Books",
+     "blurb": "Heartleaf is a cooperative bookstore associated with Federal Hill. Its current storefront operating schedule requires confirmation. Has: bookstore, cooperative.",
+     "address": "374 Atwells Avenue, Providence",
+     "phone": "401-477-2294",
+     "hours": "",
+     "url": "https://bookshop.org/shop/heartleafbooks",
+     "src": "bookshop.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Henry Bear's Park",
+     "blurb": "Henry Bear's Park sells toys, games and children's books on Hope Street. The selection focuses on creative play for a range of ages. Has: toys, games, children's books.",
+     "address": "736 Hope Street, Providence",
+     "phone": "401-351-5718",
+     "hours": "Mon–Sat 10am–7pm; Sun 10am–5pm",
+     "url": "https://www.henrybear.com/stores/details/8",
+     "src": "henrybear.com",
+     "town": "Providence"
+    },
+    {
+     "name": "High Ground Comics",
+     "blurb": "High Ground Comics sells comic books, graphic novels and collectible figures. Trading cards are also part of its selection. Has: bookstore, comics, toys, collectibles, trading cards.",
+     "address": "182 Academy Avenue, Providence",
+     "phone": "401-861-3221",
+     "hours": "Mon–Tue 1pm–8pm; Wed–Fri 11am–7pm; Sat 11am–5pm; Sun by appointment",
+     "url": "https://www.highgroundcomics.com/",
+     "src": "highgroundcomics.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Hope Street",
+     "blurb": "Hope Street groups independent shops along a neighborhood corridor. Toys, handmade goods and home accessories feature in its merchant directory. Has: shopping district, toys, crafts, boutiques.",
+     "address": "Hope Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.hopestreetpvd.com/",
+     "src": "hopestreetpvd.com",
+     "town": "Providence"
+    },
+    {
+     "name": "J.Crew Factory — Providence Place",
+     "blurb": "This factory store carries clothing and accessories inside Providence Place. The mall's attached garage serves shoppers. Has: outlets, clothing, children's clothing, mall, garage parking.",
+     "address": "61 Providence Place",
+     "phone": "401-243-0250",
+     "hours": "Mon–Thu 11am–8pm; Fri–Sat 10am–9pm; Sun 11am–6pm",
+     "url": "https://www.jcrew.com/store-locator/store/factory/1192",
+     "src": "jcrew.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Jerry's Artarama",
+     "blurb": "Jerry's Artarama supplies art materials in Providence. Its local store offers online inventory browsing. Has: craft shop, art supplies.",
+     "address": "653 North Main Street, Providence",
+     "phone": "401-331-4530",
+     "hours": "",
+     "url": "https://www.jerrysretailstores.com/locations/",
+     "src": "jerrysretailstores.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Johnson & Wales University Bookstore",
+     "blurb": "The Downcity bookstore serves Johnson & Wales students and visitors. It sells course materials and university merchandise. Has: bookstore, campus store, textbooks, apparel.",
+     "address": "30 Chestnut Street, John Hazen White Center, Providence",
+     "phone": "401-598-1105",
+     "hours": "Fall: Mon–Thu 9am–4pm; Fri 9am–1pm; Sat–Sun closed",
+     "url": "https://www.bkstr.com/johnsonwalesstore/store-hours",
+     "src": "bkstr.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Knit Club",
+     "blurb": "Knit Club is a local yarn store and maker gathering space. It welcomes a range of fiber crafts. Has: craft shop, yarn, knitting.",
+     "address": "144 Brook Street, Providence",
+     "phone": "",
+     "hours": "Tue 6:30pm–8pm; Wed–Sun 11am–6pm; Mon closed",
+     "url": "https://knit.club/pages/about",
+     "src": "knit.club",
+     "town": "Providence"
+    },
+    {
+     "name": "Kreatelier",
+     "blurb": "Kreatelier is a fabric-focused store on Hope Street. Its range includes textile goods and home projects. Has: craft shop, fabric, textiles, home goods.",
+     "address": "804 Hope Street, Providence",
+     "phone": "401-432-7995",
+     "hours": "Mon–Sat 10am–6pm; Sun noon–6pm",
+     "url": "https://www.kreatelier.com/service/",
+     "src": "kreatelier.com",
+     "town": "Providence"
+    },
+    {
+     "name": "LEGO Store — Providence Place",
+     "blurb": "This LEGO shop sells building sets inside Providence Place. Visitors use the mall's attached parking garage. Has: toys, building sets, mall, garage parking.",
+     "address": "97 Providence Place, Suite 3165",
+     "phone": "401-381-7137",
+     "hours": "Mon–Thu 11am–8pm; Fri–Sat 10am–9pm; Sun 11am–6pm",
+     "url": "https://www.lego.com/en-us/stores/store/providence-place",
+     "src": "lego.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Lovecraft Arts & Sciences",
+     "blurb": "This Arcade shop specializes in strange fiction and related art. Its collection connects Providence's literary history with contemporary independent publishing. Has: bookstore, art, horror, mall.",
+     "address": "65 Weybosset Street, Suite 105, Providence",
+     "phone": "401-264-0838",
+     "hours": "Mon–Sat 11am–6pm; Sun noon–5pm",
+     "url": "https://www.weirdprovidence.org/contact.html",
+     "src": "weirdprovidence.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Lupine Books",
+     "blurb": "Lupine Books is developing a children's bookstore and sells through an online storefront. A permanent public shop location is unconfirmed. Has: bookstore, children's books, online shop.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://bookshop.org/shop/lupinebooks",
+     "src": "bookshop.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Newbury Comics — Providence Place",
+     "blurb": "This Newbury Comics branch is inside Providence Place. It combines comics and music with collectible merchandise. Has: bookstore, comics, toys, collectibles, records, mall, garage parking.",
+     "address": "74 Providence Place",
+     "phone": "401-383-0044",
+     "hours": "Mon–Thu 11am–8pm; Fri–Sat 10am–9pm; Sun 11am–6pm",
+     "url": "https://www.newburycomics.com/pages/locations",
+     "src": "newburycomics.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Nostalgia Antiques & Collectibles",
+     "blurb": "Nostalgia brings many vintage and antique dealers together across three floors. Its official page posts conflicting closing times, so the daily schedule requires confirmation. Has: antiques, antique center, vintage, used books, clothing.",
+     "address": "236 Wickenden Street, Providence",
+     "phone": "401-400-5810",
+     "hours": "",
+     "url": "https://www.nostalgiaprovidence.com/our-store.html",
+     "src": "nostalgiaprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Ode to Joy Fiber and More",
+     "blurb": "Ode to Joy sells fiber supplies in Providence. Its shop also provides a gathering place for people working on handcraft projects. Has: craft shop, yarn, fiber arts, meetups.",
+     "address": "12 Bassett Street, Providence",
+     "phone": "",
+     "hours": "Thu 2pm–7pm; Fri–Mon noon–5pm; Tue–Wed closed",
+     "url": "https://www.odetojoyfiber.com/",
+     "src": "odetojoyfiber.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Page and Parlour",
+     "blurb": "Page and Parlour appears in Bookshop's Rhode Island bookstore directory. A public storefront address and operating schedule remain unconfirmed. Has: bookstore.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://bookshop.org/pages/bookstores",
+     "src": "bookshop.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Paper Nautilus Books",
+     "blurb": "Paper Nautilus sells rare and recent books in Wayland Square. Art, prints and other collectible objects complement its shelves. Has: bookstore, used books, rare books, art, antiques.",
+     "address": "19 South Angell Street, Providence",
+     "phone": "401-521-5533",
+     "hours": "Mon–Sat 11am–7pm; Sun noon–5pm",
+     "url": "https://www.papernautilusbooks.com/",
+     "src": "papernautilusbooks.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence College Bookstore",
+     "blurb": "The college bookstore provides course materials and school merchandise. It is located in the Slavin Student Center. Has: bookstore, campus store, textbooks, apparel.",
+     "address": "1 River Avenue, Slavin Student Center, Providence",
+     "phone": "401-865-2181",
+     "hours": "Mon and Fri 10am–4pm; Tue–Thu 10am–5pm; Sat 11am–4pm; Sun closed",
+     "url": "https://providence.bncollege.com/customer-service",
+     "src": "providence.bncollege.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Place",
+     "blurb": "This enclosed downtown mall combines national retailers with dining and entertainment. Garage parking has no charge for 0–2 hours, then costs $2 for 2–5 hours, $15 for 5–8 hours, $20 for 8–20 hours and $25 for 20–24 hours. Has: mall, garage parking, first two hours no charge, dining, entertainment.",
+     "address": "1 Providence Place",
+     "phone": "401-537-6234",
+     "hours": "Mon–Thu 11am–8pm; Fri–Sat 10am–9pm; Sun 11am–6pm",
+     "url": "https://www.providenceplace.com/",
+     "src": "providenceplace.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island College Bookstore",
+     "blurb": "This campus bookstore supplies course materials and college merchandise. It is located in the Student Union Building. Has: bookstore, campus store, textbooks, apparel, gifts.",
+     "address": "600 Mount Pleasant Avenue, Student Union Building, Providence",
+     "phone": "401-456-8025",
+     "hours": "Published weekly schedule: Mon and Wed–Fri 9am–4pm; Tue and Sat–Sun closed",
+     "url": "https://ric.bncollege.com/customer-service",
+     "src": "ric.bncollege.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhody Craft",
+     "blurb": "Rhody Craft features handmade goods by local and regional makers. Its Hope Street shop offers gifts and decorative work. Has: craft shop, handmade, gifts, local artists.",
+     "address": "769 Hope Street, Providence",
+     "phone": "401-626-1833",
+     "hours": "",
+     "url": "https://www.rhodycraft.com/",
+     "src": "rhodycraft.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Riffraff Bookstore",
+     "blurb": "Riffraff is an independent bookstore in Olneyville with a coffee service and evening events. Its shelves emphasize independent publishers and works in translation. Has: bookstore, cafe, author events.",
+     "address": "60 Valley Street, Unit 107A, Providence",
+     "phone": "401-421-4371",
+     "hours": "Tue–Thu noon–10pm; Fri–Sat noon–midnight; Sun noon–8pm",
+     "url": "https://riffraffpvd.com/",
+     "src": "riffraffpvd.com",
+     "town": "Providence"
+    },
+    {
+     "name": "RISD Store",
+     "blurb": "The RISD Store sells art and design materials to students and other customers. It also offers a rotating selection of alumni-made products. Has: craft shop, art supplies, local makers.",
+     "address": "30 North Main Street, Design Center, first floor, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.risd.edu/about/directory/risd-store",
+     "src": "risd.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Silver Lake / Olneyville / Valley",
+     "blurb": "This connected area contains neighborhood retailers and creative businesses. Its spread-out layout is suited to exploring by bicycle or car. Has: shopping district, neighborhood shops, bookstore, art.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/neighborhoods/silver-lake-olneyville-providence/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Small Volume Books",
+     "blurb": "Small Volume Books deals in uncommon books and printed ephemera. Public browsing hours at the listed business address remain unconfirmed. Has: bookstore, rare books, ephemera.",
+     "address": "741 Westminster Street, Suite 201, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.smallvolumebooks.com/",
+     "src": "smallvolumebooks.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Smith Hill",
+     "blurb": "Smith Hill has shops near the state government district. Its compact neighborhood can be explored on foot. Has: shopping district, neighborhood shops, walkable.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/neighborhoods/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Studio Hop",
+     "blurb": "Studio Hop combines fine crafts, jewelry and art with antique furnishings. Street parking is available along Hope Street. Has: craft shop, art, antiques, jewelry, street parking.",
+     "address": "810 Hope Street, Providence",
+     "phone": "401-621-2262",
+     "hours": "",
+     "url": "https://studiohopri.com/",
+     "src": "studiohopri.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Symposium Books",
+     "blurb": "Symposium is an independent bookstore on Westminster Street. Its downtown storefront also offers records. Has: bookstore, records, independent.",
+     "address": "240 Westminster Street, Providence",
+     "phone": "401-273-7900",
+     "hours": "Sun–Wed 10am–6pm; Thu–Sat 10am–8pm",
+     "url": "https://symposiumbooks.com/contact-us",
+     "src": "symposiumbooks.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Thayer Street",
+     "blurb": "Thayer Street serves the College Hill neighborhood. Shops and dining businesses sit near Brown University. Has: shopping district, bookstore, dining.",
+     "address": "Thayer Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/neighborhoods/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Arcade Providence",
+     "blurb": "The Arcade's historic indoor passage contains small shops and food businesses. Its ground floor offers shopping within a landmark downtown building. Has: mall, historic building, independent shops, dining.",
+     "address": "65 Weybosset Street, Providence",
+     "phone": "401-454-4568",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/the-arcade-providence/9116/",
+     "src": "visitrhodeisland.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Little Bubblegum Bookshop",
+     "blurb": "This Corliss Landing bookstore specializes in romance. It offers new and previously owned books alongside playful gifts. Has: bookstore, romance, used books, gifts.",
+     "address": "103 Wickenden Street, Providence",
+     "phone": "",
+     "hours": "Tue–Wed 1pm–6pm; Thu–Sun 11am–6pm",
+     "url": "https://www.thelittlebubblegumbookshop.com/",
+     "src": "thelittlebubblegumbookshop.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Toys\"R\"Us at Macy's — Providence",
+     "blurb": "This Toys\"R\"Us department operates inside Macy's at Providence Place. The mall provides an attached parking garage. Has: toys, shop within department store, mall, garage parking.",
+     "address": "7 Providence Place",
+     "phone": "401-351-9900",
+     "hours": "Macy's store hours: Mon–Thu 10am–8pm; Fri–Sat 10am–9pm; Sun 11am–8pm",
+     "url": "https://www.macys.com/stores/ri/providence/providence-place_207.html",
+     "src": "macys.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Twenty Stories",
+     "blurb": "Twenty Stories is an independent bookstore in Fox Point. It is known for a selected assortment of contemporary reading. Has: bookstore, independent.",
+     "address": "107 Ives Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.twentystoriesla.com/",
+     "src": "twentystoriesla.com",
+     "town": "Providence"
+    },
+    {
+     "name": "University Marketplace",
+     "blurb": "University Marketplace combines grocery and specialty retail near Providence's university neighborhoods. Its North Main Street location provides access from Interstate 95. Has: shopping center, grocery, office supplies, pet supplies.",
+     "address": "649 North Main Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.carpionatogroup.com/portfolio/university-marketplace/",
+     "src": "carpionatogroup.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Wayland Square",
+     "blurb": "Wayland Square is a walkable neighborhood shopping area. Bookshops and independent businesses provide browsing stops. Has: shopping district, bookstores, boutiques.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/neighborhoods/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "West End / Broadway",
+     "blurb": "The West End mixes neighborhood businesses with historic housing. Broadway and nearby streets offer shopping and dining stops. Has: shopping district, neighborhood shops, dining.",
+     "address": "Broadway, West Fountain Street and Luongo Square, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.goprovidence.com/neighborhoods/",
+     "src": "goprovidence.com",
+     "town": "Providence"
     },
     {
      "name": "Westminster Street",
@@ -32115,13 +33723,613 @@
      "src": "goprovidence.com"
     },
     {
-     "name": "Main Street",
-     "blurb": "A traditional downtown shopping and dining district with nearby waterfront streets.",
-     "address": "East Greenwich",
+     "name": "Chariho Plaza",
+     "blurb": "Chariho Plaza is a shopping center near Route 138 and Interstate 95. Its surroundings include everyday retail and service businesses. Has: shopping center.",
+     "address": "1190H Main Street, Richmond",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.keypointpartners.com/_files/ugd/f1df73_f642671d363a436e9d81e28ec3bfa39b.pdf",
+     "src": "keypointpartners.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Jules Antiques & General Store",
+     "blurb": "Jules brings antiques and vintage merchandise from many dealers into a rustic farm building. Its general-store section adds local goods and country-style decor. Has: antique center, antiques, collectibles, general store, local crafts.",
+     "address": "320 Kingstown Road, Richmond",
+     "phone": "401-539-2925",
+     "hours": "Daily 10am–5pm",
+     "url": "https://www.julesantiquesri.com/",
+     "src": "julesantiquesri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Branlee Woodcrafts",
+     "blurb": "Branlee Woodcrafts sells handmade wooden goods and work by local artisans. It also offers personalized items and craft activities. Has: craft shop, handmade, woodworking, gifts, classes.",
+     "address": "985 Chopmist Hill Road, North Scituate",
+     "phone": "401-647-1509",
+     "hours": "Thu–Sun 11am–5pm; Mon–Wed by appointment",
+     "url": "https://branleewoodcrafts.org/",
+     "src": "branleewoodcrafts.org",
+     "town": "Scituate"
+    },
+    {
+     "name": "North Scituate Village",
+     "blurb": "North Scituate's historic village includes small storefronts along Danielson Pike. Local retail sits among civic and residential buildings. Has: shopping district, village, independent shops.",
+     "address": "Danielson Pike, Scituate",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.scituateri.gov/document_center/Building%20Official/zoning%20updated%20for%20public.pdf",
+     "src": "scituateri.gov",
+     "town": "Scituate"
+    },
+    {
+     "name": "Antiques Alley (formerly Stillwater Antiques Center)",
+     "blurb": "Antiques Alley is the name now used by the former Stillwater Antiques Center. Dealer booths and display cases contain antiques, collectibles and records. Has: antique center, antiques, collectibles, records.",
+     "address": "711 Putnam Pike, Greenville, Smithfield",
+     "phone": "401-949-4999",
+     "hours": "Wed–Sat 10am–5pm; Sun 11am–5pm; Mon–Tue closed",
+     "url": "https://www.stillwaterantiques.net/contact",
+     "src": "stillwaterantiques.net",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Apple Valley Mall",
+     "blurb": "Apple Valley Mall is a retail center along Route 44. Its leasing information describes customer parking and access from Putnam Pike. Has: shopping center, parking.",
+     "address": "445 Putnam Pike, Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.hayessherry.com/pages/Commercial-Property-Listings-Detail.cfm?propertyID=468",
+     "src": "hayessherry.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Bryant University Bookstore",
+     "blurb": "Bryant's bookstore sells course materials and university merchandise. It occupies the second floor of the Fisher Student Center. Has: bookstore, campus store, textbooks, apparel.",
+     "address": "1150 Douglas Pike, Suite 2, Fisher Student Center, Smithfield",
+     "phone": "401-232-6240",
+     "hours": "",
+     "url": "https://bryant.bkstr.com/pages/view-store-hours",
+     "src": "bryant.bkstr.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Providence Brick Exchange",
+     "blurb": "Providence Brick Exchange specializes in building toys and related collectibles. Published operating schedules conflict, so visiting hours require confirmation. Has: toys, building sets, collectibles.",
+     "address": "9 Cedar Swamp Road, Smithfield",
+     "phone": "401-424-5390",
+     "hours": "",
+     "url": "https://www.keepupcards.com/shop/providence-brick-exchange-smithfield-ri",
+     "src": "keepupcards.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Shops on 44",
+     "blurb": "Shops on 44 is a small retail center along Putnam Pike. The owner lists 100 parking spaces. Has: shopping center, parking.",
+     "address": "473 Putnam Pike, Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.carpionatogroup.com/portfolio/shops-on-44-smithfield/",
+     "src": "carpionatogroup.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Smithfield Commons",
+     "blurb": "Smithfield Commons sits at the Routes 44 and 5 intersection. Its tenants include dining and service businesses. Has: shopping center, dining, services.",
+     "address": "400 Putnam Pike, Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "https://linearretail.com/property/smithfield-commons/",
+     "src": "linearretail.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "The Crossing at Smithfield",
+     "blurb": "This Route 44 shopping center combines major national retailers with specialty shops. A grocery store adds an everyday shopping stop. Has: shopping center, bookstore, grocery, clothing.",
+     "address": "371 Putnam Pike, Smithfield",
+     "phone": "617-232-8900",
+     "hours": "",
+     "url": "https://www.crossingatsmithfield.com/about",
+     "src": "crossingatsmithfield.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Downtown Wakefield",
+     "blurb": "Main Street combines boutiques and specialty shops. Parking and access to the William C O'Neill Bike Path support a shopping visit. Has: shopping district, village, parking, bike path nearby.",
+     "address": "Main Street, Wakefield, South Kingstown",
      "phone": "",
      "hours": "",
      "url": "https://www.southcountyri.com/media/shopping-districts/",
-     "src": "southcountyri.com"
+     "src": "southcountyri.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Peace Dale Village",
+     "blurb": "Peace Dale's former mill complex anchors a small historic village. Shops and other businesses occupy parts of its commercial center. Has: shopping district, village, historic buildings.",
+     "address": "Kingstown Road, South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southkingstownri.gov/450/South-Kingstown-Driving-Tour",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Pow! Science!",
+     "blurb": "This science-focused shop sells kits, games, puzzles and creative toys. The Wakefield Mall location also offers curbside collection. Has: toys, science kits, crafts, puzzles, curbside pickup.",
+     "address": "160 Old Tower Hill Road, Wakefield Mall, South Kingstown",
+     "phone": "401-788-1024",
+     "hours": "Mon–Sat 10am–7pm; Sun 10am–5pm",
+     "url": "https://www.powsciencetoys.com/hours-location/",
+     "src": "powsciencetoys.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "The Village at South County Commons",
+     "blurb": "South County Commons combines shops and restaurants with entertainment and professional services. Its village layout supports browsing between businesses. Has: shopping center, village, dining, entertainment.",
+     "address": "1 Grande Isle Drive, Wakefield, South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountycommons.com/about",
+     "src": "southcountycommons.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "URI Campus Store",
+     "blurb": "The university store supplies course materials and school merchandise. Its Kingston location is inside the Memorial Union. Has: bookstore, campus store, textbooks, apparel, gifts.",
+     "address": "50 Lower College Road, Memorial Union Room 132, Kingston, South Kingstown",
+     "phone": "401-874-2722",
+     "hours": "Published campus schedule: Mon–Fri 9am–4pm; Sat closed; Sun 10am–3pm",
+     "url": "https://events.uri.edu/group/campus_store",
+     "src": "events.uri.edu",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Wakefield Books",
+     "blurb": "Wakefield Books is an independent bookstore inside Wakefield Mall. Its shelves include books for adults and children. Has: bookstore, children's books, mall.",
+     "address": "160 Old Tower Hill Road, Wakefield, South Kingstown",
+     "phone": "401-792-0000",
+     "hours": "Mon–Sat 9:30am–7pm; Sun 10am–5pm",
+     "url": "https://www.wakefieldmall.com/stores",
+     "src": "wakefieldmall.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Wakefield Mall",
+     "blurb": "Wakefield Mall brings local specialty shops and larger retailers together. Its directory includes a bookstore and a science-focused toy shop. Has: mall, bookstore, toys.",
+     "address": "160 Old Tower Hill Road, Wakefield, South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.wakefieldmall.com/stores",
+     "src": "wakefieldmall.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Peter's Attic",
+     "blurb": "Peter's Attic shares several levels with other antique and creative businesses. Furniture, vintage clothing and paper collectibles are among the offerings. Has: antique center, antiques, furniture, vintage clothing.",
+     "address": "8 Neck Road, Tiverton",
+     "phone": "401-625-5912",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/peters-attic/12049/",
+     "src": "visitrhodeisland.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "The Yellow House",
+     "blurb": "The Yellow House is a bookstore and event space in Tiverton Four Corners. Its selection extends to art, stationery and gifts. Has: bookstore, gifts, art, stationery, cafe.",
+     "address": "3842 Main Road, Tiverton",
+     "phone": "",
+     "hours": "Fall: Wed and Sun 11am–4pm; Thu–Sat 11am–7pm; Mon–Tue closed",
+     "url": "https://www.theyellowhouseri.com/",
+     "src": "theyellowhouseri.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Tiverton Four Corners",
+     "blurb": "Four Corners groups shops and galleries in historic buildings. Antiques and decorative crafts are among its specialties. Has: shopping district, village, antiques, crafts, galleries.",
+     "address": "Routes 77 and 179; Main Road and East Road, Tiverton",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.tivertonfourcorners.com/who-are-we-template",
+     "src": "tivertonfourcorners.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "arc{hive} book + snackery",
+     "blurb": "This Warren venue combines books with drinks and light food. Its calendar also includes live performances and community gatherings. Has: bookstore, snacks, drinks, events.",
+     "address": "4 Market Street, Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://archivebooksnackery.com/",
+     "src": "archivebooksnackery.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Downtown Warren",
+     "blurb": "A walkable East Bay district with shops, galleries, restaurants, and waterfront character.",
+     "address": "Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.eastbaychamberri.org/events-tourism.html",
+     "src": "eastbaychamberri.org"
+    },
+    {
+     "name": "Imagine Gift Store",
+     "blurb": "Imagine occupies the restored Lyric Theatre in Warren. Its three floors contain gifts, toys and artisan goods. Has: toys, craft shop, gifts, handmade, historic building.",
+     "address": "5 Miller Street, Warren",
+     "phone": "401-245-4200",
+     "hours": "Mon–Sat 11am–5:30pm; Sun noon–5pm",
+     "url": "https://www.giftimagine.com/contact/",
+     "src": "giftimagine.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Ink Fish Books",
+     "blurb": "Ink Fish Books combines new and gently used books with locally made food and kitchen goods. The shop also hosts authors and community programs. Has: bookstore, used books, children's books, local goods, author events.",
+     "address": "488 Main Street, Warren",
+     "phone": "401-368-6827",
+     "hours": "Open seven days",
+     "url": "https://www.inkfishbooks.com/",
+     "src": "inkfishbooks.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Made in Warren",
+     "blurb": "Made in Warren is an artist cooperative selling handmade work. Nearby street spaces and municipal lots have no charge. Has: craft shop, art, cooperative, handmade, street parking, municipal parking, parking no charge.",
+     "address": "476 Main Street, Warren",
+     "phone": "401-310-0559",
+     "hours": "Daily 10am–6pm; closed Easter, July 4, Thanksgiving, Christmas Day and New Year's Day; closed during town parking bans",
+     "url": "https://www.madeinwarren.com/contact-miw.html",
+     "src": "madeinwarren.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Nick Haus",
+     "blurb": "Nick Haus sells art and antiques in Warren. Its published browsing windows are by chance, with appointments also available. Has: antiques, art, by appointment.",
+     "address": "51 Broad Street, Warren",
+     "phone": "401-903-2005",
+     "hours": "By chance Thu–Sat 10am–5pm and Sun noon–5pm; also by appointment",
+     "url": "https://nickhaus.com/pages/nh-storefront",
+     "src": "nickhaus.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Old as Adam",
+     "blurb": "Old as Adam buys and sells antiques and art. Call ahead because the proprietor describes its openings as by chance or appointment. Has: antiques, art, by appointment.",
+     "address": "507 Main Street, Warren",
+     "phone": "401-648-8140",
+     "hours": "Most Friday and Saturday afternoons; by chance and appointment",
+     "url": "https://oldasadam.com/",
+     "src": "oldasadam.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Water Street — Warren",
+     "blurb": "Water Street offers independent shops near the waterfront. Homewares, handmade goods and vintage pieces feature along the street. Has: shopping district, waterfront, crafts, vintage.",
+     "address": "Water Street, Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discoverwarren.org/a-perfect-shopping-day-on-water-street/",
+     "src": "discoverwarren.org",
+     "town": "Warren"
+    },
+    {
+     "name": "Apponaug Color & Hobby Shop",
+     "blurb": "This longstanding hobby shop specializes in model trains and plastic model kits. It also sells paints, tools and scenery materials. Has: hobby shop, toys, model trains, model kits, craft supplies.",
+     "address": "1364 Greenwich Avenue, Warwick",
+     "phone": "401-737-5506",
+     "hours": "Tue–Sat 9am–5pm",
+     "url": "https://www.hobbyri.com/",
+     "src": "hobbyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Apponaug Village",
+     "blurb": "Apponaug is Warwick's civic center and a historic village. Businesses and restaurants surround its main street intersections. Has: shopping district, village, services.",
+     "address": "Post Road, Greenwich Avenue and Centerville Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://visitwarwickri.com/things-to-do-section/village-centers/",
+     "src": "visitwarwickri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Bald Hill Commons",
+     "blurb": "Bald Hill Commons is listed among Warwick's shopping destinations. Its location is on Universal Boulevard. Has: shopping center.",
+     "address": "Universal Boulevard, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://citycentrewarwick.com/entertainment-shopping",
+     "src": "citycentrewarwick.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Bald Hill Plaza",
+     "blurb": "Bald Hill Plaza combines clothing, beauty and home retailers. Its property improvements include renovated parking areas. Has: shopping center, outlets, clothing, home goods, parking.",
+     "address": "1245 Bald Hill Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://nrstr.com/projects/bald-hill-plaza/",
+     "src": "nrstr.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Cowesett Corners",
+     "blurb": "Cowesett Corners is a grocery-anchored retail center. The owner lists 967 parking spaces. Has: shopping center, grocery, parking.",
+     "address": "300 Quaker Lane, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://zelcoproperties.com/property/cowesett-corners-retail-leasing-warwick-ri/",
+     "src": "zelcoproperties.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Hobby Lobby — Warwick",
+     "blurb": "Hobby Lobby stocks craft supplies, fabrics, yarn and seasonal decorations. The Warwick location is on Bald Hill Road. Has: craft shop, fabric, yarn, art supplies, seasonal decor.",
+     "address": "945 Bald Hill Road, Warwick",
+     "phone": "401-821-5100",
+     "hours": "",
+     "url": "https://www.hobbylobby.com/stores?city=Warwick&state=RI",
+     "src": "hobbylobby.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Marketplace Center",
+     "blurb": "Marketplace Center is part of Warwick's retail corridor. It sits on Bald Hill Road. Has: shopping center, crafts.",
+     "address": "1500 Bald Hill Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://citycentrewarwick.com/entertainment-shopping",
+     "src": "citycentrewarwick.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Midland Commons (formerly Rhode Island Mall)",
+     "blurb": "Midland Commons occupies the former Rhode Island Mall location. It now combines larger retail stores with restaurants and fitness businesses. Has: shopping center, dining, former mall.",
+     "address": "650 Bald Hill Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://citycentrewarwick.com/entertainment-shopping",
+     "src": "citycentrewarwick.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Price Rite Plaza",
+     "blurb": "This plaza serves Bald Hill Road shoppers. Warwick includes it in its shopping directory. Has: shopping center.",
+     "address": "945 Bald Hill Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://citycentrewarwick.com/entertainment-shopping",
+     "src": "citycentrewarwick.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Quaker Commons",
+     "blurb": "Quaker Commons combines furniture, grocery and other retail on Quaker Lane. Restaurants and services share the center. Has: shopping center, outlets, furniture, grocery, dining.",
+     "address": "444 Quaker Lane, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://visitwarwickri.com/listing/quaker-commons/187/",
+     "src": "visitwarwickri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Shops at Greenwood",
+     "blurb": "Shops at Greenwood is a large retail center near the airport corridor. The property owner lists extensive on-site parking. Has: shopping center, parking.",
+     "address": "545 Greenwich Avenue, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.carpionatogroup.com/portfolio/shops-at-greenwood-warwick/",
+     "src": "carpionatogroup.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Summit Square Plaza",
+     "blurb": "Summit Square Plaza is a Warwick retail center. It occupies a Bald Hill Road location. Has: shopping center.",
+     "address": "1276 Bald Hill Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://citycentrewarwick.com/entertainment-shopping",
+     "src": "citycentrewarwick.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "The Toy Vault — Warwick Mall",
+     "blurb": "The Toy Vault has a retail location inside Warwick Mall. It is a destination for toys and collectible merchandise. Has: toys, collectibles, mall.",
+     "address": "400 Bald Hill Road, Warwick",
+     "phone": "401-921-5466",
+     "hours": "",
+     "url": "https://www.thetoyvault.com/",
+     "src": "thetoyvault.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Center",
+     "blurb": "Warwick Center is a Bald Hill Road shopping property. It appears in the city's retail directory. Has: shopping center.",
+     "address": "1324 Bald Hill Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://citycentrewarwick.com/entertainment-shopping",
+     "src": "citycentrewarwick.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Commons",
+     "blurb": "Warwick Commons is across from Warwick Mall on Bald Hill Road. It combines specialty retailers with a surface parking area. Has: shopping center, parking.",
+     "address": "399 Bald Hill Road, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.thediscoverygroupinc.com/wp-content/uploads/Brochure-Warwick-Commons.pdf",
+     "src": "thediscoverygroupinc.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Mall",
+     "blurb": "This enclosed regional mall combines retail, dining and entertainment around a carousel food court. Visitor parking has no charge, with electric vehicle charging near the cinema. Has: mall, dining, carousel, cinema, parking no charge, EV charging.",
+     "address": "400 Bald Hill Road, Warwick",
+     "phone": "401-739-7500",
+     "hours": "Mon–Thu 10am–8pm; Fri–Sat 10am–9pm; Sun 11am–6pm; Nov 26, 2026 Thanksgiving: closed; Nov 27, 2026 Black Friday: 7am–9pm",
+     "url": "https://www.warwickmall.com/",
+     "src": "warwickmall.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Island Creations by Louise",
+     "blurb": "Island Creations is a quilt shop in West Greenwich. It also provides long-arm quilting services. Has: craft shop, quilting, fabric.",
+     "address": "74 Nooseneck Hill Road, West Greenwich",
+     "phone": "401-323-0255",
+     "hours": "Tue–Sat 11am–4pm",
+     "url": "https://www.islandcreationsbylouise.com/",
+     "src": "islandcreationsbylouise.com",
+     "town": "West Greenwich"
+    },
+    {
+     "name": "Arctic Village",
+     "blurb": "Arctic Village is West Warwick's historic commercial center. Its shopping is dispersed among smaller clusters of businesses. Has: shopping district, village, downtown.",
+     "address": "West Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://westwarwickri.gov/vertical/sites/%7B7B7C7E47-F7C1-4511-8CF3-EA8EBAF7D539%7D/uploads/Arctic_Village_Plan_-_Sasaki.pdf",
+     "src": "westwarwickri.gov",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Mike's Estate Services",
+     "blurb": "Mike's offers antiques and newer household pieces across a two-floor showroom. Furniture, art, pottery and collectibles form part of its changing stock. Has: antique center, antiques, consignment, furniture, collectibles.",
+     "address": "65 Manchester Street, West Warwick",
+     "phone": "401-825-7670",
+     "hours": "Wed–Fri 10am–5pm; Sat 10am–4pm; Sun 11am–4pm; Mon–Tue closed; Thanksgiving and Christmas Day closed",
+     "url": "https://www.mikesestateservices.com/",
+     "src": "mikesestateservices.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "New Life Christian Store",
+     "blurb": "New Life carries Bibles, books, music and gifts. Its West Warwick shop also sells clergy clothing. Has: bookstore, religious books, gifts.",
+     "address": "555 Quaker Lane, West Warwick",
+     "phone": "401-828-5854",
+     "hours": "Mon–Sat 10am–7pm",
+     "url": "https://newlifechristianstore.com/rhode-island/",
+     "src": "newlifechristianstore.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Stillwater Books",
+     "blurb": "Stillwater Books carries new and used books in New London Square. Local authors are part of its selection. Has: bookstore, used books, local authors.",
+     "address": "1745 Main Street, Unit 15, West Warwick",
+     "phone": "401-475-1979",
+     "hours": "Mon–Sat 9am–7pm",
+     "url": "https://bookshop.org/shop/stillwaterbooks",
+     "src": "bookshop.org",
+     "town": "West Warwick"
+    },
+    {
+     "name": "The Old Mill Vintage Marketplace & Flea",
+     "blurb": "This weekend marketplace brings vintage sellers together in a former mill. Shoppers can browse antiques, collectibles and secondhand finds. Has: antiques, vintage, flea market, year round.",
+     "address": "3 Bridal Avenue, West Warwick",
+     "phone": "401-226-3377",
+     "hours": "Sat–Sun 10am–4pm; year round",
+     "url": "https://www.visitrhodeisland.com/listing/the-old-mill-vintage-marketplace-%26-flea/9263/",
+     "src": "visitrhodeisland.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Downtown Westerly",
+     "blurb": "Downtown Westerly combines boutiques with antique and consignment shops. The walkable center surrounds the Wilcox Park area. Has: shopping district, downtown, antiques.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/media/shopping-districts/",
+     "src": "southcountyri.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Forget Me Not Fabrics",
+     "blurb": "This downtown Westerly shop carries quilting fabric, yarn and sewing notions. Classes cover sewing and quilting skills. Has: craft shop, fabric, yarn, quilting, classes.",
+     "address": "29 Railroad Avenue, Westerly",
+     "phone": "",
+     "hours": "Tue–Sat 10am–5pm; Sun–Mon closed",
+     "url": "https://www.forgetmenotfabrics.com/",
+     "src": "forgetmenotfabrics.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Granite Street Shopping Center",
+     "blurb": "This shopping center is located on Granite Street in Westerly. Individual businesses operate their own schedules. Has: shopping center.",
+     "address": "116 Granite Street, Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.waze.com/live-map/directions/us/ri/westerly/granite-street-shopping-center?to=place.ChIJ6-gb-QTn5YkR4BF0shbfgwk",
+     "src": "waze.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Martin House Books",
+     "blurb": "Martin House Books occupies the downtown Westerly location associated with the former Savoy bookstore. A cafe operates alongside the bookshop. Has: bookstore, cafe, downtown.",
+     "address": "10 Canal Street, Westerly",
+     "phone": "401-561-6101",
+     "hours": "Mon–Wed 9am–6pm; Thu–Sat 9am–8pm; Sun 10am–5pm; cafe opens daily at 7am",
+     "url": "https://martinhousebooks.com/",
+     "src": "martinhousebooks.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Watch Hill Village",
+     "blurb": "Watch Hill offers coastal boutiques and specialty shops. Beachwear, jewelry and handmade goods are part of the mix. Has: shopping district, village, boutiques.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/media/shopping-districts/",
+     "src": "southcountyri.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Crossings",
+     "blurb": "Westerly Crossings combines grocery shopping, crafts and other retail near Routes 1 and 78. The owner lists 822 parking spaces. Has: shopping center, crafts, grocery, parking.",
+     "address": "151 Franklin Street, Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.carpionatogroup.com/portfolio/westerly-crossings-westerly/",
+     "src": "carpionatogroup.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Diamond Hill Plaza",
+     "blurb": "Diamond Hill Plaza is a large retail property in Woonsocket. Its leasing information lists on-site parking. Has: shopping center, parking.",
+     "address": "1790–2000 Diamond Hill Road, Woonsocket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.loopnet.com/Listing/1790-2000-Diamond-Hill-Rd-Woonsocket-RI/4069920/",
+     "src": "loopnet.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Downtown Woonsocket",
+     "blurb": "Woonsocket's historic downtown follows the Main Street area near the Blackstone River. Its commercial buildings house businesses and cultural destinations. Has: shopping district, downtown.",
+     "address": "Main Street, Woonsocket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.woonsocketri.gov/681/Downtown",
+     "src": "woonsocketri.gov",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Timeless Antiques & Collectibles",
+     "blurb": "Timeless occupies a downtown Woonsocket storefront. It sells varied antiques and collectibles, including furniture, jewelry and pottery. Has: antiques, collectibles, furniture, jewelry.",
+     "address": "91 Main Street, Woonsocket",
+     "phone": "401-257-5796",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/timeless-antiques-%26-collectibles/12095/",
+     "src": "visitrhodeisland.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Walnut Hill Plaza / Shoppes at Diamond Hill",
+     "blurb": "This Diamond Hill Road property is documented under the Walnut Hill Plaza name. More recent leasing listings also use Shoppes at Diamond Hill. Has: shopping center, entertainment, fitness.",
+     "address": "1500–1583 Diamond Hill Road, Woonsocket",
+     "phone": "",
+     "hours": "",
+     "url": "https://lheartcapital.com/portfolio/walnut-hill-plaza-woonsocket-ri/",
+     "src": "lheartcapital.com",
+     "town": "Woonsocket"
     }
    ]
   },
