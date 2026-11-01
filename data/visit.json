@@ -35298,6 +35298,2986 @@
      "town": "Woonsocket"
     }
    ]
+  },
+  {
+   "key": "skating",
+   "title": "Ice Skating",
+   "items": [
+    {
+     "name": "Kent Street Skating Pond",
+     "blurb": "The town's Hampden Meadows management plan identifies this pond as a winter skating area. Its listing does not establish current ice clearance, so obtain an updated town opening notice before skating. Has: outdoor, pond, natural ice, weather dependent.",
+     "address": "Kent Street, Barrington, RI",
+     "phone": "",
+     "hours": "Winter, subject to town approval and suitable ice conditions.",
+     "url": "https://www.barrington.ri.gov/DocumentCenter/View/183/Hampden-Meadows-Conservation-Area-PDF",
+     "src": "barrington.ri.gov",
+     "town": "Barrington"
+    },
+    {
+     "name": "Legion Way Outdoor Skating Rink",
+     "blurb": "The town identifies this rink as an outdoor ice-skating site that also serves street hockey in warmer weather. Winter use depends on weather and town opening notices, with no current timetable verified. Has: outdoor, weather dependent.",
+     "address": "Legion Way, Barrington, RI",
+     "phone": "",
+     "hours": "Winter ice skating when weather permits and the town opens the rink.",
+     "url": "https://www.barrington.ri.gov/documentcenter/view/954",
+     "src": "barrington.ri.gov",
+     "town": "Barrington"
+    },
+    {
+     "name": "June Rockwell Levy Rink",
+     "blurb": "Rhode Island State Parks lists this community arena among public skating facilities. The school district directs visitors to call the rink for schedule updates, and a current drop-in timetable was not verified. Has: indoor.",
+     "address": "425 East Avenue, Harrisville, RI 02830, Burrillville",
+     "phone": "401-568-8615",
+     "hours": "",
+     "url": "https://www.bsd-ri.net/about-us/building-use",
+     "src": "bsd-ri.net",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Ninigret Park Designated Skating Areas",
+     "blurb": "Town rules allow ice skating in Ninigret Park only in areas identified by an authorized sign. The rule does not establish that any particular pond is currently open, and no current designation was verified. Has: outdoor, designated areas only, weather dependent.",
+     "address": "100 Park Lane, Charlestown, RI 02813",
+     "phone": "",
+     "hours": "Skating only when and where an authorized town sign designates an area for that use.",
+     "url": "https://ecode360.com/8490859",
+     "src": "ecode360.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Cranston Veterans Memorial Ice Rink",
+     "blurb": "This municipal arena offers public skating and separate adult sessions, with rental skates available. Learn-to-skate programs operate separately, and private lessons are not permitted during public skating. Has: indoor, rentals, lessons, adult skating, themed skating.",
+     "address": "900 Phenix Avenue, Cranston, RI 02921",
+     "phone": "401-944-8690",
+     "hours": "Public skating, Rock'n Skate and adult skating follow a dated calendar; times change regularly and should be checked on the day of the visit. · Public skating and Rock'n Skate: $10; children under 6 and seniors: $5; skate rental: $10. Adult skate, ages 18 and older: $5.",
+     "url": "https://www.cvmrink.com/public",
+     "src": "cvmrink.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Meshanticut Lake at Meshanticut State Park",
+     "blurb": "State Parks includes Meshanticut among the locations covered by its winter ice-information service. No current skating clearance was verified, and the listed phone number provides condition information. Has: outdoor, lake, natural ice, weather dependent.",
+     "address": "Meshanticut State Park, Cranston, RI 02920",
+     "phone": "401-667-6222",
+     "hours": "Winter only when designated areas are opened for skating; call the state ice-information line for conditions.",
+     "url": "https://riparks.ri.gov/activities-programs/outdoor-safety-tips/winter-safety-tips",
+     "src": "riparks.ri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "Eldredge Basketball Courts Winter Ice Rink",
+     "blurb": "The town's park guide describes flooding part of these basketball courts for winter skating. A current installation or opening was not verified, so call the recreation office before making plans. Has: outdoor, flooded courts, weather dependent.",
+     "address": "Cliff Street, East Greenwich, RI",
+     "phone": "401-886-8626",
+     "hours": "Winter, weather permitting; the town's park guide directs visitors to call for a rink-status update.",
+     "url": "https://www.eastgreenwichri.gov/DocumentCenter/View/83/Parks-Guide-PDF",
+     "src": "eastgreenwichri.gov",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Shovlin Park Winter Ice Rink",
+     "blurb": "The town's park guide identifies the park's inline rink as a surface flooded for winter ice skating. A current installation or opening was not verified, so call the recreation office for conditions. Has: outdoor, flooded rink, weather dependent.",
+     "address": "Lenihan Lane at Middle Road, East Greenwich, RI",
+     "phone": "401-886-8626",
+     "hours": "Winter, weather permitting; the town's park guide directs visitors to call for a rink-status update.",
+     "url": "https://www.eastgreenwichri.gov/DocumentCenter/View/83/Parks-Guide-PDF",
+     "src": "eastgreenwichri.gov",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Glocester Memorial Park Community Ice Rink",
+     "blurb": "The town approved a reusable community ice rink at Memorial Park, and later recreation announcements reported skating there. A 2026-27 installation, public timetable and current opening were not verified. Has: outdoor, temporary rink, weather dependent.",
+     "address": "52 Adelaide Road, Chepachet, RI, Glocester",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.glocesterri.gov/2021-02-04-Minutes.pdf",
+     "src": "glocesterri.gov",
+     "town": "Glocester"
+    },
+    {
+     "name": "Olney Pond at Lincoln Woods State Park",
+     "blurb": "The state park explicitly lists ice skating among its activities and tests winter ice conditions. No current skating clearance was verified, and the listed phone number is the state ice-information line. Has: outdoor, pond, natural ice, weather dependent.",
+     "address": "2 Manchester Print Works Road, Lincoln, RI 02865",
+     "phone": "401-667-6222",
+     "hours": "Winter only when designated areas are opened for skating; call the state ice-information line for conditions.",
+     "url": "https://riparks.ri.gov/parks/lincoln-woods-state-park",
+     "src": "riparks.ri.gov",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Cabot-Harman Ice Center at St. George's School",
+     "blurb": "Island Skating Academy offers group lessons at this school rink, and the listed phone number reaches the lesson provider. Hilltop Sports previously held public holiday skating here, but its 2024-25 sessions do not confirm a 2026-27 public schedule. Has: indoor, lessons, registration required.",
+     "address": "372 Purgatory Road, Middletown, RI 02842",
+     "phone": "401-952-4336",
+     "hours": "Island Skating Academy's posted fall lessons: Sundays 2:30-3:30 PM, November 1-December 20; a current general-public skating schedule was not verified.",
+     "url": "https://www.islandskatingacademy.com/schedule",
+     "src": "islandskatingacademy.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Narragansett Community Synthetic Ice Rink",
+     "blurb": "The chamber donated a portable synthetic skating surface for community use and approved events. This is a synthetic rink, and its current location, access times and charges were not verified. Has: outdoor, synthetic ice, portable rink.",
+     "address": "Narragansett",
+     "phone": "401-782-0658",
+     "hours": "The rink sponsor directs visitors to Narragansett Parks and Recreation for current placement and operating hours.",
+     "url": "https://narragansettcoc.com/event-calendar/community-events/",
+     "src": "narragansettcoc.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Newport Harbor Island Resort Ice Rink",
+     "blurb": "The Goat Island resort formerly offered waterfront winter skating under the Gurney's name. The tourism listing reports a skating hiatus, and a 2026-27 reopening was not verified. Has: outdoor, waterfront, former seasonal rink.",
+     "address": "1 Goat Island, Newport, RI 02840",
+     "phone": "401-849-2600",
+     "hours": "",
+     "url": "https://www.discovernewport.org/blog/post/ice-skating-rink/",
+     "src": "discovernewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Portsmouth Abbey School Ice Rink",
+     "blurb": "The school maintains an ice rink used for athletics and community events. A current public-skating schedule, rental service and public lesson program were not verified, so confirm access before visiting. Has: indoor, school facility.",
+     "address": "285 Cory's Lane, Portsmouth, RI 02871",
+     "phone": "401-643-1313",
+     "hours": "",
+     "url": "https://www.portsmouthabbey.org/athletic-facilities",
+     "src": "portsmouthabbey.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Meehan Auditorium",
+     "blurb": "Brown offers recreational skating for eligible recreation members and day-pass visitors during posted sessions. Bring your own skates and check access requirements before visiting, since this is a campus recreation program. Has: indoor, bring your own skates, recreation membership or day pass required.",
+     "address": "235 Hope Street, Providence, RI 02912",
+     "phone": "401-863-5100",
+     "hours": "Recreational skating follows Brown Recreation's dated calendar during the academic year; no recreational skating during semester breaks or holidays. · Brown Recreation one-day pass: $20 for visitors aged 17 and older; eligible members use their recreation access. No skate rentals.",
+     "url": "https://brownrec.com/facilities/meehan-auditorium/5",
+     "src": "brownrec.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Schneider Arena - Pawtucket and Providence Figure Skating Club",
+     "blurb": "The figure-skating club offers registered beginner lessons for children and adults at the college arena. Access described here is through club programs rather than a verified general-public skating session, and the phone number reaches the lesson organizer. Has: indoor, lessons, bring your own skates, registration required.",
+     "address": "331 Huxley Avenue, Providence, RI",
+     "phone": "508-212-2611",
+     "hours": "Registered fall 2026 lessons: Sundays 11:00-11:50 AM on October 18 and 25, November 1, 15, 22 and 29, and December 13; exhibition December 6. Club ice is offered in fall and winter; no general-public drop-in timetable verified. · Seven-class fall 2026 course: Basic Badge $112 or Snowplow Sam $84, plus annual $10 club learn-to-skate membership and approximately $20 Learn to Skate USA membership; $10 late registration fee after October 7. No skate rentals.",
+     "url": "https://www.ppfsc.org/learn-to-skate",
+     "src": "ppfsc.org",
+     "town": "Providence"
+    },
+    {
+     "name": "The Providence Rink at BankNewport City Center",
+     "blurb": "This outdoor downtown rink offers seasonal public skating beside Kennedy Plaza. Group and private lessons are offered separately, and rental skates, skating aids and ice bumper cars are available. Has: outdoor, rentals, lessons, skate aids, lockers, restrooms, ice bumper cars.",
+     "address": "2 Kennedy Plaza, Providence, RI 02903",
+     "phone": "401-680-7390",
+     "hours": "Ice-skating season late November-early March; public skating daily 10:00 AM-10:00 PM, weather permitting, with special-event changes. Admission allows three hours without re-entry. · Adults: $9; children 12 and under and seniors 65 and older: $6; skate rental: $8.41 plus sales tax.",
+     "url": "https://theprovidencerink.com/skating/",
+     "src": "theprovidencerink.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Preserve Sporting Club and Resort Pond Skating",
+     "blurb": "The resort's activity guide lists skating on its ponds when weather permits. Confirm booking eligibility, equipment and ice availability directly because general-public drop-in access was not verified. Has: outdoor, pond, natural ice, resort activity, advance confirmation required.",
+     "address": "1 Preserve Boulevard, Richmond, RI 02898",
+     "phone": "855-593-8473",
+     "hours": "Weather-dependent pond-skating activity; the resort guide lists a minimum activity duration of one hour and check-in at the main clubhouse.",
+     "url": "https://www.thepreserveri.com/site/assets/files/1/activities_and_experiences_guide.pdf",
+     "src": "thepreserveri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Smithfield Municipal Ice Rink",
+     "blurb": "The town rink offers public skating alongside hockey and figure-skating programs. Local skating clubs provide instruction, with lesson registration separate from public admission. Has: indoor, rentals, lessons, parties.",
+     "address": "109 Pleasant View Avenue, Smithfield, RI 02917",
+     "phone": "401-233-1051",
+     "hours": "Public skating Tuesday and Friday, noon-1:30 PM, for all ages; Sunday sessions are announced separately in the town's rink notices. · Admission: $5; skate rental: $5; public sessions accept cash or check.",
+     "url": "https://www.smithfieldri.gov/departments/ice-rink/information-and-rates",
+     "src": "smithfieldri.gov",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Bradford R. Boss Ice Arena",
+     "blurb": "The university arena welcomes community skaters during designated public sessions. It also offers a separate learn-to-skate program and occasional music skating nights. Has: indoor, rentals, lessons, themed skating.",
+     "address": "1 Keaney Road, Kingston, RI 02881, South Kingstown",
+     "phone": "401-874-4988",
+     "hours": "Year-round arena; public skating follows the dated schedule at https://boss.finnlyconnect.com/schedule/376; Rock N Skate takes place on selected Friday and Saturday nights. · Public skating: $10; URI students, faculty and staff with valid identification: $5; skate rental: $5.",
+     "url": "https://www.bossicearena.com/public-skating-programs",
+     "src": "bossicearena.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Goddard Memorial State Park Skating Area",
+     "blurb": "State Parks includes Goddard among the locations covered by its winter ice-information service. No current skating clearance or precise open skating boundary was verified, so check the designated area before visiting. Has: outdoor, natural ice, weather dependent.",
+     "address": "1095 Ives Road, Warwick, RI 02818",
+     "phone": "401-667-6222",
+     "hours": "Winter only when designated areas are opened for skating; call the state ice-information line for conditions.",
+     "url": "https://riparks.ri.gov/activities-programs/outdoor-safety-tips/winter-safety-tips",
+     "src": "riparks.ri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "Thayer and Warburton Ice Arenas",
+     "blurb": "These municipal arenas share the Mickey Stevens Sports Complex and offer scheduled recreational skating. Warwick Figure Skaters provides learn-to-skate instruction, while individual ice-sheet availability should be checked with the rink. Has: indoor, lessons, adult skating.",
+     "address": "975 Sandy Lane, Warwick, RI 02889",
+     "phone": "401-921-9602",
+     "hours": "Year-round complex with public and adult skating; the published spring/summer 2026 timetable has expired, so current session times require confirmation.",
+     "url": "https://www.warwickri.gov/359/Thayer-Warburton-Ice-Arenas",
+     "src": "warwickri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "Benny Magiera Memorial Ice Rink",
+     "blurb": "This town-operated rink offers scheduled public skating as well as hockey and private ice bookings. The town directs visitors to Civic Center updates for the current public schedule and requires participants to sign in. Has: indoor, public skating.",
+     "address": "100 Factory Street, West Warwick, RI 02893",
+     "phone": "401-615-8241",
+     "hours": "Year-round facility; public-skating dates are announced through the West Warwick Civic Center updates linked by the town.",
+     "url": "https://westwarwickri.gov/?SEC=706EFDDE-B8A8-457B-8035-C96BC10019E1&Type=B_BASIC",
+     "src": "westwarwickri.gov",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Adelard Arena",
+     "blurb": "The arena on the Mount Saint Charles campus offers public skating, skate rentals and a learn-to-skate program. Public admission and lesson reservations use separate calendar listings, and current individual admission prices were not verified. Has: indoor, rentals, lessons, parties.",
+     "address": "800 Logee Street, Woonsocket, RI 02895",
+     "phone": "",
+     "hours": "Year-round public-skating offerings; dates and times are listed on the arena's program calendar.",
+     "url": "https://www.adelardarena.com/program-calendar",
+     "src": "adelardarena.com",
+     "town": "Woonsocket"
+    }
+   ]
+  },
+  {
+   "key": "tennis",
+   "title": "Tennis & Pickleball",
+   "items": [
+    {
+     "name": "Barrington High School — Lincoln Avenue courts",
+     "blurb": "The town lists eight tennis courts at this complex. Organized use requires a Recreation Department permit. Has: tennis, outdoor, public.",
+     "address": "220 Lincoln Avenue, Barrington",
+     "phone": "401-247-1900 ext. 202",
+     "hours": "",
+     "url": "https://www.barrington.ri.gov/412/Field-Use",
+     "src": "barrington.ri.gov",
+     "town": "Barrington"
+    },
+    {
+     "name": "Barrington Middle School courts",
+     "blurb": "This school complex has town-listed tennis and pickleball courts. Organized use requires a Recreation Department permit. Has: tennis, pickleball, outdoor, public.",
+     "address": "261 Middle Highway, Barrington",
+     "phone": "401-247-1900 ext. 202",
+     "hours": "",
+     "url": "https://www.barrington.ri.gov/412/Field-Use",
+     "src": "barrington.ri.gov",
+     "town": "Barrington"
+    },
+    {
+     "name": "Bayside Family YMCA",
+     "blurb": "The YMCA has published member pickleball sessions in its gym schedule. Contact the branch for the current schedule and any session-registration requirements. Has: pickleball, indoor, membership.",
+     "address": "70 West Street, Barrington",
+     "phone": "401-245-2444",
+     "hours": "Membership required for listed member pickleball.",
+     "url": "https://ymcagreaterprovidence.org/branches/bayside-family-ymca",
+     "src": "ymcagreaterprovidence.org",
+     "town": "Barrington"
+    },
+    {
+     "name": "Chianese Park courts",
+     "blurb": "The town lists tennis and pickleball courts here. Organized use requires a Recreation Department permit. Has: tennis, pickleball, outdoor, public.",
+     "address": "41 Centennial Avenue, Barrington",
+     "phone": "401-247-1900 ext. 202",
+     "hours": "",
+     "url": "https://www.barrington.ri.gov/412/Field-Use",
+     "src": "barrington.ri.gov",
+     "town": "Barrington"
+    },
+    {
+     "name": "Kent Street courts",
+     "blurb": "The town lists two tennis courts and four pickleball layouts here. Organized use requires a Recreation Department permit. Has: tennis, pickleball, outdoor, public.",
+     "address": "14–18 Kent Street, Barrington",
+     "phone": "401-247-1900 ext. 202",
+     "hours": "",
+     "url": "https://www.barrington.ri.gov/412/Field-Use",
+     "src": "barrington.ri.gov",
+     "town": "Barrington"
+    },
+    {
+     "name": "Bristol Town Beach and Sports Complex tennis courts",
+     "blurb": "Tennis courts form part of the waterfront sports complex. Contact Parks and Recreation about permits and court availability. Has: tennis, outdoor, public, parking, restrooms.",
+     "address": "50 Asylum Road, Bristol",
+     "phone": "401-253-1611",
+     "hours": "Seasonal parking fee from Memorial Day weekend through Labor Day weekend.",
+     "url": "https://bristolri.gov/281/Town-Beach-and-Sports-Complex",
+     "src": "bristolri.gov",
+     "town": "Bristol"
+    },
+    {
+     "name": "Bristol Town Common courts",
+     "blurb": "Dedicated and shared courts accommodate pickleball and tennis. Reserve through Parks and Recreation outside club sessions; otherwise use is first come, first served. Has: tennis, pickleball, outdoor, public, reservations.",
+     "address": "State Street and Wood Street, Bristol",
+     "phone": "401-253-1611",
+     "hours": "Club sessions year-round, weather dependent; consult Playerlineup.",
+     "url": "https://www.bristolpickleballri.org/",
+     "src": "bristolpickleballri.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Mount Hope High School tennis courts",
+     "blurb": "A tennis directory lists six public courts at Mount Hope High School. Confirm school-use restrictions and court availability before visiting. Has: tennis, outdoor, school, no lights.",
+     "address": "199 Chestnut Street, Bristol",
+     "phone": "401-254-5980",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/bristol/bristol-parks-and-recreation-mt-hope-hgih-school",
+     "src": "gladiatortennis.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Quinta-Gamelin Community Center",
+     "blurb": "Court directories list indoor pickleball at this municipal center. Confirm the current pickleball schedule and registration through Parks and Recreation. Has: pickleball, indoor, community center.",
+     "address": "101 Asylum Road, Bristol",
+     "phone": "401-253-1611",
+     "hours": "",
+     "url": "https://www.bristolri.gov/253/Parks-Recreation",
+     "src": "bristolri.gov",
+     "town": "Bristol"
+    },
+    {
+     "name": "Burrillville High School tennis courts",
+     "blurb": "Four lighted outdoor tennis courts serve the community. Organized reservations use the town's outdoor facility request process. Has: tennis, outdoor, public, lights, reservations.",
+     "address": "East Avenue, Harrisville, Burrillville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.burrillville.org/sites/g/files/vyhlif2886/f/uploads/recreational_facilities_list_for_website_2021_3.pdf",
+     "src": "burrillville.org",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Burrillville Middle School — Branch River Park pickleball courts",
+     "blurb": "The town lists these courts among its reservable outdoor facilities. Submit the municipal facility request form for organized use. Has: pickleball, outdoor, public, reservations.",
+     "address": "Burrillville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.burrillville.org/parks-recreation/files/outdoor-facility-request-form-1",
+     "src": "burrillville.org",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Remington Park pickleball court",
+     "blurb": "Remington Park has a town-listed pickleball court. Organized use can be requested through the town's outdoor facility form. Has: pickleball, outdoor, public, reservations.",
+     "address": "Victory Highway, Burrillville",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.burrillville.org/parks-recreation/files/outdoor-facility-request-form-1",
+     "src": "burrillville.org",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Sacred Heart Park tennis courts",
+     "blurb": "These municipal courts host USTA beginner tennis instruction. The cited fall 2026 course has ended, so obtain the next session and walk-on rules from the city. Has: tennis, outdoor, public, lessons.",
+     "address": "609 High Street, Central Falls",
+     "phone": "",
+     "hours": "",
+     "url": "https://playtennis.usta.com/USTANewEngland/Coaching/Course/d1fcb968-6ef5-43f1-9282-9cb4b941809a",
+     "src": "playtennis.usta.com",
+     "town": "Central Falls"
+    },
+    {
+     "name": "Ninigret Park tennis and pickleball courts",
+     "blurb": "Ninigret offers public tennis and pickleball with town-run instruction. Use the recreation calendar to check program occupancy and register for lessons. Has: tennis, pickleball, outdoor, public, lessons, parking.",
+     "address": "100 Park Lane, Charlestown",
+     "phone": "401-364-1222",
+     "hours": "",
+     "url": "https://charlestownri.myrec.com/info/facilities/area_info.aspx?AreaID=14707&FacilityID=14697",
+     "src": "charlestownri.myrec.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Wicklund Field courts",
+     "blurb": "Court directories identify pickleball at this town recreation property. Confirm the current court setup and availability with Charlestown Recreation. Has: pickleball, outdoor, public.",
+     "address": "341 Carolina Back Road, Charlestown",
+     "phone": "401-364-1222",
+     "hours": "",
+     "url": "https://charlestownri.myrec.com/info/facilities/default.aspx",
+     "src": "charlestownri.myrec.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Central Coventry Park tennis courts",
+     "blurb": "Older court directories list tennis at Central Coventry Park. The current town inventory confirms the park but does not specify tennis, so check court condition and access with Recreation. Has: tennis, outdoor, public.",
+     "address": "275 Provident Place, Coventry",
+     "phone": "401-822-9107",
+     "hours": "",
+     "url": "https://coventryri.myrec.com/info/facilities/default.aspx",
+     "src": "coventryri.myrec.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Coventry High School tennis courts",
+     "blurb": "A tennis directory identifies public outdoor courts at Coventry High School. Confirm recreational access and school scheduling before playing. Has: tennis, outdoor, school, no lights.",
+     "address": "40 Reservoir Road, Coventry",
+     "phone": "401-822-9499",
+     "hours": "",
+     "url": "https://tennisround.com/tennis-courts/ri/coventry/coventry-high-school",
+     "src": "tennisround.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Coventry Town Hall Annex Gym",
+     "blurb": "The Annex offers registered indoor pickleball and youth instruction. Call to register and check capacity because some sessions exclude drop-ins. Has: pickleball, indoor, public, registration required, lessons.",
+     "address": "1675 Flat River Road, Coventry",
+     "phone": "",
+     "hours": "Fall 2026: Wed 4–6pm or 6:15–8:15pm; Thu 4–6pm; Sun 4–7pm beginning November 15; session dates and exceptions online. · Fall Wed/Thu session $75 residents/$80 nonresidents; Sun session $80/$85; eligible drop-ins $10.",
+     "url": "https://coventryri.myrec.com/info/calendar/list.aspx?AreaID=0&CartID=&FacilityID=0&GUID=&rtype=",
+     "src": "coventryri.myrec.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Herbert F. Paine Memorial Park courts",
+     "blurb": "The park supports tennis and scheduled outdoor pickleball. No registration is required for meetups, but town programs reserve some court periods. Has: tennis, pickleball, outdoor, public, seasonal nets.",
+     "address": "1277 Main Street, Coventry",
+     "phone": "",
+     "hours": "2026 pickleball meetups: Tue/Thu/Sun 9–11am through November 8, weather permitting; additional resident-only sessions listed online. · No charge for designated outdoor pickleball meetups.",
+     "url": "https://coventryri.myrec.com/info/calendar/list.aspx?AreaID=0&CartID=&FacilityID=0&GUID=&rtype=",
+     "src": "coventryri.myrec.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Ravenwood Recreation Area tennis courts",
+     "blurb": "Older court directories identify tennis at Ravenwood Recreation Area. The town still lists the park, but current tennis availability needs confirmation with Recreation. Has: tennis, outdoor, public.",
+     "address": "7 Raven Boulevard, Coventry",
+     "phone": "401-822-9107",
+     "hours": "",
+     "url": "https://coventryri.myrec.com/info/facilities/default.aspx",
+     "src": "coventryri.myrec.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Rice Memorial Field tennis court",
+     "blurb": "A tennis directory lists a public court at Rice Memorial Field. Contact Coventry Recreation to confirm that it remains playable and ask about use rules. Has: tennis, outdoor, public.",
+     "address": "51 Knotty Oak Road, Coventry",
+     "phone": "401-822-9107",
+     "hours": "",
+     "url": "https://tennisround.com/tennis-courts/ri/coventry/rice-memorial-field",
+     "src": "tennisround.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Cranston High School West tennis courts",
+     "blurb": "The city lists tennis courts at Cranston West. Contact Parks and Recreation for permitted use. Has: tennis, outdoor, public.",
+     "address": "Metropolitan Avenue, Cranston",
+     "phone": "401-780-6169",
+     "hours": "",
+     "url": "https://www.cranstonri.gov/departments/parks-and-recreation/recreation-facilities/default.aspx",
+     "src": "cranstonri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "Cranston Stadium tennis courts",
+     "blurb": "Two stadium tennis courts have lighting. Contact Parks and Recreation for permitted use. Has: tennis, outdoor, public, lights.",
+     "address": "Peerless Avenue, Cranston",
+     "phone": "401-780-6169",
+     "hours": "",
+     "url": "https://www.cranstonri.gov/departments/parks-and-recreation/recreation-facilities/default.aspx",
+     "src": "cranstonri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "Cranston YMCA",
+     "blurb": "The Cranston YMCA has offered scheduled indoor pickleball. Confirm current membership or guest access and session availability with the branch. Has: pickleball, indoor, YMCA.",
+     "address": "1225 Park Avenue, Cranston",
+     "phone": "401-943-0444",
+     "hours": "",
+     "url": "https://ymcagreaterprovidence.org/branches/cranston-ymca",
+     "src": "ymcagreaterprovidence.org",
+     "town": "Cranston"
+    },
+    {
+     "name": "Doric Avenue Complex pickleball courts",
+     "blurb": "The city lists two pickleball courts at this complex. Contact Parks and Recreation for permitted use. Has: pickleball, outdoor, public.",
+     "address": "Doric Avenue, Cranston",
+     "phone": "401-780-6169",
+     "hours": "",
+     "url": "https://www.cranstonri.gov/departments/parks-and-recreation/recreation-facilities/default.aspx",
+     "src": "cranstonri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "John Chafee Athletic and Recreation Complex pickleball courts",
+     "blurb": "Four municipal pickleball courts are listed here. Contact Parks and Recreation for permitted use. Has: pickleball, outdoor, public.",
+     "address": "420 Hope Road, Cranston",
+     "phone": "401-780-6169",
+     "hours": "",
+     "url": "https://www.cranstonri.gov/departments/parks-and-recreation/recreation-facilities/default.aspx",
+     "src": "cranstonri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "Park View Athletic Fields tennis courts",
+     "blurb": "The city lists public tennis at Park View. Contact Parks and Recreation for permitted use. Has: tennis, outdoor, public.",
+     "address": "25 Park View Boulevard, Cranston",
+     "phone": "401-780-6169",
+     "hours": "",
+     "url": "https://www.cranstonri.gov/departments/parks-and-recreation/recreation-facilities/default.aspx",
+     "src": "cranstonri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "Pickleball Citi",
+     "blurb": "Two indoor courts support lessons, leagues and open play. Members and nonmembers reserve private courts or sessions through CourtReserve. Has: pickleball, indoor, lights, lessons, reservations, public booking.",
+     "address": "60 Walnut Grove Avenue, Cranston",
+     "phone": "401-999-9065",
+     "hours": "Published hours 7am–10pm; semi-private facility hours may vary.",
+     "url": "https://pickleballciti.com/",
+     "src": "pickleballciti.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Western Hills Middle School tennis courts",
+     "blurb": "These school courts appear on the city's recreation inventory. Contact Parks and Recreation for permitted use. Has: tennis, outdoor, public.",
+     "address": "Cranston",
+     "phone": "401-780-6169",
+     "hours": "",
+     "url": "https://www.cranstonri.gov/departments/parks-and-recreation/recreation-facilities/default.aspx",
+     "src": "cranstonri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "Diamond Hill Park pickleball courts",
+     "blurb": "Two dedicated outdoor pickleball courts are listed at Diamond Hill Park. Permanent nets are provided, but current municipal reservation rules were not verified. Has: pickleball, outdoor, public, permanent nets.",
+     "address": "4125 Diamond Hill Road, Cumberland",
+     "phone": "",
+     "hours": "No charge.",
+     "url": "https://www.pickleheads.com/courts/us/rhode-island/cumberland/diamond-hill-park",
+     "src": "pickleheads.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Fore Court Racquet & Fitness",
+     "blurb": "Fore Court provides indoor tennis and pickleball programming. Contact the club for court bookings, lessons and league registration. Has: tennis, pickleball, indoor, lessons, leagues, reservations.",
+     "address": "44 Cray Street, Cumberland",
+     "phone": "401-333-4480",
+     "hours": "Year-round; Mon–Fri 6am–9pm; Sat 6:30am–4pm; published Sunday closing differs between 7pm and 7:30pm, so confirm. · Annual membership plus court time; tennis guests pay $6 plus court fees.",
+     "url": "https://www.forecourtri.com/tennisrhodeisland",
+     "src": "forecourtri.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Tucker Field tennis courts",
+     "blurb": "Lighted tennis courts are part of the Tucker Field complex. Contact the town to arrange permitted use and determine the applicable fee category. Has: tennis, outdoor, public, lights, reservations.",
+     "address": "2675 Mendon Road, Cumberland",
+     "phone": "",
+     "hours": "Published organized-use rates: $20/hour for listed noncommercial groups, $40/hour for for-profit groups; lights $10/hour.",
+     "url": "https://ecode360.com/30191139",
+     "src": "ecode360.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Academy Field pickleball courts",
+     "blurb": "Two dedicated pickleball courts opened in 2024. Court use is first come, first served. Has: pickleball, outdoor, public, walk-on.",
+     "address": "121 Peirce Street, East Greenwich",
+     "phone": "401-886-8626",
+     "hours": "Daily 8am–5pm, as listed in the town booking system.",
+     "url": "https://egrecreation.recdesk.com/Community/Facility/Detail?facilityId=132",
+     "src": "egrecreation.recdesk.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Cole Middle School tennis courts",
+     "blurb": "The town comprehensive plan identifies tennis courts at Cole Middle School. Current public access and court condition require confirmation with Recreation. Has: tennis, outdoor, school.",
+     "address": "Cedar Avenue, East Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://planning.ri.gov/documents/comp/2020/EG-20Comp-Plan.pdf",
+     "src": "planning.ri.gov",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "East Greenwich Municipal Tennis Courts",
+     "blurb": "The municipal tennis complex sits beside the high school. Contact Recreation for organized-use permission and scheduling. Has: tennis, outdoor, public, parking.",
+     "address": "300 Avenger Drive, East Greenwich",
+     "phone": "401-886-8626",
+     "hours": "Dawn to dusk.",
+     "url": "https://www.eastgreenwichri.gov/Facilities/Facility/Details/Waterfront-Park-26",
+     "src": "eastgreenwichri.gov",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Frenchtown courts",
+     "blurb": "Frenchtown provides courts used for tennis and pickleball. Check the town recreation calendar for lessons and reserved programs. Has: tennis, pickleball, outdoor, public, parking, lessons.",
+     "address": "1500 Frenchtown Road, East Greenwich",
+     "phone": "401-886-8626",
+     "hours": "Daily 8am–5pm, as listed in the town booking system.",
+     "url": "https://egrecreation.recdesk.com/Community/Facility/Detail?facilityId=3",
+     "src": "egrecreation.recdesk.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Agawam Hunt",
+     "blurb": "Agawam has two indoor tennis courts lined for pickleball plus outdoor grass and clay tennis. Apply for membership or contact the club to arrange an eligible nonmember outing. Has: tennis, pickleball, indoor, outdoor, lessons, reservations, membership.",
+     "address": "15 Roger Williams Avenue, Rumford, East Providence",
+     "phone": "401-434-0980",
+     "hours": "Indoor courts year-round; outdoor clay generally April–November and grass in summer. · Membership required for regular play; selected nonmember tennis outings by arrangement.",
+     "url": "https://www.agawamhunt.org/racquets",
+     "src": "agawamhunt.org",
+     "town": "East Providence"
+    },
+    {
+     "name": "East Providence Recreation Center",
+     "blurb": "Independent court listings identify indoor pickleball at this city recreation center. Confirm the current program and eligibility directly with center staff. Has: pickleball, indoor, community center.",
+     "address": "610 Waterman Avenue, East Providence",
+     "phone": "401-433-6360",
+     "hours": "",
+     "url": "https://eastprovidenceri.gov/node/1466",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Glenlyon Park courts",
+     "blurb": "Glenlyon is a municipal tennis location included in a court-renovation contract. Confirm project completion and current tennis or pickleball access with Recreation. Has: tennis, outdoor, public.",
+     "address": "64 Bourne Avenue, East Providence",
+     "phone": "401-435-7511",
+     "hours": "",
+     "url": "https://eastprovidenceri.gov/rfp/2025/closed-glenlyon-park-lyle-bourne-park-improvements",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Kent Heights Athletic and Recreational Area courts",
+     "blurb": "Kent Heights has tennis courts and recently added pickleball facilities. Contact Recreation for reservations and applicable fees. Has: tennis, pickleball, outdoor, public, parking.",
+     "address": "1 Clyde Avenue, East Providence",
+     "phone": "401-435-7511",
+     "hours": "Year-round, sunrise to sunset.",
+     "url": "https://eastprovidenceri.gov/facilities/park/kent-heights-athletic-and-recreational-area",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Lyle Bourne Memorial Park pickleball courts",
+     "blurb": "Pickleball groups advertise play here following the city's 2025 court-improvement procurement. Contact Recreation to confirm the current layout, court availability and group reservations. Has: pickleball, outdoor, public.",
+     "address": "101 New Road, East Providence",
+     "phone": "401-435-7511",
+     "hours": "Park open year-round, sunrise–sunset.",
+     "url": "https://eastprovidenceri.gov/facilities/park/lyle-bourne-memorial-park",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Pierce Athletic Complex tennis courts",
+     "blurb": "Pierce provides public tennis with seasonal evening lighting. Contact Recreation Facilities for reservations and program conflicts. Has: tennis, outdoor, public, lights, reservations.",
+     "address": "Mercer Street, East Providence",
+     "phone": "401-435-7511",
+     "hours": "Year-round except Christmas and New Year's Day; court lights until 9:30pm from mid-April to mid-November.",
+     "url": "https://eastprovidenceri.gov/facilities/municipal-building/pierce-athletic-complex",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Tennis Rhode Island — Centre Court",
+     "blurb": "Centre Court provides indoor tennis and pickleball. Create an online account and choose the Centre Court location in the club's court scheduler. Has: tennis, pickleball, indoor, lessons, reservations.",
+     "address": "55 Hospital Road, Riverside, East Providence",
+     "phone": "401-437-1210",
+     "hours": "Year-round.",
+     "url": "https://www.tennisri.com/",
+     "src": "tennisri.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Phillips Youth Athletic Fields tennis courts",
+     "blurb": "The town's comprehensive plan reports tennis courts in the completed second phase of Phillips Youth Athletic Fields. Contact Foster Recreation, which schedules the fields, for current access and permitted use. Has: tennis, outdoor, public.",
+     "address": "Foster Center Road",
+     "phone": "401-392-9201",
+     "hours": "",
+     "url": "https://www.townoffoster.com/sites/g/files/vyhlif4421/f/pages/final_copy_comp_plan.pdf",
+     "src": "townoffoster.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Woody Lowden Recreation Center",
+     "blurb": "A pickleball directory lists this Foster recreation center as a playing location. A current municipal play schedule was not located, so call before visiting. Has: pickleball, community center.",
+     "address": "16 Howard Hill Road, Foster",
+     "phone": "401-392-9201",
+     "hours": "",
+     "url": "https://www.playpickleball.com/where-to-play-pickleball-near-me-map/places/us-rhode-island-foster-woody-lowden-recreation-center/",
+     "src": "playpickleball.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Glocester Memorial Park tennis courts",
+     "blurb": "State historic-property records identify tennis courts at Glocester Memorial Park. Confirm current court condition and public use with town Recreation. Has: tennis, outdoor, public.",
+     "address": "Putnam Pike, Glocester",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.ri.gov/preservation/search/view.php?idnumber=GLOS00128",
+     "src": "ri.gov",
+     "town": "Glocester"
+    },
+    {
+     "name": "Ponaganset High School tennis courts",
+     "blurb": "The town runs youth tennis instruction at Ponaganset High School. Register through Recreation and confirm public access outside scheduled school use. Has: tennis, outdoor, lessons, school.",
+     "address": "Glocester",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.glocesterri.gov/recreation.htm",
+     "src": "glocesterri.gov",
+     "town": "Glocester"
+    },
+    {
+     "name": "Crandall Field courts",
+     "blurb": "The town lists tennis facilities at its recreation grounds, and court directories identify pickleball at Crandall Field. Confirm court condition and bring a pickleball net unless Recreation advises otherwise. Has: tennis, pickleball, outdoor, public.",
+     "address": "188 Main Street, Ashaway, Hopkinton",
+     "phone": "401-377-7795",
+     "hours": "",
+     "url": "https://www.hopkintonri.gov/recreation-department/pages/master-plans",
+     "src": "hopkintonri.gov",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Jamestown Recreation Center",
+     "blurb": "The town recreation center offers indoor pickleball programming. Call Recreation to obtain the current play schedule and register. Has: pickleball, indoor, public, registration.",
+     "address": "41 Conanicus Avenue, Jamestown",
+     "phone": "401-423-7260",
+     "hours": "",
+     "url": "https://www.jamestownri.gov/parksandfacilities",
+     "src": "jamestownri.gov",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Lawn Avenue Recreation Facility courts",
+     "blurb": "The Lawn Avenue school recreation area is listed for outdoor tennis and pickleball. Confirm municipal scheduling, court availability and seasonal net arrangements before playing. Has: tennis, pickleball, outdoor, public.",
+     "address": "55 Lawn Avenue, Jamestown",
+     "phone": "401-423-7260",
+     "hours": "",
+     "url": "https://playtimescheduler.com/region/newport-ri/TOJIJ",
+     "src": "playtimescheduler.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Johnston Indoor Recreation Center",
+     "blurb": "The town's rental form lists indoor tennis, and pickleball is available by arrangement. Call ahead to reserve because ordinary open-gym hours are for basketball. Has: tennis, pickleball, indoor, public, reservations required.",
+     "address": "1741 Atwood Avenue, Johnston",
+     "phone": "401-437-6326",
+     "hours": "Pickleball by prior arrangement; check court calendars. · Posted facility rental: Johnston residents $45/hour; nonresidents $50/hour; confirm the current pickleball-specific quote.",
+     "url": "https://johnstonrec.com/indoor-recreation-center",
+     "src": "johnstonrec.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "Johnston War Memorial Park tennis courts",
+     "blurb": "The municipal park includes public tennis courts and parking. Contact Johnston Recreation for court scheduling and organized-use requests. Has: tennis, outdoor, public, parking, accessible.",
+     "address": "1583 Hartford Avenue, Johnston",
+     "phone": "401-272-3460",
+     "hours": "Daily 6am–10pm.",
+     "url": "https://www.johnstonri.gov/Facilities/Facility/Details/Johnston-War-Memorial-Park-4",
+     "src": "johnstonri.gov",
+     "town": "Johnston"
+    },
+    {
+     "name": "Fairlawn Playground pickleball courts",
+     "blurb": "Two outdoor pickleball layouts are listed at this playground. Players must bring their own nets, and reservation availability is not confirmed. Has: pickleball, outdoor, public, bring your own net.",
+     "address": "13 Cecile Street, Lincoln",
+     "phone": "",
+     "hours": "No charge.",
+     "url": "https://www.pickleheads.com/courts/us/rhode-island/lincoln/fairlawn-playground",
+     "src": "pickleheads.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Lime Acres Park tennis courts",
+     "blurb": "Lime Acres hosts municipal adult tennis clinics and youth instruction. Register through Lincoln's RecDesk and check program occupancy before casual play. Has: tennis, outdoor, public, lessons.",
+     "address": "133 Jenckes Hill Road, Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.lincolnri.gov/272/Adult-Programs",
+     "src": "lincolnri.gov",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Lincoln High School tennis courts",
+     "blurb": "A tennis directory identifies eight lighted school courts with public access. Confirm current access with the school before visiting. Has: tennis, outdoor, school, lights.",
+     "address": "135 Old River Road, Lincoln",
+     "phone": "401-334-7500",
+     "hours": "",
+     "url": "https://www.tennisround.com/tennis-courts/ri/lincoln/lincoln-senior-high-school",
+     "src": "tennisround.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "MacColl YMCA",
+     "blurb": "MacColl offers pickleball programs and outdoor courts alongside indoor gym play. Check the YMCA schedule and reserve eligible sessions through its registration system. Has: pickleball, indoor, outdoor, membership, lessons, reservations.",
+     "address": "32 Breakneck Hill Road, Lincoln",
+     "phone": "401-725-0773",
+     "hours": "Pickleball follows the YMCA program and court-reservation schedule. · Membership required for listed indoor play.",
+     "url": "https://ymcapawtucket.org/locations/maccoll",
+     "src": "ymcapawtucket.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Little Compton Town Courts",
+     "blurb": "The town courts accommodate tennis and community pickleball near the school. Join scheduled pickleball through Playerlineup and confirm other court-use rules with the town. Has: tennis, pickleball, outdoor, public, organized play.",
+     "address": "Meetinghouse Lane, near Wilbur and McMahon School, Little Compton",
+     "phone": "",
+     "hours": "Seasonal outdoor play; check the local group's current session calendar.",
+     "url": "https://littlecomptonpickleball.playerlineup.com/?auto_redirect=false",
+     "src": "littlecomptonpickleball.playerlineup.com",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Gaudet Athletic Complex tennis courts",
+     "blurb": "The school-operated athletic complex includes tennis courts. Contact the School Department and follow the municipal facility-use policy for bookings. Has: tennis, outdoor, public outside school hours, parking.",
+     "address": "259 Turner Road, Middletown",
+     "phone": "401-846-6395",
+     "hours": "Closed to public use during school hours; other availability depends on events.",
+     "url": "https://www.middletownri.gov/Facilities/Facility/Details/Gaudet-Athletic-Complex-amp-Playground-20",
+     "src": "middletownri.gov",
+     "town": "Middletown"
+    },
+    {
+     "name": "Howland Park pickleball courts",
+     "blurb": "Howland Park provides outdoor pickleball nets within a multi-use recreation area. Reservation requests can be submitted from the town facility page. Has: pickleball, outdoor, public, portable nets, parking, reservations.",
+     "address": "10 Third Beach Road, Middletown",
+     "phone": "401-842-6519",
+     "hours": "Daily dawn to dusk.",
+     "url": "https://www.middletownri.gov/Facilities/Facility/Details/Howland-Park-7",
+     "src": "middletownri.gov",
+     "town": "Middletown"
+    },
+    {
+     "name": "Newport Pickleball Club",
+     "blurb": "This indoor club welcomes both members and the public. Book through its online system, with a five-day advance window listed for public reservations. Has: pickleball, indoor, lessons, reservations, public booking.",
+     "address": "866 West Main Road, Middletown",
+     "phone": "",
+     "hours": "Mon–Sat 7am–10pm; Sun 7am–5pm. · Public court rate listed at $15 per person/hour, or $20 at peak times; verify the live booking quote.",
+     "url": "https://www.newportpickleball.com/pickleball",
+     "src": "newportpickleball.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Domenic Christofaro Park courts",
+     "blurb": "Christofaro has municipal tennis courts also listed for pickleball. Confirm net arrangements, scheduled programs and rentals with Narragansett Recreation. Has: tennis, pickleball, outdoor, public.",
+     "address": "1160 Boston Neck Road, Narragansett",
+     "phone": "401-782-0658",
+     "hours": "",
+     "url": "https://www.pickleballify.com/courts/rhode-island/narragansett",
+     "src": "pickleballify.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Eastward Look tennis courts",
+     "blurb": "The town's capital plan identifies tennis courts at Eastward Look. Confirm the entrance, resurfacing status and public-use arrangements with Recreation. Has: tennis, outdoor.",
+     "address": "Narragansett",
+     "phone": "401-782-0658",
+     "hours": "",
+     "url": "https://www.narragansettri.gov/DocumentCenter/View/17943/CIP_2024-2025-6-Year-Plan",
+     "src": "narragansettri.gov",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Fishermen's Memorial State Campground tennis courts",
+     "blurb": "Rhode Island State Parks lists tennis courts at this public campground. Contact the park about day-use eligibility and court arrangements before visiting. Has: tennis, outdoor, campground, public access restrictions.",
+     "address": "1011 Point Judith Road, Narragansett",
+     "phone": "401-789-8374",
+     "hours": "2026 campground season began April 10; tennis operating dates not separately published.",
+     "url": "https://riparks.ri.gov/campgrounds/camping-area-descriptions-specific-requirements",
+     "src": "riparks.ri.gov",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Narragansett Parks and Recreation — Clarke Road courts",
+     "blurb": "The recreation headquarters includes courts used for pickleball and tennis. Contact the department for rentals and current availability during court improvements. Has: tennis, pickleball, outdoor, public, reservations.",
+     "address": "170 Clarke Road, Narragansett",
+     "phone": "401-782-0658",
+     "hours": "",
+     "url": "https://narragansettri.gov/facilities/facility/details/Parks-Recreation-Facility-9",
+     "src": "narragansettri.gov",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Ocean State Pickleball Club",
+     "blurb": "Eight climate-controlled indoor courts support lessons, leagues and open play. Register as a guest or member and reserve through the club's booking portal. Has: pickleball, indoor, lessons, leagues, reservations, public booking.",
+     "address": "360 South Pier Road, Narragansett",
+     "phone": "401-786-3329",
+     "hours": "Year-round; Mon–Sat 6:30am–10pm, Sun 7am–7:30pm. · Rates effective September 1, 2026: guest leveled drop-in $25; four-player guest reservation $25/player; member court reservation $39 total.",
+     "url": "https://oceanstatepickleball.com/memberships/",
+     "src": "oceanstatepickleball.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Sprague Park tennis courts",
+     "blurb": "Sprague Park includes tennis courts beside its other recreation areas. Call Parks and Recreation to reserve courts or check school-team occupancy. Has: tennis, outdoor, public, reservations.",
+     "address": "179 Kingstown Road, Narragansett",
+     "phone": "401-782-0658",
+     "hours": "",
+     "url": "https://www.narragansettri.gov/Facilities/Facility/Details/16",
+     "src": "narragansettri.gov",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Ball O'Brien Park courts",
+     "blurb": "This Block Island town park has tennis courts used for outdoor pickleball. Recreation provides equipment for its scheduled adult sessions. Has: tennis, pickleball, outdoor, public, equipment provided, restrooms.",
+     "address": "West Side Road, New Shoreham",
+     "phone": "",
+     "hours": "Spring/summer town pickleball: Wed and Sun 9–11am, as published; confirm the current calendar.",
+     "url": "https://newshorehamri.gov/333/Programs",
+     "src": "newshorehamri.gov",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Block Island School gym pickleball",
+     "blurb": "Town recreation moves pickleball into the school gym during colder months. Check the municipal calendar for cancellations and participation requirements. Has: pickleball, indoor, public, beginner sessions.",
+     "address": "New Shoreham",
+     "phone": "",
+     "hours": "Fall/winter; Tue 8–10pm, Sun adult play 1–4pm and beginners 4–5pm, as posted.",
+     "url": "https://newshorehamri.gov/417/Recreation-Calendar",
+     "src": "newshorehamri.gov",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Hunter Park courts",
+     "blurb": "Hunter Park provides dedicated pickleball and a shared tennis layout. Check Newport Recreation's schedule before organized group use. Has: tennis, pickleball, outdoor, public, permanent nets.",
+     "address": "Third Street and Van Zandt Avenue, Newport",
+     "phone": "401-845-5800",
+     "hours": "",
+     "url": "https://playtimescheduler.com/region/newport-ri/TOJIJ",
+     "src": "playtimescheduler.com",
+     "town": "Newport"
+    },
+    {
+     "name": "International Tennis Hall of Fame — indoor courts",
+     "blurb": "The club offers three permanent indoor courts and three additional courts covered for the indoor season. Nonmembers can call the Pro Shop to reserve courts or instruction. Has: tennis, indoor, seasonal bubble, lessons, reservations, public booking.",
+     "address": "194 Bellevue Avenue, Newport",
+     "phone": "401-849-4777",
+     "hours": "Seven days weekly; 2026–27 indoor contract season October 7–May 18; listed holiday closures apply. · 2026–27 court rate: nonmembers $120/hour; members $66/hour; individual seasonal membership $325.",
+     "url": "https://www.tennisfame.com/club/indoor",
+     "src": "tennisfame.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Martin Recreation Center — The Hut",
+     "blurb": "Pickleball directories identify indoor play at Newport's Martin Recreation Center. Contact Newport Recreation to confirm the current program and registration requirements. Has: pickleball, indoor, community center.",
+     "address": "35 Golden Hill Street, Newport",
+     "phone": "401-845-5800",
+     "hours": "",
+     "url": "https://daisydink.com/courts/the-hut-martin-rec-center-newport-ri",
+     "src": "daisydink.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Murphy Park tennis courts",
+     "blurb": "Newport lists tennis courts at Murphy Park. Contact Recreation for current court availability and group use. Has: tennis, outdoor, public.",
+     "address": "Carroll Avenue and Ruggles Avenue, Newport",
+     "phone": "401-845-5800",
+     "hours": "",
+     "url": "https://www.newportri.gov/es-mx/living-in-newport/recreation/our-facilities",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "National Tennis Club — International Tennis Hall of Fame",
+     "blurb": "This indoor facility offers court tennis, the historic sport played with walls and galleries. Contact the club professionals for membership, introductory instruction and guest arrangements. Has: tennis, court tennis, indoor, lessons, reservations, membership.",
+     "address": "19 Memorial Boulevard, Newport",
+     "phone": "401-849-6672",
+     "hours": "Mon–Fri 8am–9pm; Sat 7:30am–6pm; Sun 8am–6pm. · Membership plans available; instruction $80/hour.",
+     "url": "https://www.tennisfame.com/club/national",
+     "src": "tennisfame.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Pop Flack Courts — Aquidneck Park",
+     "blurb": "Four public tennis courts have LED lighting. Contact Newport Recreation for reserved programs and lessons. Has: tennis, outdoor, public, lights, lessons.",
+     "address": "King Street, Newport",
+     "phone": "401-845-5800",
+     "hours": "",
+     "url": "https://www.newportri.gov/city-hall/departments/public-services/tree-parks-open-space/guide-to-newport",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Rogers High School tennis courts",
+     "blurb": "The Rogers complex is Newport's largest municipal tennis facility. School activities take priority over public play. Has: tennis, outdoor, public outside school hours.",
+     "address": "Old Fort Road, behind the school, Newport",
+     "phone": "401-845-5800",
+     "hours": "Public use during non-school hours.",
+     "url": "https://www.newportri.gov/city-hall/departments/public-services/tree-parks-open-space/guide-to-newport",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Vernon Park courts — Cottrell Field",
+     "blurb": "Vernon Park has tennis courts with pickleball layouts. Coordinate organized use with Newport Recreation. Has: tennis, pickleball, outdoor, public.",
+     "address": "Freeborn Street, off Bliss Road, Newport",
+     "phone": "401-845-5800",
+     "hours": "",
+     "url": "https://playtimescheduler.com/region/newport-ri/TOJIJ",
+     "src": "playtimescheduler.com",
+     "town": "Newport"
+    },
+    {
+     "name": "3rd Shot Drop RI / KC Pickleball Club",
+     "blurb": "Four dedicated outdoor courts overlook Kings Crossing Golf Club. Membership is optional, and public court reservations are made through CourtReserve. Has: pickleball, outdoor, public booking, lessons, leagues, reservations.",
+     "address": "655 Old Baptist Road, North Kingstown",
+     "phone": "401-741-8540",
+     "hours": "Seasonal; current court and program times in CourtReserve.",
+     "url": "https://www.3rdshotdropri.com/",
+     "src": "3rdshotdropri.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Lil' Rhody Pickleball Club",
+     "blurb": "The club has five indoor and two outdoor courts with lessons open to the public. Reserve through CourtReserve; minors require an adult for private court reservations. Has: pickleball, indoor, outdoor, lessons, reservations, public booking, paddle rentals.",
+     "address": "6655 Post Road, North Kingstown",
+     "phone": "401-372-2272",
+     "hours": "Mon–Fri 7am–10pm; Sat/Sun 7am–7pm. · Guest indoor drop-in $20; guest court rates differ between the club's published pages ($60–$65/hour), so confirm the booking quote.",
+     "url": "https://lilrhodypickleball.club/faq/",
+     "src": "lilrhodypickleball.club",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "McGinn Park — Davisville courts",
+     "blurb": "McGinn Park offers lighted tennis and seasonal portable pickleball nets. Contact Recreation to arrange organized use. Has: tennis, pickleball, outdoor, public, lights, seasonal nets, parking.",
+     "address": "174 School Street, North Kingstown",
+     "phone": "401-268-1540",
+     "hours": "Park admission no charge.",
+     "url": "https://www.northkingstownri.gov/1217/Parks-Paths-Points-of-Interest",
+     "src": "northkingstownri.gov",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "North Kingstown High School tennis courts",
+     "blurb": "The town's facilities records identify tennis courts at the high school. Confirm public availability with the school because team and school use take priority. Has: tennis, outdoor, school.",
+     "address": "150 Fairway Drive, North Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.northkingstownri.gov/DocumentCenter/View/7505",
+     "src": "northkingstownri.gov",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Wide World of Indoor Sports — North Kingstown",
+     "blurb": "Independent pickleball directories identify this indoor sports complex as a playing location. Confirm current pickleball availability and rental arrangements directly with the operator. Has: pickleball, indoor, reservations.",
+     "address": "1610 Davisville Road, North Kingstown",
+     "phone": "401-295-1234",
+     "hours": "",
+     "url": "https://www.wideworldofindoorsports.com/northkingstown/",
+     "src": "wideworldofindoorsports.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Wilson Park courts",
+     "blurb": "Wilson Park provides lighted tennis courts and pickleball facilities. Contact Recreation about the current program schedule and reservation charges. Has: tennis, pickleball, outdoor, public, lights, parking, accessible.",
+     "address": "11 Roosevelt Avenue, North Kingstown",
+     "phone": "401-268-1540",
+     "hours": "Park admission no charge; scheduled programs and reserved use may have separate fees.",
+     "url": "https://northkingstownri.gov/facilities/facility/details/wilson-park-47",
+     "src": "northkingstownri.gov",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Captain Stephen Olney Park courts",
+     "blurb": "The park offers tennis and pickleball. Contact Recreation for use arrangements. Has: tennis, pickleball, outdoor, public.",
+     "address": "North Providence",
+     "phone": "401-719-1633",
+     "hours": "Town park curfew 10pm–7am.",
+     "url": "https://northprovidenceri.gov/recreation-department/athletic-facilities/",
+     "src": "northprovidenceri.gov",
+     "town": "North Providence"
+    },
+    {
+     "name": "Dr. Edward A. Ricci Athletic Complex tennis courts",
+     "blurb": "The municipal inventory lists four tennis courts here. Contact Recreation for use arrangements. Has: tennis, outdoor, public.",
+     "address": "51 Intervale Avenue, North Providence",
+     "phone": "401-719-1633",
+     "hours": "Town park curfew 10pm–7am.",
+     "url": "https://northprovidenceri.gov/recreation-department/athletic-facilities/",
+     "src": "northprovidenceri.gov",
+     "town": "North Providence"
+    },
+    {
+     "name": "Governor John A. Notte Jr. Park tennis courts",
+     "blurb": "The town lists two lighted tennis courts here. Contact Recreation for use arrangements. Has: tennis, outdoor, public, lights.",
+     "address": "North Providence",
+     "phone": "401-719-1633",
+     "hours": "Town park curfew 10pm–7am.",
+     "url": "https://northprovidenceri.gov/recreation-department/athletic-facilities/",
+     "src": "northprovidenceri.gov",
+     "town": "North Providence"
+    },
+    {
+     "name": "Ivan Street Park tennis court",
+     "blurb": "The town lists one tennis court at this neighborhood park. Contact Recreation for use arrangements. Has: tennis, outdoor, public.",
+     "address": "Ivan Street, North Providence",
+     "phone": "401-719-1633",
+     "hours": "Town park curfew 10pm–7am.",
+     "url": "https://northprovidenceri.gov/recreation-department/athletic-facilities/",
+     "src": "northprovidenceri.gov",
+     "town": "North Providence"
+    },
+    {
+     "name": "North Smithfield High School courts",
+     "blurb": "Four lighted tennis courts serve school and community users, with town pickleball programs also offered. Casual court use is first come, first served. Has: tennis, pickleball, outdoor, public, lights, lessons.",
+     "address": "412 Greenville Road, North Smithfield",
+     "phone": "401-767-2200 ext. 345",
+     "hours": "Facilities close 10pm; lights April 15–September 30 until 10pm and October 1–31 until 8pm.",
+     "url": "https://nsmithfieldri.gov/193/Recreation-Facilities",
+     "src": "nsmithfieldri.gov",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Kenny Tennis Complex — Slater Memorial Park",
+     "blurb": "Slater Park's lighted tennis complex includes reservable pickleball layouts. Book pickleball in 45-minute increments through RecDesk during the reservation season and check equipment-rental availability. Has: tennis, pickleball, outdoor, public, lights, reservations, equipment rentals.",
+     "address": "825 Armistice Boulevard, Pawtucket",
+     "phone": "",
+     "hours": "Pickleball reservations March 1–October 31, 9am–8pm; November–February walk-on; partial winter closure begins December 1 or earlier.",
+     "url": "https://pawtucketri.recdesk.com/Community/Facility/Detail?facilityId=116",
+     "src": "pawtucketri.recdesk.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Pawtucket Family YMCA",
+     "blurb": "The branch has published introductory pickleball sessions on its gym calendar. Check current programs and membership or guest access before registering. Has: pickleball, indoor, lessons, YMCA.",
+     "address": "20 Summer Street, Pawtucket",
+     "phone": "401-727-7900",
+     "hours": "",
+     "url": "https://ymcapawtucket.org/locations/pawtucket-family",
+     "src": "ymcapawtucket.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Tom Duffy / Oak Hill Complex tennis courts",
+     "blurb": "The Oak Hill complex has four public tennis courts. Contact Parks and Recreation for permits or special-event conflicts. Has: tennis, outdoor, public.",
+     "address": "Cleveland Street and Sheffield Street, Pawtucket",
+     "phone": "",
+     "hours": "",
+     "url": "https://pawtucketri.gov/parks-and-recreation/playgrounds-courts-and-parks/",
+     "src": "pawtucketri.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Veterans Memorial Park tennis courts",
+     "blurb": "Four lighted tennis courts are listed at Veterans Memorial Park. Permitted events take priority, so contact Parks and Recreation for organized use. Has: tennis, outdoor, public, lights.",
+     "address": "Grotto Avenue, Pawtucket",
+     "phone": "",
+     "hours": "",
+     "url": "https://pawtucketri.gov/parks-and-recreation/playgrounds-courts-and-parks/",
+     "src": "pawtucketri.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Pennfield School gym — Portsmouth Recreation pickleball",
+     "blurb": "Portsmouth Recreation offers scheduled indoor open-play pickleball at Pennfield. Register through the town's CivicRec system and bring a paddle. Has: pickleball, indoor, public program, registration required.",
+     "address": "110 Sandy Point Avenue, Portsmouth",
+     "phone": "401-787-0281",
+     "hours": "Fall 2026 Mondays 5:30–7pm; October 19–November 9 and November 16–December 7.",
+     "url": "https://www.portsmouthri.gov/406/Parks-Recreation",
+     "src": "portsmouthri.gov",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Portsmouth High School tennis courts",
+     "blurb": "The high school tennis courts are available to the community outside school use. There are no lights, and groups must obtain a School Department permit. Has: tennis, outdoor, public outside school hours, no lights, group permits.",
+     "address": "120 Education Lane, Portsmouth",
+     "phone": "401-683-1240",
+     "hours": "Available outside school hours; closed during winter.",
+     "url": "https://portsmouthri.gov/1565/Athletic-Facilities-Youth-Sports",
+     "src": "portsmouthri.gov",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Amos Earley Park tennis courts",
+     "blurb": "The city lists tennis among this neighborhood park's amenities. Contact Providence Parks for organized-use permission and current court conditions. Has: tennis, outdoor, public.",
+     "address": "27 Cadillac Drive, Providence",
+     "phone": "",
+     "hours": "Year-round park.",
+     "url": "https://www.providenceri.gov/parks/amos-earley-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Brown University outdoor tennis courts",
+     "blurb": "Brown's outdoor tennis courts sit beside the varsity baseball and softball fields. Contact Recreation about community access because varsity use has priority and online reservations apply only indoors. Has: tennis, outdoor, community membership.",
+     "address": "Behind the OMAC, Erickson Athletic Complex, Providence",
+     "phone": "401-863-1313",
+     "hours": "",
+     "url": "https://brownrec.com/facilities/tennis-courts/6",
+     "src": "brownrec.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Brown University — Pizzitola indoor tennis courts",
+     "blurb": "Four indoor tennis courts occupy the Pizzitola Sports Center's fourth floor. Obtain eligible recreation access and reserve online up to three days ahead. Has: tennis, indoor, community membership, reservations, restrooms.",
+     "address": "235 Hope Street, Providence",
+     "phone": "401-863-1313",
+     "hours": "Reservation slots posted online; varsity matches take priority. · Court fees $29/hour off-peak, $34/hour peak or $51/90 minutes; community membership $90/month or $912/year; recreation ID $15.",
+     "url": "https://brownrec.com/facilities/tennis-courts/6",
+     "src": "brownrec.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Classical High School tennis courts",
+     "blurb": "A tennis directory lists outdoor courts at Classical High School. Confirm that recreational public use is currently permitted before visiting. Has: tennis, outdoor, school.",
+     "address": "770 Westminster Street, Providence",
+     "phone": "401-456-9145",
+     "hours": "",
+     "url": "https://mytennislessons.com/locations/providence-tennis-lessons/tennis-courts",
+     "src": "mytennislessons.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Conlan Junior Park pickleball court",
+     "blurb": "Providence's first dedicated municipal pickleball court opened here in July 2025. The regulation court is fenced within a neighborhood recreation park. Has: pickleball, outdoor, public, dedicated court.",
+     "address": "225 Waverly Street, Providence",
+     "phone": "",
+     "hours": "Year-round.",
+     "url": "https://www.providenceri.gov/parks/conlan-junior-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Dwares Jewish Community Center",
+     "blurb": "The Dwares JCC offers adult pickleball with rotating doubles matches. Contact the program coordinator to register and confirm current pricing and membership requirements. Has: pickleball, indoor, registration, adult programs.",
+     "address": "401 Elmgrove Avenue, Providence",
+     "phone": "401-421-4111 ext. 129",
+     "hours": "Pickleball by program schedule.",
+     "url": "https://www.jewishallianceri.org/explore-programs/sports-fitness/pickleball",
+     "src": "jewishallianceri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "East Side / Mt. Hope YMCA",
+     "blurb": "This YMCA branch includes pickleball among its member activities. Check the current program schedule before visiting because building hours are not court hours. Has: pickleball, indoor, membership.",
+     "address": "438 Hope Street, Providence",
+     "phone": "401-521-0155",
+     "hours": "Pickleball follows branch programming; facility Mon–Thu 6am–8pm, Fri 6am–7pm, Sat 7am–2pm, Sun 7am–noon. · Membership; current rate not supplied here.",
+     "url": "https://ymcagreaterprovidence.org/branches/east-side-mt-hope-ymca",
+     "src": "ymcagreaterprovidence.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Hope High School tennis courts",
+     "blurb": "The city identifies tennis courts on the Hope High School grounds beside Brown Street Park. Confirm school restrictions and court availability before visiting. Has: tennis, outdoor, school.",
+     "address": "Adjacent to Brown Street Park, 207 Brown Street, Providence",
+     "phone": "401-456-9161",
+     "hours": "",
+     "url": "https://www.providenceri.gov/parks/brown-street-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Mount Pleasant High School tennis courts",
+     "blurb": "A tennis directory identifies outdoor courts at Mount Pleasant High School. Public access, current condition and reservations require school confirmation. Has: tennis, outdoor, school.",
+     "address": "434 Mount Pleasant Avenue, Providence",
+     "phone": "401-456-9181",
+     "hours": "",
+     "url": "https://mytennislessons.com/locations/providence-tennis-lessons/tennis-courts",
+     "src": "mytennislessons.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Nathan Bishop Middle School courts",
+     "blurb": "The school grounds contain tennis courts and pickleball layouts covered by a municipal renovation plan. Confirm current configuration and public access while work and school use affect availability. Has: tennis, pickleball, outdoor, school.",
+     "address": "101 Sessions Street, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/wp-content/uploads/2025/04/PVD25-72-Public-Property-RFP-Tennis-and-Pickleball-Courts-at-Nathan-Bishop-Middle-School-MT-49106.pdf",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Ninth Street Park tennis and pickleball court",
+     "blurb": "The shared tennis and pickleball court features a public-art surface. Check posted rules and Providence Parks requirements for organized play. Has: tennis, pickleball, outdoor, public.",
+     "address": "21 Ninth Street, Providence",
+     "phone": "",
+     "hours": "Year-round.",
+     "url": "https://www.providenceri.gov/parks/ninth-street-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Tennis and Pickleball Center — Roger Williams Park",
+     "blurb": "The park's managed tennis center offers clay-court tennis and pickleball. Create a CourtReserve account to book court time without purchasing a seasonal membership. Has: tennis, pickleball, outdoor, clay tennis courts, lessons, reservations, public booking.",
+     "address": "1000 Elmwood Avenue, Roger Williams Park, Providence",
+     "phone": "",
+     "hours": "2026 seasonal passes April 1–October 31; season may extend when weather permits. · 2026 day pass $10/person; season: individual $425, student $100, family $800.",
+     "url": "https://providencetennis.com/2026-memberships-1",
+     "src": "providencetennis.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island College tennis courts",
+     "blurb": "A court directory lists the college tennis complex as publicly accessible. Confirm college authorization, court availability and any applicable fees before playing. Has: tennis, outdoor, college.",
+     "address": "600 Mount Pleasant Avenue, Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/providence/rhode-island-college",
+     "src": "gladiatortennis.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Providence Rink — seasonal pickleball",
+     "blurb": "The downtown rink hosts pickleball within its warmer-season sports program. Register through the linked SFAC site for the adult 21-and-over league. Has: pickleball, outdoor, seasonal, leagues, registration required.",
+     "address": "2 Kennedy Plaza, Providence",
+     "phone": "401-680-7390",
+     "hours": "May–October sports programming; SFAC league window Mon–Thu 6–10pm, with sport-specific dates set by registration.",
+     "url": "https://theprovidencerink.com/sfac-leagues/",
+     "src": "theprovidencerink.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Chariho Regional High School tennis courts",
+     "blurb": "The regional high school has an outdoor tennis complex. Confirm recreational access and submit any required facility-use request through the school district. Has: tennis, outdoor, school.",
+     "address": "453 Switch Road, Wood River Junction, Richmond",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.globaltennisnetwork.com/tennis-courts/courts/city/20233-ashaway-rhode-island",
+     "src": "globaltennisnetwork.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Berkander Field / North Scituate tennis courts",
+     "blurb": "Four municipal tennis courts are listed at Berkander Field. Town rules restrict court use to residents and their accompanying guests, with organized scheduling through Recreation. Has: tennis, outdoor, resident access, guests with resident.",
+     "address": "Institute Lane, North Scituate",
+     "phone": "",
+     "hours": "",
+     "url": "https://scituateri.gov/SCIT042%20%20REPAIR%20RESURFACE%20AND%20RELINE%20TENNIS%20COURTS.pdf",
+     "src": "scituateri.gov",
+     "town": "Scituate"
+    },
+    {
+     "name": "Hope Park tennis and pickleball courts",
+     "blurb": "Hope Park has two municipal tennis courts where town rules also permit pickleball. Court use is restricted to residents and guests playing with their resident host. Has: tennis, pickleball, outdoor, resident access, guests with resident.",
+     "address": "22 Clinton Avenue, Hope, Scituate",
+     "phone": "",
+     "hours": "",
+     "url": "https://ecode360.com/35866083",
+     "src": "ecode360.com",
+     "town": "Scituate"
+    },
+    {
+     "name": "Deerfield Park courts",
+     "blurb": "Deerfield has municipal tennis courts also used for pickleball. Contact Recreation about scheduled sessions and the current net configuration. Has: tennis, pickleball, outdoor, public.",
+     "address": "Lisa Ann Circle, Greenville, Smithfield",
+     "phone": "401-349-0612",
+     "hours": "",
+     "url": "https://www.smithfieldri.gov/departments/parks-recreation/parks-facilities-beaches",
+     "src": "smithfieldri.gov",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Rally Point Racquet Club",
+     "blurb": "Rally Point offers indoor tennis and pickleball with beginner instruction and leagues. Contact the club for court bookings, memberships and open-play registration. Has: tennis, pickleball, indoor, lessons, leagues, reservations, pro shop.",
+     "address": "15 Church Street, Greenville, Smithfield",
+     "phone": "401-949-0320",
+     "hours": "Mon–Fri 7am–11pm; Sat/Sun 7am–9pm. · Individual adult membership $125/year; family $200/year; court fees additional and nonmember court bookings cost more.",
+     "url": "https://rallypointtennis.com/",
+     "src": "rallypointtennis.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Smithfield High School tennis courts",
+     "blurb": "School procurement records identify four tennis courts at Smithfield High School. Confirm current court condition and permission for recreational access with the school district. Has: tennis, outdoor, school.",
+     "address": "90 Pleasant View Avenue, Smithfield",
+     "phone": "",
+     "hours": "",
+     "url": "https://purchasing.ri.gov/rivip/externalbids/municipalities/smithfieldbids/006-2020.pdf",
+     "src": "purchasing.ri.gov",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Willow Field pickleball courts",
+     "blurb": "Eight outdoor pickleball courts operate at Willow Field with restricted hours under town review. Check current posted hours and contact Recreation about organized use before visiting. Has: pickleball, outdoor, public.",
+     "address": "Willow Road and Sutton Street, Smithfield",
+     "phone": "401-349-0612",
+     "hours": "No charge, according to the court directory.",
+     "url": "https://www.smithfieldri.gov/home/showpublisheddocument/5234/639143719121530000",
+     "src": "smithfieldri.gov",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Anchor Sports",
+     "blurb": "A court directory lists two dedicated indoor pickleball courts with rentals and instruction. Contact the operator to confirm that pickleball remains available and arrange a session. Has: pickleball, indoor, lessons, reservations.",
+     "address": "217 Church Street, South Kingstown",
+     "phone": "401-594-0265",
+     "hours": "",
+     "url": "https://www.places2play.org/place?id=11126",
+     "src": "places2play.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Broad Rock Playfields tennis courts",
+     "blurb": "The town maintains tennis facilities at the Broad Rock school and playfields. Reserve through the town's CivicRec facility-rental system. Has: tennis, outdoor, public, parking, restrooms.",
+     "address": "55 St. Dominic Road, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://southkingstownri.gov/Facilities/Facility/Details/Broad-Rock-Playfields-16",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Brousseau Park courts",
+     "blurb": "This neighborhood park offers lighted tennis and pickleball. Reserve through the town's CivicRec facility-rental system. Has: tennis, pickleball, outdoor, public, lights, parking, restrooms.",
+     "address": "208 Succotash Road, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://www.southkingstownri.gov/facilities/facility/details/Brousseau-Park-2",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Curtis Corner Playfields courts",
+     "blurb": "The joint school and town complex provides tennis and pickleball. Reserve through the town's CivicRec facility-rental system. Has: tennis, pickleball, outdoor, public, parking.",
+     "address": "301 Curtis Corner Road, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://www.southkingstownri.gov/facilities/facility/details/Curtis-Corner-Playfields-14",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Green Hill Park tennis courts",
+     "blurb": "Two tennis courts sit within this neighborhood park. Reserve through the town's CivicRec facility-rental system. Has: tennis, outdoor, public, parking, restrooms.",
+     "address": "553 Green Hill Beach Road, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://skpl.org/Facilities/Facility/Details/Green-Hill-Park-17",
+     "src": "skpl.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "More Joy Pickleball at Monsignor Clarke School",
+     "blurb": "More Joy has offered indoor pickleball events at this school. Contact the provider or check its TeamReach group for current bookings and program dates. Has: pickleball, indoor, public program, lessons, reservations.",
+     "address": "5074 Tower Hill Road, South Kingstown",
+     "phone": "401-954-4038",
+     "hours": "",
+     "url": "https://morejoyfit.com/mcs/",
+     "src": "morejoyfit.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "More Joy Pickleball at Prout High School",
+     "blurb": "A pickleball location directory identifies More Joy programs at Prout High School. Confirm current indoor sessions and register with More Joy before visiting. Has: pickleball, indoor, public program, lessons, reservations.",
+     "address": "4640 Tower Hill Road, South Kingstown",
+     "phone": "401-954-4038",
+     "hours": "",
+     "url": "https://www.onixpickleball.com/blogs/learn-pickleball/find-places-to-play-pickleball",
+     "src": "onixpickleball.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Old Mountain Field courts",
+     "blurb": "Old Mountain provides tennis, including lighted courts, and pickleball. Reserve through the town's CivicRec facility-rental system. Has: tennis, pickleball, outdoor, public, lights, parking, restrooms.",
+     "address": "Kingstown Road, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://www.southkingstownri.gov/Facilities/Facility/Details/Old-Mountain-Field-6",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "South Kingstown Recreation Center",
+     "blurb": "The municipal recreation center provides indoor pickleball in its multi-court gym. Check the weekly schedule and contact staff about drop-in access or court rental. Has: pickleball, indoor, public, reservations, parking, restrooms, accessible.",
+     "address": "30 St. Dominic Road, South Kingstown",
+     "phone": "401-284-1933",
+     "hours": "Indoor pickleball follows the weekly gym schedule; building hours vary seasonally.",
+     "url": "https://www.southkingstownri.gov/210/Recreation-Center",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Tuckertown Park tennis courts",
+     "blurb": "Tuckertown includes two tennis courts beside community recreation fields. Reserve through the town's CivicRec facility-rental system. Has: tennis, outdoor, public, parking, restrooms.",
+     "address": "101 Tuckertown Park Road, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://www.southkingstownri.gov/facilities/facility/details/Tuckertown-Park-12",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "URI Tennis Complex — recreation courts",
+     "blurb": "URI provides four recreational tennis courts with pickleball layouts on two of them. Recreational use is first come, first served, while the separate varsity courts are unavailable for drop-in play. Has: tennis, pickleball, outdoor, walk-on, no public restrooms.",
+     "address": "University of Rhode Island, Kingston campus, South Kingstown",
+     "phone": "",
+     "hours": "Daily sunrise–sunset; closed Mon–Fri 2–6pm; scheduled university events take priority.",
+     "url": "https://web.uri.edu/campusrec/uri-tennis-complex/",
+     "src": "web.uri.edu",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Village Green tennis courts",
+     "blurb": "Village Green provides public tennis in Peace Dale. Reserve through the town's CivicRec facility-rental system. Has: tennis, outdoor, public, parking, restrooms.",
+     "address": "1058 Kingstown Road, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://www.southkingstownri.gov/Facilities/Facility/Details/Village-Green-13",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "West Kingston Park courts",
+     "blurb": "West Kingston Park offers tennis and pickleball alongside its other recreation facilities. Reserve through the town's CivicRec facility-rental system. Has: tennis, pickleball, outdoor, public, parking, restrooms.",
+     "address": "Route 138, South Kingstown",
+     "phone": "401-789-9301",
+     "hours": "Court reservation (resident/501c3; other): off-peak $7/$14 per hour; peak $11/$22 per hour.",
+     "url": "https://www.southkingstownri.gov/facilities/facility/details/West-Kingston-Park-18",
+     "src": "southkingstownri.gov",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Longplex Family & Sports Center",
+     "blurb": "Indoor pickleball directories identify Longplex as a playing location. Call the sports center to confirm the current pickleball schedule and rental availability. Has: pickleball, indoor, reservations.",
+     "address": "300 Industrial Way, Tiverton",
+     "phone": "401-816-6650",
+     "hours": "",
+     "url": "https://longplex.com/sports/",
+     "src": "longplex.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Tiverton High School tennis courts",
+     "blurb": "School records document tennis courts and funded repairs at Tiverton High School. Confirm completion of court and drainage work and obtain school approval for public use. Has: tennis, outdoor, school.",
+     "address": "100 North Brayton Road, Tiverton",
+     "phone": "401-624-8494",
+     "hours": "",
+     "url": "https://clerkshq.com/Content/Tiverton-ri/school/2025/feb11_25sc.htm",
+     "src": "clerkshq.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Town Farm Recreation Complex courts",
+     "blurb": "Town Farm provides tennis and pickleball facilities for municipal recreation programs. Request organized use through the town's facility application and confirm court availability during maintenance. Has: tennis, pickleball, outdoor, public, lessons, permits.",
+     "address": "3634 Main Road, Tiverton",
+     "phone": "",
+     "hours": "Outdoor court availability subject to programs and construction. · Town entities and qualifying nonprofit town leagues: no charge; for-profit leagues $200 per season per court; other event fees apply.",
+     "url": "https://www.tiverton.ri.gov/362/Fields-Facilities",
+     "src": "tiverton.ri.gov",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Burr's Hill Park courts",
+     "blurb": "The municipal park lists shared tennis and pickleball courts. Submit reservations or requests through Warren's MyRec facility calendar. Has: tennis, pickleball, outdoor, public, reservations.",
+     "address": "540 Water Street, Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://warrenri.myrec.com/info/facilities/details.aspx?ActivityID=143970",
+     "src": "warrenri.myrec.com",
+     "town": "Warren"
+    },
+    {
+     "name": "East Bay Pickleball Club",
+     "blurb": "This indoor club offers public court rentals without a membership requirement. Use the club's online booking link to reserve courts or join programs. Has: pickleball, indoor, lessons, leagues, reservations, public booking.",
+     "address": "317 Market Street, Warren",
+     "phone": "401-252-4021",
+     "hours": "Daily 7am–10pm. · Guests: $50/hour, $70/90 minutes, $90/2 hours per court up to six people; members $10/person/hour.",
+     "url": "https://eastbaypickleballclub.com/rates",
+     "src": "eastbaypickleballclub.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Jamiel Park courts",
+     "blurb": "Jamiel Park has municipal tennis courts also listed by pickleball directories. Use the town's facility-request system and confirm pickleball markings and nets. Has: tennis, pickleball, outdoor, public, reservations.",
+     "address": "134 Market Street, Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://warrenri.myrec.com/info/facilities/default.aspx",
+     "src": "warrenri.myrec.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Centerline Pickleball Club",
+     "blurb": "Eight climate-controlled indoor courts are available to members and nonmembers. Book private courts or open play through CourtReserve. Has: pickleball, indoor, lessons, reservations, public booking, pro shop.",
+     "address": "33 Lambert Lind Highway, Warwick",
+     "phone": "401-249-9686",
+     "hours": "Mon–Fri 7am–10pm; Sat/Sun 7am–7pm. · Nonmembers $50/hour per court; members $30/hour; maximum six players per court.",
+     "url": "https://www.centerlinepickleballclub.com/rates",
+     "src": "centerlinepickleballclub.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "John Greene school tennis courts",
+     "blurb": "A court directory lists outdoor tennis at the John Greene school property. Current court condition and public-use arrangements require confirmation. Has: tennis, outdoor, school.",
+     "address": "51 Draper Avenue, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/warwick",
+     "src": "gladiatortennis.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Kent County YMCA",
+     "blurb": "Kent County YMCA schedules indoor pickleball, and the national YMCA directory also lists tennis courts. Contact the branch for membership or guest access and the current court schedule. Has: tennis, pickleball, indoor, YMCA.",
+     "address": "900 Centerville Road, Warwick",
+     "phone": "401-828-0130",
+     "hours": "Indoor pickleball follows the changing gym schedule.",
+     "url": "https://ymcagreaterprovidence.org/branches/kent-county-ymca",
+     "src": "ymcagreaterprovidence.org",
+     "town": "Warwick"
+    },
+    {
+     "name": "Mickey Stevens Sports Complex tennis and pickleball courts",
+     "blurb": "The city sports complex includes outdoor tennis courts with pickleball play also listed. Confirm current court conditions and scheduling through Warwick Parks and Recreation. Has: tennis, pickleball, outdoor, public.",
+     "address": "975 Sandy Lane, Warwick",
+     "phone": "401-738-2019",
+     "hours": "Municipal parks dawn–dusk unless otherwise posted.",
+     "url": "https://www.warwickri.gov/262/Community-Profile",
+     "src": "warwickri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "North Country Club Field tennis court",
+     "blurb": "A tennis directory lists a public outdoor court at North Country Club Field. Confirm the entrance, court condition and use rules with Warwick Recreation. Has: tennis, outdoor, public.",
+     "address": "Monroe Street, Warwick",
+     "phone": "401-738-2019",
+     "hours": "Municipal parks dawn–dusk unless otherwise posted.",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/warwick",
+     "src": "gladiatortennis.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Pilgrim High School tennis courts",
+     "blurb": "A tennis directory lists outdoor courts at Pilgrim High School. Confirm current access with the school because construction and athletic use may affect availability. Has: tennis, outdoor, school.",
+     "address": "111 Pilgrim Parkway, Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/warwick",
+     "src": "gladiatortennis.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Pontiac Village Park tennis courts",
+     "blurb": "The city's park-improvement plans identify existing tennis courts at Pontiac Village Park. Contact Warwick Recreation for their current condition and permitted use. Has: tennis, outdoor, public.",
+     "address": "153 RI-5, Warwick",
+     "phone": "401-738-2019",
+     "hours": "Municipal parks dawn–dusk unless otherwise posted.",
+     "url": "https://www.warwickri.gov/sites/g/files/vyhlif12206/f/bids/pontiac_village_park_site_improvements_rfp_11.18.2022.pdf",
+     "src": "warwickri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "Rhode Island Racquet Club",
+     "blurb": "The former Tennis Rhode Island West Bay location offers six indoor tennis courts. Call the club for hourly bookings and instruction through Break Point Tennis. Has: tennis, indoor, lessons, reservations, racquet rentals, locker rooms.",
+     "address": "636 Centerville Road, Warwick",
+     "phone": "401-828-4450",
+     "hours": "No membership fee; court rental rate not published in the cited listing.",
+     "url": "https://www.breakpointtennisri.com/visit-us",
+     "src": "breakpointtennisri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Toll Gate High School tennis courts",
+     "blurb": "A tennis directory lists outdoor courts at Toll Gate High School. Confirm current access with the school because construction and athletic use may affect availability. Has: tennis, outdoor, school.",
+     "address": "575 Centerville Road, Warwick",
+     "phone": "401-734-3300",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/warwick",
+     "src": "gladiatortennis.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Veterans Memorial school tennis courts",
+     "blurb": "Court directories identify tennis at the Warwick Veterans school property. Confirm the current court condition and permission for public play with the school. Has: tennis, outdoor, school.",
+     "address": "2401 West Shore Road, Warwick",
+     "phone": "401-734-3200",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/warwick",
+     "src": "gladiatortennis.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Exeter–West Greenwich Regional High School tennis courts",
+     "blurb": "The regional school campus has outdoor tennis courts in West Greenwich. Confirm public access with the school; this site is not located in Exeter. Has: tennis, outdoor, school.",
+     "address": "930 Nooseneck Hill Road, West Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.globaltennisnetwork.com/tennis-courts/courts/city/20287-west-greenwich-rhode-island",
+     "src": "globaltennisnetwork.com",
+     "town": "West Greenwich"
+    },
+    {
+     "name": "Crompton Playground pickleball courts",
+     "blurb": "Two dedicated outdoor pickleball courts have permanent nets. The directory states that courts cannot be reserved. Has: pickleball, outdoor, public, permanent nets, accessible.",
+     "address": "71 Manchester Street, West Warwick",
+     "phone": "",
+     "hours": "No charge.",
+     "url": "https://www.pickleheads.com/courts/us/rhode-island/west-warwick/crompton-playground",
+     "src": "pickleheads.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Riverpoint Park tennis courts",
+     "blurb": "Four municipal tennis courts sit within Riverpoint Park's sports complex. Contact Parks and Recreation for organized use and rental arrangements. Has: tennis, outdoor, public.",
+     "address": "50 Hay Street, West Warwick",
+     "phone": "401-615-3477",
+     "hours": "",
+     "url": "https://westwarwickri.gov/?DE=D7241903-EE67-421D-8886-1906D939AD52&SEC=640172A6-F891-4034-BF20-463C97B4F5F6",
+     "src": "westwarwickri.gov",
+     "town": "West Warwick"
+    },
+    {
+     "name": "West Warwick High School tennis courts",
+     "blurb": "A court directory identifies public tennis at West Warwick High School. Confirm school scheduling and permission for recreational use before visiting. Has: tennis, outdoor, school, no lights.",
+     "address": "1 Webster Knight Drive, West Warwick",
+     "phone": "401-821-6596",
+     "hours": "",
+     "url": "https://www.tennisround.com/tennis-courts/ri/west-warwick/west-warwick-high-school",
+     "src": "tennisround.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Gingerella Sports Complex tennis court",
+     "blurb": "Court directories list a single public tennis court at Gingerella. Its present condition and availability need confirmation because the town's older plan questioned retaining single-court sites. Has: tennis, outdoor, public.",
+     "address": "49 White Rock Road, Westerly",
+     "phone": "401-348-2715",
+     "hours": "",
+     "url": "https://www.globaltennisnetwork.com/tennis-courts/courts/tennis-court-page/court/48091-gingerella-sports-complex",
+     "src": "globaltennisnetwork.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Ocean Community YMCA — Westerly-Pawcatuck Branch",
+     "blurb": "Four indoor courts support open play, clinics and instruction. Use the YMCA's pickleball signup page and check the current branch schedule. Has: pickleball, indoor, membership, lessons, reservations.",
+     "address": "95 High Street, Westerly",
+     "phone": "",
+     "hours": "Published indoor open play Mon–Fri noon–2pm and Mon/Thu 6–8:50pm; weekend sessions divided by skill level. · Membership required for listed play.",
+     "url": "https://oceancommunityymca.org/pickleball-courts-signup/",
+     "src": "oceancommunityymca.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Rotary Park tennis and pickleball courts",
+     "blurb": "Rotary Park has public tennis courts and listed pickleball layouts. Confirm current court availability, evening lighting and reservations with Westerly Recreation. Has: tennis, pickleball, outdoor, public.",
+     "address": "Airport Road, Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/westerly",
+     "src": "gladiatortennis.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Downtown pickleball courts",
+     "blurb": "The town operates downtown pickleball alongside its padel facilities. Reserve courts and view current prices through Playbypoint. Has: pickleball, outdoor, public booking, reservations.",
+     "address": "61 Main Street, Westerly",
+     "phone": "401-388-4296",
+     "hours": "Seasonal schedule in the town's Playbypoint system.",
+     "url": "https://townofwesterly.playbypoint.com/f/townofwesterly/pages/pickleball-pricing-and-schedule",
+     "src": "townofwesterly.playbypoint.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Aylsworth Avenue tennis courts — Woonsocket High School area",
+     "blurb": "Four lighted tennis courts serve public recreation and high-school matches. Contact city Parks and Recreation about school priority and permitted group use. Has: tennis, outdoor, public, lights.",
+     "address": "450 Aylsworth Avenue, Woonsocket",
+     "phone": "401-767-9287",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/woonsocket/aylsworth-tennis-courts",
+     "src": "gladiatortennis.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Bernon Memorial Park tennis courts",
+     "blurb": "A court directory lists two lighted public tennis courts at Bernon Memorial Park. Confirm current availability and lighting with city Parks and Recreation. Has: tennis, outdoor, public, lights.",
+     "address": "395 Knight Street, Woonsocket",
+     "phone": "401-767-9287",
+     "hours": "",
+     "url": "https://www.globaltennisnetwork.com/tennis-courts/courts/tennis-court-page/court/48210-bernon-memorial-park",
+     "src": "globaltennisnetwork.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Cold Spring Park tennis courts",
+     "blurb": "The state tourism listing identifies tennis among Cold Spring Park's facilities. Contact city Parks and Recreation about permits and current court availability. Has: tennis, outdoor, public.",
+     "address": "9 Katherine Road, Woonsocket",
+     "phone": "401-767-9287",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/cold-spring-park/12000/",
+     "src": "visitrhodeisland.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Dunn Park tennis courts",
+     "blurb": "Court directories list three public tennis courts at Dunn Park. Confirm current condition and permitted use with city Parks and Recreation. Has: tennis, outdoor, public, no lights.",
+     "address": "Asylum Street, Woonsocket",
+     "phone": "401-767-9287",
+     "hours": "",
+     "url": "https://gladiatortennis.com/a/courts/rhode-island/woonsocket/dunn-park",
+     "src": "gladiatortennis.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Globe Park tennis court",
+     "blurb": "Park and tennis directories identify an outdoor tennis court at Globe Park. Contact city Parks and Recreation to confirm its current condition and use rules. Has: tennis, outdoor, public.",
+     "address": "Coe Street, Woonsocket",
+     "phone": "401-767-9287",
+     "hours": "",
+     "url": "https://www.mypacer.com/parks/124874/globe-park-woonsocket",
+     "src": "mypacer.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Woonsocket YMCA",
+     "blurb": "A pickleball directory lists indoor play at the Woonsocket YMCA. Confirm the current program, membership requirements and signup process with the branch. Has: pickleball, indoor, YMCA.",
+     "address": "18 Federal Street, Woonsocket",
+     "phone": "401-769-0791",
+     "hours": "",
+     "url": "https://www.places2play.org/places/fd715ce0a8db",
+     "src": "places2play.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "World War II Veterans Memorial State Park tennis courts",
+     "blurb": "Rhode Island State Parks lists tennis at this public park. Call the seasonal park office for court availability and use arrangements. Has: tennis, outdoor, public.",
+     "address": "Social Street, Woonsocket",
+     "phone": "401-762-9717",
+     "hours": "",
+     "url": "https://riparks.ri.gov/Locations-LocationWorldWarII",
+     "src": "riparks.ri.gov",
+     "town": "Woonsocket"
+    }
+   ]
+  },
+  {
+   "key": "games",
+   "title": "Bowling, Billiards, Arcades & Escape Rooms",
+   "items": [
+    {
+     "name": "Spring Lake Arcade",
+     "blurb": "This historic lakeside arcade mixes antique coin-operated amusements with later games. It is part of the Spring Lake recreation area, where seasonal access arrangements should be checked before visiting. Has: arcade, vintage games, family-friendly.",
+     "address": "52 Old Hillside Drive, Glendale, RI 02826, Burrillville",
+     "phone": "401-568-8288",
+     "hours": "Seasonal, during the summer beach season",
+     "url": "https://www.visitrhodeisland.com/listing/spring-lake-arcade/12416/",
+     "src": "visitrhodeisland.com",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Bowlero Cranston",
+     "blurb": "Bowlero Cranston combines 58 ten-pin lanes with an arcade and food service. The operator welcomes all ages and offers online lane reservations. Has: bowling, ten-pin, arcade, family-friendly, food, reservations, shoe rental.",
+     "address": "1450 Elmwood Avenue, Cranston, RI 02910",
+     "phone": "401-467-8850",
+     "hours": "Sun 11am–11pm; Mon 4–11pm; Tue 11am–11pm; Wed 10am–11pm; Thu 4–11pm; Fri 4pm–midnight; Sat 10am–midnight. · Published walk-in offers: Sat–Sun 11am–3pm $15.99 per person including shoes; Sun from 6pm and Mon–Thu from 7pm $19.99 including shoes; Fri from 8pm and Sat from 9pm $25.99 excluding shoes. Offers depend on lane availability.",
+     "url": "https://www.bowlero.com/location/bowlero-cranston",
+     "src": "bowlero.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Lang's Bowlarama",
+     "blurb": "Lang's pairs ten-pin bowling with restored retro decor, lane-side food service, and evening Atomic Bowling. The business identifies itself as family-friendly and accepts lane reservations online. Has: bowling, ten-pin, family-friendly, food, reservations, parking, leagues.",
+     "address": "225 Niantic Avenue, Cranston, RI 02907",
+     "phone": "401-944-0500",
+     "hours": "Fall/winter: Sun 9am–10pm; Mon 4–10pm; Tue 3–11pm; Wed 9am–11pm; Thu noon–midnight; Fri noon–midnight; Sat 9am–midnight; some website pages list a later Fri–Sat closing, so confirm · Per person, shoes included: Mon–Wed and Thu before 9pm, one hour $15 or two $20; Fri before 6pm $15/$20; Sat before 6pm and Sun $16/$21; Fri–Sat after 6pm $18/$25; Thu 9pm–close $20",
+     "url": "https://www.langsbowlarama.com/bowlingpricing",
+     "src": "langsbowlarama.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Legion Bowl & Billiards",
+     "blurb": "Legion Bowl has dedicated duckpin lanes, billiard tables, and arcade games beside the pub operation. Its bowling and arcade areas welcome families and offer children's party packages. Has: bowling, duckpin, billiards, arcade, family-friendly, leagues, birthday parties.",
+     "address": "655 Park Avenue, Cranston, RI 02910",
+     "phone": "401-781-8888",
+     "hours": "Bowling page lists opening at 3pm Mon–Fri and 2pm Sat–Sun; the shared pub footer lists different hours, so confirm bowling hours by phone. · Billiards per table per hour: one player $14; two $15; three or four $16. Weekday offers: 90 minutes bowling with shoes $15 per person; 90 minutes billiards $10 per person.",
+     "url": "https://www.pubonparkri.com/legion-bowl/",
+     "src": "pubonparkri.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "East Providence Lanes",
+     "blurb": "This ten-pin center also has six regulation pool tables and a redemption arcade. Its family bowling offer and junior leagues provide options for younger players as well as adults. Has: bowling, ten-pin, billiards, arcade, cosmic bowling, family-friendly, food.",
+     "address": "80 Newport Avenue, East Providence, RI 02916",
+     "phone": "401-438-2300",
+     "hours": "Mon 9am–11pm; Tue 3–11pm; Wed–Thu 9am–11pm; Fri noon–midnight; Sat 9am–midnight; Sun 9am–11pm. School-vacation Tuesdays open 11am. · Per lane per hour, up to six bowlers: Mon–Thu before 5pm $30 excluding holidays and school vacations; other published periods $37; shoes $5 per person; billiards $16 per table per hour, maximum four; Sat–Sun noon–4pm family offer $74.95 for two hours, five shoe rentals and a $20 game card",
+     "url": "https://eastprovidencelanes.com/hours-and-rates/",
+     "src": "eastprovidencelanes.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "United Skates of America — Rumford",
+     "blurb": "This roller-skating center also offers an arcade and Laser Storm laser tag for all ages. Published public-session rules require visitors aged 15–17 to attend with a parent who remains in the building, and adult skaters must complete a waiver and wear wristguards. Has: laser tag, arcade, roller skating, family-friendly, food.",
+     "address": "75 New Road, Rumford, RI 02916, East Providence",
+     "phone": "401-438-9898",
+     "hours": "During scheduled public sessions and private bookings; consult the live event calendar · Laser tag $6 per person per game; published public-session admission $13.50 online or $14.50 at the door, or $5 for non-skaters; skate rental $6, inline rental $7",
+     "url": "https://www.unitedskates.com/rumford/",
+     "src": "unitedskates.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Ocean State Escape",
+     "blurb": "Private escape-room bookings put your group inside a themed puzzle adventure. The recommended minimum age is 7, anyone under 16 must have an adult, and infants and toddlers are not permitted. Has: escape rooms, private bookings, family-friendly.",
+     "address": "1428 Hartford Avenue, 3rd Floor, Bond Plaza, Johnston, RI 02919",
+     "phone": "401-808-6308",
+     "hours": "Mon–Wed by appointment; Thu–Fri 6–10pm; Sat noon–10pm; Sun noon–8pm · Adults $33 each, or $28 each with at least four adult tickets; children under 13 $20",
+     "url": "https://oceanstateescape.com/faq/",
+     "src": "oceanstateescape.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "BattlegroundZ",
+     "blurb": "This indoor action center offers laser tag, arcade games and several other arena activities. Laser tag is available to players aged 5 and older, with equipment included in the game price. Has: laser tag, arcade, family-friendly, food, airsoft, paintball.",
+     "address": "100 Higginson Avenue, Lincoln, RI 02865",
+     "phone": "401-305-3600",
+     "hours": "Sun–Thu noon–10pm; Fri noon–midnight; Sat 11:30am–midnight · Laser tag: one game $10, two $18, three $25, four $32, five $38; equipment included",
+     "url": "https://battlegroundz.net/lazer-wars/",
+     "src": "battlegroundz.net",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Adventureland Family Fun Park — Carousel Pavilion",
+     "blurb": "The park's carousel pavilion contains arcade games such as pinball, air hockey and skee-ball. It operates as part of a seasonal family amusement park with food and other attractions. Has: arcade, pinball, air hockey, family-friendly, food.",
+     "address": "112 Point Judith Road, Narragansett, RI 02882",
+     "phone": "401-789-0030",
+     "hours": "Seasonal; operating dates and daily hours are posted on the park calendar and may change with weather",
+     "url": "https://adventurelandri.com/attraction/carousel-pavilion/",
+     "src": "adventurelandri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Empire Theatre — proposed arcade",
+     "blurb": "An arcade was approved here in July 2026. Opening dates, game prices and age policies are not confirmed on the theater's website. Has: arcade, pinball.",
+     "address": "17 Water Street, Block Island, RI 02807, New Shoreham",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.empiretheaterblockisland.com/",
+     "src": "empiretheaterblockisland.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Paradigm Escape Rooms",
+     "blurb": "This Newport escape-room business still appears in some tourism and chamber directories. Other listings report closure and a current operator booking page could not be verified, so its status remains unconfirmed. Has: escape rooms.",
+     "address": "94 William Street, Newport, RI 02840",
+     "phone": "",
+     "hours": "",
+     "url": "https://business.newportchamber.com/member-directory/Details/paradigm-escape-rooms-3864848",
+     "src": "business.newportchamber.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Ryan Family Amusements — Newport",
+     "blurb": "This waterfront arcade has about 50 games, a prize counter and a birthday-party room. Its mix includes video and redemption games as well as a virtual-reality attraction. Has: arcade, virtual reality, redemption games, family-friendly.",
+     "address": "268 Thames Street, Newport, RI 02840",
+     "phone": "401-846-5774",
+     "hours": "Mon–Thu noon–9pm; Fri–Sat 10am–11pm; Sun 10am–9pm · Advertised 90-minute arcade offer $25.95, including 500 prize points; game exclusions and offer terms apply",
+     "url": "https://ryanfamily.com/locations/newport/",
+     "src": "ryanfamily.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Seaview Lanes Bowling Center",
+     "blurb": "Seaview has 12 ten-pin lanes with automatic bumpers for children. Access is restricted to eligible military-connected patrons, veterans, authorized civilians and contractors with valid identification and base access. Has: bowling, ten-pin, bumpers, food, shoe rental, military access required, restricted access.",
+     "address": "656 Whipple Street, Building 656, Naval Station Newport, RI 02841",
+     "phone": "401-841-4293",
+     "hours": "Thu–Fri 4–8pm; Sat–Sun noon–8pm; Mon–Wed closed; holidays noon–6pm. · $3.50 per person per game; shoe rental $2.25; socks required; cashless payments.",
+     "url": "https://www.navymwrnewport.com/programs/a1fd0e9e-e5fd-4c14-8e75-72cc50137db9",
+     "src": "navymwrnewport.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Kingstown Bowl",
+     "blurb": "Kingstown Bowl offers automated ten-pin bowling plus five pool tables, shuffleboard, darts, and arcade games. The center books children's parties, adult outings, and league play. Has: bowling, ten-pin, billiards, darts, arcade, shuffleboard, family-friendly.",
+     "address": "6125 Post Road, North Kingstown, RI 02852",
+     "phone": "401-884-4450",
+     "hours": "Mon–Thu 5–10pm; Fri–Sat 6pm–midnight; Sun 5–8pm · Published coupon: one hour of bowling with shoe rentals $19.99, excluding Rock & Bowl; confirm party size and coupon terms with the center. Billiards or shuffleboard $10 per hour; APA members $8.",
+     "url": "https://kbowl.com/",
+     "src": "kbowl.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Wickford Lanes",
+     "blurb": "Regional tourism and bowling listings identify this as a duckpin bowling venue. Current operator details could not be confirmed, and published street numbers conflict, so the address and operating information are left blank. Has: bowling, duckpin, family-friendly.",
+     "address": "North Kingstown",
+     "phone": "401-294-9886",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/wickford-lanes/8164/",
+     "src": "visitrhodeisland.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Global Reach VR",
+     "blurb": "This reservation-based virtual-reality venue uses Meta Quest headsets for individual and group games. Bookings accommodate up to eight players, and the operator requests at least 24 hours of advance notice. Has: virtual reality, multiplayer games, reservations.",
+     "address": "1339 Smith Street, North Providence, RI 02908",
+     "phone": "401-258-1941",
+     "hours": "By appointment at least 24 hours ahead; booking calendar lists Mon–Thu noon–5pm and Fri–Sun noon–8pm · $30 per person per hour; one-hour minimum",
+     "url": "https://globalreach.setmore.com/",
+     "src": "globalreach.setmore.com",
+     "town": "North Providence"
+    },
+    {
+     "name": "Electromagnetic Pinball Museum and Restoration",
+     "blurb": "This interactive museum lets visitors play its collection of pinball machines and arcade games. A single admission covers play for the day rather than requiring a separate payment at each machine. Has: pinball, arcade, museum, family-friendly.",
+     "address": "881 Main Street, Pawtucket, RI 02860",
+     "phone": "401-743-8067",
+     "hours": "Wed–Sun 10am–9pm; Mon–Tue closed except announced holidays and special events · $10 per person for all-day admission and unlimited pinball and arcade play",
+     "url": "https://www.electromagneticpinballmuseum.com/",
+     "src": "electromagneticpinballmuseum.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Escape Room Rhode Island",
+     "blurb": "The operator's website advertises two hour-long escape adventures, but current booking availability could not be confirmed. Its published rules require an adult for players aged 14 or younger, and separate parties may share a room unless all tickets are purchased. Has: escape rooms.",
+     "address": "560 Mineral Spring Avenue, Suite 2110, Pawtucket, RI 02860",
+     "phone": "888-998-3722",
+     "hours": "",
+     "url": "https://www.escaperoomrhodeisland.com/",
+     "src": "escaperoomrhodeisland.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Mystery Soup Escape Rooms / Prodigy Puzzles",
+     "blurb": "This Hope Artiste Village escape-room business offers several themed adventures under the Prodigy Puzzles name. Games are recommended for ages 14 and older; players under 16 need a ticketed adult aged 18 or older, and children under 5 must remain in a stroller or be carried throughout. Has: escape rooms, private bookings.",
+     "address": "1005 Main Street, Suite 1202, Pawtucket, RI 02860",
+     "phone": "401-205-1873",
+     "hours": "By reservation; walk-ins subject to availability · Selected rooms start at $46 per person with a two-player minimum; The Cellar and The Vault start at $50 per person with a four-player minimum; per-person pricing decreases for larger groups",
+     "url": "https://mysterysoupescaperooms.com/faq",
+     "src": "mysterysoupescaperooms.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Dave & Buster's — Providence",
+     "blurb": "The Providence Place location combines a large arcade with dining and group-event space. The chain requires guests below each location's age cutoff to have a guardian aged 25 or older, so Providence's exact cutoff and late-night rules need confirmation. Has: arcade, redemption games, food.",
+     "address": "40 Providence Place, Providence, RI 02903",
+     "phone": "401-270-4555",
+     "hours": "Mon–Thu 11am–midnight; Fri–Sat 10am–1am; Sun 10am–midnight",
+     "url": "https://www.daveandbusters.com/us/en/about/locations/providence",
+     "src": "daveandbusters.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Escape Rhode Island",
+     "blurb": "This puzzle venue offers themed indoor escape rooms and outdoor missions around Providence. Games are recommended for ages 10 and older; children under 15 need an adult, and ages 15–17 need a guardian-signed waiver. Has: escape rooms, outdoor games, family-friendly.",
+     "address": "385 South Main Street, 2nd Floor, Providence, RI 02903",
+     "phone": "401-326-2222",
+     "hours": "Sun 11am–9:30pm; Mon closed; Tue noon–9pm; Wed–Thu 10am–9pm; Fri 10am–11:30pm; Sat 10:30am–11:30pm; last games start one hour before closing · $79 for two players; $29 per additional player",
+     "url": "https://www.escaperhodeisland.com/faq",
+     "src": "escaperhodeisland.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Pizza J — pinball and arcade",
+     "blurb": "This pizzeria has a substantial collection of pinball machines and vintage arcade games alongside its food service. Parties of six or more are asked to reserve or call ahead. Has: arcade, pinball, family-friendly, food.",
+     "address": "967 Westminster Street, Providence, RI 02903",
+     "phone": "401-632-0555",
+     "hours": "Mon–Thu 4–10pm; Fri 4–11pm; Sat noon–11pm; Sun noon–9pm",
+     "url": "https://pizzajprovidence.com/",
+     "src": "pizzajprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Snookers Billiards",
+     "blurb": "Snookers has two dedicated pool rooms containing 15 professional Brunswick tables and hosts regional tournaments. Table reservations, leagues, lessons, and on-site food service are available. Has: billiards, pool hall, tournaments, leagues, lessons, reservations, food.",
+     "address": "53 Ashburton Street, Providence, RI 02904",
+     "phone": "401-351-7665",
+     "hours": "Mon–Thu 4pm–1am; Fri–Sat noon–2am; Sun noon–1am. · Sun–Thu $15 per table per hour; Fri–Sat $18; reserved tables $24 per hour. Published daytime rate $11 per player: Fri–Sun noon–6pm and Mon–Thu 4–6pm.",
+     "url": "https://www.snookersri.com/information/",
+     "src": "snookersri.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Bubbler VR",
+     "blurb": "Four virtual-reality stations offer individual and multiplayer games, with reservations recommended. Players must be at least 5 years old, and game choices are limited for children aged 8 and younger. Has: virtual reality, multiplayer games, family-friendly.",
+     "address": "568 Charles Street, Providence, RI 02904",
+     "phone": "401-372-7248",
+     "hours": "Thu–Fri 5–10pm; Sat 1–10pm; Sun 1–6pm · $25 per half hour; $30 per hour",
+     "url": "https://www.thebubblervr.com/faq",
+     "src": "thebubblervr.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Dusty Planet",
+     "blurb": "This indoor recreation venue pairs a nine-hole mini-golf course with arcade games and pinball. All ages are welcome, but children must remain supervised and some evening programming is intended for adults. Has: arcade, pinball, mini golf, family-friendly.",
+     "address": "39 Troy Street, Providence, RI 02909",
+     "phone": "401-441-8750",
+     "hours": "Tue–Thu 3–10pm; Fri 3–11pm; Sat 11am–11pm; Sun 11am–10pm; private events may change these hours · Arcade and pinball machines take quarters; mini golf $12 for adults and $9 for children, with a $4 replay",
+     "url": "https://www.thedustyplanet.com/",
+     "src": "thedustyplanet.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Great Escape Room — Providence",
+     "blurb": "This downtown venue runs themed escape-room adventures with roughly an hour to solve the puzzles. Players under 16 must be accompanied by an adult. Has: escape rooms, family-friendly.",
+     "address": "75 Empire Street, Providence, RI 02903",
+     "phone": "401-395-5274",
+     "hours": "Mon–Thu 3:30–9:15pm; Fri 1:45–10pm; Sat 11:30am–10:30pm; Sun 11:30am–6:30pm",
+     "url": "https://thegreatescaperoom.com/providence",
+     "src": "thegreatescaperoom.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Preserve Resort & Spa — axe throwing",
+     "blurb": "The resort advertises seasonal axe throwing on its outdoor lawn. Its activity guide describes a one-hour session and recommends closed-toe shoes, while prices, age limits and day-visitor eligibility need confirmation. Has: axe throwing, outdoor activities, resort.",
+     "address": "1 Preserve Boulevard, Richmond, RI 02898",
+     "phone": "401-539-4653",
+     "hours": "Spring and summer; arrange sessions with the resort",
+     "url": "https://www.thepreserveri.com/resort-spa/experiences/axe-throwing/",
+     "src": "thepreserveri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Kingdom Axe — mobile axe throwing",
+     "blurb": "This mobile axe-throwing business brings a staffed setup to booked events instead of operating a regular walk-in hall. Participants must be at least 12 years old, with adult supervision required for younger guests. Has: axe throwing, mobile venue, private events.",
+     "address": "South Kingstown",
+     "phone": "401-742-0958",
+     "hours": "By event booking; published contact hours daily 10am–10pm · Two-hour event $549; additional hours $175 each; eight-hour package $1,349; travel charges apply outside 20 miles of South Kingstown",
+     "url": "https://kingdomaxe.com/pricing/",
+     "src": "kingdomaxe.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Old Mountain Lanes",
+     "blurb": "Old Mountain Lanes combines ten-pin bowling with a redemption arcade and on-site dining. It offers leagues, tournaments, and birthday-party bookings. Has: bowling, ten-pin, arcade, family-friendly, food, leagues, birthday parties.",
+     "address": "756 Kingstown Road, Wakefield, RI 02879, South Kingstown",
+     "phone": "401-783-5511",
+     "hours": "Bowling daily 10am–1am; coffee shop 7am–9pm. · Published Sunday special from 5pm: two hours of bowling with shoes $11.99; with cheeseburger and fries $14.99, or also a soda $15.99; extra bowling hour $5",
+     "url": "https://www.oldmountainlanesri.com/",
+     "src": "oldmountainlanesri.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Longplex Sports Family & Sports Center — arcade",
+     "blurb": "Longplex has an arcade listing on its own website alongside its sports and family activities. That page does not establish current arcade availability, hours or prices, so this particular attraction remains unconfirmed. Has: arcade, family-friendly, food.",
+     "address": "300 Industrial Way, Tiverton, RI 02878",
+     "phone": "401-816-6650",
+     "hours": "",
+     "url": "https://longplex.com/arcade/",
+     "src": "longplex.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Dudek Bowling Lanes",
+     "blurb": "Dudek offers duckpin bowling with open play, leagues, and a snack counter. Children can use bumper bowling, and the operator welcomes bowlers across age groups. Has: bowling, duckpin, bumpers, family-friendly, leagues, food, shoe rental.",
+     "address": "409 Child Street, Warren, RI",
+     "phone": "401-245-9471",
+     "hours": "Mon–Thu 9am–10pm; Fri 9am–11pm; Sat 10am–11pm; Sun 10am–9pm. · $4.75 per person per game; $26 per lane per hour; shoe rental $3.",
+     "url": "https://dudekbowling.com/",
+     "src": "dudekbowling.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Chuck E. Cheese — Warwick",
+     "blurb": "This children's entertainment center combines arcade games, pizza and birthday celebrations. All visitors under 18 must have a parent or guardian who stays for the entire visit, and matching entry stamps are checked when families leave. Has: arcade, redemption games, family-friendly, food.",
+     "address": "650 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-823-1203",
+     "hours": "Mon–Thu 11am–9pm; Fri 11am–10pm; Sat 10am–10pm; Sun 11am–9pm · Advertised family-of-four package $49.99, including games, pizza, drinks and dessert; package terms apply",
+     "url": "https://www.chuckecheese.com/warwick-ri/",
+     "src": "chuckecheese.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Launch Family Entertainment — Warwick",
+     "blurb": "Bowling, laser tag and an arcade share this family activity center with trampolines and other attractions. Laser-tag players must be at least 42 inches tall, Saturday toddler time is for ages 5 and younger, and the operator requires its grip socks for attractions. Has: bowling, arcade, laser tag, darts, family-friendly, food, trampolines.",
+     "address": "920 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-828-5867",
+     "hours": "Published fall schedule: Sun 10am–9pm; Mon closed; Tue–Thu 4–8pm; Fri 3–10pm; Sat 8am–10pm, with 8–10am reserved for toddler time · Action Pass including laser tag $29.99; posted one-hour bowling rate $12 Mon–Thu or $15 Fri–Sun, plus $4 shoes; 40 arcade credits $10 plus $1 for a new card; operator states listed prices are per person and include tax",
+     "url": "https://launchfamilyentertainment.com/warwick/pricing/",
+     "src": "launchfamilyentertainment.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "RI Riddle Room — Warwick",
+     "blurb": "Groups solve themed escape rooms in private bookings, with most adventures lasting about an hour. Monster Museum is recommended for ages 10 and older and includes live performers. Has: escape rooms, private bookings.",
+     "address": "1150 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-398-8177",
+     "hours": "By reservation; book at least 30 minutes ahead · Most games start at $85 for two players, plus $29 per additional player; Monster Museum uses separate booking prices",
+     "url": "https://www.ririddleroom.com/faq",
+     "src": "ririddleroom.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Advanced Action Sports / Space VR — former Rhode Island listing",
+     "blurb": "Earlier listings advertised virtual-reality games and VR escape rooms at this West Warwick address. The operator now lists Massachusetts facilities and says VR is paused, leaving availability at the Rhode Island location unconfirmed. Has: virtual reality, escape rooms.",
+     "address": "3 Bridal Avenue, West Warwick, RI 02893",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.advancedactionsports.com/virtual-reality/",
+     "src": "advancedactionsports.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Alley Katz Bowling Center",
+     "blurb": "This ten-pin bowling center offers open bowling, leagues, and cosmic sessions alongside an on-site restaurant. Call ahead for lane reservations and group bookings. Has: bowling, ten-pin, cosmic bowling, leagues, family-friendly, food, shoe rental.",
+     "address": "116 Granite Street, Westerly, RI 02891",
+     "phone": "401-596-7474",
+     "hours": "Sun–Thu 9am–10pm; Fri–Sat 9am–11pm. · $6 per person per game; weekends $6.50; shoe rental $4. Fri–Sat cosmic bowling 9–11pm: $16 per person including shoes.",
+     "url": "https://www.alleykatzri.com/SPECIALS",
+     "src": "alleykatzri.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Atlantic Beach Park — arcade",
+     "blurb": "This beachside amusement park includes an arcade alongside its carousel and other attractions. The operator announced a mid-June opening for the 2026 arcade season and directs visitors to call for daily hours. Has: arcade, family-friendly, food.",
+     "address": "321 Atlantic Avenue, Westerly, RI 02891",
+     "phone": "401-322-0504",
+     "hours": "Summer season; call for daily arcade hours",
+     "url": "https://www.atlanticbeachpark.com/contact-us",
+     "src": "atlanticbeachpark.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Ryan's Walnut Hill",
+     "blurb": "The former Walnut Hill Bowl now operates under Ryan's with 24 ten-pin lanes and a renovated arcade. Bowling, food, and birthday-party facilities make this a family-oriented entertainment center. Has: bowling, ten-pin, arcade, family-friendly, food, leagues, shoe rental.",
+     "address": "1666 Diamond Hill Road, Woonsocket, RI 02895",
+     "phone": "401-762-9300",
+     "hours": "Mon noon–10pm; Tue–Wed 4–10pm; Thu 9am–noon and 4–10pm; Fri 9am–11pm; Sat noon–11pm; Sun 10am–10pm. · Bowling Mon–Fri before 5pm $32.95 per lane per hour; evenings and weekends $34.95; up to six bowlers; shoes $5. Published arcade offer: 90 minutes $25.95 with restrictions.",
+     "url": "https://ryanfamily.com/locations/ryans-walnut-hill/",
+     "src": "ryanfamily.com",
+     "town": "Woonsocket"
+    }
+   ]
+  },
+  {
+   "key": "golf",
+   "title": "Golf Courses, Ranges & Simulators",
+   "items": [
+    {
+     "name": "Bristol Golf Park",
+     "blurb": "This public nine-hole par-3 course provides a shorter round for different ages and skill levels. Reserve online and enter from Broadcommon Road, following the gravel drive to the golf hut. Has: 9 holes, par 3, public, lessons, online reservations.",
+     "address": "96 Broadcommon Road, Bristol, RI 02809",
+     "phone": "401-578-6564",
+     "hours": "",
+     "url": "https://foreupsoftware.com/index.php/booking/22798/11960",
+     "src": "foreupsoftware.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Bristol Sim Golf",
+     "blurb": "Bristol Sim Golf expanded to two indoor simulator bays in July 2026 and offers leagues and instruction. Reserve through the operator's website or call for a public session and the current hourly price. Has: simulator, indoor, public, GSPro, lessons, leagues, online reservations.",
+     "address": "1 Shannon Court, Bristol, RI 02809",
+     "phone": "401-499-3319",
+     "hours": "Year-round.",
+     "url": "https://www.bristolsimgolf.com/",
+     "src": "bristolsimgolf.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Country View Golf Club",
+     "blurb": "Country View is a public 18-hole course with more open front-nine terrain and tighter shots on the back nine. Book online or call; each player needs a set of clubs and cart renters must be at least 18. Has: 18 holes, public, carts, club rentals, online reservations.",
+     "address": "49 Club Lane, Harrisville, RI 02830, Burrillville",
+     "phone": "401-568-7157",
+     "hours": "From October 19, 2026: Mon–Fri 8:30am–4pm; Sat–Sun 7:30am–4pm; frost delays possible. · 2026: Mon–Fri 18 holes $40, 9 holes $26; weekends/holidays 18 holes $47 before 1pm/$40 after, 9 holes after 1pm $32; carts $22 for 18/$12 for 9 per person.",
+     "url": "https://countryviewgolf.teesnap.net/",
+     "src": "countryviewgolf.teesnap.net",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Crystal Lake Golf Club",
+     "blurb": "Crystal Lake offers public access to an 18-hole course beside its clubhouse and event facilities. Use the online tee sheet for current prices because the separate rates page is dated spring 2024. Has: 18 holes, public, semi-private, carts, pro shop, online reservations.",
+     "address": "100 Broncos Highway, Mapleville, RI 02839, Burrillville",
+     "phone": "401-567-4500",
+     "hours": "",
+     "url": "https://crystallakegolfclub.com/online-tee-time-reservations/",
+     "src": "crystallakegolfclub.com",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Coventry Pines Golf Course",
+     "blurb": "This family-operated nine-hole course uses varied terrain to provide different types of shots. Call for current play arrangements and fees, and check the operator's league schedule before visiting. Has: 9 holes, public, carts, leagues.",
+     "address": "1065 Harkney Hill Road, Coventry, RI 02816",
+     "phone": "401-397-9482",
+     "hours": "",
+     "url": "https://coventrypines.com/",
+     "src": "coventrypines.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Tin Cup Golf and Driving Range",
+     "blurb": "Historical listings describe a short public golf course and driving range at the former Washington Village Golf Club site. Current operation and the listed telephone contact could not be independently confirmed, so do not assume tee times are available. Has: short course, driving range, directory listing.",
+     "address": "2 Fairway Drive, Coventry, RI 02816",
+     "phone": "401-823-4653",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "Coventry"
+    },
+    {
+     "name": "Cranston Country Club",
+     "blurb": "Cranston Country Club offers an 18-hole public course with a driving range and golf instruction. Book through the operator's online tee sheet or call the pro shop for current rates and availability. Has: 18 holes, public, driving range, lessons, carts, online reservations, grass tees.",
+     "address": "69 Burlingame Road, Cranston, RI 02921",
+     "phone": "401-826-1683 ext. 2",
+     "hours": "Range buckets: small $10, large $19; putting green use at no charge.",
+     "url": "https://foreupsoftware.com/index.php/booking/22225/10153",
+     "src": "foreupsoftware.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "GOLFTEC Rhode Island",
+     "blurb": "GOLFTEC's Cranston center offers indoor simulator practice, instruction, swing evaluation and club fitting. Schedule an appointment through the center page; recreational hourly simulator rental was not confirmed. Has: simulator, indoor, lessons, swing evaluation, club fitting, appointment required.",
+     "address": "10 Worthington Road, Unit B, Cranston, RI 02920",
+     "phone": "401-649-4653",
+     "hours": "",
+     "url": "https://www.golftec.com/golf-lessons/rhode-island",
+     "src": "golftec.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Topgolf Rhode Island",
+     "blurb": "Topgolf offers target-based driving-range games in covered bays with room for up to six players. Use Book a Bay on the venue page to select a reservation and see its price. Has: driving range, public, covered bays, heated bays, Toptracer, club use, online reservations.",
+     "address": "120 Sockanosset Cross Road, Cranston, RI 02920",
+     "phone": "401-537-5140",
+     "hours": "Year-round, with heated all-weather hitting bays. · Hourly bay prices appear during booking; new-player activation $6; sales tax additional.",
+     "url": "https://topgolf.com/us/rhode-island/",
+     "src": "topgolf.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Inside Links Indoor Golf",
+     "blurb": "Inside Links has standard and enhanced simulator bays using Foresight equipment and GSPro software. Book on the operator's website and check its current schedule; children 13 and younger must have an adult with them. Has: simulator, indoor, public, Foresight, GSPro, leagues, online reservations.",
+     "address": "132 Mendon Road, Cumberland, RI",
+     "phone": "401-229-3690",
+     "hours": "Standard bays: weekday before 4:30pm $35 first hour, then $7.50 per 15 minutes; evenings/weekends/holidays $45 first hour, then $10 per 15 minutes; enhanced bays $45/$55 first hour for those periods; single-player half-hour options available.",
+     "url": "https://insidelinksgolf.com/",
+     "src": "insidelinksgolf.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "East Greenwich Country Club",
+     "blurb": "This public nine-hole course combines an open layout with bentgrass fairways and greens. Use the operator's Book a Tee Time option or call; the posted rate link is labeled 2025, so current fees require confirmation. Has: 9 holes, public, online reservations.",
+     "address": "1646 Division Road, East Greenwich, RI 02818",
+     "phone": "401-884-5656",
+     "hours": "",
+     "url": "https://egcountryclub.com/",
+     "src": "egcountryclub.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Grip it and Rip it Golf Sims",
+     "blurb": "This indoor venue uses FlightScope Mevo+ equipment and E6 software for simulated rounds and practice. Bring your own clubs and reserve a simulator session through the online calendar. Has: simulator, indoor, public, FlightScope, E6, online reservations.",
+     "address": "3377 South County Trail, East Greenwich, RI 02818",
+     "phone": "401-388-3230",
+     "hours": "",
+     "url": "https://clients.uschedule.com/gripitandripit/booking",
+     "src": "clients.uschedule.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "My Golf Conditioning",
+     "blurb": "This private coaching studio includes a simulator and putting area for golf instruction and physical conditioning. Contact the studio to schedule a session, since general recreational bay rentals were not confirmed. Has: simulator, indoor, lessons, putting green, golf fitness, appointment required.",
+     "address": "2 Pearl Street, East Greenwich, RI 02818",
+     "phone": "617-763-3939",
+     "hours": "",
+     "url": "https://mygolfconditioning.com/",
+     "src": "mygolfconditioning.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Shanks Clubhouse",
+     "blurb": "Shanks Clubhouse offers indoor simulator golf by reservation. Book through its online scheduler; posted daily hours run from 9am into the evening, with later closing Thursday through Saturday. Has: simulator, indoor, public, reservation required.",
+     "address": "5700 Post Road, East Greenwich, RI 02818",
+     "phone": "",
+     "hours": "",
+     "url": "https://app.squarespacescheduling.com/schedule.php?owner=23930211",
+     "src": "app.squarespacescheduling.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Met Links",
+     "blurb": "Met Links is a public nine-hole par-34 course restored from a Donald Ross layout. Book through its online tee sheet to see availability and the rate for your chosen start. Has: 9 holes, public, online reservations.",
+     "address": "500 Veterans Memorial Parkway, East Providence, RI 02914",
+     "phone": "401-414-7337",
+     "hours": "",
+     "url": "https://foreupsoftware.com/index.php/booking/22800/11966",
+     "src": "foreupsoftware.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Silver Spring Golf Course",
+     "blurb": "Silver Spring is a community-run public course in the Riverside area. Use the pricing page's Book Time contact option or call before arrival to confirm the day's play arrangements. Has: public, carts, push carts.",
+     "address": "3303 Pawtucket Avenue, East Providence, RI 02915",
+     "phone": "401-434-9697",
+     "hours": "Weekdays 9/18 holes $22/$35, senior 9 holes $18; weekends 9/18 holes $26/$42, twilight $20; power cart $12 for 9/$20 for 18; push cart $5.",
+     "url": "https://www.silversprings.cc/pricing",
+     "src": "silversprings.cc",
+     "town": "East Providence"
+    },
+    {
+     "name": "V Golf East Providence",
+     "blurb": "V Golf East Providence offers private Trackman suites and access to golf instruction and club fitting. Make a reservation through the operator because walk-ins are not accepted. Has: simulator, indoor, public, Trackman, private suites, lessons, club fitting.",
+     "address": "860A Waterman Avenue, Unit 4, East Providence, RI 02914",
+     "phone": "401-612-0801",
+     "hours": "October–April.",
+     "url": "https://vgolfeastprovidence.com/",
+     "src": "vgolfeastprovidence.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Exeter Country Club",
+     "blurb": "Exeter Country Club offers an 18-hole public course and organized weekday league play. Reserve by telephone or in person up to five days ahead, and request nine-hole availability specifically when booking. Has: 18 holes, public, carts, leagues, phone reservations.",
+     "address": "320 Ten Rod Road, Exeter, RI 02822",
+     "phone": "401-295-8212",
+     "hours": "",
+     "url": "https://www.exetercc.com/teetimes.html",
+     "src": "exetercc.com",
+     "town": "Exeter"
+    },
+    {
+     "name": "Yawgoo Valley Golf Course",
+     "blurb": "Historical golf directories list a nine-hole par-3 course at Yawgoo Valley. A current golf season or booking option could not be confirmed, so this record does not establish that golf is still offered. Has: 9 holes, par 3, historical listing.",
+     "address": "160 Yawgoo Valley Road, Exeter, RI 02822",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "Exeter"
+    },
+    {
+     "name": "Foster Country Club",
+     "blurb": "Foster Country Club is a family-operated 18-hole public course in western Rhode Island. Reserve through its online tee sheet or contact the club for the rate and conditions on your intended day. Has: 18 holes, public, lessons, online reservations.",
+     "address": "67 Johnson Road, Foster, RI 02825",
+     "phone": "401-397-7750",
+     "hours": "",
+     "url": "https://foreupsoftware.com/index.php/booking/21021/6496",
+     "src": "foreupsoftware.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Melody Hill Golf Club",
+     "blurb": "Melody Hill offers 18 public holes in the Harmony section of Glocester. Reserve online or by phone; carts are required before 1pm on weekends and holidays, and nine-hole weekend starts begin after 2pm. Has: 18 holes, public, carts, lessons, online reservations.",
+     "address": "55 Melody Hill Lane, Harmony, RI 02829, Glocester",
+     "phone": "401-949-9851",
+     "hours": "Published riding rates: 18 holes weekday $60, Friday $66, weekend/holiday $72; 9 holes weekday $40, Friday $46, weekend/holiday after 2pm $45; weekday heading overlaps Friday, so confirm the quote.",
+     "url": "https://fox.tenfore.golf/melodyhill/",
+     "src": "fox.tenfore.golf",
+     "town": "Glocester"
+    },
+    {
+     "name": "Fenner Hill Golf Club",
+     "blurb": "Fenner Hill is an 18-hole public-access course in Hope Valley. Use the booking link on the current-rates page or call the pro shop, which also offers selected military and senior rates. Has: 18 holes, public, semi-private, carts, online reservations.",
+     "address": "33 Wheeler Lane, Hope Valley, RI 02832, Hopkinton",
+     "phone": "401-539-8000",
+     "hours": "2026: 18 holes walking Mon–Thu $50, Fri $54, Sat–Sun $58; after 2pm $45/$45/$53; 9 holes walking $32; carts $24 for 18/$15 for 9.",
+     "url": "https://www.fennerhill.com/current-rates",
+     "src": "fennerhill.com",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Wood River Golf",
+     "blurb": "Wood River offers public golf with several round-length options and a first-come playing policy. No tee times are accepted, and the operator's online prices remain labeled 2025, so call for current fees. Has: 18 holes, public, carts, walk-in, leagues.",
+     "address": "78A Woodville Alton Road, Hope Valley, RI 02832, Hopkinton",
+     "phone": "401-364-0700",
+     "hours": "Open through fall and winter when snow permits.",
+     "url": "https://www.woodrivergolf.com/golf-course.html",
+     "src": "woodrivergolf.com",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Jamestown Golf Course",
+     "blurb": "Jamestown's town-owned nine-hole course has open, wind-exposed fairways on Conanicut Island. Recent golf reporting describes first-come play without reserved tee times, so call before traveling to check league blocks and current procedures. Has: 9 holes, public, municipal, carts, pull carts, walk-in.",
+     "address": "245 Conanicus Avenue, Jamestown, RI 02835",
+     "phone": "401-423-9930",
+     "hours": "September 2026 golf reporting lists 9 holes at $26 weekdays/$28 weekends; confirm with the course.",
+     "url": "http://www.jamestowngolf.com/",
+     "src": "jamestowngolf.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Fairlawn Golf Course",
+     "blurb": "Fairlawn is a public nine-hole par-3 course suited to a short round or iron practice. Play and cart rentals are first come, first served, with no tee-time reservation required. Has: 9 holes, par 3, public, carts, pull carts, walk-in.",
+     "address": "3 Sherman Avenue, Lincoln, RI 02865",
+     "phone": "401-334-3937",
+     "hours": "Homepage rates: 9 holes Mon–Thu $25, Fri–Sun $27; additional 9 holes $10; pull cart $4; drive cart $18 for 9/$25 for 18; older FAQ prices conflict, so confirm before play.",
+     "url": "https://www.fairlawngolfri.com/faq/",
+     "src": "fairlawngolfri.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "X-Golf Lincoln",
+     "blurb": "X-Golf Lincoln has six indoor simulators for rounds, practice, lessons and group play. Use the location page's Book Now button to reserve a bay and check available rental clubs. Has: simulator, indoor, public, lessons, leagues, club rentals, online reservations.",
+     "address": "622 George Washington Highway, Unit 1, Lincoln, RI 02865",
+     "phone": "401-335-5595",
+     "hours": "Mon–Thu and Fri before 4pm $55 per simulator per hour; Fri after 4pm and weekends $70; up to six players per simulator.",
+     "url": "https://playxgolf.com/locations/lincoln/",
+     "src": "playxgolf.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Newport National Golf Club — Orchard Course",
+     "blurb": "The Orchard is Newport National's 18-hole links-style public course. Book up to seven days ahead; children under 12 and nonplaying riders are not admitted. Has: 18 holes, public, driving range, carts, online reservations.",
+     "address": "425 Mitchell's Lane, Middletown, RI 02842",
+     "phone": "401-848-9690",
+     "hours": "Year-round, weather permitting. · 2026 18-hole Mon–Wed/Thu–Sun: Jan 1–Mar 28 and Nov 29–Dec 31 $110/$135; Mar 29–May 20 and Sep 27–Nov 28 $160/$185; May 21–Sep 26 $210/$235, after 4pm $160/$185; carts included Mar 29–Nov 28.",
+     "url": "https://newportnational.com/book-a-tee-time/",
+     "src": "newportnational.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Narragansett Driving Range",
+     "blurb": "This driving range appears in Rhode Island golf directories at a Boston Neck Road address. Current operator confirmation was unavailable, so verify that the range is operating before relying on the directory contact. Has: driving range, directory listing.",
+     "address": "1141 Boston Neck Road, Narragansett, RI 02882",
+     "phone": "401-284-0005",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Swing Speed",
+     "blurb": "Swing Speed provides self-service Trackman simulator sessions for public bookings and members. Reserve online to receive the entry and bay codes, with public hours currently limited to weekday evenings and weekends. Has: simulator, indoor, public, Trackman, self-service, online reservations.",
+     "address": "883 Boston Neck Road, Narragansett, RI 02882",
+     "phone": "401-363-0333",
+     "hours": "Year-round. · Published summer simulator rate $44 per hour; winter price not confirmed.",
+     "url": "https://www.swingspeedri.com/",
+     "src": "swingspeedri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Kings Crossing Golf Club",
+     "blurb": "Kings Crossing, formerly Woodland Greens, offers a walkable public-access course designed by Geoffrey Cornish. Use the tee-time section on the operator's site or call to reserve and check the applicable discount. Has: 9 holes, public, semi-private, carts, club rentals, footgolf.",
+     "address": "655 Old Baptist Road, North Kingstown, RI 02852",
+     "phone": "401-294-2872",
+     "hours": "9/18 holes: Mon–Thu $25/$33; Fri–Sun $27/$36, after 2pm $24/$33; age 14 and under $15/$20; cart per player $15/$22.",
+     "url": "https://kingscrossinggolfclub.com/green-fees",
+     "src": "kingscrossinggolfclub.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "North Kingstown Golf Course and Driving Range",
+     "blurb": "North Kingstown's municipal 18-hole course includes a public driving range near Narragansett Bay. Online reservations open two days ahead, while phone bookings open seven days ahead for weekdays and three for weekends or course holidays. Has: 18 holes, public, municipal, driving range, carts, online reservations.",
+     "address": "615 Callahan Road, North Kingstown, RI 02852",
+     "phone": "401-294-0684",
+     "hours": "Winter pricing November–March; closed Thanksgiving and Christmas; range daily 8am–4:30pm, weather permitting. · Regular 18 holes weekdays $55; weekends/holidays before noon $65, noon–3pm $53; weekday 9 holes after 1pm $34; winter weekdays $41/weekends $47, twilight $34; carts $25 for 18/$14 for 9 per person; resident discounts available.",
+     "url": "https://foreupsoftware.com/index.php/booking/22236/10204",
+     "src": "foreupsoftware.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Rolling Greens Golf Course",
+     "blurb": "Rolling Greens is a family-operated nine-hole course with rolling terrain and oak-lined fairways. Call the course directly to book a tee time and confirm current fees. Has: 9 holes, public, phone reservations.",
+     "address": "1625 Ten Rod Road, North Kingstown, RI 02852",
+     "phone": "401-294-9859",
+     "hours": "",
+     "url": "https://rollinggreensri.com/",
+     "src": "rollinggreensri.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Louisquisset Golf Club",
+     "blurb": "Louisquisset is a nine-hole course within a residential community, with public tee times reported despite older directories calling it private. Check the operator's reservation system for current public access and pricing before making plans. Has: 9 holes, semi-private, public tee times.",
+     "address": "1 Overlook Circle, North Providence, RI 02904",
+     "phone": "401-353-1620",
+     "hours": "",
+     "url": "https://www.louisquissetgc.com/",
+     "src": "louisquissetgc.com",
+     "town": "North Providence"
+    },
+    {
+     "name": "The Golf Lounge",
+     "blurb": "A golf-facility directory lists an indoor golf venue at this North Providence address. Current operation, prices and an operator booking page could not be verified, so confirm the business before visiting. Has: simulator, indoor, directory listing.",
+     "address": "1370 Mineral Spring Avenue, North Providence, RI 02904",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "North Providence"
+    },
+    {
+     "name": "Iron Woods Golf Practice Center",
+     "blurb": "Directories list this outdoor golf practice center in North Smithfield. Its former operator website could not be retrieved, so current opening, prices and reservation arrangements remain unconfirmed. Has: driving range, directory listing.",
+     "address": "1081 Iron Mine Hill Road, North Smithfield, RI 02896",
+     "phone": "401-766-1151",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Green Valley Country Club",
+     "blurb": "Green Valley is an 18-hole semi-private course that explicitly welcomes public play. Book online or through the pro shop and bring your own clubs, since the club does not offer rental sets. Has: 18 holes, public, semi-private, carts, lessons, online reservations.",
+     "address": "371 Union Street, Portsmouth, RI 02871",
+     "phone": "401-847-9543 ext. 11",
+     "hours": "18 holes walking: weekdays $52, weekends/holidays $62; after 3pm $42; cart per person $14 for 9/$28 for 18.",
+     "url": "https://foreupsoftware.com/index.php/booking/22716",
+     "src": "foreupsoftware.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Montaup Country Club",
+     "blurb": "Montaup is an 18-hole semi-private coastal course with public access and Mount Hope Bay views. Book online or in person because telephone tee-time reservations are not accepted. Has: 18 holes, public, semi-private, carts, online reservations.",
+     "address": "500 Anthony Road, Portsmouth, RI 02871",
+     "phone": "401-683-0955",
+     "hours": "Year-round. · In-season public 18 holes $80; active/retired military with government ID $55; 18-hole cart $50 for two riders or $30 for one rider.",
+     "url": "https://www.montaupcc.com/PublicTeeTimes/TeeSheet",
+     "src": "montaupcc.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Newport Indoor Golf",
+     "blurb": "Newport Indoor Golf offers eight Trackman iO bays accommodating up to four golfers apiece. Reserve a bay online, with rental clubs, lessons and fittings available through the venue. Has: simulator, indoor, public, Trackman, lessons, club fitting, club rentals.",
+     "address": "1947 West Main Road, Portsmouth, RI 02871",
+     "phone": "401-847-1947",
+     "hours": "Year-round. · Mon–Thu 8am–noon $40 per hour and after noon $60; Fri–Sun $70 per hour, per bay.",
+     "url": "https://newportindoorgolf.com/simulators",
+     "src": "newportindoorgolf.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Button Hole Golf Course and Driving Range",
+     "blurb": "The walking par-3 course and public driving range accommodate beginners, juniors and experienced golfers practicing shorter shots. Call ahead for public-play availability because lessons, leagues and events can close the course. Has: 9 holes, par 3, public, driving range, grass tees, putting greens, lessons.",
+     "address": "1 Button Hole Drive, Suite 1, Providence, RI 02909",
+     "phone": "401-421-1664",
+     "hours": "Adults: 9 holes $16, 18 holes $23; age 12 and under $8/$12; high-school/college students, military and age 55+ $14/$21; adult range buckets $9/$11/$14; grass-tee buckets $10/$13/$17.",
+     "url": "https://www.buttonhole.org/play",
+     "src": "buttonhole.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Sigaro Providence Golf Simulator",
+     "blurb": "Sigaro offers an indoor golf simulator within its Federal Hill cigar lounge for guests age 21 and older. Submit the simulator request form with your preferred time and group size, then wait for the venue to confirm availability and price. Has: simulator, indoor, public, age 21+, reservation request.",
+     "address": "375 Atwells Avenue, Providence, RI 02909",
+     "phone": "",
+     "hours": "",
+     "url": "https://sigaroprovidence.com/golf/",
+     "src": "sigaroprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Triggs Memorial Golf Course",
+     "blurb": "Triggs is an 18-hole public Donald Ross course in Providence. Book online, in person or by phone up to seven days ahead, with separate reservation limits for certain pass holders. Has: 18 holes, public, municipal, carts, online reservations.",
+     "address": "1533 Chalkstone Avenue, Providence, RI 02909",
+     "phone": "401-521-8460",
+     "hours": "2026: weekdays 18/9 holes walking $55/$32; weekends $65/$35; carts $22 for 18/$12 for 9 per player; weekend after 2pm 18 holes with cart $70; twilight after 5pm $24 walking/$34 riding.",
+     "url": "https://triggs.us/tee-time-reservations/",
+     "src": "triggs.us",
+     "town": "Providence"
+    },
+    {
+     "name": "V Golf at Triggs",
+     "blurb": "V Golf operates indoor simulator suites at Triggs Memorial Golf Course during the colder months. Reserve through its website before visiting because the facility does not accept walk-ins. Has: simulator, indoor, public, Trackman, private suites, reservation required.",
+     "address": "1533 Chalkstone Avenue, Providence, RI 02909",
+     "phone": "",
+     "hours": "November–March; season starts November 1.",
+     "url": "https://vgolf365.com/",
+     "src": "vgolf365.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Beaver River Golf Club",
+     "blurb": "This public par-70 course has a mix of fairways and hazards in South County. Call the pro shop to arrange play; golf-cart drivers must be at least 18. Has: 18 holes, public, carts, club rentals.",
+     "address": "343 Kingstown Road, Richmond, RI 02892",
+     "phone": "401-539-2100",
+     "hours": "2026: Mon–Thu 18 holes $44 walking/$56 riding; 9 holes $28 walking; Friday riding special $60; weekends/holidays 18 holes $52 walking/$69 riding, 9 holes $35 walking.",
+     "url": "https://beaverrivergolf.com/",
+     "src": "beaverrivergolf.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Golf Central Driving Range",
+     "blurb": "A Rhode Island golf directory lists Golf Central as a driving range on Kingstown Road. No current operator booking page or pricing could be verified, so check whether it is operating before making a trip. Has: driving range, directory listing.",
+     "address": "60 Kingstown Road, Richmond, RI 02898",
+     "phone": "401-539-2200",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "Richmond"
+    },
+    {
+     "name": "Meadow Brook Golf Club",
+     "blurb": "Meadow Brook is an 18-hole public course with broad fairway corridors, large greens and several tee choices. Reserve by phone up to seven days ahead, and ask for preseason or postseason pricing when relevant. Has: 18 holes, public, carts, phone reservations.",
+     "address": "163 Kingstown Road, Richmond, RI 02898",
+     "phone": "401-539-8491",
+     "hours": "2026 cash prices: Mon–Fri after 7am $60 walking/$77 riding, before 7am $45/$62; weekends/holidays after 7am $70/$87, before 7am $55/$72; weekday senior after 7am $50/$67.",
+     "url": "https://www.meadowbrookgolfri.com/club/scripts/library/view_document.asp?DN=GR&NS=PG",
+     "src": "meadowbrookgolfri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Pinecrest Golf Club",
+     "blurb": "Pinecrest provides a nine-hole public-access course among South County pines, with different tees for a repeat circuit. Call the course to reserve a tee time and obtain the current greens fee. Has: 9 holes, public, phone reservations.",
+     "address": "25 Pinehurst Drive, Richmond, RI 02812",
+     "phone": "401-364-8600",
+     "hours": "",
+     "url": "https://www.pinecrestri.com/golf",
+     "src": "pinecrestri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Richmond Country Club",
+     "blurb": "Richmond Country Club offers public-access golf on an 18-hole wooded course. Its 2026 rate page permits phone reservations seven days ahead, with limited afternoon nine-hole rates from May through September. Has: 18 holes, public, semi-private, carts, phone reservations.",
+     "address": "74 Sandy Pond Road, Richmond, RI 02832",
+     "phone": "401-364-9200",
+     "hours": "2026 cash prices: Mon–Fri 18 holes $48 walking/$63 riding; weekdays seniors $43/$58; weekends/holidays $55/$70; preseason and postseason rates available by phone.",
+     "url": "https://www.richmondcountryclub.net/club/scripts/library/view_document.asp?DN=RATES&NS=R",
+     "src": "richmondcountryclub.net",
+     "town": "Richmond"
+    },
+    {
+     "name": "The Preserve Golf Simulator",
+     "blurb": "The Preserve advertises a golf simulation room for practice and virtual rounds with up to four participants. Contact the resort to confirm booking, the exact activity location and whether access is available without an overnight stay or membership. Has: simulator, indoor, resort, access restrictions.",
+     "address": "1 Preserve Boulevard, Richmond, RI 02898",
+     "phone": "401-539-4653",
+     "hours": "Year-round.",
+     "url": "https://www.thepreserveri.com/resort-spa/experiences/golf-simulator/",
+     "src": "thepreserveri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "The Preserve — Mountain Course",
+     "blurb": "The Preserve has an 18-hole par-3 mountain course and a hybrid par-34 layout. Arrange golf through the resort, whose published nonmember rates apply to overnight guests and do not establish ordinary public day access. Has: 18 holes, par 3, resort, overnight guest access, carts, lessons.",
+     "address": "1 Preserve Boulevard, Richmond, RI 02898",
+     "phone": "401-539-4653",
+     "hours": "Seasonal; opening and closing dates not published. · Overnight resort guests: 9 holes $120 or 18 holes $200 per guest, including cart; lodging extra.",
+     "url": "https://www.thepreserveri.com/resort-spa/experiences/golf/",
+     "src": "thepreserveri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Desaivo Guido Driving Range",
+     "blurb": "An older golf directory lists a driving range under this name on Douglas Pike. No current operator site or booking information could be established, so its present availability is unconfirmed. Has: driving range, directory listing.",
+     "address": "661 Douglas Pike, Smithfield, RI 02917",
+     "phone": "401-231-3726",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Laurel Lane Country Club and Driving Range",
+     "blurb": "Laurel Lane combines an 18-hole public course with a driving range and putting green. Public tee times open seven days ahead online or by phone, while weekend nine-hole starts have restricted morning windows. Has: 18 holes, public, driving range, putting green, carts, lessons, online reservations.",
+     "address": "309 Laurel Lane, West Kingston, RI 02892, South Kingstown",
+     "phone": "401-783-3844",
+     "hours": "Course and range open year-round, weather permitting; posted summer course hours daily 6am–dusk, range until one hour after sunset. · Summer 18/9 holes: Mon–Thu $40/$30, Fri $44/$34, Sat–Sun $48/$38; carts $25/$15 per person; range buckets $7/$13/$18.",
+     "url": "https://laurellanecountryclub.teesnap.net/",
+     "src": "laurellanecountryclub.teesnap.net",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Rose Hill Golf Club",
+     "blurb": "Rose Hill is a public nine-hole par-3 course with bentgrass greens, bunkers and water hazards. Contact the club for play arrangements and bring your own clubs because rental sets are not offered. Has: 9 holes, par 3, public, carts, pull carts, family-friendly.",
+     "address": "222 Rose Hill Road, South Kingstown, RI 02879",
+     "phone": "401-788-1088",
+     "hours": "Year-round golf; posted daily hours 7am–7pm. · 9 holes adults $20, juniors/seniors $19; replay $13; golf cart $10, replay cart $7; pull cart $3.",
+     "url": "https://therosehillgolfclub.com/",
+     "src": "therosehillgolfclub.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "South Shore Village Golf Club and Driving Range",
+     "blurb": "South Shore Village has a public nine-hole layout, alternate par-3 tees and a grass driving range. Reserve a tee time online and check in at least 15 minutes before your start. Has: 9 holes, public, driving range, grass tees, putting green, chipping green, carts.",
+     "address": "312 South Shore Village Boulevard, South Kingstown, RI 02879",
+     "phone": "401-777-0107",
+     "hours": "In-season April 1–November 15; off-season November 16–March 31; weather permitting. · Public walking 9/18 holes: Mon–Thu in season $35/$55, Fri–Sun $40/$60; off-season $24/$40; cart share per player $15 for 9/$20 for 18.",
+     "url": "https://ssvgolfclub.com/",
+     "src": "ssvgolfclub.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "D Golf Center",
+     "blurb": "This Warren driving range is listed in a current regional range directory with mat hitting stations. Call to confirm walk-in availability and bucket prices because current operator details could not be retrieved. Has: driving range, public, mats.",
+     "address": "326 Market Street, Warren, RI 02885",
+     "phone": "774-365-0409",
+     "hours": "A range directory checked in July 2026 lists small buckets $5 and large buckets $10; confirm current pricing.",
+     "url": "https://dgolfcenter.com/",
+     "src": "dgolfcenter.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Windmill Hill Golf Course",
+     "blurb": "Windmill Hill is listed as a public nine-hole par-3 course in Warren. Current operator rates and season could not be verified, so call before planning a round. Has: 9 holes, par 3, public.",
+     "address": "35 Schoolhouse Road, Warren, RI 02885",
+     "phone": "401-245-1463",
+     "hours": "",
+     "url": "http://www.windmillgolfri.com/",
+     "src": "windmillgolfri.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Goddard Memorial State Golf Course",
+     "blurb": "Rhode Island's state-run course provides nine holes within Goddard Memorial State Park. When operating, reserve by phone up to two days ahead because walk-ins are not accepted; cart renters must be at least 18. Has: 9 holes, public, state park, carts, phone reservations.",
+     "address": "1095 Ives Road, Warwick, RI",
+     "phone": "401-884-9834",
+     "hours": "2026 season was April 15–September 20; closed September 21 for turf recovery; 2027 dates not announced. · 2026 published fees: weekdays $15, weekends $20; age 65+ or 12 and under $10/$12; eligible disability/RIPAE admission no charge with documentation; carts $15; credit-card surcharge 3%.",
+     "url": "https://riparks.ri.gov/parks/goddard-memorial-state-golf-course",
+     "src": "riparks.ri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "Golf 365 RI",
+     "blurb": "Golf 365 RI combines simulator play with instruction, club fitting and golf fitness services. Use the site's booking option, and arrange morning sessions in advance because access from 6am to noon requires an appointment. Has: simulator, indoor, public, lessons, club fitting, leagues, online reservations.",
+     "address": "85 Byfield Street, Warwick, RI 02888",
+     "phone": "401-437-7560",
+     "hours": "Year-round.",
+     "url": "https://golf365ri.com/",
+     "src": "golf365ri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Golf Galaxy Warwick Simulator Rentals",
+     "blurb": "Golf Galaxy at Warwick Mall rents simulator time for practice and virtual rounds. Select a rental on the store's scheduling page and book each additional hour separately. Has: simulator, indoor, public, Trackman, lessons, club fitting, online reservations.",
+     "address": "400 Bald Hill Road, Suite 700, Warwick, RI 02886",
+     "phone": "401-773-9169",
+     "hours": "60-minute simulator rental $49.99, or $39.99 with ScoreCard+; up to four guests.",
+     "url": "https://www.golfgalaxy.com/s/scheduling/f/612028f7-2523-4797-94b9-c91081304b40?s=3126",
+     "src": "golfgalaxy.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Harbor Lights Golf Course",
+     "blurb": "Harbor Lights is a public nine-hole course with rolling fairways and views toward Narragansett Bay. Reserve through the online tee-time page or call the golf shop; carts depend on weather conditions. Has: 9 holes, public, carts, lessons, waterfront, online reservations.",
+     "address": "150 Gray Street, Warwick, RI 02889",
+     "phone": "401-737-6353 ext. 3",
+     "hours": "",
+     "url": "https://harborlightsri.com/golf/book-your-tee-time/",
+     "src": "harborlightsri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Rhode Island Indoor Golf Simulator",
+     "blurb": "This Warwick venue offers private simulator suites near the airport and previously operated as Airport Golf Simulator. Use Book a Suite on its website or call to arrange play and confirm weekend pricing. Has: simulator, indoor, public, private suites, online reservations.",
+     "address": "30 Coronado Road, Warwick, RI 02886",
+     "phone": "401-255-5869",
+     "hours": "Weekday private suite $55 per hour regardless of player count.",
+     "url": "https://indoorgolfrhodeisland.com/",
+     "src": "indoorgolfrhodeisland.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "X-Golf Warwick",
+     "blurb": "X-Golf Warwick offers ten simulator bays, with each bay accommodating up to six people. Book a tee time through the location page and allow about one hour per person for an 18-hole round. Has: simulator, indoor, public, lessons, leagues, club rentals, online reservations.",
+     "address": "1350 Bald Hill Road, Warwick Center Plaza, Warwick, RI 02886",
+     "phone": "401-37X-GOLF",
+     "hours": "Year-round; fall/winter 2026–27 schedule currently posted. · Per simulator per hour: Mon–Fri before 4pm $49, Mon–Thu after 4pm $59, Fri after 4pm and weekends $69; club rental $15; holiday and vacation-week prices may be higher.",
+     "url": "https://playxgolf.com/locations/warwick/",
+     "src": "playxgolf.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Midville Golf Club",
+     "blurb": "Midville is a public nine-hole course with slopes, hazards and varied approach angles. Book online with a credit card to hold the reservation and pay at the pro shop on arrival. Has: 9 holes, public, carts, club rentals, online reservations.",
+     "address": "100 Lombardi Lane, West Warwick, RI 02893",
+     "phone": "401-828-9215",
+     "hours": "2026: 9 holes $31; 18 holes weekdays $52/weekends $54; cart per rider $13 for 9/$26 for 18; club rental $20; cart renters must be 21+.",
+     "url": "https://teewire.app/midville/",
+     "src": "teewire.app",
+     "town": "West Warwick"
+    },
+    {
+     "name": "West Warwick Country Club",
+     "blurb": "This nine-hole club is listed by Rhode Island tourism as offering public tee times. Contact the operator directly to confirm public playing windows and current fees before visiting. Has: 9 holes, semi-private, public tee times, phone reservations.",
+     "address": "335 Wakefield Street, West Warwick, RI 02893",
+     "phone": "401-821-9789",
+     "hours": "",
+     "url": "https://www.chronogolf.com/club/west-warwick-country-club",
+     "src": "chronogolf.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Green Meadows Golf",
+     "blurb": "Directories identify Green Meadows as a golf practice facility in Westerly. Current operator information and conflicting telephone listings could not be reconciled, so season, rates and booking remain unconfirmed. Has: driving range, directory listing.",
+     "address": "117 Dunns Corners Road, Westerly, RI 02891",
+     "phone": "",
+     "hours": "",
+     "url": "",
+     "src": "",
+     "town": "Westerly"
+    },
+    {
+     "name": "Winnapaug Country Club",
+     "blurb": "Winnapaug provides an 18-hole public course in Westerly. Book online up to 60 days ahead or call; cart renters need a driver's license and must be at least 18. Has: 18 holes, public, driving range, carts, lessons, online reservations.",
+     "address": "184 Shore Road, Westerly, RI 02891",
+     "phone": "401-600-1747",
+     "hours": "Dynamic pricing varies by date, demand, weather and booking lead time; see the live public tee sheet.",
+     "url": "https://www.winnapaug.com/golf/tee-times",
+     "src": "winnapaug.com",
+     "town": "Westerly"
+    }
+   ]
+  },
+  {
+   "key": "karts",
+   "title": "Go-Karts, Bumper Cars & Carousels",
+   "items": [
+    {
+     "name": "Crescent Park Looff Carousel",
+     "blurb": "This historic carousel provides a traditional family ride in the Riverside neighborhood of East Providence. During the regular season, Saturday sensory-friendly hours run without the band organ. Has: covered carousel, family, seasonal, ages 3 and under with paying adult, sensory-friendly sessions, cash and card.",
+     "address": "700 Bullocks Point Avenue, Riverside, RI 02915, East Providence",
+     "phone": "401-435-7518",
+     "hours": "Operator currently reports the regular season closed. Published 2026 regular season was May–September; sensory-friendly Saturday period noon–3 pm. Check the operator's hours page for special openings and next-season hours. · $2 per ride; ages 3 and under ride at no charge with a paying adult. Card payments have a convenience fee.",
+     "url": "https://www.crescentparkcarousel.org/hours",
+     "src": "crescentparkcarousel.org",
+     "town": "East Providence"
+    },
+    {
+     "name": "R1 Indoor Karting",
+     "blurb": "Race electric go-karts on an indoor asphalt circuit about one-third of a mile long. The complex also offers arcade games and group events, with advance race reservations recommended. Has: indoor, electric go-karts, Rookie drivers age 12+ and at least 54 inches, Advanced drivers age 14+ and at least 54 inches, single-seat karts only, closed-toe shoes required, waiver required.",
+     "address": "100 Higginson Avenue, Suite 10, Lincoln, RI 02865",
+     "phone": "401-721-5554",
+     "hours": "Year-round: Monday–Thursday noon–11 pm; Friday noon–midnight; Saturday 9 am–midnight; Sunday 9 am–11 pm. Holiday exceptions are published on the opening-hours page. · One 7-minute race $27; two races $54; three races $75; five races $110 per person. Packages cannot be shared. Website states a 7% online booking fee.",
+     "url": "https://r1indoorkarting.com/karting",
+     "src": "r1indoorkarting.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Adventureland Family Fun Park",
+     "blurb": "This outdoor family park combines gasoline go-karts with bumper boats, spinning bumper cars and a carousel. Miniature golf and batting cages provide additional activities, and the operator has announced its next season for 2027. Has: outdoor, gas go-karts, double karts, bumper boats, Spin Zone bumper cars, carousel, family.",
+     "address": "112 Point Judith Road, Narragansett, RI 02882",
+     "phone": "401-789-0030",
+     "hours": "Seasonal outdoor park; operator says the 2026 season has ended and reopening is in 2027. The date-specific 2027 calendar lists operating periods of 11 am–5 pm, 10 am–5 pm, 10 am–8 pm or 10 am–9 pm; consult the calendar for the selected date. Weather can close individual rides. · Published 2026 prices: go-kart ride $12; passenger under 56 inches $4 extra; six driver rides $60. Bumper boats: price page $9 but attraction page $8; confirm before purchase; child under 44 inches with adult $4. Spin Zone $8; double-seat child age 3–7 $4. Carousel $5 or six rides $20. Activity packages $35 for 44 inches and taller or $25 under 44 inches. Spectator admission: no charge.",
+     "url": "https://adventurelandri.com/",
+     "src": "adventurelandri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Slater Park Looff Carousel",
+     "blurb": "The historic Looff carousel sits inside Slater Memorial Park and offers a traditional ride on carved figures. The city also accepts advance reservations for carousel birthday parties during its operating season. Has: covered carousel, seasonal, family, parties, park setting.",
+     "address": "833 Armistice Boulevard, Slater Memorial Park, Pawtucket, RI 02861",
+     "phone": "401-952-7768",
+     "hours": "Seasonal, approximately April–October. City facility page lists Saturday–Sunday 11 am–5 pm; Friends organization lists last-ticket time 4:45 pm. City summer information adds daily operation in late June–August; check the current seasonal schedule. · $1 per person per ride, regardless of age.",
+     "url": "https://pawtucketri.gov/parks-and-recreation/seasonal-booklet-and-information/",
+     "src": "pawtucketri.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Roger Williams Park Carousel Village",
+     "blurb": "Carousel Village pairs a covered carousel with an outdoor miniature train and an accessible playground. Ride tickets are purchased on site, and the train's availability depends on season and weather. Has: indoor carousel, outdoor train, family, parties, accessible playground, carousel children under 4 require adult, train riders must sit upright independently.",
+     "address": "Roger Williams Park, near the boathouse, Providence, RI 02907",
+     "phone": "401-785-3510 ext. 316",
+     "hours": "February–March weekends noon–4 pm; April–June weekdays noon–6 pm and weekends 11 am–6 pm; July–Labor Day daily 11 am–6 pm; after Labor Day–October 31 daily noon–4 pm; November–December weekends noon–4 pm. January closed to public. School-vacation exceptions apply; outdoor train is seasonal and weather dependent. · Carousel $2 per ride or $20 for 12 rides; zoo members $15 for 12. Train $3 per ride or $20 for eight; under age 3 no charge with paying adult. Unlimited carousel-and-train day pass $20 when all activities operate, April school vacation through Labor Day.",
+     "url": "https://www.rwpzoo.org/carousel-village/",
+     "src": "rwpzoo.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams Park Zoo — Soaring Eagle Zip Ride",
+     "blurb": "The seated Soaring Eagle ride lifts passengers above the zoo for an aerial view. Its current fall schedule requires admission to the same night's Jack-O-Lantern Spectacular, with ride tickets sold separately on site. Has: outdoor, seated zip ride, seasonal, minimum height 42 inches, two seats, combined rider weight below 450 pounds, single rider maximum 300 pounds.",
+     "address": "1000 Elmwood Avenue, Providence, RI 02907",
+     "phone": "401-785-3510 ext. 316",
+     "hours": "Current published fall operation: October 1–November 1, 2026, nightly 6–9:30 pm during Jack-O-Lantern Spectacular, weather permitting; daytime operation closed. November 1 event admission is age 21+. · Zip ride $15 per person or $13 for current zoo members, plus required same-night Jack-O-Lantern Spectacular admission. Ride tickets are sold on site at the end of the trail.",
+     "url": "https://www.rwpzoo.org/zip-ride/",
+     "src": "rwpzoo.org",
+     "town": "Providence"
+    },
+    {
+     "name": "The Providence Rink — Ice Bumper Cars",
+     "blurb": "Steer and spin an ice bumper car across the outdoor rink in downtown Providence. Public sessions offer either a shared section of the ice or the full rink, with online reservations available. Has: outdoor, ice bumper cars, winter, family, online reservations, driver age 6+ and at least 42 inches, children age 3–5 may ride with driver age 16+.",
+     "address": "2 Kennedy Plaza, Providence, RI 02903",
+     "phone": "401-680-7390",
+     "hours": "2026–2027 winter season: late November–early March, weather permitting. Shared-ice rides Saturday–Sunday 10 am–2 pm; public full-ice rides Saturday–Sunday 9–10 am. Reservations and private rentals can affect availability. · Shared ice $13 per ride; public full ice $16 per ride; sales tax additional. Rides last 15 minutes plus orientation. Private full-ice rental $250 per 30-minute session plus tax.",
+     "url": "https://theprovidencerink.com/bumper-cars/",
+     "src": "theprovidencerink.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Urban Air Adventure Park — Warwick",
+     "blurb": "The Warwick indoor adventure park lists both Flip Zone and Spin Zone bumper cars alongside its suspended Sky Rider attraction. Families can also use trampolines, climbing activities and laser tag under the park's admission and eligibility rules. Has: indoor, Flip Zone bumper cars, Spin Zone bumper cars, Sky Rider, family, parties, trampolines.",
+     "address": "300 Quaker Lane, Warwick, RI 02886",
+     "phone": "401-227-0103",
+     "hours": "Year-round regular hours: Monday–Thursday 4–8 pm; Friday 4–10 pm; Saturday 10 am–10 pm; Sunday 10 am–8 pm. School holidays and private events change the schedule. · Unlimited Play $39.99; Shorty 40-inch-and-under ticket $19.99; parent ticket with qualifying child ticket $19.99; required Urban Air socks $4.99. Prices exclude tax; attraction eligibility depends on rider height.",
+     "url": "https://www.urbanair.com/rhode-island-warwick/",
+     "src": "urbanair.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Mall Carousel",
+     "blurb": "The carousel stands in Warwick Mall's food court and offers an indoor ride during a shopping visit. Contact mall guest services for the ride's current operating hours, ticket price and rider requirements. Has: indoor, carousel, family, food court, parking.",
+     "address": "400 Bald Hill Road, Carousel Food Court, Warwick, RI 02886",
+     "phone": "401-739-7500",
+     "hours": "",
+     "url": "https://www.warwickmall.com/guest-services",
+     "src": "warwickmall.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Watch Hill Flying Horse Merry-Go-Round",
+     "blurb": "Watch Hill's flying-horse carousel offers children's rides beside the beach. Outside horses let eligible riders reach for the brass ring, while inside horses offer the same rotating ride without that game. Has: outdoor, covered carousel, family, seasonal, riders age 2–12, maximum rider weight 100 pounds, brass-ring game.",
+     "address": "151–153 Bay Street, Watch Hill, RI 02891, Westerly",
+     "phone": "401-622-4125",
+     "hours": "Published 2026 season: May 23–25, May 30–31 and June 6–7, 10 am–6 pm; June 13–August 29 daily 10 am–8 pm; August 30 closes at 6 pm; September 5–7 and September 12–13, 10 am–6 pm. Season has ended. · Inside horse $2 per ride; outside horse with brass-ring game $5 per ride.",
+     "url": "https://merrygoroundbeach.com/",
+     "src": "merrygoroundbeach.com",
+     "town": "Westerly"
+    }
+   ]
   }
  ]
 }
