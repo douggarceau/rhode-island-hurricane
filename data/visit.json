@@ -19399,40 +19399,164 @@
    "title": "Getting Around",
    "items": [
     {
-     "name": "Visit Rhode Island",
-     "blurb": "State tourism information for attractions, trip ideas, regions, and visitor planning.",
-     "address": "Statewide",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.visitrhodeisland.com/",
-     "src": "visitrhodeisland.com"
+     "name": "Mount Hope Bridge",
+     "blurb": "The Mount Hope Bridge connects Bristol with Portsmouth on Aquidneck Island. It provides a northern approach to Newport, with bridge-authority notices covering conditions and restrictions. Has: road bridge, East Bay connection, Aquidneck Island access.",
+     "address": "Route 114 between Bristol and Portsmouth, RI, Bristol / Portsmouth",
+     "phone": "401-423-0803",
+     "hours": "No toll",
+     "url": "https://www.ritba.org/wp-content/uploads/2024/10/FY2024-Audit.pdf",
+     "src": "ritba.org",
+     "town": "Bristol / Portsmouth"
     },
     {
-     "name": "Discover Newport",
-     "blurb": "Regional planning information for Newport County and the wider destination area.",
-     "address": "Newport and surrounding communities",
+     "name": "Bristol Visitor Center — Burnside Memorial Hall",
+     "blurb": "Burnside Memorial Hall houses Bristol’s visitor center and anchors a published downtown walking route. Current staffed hours should be confirmed before visiting. Has: visitor center, downtown, walking-tour information.",
+     "address": "400 Hope Street, Bristol, RI",
      "phone": "",
      "hours": "",
-     "url": "https://www.discovernewport.org/",
-     "src": "discovernewport.org"
+     "url": "https://www.explorebristolri.com/walking-tours",
+     "src": "explorebristolri.com",
+     "town": "Bristol"
     },
     {
-     "name": "South County Tourism",
-     "blurb": "Regional information for coastal communities, inland outings, shopping districts, and seasonal travel.",
-     "address": "Southern Rhode Island",
+     "name": "Bristol visitor-information kiosks",
+     "blurb": "Bristol directs visitors to brochures and maps at kiosks and public buildings around town. The town’s official visitor page also links to its tourism information for trip planning. Has: visitor information, maps, brochures, kiosks.",
+     "address": "Bristol",
      "phone": "",
      "hours": "",
-     "url": "https://www.southcountyri.com/",
-     "src": "southcountyri.com"
+     "url": "https://www.bristolri.gov/307/Visit",
+     "src": "bristolri.gov",
+     "town": "Bristol"
     },
     {
-     "name": "Blackstone Valley Tourism",
-     "blurb": "Industrial heritage, river experiences, cultural attractions, and northern Rhode Island exploration.",
-     "address": "Northern Rhode Island",
-     "phone": "",
+     "name": "Bristol Visitors Center — Burnside Building",
+     "blurb": "A regional visitor directory lists a seasonal information center in the Burnside Building. Current operation and staffed hours were not confirmed with the town, so contact the center before making a special trip. Has: visitor information, current operation unconfirmed.",
+     "address": "400 Hope Street, Bristol, RI",
+     "phone": "401-410-0040",
      "hours": "",
-     "url": "https://bvtcri.org/",
-     "src": "bvtcri.org"
+     "url": "https://www.visitri.com/state/visitor-information-centers/",
+     "src": "visitri.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Prudence & Bay Islands Transport — Bristol terminal",
+     "blurb": "This ferry carries passengers and vehicles between Bristol and Prudence Island. Use the operator’s date-specific timetable and arrange vehicle space in advance. Has: car ferry, passenger ferry, bicycles, island connection, reservations.",
+     "address": "147 Thames Street, Bristol, RI 02809",
+     "phone": "401-683-0430",
+     "hours": "Year-round; October 1–November 30, 2026 timetable published with separate Thanksgiving service",
+     "url": "https://prudencebayislandstransport.com/",
+     "src": "prudencebayislandstransport.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Kettle Pond Visitor Center",
+     "blurb": "Kettle Pond is the visitor-information base for Rhode Island’s national wildlife refuges. Staff and exhibits help visitors plan refuge outings, and nearby trails are open from sunrise to sunset. Has: visitor information, refuge information, exhibits, trails.",
+     "address": "50 Bend Road, Charlestown, RI 02813",
+     "phone": "401-364-9124",
+     "hours": "Daily 10am–4pm · No charge",
+     "url": "https://www.fws.gov/refuge/ninigret/visit-us",
+     "src": "fws.gov",
+     "town": "Charlestown"
+    },
+    {
+     "name": "South County Tourism Council visitor center",
+     "blurb": "The South County visitor center provides regional maps, brochures and help planning local trips. A round-the-clock kiosk offers an option outside staffed hours. Has: visitor information, maps, brochures, accessible, parking, 24-hour kiosk.",
+     "address": "4160 Old Post Road, Charlestown, RI 02813",
+     "phone": "401-789-4422",
+     "hours": "Monday–Friday 9am–5pm; visitor kiosk available 24 hours daily",
+     "url": "https://www.visitrhodeisland.com/listing/south-county-tourism-council/1105/",
+     "src": "visitrhodeisland.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Tesla Supercharger — East Greenwich",
+     "blurb": "Tesla lists eight Superchargers rated up to 150 kW at Dave’s Marketplace. Check the vehicle’s charging planner for compatibility and current pricing before using this location. Has: EV charging, Tesla Supercharger, DC fast charging, shopping nearby.",
+     "address": "1000 Division Street, East Greenwich, RI 02818",
+     "phone": "",
+     "hours": "24 hours daily",
+     "url": "https://www.tesla.com/findus/location/supercharger/eastgreenwichsupercharger",
+     "src": "tesla.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Ashaway Park & Ride EV chargers",
+     "blurb": "Ashaway’s park-and-ride provides an operating NEVI charging stop near Rhode Island’s southwestern highway approach. Confirm connector availability and the charging session price in the network app before use. Has: EV charging, DC fast charging, Level 2, park and ride, parking.",
+     "address": "Route 3 at I-95, Hopkinton, RI",
+     "phone": "",
+     "hours": "State policy: Level 2 $0.28/kWh; DC fast charging $0.39/kWh; idle fees may apply",
+     "url": "https://energy.ri.gov/transportation/ri-nevi-program/phase-1",
+     "src": "energy.ri.gov",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Claiborne Pell Newport Bridge",
+     "blurb": "The Pell Bridge carries Route 138 between Jamestown and Newport and uses electronic toll collection. Keep the vehicle and plate information on an E-ZPass account current, and check the bridge authority’s alerts before crossing in severe weather. Has: road bridge, electronic tolls, E-ZPass, pay by mail.",
+     "address": "Route 138 between Jamestown and Newport, RI, Jamestown / Newport",
+     "phone": "877-743-9727",
+     "hours": "Two-axle passenger vehicle: $4 with out-of-state E-ZPass; $6 pay by mail; eligible Rhode Island resident E-ZPass rate $0.83; other vehicle classes differ",
+     "url": "https://www.ritba.org/wp-content/uploads/2025/06/RITBA-release-6-9-25.pdf",
+     "src": "ritba.org",
+     "town": "Jamestown / Newport"
+    },
+    {
+     "name": "Jamestown Newport Ferry",
+     "blurb": "The hop-on hop-off ferry connects Jamestown with Rose Island, Fort Adams and Newport landings. Check the seasonal timetable and landing rules before arranging a visit, especially when planning a stop on Rose Island. Has: passenger ferry, bicycles, multiple stops, island connection, seasonal service.",
+     "address": "1 East Ferry Wharf, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "Seasonal; dates and departure patterns vary · 2026 adult all-day pass: $34 plus fuel surcharge; bicycles or strollers $12 additional; Rose Island admission additional",
+     "url": "https://cruiseri.com/jamestown-newport-ferry/hop-on-hop-off/",
+     "src": "cruiseri.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "RITBA E-ZPass customer service center",
+     "blurb": "The customer service center assists with Rhode Island E-ZPass accounts, transponders and toll questions. Visitors using rental vehicles should also check their rental agreement’s toll arrangements before crossing a tolled bridge. Has: E-ZPass, toll assistance, transponder sales, walk-in office.",
+     "address": "1 East Shore Road, Jamestown, RI 02835",
+     "phone": "877-743-9727",
+     "hours": "Walk-in Monday–Friday 9am–4pm; telephone Monday–Friday 9am–5pm · Interior transponder: $10; tolls and account funding additional",
+     "url": "https://www.ritba.org/wp-content/uploads/2025/06/RITBA-release-6-9-25.pdf",
+     "src": "ritba.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Blackstone River State Park Visitor Center",
+     "blurb": "The Lincoln visitor center is a highway stop with access to the Blackstone River State Park and bikeway. Regional tourism sources list maps, restrooms, vending, parking and EV charging at the center. Has: visitor information, restrooms, parking, vending, EV charging, bikeway access.",
+     "address": "I-295 North between exits 18B and 20, Lincoln, RI 02865",
+     "phone": "401-334-6723",
+     "hours": "Winter beginning October 31: Monday–Friday 7am–3:30pm except holidays",
+     "url": "https://riparks.ri.gov/parks/blackstone-bikeway-and-visitors-center",
+     "src": "riparks.ri.gov",
+     "town": "Lincoln"
+    },
+    {
+     "name": "RIPTA Flex On Demand — South County zone 203",
+     "blurb": "Flex On Demand provides requested trips within the South County service zone. Use the app’s zone map to check whether your origin and destination are covered. Has: RIPTA, on-demand transit, local connections, URI connection.",
+     "address": "Narragansett; South Kingstown",
+     "phone": "401-784-9500 ext. 1220",
+     "hours": "",
+     "url": "https://web.uri.edu/gso/about/contact/directions/",
+     "src": "web.uri.edu",
+     "town": "Narragansett; South Kingstown"
+    },
+    {
+     "name": "Block Island Ferry — Point Judith traditional service",
+     "blurb": "The traditional Point Judith ferry provides the year-round mainland connection to Block Island’s Old Harbor and carries vehicles as well as passengers. Vehicle space requires advance arrangements, and nearby mainland parking lots are independently operated. Has: car ferry, passenger ferry, island connection, paid parking nearby, vehicle reservations.",
+     "address": "304 Great Island Road, Narragansett, RI 02882",
+     "phone": "401-783-7996",
+     "hours": "Year-round; departures vary by date",
+     "url": "https://www.blockislandferry.com/schedules-and-fares/",
+     "src": "blockislandferry.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Block Island Chamber of Commerce Visitor Center",
+     "blurb": "The year-round visitor center faces the Old Harbor ferry landing and supplies island maps and local information. Tourism ambassadors help visitors find lodging, activities and onward transportation options. Has: visitor information, maps, ferry arrival area, year-round service.",
+     "address": "120 Water Street, Block Island, RI 02807, New Shoreham",
+     "phone": "401-466-2474",
+     "hours": "October 13–December 20: weekdays 9:30am–4pm and weekends 10am–2pm; Thanksgiving weekend has separate published hours",
+     "url": "https://www.blockislandchamber.com/visitor-center",
+     "src": "blockislandchamber.com",
+     "town": "New Shoreham"
     },
     {
      "name": "Block Island Tourism",
@@ -19444,13 +19568,650 @@
      "src": "blockislandinfo.com"
     },
     {
-     "name": "RIPTA",
-     "blurb": "Public bus routes and schedules for visitors planning travel without a car.",
+     "name": "Block Island Visitor Center",
+     "blurb": "The chamber’s visitor center is across from the Old Harbor ferry landing. It offers island information and seasonal baggage lockers, with nearby public bathrooms also closing during winter. Has: visitor center, maps, ferry connection, seasonal lockers, seasonal restrooms.",
+     "address": "120 Water Street, Block Island, RI 02807, New Shoreham",
+     "phone": "",
+     "hours": "October 13–December 20: weekdays 9:30 AM–4:00 PM, weekends 10:00 AM–2:00 PM except holiday schedule; December 21–April: weekdays 9:30 AM–4:00 PM, weekend and holiday hours vary · Seasonal lockers: $10 per single-use token",
+     "url": "https://www.blockislandchamber.com/visitor-center",
+     "src": "blockislandchamber.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Discover Newport",
+     "blurb": "Regional planning information for Newport County and the wider destination area.",
+     "address": "Newport and surrounding communities",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.discovernewport.org/",
+     "src": "discovernewport.org"
+    },
+    {
+     "name": "RIPTA South Aquidneck Flex — zone 231",
+     "blurb": "South Aquidneck Flex provides travel within its designated local zone. Contact RIPTA to confirm the booking method and coverage for your trip. Has: RIPTA, flex transit, local connections.",
+     "address": "Newport; Middletown",
+     "phone": "401-784-9500 ext. 1220",
+     "hours": "$2 standard fare; Wave transfer rules apply",
+     "url": "https://ripta.com/newport/",
+     "src": "ripta.com",
+     "town": "Newport; Middletown"
+    },
+    {
+     "name": "Cliff Walk and Forty Steps metered parking",
+     "blurb": "This pay-by-plate area serves the Forty Steps entrance to the Cliff Walk. Payment is available at the nearby machine or through Passport zone 40105. Has: parking, Cliff Walk access, mobile payment, four-hour limit.",
+     "address": "Narragansett Avenue near the Forty Steps restroom, Newport, RI",
+     "phone": "",
+     "hours": "Seasonal meter fees May 1–October 31; posted limits remain outside paid season · $2 per hour during paid season; maximum four hours",
+     "url": "https://www.newportri.gov/living-in-newport/parking-transportation/metered-parking",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "King Park municipal parking lot",
+     "blurb": "The municipal lot at King Park requires a permit. Visitors should confirm eligibility before using it rather than assuming it is general waterfront parking. Has: surface parking, waterfront, permit required.",
+     "address": "Wellington Avenue, Newport, RI",
+     "phone": "401-845-5712",
+     "hours": "",
+     "url": "https://www.newportri.gov/en-us/living-in-newport/parking-transportation/city-parking-lots",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "King Park permit parking",
+     "blurb": "The city lists King Park among its municipal parking locations. A permit is required, so it is not a general visitor walk-up parking option. Has: parking, waterfront, permit required.",
+     "address": "Wellington Avenue, Newport, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportri.gov/en-us/living-in-newport/parking-transportation/city-parking-lots",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Long Wharf municipal parking lot",
+     "blurb": "The city’s parking directory flags Long Wharf as closed for the summer season. A November reopening was not confirmed, so check with the city before relying on this lot. Has: surface parking, closure notice.",
+     "address": "Long Wharf beside Newport Yacht Club, Newport, RI",
+     "phone": "401-845-5712",
+     "hours": "",
+     "url": "https://www.newportri.gov/en-us/living-in-newport/parking-transportation/city-parking-lots",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Long Wharf parking lot — reopening unconfirmed",
+     "blurb": "The city’s current directory still labels this lot closed for the summer season. A November reopening date is not confirmed in that listing. Has: parking, surface lot, posted seasonal closure.",
+     "address": "Long Wharf, beside Newport Yacht Club, Newport, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportri.gov/en-us/living-in-newport/parking-transportation/city-parking-lots",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Mary Street parking lot",
+     "blurb": "Mary Street is a central pay-by-plate lot near Thames Street shops and restaurants. Seasonal public restrooms are on site, and payment is accepted at the machines or through Passport zone 40106. Has: surface parking, seasonal restrooms, overnight parking, mobile payment.",
+     "address": "Between lower Mary Street and lower Church Street, Newport, RI",
+     "phone": "401-845-5712",
+     "hours": "24 hours daily; seasonal fees May 1–October 31; seasonal restrooms close at 6pm · $3 per hour; $20 daily maximum; $30 overnight until 9am during fee season",
+     "url": "https://www.newportri.gov/living-in-newport/parking-transportation/city-parking-lots/mary-street-parking-lot",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Gateway EV charging spaces",
+     "blurb": "Newport’s transportation inventory documents six EV parking spaces at the Gateway Center. Current charger operation, access charges and availability were not confirmed, so check the network or city before planning a charging stop. Has: EV charging, Level 2, parking, bus connections.",
+     "address": "23 America’s Cup Avenue, Newport, RI 02840",
+     "phone": "401-845-5712",
+     "hours": "",
+     "url": "https://www.newportri.gov/CityOfNewport/media/City-Hall/Departments/Plan%20-%20Eco%20Dev/FINAL-Newport-Existing-Conditions_20220120_w-appendices.pdf",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Gateway parking garage and lot",
+     "blurb": "The Gateway garage and lot provide parking at Newport’s main bus hub. Overnight parking is allowed, but trailers and vehicles longer than 20 feet are prohibited and tall vehicles must use the Bolhouse Street entrance. Has: parking garage, surface parking, bus connections, overnight parking, vehicle-size restrictions.",
+     "address": "23 America’s Cup Avenue, Newport, RI 02840",
+     "phone": "401-845-5712",
+     "hours": "24 hours daily; seasonal fees May 1–October 31 · $2.50 per half hour; $40 maximum per calendar day during fee season",
+     "url": "https://www.newportri.gov/living-in-newport/parking-transportation/city-parking-lots/gateway-visitors-center-parking-lot",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Gateway Transportation Center",
+     "blurb": "The Gateway center is Newport’s main RIPTA transfer point for regional and local buses. It connects arriving riders with routes for Bellevue Avenue, the beach area, Middletown, Providence and the West Bay. Has: bus hub, transfers, parking nearby, regional buses, local buses.",
+     "address": "23 America’s Cup Avenue, Newport, RI 02840",
+     "phone": "401-781-9400",
+     "hours": "Standard Wave fare: $2 for one hour of rides; $6 daily cap; $70 calendar-month cap",
+     "url": "https://ripta.com/newport-2/",
+     "src": "ripta.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport metered and residential street parking",
+     "blurb": "Newport uses seasonal parking kiosks and Passport mobile payment in designated areas. Residential permit restrictions continue beyond the usual meter season, so inspect the signs even when meters are not charging. Has: metered parking, mobile payment, seasonal restrictions, resident-permit zones.",
+     "address": "Newport",
+     "phone": "401-845-5712",
+     "hours": "Meter fees generally May 1–October 31; residential restrictions May 1–December 1; follow posted signs",
+     "url": "https://www.newportri.gov/living-in-newport/parking-transportation",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport metered street parking",
+     "blurb": "Newport uses pay-by-plate meters and the Passport app. Most metered street spaces have a three-hour limit, with posted exceptions. Has: street parking, mobile payment, seasonal charges, time limits.",
+     "address": "Newport",
+     "phone": "",
+     "hours": "Paid season May 1–October 31: downtown 9:00 AM–midnight; other areas generally 9:00 AM–9:00 PM; check signs · $2 per hour; Washington Street $1.50 per hour; meters have no charge November 1–April 30 but time limits remain",
+     "url": "https://www.newportri.gov/living-in-newport/parking-transportation/metered-parking",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Park & Ride",
+     "blurb": "This lot offers an alternative to driving into downtown Newport. The visitor bureau identifies a roughly one-mile walking and cycling connection and a Route 14 bus connection to the transportation center. Has: parking, park and ride, bike path, walking connection, RIPTA.",
+     "address": "JT Connell Highway at the Pell Bridge ramps, Newport, RI",
+     "phone": "",
+     "hours": "Year-round · Daily parking: no charge; Route 14 bus fare separate",
+     "url": "https://www.discovernewport.org/blog/post/the-ultimate-guide-to-parking-in-newport-ri/",
+     "src": "discovernewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Perrotti Park ferry terminal",
+     "blurb": "Perrotti Park is the Newport landing for the seasonal Providence ferry and other passenger services. Confirm the operator and departure point on the ticket because several services use the waterfront area. Has: ferry terminal, seasonal services, downtown access, parking nearby.",
+     "address": "39 America’s Cup Avenue, Newport, RI 02840",
+     "phone": "",
+     "hours": "Seasonal services; schedules vary by operator",
+     "url": "https://seastreak.com/ferry-routes-and-schedules/between-providence-newport-ri/",
+     "src": "seastreak.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Transportation Center",
+     "blurb": "This is Newport’s principal RIPTA transfer point. The adjacent Gateway facility provides public parking. Has: RIPTA, bus hub, parking.",
+     "address": "23 America’s Cup Avenue, Newport, RI 02840",
+     "phone": "401-781-9400",
+     "hours": "",
+     "url": "https://ripta.com/newport/",
+     "src": "ripta.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Visitor Information Center",
+     "blurb": "Discover Newport’s visitor center supplies maps and information about lodging, attractions, transportation and events. Its current location is at Long Wharf Mall rather than inside the Gateway transportation building. Has: visitor information, maps, brochures, transportation information.",
+     "address": "21 Long Wharf Mall, Newport, RI 02840",
+     "phone": "401-845-9130",
+     "hours": "November 1–16: daily 10am–4pm; November 19–30: Thursday–Sunday 10am–4pm; seasonal schedule subject to change",
+     "url": "https://www.discovernewport.org/about-newport/visitor-center/",
+     "src": "discovernewport.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Touro Court municipal parking lot",
+     "blurb": "Touro Court is a municipal self-pay lot reached from Clarke Street. Check the posted rate and restrictions at the entrance before parking. Has: surface parking, self-pay, downtown access.",
+     "address": "Clarke Street entrance via Touro Street, Newport, RI",
+     "phone": "401-845-5712",
+     "hours": "",
+     "url": "https://www.newportri.gov/en-us/living-in-newport/parking-transportation/city-parking-lots",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Touro Court parking lot",
+     "blurb": "Touro Court is a city-operated downtown parking lot. Use the self-service payment equipment and posted rules. Has: parking, surface lot, self-pay.",
+     "address": "Clarke Street entrance via Touro Street, Newport, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.newportri.gov/en-us/living-in-newport/parking-transportation/city-parking-lots",
+     "src": "newportri.gov",
+     "town": "Newport"
+    },
+    {
+     "name": "Jamestown Verrazzano Bridge",
+     "blurb": "The Jamestown Verrazzano Bridge carries Route 138 from the mainland to Jamestown. Bicycles and pedestrians are prohibited on the span, and wind restrictions can affect some vehicles. Has: road bridge, mainland connection, no bicycles, no pedestrians.",
+     "address": "Route 138 across the West Passage of Narragansett Bay, RI, North Kingstown / Jamestown",
+     "phone": "401-423-0803",
+     "hours": "No toll",
+     "url": "https://www.ritba.org/wp-content/uploads/2025/06/RITBA_FY2026Budget.pdf",
+     "src": "ritba.org",
+     "town": "North Kingstown / Jamestown"
+    },
+    {
+     "name": "Martha’s Vineyard Fast Ferry — Quonset Point",
+     "blurb": "The Quonset Point ferry provides seasonal high-speed passenger service to Oak Bluffs on Martha’s Vineyard. Paid parking is available at the terminal, and the operator recommends allowing extra time for boarding and land connections. Has: high-speed ferry, passenger service, paid parking, reservations, bicycle fares.",
+     "address": "1347 Roger Williams Way, North Kingstown, RI 02852",
+     "phone": "401-295-4040",
+     "hours": "2026 season completed; operator says service returns in 2027 · 2026 advance adult rates: off-peak $75 one way or $115 round trip; peak $85 or $135; fuel surcharge and applicable extras additional",
+     "url": "https://www.fastferry.com/marthas-vineyard-fast-ferry/",
+     "src": "fastferry.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Wickford Junction Station — MBTA",
+     "blurb": "Wickford Junction is the southern Rhode Island terminus of MBTA commuter service toward Providence and Boston. Its parking facility provides an alternative to driving into Providence, with RIPTA connections at the station. Has: MBTA, parking, bus connections, park and ride.",
+     "address": "1011 Ten Rod Road, North Kingstown, RI 02852",
+     "phone": "",
+     "hours": "Weekday commuter rail; parking available 24 hours daily · Parking: no charge",
+     "url": "https://www.ridetherailsri.com/",
+     "src": "ridetherailsri.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Blackstone Valley Tourism",
+     "blurb": "Industrial heritage, river experiences, cultural attractions, and northern Rhode Island exploration.",
+     "address": "Northern Rhode Island",
+     "phone": "",
+     "hours": "",
+     "url": "https://bvtcri.org/",
+     "src": "bvtcri.org"
+    },
+    {
+     "name": "RIPTA R-Line — Pawtucket and Providence",
+     "blurb": "The R-Line provides a major north–south bus connection through Pawtucket and Providence. It connects with commuter rail at Pawtucket–Central Falls and serves the corridor used to reach Roger Williams Park. Has: bus, high-frequency corridor, rail connection, park access.",
+     "address": "Pawtucket / Providence",
+     "phone": "401-781-9400",
+     "hours": "Standard Wave fare: $2 for one hour of rides; $6 daily cap; $70 calendar-month cap",
+     "url": "https://www.ripta.com/sites/default/files/2026-04/System%20Map_Winter%202026.pdf",
+     "src": "ripta.com",
+     "town": "Pawtucket / Providence"
+    },
+    {
+     "name": "Blackstone Valley Visitor Center",
+     "blurb": "This visitor center faces Slater Mill and offers regional maps, exhibits and trip information. Parking is behind the building off Roosevelt Avenue. Has: visitor center, maps, parking, restrooms, exhibits, RIPTA connection.",
+     "address": "175 Main Street, Pawtucket, RI",
+     "phone": "401-724-2200",
+     "hours": "Friday–Monday 10:00 AM–4:00 PM",
+     "url": "https://tourblackstone.com/plan/visitor-centers/",
+     "src": "tourblackstone.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Pawtucket Blackstone Valley Visitor Center",
+     "blurb": "This visitor center across from Slater Mill introduces the Blackstone Valley and provides regional travel information. Parking is behind the building off Roosevelt Avenue, and restrooms and a gift shop are available inside. Has: visitor information, maps, parking, restrooms, gift shop, exhibits.",
+     "address": "175 Main Street, Pawtucket, RI",
+     "phone": "401-724-2200",
+     "hours": "Friday–Monday 10am–4pm",
+     "url": "https://tourblackstone.com/plan/visitor-centers/",
+     "src": "tourblackstone.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Pawtucket–Central Falls Transit Center — MBTA",
+     "blurb": "This station connects Pawtucket and Central Falls with MBTA Providence–Stoughton commuter trains. An adjoining RIPTA hub supports transfers, and the city reports 475 parking spaces. Has: MBTA, parking, RIPTA connections, R-Line.",
+     "address": "300 Pine Street, Pawtucket, RI 02860",
+     "phone": "",
+     "hours": "Weekday and weekend commuter rail; departures vary",
+     "url": "https://pawtucketri.gov/planning-and-redevelopment/pawtucket-central-falls-transit-hub/",
+     "src": "pawtucketri.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "RIPTA Pawtucket–Central Falls ticket window",
+     "blurb": "This transit-center ticket window sells and reloads Wave cards. Confirm holiday opening arrangements before visiting. Has: RIPTA, ticket window, Wave cards, MBTA connection.",
+     "address": "300 Pine Street, Pawtucket, RI 02860",
+     "phone": "401-784-9500 ext. 2012",
+     "hours": "Monday–Friday 8:00 AM–4:00 PM; closed noon–1:00 PM · Wave card $10, including $5 activation and $5 stored value",
+     "url": "https://wave.ripta.com/get-a-card/",
+     "src": "wave.ripta.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Washington Bridge and I-195 construction travel information",
+     "blurb": "As of November 1, 2026, both travel directions use the eastbound bridge while the westbound replacement is built. RIDOT has announced an I-195 closure near Taunton Avenue from 10pm November 6, with staged reopening November 7 and all lanes expected open by noon. Has: road bridge, construction, detours, traffic cameras, travel alerts.",
+     "address": "I-195 across the Seekonk River, Providence and East Providence, RI, Providence / East Providence",
+     "phone": "",
+     "hours": "Temporary traffic pattern; check current advisories before travel",
+     "url": "https://www.dot.ri.gov/projects/WashingtonBridge/",
+     "src": "dot.ri.gov",
+     "town": "Providence / East Providence"
+    },
+    {
+     "name": "RIPTA Route 24L — Providence, Fall River and Newport",
+     "blurb": "Route 24L provides a limited-stop regional link between Providence, Fall River and Newport. Its commuter-oriented schedule makes checking the return trip particularly important. Has: bus, limited stops, weekday service, regional connection.",
+     "address": "Providence / Newport",
+     "phone": "401-781-9400",
+     "hours": "Weekday peak-period service; consult the current timetable · Standard Wave fare: $2 for one hour of rides; $6 daily cap; $70 calendar-month cap",
+     "url": "https://ripta.com/newport-2/",
+     "src": "ripta.com",
+     "town": "Providence / Newport"
+    },
+    {
+     "name": "Biltmore Garage",
+     "blurb": "The Biltmore Garage is a parking option near Kennedy Plaza and downtown hotels. Obtain the posted or reserved rate before entering, particularly during downtown events. Has: parking garage, downtown access.",
+     "address": "51 Washington Street, Providence, RI 02903",
+     "phone": "",
+     "hours": "24 hours daily",
+     "url": "https://www.downtownprovidence.com/biltmore-garage/",
+     "src": "downtownprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Bridge Street Garage",
+     "blurb": "United Parking lists this garage among its Providence locations. Its booking portal provides availability for the selected visit. Has: parking, garage, reservations.",
+     "address": "60 Bridge Street, Providence, RI 02903",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.parkwithunited.com/home-1-1",
+     "src": "parkwithunited.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Center Place Garage",
+     "blurb": "The parking operator lists a Stillman Street entrance for this downtown garage. Check the selected date for booking availability and price. Has: parking, covered garage, reservations, downtown.",
+     "address": "Stillman Street entrance, Providence, RI 02903",
+     "phone": "401-274-5586",
+     "hours": "24/7",
+     "url": "https://parking.com/providence/lot/50-park-row",
+     "src": "parking.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Civic Center Parking Garage",
+     "blurb": "The Civic Center Garage is listed among parking options for Providence Performing Arts Center visitors. Its Washington Street location also serves the western part of downtown. Has: parking garage, theater access, downtown access.",
+     "address": "165 Washington Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.ppacri.org/visit/parking",
+     "src": "ppacri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Electrify America — Providence Walmart",
+     "blurb": "Electrify America lists a public charging location at the Providence Walmart on Silver Spring Street. Use the operator’s live station page or app to check available chargers, compatible connectors and session pricing. Has: EV charging, DC fast charging, parking, shopping nearby.",
+     "address": "51 Silver Spring Street, Providence, RI 02904",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.electrifyamerica.com/locate-charger/ri/providence/51-silver-spring-street/100622/",
+     "src": "electrifyamerica.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Innovation District Garage",
+     "blurb": "This garage beside the Garrahy Courthouse serves the Jewelry District and nearby downtown destinations. Eight EV charging stations are on level 2, and normal parking charges apply to charging visits. Has: parking garage, accessible parking, elevators, EV charging, reservations.",
+     "address": "75 Clifford Street, Providence, RI 02903",
+     "phone": "401-458-6021",
+     "hours": "24 hours daily · $5 up to 1 hour; $7 up to 2 hours; $9 up to 4 hours; $12 up to 8 hours; $15 up to 12 hours; $20 up to 24 hours; add 7% tax",
+     "url": "https://www.innovationdistrictgarage.com/ratespay",
+     "src": "innovationdistrictgarage.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Kennedy Plaza transit hub and ticket window",
+     "blurb": "Kennedy Plaza is a central transfer point for RIPTA routes serving Providence and other Rhode Island communities. The ticket window sells and reloads Wave cards during its published weekday hours. Has: bus hub, transfers, ticket window, Wave cards.",
+     "address": "Kennedy Plaza, Dorrance Street and Washington Street, Providence, RI",
+     "phone": "401-781-9400",
+     "hours": "Ticket window Monday–Friday 8am–3:30pm; closed noon–1pm · Standard Wave fare: $2 for one hour of rides; $6 daily cap; $70 calendar-month cap",
+     "url": "https://wave.ripta.com/get-a-card/",
+     "src": "wave.ripta.com",
+     "town": "Providence"
+    },
+    {
+     "name": "OurBus Providence stop",
+     "blurb": "OurBus lists its Providence boarding point in front of the convention center beside the Omni entrance. Verify the destination, departure and exact pickup instructions on your booked ticket. Has: intercity bus, downtown, online tickets.",
+     "address": "1 Sabin Street, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.ourbus.com/stopdetails/providence",
+     "src": "ourbus.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Peter Pan downtown Providence stop",
+     "blurb": "Peter Pan also serves a downtown stop at the Rhode Island Convention Center. Select this stop explicitly when booking because it is separate from the terminal at Peter Pan Way. Has: intercity bus, downtown stop, online booking.",
+     "address": "Rhode Island Convention Center, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://peterpanbus.com/destinations/providence/",
+     "src": "peterpanbus.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Peter Pan Providence Bus Terminal",
+     "blurb": "Peter Pan’s main Providence terminal offers intercity connections including Boston, Logan Airport and New York. Paid overnight parking is available on site, and tickets should be purchased before departure. Has: intercity bus, airport connection, paid parking, overnight parking, ticket counter.",
+     "address": "1 Peter Pan Way, Providence, RI 02904",
+     "phone": "",
+     "hours": "Ticket counter Thursday–Monday 6am–6:30pm; Tuesday–Wednesday 6am–3pm",
+     "url": "https://peterpanbus.com/locations/rhode-island/providence-terminal",
+     "src": "peterpanbus.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Peter Pan Providence Convention Center stop",
+     "blurb": "Peter Pan boards at the bus shelter behind the convention center near the Omni and Exchange Street tunnel. The ticket counter is closed, so buy your ticket before departure. Has: intercity bus, downtown, online tickets, nearby garage.",
+     "address": "99 West Exchange Street, Providence, RI 02903",
+     "phone": "",
+     "hours": "",
+     "url": "https://peterpanbus.com/locations/rhode-island/providence-downtown/",
+     "src": "peterpanbus.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Amtrak station garage",
+     "blurb": "The underground station garage entrance is on the downtown side of the station. Overnight parking is available. Has: parking, underground garage, Amtrak connection, overnight parking.",
+     "address": "5 Railroad Street, Providence, RI 02903",
+     "phone": "401-351-8983",
+     "hours": "Daily 5:00 AM–1:30 AM",
+     "url": "https://www.metroparkltd.com/",
+     "src": "metroparkltd.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence metered and overnight street parking",
+     "blurb": "Providence meters accept several payment methods, but posted time limits still apply after payment. Overnight street parking requires a permit, and restrictions such as bus stops and blocked driveways remain enforceable at all times. Has: metered parking, mobile payment, time limits, overnight permit required.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "Meter enforcement Monday–Saturday 8am–9pm; overnight permit required 2am–5am · City page lists $1.25 per hour; short-term spaces $0.75 per 30 minutes; Sundays and holidays no charge; verify posted zone rate",
+     "url": "https://www.providenceri.gov/public-works/parkingfaqs/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Place North Garage",
+     "blurb": "The North Garage serves Providence Place from the Hayes Street side near the northern shops and restaurants. Pay at a station or through the operator’s mobile payment options before leaving. Has: parking garage, accessible parking, shopping access, mobile payment.",
+     "address": "11 Providence Place; north entrance by Hayes Street, Providence, RI 02903",
+     "phone": "401-270-4421",
+     "hours": "24 hours daily · 0–2 hours: no charge; 2–5 hours: $2; 5–8 hours: $15; 8–20 hours: $20; 20–24 hours: $25",
+     "url": "https://www.providenceplace.com/services/",
+     "src": "providenceplace.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Place South Garage",
+     "blurb": "The South Garage serves the Macy’s and Omni skybridge side of Providence Place. It uses the same published visitor parking schedule as the North Garage. Has: parking garage, accessible parking, skybridge, shopping access.",
+     "address": "11 Providence Place; south entrance on Park Street, Providence, RI 02903",
+     "phone": "401-270-4421",
+     "hours": "24 hours daily · 0–2 hours: no charge; 2–5 hours: $2; 5–8 hours: $15; 8–20 hours: $20; 20–24 hours: $25",
+     "url": "https://www.providenceplace.com/services/",
+     "src": "providenceplace.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Station underground parking garage",
+     "blurb": "MetroPark operates the underground garage at Providence Station. Enter from the downtown side of the station rather than the State House side, and confirm the current parking rate with the operator. Has: parking garage, train connection, overnight parking, credit cards.",
+     "address": "5 Railroad Street, Providence, RI 02903",
+     "phone": "401-351-8983",
+     "hours": "Daily 5am–1:30am; overnight parking available",
+     "url": "https://www.metroparkltd.com/",
+     "src": "metroparkltd.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Station — Amtrak and MBTA",
+     "blurb": "Providence Station serves Amtrak Acela and Northeast Regional trains along with MBTA commuter rail. It places arriving visitors near the State House and downtown, with RIPTA connections available. Has: Amtrak, Acela, Northeast Regional, MBTA, waiting room, bus connections.",
+     "address": "100 Gaspee Street, Providence, RI 02903",
+     "phone": "800-872-7245",
+     "hours": "",
+     "url": "https://www.amtrak.com/stations/pvd",
+     "src": "amtrak.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence street parking and overnight rules",
+     "blurb": "Use posted signs and the city’s payment system for street parking. Overnight street parking between 2:00 AM and 5:00 AM requires the applicable permit. Has: street parking, mobile payment, time limits, overnight permit required.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "Meter enforcement: Monday–Saturday 8:00 AM–9:00 PM; overnight permit rules apply 2:00 AM–5:00 AM · Meters: no charge Sundays and city-observed holidays; other rates and time limits depend on the space",
+     "url": "https://www.providenceri.gov/public-works/parkingfaqs/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Visitor Information Center",
+     "blurb": "The downtown visitor center provides local advice, transportation recommendations and walking-tour maps. Public restrooms, a retail shop and an ATM are available on the premises. Has: visitor information, maps, restrooms, ATM, gift shop.",
+     "address": "1 Sabin Street, Rhode Island Convention Center street level, Providence, RI 02903",
+     "phone": "401-751-1177",
+     "hours": "Tuesday–Saturday 10am–4pm",
+     "url": "https://www.goprovidence.com/about-us/visitor-info-center/",
+     "src": "goprovidence.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence–Bristol–Newport ferry",
+     "blurb": "Seastreak’s seasonal service links Providence and Newport, with Bristol stops on selected operating days. Providence terminal parking and the connecting downtown shuttle are provided at no additional charge during the season. Has: passenger ferry, seasonal, parking, accessible terminal, bicycle reservations, shuttle connection.",
+     "address": "25 Portugal Parkway, Providence, RI 02903",
+     "phone": "800-262-8743",
+     "hours": "2026 season: June 12–October 12; season completed · 2026 adult fare: $12 one way or $24 round trip; 3% booking fee",
+     "url": "https://seastreak.com/ferry-routes-and-schedules/between-providence-newport-ri/",
+     "src": "seastreak.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island Convention Center North Garage",
+     "blurb": "The North Garage connects with the convention center, Omni Hotel and Amica Mutual Pavilion. EV spaces are on level 4 near the hotel connector, and standard parking charges apply when entering to charge. Has: parking garage, EV charging, hotel connection, reservations.",
+     "address": "99 West Exchange Street, Providence, RI",
+     "phone": "401-458-6765",
+     "hours": "24 hours daily · $8 up to 1 hour; $10 up to 2 hours; $13 up to 3 hours; $16 up to 4 hours; $25 for 4–24 hours; event rate $25; add 7% tax",
+     "url": "https://www.riconvention.com/attend/directions-parking",
+     "src": "riconvention.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island State House Visitor Center",
+     "blurb": "The State House includes a visitor center and gift shop for people exploring the building. Check the official visitor information before arrival for tours and entry arrangements. Has: visitor center, gift shop, historic building, tours.",
+     "address": "82 Smith Street, Providence, RI",
+     "phone": "401-330-3111",
+     "hours": "State House: Monday–Friday 8:30 AM–4:30 PM; closed weekends and holidays · Admission: no charge",
+     "url": "https://www.sos.ri.gov/divisions/civics-and-education/ri-state-house",
+     "src": "sos.ri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "RIPTA Kennedy Plaza ticket window",
+     "blurb": "The Kennedy Plaza window sells and reloads Wave fare cards. The published window hours are separate from bus operating hours. Has: RIPTA, ticket window, Wave cards, bus transfers.",
+     "address": "Kennedy Plaza, Providence, RI",
+     "phone": "401-784-9500 ext. 2012",
+     "hours": "Monday–Friday 8:00 AM–3:30 PM; closed noon–1:00 PM · Wave card $10, including $5 activation and $5 stored value",
+     "url": "https://wave.ripta.com/get-a-card/",
+     "src": "wave.ripta.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams National Memorial Visitor Center",
+     "blurb": "The National Park Service visitor center offers maps, staff assistance and exhibits about the site. Accessible restrooms and visitor parking are available, with parking limited to two hours for park use. Has: visitor information, accessible, restrooms, parking, bicycle rack, exhibits.",
+     "address": "282 North Main Street, Providence, RI 02903",
+     "phone": "401-521-7266",
+     "hours": "Thursday–Sunday 10am–4pm; closed Thanksgiving Day, Christmas Day and New Year’s Day",
+     "url": "https://home.nps.gov/rowi/visitor-center.htm",
+     "src": "home.nps.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "South Street Landing Garage",
+     "blurb": "South Street Landing provides indoor self-parking in the Eddy Street corridor. The operator confirms accessible parking and EV charging, but its displayed rate table is dated 2019 and is not treated here as a current quote. Has: parking garage, accessible parking, EV charging, indoor self-park.",
+     "address": "330 Eddy Street, Providence, RI 02903",
+     "phone": "401-919-1813",
+     "hours": "24 hours daily",
+     "url": "https://www.lazparking.com/local/providence-ri/south-street-landing-garage",
+     "src": "lazparking.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Arcade Garage",
+     "blurb": "The Arcade Garage provides downtown parking on Weybosset Street. Visitors can use the published early-bird option, while other access arrangements and rates should be confirmed with the operator. Has: parking garage, weekday parking, monthly parking.",
+     "address": "66 Weybosset Street, Providence, RI 02903",
+     "phone": "401-331-0050",
+     "hours": "Early-bird entry by 9am and exit by 6pm on weekdays; 24/7 access for qualifying monthly customers · Early-bird weekday parking: $28",
+     "url": "https://www.thearcadegarage.com/parking",
+     "src": "thearcadegarage.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Providence G Garage",
+     "blurb": "The Providence G offers daily and monthly garage parking. Contact the operator about vehicle requirements and the access arrangements for your booking. Has: parking, covered garage, overnight parking, downtown.",
+     "address": "100 Dorrance Street, Providence, RI 02903",
+     "phone": "401-585-8005",
+     "hours": "1 hour $12; 2 hours $16; 3 hours $19; 4 hours $21; 5+ hours $25; overnight $30",
+     "url": "https://ghospitality.net/venues/garage/",
+     "src": "ghospitality.net",
+     "town": "Providence"
+    },
+    {
+     "name": "Union Station Plaza Garage",
+     "blurb": "Union Station Plaza offers covered parking near downtown’s riverfront and former station complex. The garage clearance is 6 feet 10 inches, so taller vehicles should contact the operator about its separate surface lot. Has: parking garage, daily parking, monthly parking, height restriction.",
+     "address": "5 Memorial Boulevard, Providence, RI 02903",
+     "phone": "401-602-0703",
+     "hours": "Up to 15 minutes: no charge; up to 1 hour $8.56; 2 hours $17.12; 3 hours $25.68; 9 hours $34.24; 24 hours $42.80; tax included",
+     "url": "https://unionstationparking.com/",
+     "src": "unionstationparking.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Union Station surface parking lot",
+     "blurb": "This surface lot is the open-air alternative to the Union Station Plaza Garage. It has no overhead height restriction, but the operator notes limited space. Has: surface parking, limited availability, no overhead height restriction.",
+     "address": "30 Exchange Street, Providence, RI 02903",
+     "phone": "401-602-0703",
+     "hours": "",
+     "url": "https://unionstationparking.com/",
+     "src": "unionstationparking.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island I-95 North Welcome Center — temporary facilities",
+     "blurb": "RIDOT’s 2026 renovation notice moves restroom and tourist-information services to temporary facilities beside the welcome-center building. The building was expected to reopen in late fall, but reopening had not been confirmed for this directory. Has: visitor information, temporary restrooms, highway rest stop, limited vending.",
+     "address": "I-95 North between Exit 4 and Exit 7, Richmond, RI",
+     "phone": "",
+     "hours": "Temporary restrooms and tourist-information facilities open 24 hours daily",
+     "url": "https://www.ri.gov/press/view/50238",
+     "src": "ri.gov",
+     "town": "Richmond"
+    },
+    {
+     "name": "Rhode Island Welcome Center — Richmond renovation and temporary facilities",
+     "blurb": "RIDOT announced temporary visitor-information and restroom facilities while renovating the welcome-center building in 2026. The announced building reopening target was late fall, but a completed reopening was not verified for this directory. Has: visitor center, highway rest area, temporary restrooms, construction.",
+     "address": "I-95 northbound between exits 4 and 7, Richmond, RI",
+     "phone": "",
+     "hours": "Temporary visitor-information and restroom facilities advertised 24/7 during renovation",
+     "url": "https://www.ri.gov/press/view/50238",
+     "src": "ri.gov",
+     "town": "Richmond"
+    },
+    {
+     "name": "Kingston Station — Amtrak",
+     "blurb": "Kingston Station serves Amtrak Northeast Regional passengers visiting South County and the University of Rhode Island area. The station has accessible high-level platforms, parking and a connection to the William C O’Neill Bike Path. Has: Amtrak, Northeast Regional, accessible platforms, parking, bus connections, bike path.",
+     "address": "1 Railroad Avenue, West Kingston, RI 02892, South Kingstown",
+     "phone": "800-872-7245",
+     "hours": "",
+     "url": "https://www.greatamericanstations.com/stations/kingston-ri-kin/",
+     "src": "greatamericanstations.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "South County Tourism",
+     "blurb": "Regional information for coastal communities, inland outings, shopping districts, and seasonal travel.",
+     "address": "Southern Rhode Island",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountyri.com/",
+     "src": "southcountyri.com"
+    },
+    {
+     "name": "Rhode Island Beach Status",
+     "blurb": "Department of Health information for checking current monitored-beach swimming advisories.",
      "address": "Statewide",
      "phone": "",
      "hours": "",
-     "url": "https://www.ripta.com/",
-     "src": "ripta.com"
+     "url": "https://health.ri.gov/beaches",
+     "src": "health.ri.gov"
     },
     {
      "name": "Ridot Travel Advisories",
@@ -19462,13 +20223,402 @@
      "src": "dot.ri.gov"
     },
     {
-     "name": "Rhode Island Beach Status",
-     "blurb": "Department of Health information for checking current monitored-beach swimming advisories.",
+     "name": "RIPTA",
+     "blurb": "Public bus routes and schedules for visitors planning travel without a car.",
      "address": "Statewide",
      "phone": "",
      "hours": "",
-     "url": "https://health.ri.gov/beaches",
-     "src": "health.ri.gov"
+     "url": "https://www.ripta.com/",
+     "src": "ripta.com"
+    },
+    {
+     "name": "Visit Rhode Island",
+     "blurb": "State tourism information for attractions, trip ideas, regions, and visitor planning.",
+     "address": "Statewide",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/",
+     "src": "visitrhodeisland.com"
+    },
+    {
+     "name": "Sakonnet River Bridge",
+     "blurb": "The Sakonnet River Bridge carries Route 24 between Tiverton and Portsmouth. It is a principal approach to Aquidneck Island from southeastern Massachusetts and the eastern side of Rhode Island. Has: road bridge, Route 24, Aquidneck Island access.",
+     "address": "Route 24 between Tiverton and Portsmouth, RI, Tiverton / Portsmouth",
+     "phone": "401-423-0803",
+     "hours": "No toll",
+     "url": "https://www.ritba.org/wp-content/uploads/2025/06/RITBA_FY2026Budget.pdf",
+     "src": "ritba.org",
+     "town": "Tiverton / Portsmouth"
+    },
+    {
+     "name": "RIPTA Route 1 — airport, Providence and Pawtucket",
+     "blurb": "Route 1 links the airport and Warwick corridor with Providence and the Pawtucket–Central Falls transit center. Check the destination and trip pattern because the route includes different southern destinations. Has: bus, airport connection, rail connection, urban transit.",
+     "address": "Warwick / Providence / Pawtucket",
+     "phone": "401-781-9400",
+     "hours": "Standard Wave fare: $2 for one hour of rides; $6 daily cap; $70 calendar-month cap",
+     "url": "https://www.ripta.com/sites/default/files/2026-01/Route%201%201_26%20final.pdf",
+     "src": "ripta.com",
+     "town": "Warwick / Providence / Pawtucket"
+    },
+    {
+     "name": "Airport InterLink rental-car and transportation center",
+     "blurb": "The InterLink combines rental cars, commuter rail and bus connections in one airport facility. A skywalk connects it with the passenger terminal. Has: rental cars, MBTA, RIPTA, parking, terminal skywalk.",
+     "address": "700 Jefferson Boulevard, Warwick, RI 02886",
+     "phone": "",
+     "hours": "",
+     "url": "https://flyri.com/passengers/interlink/",
+     "src": "flyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "EVgo — Target Warwick",
+     "blurb": "EVgo lists four 100 kW charging stalls at the Warwick Target location. The station page identifies CCS and CHAdeMO connectors, with current availability and prices supplied through the network app. Has: EV charging, DC fast charging, CCS, CHAdeMO, shopping nearby.",
+     "address": "1245 Bald Hill Road, Warwick, RI 02886",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.evgo.com/find-a-charger/ri/warwick/73794/",
+     "src": "evgo.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD airport information center",
+     "blurb": "Airport visitors can contact the information center for help with airport services. Use the airport’s current passenger pages for transportation and terminal arrangements. Has: visitor information, airport services, ground transportation.",
+     "address": "2000 Post Road, T. F. Green Airport, Warwick, RI 02886",
+     "phone": "401-691-2471",
+     "hours": "",
+     "url": "https://flyri.com/passengers/general-information/",
+     "src": "flyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD cell-phone waiting lot",
+     "blurb": "Drivers waiting for arriving passengers can use this lot before proceeding to the terminal curb. Vehicles must remain attended, and commercial vehicles and vehicles for hire are not permitted. Has: parking, passenger pickup, attended vehicles only.",
+     "address": "2200 Post Road, Warwick, RI",
+     "phone": "",
+     "hours": "No charge",
+     "url": "https://flyri.com/passengers/picking-up-dropping-off/",
+     "src": "flyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD Garage A",
+     "blurb": "Garage A offers covered parking beside the airport terminal with a covered walking connection. EV charging is on level 2, and accessible parking is on levels 1 and 3. Has: parking garage, covered walkway, accessible parking, EV charging, reservations.",
+     "address": "Airport Loop Road, T. F. Green Airport, Warwick, RI",
+     "phone": "",
+     "hours": "$7 up to 1 hour; $14 up to 2 hours; $21 up to 3 hours; $27 up to 4 hours; $34 up to 5 hours; $39 up to 24 hours; taxes included; reservation fees may apply",
+     "url": "https://parkpvdairport.com/parking/garage-a/",
+     "src": "parkpvdairport.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD Garage B",
+     "blurb": "Garage B offers covered airport parking beside Garage A. Its covered connection leads through Garage A toward the terminal, and accessible spaces are on level 1. Has: parking garage, covered walkway, accessible parking, reservations.",
+     "address": "Airport Loop Road, T. F. Green Airport, Warwick, RI",
+     "phone": "",
+     "hours": "$7 up to 1 hour; $14 up to 2 hours; $21 up to 3 hours; $27 up to 4 hours; $31 up to 24 hours; taxes and fees included",
+     "url": "https://parkpvdairport.com/parking/garage-b/",
+     "src": "parkpvdairport.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD InterLink rental-car and transportation hub",
+     "blurb": "The InterLink combines the airport’s rental-car facilities, commuter parking and MBTA station. A skywalk connects the hub with the airport terminal. Has: rental cars, commuter rail, parking garage, airport skywalk, bus connections.",
+     "address": "700 Jefferson Boulevard, Warwick, RI 02886",
+     "phone": "",
+     "hours": "",
+     "url": "https://flyri.com/passengers/interlink/",
+     "src": "flyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD Lot D",
+     "blurb": "Lot D is the surface lot directly in front of the terminal and accommodates both short stays and longer parking. Accessible parking is available, with EV charging beneath the skywalk. Has: surface parking, accessible parking, EV charging, reservations.",
+     "address": "Airport Loop Road, T. F. Green Airport, Warwick, RI",
+     "phone": "",
+     "hours": "$7 up to 1 hour; $11 up to 2 hours; $14 up to 3 hours; $18 up to 4 hours; $31 up to 24 hours; taxes included; reservation fees may apply",
+     "url": "https://parkpvdairport.com/parking/lot-d/",
+     "src": "parkpvdairport.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD Lot E",
+     "blurb": "Lot E offers extended-stay surface parking on airport property. An accessible shuttle runs to the terminal around the clock at no additional charge. Has: parking, accessible parking, accessible shuttle, reservations.",
+     "address": "Airport Connector Road or Post Road entrance, Warwick, RI",
+     "phone": "",
+     "hours": "24-hour airport shuttle · $7 up to 1 hour; $15 up to 2 hours; $22 up to 24 hours; taxes and fees included",
+     "url": "https://parkpvdairport.com/parking/lot-e/",
+     "src": "parkpvdairport.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD taxi and app-based ride pickup",
+     "blurb": "Taxis collect passengers outside the lower-level baggage-claim area, and app-based rides use the designated outer arrivals roadway. Follow airport signs and the pickup instructions in your ride app after collecting baggage. Has: taxis, ride sharing, airport pickup, airport drop-off.",
+     "address": "Lower-level arrivals roadway, 2000 Post Road, Warwick, RI 02886",
+     "phone": "",
+     "hours": "",
+     "url": "https://flyri.com/passengers/taxi-ride-sharing/",
+     "src": "flyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "PVD taxi and rideshare pickup",
+     "blurb": "Taxi and app-based pickup areas are outside lower-level baggage claim. Follow the airport’s signs and your ride instructions to the designated pickup area. Has: taxis, rideshare, airport pickup.",
+     "address": "Lower-level arrivals roadway, 2000 Post Road, Warwick, RI 02886",
+     "phone": "",
+     "hours": "",
+     "url": "https://flyri.com/passengers/taxi-ride-sharing/",
+     "src": "flyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Rhode Island T. F. Green International Airport (PVD)",
+     "blurb": "This is Rhode Island’s principal commercial airport and the main air gateway for Providence and the state. The airport provides terminal assistance and links to rental cars, buses, taxis and commuter rail. Has: airport, passenger assistance, parking, ground transportation.",
+     "address": "2000 Post Road, Warwick, RI 02886",
+     "phone": "401-691-2000",
+     "hours": "",
+     "url": "https://flyri.com/passengers/general-information/",
+     "src": "flyri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Route 117 Park & Ride EV charging",
+     "blurb": "This Warwick park-and-ride hosts completed state fast-charging infrastructure. The charging network provides current equipment status before a session. Has: EV charging, DC fast charging, parking, park and ride, I-95 access.",
+     "address": "Route 117 at I-95, Warwick, RI",
+     "phone": "",
+     "hours": "State DC fast charging $0.39/kWh; published idle fees apply",
+     "url": "https://energy.ri.gov/transportation/ri-nevi-program/phase-1",
+     "src": "energy.ri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "T. F. Green Airport Station — MBTA",
+     "blurb": "The airport commuter-rail station is in the InterLink facility connected to the terminal by a skywalk. Check the current MBTA timetable before pairing a flight with a train because the published regular rail service is on weekdays. Has: MBTA, airport connection, parking garage, rental cars, skywalk.",
+     "address": "700 Jefferson Boulevard, Warwick, RI 02886",
+     "phone": "",
+     "hours": "Weekday commuter rail; check the current timetable",
+     "url": "https://www.ridetherailsri.com/",
+     "src": "ridetherailsri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Route 117 Park & Ride EV chargers",
+     "blurb": "The Warwick park-and-ride is one of Rhode Island’s operating NEVI corridor charging locations. Check the charging network for the usable connectors and live stall status before turning off the highway. Has: EV charging, DC fast charging, Level 2, park and ride, parking.",
+     "address": "292 Centerville Road, Warwick, RI 02886",
+     "phone": "",
+     "hours": "State policy: Level 2 $0.28/kWh; DC fast charging $0.39/kWh; idle fees may apply",
+     "url": "https://energy.ri.gov/transportation/ri-nevi-program/phase-1",
+     "src": "energy.ri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Tourism, Culture and Development office",
+     "blurb": "Warwick’s tourism office is a contact point for information about the city and local visitor services. Contact the office before an in-person visit because walk-in hours were not confirmed. Has: tourism information, local planning assistance.",
+     "address": "3275 Post Road, Warwick, RI 02886",
+     "phone": "401-738-2014",
+     "hours": "",
+     "url": "https://visitwarwickri.com/contact/",
+     "src": "visitwarwickri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "New England Airlines — Westerly to Block Island",
+     "blurb": "Scheduled flights connect Westerly with Block Island in about 12 minutes. Reservations are made by telephone, and the airline asks passengers to check in 30 minutes before departure. Has: scheduled flights, island connection, telephone reservations.",
+     "address": "56 Airport Road, Westerly, RI 02891",
+     "phone": "401-596-2460",
+     "hours": "Year-round daily flights; November 2026 weekday departures 7:30am, 8:30am, 9:30am, 11:30am, 1:30pm, 2:30pm, 3:30pm, 4:30pm; weekend departures 7:30am, 9:30am, 11:30am, 1:30pm, 3:30pm, 4:30pm",
+     "url": "https://blockislands-airline.com/",
+     "src": "blockislands-airline.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Ocean Community Chamber welcome center",
+     "blurb": "This welcome center provides visitor information for Westerly and the surrounding region. Its coverage includes Watch Hill, Misquamicut, Richmond and Hopkinton. Has: visitor center, regional information, coastal travel.",
+     "address": "1 Chamber Way, Westerly, RI 02891",
+     "phone": "401-596-7761",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/ocean-community-chamber-of-commerce/11299/",
+     "src": "visitrhodeisland.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Station — Amtrak",
+     "blurb": "Westerly Station is an Amtrak Northeast Regional gateway to the southwestern Rhode Island coast. Arrange onward transportation for destinations outside the downtown area and use Amtrak’s booking system for the chosen travel date. Has: Amtrak, Northeast Regional, parking, downtown access.",
+     "address": "14 Railroad Avenue, Westerly, RI 02891",
+     "phone": "800-872-7245",
+     "hours": "",
+     "url": "https://www.greatamericanstations.com/stations/westerly-ri-wly/",
+     "src": "greatamericanstations.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "MBTA Providence–Stoughton timetable and trip planning",
+     "blurb": "The MBTA timetable is the reference for selecting a train between Rhode Island and Boston. Check date-specific alerts because construction schedules and replacement buses can change the usual trip. Has: commuter rail, timetables, service alerts, trip planning.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.mbta.com/schedules/CR-Providence/timetable",
+     "src": "mbta.com",
+     "town": ""
+    },
+    {
+     "name": "Rhode Island public EV charging locator",
+     "blurb": "The state’s charging page links to the federal AFDC station locator and the state-owned charging map. Distinguish operating sites from awarded or planned projects, and verify live availability with the charging network. Has: EV charging, statewide locator, connector search, trip planning.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://energy.ri.gov/transportation/ri-nevi-program/nevi-charging-maps",
+     "src": "energy.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "Rhode Island state-beach parking passes",
+     "blurb": "The state-beach parking system covers eight saltwater beach lots and uses license-plate-based passes. The 2026 staffed beach season has ended, and the state says 2027 passes become available online in January. Has: beach parking, seasonal passes, daily parking, online purchase.",
+     "address": "",
+     "phone": "401-667-6200",
+     "hours": "2026 staffed season completed; state beaches remain accessible off-season · 2026 nonresident daily: $12 weekdays or $14 weekends/holidays; Misquamicut $20 or $30; nonresident season pass $60; resident and senior rates differ",
+     "url": "https://riparks.ri.gov/beaches",
+     "src": "riparks.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "Rhode Island statewide public EV charging locator",
+     "blurb": "The state links to the federal station locator for publicly available charging across Rhode Island. Its separate NEVI map includes operational, awarded and developing sites, so check each site’s status before using it. Has: EV charging, statewide locator, public-access filters, connector information.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://energy.ri.gov/transportation/ri-nevi-program/nevi-charging-maps",
+     "src": "energy.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "RIDOT Bike Rhode Island travel resources",
+     "blurb": "RIDOT provides bicycle maps and information for planning trips on Rhode Island’s bike routes. Bicycles are prohibited on the Pell and Jamestown Verrazzano bridges, so plan an appropriate transport connection for those crossings. Has: bicycle map, trip planning, bridge restrictions, bike routes.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/bikeri/",
+     "src": "dot.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "RIDOT park-and-ride location map",
+     "blurb": "RIDOT’s map identifies park-and-ride locations around the state, including highway lots and rail stations. The map itself is dated 2019, so confirm current access and use road names rather than relying on its older exit numbers. Has: park and ride, parking map, rail connections, bus connections.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.dot.ri.gov/travel/park_and_ride.php",
+     "src": "dot.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "RIDOT statewide travel advisories",
+     "blurb": "RIDOT publishes highway and regional road restrictions for travelers planning a drive. Check the current advisory period because construction, weather and overnight closures can alter routes. Has: travel alerts, highway restrictions, detours, trip planning.",
+     "address": "",
+     "phone": "401-222-2378",
+     "hours": "Transportation Management Center staffed 24 hours daily · No charge",
+     "url": "https://dot.ri.gov/travel/traveladvisories.php",
+     "src": "dot.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "RIDOT traffic cameras and traveler information",
+     "blurb": "RIDOT’s traveler-information page provides traffic cameras and links to current incidents and transit alerts. Use the regional camera views to assess conditions before setting out. Has: traffic cameras, traffic incidents, transit alerts, trip planning.",
+     "address": "",
+     "phone": "401-222-2378",
+     "hours": "No charge",
+     "url": "https://dot.ri.gov/travel/",
+     "src": "dot.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "RIPTA RIde paratransit",
+     "blurb": "RIde is RIPTA’s paratransit option for eligible people whose disabilities prevent use of the fixed-route system. Service is generally tied to the fixed-route corridor, so visiting riders should arrange eligibility and trip details before travel. Has: paratransit, accessible transportation, eligibility required, reservations.",
+     "address": "",
+     "phone": "401-461-9760",
+     "hours": "Advance eligibility and trip arrangements required · $4 per trip",
+     "url": "https://ripta.com/newport-2/",
+     "src": "ripta.com",
+     "town": ""
+    },
+    {
+     "name": "RIPTA RIde paratransit information",
+     "blurb": "RIde provides paratransit for eligible people whose disabilities prevent independent use of fixed-route buses. Contact RIPTA before travel to establish eligibility and reservation arrangements. Has: RIPTA, accessible transportation, eligibility required, advance arrangements.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://ripta.com/RIdeParatransit",
+     "src": "ripta.com",
+     "town": ""
+    },
+    {
+     "name": "RIPTA South County Express Beach Bus",
+     "blurb": "The seasonal express service connects northern and central Rhode Island communities with Scarborough, Roger Wheeler and Salty Brine beaches. The 2026 season has ended, and a future season’s timetable should be checked before planning a trip. Has: seasonal bus, beach access, weekend service.",
+     "address": "",
+     "phone": "401-781-9400",
+     "hours": "2026 season: July 4–August 23, weekends and holidays; season completed · $2 one way",
+     "url": "https://business.providencechamber.com/news?q=Rhode+Island+Public+Transit+Authority",
+     "src": "business.providencechamber.com",
+     "town": ""
+    },
+    {
+     "name": "RIPTA statewide system map",
+     "blurb": "The official system map shows bus routes, transfer points and connections to trains, airports and ferry terminals. Use it to identify the appropriate route, then check that route’s current timetable and alerts. Has: bus network, trip planning, transfer points, transit map.",
+     "address": "",
+     "phone": "401-781-9400",
+     "hours": "Standard Wave fare: $2 for one hour of rides; $6 daily cap; $70 calendar-month cap",
+     "url": "https://www.ripta.com/sites/default/files/2026-04/System%20Map_Winter%202026.pdf",
+     "src": "ripta.com",
+     "town": ""
+    },
+    {
+     "name": "RIPTA statewide transit and park-and-ride map",
+     "blurb": "RIPTA’s published winter 2026 system map includes park-and-ride locations and transit connections. Pair it with current schedules and alerts to account for subsequent changes. Has: parking, park and ride, statewide map, RIPTA.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.ripta.com/sites/default/files/2026-04/System%20Map_Winter%202026.pdf",
+     "src": "ripta.com",
+     "town": ""
+    },
+    {
+     "name": "RIPTA Wave fares and passes",
+     "blurb": "Wave lets visitors pay bus fares with a reloadable card or mobile app. Its fare caps limit spending automatically, while a physical card has a separate activation charge. Has: bus fares, mobile tickets, fare capping, reloadable card.",
+     "address": "",
+     "phone": "401-781-9400",
+     "hours": "Standard Wave fare: $2 for one hour of rides; $6 daily cap; $70 calendar-month cap; physical card activation $5",
+     "url": "https://wave.ripta.com/help/",
+     "src": "wave.ripta.com",
+     "town": ""
+    },
+    {
+     "name": "RIPTA Wave fares and payment",
+     "blurb": "Wave lets riders pay with a rechargeable card or mobile app. Fare caps apply automatically as qualifying rides accumulate. Has: RIPTA, bus fares, mobile tickets, transfers, fare capping.",
+     "address": "",
+     "phone": "401-781-9400",
+     "hours": "$2 for one hour of unlimited Wave rides; $6 daily cap; $70 calendar-month cap",
+     "url": "https://wave.ripta.com/help/",
+     "src": "wave.ripta.com",
+     "town": ""
+    },
+    {
+     "name": "State-owned EV charging map and fees",
+     "blurb": "The state map distinguishes public chargers in green from employee and fleet chargers in brown. The posted charging and idle-fee policy took effect January 1, 2025. Has: EV charging, Level 2, DC fast charging, public-access map, idle fees.",
+     "address": "",
+     "phone": "",
+     "hours": "Level 2: $0.28/kWh; DC fast: $0.39/kWh; Level 2 idle $5/hour after full charge and a one-hour grace period; DC idle $0.35/minute after one hour of occupancy",
+     "url": "https://energy.ri.gov/transportation/ev-charging/state-owned-electric-vehicle-ev-charging-locations",
+     "src": "energy.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "State-owned public EV charging — access and fees",
+     "blurb": "The state-owned charging map distinguishes public chargers from employee and fleet locations. Published state charging and idle fees apply, so check the station’s access designation before arriving. Has: EV charging, public-access map, Level 2, DC fast charging, idle fees.",
+     "address": "",
+     "phone": "",
+     "hours": "Level 2: $0.28/kWh; DC fast charging: $0.39/kWh; Level 2 idle fee $5/hour after charging completes plus a one-hour grace period; DC idle fee $0.35/minute after one hour of occupancy",
+     "url": "https://energy.ri.gov/transportation/ev-charging/state-owned-electric-vehicle-ev-charging-locations",
+     "src": "energy.ri.gov",
+     "town": ""
     }
    ]
   },
