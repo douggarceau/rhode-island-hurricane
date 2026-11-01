@@ -34352,6 +34352,952 @@
      "town": ""
     }
    ]
+  },
+  {
+   "key": "amusement",
+   "title": "Amusement Parks & Rides",
+   "items": [
+    {
+     "name": "Police Cove Park Splash Pad",
+     "blurb": "Police Cove offers a small seasonal splash area beside the Barrington River. Its setting includes the adjacent park and public boat ramp. Has: splash pad, waterfront park, boat ramp.",
+     "address": "100–106 County Road, Barrington, RI 02806",
+     "phone": "",
+     "hours": "Season begins Memorial Day weekend; daily 11 am–7 pm; closed in colder months.",
+     "url": "https://barrington.ri.gov/467/Police-Cove-Park-Splash-Pad",
+     "src": "barrington.ri.gov",
+     "town": "Barrington"
+    },
+    {
+     "name": "Bristol Fourth of July Carnival",
+     "blurb": "Bristol's annual Independence Day celebration includes a traveling carnival on the Town Common. The organizer requires tickets or wristbands for every rider and publishes a minimum height of 36 inches for kiddie rides. Has: annual carnival, rides, kiddie rides, food, games, minimum kiddie ride height 36 inches, ride-specific restrictions.",
+     "address": "Bristol Town Common, State Street, Bristol, RI",
+     "phone": "",
+     "hours": "2026: June 19–July 3, 5–10pm daily; July 4, noon–6pm; weather dependent.",
+     "url": "https://www.fourthofjulybristolri.com/carnival",
+     "src": "fourthofjulybristolri.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Play Town",
+     "blurb": "State tourism listings describe an indoor activity center with pretend-play stations and sensory activities. Other listings report a permanent closure and the former website no longer provides operator information, so its present status is unconfirmed. Has: indoor playground, pretend play, sensory play.",
+     "address": "433 Hope Street, Bristol, RI 02809",
+     "phone": "401-203-3004",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/play-town/11495/",
+     "src": "visitrhodeisland.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "Spring Lake Arcade",
+     "blurb": "This arcade beside Spring Lake Beach features vintage coin-operated games as well as newer machines. Access is through the seasonal recreation complex, whose admission charge is separate from game spending. Has: arcade, beach, food, picnic tables, parking.",
+     "address": "52 Old Hillside Drive, Glendale, RI 02826, Burrillville",
+     "phone": "401-568-8288",
+     "hours": "Summer seasonal; current arcade hours not confirmed.",
+     "url": "https://www.springlakearcade.com/",
+     "src": "springlakearcade.com",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Veterans Memorial Park Splash Pad",
+     "blurb": "This splash pad is part of the renovated Veterans Memorial Park. A walking path and military memorial share the park grounds. Has: splash pad, outdoor, walking path, memorial.",
+     "address": "416 Hunt Street, Central Falls, RI 02863",
+     "phone": "",
+     "hours": "Summer seasonal; published 2026 hours daily noon–5 pm.",
+     "url": "https://www.centralfallsri.gov/parksrec/page/veterans-memorial-park",
+     "src": "centralfallsri.gov",
+     "town": "Central Falls"
+    },
+    {
+     "name": "Charlestown Seafood Festival Carnival",
+     "blurb": "The Charlestown Seafood Festival adds a carnival midway to a weekend of food, music and family activities at Ninigret Park. The organizer has announced its 2027 dates, while the detailed hours and prices still displayed refer to 2026. Has: annual festival, carnival rides, kiddie rides, food, music, fireworks, minimum ride height 36 inches.",
+     "address": "Ninigret Park, 5 Park Lane, Charlestown, RI 02813",
+     "phone": "401-364-4031",
+     "hours": "Next confirmed dates: August 6–8, 2027; daily 2027 hours not yet confirmed. Published 2026 schedule: August 7 noon–11pm, August 8 11am–11pm, August 9 11am–9pm. · Published 2026 admission: adults $14, military with ID and ages 65 and up $10, ages 10 and under no charge; rides additional; Friday noon–5pm ride package $35 plus transaction fee; 2027 prices not confirmed.",
+     "url": "https://www.charlestownseafoodfestival.com/",
+     "src": "charlestownseafoodfestival.com",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Little Lattes Play Cafe",
+     "blurb": "Little Lattes pairs a children's indoor play space with a cafe serving drinks and snacks. Caregivers remain responsible for supervising children during open play. Has: indoor playground, pretend play, cafe, food, parties.",
+     "address": "57 Sandy Bottom Road, Coventry, RI 02816",
+     "phone": "401-578-1430",
+     "hours": "Year-round; Monday–Tuesday 9 am–1 pm, Wednesday–Sunday 9 am–2 pm; private events may change availability. · Open play $18 for two hours, with longer stays when capacity allows; 10-visit pack $140.",
+     "url": "https://www.littlelattesplaycafe.com/play",
+     "src": "littlelattesplaycafe.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Confreda's Fall Fest",
+     "blurb": "Confreda's seasonal farm festival combines a corn maze, hayrides and animal encounters with separately ticketed amusements. The ride selection includes a train, giant slide and Flying Circus, with availability varying during the season. Has: outdoor, seasonal rides, kiddie rides, train, giant slide, hayrides, corn maze.",
+     "address": "2150 Scituate Avenue, Hope, RI 02831, Cranston",
+     "phone": "401-827-5000",
+     "hours": "2026: Saturdays, Sundays and October 12, September 26–November 1, 11am–6pm; last admission 4:45pm; October 31 closed at 5pm with last admission 3:45pm. · General admission $15 online or $17 at gate; ages 2 and under no charge; rides additional: five-punch card $9.99 or ten-punch card $18.99; family four-pack $59.95 online.",
+     "url": "https://www.confredasfallfest.com/plan-your-visit",
+     "src": "confredasfallfest.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Cooney Playground Splash Pad",
+     "blurb": "Cranston's first splash pad is located beside Cooney Playground and the Bain walking track. The seasonal sprays provide a water-play option near the existing recreation facilities. Has: splash pad, playground, walking track, outdoor.",
+     "address": "Off Oak Street, beside Cooney Playground and Hugh B. Bain Middle School, Cranston, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published schedule Monday–Friday 11 am–6 pm, Saturday 11 am–4 pm.",
+     "url": "https://www.cranstonri.gov/mayor-hopkins-announces-splash-pad-swim-program-cooling-centers-to-combat-summer-heat/",
+     "src": "cranstonri.gov",
+     "town": "Cranston"
+    },
+    {
+     "name": "Fawn & Cub Play Space",
+     "blurb": "Fawn & Cub offers an indoor playroom for children five and younger. Families may walk in during posted open-play hours and stay for the available session. Has: indoor playground, toddler play, pretend play, parties.",
+     "address": "687 Park Avenue, Cranston, RI 02910",
+     "phone": "401-423-4424",
+     "hours": "Year-round; Monday–Friday 9 am–2 pm; weekend pop-up play, events and private bookings vary. · Published 2026 cash price $15 per child; children 10 months and younger no charge with a paid sibling; two adults per family included, additional adults $5.",
+     "url": "https://www.fawnandcubplayspace.com/open-play",
+     "src": "fawnandcubplayspace.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Kids Empire Cranston",
+     "blurb": "This indoor playground offers climbing and active play alongside a separate area for toddlers. An accompanying adult must remain with the children, and socks are required in the play areas. Has: indoor playground, climbing, slides, toddler play, parties, parking.",
+     "address": "1400 Oaklawn Avenue, Cranston, RI",
+     "phone": "401-250-0435",
+     "hours": "Year-round; Monday–Thursday 10 am–8 pm, Friday–Sunday 10 am–10 pm; open daily including holidays. · Ages 1–17 $19.90 including two adults; additional adults $5; infants under one no charge with a paying sibling; same-day reentry included.",
+     "url": "https://www.kidsempire.com/store-locator/kids-empire-cranston",
+     "src": "kidsempire.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Saint Mary's Feast",
+     "blurb": "Saint Mary's Feast fills Knightsville with religious observances, food, music and carnival entertainment. The annual celebration also includes a road race and a closing fireworks display. Has: annual carnival, rides, games, food, music, fireworks.",
+     "address": "Itri Park and Phenix Avenue, Knightsville, Cranston, RI",
+     "phone": "",
+     "hours": "Annual feast; confirmed 2026 dates July 15–19; daily ride hours not confirmed.",
+     "url": "https://rinewstoday.com/121st-st-marys-feast-cranston-safety-family-fun/",
+     "src": "rinewstoday.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "KIDOZLAND",
+     "blurb": "KIDOZLAND advertises indoor children's play areas divided by age. The available operator page still contains opening announcements, so current public access could not be confirmed. Has: indoor playground, toddler play, parties.",
+     "address": "1726 Mendon Road, Unit 5, Cumberland, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://kidozland-pc.my.canva.site/kidoz",
+     "src": "kidozland-pc.my.canva.site",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Go Play — East Greenwich",
+     "blurb": "This indoor play center has climbing and play spaces for children and a place for adults to sit nearby. Sessions are limited to two hours when capacity is high, with longer play available on quieter days. Has: indoor playground, toddler play, parties, food.",
+     "address": "2727 South County Trail, East Greenwich, RI 02818",
+     "phone": "401-856-4577",
+     "hours": "Year-round; Monday–Thursday 9 am–6:30 pm, Friday–Saturday 9 am–8 pm, Sunday 9 am–6 pm; private events can change availability. · Ages 0–6 months no charge; ages 7–11 months $11 weekdays/$13 weekends and holidays; ages 1–3 $13/$17; ages 4–12 $16/$22; ages 13+ and additional adults $2; two adults included per child; socks $3.",
+     "url": "https://goplayri.com/east-greenwich-location",
+     "src": "goplayri.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Crescent Park Looff Carousel",
+     "blurb": "Crescent Park's surviving Looff carousel preserves the centerpiece of a former waterfront amusement park. The operator offers Saturday sensory sessions with the band organ turned off during the regular season. Has: carousel, historic, family, sensory-friendly sessions, seasonal, ages 3 and under accompanied by paying adult.",
+     "address": "700 Bullocks Point Avenue, Riverside, RI 02915, East Providence",
+     "phone": "401-435-7518",
+     "hours": "Closed for the regular season; operator identifies May–September 2026 as the regular season and posts special openings separately. · $2 per ride; ages 3 and under no charge with a paying adult; card convenience fee applies.",
+     "url": "https://www.crescentparkcarousel.org/hours",
+     "src": "crescentparkcarousel.org",
+     "town": "East Providence"
+    },
+    {
+     "name": "FUNdamentals",
+     "blurb": "FUNdamentals provides indoor movement, sensory and imaginative play for children with their caregivers. Walk-in sessions allow up to two hours of play, and adults must stay to supervise. Has: indoor playground, sensory play, pretend play, parties.",
+     "address": "1365 Wampanoag Trail, Riverside, RI 02915, East Providence",
+     "phone": "401-206-4030",
+     "hours": "Year-round; Monday–Thursday 9 am–2 pm and 3:30–5:30 pm, Friday–Saturday 9 am–2 pm; open-play visits last up to two hours. · First child $17, each additional child $10; infants under 12 months no charge with a paying sibling.",
+     "url": "https://www.playatfundamentals.com/open-play",
+     "src": "playatfundamentals.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Onna Moniz-John Park Splash Pad",
+     "blurb": "Onna Moniz-John Park provides one of East Providence's two municipal splash pads. Its outdoor water play operates seasonally and depends on suitable weather. Has: splash pad, outdoor, municipal park.",
+     "address": "11 McCausland Avenue, East Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; operator's posted schedule is daily 10 am–7 pm, weather permitting; exact 2026 season dates not confirmed.",
+     "url": "https://eastprovidenceri.gov/departments/recreation/splash-pad",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Pierce Field Splash Pad",
+     "blurb": "Pierce Field's accessible splash pad adds water play to the city's athletic complex. A fence, benches and connecting paths surround the spray area. Has: splash pad, accessible, benches, fenced play area, sports fields.",
+     "address": "201 Mercer Street, East Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; operator's posted schedule is daily 10 am–7 pm, weather permitting; exact 2026 season dates not confirmed.",
+     "url": "https://eastprovidenceri.gov/departments/recreation/splash-pad",
+     "src": "eastprovidenceri.gov",
+     "town": "East Providence"
+    },
+    {
+     "name": "Sky Zone Providence",
+     "blurb": "Sky Zone operates an indoor trampoline and active-play park in East Providence. The venue offers party packages and scheduled evening programs alongside general admission sessions. Has: indoor, trampolines, active play, birthday parties, evening glow sessions.",
+     "address": "70 Pawtucket Avenue, East Providence, RI 02916",
+     "phone": "401-358-0575",
+     "hours": "Year-round; posted schedule for the week of November 1, 2026: Sunday 10 am–8 pm, Monday noon–8 pm, Tuesday 10 am–8 pm for Election Day, Wednesday–Thursday noon–8 pm, Friday 11 am–10 pm, Saturday 9 am–10 pm.",
+     "url": "https://www.skyzone.com/providence/",
+     "src": "skyzone.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "United Skates of America — Rumford",
+     "blurb": "United Skates combines roller skating, laser tag, an arcade and an indoor playground in one family entertainment center. The playground is designed for children twelve and younger, while skating sessions serve a wider age range. Has: indoor, roller skating, laser tag, arcade, playground ages 12 and under, food, skate rentals.",
+     "address": "75 New Road, Rumford, RI 02916, East Providence",
+     "phone": "401-438-9898",
+     "hours": "Year-round; public sessions and event times are listed in the operator's dated calendar. · Fun Pass and Super Pass packages advertised from $25.99; session and rental charges vary by event.",
+     "url": "https://www.unitedskates.com/rumford/",
+     "src": "unitedskates.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Wawaloam Campground Water Park",
+     "blurb": "Wawaloam offers long waterslides, an expanded splash pad and a swimming pool within its campground. The operator reserves these amenities for campers, so this is not a walk-in public water park. Has: water park, waterslides, splash pad, pool, campground guests only, mini golf, playground.",
+     "address": "510 Gardiner Road, West Kingston, RI 02892, Exeter",
+     "phone": "401-294-3039",
+     "hours": "",
+     "url": "https://modernamericacampgrounds.com/rhode-island/wawaloam-campground",
+     "src": "modernamericacampgrounds.com",
+     "town": "Exeter"
+    },
+    {
+     "name": "Cucumber Hill Farm Fall Activities",
+     "blurb": "Cucumber Hill offers seasonal tractor hayrides, corn mazes and outdoor family activities. Evening sessions add lantern-lit rides and flashlight maze visits, while pony encounters and food trucks operate at selected times. Has: seasonal family activities, hayrides, corn maze, kiddie maze, pony encounters, axe throwing, food trucks.",
+     "address": "39 Cucumber Hill Road, Foster, RI 02825",
+     "phone": "401-397-7500",
+     "hours": "2026 September 19–October 31; Saturdays through October 24, 10 am–9 pm; Sundays through October 25, 10 am–6 pm; Fridays September 25–October 30, 5–9 pm; October 12, 10 am–6 pm; October 31 closes 3 pm, with conflicting 9 am/10 am opening notices. · Hayride $6 ages 6+, ages 5 and under no charge; corn maze $14 ages 12+, $7 ages 6–11, ages 5 and under no charge; pony encounter $15; axe throwing $7 for five throws.",
+     "url": "https://www.cucumberhillfarm.com/activities",
+     "src": "cucumberhillfarm.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Foster Old Home Days",
+     "blurb": "Foster Old Home Days is a recurring country fair built around agricultural exhibits, music and children's activities. It offers a traditional community-fair outing, with no current mechanical-ride lineup confirmed. Has: annual fair, family activities, agricultural exhibits, food, music, crafts, parking.",
+     "address": "181 Howard Hill Road, Foster, RI 02825; additional parking entrance at 86 Foster Center Road",
+     "phone": "",
+     "hours": "Annual fair on the last full weekend in July; 2026 edition July 24–26. · Published 2026 gate admission $5 per day or $10 weekend wristband, purchased before the fair or on Friday.",
+     "url": "https://www.fosteroldhomedays.com/",
+     "src": "fosteroldhomedays.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Northern Rhode Island 4-H Fair",
+     "blurb": "This youth agricultural fair presents livestock shows, exhibits and family contests alongside Foster Old Home Days. Its published program emphasizes animals and projects, with no mechanical midway confirmed. Has: annual fair, livestock, agricultural exhibits, contests, food.",
+     "address": "181 Howard Hill Road, Foster, RI",
+     "phone": "",
+     "hours": "Annual fair; 2026 July 24–26; scheduled animal shows begin Friday 6 pm, Saturday 8:30 am and Sunday 9 am.",
+     "url": "https://www.nri4hfair.com/schedule-1",
+     "src": "nri4hfair.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Glocester Town Carnival",
+     "blurb": "This community carnival brings traveling rides and midway games to Glocester Memorial Park. Kiddie rides require children to be at least 36 inches tall, and individual attractions may impose additional restrictions. Has: annual carnival, rides, kiddie rides, games, food, minimum kiddie ride height 36 inches.",
+     "address": "Glocester Memorial Park, 52 Adelaide Road, Chepachet, RI 02814",
+     "phone": "401-934-1560",
+     "hours": "Confirmed 2026 dates May 29–31: Friday 5–9pm, Saturday 1–9pm, Sunday 1–8pm; weather dependent. · Published 2026 rides: $1.50 per ticket, 25 tickets $25, 40 tickets $40; three to five tickets per ride; daily unlimited-ride wristband $30.",
+     "url": "https://rockwellamusements.com/events/178",
+     "src": "rockwellamusements.com",
+     "town": "Glocester"
+    },
+    {
+     "name": "Our Lady of Grace Italian Feast and Festival",
+     "blurb": "This annual Italian feast includes a traveling midway beside the church. Food and community activities accompany the rides, which have separate ticket requirements. Has: annual carnival, rides, kiddie rides, games, food.",
+     "address": "4 Lafayette Street, Johnston, RI 02919",
+     "phone": "401-231-2220",
+     "hours": "Annual Thursday–Sunday after Labor Day; 2026 September 10–13: Thursday 5–9 pm, Friday–Saturday 5–11 pm, Sunday noon–7 pm; weather dependent. · Published 2026 ride tickets $1.50 each, 25 for $25 or 40 for $40; rides require three to five tickets; Sunday wristband $30, sold noon–6 pm and valid until 7 pm.",
+     "url": "https://rockwellamusements.com/events/172",
+     "src": "rockwellamusements.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "Saint Rocco Feast",
+     "blurb": "Saint Rocco's annual feast combines parish traditions with food and traveling carnival amusements. The celebration takes place on the Atwood Avenue church grounds. Has: annual carnival, rides, games, food, music.",
+     "address": "927 Atwood Avenue, Johnston, RI 02919",
+     "phone": "401-383-5004",
+     "hours": "Annual feast; confirmed 2026 dates August 13–16; opening Thursday at 5:30 pm; remaining daily hours not confirmed.",
+     "url": "https://churchofsaintrocco.org/",
+     "src": "churchofsaintrocco.org",
+     "town": "Johnston"
+    },
+    {
+     "name": "The Sensory Play Place",
+     "blurb": "This indoor center offers sensory activities and climbing equipment for children from six months through nine years. Families can attend open play, classes or booked celebrations. Has: indoor playground, sensory play, climbing, toddler play, parties.",
+     "address": "1395 Atwood Avenue, Unit 109, Johnston, RI 02919",
+     "phone": "401-203-3157",
+     "hours": "Year-round; published fall/winter open play Monday–Saturday 9 am–2 pm; Sunday reserved for parties and events. · First child $17, additional siblings $8; children under one no charge with a paying sibling; adults included; socks $2 if needed.",
+     "url": "https://sensoryplayplace.com/open-play",
+     "src": "sensoryplayplace.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "BattleGroundZ",
+     "blurb": "BattleGroundZ offers several indoor game arenas together with an arcade and food service. Families can choose among laser tag, gel blasters and other activities, with eligibility and session schedules set separately for each game. Has: indoor, laser tag, arcade, gel blasters, airsoft, paintball, dodgeball.",
+     "address": "100 Higginson Avenue, Lincoln, RI 02865",
+     "phone": "401-305-3600",
+     "hours": "Year-round; laser tag, gel blasters, arcade and shop Sunday–Thursday noon–10pm, Friday noon–midnight, Saturday 11:30am–midnight; other fields have separate schedules.",
+     "url": "https://battlegroundz.net/",
+     "src": "battlegroundz.net",
+     "town": "Lincoln"
+    },
+    {
+     "name": "R1 Indoor Karting and Time Mission",
+     "blurb": "R1 combines electric kart racing with interactive challenge rooms, an arcade and additional group activities. Karting starts at age 12 and 54 inches tall, while Time Mission accepts participants from age six. Has: indoor, go-karts, arcade, challenge rooms, interactive darts, axe throwing, food.",
+     "address": "100 Higginson Avenue, Lincoln, RI",
+     "phone": "401-721-5554",
+     "hours": "Year-round; karting and Time Mission Monday–Thursday noon–11pm, Friday noon–midnight, Saturday 9am–midnight, Sunday 9am–11pm; other attractions have separate hours. · Karting: one race $27, two $54, three $75, five $110; packages cannot be shared.",
+     "url": "https://r1indoorkarting.com/",
+     "src": "r1indoorkarting.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Norman Bird Sanctuary Harvest Fair",
+     "blurb": "This annual country fair combines pony rides, a small train, games and farm-themed activities. Food vendors, live music and craft stalls accompany the outdoor program. Has: annual fair, pony rides, train rides, games, food, music, crafts.",
+     "address": "583 Third Beach Road, Middletown, RI 02842",
+     "phone": "",
+     "hours": "Annual harvest fair; 2026 October 3–4, 10 am–5 pm. · 2026 general admission $15; youth price $10; ages 3 and under no charge; operator also labels youth ages 3–18, so eligibility at exactly age 3 should be confirmed.",
+     "url": "https://normanbirdsanctuary.org/events/harvest-fair/",
+     "src": "normanbirdsanctuary.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "Adventureland Family Fun Park — Poppy's Carousel and rides",
+     "blurb": "Adventureland combines go-karts, bumper boats, miniature golf and Poppy's Victorian-style carousel in one outdoor park. Families can buy individual activities or packages, with rider eligibility varying by attraction. Has: outdoor, rides, carousel, go-karts, bumper boats, bumper cars, mini golf.",
+     "address": "112 Point Judith Road, Narragansett, RI",
+     "phone": "401-789-0030",
+     "hours": "Closed for the 2026 season; operator posts a date-specific April–October 2027 calendar at https://adventurelandri.com/hours/. · Published 2026 prices: combo $35; mini-rider package $25; carousel $5 or six rides $20; go-karts $12 with passenger add-on $4; bumper boats $9 with child passenger $4; mini golf $15 adults, $12 ages 9 and under, $6 ages 5 and under; spectators no charge.",
+     "url": "https://adventurelandri.com/pricing/",
+     "src": "adventurelandri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Ryan Family Amusements — Newport",
+     "blurb": "Ryan's Newport location pairs an arcade with a prize counter and a virtual-reality ride near the waterfront. A separate party room supports birthday celebrations and group visits. Has: indoor, arcade, virtual reality ride, prize counter, family, birthday parties.",
+     "address": "268 Thames Street, Newport, RI 02840",
+     "phone": "401-846-5774",
+     "hours": "Year-round; Monday–Thursday noon–9pm; Friday–Saturday 10am–11pm; Sunday 10am–9pm; holiday and school-break hours vary. · Published arcade offer: 90 minutes of eligible games $25.95 with 500 prize points; restrictions apply.",
+     "url": "https://ryanfamily.com/locations/newport/",
+     "src": "ryanfamily.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Wilson Park Splashpad",
+     "blurb": "Wilson Park's accessible splash pad sits beside the Zeke Harris playground. Benches, picnic tables and parking support a combined water-play and playground visit. Has: splash pad, accessible, playground, picnic tables, parking.",
+     "address": "24 Roosevelt Avenue, North Kingstown, RI 02852",
+     "phone": "401-268-1540",
+     "hours": "Memorial Day through Labor Day; daily 9 am–7 pm. · No charge.",
+     "url": "https://www.northkingstownri.gov/Facilities/Facility/Details/Wilson-Park-Spalshpad-59",
+     "src": "northkingstownri.gov",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Fab-YOU-Us Family Fun Center",
+     "blurb": "Fab-YOU-Us provides several indoor play spaces, creative activities and family programs. Its children's programs focus on ages three through twelve, and visits are organized around enrollment or scheduled activities. Has: indoor, play structure, creative play, interactive games, parties, ages 3–12 programs, advance registration.",
+     "address": "1420 Mineral Spring Avenue, North Providence, RI 02904",
+     "phone": "401-270-5419",
+     "hours": "Year-round; scheduled programs and parties; registration is required for programs and drop-ins require advance notice.",
+     "url": "https://fab-you-us.com/",
+     "src": "fab-you-us.com",
+     "town": "North Providence"
+    },
+    {
+     "name": "Saint Anthony Feast",
+     "blurb": "Saint Anthony's annual outdoor feast includes children's amusements, food and live entertainment on the parish grounds. Festival proceeds support the parish's outreach programs. Has: annual carnival, children's amusements, games, food, music.",
+     "address": "1413 Mineral Spring Avenue, North Providence, RI 02904",
+     "phone": "",
+     "hours": "Annual June feast; confirmed 2026 dates June 12–14: Friday–Saturday 5–11 pm, Sunday 1–6 pm.",
+     "url": "https://www.saintanthonychurch.org/news/st-anthony-feast-1",
+     "src": "saintanthonychurch.org",
+     "town": "North Providence"
+    },
+    {
+     "name": "Electromagnetic Pinball Museum and Restoration",
+     "blurb": "Visitors can play the pinball machines and arcade games while exploring this collection of working entertainment technology. Admission covers all-day play, and party spaces can be booked separately. Has: pinball, arcade, indoor, parties, parking.",
+     "address": "881 Main Street, Pawtucket, RI 02860",
+     "phone": "401-743-8067; 401-699-9369",
+     "hours": "Year-round; Wednesday–Sunday 10 am–9 pm; Monday–Tuesday closed except holidays and special events. · $10 per person for all-day pinball and arcade play; no coins or tokens needed.",
+     "url": "https://www.electromagneticpinballmuseum.com/",
+     "src": "electromagneticpinballmuseum.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Payne Park Splash Pad",
+     "blurb": "Payne Park offers a seasonal municipal splash pad on West Avenue. Its long daily operating window allows morning and early-evening water play. Has: splash pad, outdoor, municipal park.",
+     "address": "225 West Avenue, Pawtucket, RI 02860",
+     "phone": "401-728-0500 ext. 233",
+     "hours": "Summer seasonal; posted municipal schedule daily 8 am–8 pm. · No charge.",
+     "url": "https://pawtucketri.gov/pool-and-splash-pad-opening/",
+     "src": "pawtucketri.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Slater Park Looff Carousel",
+     "blurb": "This historic wooden carousel operates inside Slater Park in Pawtucket. Its carved animals and preserved building make it a family ride with a strong connection to Rhode Island's carousel history. Has: carousel, historic, family, birthday parties, seasonal.",
+     "address": "Slater Memorial Park, 825 Armistice Boulevard, Pawtucket, RI 02861",
+     "phone": "401-728-0500 ext. 251",
+     "hours": "Seasonal, April–October; weekends in spring and fall and daily in summer; current carousel website lists weekend hours 11am–4:45pm. · Reported September 2026: $1 per ride.",
+     "url": "https://www.looffcarouselslaterpark.org/",
+     "src": "looffcarouselslaterpark.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Eastern Rhode Island 4-H Country Fair",
+     "blurb": "This one-day agricultural fair mixes youth animal shows with children's games and vendors. Its published program includes water slides, a bounce house, a petting zoo and a dunk booth. Has: annual fair, water slides, bounce house, petting zoo, games, livestock, vendors.",
+     "address": "Davidson Field, Glen Road, Portsmouth, RI",
+     "phone": "",
+     "hours": "Annual fair; August 1, 2026; official page gives 9 am–5 pm in its heading but 6 pm as the schedule's closing time.",
+     "url": "https://web.uri.edu/4h/programs/fair-guides-and-rules/eastern-rhode-island-4-h-country-fair/",
+     "src": "web.uri.edu",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Saint Barnabas Parish Festival",
+     "blurb": "The Saint Barnabas festival brings carnival rides, food and live bands to the church grounds. Bingo and other community activities accompany the midway. Has: annual carnival, rides, games, bingo, food, music.",
+     "address": "1697 East Main Road, Portsmouth, RI 02871",
+     "phone": "401-683-1343",
+     "hours": "Annual festival; confirmed 2026 dates June 19–21; daily carnival hours not confirmed.",
+     "url": "https://www.sbchurchri.com/",
+     "src": "sbchurchri.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "A. Vincent Igliozzi Recreation Center Waterpark",
+     "blurb": "This outdoor water-play area is part of Providence's recreation-center network. Its waterpark hours are seasonal. Has: water park, splash pad, recreation center.",
+     "address": "675 Plainfield Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://rec.providenceri.gov/facilities/",
+     "src": "rec.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Al Carrington Water Park at Richardson Park",
+     "blurb": "This seasonal splash area is part of Richardson Park. Nearby playgrounds and picnic areas extend a family visit. Has: water park, splash pad, playground, picnic areas.",
+     "address": "64 Richardson Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://www.providenceri.gov/parks/richardson-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Billy Taylor Waterpark",
+     "blurb": "Billy Taylor provides a neighborhood stop for outdoor water play. It operates through Providence's summer recreation program. Has: water park, splash pad, outdoor.",
+     "address": "124 Camp Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://epl.providenceri.gov/waterparks/",
+     "src": "epl.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Chad Brown Waterpark",
+     "blurb": "Chad Brown is a municipal outdoor water-play location. It is included in the city's summer recreation schedule. Has: water park, splash pad, outdoor.",
+     "address": "Chad Brown Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://www.providenceri.gov/pema/cooling-centers/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Dave & Buster's — Providence",
+     "blurb": "Dave and Buster's offers a large arcade with racing games, air hockey and other interactive entertainment at Providence Place. Restaurant service and group packages allow families to combine games with a meal. Has: indoor, arcade, food, birthday parties, group events, family.",
+     "address": "40 Providence Place, Providence, RI",
+     "phone": "401-270-4555",
+     "hours": "Year-round; chamber member listing gives Monday–Thursday 11 am–midnight, Friday–Saturday 10 am–1 am, Sunday 10 am–midnight. · Published limited-time Play & Eat offer: selected entree $4.99 with a Power Card purchase of $25 or more; taxes additional; game costs vary.",
+     "url": "https://www.daveandbusters.com/us/en/about/locations/providence",
+     "src": "daveandbusters.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Fargnoli Waterpark",
+     "blurb": "Fargnoli provides a seasonal water-play stop on Smith Street. It appears in Providence's summer cooling and recreation listings. Has: water park, splash pad, outdoor.",
+     "address": "945 Smith Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://www.providenceri.gov/pema/cooling-centers/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Father Lennon Park Splash Pad",
+     "blurb": "Father Lennon Park added this splash pad in June 2026. Playgrounds, paths and other park facilities are nearby. Has: splash pad, playground, walking paths, picnic areas.",
+     "address": "62 Camden Avenue, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://www.providenceri.gov/parks/father-lennon-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Federal Hill Summer Festival",
+     "blurb": "The annual Federal Hill Summer Festival brings food, vendors and live entertainment to Atwells Avenue. The association's general festival description mentions children's games and rides, but a specific 2026 ride lineup was not confirmed. Has: annual festival, food, music, vendors, games, ride lineup unconfirmed.",
+     "address": "Atwells Avenue, Federal Hill, Providence, RI",
+     "phone": "",
+     "hours": "Confirmed 2026 dates August 15–16: Saturday 11 am–midnight, Sunday 11 am–10 pm; these replace the older June date pattern.",
+     "url": "https://federalhillprov.com/festivals/federal-hill-summer-festival/",
+     "src": "federalhillprov.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Galbani Columbus Weekend Festival",
+     "blurb": "Federal Hill's annual October festival includes amusement rides and games alongside its food vendors and restaurants. Live stages and cooking demonstrations add entertainment throughout the weekend. Has: annual festival, amusement rides, games, food, music, cooking demonstrations.",
+     "address": "Atwells Avenue between Dean Street and Sutton Street, Providence, RI",
+     "phone": "",
+     "hours": "Annual October holiday weekend; 2026 October 9–12: Friday 5 pm–midnight, Saturday–Sunday 11 am–midnight, Monday 11 am–8 pm.",
+     "url": "https://federalhillprov.com/festivals/columbus-day-weekend-festival/",
+     "src": "federalhillprov.com",
+     "town": "Providence"
+    },
+    {
+     "name": "General Street Waterpark",
+     "blurb": "General Street Waterpark is reached from West Drive near Admiral Street. Its water-play season runs during summer. Has: water park, splash pad, outdoor.",
+     "address": "11 West Drive, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://rec.providenceri.gov/facilities/",
+     "src": "rec.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "George J. West Park Carnival",
+     "blurb": "Rockwell's dated event listing describes a community carnival with rides, games and food at George West Park. The 2026 event is documented, but a permanent annual date pattern is not confirmed. Has: carnival, rides, kiddie rides, games, food.",
+     "address": "George J. West Park, 1276 Chalkstone Avenue, Providence, RI 02908",
+     "phone": "",
+     "hours": "Confirmed 2026 dates June 4–7; daily hours and future recurrence not confirmed.",
+     "url": "https://artsnowri.com/event/carnival-hosted-by-councilman-sanchez-michael-correia-2/",
+     "src": "artsnowri.com",
+     "town": "Providence"
+    },
+    {
+     "name": "George J. West Waterpark",
+     "blurb": "This municipal waterpark offers seasonal outdoor play on Chalkstone Avenue. It is distinct from the traveling carnival held at the park. Has: water park, splash pad, outdoor.",
+     "address": "1266 Chalkstone Avenue, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://epl.providenceri.gov/waterparks/",
+     "src": "epl.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Harriet & Sayles Waterpark",
+     "blurb": "This neighborhood waterpark occupies the Harriet and Sayles streets site. Water play follows the city's summer schedule. Has: water park, splash pad, outdoor.",
+     "address": "375 Sayles Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://rec.providenceri.gov/facilities/",
+     "src": "rec.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "James Ahern Park Waterpark",
+     "blurb": "James Ahern Park added a new waterpark in August 2025. The park also provides playground and sports areas. Has: water park, splash pad, playground, sports fields.",
+     "address": "1 Wallace Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; 2026 activation date not confirmed consistently across city pages.",
+     "url": "https://www.providenceri.gov/parks/james-j-ahern-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "John O. Pastore Park Waterpark",
+     "blurb": "Pastore Park is included in Providence's municipal waterpark network. It provides seasonal neighborhood water play. Has: water park, splash pad, outdoor.",
+     "address": "Corner of Knight Street and Tell Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://epl.providenceri.gov/waterparks/",
+     "src": "epl.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Joslin Recreation Center Waterpark",
+     "blurb": "Joslin's rebuilt splash pad opened in June 2026. The surrounding park includes playgrounds, picnic areas and sports courts. Has: water park, splash pad, playground, picnic areas.",
+     "address": "17 Hyatt Street; park entrance also at 40 Florence Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://www.providenceri.gov/parks/joslin-park/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Kinsley Street Carnival",
+     "blurb": "This Rockwell carnival brought rides, games and food vendors to the Kinsley Street lot. The organizer's listing confirms the 2026 run without establishing dates for a future edition. Has: carnival, rides, games, food.",
+     "address": "288 Kinsley Street, Providence, RI 02908",
+     "phone": "",
+     "hours": "Confirmed 2026 dates June 10–14; daily hours and future recurrence not confirmed.",
+     "url": "https://artsnowri.com/event/carnival/",
+     "src": "artsnowri.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Lippitt Park Mist Station",
+     "blurb": "Lippitt Park has a misting station for summer cooling. The small spray feature serves as a cooling stop within the park. Has: mist station, outdoor, seasonal water play.",
+     "address": "1015 Hope Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://rec.providenceri.gov/facilities/",
+     "src": "rec.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Mary Ross Water Park at Bucklin Park",
+     "blurb": "Mary Ross Water Park is the water-play area at Bucklin Park. It is a seasonal neighborhood recreation facility. Has: water park, splash pad, outdoor.",
+     "address": "404 Dexter Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://epl.providenceri.gov/waterparks/",
+     "src": "epl.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Miguel Luna Waterpark",
+     "blurb": "Miguel Luna offers seasonal water play across from the recreation center. City listings also use the Sackett Street name. Has: water park, splash pad, outdoor.",
+     "address": "110 Sackett Street, Providence, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published regular hours Monday–Saturday noon–5 pm.",
+     "url": "https://epl.providenceri.gov/waterparks/",
+     "src": "epl.providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Obadiah Brown Water Park",
+     "blurb": "Obadiah Brown Field added a cooling water feature in 2025. Providence's waterpark pages conflict over whether it is open, so access remains unconfirmed. Has: water park, splash pad, sports fields, operating status unconfirmed.",
+     "address": "50 Obadiah Brown Road; field entrance at 52 Obadiah Brown Road, Providence, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/parks/obadiah-brown-fields/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Fourth of July Carnival",
+     "blurb": "Providence's Independence Day carnival uses a traveling midway with rides and games. The 2026 ticketing page identifies a South Main Street site, so older listings at other addresses should not be used for that edition. Has: annual carnival, rides, games, food.",
+     "address": "410 South Main Street, Providence, RI",
+     "phone": "",
+     "hours": "Annual Independence Day carnival; confirmed 2026 dates July 1–4; daily hours not confirmed.",
+     "url": "https://innovativeticketing.com/Events/eventDetails.aspx?eid=RjM0OEUwODctQkE5Mi00NTE2LUFDOEYtMTJFNkM3QTJGODY5",
+     "src": "innovativeticketing.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams Park Carousel Village",
+     "blurb": "Carousel Village combines an indoor carousel with a seasonal outdoor train and the accessible Hasbro Boundless Playground. Carousel riders under four need an accompanying adult, and train passengers must be able to sit upright in their own seat. Has: carousel, train rides, playground, birthday parties, indoor, outdoor, accessible playground.",
+     "address": "Roger Williams Park, near the boathouse, Providence, RI",
+     "phone": "401-785-3510 ext. 316",
+     "hours": "February–March weekends noon–4pm; April–June weekdays noon–6pm and weekends 11am–6pm; July–Labor Day daily 11am–6pm; after Labor Day–October 31 daily noon–4pm; November–December weekends noon–4pm; January private events only; school-break and event hours vary. · Carousel $2 per ride or 12 rides $20; train $3 per ride or eight rides $20; seasonal day pass $20; train riders under 3 no charge with paying adult.",
+     "url": "https://www.rwpzoo.org/carousel-village/",
+     "src": "rwpzoo.org",
+     "town": "Providence"
+    },
+    {
+     "name": "The Bubbler VR",
+     "blurb": "The Bubbler is a virtual-reality game lounge with a range of interactive experiences. Families can book play sessions or arrange private celebrations. Has: virtual reality, arcade games, indoor, parties, drinks.",
+     "address": "568 Charles Street, Providence, RI 02904",
+     "phone": "401-372-7248",
+     "hours": "Year-round; Thursday–Friday 5–10 pm, Saturday 1–10 pm, Sunday 1–6 pm; reservations encouraged. · VR play $30 per hour or $25 per half hour.",
+     "url": "https://www.thebubblervr.com/",
+     "src": "thebubblervr.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Providence Rink — Ice Bumper Cars",
+     "blurb": "The Providence Rink offers motorized bumper cars on its outdoor ice surface during winter. Some sessions share the rink with skaters, while others use the full ice area. Has: seasonal rides, ice bumper cars, ice skating, outdoor, reservations.",
+     "address": "2 Kennedy Plaza, Providence, RI 02903",
+     "phone": "401-680-7390",
+     "hours": "Winter, late November–early March, weather permitting; published weekend shared-ice rides 10 am–2 pm and full-ice rides 9–10 am; other sessions vary between operator pages and must be checked in the booking calendar. · Shared ice $13 per person; full ice $16 per person; rides last 15 minutes plus orientation; tax additional.",
+     "url": "https://theprovidencerink.com/bumper-cars/",
+     "src": "theprovidencerink.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Southern Rhode Island 4-H Fair",
+     "blurb": "The Southern Rhode Island 4-H Fair presents youth livestock projects and agricultural exhibits. It uses the Washington County Fairgrounds for a separate early-summer event with food available from the grange. Has: annual fair, livestock, agricultural exhibits, family activities, food.",
+     "address": "Washington County Fairgrounds, 78 Richmond Townhouse Road, Richmond, RI",
+     "phone": "",
+     "hours": "Annual fair; confirmed 2026 dates June 26–28; daily public hours not confirmed.",
+     "url": "https://southernrifair.wixsite.com/sri4hfair",
+     "src": "southernrifair.wixsite.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Washington County Fair",
+     "blurb": "Washington County Fair combines agricultural exhibits and demonstrations with a large traveling midway. Its ride program includes a Ferris wheel and other family and thrill attractions, with ride tickets sold separately from admission. Has: annual fair, rides, Ferris wheel, kiddie rides, agricultural exhibits, food, music.",
+     "address": "78 Richmond Townhouse Road, Richmond, RI 02812",
+     "phone": "401-539-7042",
+     "hours": "Annual fair; confirmed 2026 dates August 12–16; gates 8am, most activities 10am, midway noon; Wednesday–Saturday closes 11pm, Sunday 8pm. · 2026 gate admission $14 ages 11+, ages 10 and under no charge; online fees extra; ride tickets $1.50 each, 25/$25 or 40/$40, with three to six tickets per ride; unlimited rides $40 on designated Wednesday–Friday and Sunday sessions, excluding bungee jump.",
+     "url": "https://www.washingtoncountyfair-ri.com/p/tickets",
+     "src": "washingtoncountyfair-ri.com",
+     "town": "Richmond"
+    },
+    {
+     "name": "Deerfield Park Splash Pad",
+     "blurb": "Deerfield Park's splash pad offers seasonal water play in Smithfield. Children can combine it with a visit to the park's other recreation areas. Has: splash pad, outdoor, playground, parking.",
+     "address": "Deerfield Park, Lisa Ann Circle, Greenville, RI, Smithfield",
+     "phone": "",
+     "hours": "2026 summer season ended September 7; daily 10 am–7 pm.",
+     "url": "https://www.smithfieldri.gov/departments/recreation/parks-facilities-beaches/deerfield-park-splash-pad",
+     "src": "smithfieldri.gov",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Play Time RI",
+     "blurb": "This indoor play studio is designed for children from six months through six years. Themed pretend-play stations and an adult seating area support visits with a parent or caregiver. Has: indoor playground, pretend play, toddler play, parties, snacks.",
+     "address": "151 Douglas Pike, Wedgewood Plaza, Smithfield, RI 02917",
+     "phone": "401-243-5744",
+     "hours": "Year-round; Monday–Thursday 9 am–3 pm, Friday 9 am–7 pm, Sunday 9 am–1:30 pm; Saturday reserved for events and parties. · Open play $16.50 per child including one or two adults; additional adults $5; children under one no charge with a paying sibling; monthly membership $55 for one child plus $5 per additional child.",
+     "url": "https://playtimeri.com/",
+     "src": "playtimeri.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Clark Farms Farm Park and Fall Fest",
+     "blurb": "Clark Farms combines a corn maze and animal area with pedal go-karts, a giant slide and other outdoor play. Weekend Fall Fest adds staffed hayrides, ziplines, food and entertainment. Has: seasonal family park, hayrides, zipline, pedal go-karts, giant slide, corn maze, petting zoo.",
+     "address": "2984 Commodore Perry Highway, Matunuck, RI, South Kingstown",
+     "phone": "401-783-8844",
+     "hours": "2026 fall season September 12–November 1; weekend festival Saturday 9 am–6 pm, Sunday 9 am–5 pm; staffed hayride, zipline and selected activities begin at 10 am; weekday farm park and maze available. · 2026 weekday farm park and corn maze $15 per person; weekend Fall Fest $20 per person.",
+     "url": "https://clarkfarms.com/attractions/fall-fest/",
+     "src": "clarkfarms.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Longplex Family & Sports Center",
+     "blurb": "Longplex combines sports facilities with an arcade, inflatable play and family party activities. Food service is available within the complex, and public play opportunities follow the venue's program schedule. Has: arcade, inflatables, indoor play, sports, food, parties.",
+     "address": "300 Industrial Way, Tiverton, RI 02878",
+     "phone": "401-816-6650",
+     "hours": "Year-round; activity hours vary; published 2026 Bounce and Brew sessions Monday, Wednesday and Friday 10 am–12:30 pm for ages 7 and under. · Published Bounce and Brew admission $10 per child; arcade and other activities priced separately.",
+     "url": "https://longplex.com/family-fun/",
+     "src": "longplex.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "The Play Zone",
+     "blurb": "The Play Zone is listed as a children's indoor playground offering toddler play and birthday parties. Current operating details could not be verified from the operator's website. Has: indoor playground, toddler play, parties.",
+     "address": "1719 Stafford Road, Tiverton, RI 02878",
+     "phone": "401-425-1158",
+     "hours": "",
+     "url": "https://theplayzoneri.com/",
+     "src": "theplayzoneri.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Play Station 653",
+     "blurb": "Play Station 653 uses a train-station theme for its indoor pretend-play areas, soft play and ball pit. A fenced outdoor yard adds seasonal play space for its main audience of children from six months through seven years. Has: indoor playground, ball pit, toddler play, outdoor play, parties, snacks, parking.",
+     "address": "653 Metacom Avenue, Warren, RI 02885",
+     "phone": "401-655-1782",
+     "hours": "Year-round; Monday–Wednesday and Friday–Saturday 9 am–4 pm; Thursday closed, Sunday private parties only; Saturday private bookings may interrupt open play. · Open play from $12; private two-hour parties from $350.",
+     "url": "https://www.playstation653.com/visit/",
+     "src": "playstation653.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Chuck E. Cheese — Warwick",
+     "blurb": "Chuck E Cheese combines children's arcade games, pizza and birthday activities in Warwick. The location also advertises a trampoline area restricted to children under 56 inches tall. Has: indoor, arcade, kiddie attractions, trampoline zone under 56 inches, food, birthday parties, family.",
+     "address": "650 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-823-1203",
+     "hours": "Year-round; Monday–Thursday 11am–9pm; Friday 11am–10pm; Saturday 10am–10pm; Sunday 11am–9pm. · Advertised family package $49.99 with gameplay and food for four, subject to coupon terms; birthday package $99.99 for six children; individual gameplay prices not confirmed.",
+     "url": "https://www.chuckecheese.com/warwick-ri/",
+     "src": "chuckecheese.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Gaspee Days Arts and Crafts Festival",
+     "blurb": "Gaspee Days fills the parkway and park with artisans, food and live music during Memorial Day weekend. Children's amusements are part of the program, although the organizer does not specify a current mechanical-ride lineup. Has: annual fair, children's amusements, crafts, food, music.",
+     "address": "Pawtuxet Park and Narragansett Parkway, Warwick, RI",
+     "phone": "401-781-1772 ext. 2",
+     "hours": "Annual Memorial Day weekend; 2026 May 23–25; official event page confirms May 23, 10 am–5 pm; remaining daily hours not confirmed. · Festival admission no charge.",
+     "url": "https://www.gaspee.com/events/arts",
+     "src": "gaspee.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Greenwood Credit Union City Hall Plaza — Bumper Cars",
+     "blurb": "Warwick's City Hall Plaza offers bumper-car rides alongside seasonal skating and community events. Solo drivers must be at least six years old and 42 inches tall, with separate rules for younger passengers. Has: bumper cars, seasonal rides, skating, food, outdoor.",
+     "address": "3275 Post Road, Warwick, RI 02886",
+     "phone": "",
+     "hours": "Seasonal plaza programs; published bumper-car schedule Wednesday–Friday noon–4 pm, Saturday 10:30 am–2:30 pm, Sunday 11 am–3 pm; weather and event changes apply. · Ten-minute ride $12 adults or $10 children 12 and under; family group discount 20% for four or more in one session.",
+     "url": "https://cityhall-plaza.com/bumper-cars",
+     "src": "cityhall-plaza.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Hyper Zone — Warwick Mall",
+     "blurb": "Hyper Zone is an indoor mall playground designed primarily for children ages one through eight. Slides, climbing obstacles and a separate toddler area provide several kinds of active play. Has: indoor playground, slides, toddler play, parties, mall parking.",
+     "address": "400 Bald Hill Road, Warwick, RI 02886",
+     "phone": "",
+     "hours": "",
+     "url": "https://hyperzoneplayground.com/warwick-location",
+     "src": "hyperzoneplayground.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Kidz Kastle",
+     "blurb": "Kidz Kastle rents its indoor playground to private groups for playdates and birthday parties. The play space includes inflatable slides, climbing equipment and pretend-play houses. Has: indoor playground, inflatables, slides, climbing, private parties, parking.",
+     "address": "5 Soule Street, Warwick, RI 02886",
+     "phone": "401-921-5911",
+     "hours": "Year-round by reservation; private playdates on Mondays, private birthday parties at booked times; no walk-in open play. · Private 90-minute Monday playdate $400 for up to 12 children; published two-hour party packages start at $699 Monday–Thursday or $799 Friday–Sunday.",
+     "url": "https://www.kidzkastleri.com/playdates/",
+     "src": "kidzkastleri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Launch Family Entertainment — Warwick",
+     "blurb": "Launch combines trampolines, an obstacle arena, laser tag, bowling and an arcade in one indoor family center. Its attraction pass covers a defined group of activities, with bowling, arcade play and several specialty games priced separately. Has: indoor, trampolines, laser tag, bowling, arcade, ninja course, food.",
+     "address": "920 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-828-5867",
+     "hours": "Year-round; fall hours: Monday closed; Tuesday–Thursday 4–8pm; Friday 3–10pm; Saturday 8am–10pm with toddler time 8–10am; Sunday 10am–9pm; holiday hours vary. · All-day Action Pass $29.99; 40 arcade credits $10; human claw $15; pixel floor $3; bowling per person $12 Monday–Thursday or $15 Friday–Sunday, plus $4 shoes; required grip socks additional if needed.",
+     "url": "https://launchfamilyentertainment.com/warwick/pricing/",
+     "src": "launchfamilyentertainment.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Oakland Beach Splash Pad",
+     "blurb": "Oakland Beach's splash pad sits alongside a new playground near the bay. The surrounding beach improvements include accessible routes and a boardwalk. Has: splash pad, playground, beach, accessible boardwalk, parking.",
+     "address": "Oakland Beach Avenue, Warwick, RI",
+     "phone": "",
+     "hours": "Summer seasonal; published 2026 hours daily 10 am–8 pm. · Splash-pad admission no charge; beach parking is charged separately.",
+     "url": "https://visitwarwickri.com/listing/oakland-beach/146/",
+     "src": "visitwarwickri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Urban Air Adventure Park — Warwick",
+     "blurb": "Urban Air offers indoor trampolines, climbing challenges, a ropes course and its Sky Rider attraction. Ticket access depends on each rider's height and eligibility, and the park also schedules sessions for younger children. Has: indoor, rides, trampolines, climbing, ropes course, Sky Rider, parties.",
+     "address": "300 Quaker Lane, Warwick, RI 02886",
+     "phone": "401-227-0103",
+     "hours": "Year-round; Monday–Thursday 4–8pm; Friday 4–10pm; Saturday 10am–10pm; Sunday 10am–8pm; Jumperoo Saturday 8–10am for ages 5 and under; holiday hours vary. · Unlimited Play $39.99; children 40 inches and under $19.99; eligible parent add-on $19.99; required socks $4.99; tax additional.",
+     "url": "https://www.urbanair.com/rhode-island-warwick/",
+     "src": "urbanair.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Warwick Mall Carousel",
+     "blurb": "A carousel sits in Warwick Mall's food court as a small indoor family attraction. Ride-specific hours and current ticket prices were not confirmed from the mall's website. Has: carousel, indoor, food court, family, parking.",
+     "address": "Warwick Mall, 400 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-739-7500",
+     "hours": "",
+     "url": "https://www.warwickmall.com/",
+     "src": "warwickmall.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "SharkBay PlaySpace",
+     "blurb": "SharkBay combines an indoor playroom and sensory space with a seasonal outdoor play area. Its cafe serves drinks and small bites, and families can use the private parking lot. Has: indoor playground, sensory play, outdoor play, cafe, food, parties, parking.",
+     "address": "320 Washington Street, West Warwick, RI 02893",
+     "phone": "401-615-3517",
+     "hours": "Year-round; Monday–Saturday 9 am–2 pm plus Friday 4–6 pm; Thursday sensory-friendly play 4–6 pm beginning October 15; outdoor Oasis closed in fall and winter. · $15 per child including two adults; children under nine months no charge with a paid sibling; additional adults $5.",
+     "url": "https://www.sharkbayplay.com/",
+     "src": "sharkbayplay.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "West Warwick Parks and Recreation Carnival — I Love America Days",
+     "blurb": "West Warwick's summer carnival is sponsored by the town's parks and recreation program. The municipal calendar places it in the Civic Center parking lot, while the ticket seller gives a Hay Street approach. Has: annual carnival, rides, games, food.",
+     "address": "West Warwick Civic Center parking lot, 100 Factory Street, West Warwick, RI 02893",
+     "phone": "",
+     "hours": "2026 edition June 18–21; town calendar confirms June 18, 5–10 pm; remaining daily hours not confirmed.",
+     "url": "https://westwarwickri.gov/index.asp?DE=29A1470F-5A13-4DDC-8047-915879DF08E1&SEC=FE8B0BDF-62BA-4534-97D3-7F563D8B8D1C",
+     "src": "westwarwickri.gov",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Atlantic Beach Park",
+     "blurb": "This beachfront amusement destination offers an arcade and food near Misquamicut Beach. Its historic carousel is listed as temporarily closed by the National Carousel Association, so a visit should not assume rides are operating. Has: arcade, beachfront, food, seasonal, carousel temporarily closed.",
+     "address": "321 Atlantic Avenue, Misquamicut, Westerly, RI 02891",
+     "phone": "401-322-0504",
+     "hours": "Seasonal; operator announced the arcade opening in mid-June 2026 and directs visitors to call for daily hours.",
+     "url": "https://www.atlanticbeachpark.com/",
+     "src": "atlanticbeachpark.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Misquamicut SpringFest",
+     "blurb": "SpringFest brings a traveling carnival, music and food vendors to Misquamicut State Beach. Its published ride lineup includes a Ferris wheel, carousel and children's rides, although the next edition's exact dates remain unannounced. Has: annual festival, rides, Ferris wheel, carousel, kiddie rides, food, music.",
+     "address": "Misquamicut State Beach, Westerly, RI 02891",
+     "phone": "",
+     "hours": "2026 edition: May 8, 5–10pm; May 9, noon–10pm; May 10, noon–5pm. Organizer plans a return in May 2027; exact 2027 dates not confirmed. · Published 2026 advance admission $10–$13 by purchase date, gate $14, three-day pass $24; rides separate. Operator page contains conflicting child-admission details; child price not confirmed.",
+     "url": "https://misquamicutfestival.org/",
+     "src": "misquamicutfestival.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Polar Play",
+     "blurb": "Polar Play offers indoor children's play and activities for making stuffed animals. Recent operator posts describe open-play sessions, but published schedules vary and current hours need confirmation. Has: indoor playground, stuffed-animal activities, parties.",
+     "address": "62 Franklin Street, Unit 13, Westerly, RI 02891",
+     "phone": "401-757-3040",
+     "hours": "",
+     "url": "https://www.facebook.com/polarplayllc/",
+     "src": "facebook.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Watch Hill Flying Horse Carousel",
+     "blurb": "Watch Hill's Flying Horse Carousel suspends its horses so they swing outward as the ride turns. Outside riders can try the brass-ring game, while the operator limits riders to children ages 2–12 and a maximum weight of 100 pounds. Has: carousel, outdoor, historic, brass-ring game, ages 2–12, 100-pound maximum, seasonal.",
+     "address": "151–153 Bay Street, Watch Hill, RI 02891, Westerly",
+     "phone": "401-388-8136",
+     "hours": "2026: May 23–25, May 30–31 and June 6–7, 10am–6pm; June 13–August 29, 10am–8pm; August 30 closes at 6pm; September 5–7 and September 12–13, 10am–6pm. · Inside horse $2 per ride; outside horse with brass-ring game $5 per ride.",
+     "url": "https://merrygoroundbeach.com/",
+     "src": "merrygoroundbeach.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Autumnfest",
+     "blurb": "Autumnfest combines amusement rides, food vendors and live entertainment in Woonsocket's central park. The annual celebration also includes fireworks and a parade during its October weekend. Has: annual festival, amusement rides, kiddie rides, food, music, fireworks, parade.",
+     "address": "World War II Veterans Memorial Park, 209 East School Street, Woonsocket, RI 02895",
+     "phone": "",
+     "hours": "Confirmed 2026 dates October 9–12: Friday 6–10pm; Saturday–Sunday 10am–10pm; Monday after the parade–6pm. Organizer announces return in 2027 without exact dates.",
+     "url": "https://www.autumnfest.org/",
+     "src": "autumnfest.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Blue Elephant Play Place",
+     "blurb": "Blue Elephant provides indoor imaginative play for children from eight months through six years. Its open-play sessions and special events are designed for children visiting with their families. Has: indoor playground, pretend play, toddler play, parties.",
+     "address": "583 Cumberland Hill Road, Woonsocket, RI",
+     "phone": "401-488-4201",
+     "hours": "Year-round; Monday and Friday 9 am–2 pm, Tuesday–Thursday 9 am–5 pm, Saturday–Sunday 9 am–1 pm.",
+     "url": "https://blueelephantplayplace.com/",
+     "src": "blueelephantplayplace.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Holy Trinity Annual Carnival",
+     "blurb": "Holy Trinity's annual carnival features Rockwell amusement rides, games, food vendors and bingo. The 2026 schedule was adjusted after a rainy opening night, with fireworks moved to Friday. Has: annual carnival, rides, kiddie rides, games, bingo, food, fireworks.",
+     "address": "1409 Park Avenue, Woonsocket, RI 02895",
+     "phone": "401-762-5117",
+     "hours": "2026 edition July 29–August 1; advertised evening sessions 6–11 pm and Saturday 1–11 pm; Wednesday canceled because of rain, with its wristband offer moved to Thursday. · Published 2026 rescheduled Thursday ride wristband $35 cash or $36.40 by card; other ride prices not confirmed.",
+     "url": "https://www.holytrinityri.com/carnival.html",
+     "src": "holytrinityri.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Ryan's Walnut Hill",
+     "blurb": "The former Walnut Hill Bowl now operates as Ryan's Walnut Hill with renovated ten-pin bowling lanes and an arcade. Food service and party options make it a combined family entertainment venue. Has: indoor, ten-pin bowling, 24 lanes, arcade, food, parties, shoe rentals.",
+     "address": "1666 Diamond Hill Road, Woonsocket, RI 02895",
+     "phone": "401-762-9300",
+     "hours": "Year-round; Monday noon–10pm; Tuesday–Wednesday 4–10pm; Thursday 9am–noon and 4–10pm; Friday 9am–11pm; Saturday noon–11pm; Sunday 10am–10pm; holiday hours vary. · Bowling per lane: Monday–Friday before 5pm $32.95/hour, evenings and weekends $34.95/hour; up to six bowlers; shoe rental $5 per person; arcade additional.",
+     "url": "https://ryanfamily.com/locations/ryans-walnut-hill/",
+     "src": "ryanfamily.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "World War II Veterans Memorial Park Splash Pad",
+     "blurb": "The Woonsocket splash pad provides seasonal water play within the World War II Veterans Memorial Park complex. The city's parks and recreation division manages the splash facility. Has: splash pad, municipal park, outdoor.",
+     "address": "Social Street, World War II Veterans Memorial Park, Woonsocket, RI 02895",
+     "phone": "401-767-9287",
+     "hours": "Summer seasonal; published 2026 hours daily 10 am–6 pm.",
+     "url": "https://www.woonsocketri.gov/331/Parks-Recreation-Division",
+     "src": "woonsocketri.gov",
+     "town": "Woonsocket"
+    }
+   ]
   }
  ]
 }
