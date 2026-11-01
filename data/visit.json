@@ -19477,6 +19477,704 @@
    "title": "Give Back",
    "items": [
     {
+     "name": "Barrington Farm School",
+     "blurb": "Help with community farming and garden projects suited to different ages and abilities. Drop-in participation is advertised, while groups of ten or more should contact info@barringtonfarmschool.org beforehand. Has: farm, gardening, family-friendly, drop-in, outdoors, groups.",
+     "address": "138 Middle Highway, Barrington, RI",
+     "phone": "",
+     "hours": "",
+     "url": "https://barringtonfarmschool.org/volunteer/",
+     "src": "barringtonfarmschool.org",
+     "town": "Barrington"
+    },
+    {
+     "name": "Blithewold — museum and visitor center",
+     "blurb": "Welcome visitors as a museum docent or help with admissions and the gift shop. Complete the new-volunteer application linked from the estate’s volunteer page. Has: historic house, museum, docents, visitor center.",
+     "address": "101 Ferry Road, Bristol, RI 02809",
+     "phone": "401-253-2707",
+     "hours": "",
+     "url": "https://www.blithewold.org/volunteer/",
+     "src": "blithewold.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Coggeshall Farm Museum — event volunteers",
+     "blurb": "Assist with visitor engagement and practical preparations for seasonal festivals, reenactments, and workshops. Use the museum’s volunteer form to indicate event availability. Has: historic farm, events, visitor assistance, seasonal opportunities, application required.",
+     "address": "Bristol",
+     "phone": "",
+     "hours": "",
+     "url": "https://coggeshallfarm.org/about-coggeshall-farm-museum/jobs-at-coggeshall-farm-museum/",
+     "src": "coggeshallfarm.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Herreshoff Marine Museum — docents and visitor services",
+     "blurb": "Guide visitors through maritime-history exhibits or assist at admissions and the museum store. Contact the museum to discuss a role and its training. Has: maritime museum, docents, admissions, gift shop, training.",
+     "address": "1 Burnside Street, Bristol, RI 02809",
+     "phone": "401-253-5000",
+     "hours": "",
+     "url": "https://herreshoff.org/about/volunteer/",
+     "src": "herreshoff.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Linden Place — docents and visitor welcome",
+     "blurb": "Share the estate’s history through tours or assist visitors in the gift shop. Contact info@lindenplace.org to discuss training and current volunteer needs. Has: historic house, docents, gift shop, visitor assistance.",
+     "address": "Bristol",
+     "phone": "401-253-0390",
+     "hours": "",
+     "url": "https://www.lindenplace.org/volunteer",
+     "src": "lindenplace.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Mount Hope Farm — Growing for Good and ornamental gardens",
+     "blurb": "Grow food for the East Bay Food Pantry or help maintain flower and herb gardens. General garden roles require age eighteen or older and training before independent work. Has: farm, gardening, food assistance, outdoors.",
+     "address": "250 Metacom Avenue, Bristol, RI 02809",
+     "phone": "401-254-1745",
+     "hours": "Growing for Good: Wednesday, Friday and Saturday, 9 am–noon, April–November.",
+     "url": "https://www.mounthopefarm.org/volunteer",
+     "src": "mounthopefarm.org",
+     "town": "Bristol"
+    },
+    {
+     "name": "Charlestown Land Trust — trails and property monitoring",
+     "blurb": "Maintain trails or inspect conserved properties and report their condition. Contact the land trust to discuss stewardship assignments and any preparation needed. Has: trail maintenance, property monitoring, outdoors.",
+     "address": "Charlestown",
+     "phone": "401-213-4422",
+     "hours": "",
+     "url": "https://charlestownlandtrust.org/stewardship/",
+     "src": "charlestownlandtrust.org",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Jonnycake Center of Westerly — Giving Garden",
+     "blurb": "Help plant, weed, and harvest vegetables for food pantries and community meal programs. Contact volunteer@jonnycake.org to join the garden team in Ninigret Park. Has: community garden, harvesting, outdoors, food assistance.",
+     "address": "100 Park Lane, Ninigret Park, Charlestown, RI",
+     "phone": "401-377-8069 ext. 114",
+     "hours": "Tuesday and Thursday, 9 am–noon, May–October.",
+     "url": "https://jonnycake.org/volunteer/",
+     "src": "jonnycake.org",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Kettle Pond Visitor Center — visitor services",
+     "blurb": "Welcome visitors, orient them to the refuges, and assist with the nature store and visitor facilities. Submit the federal volunteer application to rhodeislandcomplex@fws.gov. Has: visitor center, nature interpretation, gift shop, application required.",
+     "address": "Charlestown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.fws.gov/refuge/sachuest-point/get-involved",
+     "src": "fws.gov",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Paine House Museum — Western Rhode Island Civic Historical Society",
+     "blurb": "Guide visitors through Paine House or assist with historic-property upkeep. Email info@westernrihistory.org to discuss seasonal tour-guide work or practical projects. Has: historic house, docents, building maintenance, grounds.",
+     "address": "Coventry",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.westernrihistory.org/volunteer/",
+     "src": "westernrihistory.org",
+     "town": "Coventry"
+    },
+    {
+     "name": "CCAP Community Garden",
+     "blurb": "Help plant, seed, weed, and turn soil in a garden producing food for CCAP clients. Call the volunteer contact to confirm the garden worksite and schedule. Has: community garden, planting, food assistance, outdoors.",
+     "address": "Cranston",
+     "phone": "401-562-2282",
+     "hours": "",
+     "url": "https://www.comcap.org/donate/get-involved/",
+     "src": "comcap.org",
+     "town": "Cranston"
+    },
+    {
+     "name": "Franklin Farm — community garden",
+     "blurb": "Help grow and harvest vegetables at the historic community farm. Join the garden’s seasonal volunteer evenings or complete the interest form for other assignments. Has: community farm, gardening, harvesting, family-friendly, outdoors.",
+     "address": "142 Abbott Run Valley Road, Cumberland, RI",
+     "phone": "",
+     "hours": "Monday and Thursday volunteer evenings; summer listing 5:30 pm–dusk, autumn garden listing 5 pm–dusk; confirm current season with the farm.",
+     "url": "https://www.franklinfarmri.org/volunteer",
+     "src": "franklinfarmri.org",
+     "town": "Cumberland"
+    },
+    {
+     "name": "East Greenwich Municipal Land Trust",
+     "blurb": "Help with trail cleanups and other stewardship projects on town conservation land. Contact landtrust@eastgreenwichri.com for current opportunities; the proposed trail-adoption relaunch should be confirmed before relying on it. Has: municipal land trust, trail maintenance, cleanups, outdoors.",
+     "address": "East Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.eastgreenwichri.com/landtrust",
+     "src": "eastgreenwichri.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "New England Wireless and Steam Museum",
+     "blurb": "Help maintain collections and facilities or support the museum’s annual Steam Up event. Contact the museum through its participation page to discuss technical skills or general volunteer work. Has: engineering museum, restoration, collections, events.",
+     "address": "1300 Frenchtown Road, East Greenwich, RI 02818",
+     "phone": "",
+     "hours": "Regular volunteer work: Thursday mornings; other arrangements by inquiry.",
+     "url": "https://newsm.org/participate/",
+     "src": "newsm.org",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Varnum House Museum",
+     "blurb": "Serve as a historic-house docent or assist with events and office tasks. Use the museum’s contact form to discuss a suitable volunteer role. Has: historic house, docents, events, administration.",
+     "address": "East Greenwich",
+     "phone": "",
+     "hours": "",
+     "url": "https://varnumcontinentals.org/house-museum/contact/",
+     "src": "varnumcontinentals.org",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Varnum Memorial Armory Museum",
+     "blurb": "Offer your time to support the armory museum’s historical work. Complete the volunteer interest form and ask staff which assignments are available. Has: military history, museum, application required.",
+     "address": "6 Main Street, East Greenwich, RI 02818",
+     "phone": "401-884-4110",
+     "hours": "",
+     "url": "https://varnumcontinentals.org/volunteer/",
+     "src": "varnumcontinentals.org",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Pomham Rocks Lighthouse — boat crew and visitor activities",
+     "blurb": "Association members can assist with lighthouse visits, boat maintenance, or qualified crew roles. Requirements vary by vessel and position, so review the published qualifications before applying. Has: lighthouse, boats, visitor assistance, membership required, role-specific qualifications.",
+     "address": "East Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://pomhamrockslighthouse.org/volunteer/",
+     "src": "pomhamrockslighthouse.org",
+     "town": "East Providence"
+    },
+    {
+     "name": "Tomaquag Museum — volunteer inquiry",
+     "blurb": "An older regional volunteer listing describes museum archives, educational assistance, and maintenance roles. Contact Southern Rhode Island Volunteers to confirm whether the museum is currently accepting applicants and where work takes place. Has: museum, archives, education, maintenance, availability unconfirmed.",
+     "address": "Exeter",
+     "phone": "401-552-7661",
+     "hours": "",
+     "url": "https://www.southernrivol.org/communitypartnersblog/tomaquagmuseum",
+     "src": "southernrivol.org",
+     "town": "Exeter"
+    },
+    {
+     "name": "Borders Farm — community garden and trails",
+     "blurb": "Help maintain the farm’s public hiking trails or tend a vegetable garden benefiting local food banks. Contact bordersfarm@gmail.com to discuss volunteer work and how to get involved. Has: historic farm, community garden, trail maintenance, outdoors.",
+     "address": "31 North Road, Foster, RI 02825",
+     "phone": "401-647-5689",
+     "hours": "",
+     "url": "https://bordersfarm.org/getinvolved",
+     "src": "bordersfarm.org",
+     "town": "Foster"
+    },
+    {
+     "name": "Glocester Land Trust — general stewardship volunteers",
+     "blurb": "Offer help with trail maintenance, litter control, landscaping, building care, or nature observations. Complete the volunteer application and select the activities that match your interests. Has: trail maintenance, litter cleanup, landscaping, outdoors, application required.",
+     "address": "Glocester",
+     "phone": "",
+     "hours": "",
+     "url": "https://glocesterlandtrust.org/support-us/volunteer/volunteer-application",
+     "src": "glocesterlandtrust.org",
+     "town": "Glocester"
+    },
+    {
+     "name": "Friends of Hopkinton Land Trust — work parties",
+     "blurb": "Join volunteer work parties that maintain Hopkinton preserves and trails. Use the land trust’s current event listings to confirm the next worksite and RSVP instructions. Has: trail maintenance, work parties, outdoors.",
+     "address": "Hopkinton",
+     "phone": "",
+     "hours": "",
+     "url": "https://hlt-ri.org/",
+     "src": "hlt-ri.org",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Beavertail Lighthouse — museum docents and tower assistants",
+     "blurb": "Help welcome lighthouse visitors as a museum docent or tower-climb assistant. Select your preferred role and availability on the association’s volunteer form. Has: lighthouse, museum, docents, tower-climb assistance, application required.",
+     "address": "Jamestown",
+     "phone": "401-423-3270",
+     "hours": "Volunteer form offers 10:30 am–1:30 pm and 1:30–4:30 pm availability blocks.",
+     "url": "https://www.beavertaillight.org/volunteer/",
+     "src": "beavertaillight.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Conanicut Island Land Trust — property stewardship",
+     "blurb": "Volunteer stewards help monitor and care for conserved island properties. Contact the land trust to ask about an assignment because a current public sign-up schedule was not confirmed. Has: land stewardship, property monitoring, outdoors.",
+     "address": "Jamestown",
+     "phone": "401-829-6053",
+     "hours": "",
+     "url": "https://conanicutlandtrust.org/properties/",
+     "src": "conanicutlandtrust.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Arts Center — garden and event volunteers",
+     "blurb": "Support the arts center through gardening or assistance with its programs and events. Submit the volunteer form to discuss an assignment that matches your interests. Has: gardening, arts center, events, application required.",
+     "address": "18 Valley Street, Jamestown, RI 02835",
+     "phone": "401-560-0979",
+     "hours": "",
+     "url": "https://www.jamestownartcenter.org/volunteer",
+     "src": "jamestownartcenter.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Community Farm",
+     "blurb": "Help grow and harvest produce for food pantries, with children under twelve accompanied by an adult. Email jcf@jamestowncommunityfarm.com before visiting because the home and volunteer pages publish conflicting schedules. Has: farm, gardening, harvesting, family-friendly, outdoors.",
+     "address": "40 Eldred Avenue, Jamestown, RI 02835",
+     "phone": "",
+     "hours": "",
+     "url": "https://jamestowncommunityfarm.com/volunteers/",
+     "src": "jamestowncommunityfarm.com",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Jamestown Historical Society — museum docents",
+     "blurb": "Welcome visitors to the island’s history museum during its public season. Register through the society’s volunteer page or contact info@jhsri.org to discuss available shifts. Has: museum, docents, seasonal, visitor welcome.",
+     "address": "Jamestown",
+     "phone": "",
+     "hours": "Late May–mid-October; Friday, Saturday, Sunday and holidays, 1–4 pm.",
+     "url": "https://jamestownhistoricalsociety.org/volunteer/",
+     "src": "jamestownhistoricalsociety.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Bami Farm — African Alliance of Rhode Island",
+     "blurb": "Help seed, transplant, weed, and harvest in the farm’s fields and growing structures. The farm welcomes different experience levels during the growing season; contact the organizer before attending. Has: community farm, gardening, harvesting, outdoors, beginners welcome.",
+     "address": "Johnston",
+     "phone": "401-331-5535",
+     "hours": "",
+     "url": "https://www.africanallianceri.org/get-involved",
+     "src": "africanallianceri.org",
+     "town": "Johnston"
+    },
+    {
+     "name": "Friends of Hearthside — Great Road Heritage Campus",
+     "blurb": "Support historic preservation, living-history programs, and events at the heritage campus. Contact Friends of Hearthside to ask about training and current volunteer assignments. Has: historic house, living history, events, preservation.",
+     "address": "Lincoln",
+     "phone": "",
+     "hours": "",
+     "url": "https://greatroadheritagecampus.org/friends-of-hearthside",
+     "src": "greatroadheritagecampus.org",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Little Compton Historical Society",
+     "blurb": "Contribute time to the historical society’s preservation and public-history work. Contact the society through its volunteer page to discuss current assignments. Has: history, museum, volunteer inquiry.",
+     "address": "Little Compton",
+     "phone": "401-635-4035",
+     "hours": "",
+     "url": "https://littlecompton.org/support/volunteer/",
+     "src": "littlecompton.org",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Sakonnet Preservation Association — trail and property stewards",
+     "blurb": "Help maintain walking trails or monitor conserved properties after role-specific preparation. Email spa@sakonnetpreservation.org or call the office to discuss joining the stewardship team. Has: trail maintenance, property monitoring, outdoors, training.",
+     "address": "Little Compton",
+     "phone": "401-635-8800",
+     "hours": "",
+     "url": "https://www.sakonnetpreservation.org/volunteer/",
+     "src": "sakonnetpreservation.org",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Norman Bird Sanctuary — Curiosity Lab naturalist ambassadors",
+     "blurb": "Help visitors explore the sanctuary’s hands-on environmental learning space. Contact education@normanbirdsanctuary.org about becoming a volunteer naturalist ambassador. Has: nature education, visitor assistance, seasonal.",
+     "address": "583 Third Beach Road, Middletown, RI 02842",
+     "phone": "401-846-2577",
+     "hours": "Early September–early June.",
+     "url": "https://normanbirdsanctuary.org/about/volunteer/",
+     "src": "normanbirdsanctuary.org",
+     "town": "Middletown"
+    },
+    {
+     "name": "Friends of Canonchet Farm — habitat and trail work",
+     "blurb": "Help remove invasive vegetation and maintain the farm’s trails and pond-edge habitat. The published work-session information is old, so contact the organizer to confirm current opportunities before attending. Has: trail maintenance, invasive-plant removal, habitat restoration, outdoors.",
+     "address": "Narragansett",
+     "phone": "401-783-3951",
+     "hours": "",
+     "url": "https://www.canonchet.org/habitat.php",
+     "src": "canonchet.org",
+     "town": "Narragansett"
+    },
+    {
+     "name": "ORCA — Aunt Carrie’s beach cleanup, November 21, 2026",
+     "blurb": "Join ORCA and local partners for a cleanup of the rocky shoreline near Aunt Carrie’s. RSVP through the event page, wear suitable footwear, and use the cleanup equipment supplied by the organizers. Has: beach cleanup, one-time, outdoors, equipment provided, rocky terrain, RSVP required.",
+     "address": "1240 Ocean Road, Narragansett, RI 02882",
+     "phone": "",
+     "hours": "November 21, 2026, 10 am–noon.",
+     "url": "https://www.oceanrecoverycommunityalliance.org/event-details-registration/aunt-carries-cleanup-3",
+     "src": "oceanrecoverycommunityalliance.org",
+     "town": "Narragansett"
+    },
+    {
+     "name": "South County Museum",
+     "blurb": "Help share local history and traditional crafts with museum visitors. Complete the museum’s volunteer application and staff will follow up by email. Has: museum, traditional crafts, education, application required.",
+     "address": "Narragansett",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.southcountymuseum.org/volunteer",
+     "src": "southcountymuseum.org",
+     "town": "Narragansett"
+    },
+    {
+     "name": "Block Island Historical Society",
+     "blurb": "Help support the island historical society and its museum work. Email blockislandhistory@gmail.com to discuss volunteer opportunities; the museum operates seasonally and its telephone is not monitored in winter. Has: history, museum, seasonal, application by email.",
+     "address": "18 Old Town Road, Block Island, RI 02807, New Shoreham",
+     "phone": "401-466-2481",
+     "hours": "",
+     "url": "https://www.blockislandhistorical.org/contact",
+     "src": "blockislandhistorical.org",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Newport Art Museum — education and events",
+     "blurb": "Prepare art activities, assist children with art-making, or welcome visitors at museum events. Email the volunteer contact on the museum page with your interests and availability. Has: art museum, education, events, visitor welcome.",
+     "address": "76 Bellevue Avenue, Newport, RI 02840",
+     "phone": "401-848-8200",
+     "hours": "",
+     "url": "https://newportartmuseum.org/about/volunteer/",
+     "src": "newportartmuseum.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Historical Society",
+     "blurb": "Help with visitor information, collections, administrative projects, or historical events. Some core assignments request two hours weekly for six months, so discuss the commitment when applying. Has: history, collections, visitor assistance, training, recurring roles.",
+     "address": "82 Touro Street, Newport, RI 02840",
+     "phone": "401-846-0813",
+     "hours": "",
+     "url": "https://www.newporthistoricalsociety.org/support-the-nhs/volunteer-opportunities/",
+     "src": "newporthistoricalsociety.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Mansions — historic landscapes",
+     "blurb": "Help maintain historic landscapes cared for by the Preservation Society of Newport County. Use the Volunteer button to register and discuss a suitable property assignment. Has: gardening, historic landscapes, outdoors, individuals, groups.",
+     "address": "Newport",
+     "phone": "401-847-1000 ext. 126",
+     "hours": "",
+     "url": "https://www.newportmansions.org/about-us/volunteer-opportunities/",
+     "src": "newportmansions.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Newport Tree Conservancy",
+     "blurb": "Help plant and care for Newport’s trees or participate in Miantonomi Park restoration. Register for volunteer updates or contact the conservancy to arrange a group project. Has: tree planting, tree care, park restoration, outdoors, groups.",
+     "address": "Newport",
+     "phone": "401-324-9204",
+     "hours": "",
+     "url": "https://www.newporttreeconservancy.org/volunteer",
+     "src": "newporttreeconservancy.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Rose Island Lighthouse — education docents",
+     "blurb": "Lead lighthouse and island programs for school groups and other visitors after training. Seasonal volunteers are asked to commit to an island shift every other week. Has: lighthouse, docents, training provided, recurring commitment.",
+     "address": "Newport",
+     "phone": "401-847-4242",
+     "hours": "April–October; assigned weekday or weekend shifts.",
+     "url": "https://www.roseisland.org/volunteer",
+     "src": "roseisland.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Casey Farm — farmers market support",
+     "blurb": "Help set up, operate, and pack away the farm’s seasonal market. Contact the market manager through the volunteer page before attending. Has: farmers market, setup, visitor assistance, outdoors.",
+     "address": "North Kingstown",
+     "phone": "401-295-1030",
+     "hours": "Saturday mornings, mid-May–late October.",
+     "url": "https://casey.farm/content-block/dig-in-and-volunteer-at-casey-farm/",
+     "src": "casey.farm",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Gilbert Stuart Birthplace and Museum — docents",
+     "blurb": "Interpret the historic house and mills for museum visitors. Individualized docent training is available, and scheduling can be discussed with the museum. Has: museum, historic mills, docents, training provided, flexible.",
+     "address": "815 Gilbert Stuart Road, Saunderstown, RI 02874, North Kingstown",
+     "phone": "401-294-3001",
+     "hours": "",
+     "url": "https://gilbertstuartmuseum.org/get_involved/",
+     "src": "gilbertstuartmuseum.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Smith’s Castle — docents and greeters",
+     "blurb": "Lead historic-house tours or greet visitors and handle admissions at the visitor center. No prior experience is required, and the docent/greeter form is the route into training. Has: historic house, docents, greeters, training provided.",
+     "address": "North Kingstown",
+     "phone": "401-294-3521",
+     "hours": "Tours operate May–mid-October; volunteer shifts arranged.",
+     "url": "https://www.smithscastle.org/get-involved/docents/",
+     "src": "smithscastle.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "North Smithfield Heritage Association",
+     "blurb": "Help preserve local history through the association’s collections, historic-site, or cemetery activities. Contact the association to ask about joining a committee and any training needed for hands-on work. Has: local history, archives, historic sites, cemetery care.",
+     "address": "North Smithfield",
+     "phone": "401-376-2927",
+     "hours": "",
+     "url": "https://www.nsheritageassn.org/committees",
+     "src": "nsheritageassn.org",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Hope’s Harvest",
+     "blurb": "Organized gleaning trips that recover surplus produce for hunger-relief organizations.",
+     "address": "Participating Rhode Island farms",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.farmfreshri.org/programs/hopes-harvest/volunteers/",
+     "src": "farmfreshri.org"
+    },
+    {
+     "name": "Old Slater Mill — Blackstone River Valley National Historical Park",
+     "blurb": "Help staff the mill’s front desk, assist special events, or support maintenance projects. Contact the park ranger listed on the recruitment page to discuss current openings. Has: national park, historic mill, visitor assistance, events, maintenance.",
+     "address": "Pawtucket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.nps.gov/blrv/getinvolved/workwithus.htm",
+     "src": "nps.gov",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Portsmouth Historical Society",
+     "blurb": "Maintain exhibits, assist researchers, or help organize local-history events. Complete the volunteer form with your interests, availability, and preferred time commitment. Has: museum, exhibit maintenance, research, events, application required.",
+     "address": "870 East Main Road, Portsmouth, RI 02871",
+     "phone": "401-683-9178",
+     "hours": "",
+     "url": "https://portsmouthhistorical.org/support/volunteer/",
+     "src": "portsmouthhistorical.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Rhode Island Wild Plant Society — Seed Starters East",
+     "blurb": "Propagate native plants through seeds, cuttings, and division at the Portsmouth growing site. Contact the East team through the program page before joining. Has: native plants, propagation, nursery, gardening.",
+     "address": "Portsmouth",
+     "phone": "",
+     "hours": "Second and fourth Thursday mornings; weekly in spring and summer.",
+     "url": "https://riwps.org/exploring-natives/seed-starters/",
+     "src": "riwps.org",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "African American Museum of Rhode Island",
+     "blurb": "Welcome museum visitors or assist with tours, educational programs, and cultural events. No museum experience is required, and training is provided after a volunteer inquiry. Has: museum, visitor welcome, education, events, training provided.",
+     "address": "500 Broad Street, Unit 5B, Providence, RI",
+     "phone": "401-536-3349",
+     "hours": "",
+     "url": "https://www.aam-ri.org/volunteer",
+     "src": "aam-ri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Blackstone Parks Conservancy",
+     "blurb": "Help care for Blackstone Park Conservation District and Blackstone Boulevard Park. Contact the conservancy about individual projects or a group service day. Has: park stewardship, outdoors, individuals, groups.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.blackstoneparksconservancy.org/volunteer/",
+     "src": "blackstoneparksconservancy.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Groundwork Rhode Island — Harvest Cycle composting",
+     "blurb": "Help process compost at the Ring Street garden and join occasional weekend workdays. Complete the volunteer interest form or confirm the advertised drop-in session before attending. Has: composting, community garden, outdoors, weekly.",
+     "address": "Ring Street Garden, Providence, RI",
+     "phone": "",
+     "hours": "Thursday noon–3 pm; occasional weekend workdays.",
+     "url": "https://groundworkri.org/faq-items/do-you-take-volunteers/",
+     "src": "groundworkri.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Knight Memorial Library — garden volunteers",
+     "blurb": "Help maintain the library’s garden through arranged volunteer work. Use the gardening page’s Knight Memorial contact to agree on a suitable time. Has: library garden, gardening, outdoors, advance arrangement.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://clpvd.org/learn/gardening/",
+     "src": "clpvd.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Mary Elizabeth Robinson Research Center — Rhode Island Historical Society",
+     "blurb": "Contribute to the historical society’s research-center work according to your skills and interests. Submit an application and discuss applicable training and requirements with staff. Has: history, archives, research, application required.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/support/volunteer/",
+     "src": "rihs.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Mount Pleasant Library — garden volunteers",
+     "blurb": "Help with garden tasks arranged by the library. Email lsmith@clpvd.org for current opportunities and participation details. Has: library garden, gardening, outdoors.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://clpvd.org/learn/gardening/",
+     "src": "clpvd.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Museum at the John Brown House — Rhode Island Historical Society",
+     "blurb": "Support guided visits, gallery activities, and museum events after applying. Active museum volunteers are expected to contribute at least fifteen hours annually. Has: museum, historic house, docents, training, recurring commitment.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/support/volunteer/",
+     "src": "rihs.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Museum of Natural History and Planetarium",
+     "blurb": "Help visitors understand natural-history collections and exhibitions as a museum assistant or docent. Volunteers must apply, complete training, and undergo a background check. Has: museum, natural history, docents, training required, background check.",
+     "address": "1000 Elmwood Avenue, Providence, RI",
+     "phone": "401-680-7221",
+     "hours": "",
+     "url": "https://www.providenceri.gov/museum/volunteer/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Community Tree Keepers",
+     "blurb": "Train to care for young street trees through the city’s community Tree Keeper program. Applicants need qualifying horticultural training, work experience, prior program leadership, or equivalent knowledge reviewed by the organizer. Has: tree care, training, experience required, outdoors.",
+     "address": "Providence",
+     "phone": "401-484-7359",
+     "hours": "Applications accepted on a rolling basis; training typically every 6–8 weeks in spring, summer and fall.",
+     "url": "https://pnpp.org/stewardship/pvdtreekeepers/",
+     "src": "pnpp.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Neighborhood Planting Program — planting days",
+     "blurb": "Help plant neighborhood trees during organized spring and fall workdays. Register for a posted session or email info@pnpp.org to arrange group participation. Has: tree planting, outdoors, one-time, groups, registration required.",
+     "address": "Providence",
+     "phone": "401-484-7359",
+     "hours": "Planting seasons in April and October; individual times supplied after registration.",
+     "url": "https://pnpp.org/volunteer/",
+     "src": "pnpp.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island Jewish Historical Association",
+     "blurb": "Register your interest in helping the association preserve local Jewish history. Its volunteer form is available, but specific current duties and shifts need confirmation. Has: history, volunteer interest form.",
+     "address": "401 Elmgrove Avenue, Providence, RI 02906",
+     "phone": "401-331-1360",
+     "hours": "",
+     "url": "https://rijha.org/support/volunteer/",
+     "src": "rijha.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Rhode Island Jewish Museum",
+     "blurb": "Offer time or specialist skills to support the museum’s preservation of local Jewish history. Complete the interest form and staff will discuss ways to participate. Has: museum, historic preservation, cultural history, application required.",
+     "address": "24 Douglas Avenue, Providence, RI 02908",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rhodeislandjewishmuseum.net/get-involved",
+     "src": "rhodeislandjewishmuseum.net",
+     "town": "Providence"
+    },
+    {
+     "name": "Rochambeau Library — vegetable and pollinator gardens",
+     "blurb": "Help maintain a vegetable garden or assist with the library’s pollinator-garden project. Complete the garden volunteer interest form and indicate either or both projects. Has: community garden, pollinator garden, outdoors, interest form.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://clpvd.org/learn/gardening/",
+     "src": "clpvd.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams National Memorial — Volunteers-In-Parks",
+     "blurb": "Support the memorial’s preservation and public-education work through its volunteer program. Contact the park to confirm current assignments and the application process. Has: national park, history, visitor assistance, preservation.",
+     "address": "Providence",
+     "phone": "401-521-7266",
+     "hours": "",
+     "url": "https://www.nps.gov/rowi/getinvolved/volunteer.htm",
+     "src": "nps.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams Park Botanical Center — educational docents",
+     "blurb": "Share plant knowledge during field trips, tours, and docent programs. Apply through the volunteer portal and complete the required screening, orientation, and role training. Has: botanical garden, docents, education, background check, training.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.providenceri.gov/botanical/volunteering/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Wanskuck Library — garden volunteers",
+     "blurb": "Join the library’s advertised drop-in garden sessions for practical garden care. Contact dbrophy@clpvd.org to confirm seasonal operation before attending. Has: library garden, gardening, drop-in, outdoors.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "Thursday 5–8 pm and Sunday 9–11 am; confirm seasonal availability.",
+     "url": "https://clpvd.org/learn/gardening/",
+     "src": "clpvd.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Waterfire Volunteering",
+     "blurb": "Opportunities to help produce and support one of Rhode Island’s signature public arts experiences.",
+     "address": "Providence",
+     "phone": "",
+     "hours": "",
+     "url": "https://waterfire.org/",
+     "src": "waterfire.org"
+    },
+    {
+     "name": "Revive the Roots — Mowry Commons",
+     "blurb": "Help care for community garden spaces and support farm-based activities at Mowry Commons. Use the organization’s contact form to discuss available work and current volunteer days. Has: community garden, farm, outdoors, volunteer inquiry.",
+     "address": "374 Farnum Pike, Smithfield, RI 02917",
+     "phone": "401-305-0539",
+     "hours": "",
+     "url": "https://www.revivetheroots.org/",
+     "src": "revivetheroots.org",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Kinney Azalea Gardens — Stewardship Circle",
+     "blurb": "Volunteer in plant care, gardening, educational activities, or garden events. Create a profile, join the volunteer group, and choose available shifts without a minimum service commitment. Has: botanical garden, gardening, education, events, flexible.",
+     "address": "2391 Kingstown Road, Kingston, RI 02881, South Kingstown",
+     "phone": "401-218-0797",
+     "hours": "",
+     "url": "https://www.kinneyazaleagardens.com/stewardshipcircle",
+     "src": "kinneyazaleagardens.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "South County History Center — research and collections",
+     "blurb": "Adults can assist with historical research or collections work, with some research possible remotely. Discuss your experience and availability with the center; remote research may require access to genealogy resources. Has: history, archives, research, adults, remote options.",
+     "address": "2636 Kingstown Road, Kingston, RI 02881, South Kingstown",
+     "phone": "401-783-1328",
+     "hours": "On-site volunteer window: Monday–Thursday, 11 am–4 pm.",
+     "url": "https://southcountyhistorycenter.org/volunteer",
+     "src": "southcountyhistorycenter.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "South Kingstown Land Trust — stewardship and grist mill",
+     "blurb": "Help monitor properties, mark trails, serve as a trail ambassador, or assist the grist mill crew. Submit the volunteer form to discuss training and an appropriate assignment. Has: property monitoring, trail ambassadors, historic mill, outdoors.",
+     "address": "South Kingstown",
+     "phone": "401-789-0962",
+     "hours": "",
+     "url": "https://sklt.org/supportsklt/volunteer/",
+     "src": "sklt.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Trustom Pond National Wildlife Refuge — planting and gardening",
+     "blurb": "Help support the refuge’s native-plant garden and related stewardship projects. Send a volunteer application to rhodeislandcomplex@fws.gov and ask about current garden assignments. Has: native plants, gardening, wildlife refuge, outdoors.",
+     "address": "South Kingstown",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.fws.gov/refuge/trustom-pond/get-involved",
+     "src": "fws.gov",
+     "town": "South Kingstown"
+    },
+    {
      "name": "Save the Bay Volunteering",
      "blurb": "Shoreline cleanups, habitat work, education support, and other scheduled opportunities.",
      "address": "Statewide coastal and watershed locations",
@@ -19495,15 +20193,6 @@
      "src": "asri.org"
     },
     {
-     "name": "Hope’s Harvest",
-     "blurb": "Organized gleaning trips that recover surplus produce for hunger-relief organizations.",
-     "address": "Participating Rhode Island farms",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.farmfreshri.org/programs/hopes-harvest/volunteers/",
-     "src": "farmfreshri.org"
-    },
-    {
      "name": "Rhode Island Land Trust Council Volunteering",
      "blurb": "Trail maintenance, stewardship, and other projects supporting local conservation properties.",
      "address": "Statewide",
@@ -19513,13 +20202,204 @@
      "src": "rilandtrusts.org"
     },
     {
-     "name": "Waterfire Volunteering",
-     "blurb": "Opportunities to help produce and support one of Rhode Island’s signature public arts experiences.",
-     "address": "Providence",
+     "name": "Tiverton Land Trust",
+     "blurb": "Help care for conserved properties or support land-trust events. Complete the interest form and specify outdoor fieldwork or another preferred volunteer assignment. Has: land stewardship, outdoors, events, application required.",
+     "address": "Tiverton",
+     "phone": "401-625-1300",
+     "hours": "",
+     "url": "https://www.tivertonlandtrust.org/volunteer",
+     "src": "tivertonlandtrust.org",
+     "town": "Tiverton"
+    },
+    {
+     "name": "McCoy Community Farm",
+     "blurb": "Help prepare soil, plant, and harvest food through the community-farm volunteer network. Use the Food Bank’s McCoy Community Farm contact link to confirm the current schedule. Has: community farm, harvesting, family-friendly, outdoors.",
+     "address": "106 Birch Swamp Road, farm at end of Robbins Lane, Warren, RI",
      "phone": "",
      "hours": "",
-     "url": "https://waterfire.org/",
-     "src": "waterfire.org"
+     "url": "https://rifoodbank.org/volunteer/",
+     "src": "rifoodbank.org",
+     "town": "Warren"
+    },
+    {
+     "name": "Warren Land Trust — stewardship volunteers",
+     "blurb": "Help support the land trust’s conserved properties and stewardship work. Submit its volunteer interest form or contact the trust to confirm current projects. Has: land stewardship, outdoors, volunteer interest form.",
+     "address": "Warren",
+     "phone": "",
+     "hours": "",
+     "url": "https://warrenlct.org/support-us/volunteer/",
+     "src": "warrenlct.org",
+     "town": "Warren"
+    },
+    {
+     "name": "Warwick Historical Society",
+     "blurb": "Help with museum work, building care, events, or hosting at the Arnold House. Use the society’s volunteer form to select your interests. Has: history, museum, historic house, events, application required.",
+     "address": "Warwick",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.warwickrihistoricalsociety.org/volunteer.html",
+     "src": "warwickrihistoricalsociety.org",
+     "town": "Warwick"
+    },
+    {
+     "name": "Westbay Farm",
+     "blurb": "Help grow vegetables that support the Westbay Marketplace food pantry. Call the farm’s volunteer contact to arrange participation and learn which seasonal tasks need help. Has: farm, gardening, harvesting, food assistance, outdoors.",
+     "address": "1351 Centerville Road, Warwick, RI 02886",
+     "phone": "401-921-1249",
+     "hours": "",
+     "url": "https://westbaycap.org/programs/westbay-farm/",
+     "src": "westbaycap.org",
+     "town": "Warwick"
+    },
+    {
+     "name": "Babcock-Smith House Museum",
+     "blurb": "Share colonial and granite-industry history as a public educator or support historical research. Use the museum’s volunteer page to explore how your interests fit its collections and programs. Has: historic house, museum, docents, research.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://babcocksmithhouse.org/membership-volunteer/",
+     "src": "babcocksmithhouse.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Historical Society",
+     "blurb": "Support local-history activities through the society’s volunteer committees. Contact whspresident@gmail.com to ask which assignments currently need help. Has: history, committees, volunteer inquiry.",
+     "address": "Westerly",
+     "phone": "",
+     "hours": "",
+     "url": "https://westerlyhistoricalsociety.org/",
+     "src": "westerlyhistoricalsociety.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Westerly Land Trust — Coffee and Clearing Club",
+     "blurb": "Join a recurring crew that clears trails and stone walls, builds signs, and helps with gardening. Complete the interest form or contact the stewardship manager for the meeting location. Has: trail maintenance, gardening, stonewalls, weekly, outdoors.",
+     "address": "Westerly",
+     "phone": "401-315-2610",
+     "hours": "Tuesdays September–June; coffee 8:30 am, briefing 8:55 am, work until 11 am.",
+     "url": "https://westerlylandtrust.org/support-our-work/volunteer/",
+     "src": "westerlylandtrust.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Museum of Work & Culture — Rhode Island Historical Society",
+     "blurb": "Help lead tours, assist visitors in galleries, or support museum programs. Apply through the museum’s linked form and discuss training and the annual service commitment. Has: museum, docents, education, events, training.",
+     "address": "Woonsocket",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.rihs.org/support/volunteer/",
+     "src": "rihs.org",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Aquidneck Island Land Trust — trails and habitat stewardship",
+     "blurb": "Help maintain trails, remove litter and invasive plants, or assist with native planting on Aquidneck Island. The volunteer form also accepts interest in trail adoption and trained property monitoring. Has: trail maintenance, cleanups, invasive-plant removal, native planting, outdoors, application required.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://ailt.org/get-involved/",
+     "src": "ailt.org",
+     "town": ""
+    },
+    {
+     "name": "Blackstone River Valley National Heritage Corridor — Rhode Island placements",
+     "blurb": "Join heritage interpretation, cleanups, visitor-center work, or historical-preservation projects through the Volunteers-In-Parks network. Ask for a Rhode Island placement because the corridor also operates in Massachusetts. Has: history, cleanups, visitor centers, preservation, placement required.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://blackstoneheritagecorridor.org/volunteer/",
+     "src": "blackstoneheritagecorridor.org",
+     "town": ""
+    },
+    {
+     "name": "Blackstone Valley Tourism Council — water-chestnut removal",
+     "blurb": "Help remove invasive water chestnuts during organized waterway workdays. Use the organizer’s form to arrange a Rhode Island project, since the program also operates in Massachusetts. Has: invasive-plant removal, waterways, outdoors, groups.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://bvtcri.org/water-chestnut-cleanups",
+     "src": "bvtcri.org",
+     "town": ""
+    },
+    {
+     "name": "Clean Ocean Access — coastal cleanups",
+     "blurb": "Join organized shoreline cleanups coordinated by Clean Ocean Access on Aquidneck Island. Use the activities page for the individual cleanup location and registration details. Has: beach cleanup, outdoors, event registration.",
+     "address": "",
+     "phone": "401-236-2561",
+     "hours": "",
+     "url": "https://www.cleanoceanaccess.org/action/activities/",
+     "src": "cleanoceanaccess.org",
+     "town": ""
+    },
+    {
+     "name": "Cozy Rhody — public-space cleanups",
+     "blurb": "Join community cleanups of parks, bike paths, waterways, streets, and other public spaces. Choose a posted event on the organizer’s Meetup calendar and follow its attendance instructions. Has: litter cleanup, outdoors, one-time, event registration.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.meetup.com/cozy-rhody-litter-cleanup/",
+     "src": "meetup.com",
+     "town": ""
+    },
+    {
+     "name": "Farm Fresh Rhode Island — Hope’s Harvest gleaning",
+     "blurb": "Harvest surplus produce for hunger-relief organizations on scheduled Rhode Island farm trips. Register first and choose an in-state trip; volunteers must be fourteen with a guardian or sixteen to participate independently. Has: farm, gleaning, harvesting, outdoors, training provided, registration required.",
+     "address": "",
+     "phone": "401-312-4250",
+     "hours": "Summer and fall; trips generally last 2–3 hours.",
+     "url": "https://www.farmfreshri.org/support/volunteer/",
+     "src": "farmfreshri.org",
+     "town": ""
+    },
+    {
+     "name": "Hawk & Handsaw Farm",
+     "blurb": "Help with mulching, weeding vegetable beds, woodlot maintenance, or harvesting on Aquidneck Island. Join the farm’s volunteer list and describe your availability and any physical limitations. Has: farm, harvesting, gardening, woodlot maintenance, outdoors.",
+     "address": "",
+     "phone": "401-308-2872",
+     "hours": "",
+     "url": "https://www.hawkandhandsawfarm.com/volunteer",
+     "src": "hawkandhandsawfarm.com",
+     "town": ""
+    },
+    {
+     "name": "Ocean Recovery Community Alliance — Rhode Island cleanups",
+     "blurb": "Join organized beach cleanups that remove coastal litter and marine debris. Select a Rhode Island event and RSVP through the organizer’s calendar, which also includes Connecticut activities. Has: beach cleanup, marine debris, outdoors, one-time, event registration.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.oceanrecoverycommunityalliance.org/",
+     "src": "oceanrecoverycommunityalliance.org",
+     "town": ""
+    },
+    {
+     "name": "Rhode Island National Wildlife Refuge Complex — shorebird stewards",
+     "blurb": "Explain nesting-shorebird protection and beach rules to refuge visitors during the summer. Apply through the refuge complex before undertaking a stewardship assignment. Has: beach stewardship, wildlife, public education, outdoors.",
+     "address": "",
+     "phone": "",
+     "hours": "Summer nesting season; assignments arranged with refuge staff.",
+     "url": "https://www.fws.gov/refuge/sachuest-point/get-involved",
+     "src": "fws.gov",
+     "town": ""
+    },
+    {
+     "name": "RIDEM — wildlife-management-area cleanups",
+     "blurb": "Help remove litter from wildlife management areas during organized volunteer cleanup events. Contact dem.dfwvolunteer@dem.ri.gov or follow the program’s registration instructions for current opportunities. Has: public lands, litter cleanup, outdoors, organized workdays.",
+     "address": "",
+     "phone": "",
+     "hours": "",
+     "url": "https://dem.ri.gov/node/19801",
+     "src": "dem.ri.gov",
+     "town": ""
+    },
+    {
+     "name": "URI Extension Master Gardener — training and volunteer service",
+     "blurb": "Train for gardening education and approved community projects, then complete fifty volunteer hours for certification. The core course has a published $500 fee with assistance available, and applications for the 2027 cohort are due November 1, 2026. Has: gardening, education, training required, service commitment, course fee.",
+     "address": "",
+     "phone": "",
+     "hours": "2027 core course begins January 13; Wednesday Zoom sessions 6–7:30 pm plus independent work.",
+     "url": "https://web.uri.edu/coopext/programs/mgp/become-a-mastergardener/",
+     "src": "web.uri.edu",
+     "town": ""
     }
    ]
   }
