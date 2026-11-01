@@ -1903,7 +1903,7 @@ function vSearch(q){
   ${!S.length&&!C.length&&!E.length?'<div class="empty">Nothing found. Try a band, a venue or a neighborhood.</div>':''}`;
 }
 
-const STATE={blist:'top_100_bands',bq:'',bsel:null,vnc:'all',vnmore:12,vcat:'all',vreg:'all',vq:'',vsel:null,view:'front',bk:'all',topic:'all',genre:'all',kind:'all',hood:'all',cq:'',prev:'front',story:null};
+const STATE={blist:'top_100_bands',bq:'',bsel:null,vnc:'all',vnmore:12,vcat:'all',vreg:'all',vq:'',vsel:null,view:'cal',bk:'all',topic:'all',genre:'all',kind:'all',hood:'all',cq:'',prev:'front',story:null};
 let INBOX={ideas:[],photos:[]},DB=null,ASSETS=null,OWNER=false;
 // ===== Comments: the argument =====
 const CM={slug:null,list:[],unsub:null,sort:'top',me:null,reply:null,ready:false};
@@ -2834,7 +2834,7 @@ const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
 new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=23">
-<link rel="stylesheet" href="polish.css?v=42"><script src="whatson.js?v=22" defer></script>
+<link rel="stylesheet" href="polish.css?v=43"><script src="whatson.js?v=22" defer></script>
 <script src="recovery.js?v=1" defer></script>
 </body>
 </html>
