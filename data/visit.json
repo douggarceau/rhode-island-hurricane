@@ -17157,42 +17157,6 @@
    "title": "Family & Science",
    "items": [
     {
-     "name": "Roger Williams Park Zoo",
-     "blurb": "Animal habitats, educational programs, and separately scheduled seasonal attractions.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.rwpzoo.org/",
-     "src": "rwpzoo.org"
-    },
-    {
-     "name": "Providence Children’s Museum",
-     "blurb": "Hands-on learning and play designed especially for children and their accompanying adults.",
-     "address": "Providence",
-     "phone": "",
-     "hours": "",
-     "url": "https://providencechildrensmuseum.org/",
-     "src": "providencechildrensmuseum.org"
-    },
-    {
-     "name": "Biomes Marine Biology Center",
-     "blurb": "A private marine-education attraction focused on New England marine life and hands-on learning.",
-     "address": "North Kingstown",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.biomescenter.com/",
-     "src": "biomescenter.com"
-    },
-    {
-     "name": "Save the Bay’s Hamilton Family Aquarium",
-     "blurb": "Marine-life exhibits and interactive learning focused on Narragansett Bay.",
-     "address": "Newport",
-     "phone": "",
-     "hours": "",
-     "url": "https://savebay.org/family-fun/aquarium/plan-your-visit/",
-     "src": "savebay.org"
-    },
-    {
      "name": "Audubon Nature Center & Aquarium",
      "blurb": "Indoor nature exhibits and marine life, with outdoor exploration at the associated refuge.",
      "address": "Bristol",
@@ -17202,31 +17166,64 @@
      "src": "asri.org"
     },
     {
-     "name": "Crescent Park Looff Carousel",
-     "blurb": "A historic carousel and local preservation landmark. Check the seasonal operating calendar.",
-     "address": "East Providence / Riverside",
-     "phone": "",
-     "hours": "",
-     "url": "https://www.crescentparkcarousel.org/",
-     "src": "crescentparkcarousel.org"
+     "name": "Audubon Nature Center and Aquarium",
+     "blurb": "Explore an aquarium and natural-history displays, then follow accessible trails toward Narragansett Bay. Children of all ages can visit, with family programs offered throughout the year. Has: aquarium, nature center, indoor, outdoor, accessible, trails, restrooms.",
+     "address": "1401 Hope Street, Bristol, RI 02809",
+     "phone": "401-949-5454 ext. 3118",
+     "hours": "Exhibits Wednesday–Sunday 9:30am–4:30pm; trails daily sunrise–sunset. · Adults $10; seniors, students, military and ages 4–12 $7; ages 0–3 and Audubon Society of Rhode Island members no charge; eligible SNAP/EBT/WIC visitors $3 for up to four people.",
+     "url": "https://asri.org/about/locations-and-hours.html",
+     "src": "asri.org",
+     "town": "Bristol"
     },
     {
-     "name": "Flying Horse Merry-Go-Round",
-     "blurb": "A historic seasonal children’s carousel in the village. Check current rider restrictions and opening dates.",
-     "address": "Westerly / Watch Hill",
-     "phone": "",
-     "hours": "",
-     "url": "https://watchhillfiredistrict.org/merry-go-round/",
-     "src": "watchhillfiredistrict.org"
+     "name": "Coggeshall Farm Museum",
+     "blurb": "Historic farm buildings and heritage animals introduce families to rural life in an earlier century. The museum welcomes children, with a youth admission category for ages 4–17. Has: outdoor, indoor historic buildings, farm animals, living history.",
+     "address": "1 Colt Drive, Bristol, RI",
+     "phone": "401-253-9062",
+     "hours": "November 2026: Saturday staffed visits 10am–4pm; Sunday self-guided visits 10am–4pm; other seasonal schedules online. · Adults $10; ages 4–17 $5; ages 0–3 no charge.",
+     "url": "https://coggeshallfarm.org/hours-rates-directions/",
+     "src": "coggeshallfarm.org",
+     "town": "Bristol"
     },
     {
-     "name": "Museum of Natural History & Planetarium",
-     "blurb": "Natural-history exhibits in Roger Williams Park, with separately scheduled planetarium programs.",
-     "address": "Providence",
-     "phone": "",
+     "name": "Play Town",
+     "blurb": "Tourism and community listings describe an indoor playroom with imaginative stations and sensory activities, while current operating reports conflict. A published community program identifies ages 6 months–6 years as its core audience, but families should confirm that it is operating before visiting. Has: indoor, pretend play, sensory play, current details unconfirmed.",
+     "address": "433 Hope Street, Bristol, RI 02809",
+     "phone": "401-203-3004",
      "hours": "",
-     "url": "https://www.providenceri.gov/museum/",
-     "src": "providenceri.gov"
+     "url": "https://www.visitrhodeisland.com/listing/play-town/11495/",
+     "src": "visitrhodeisland.com",
+     "town": "Bristol"
+    },
+    {
+     "name": "June Rockwell Levy Community Ice Rink",
+     "blurb": "The community rink hosts hockey and has offered public skating and special open-skate events. Current drop-in availability and best ages remain unconfirmed. Has: indoor, ice skating, current public sessions unconfirmed.",
+     "address": "425 East Avenue, Harrisville, RI 02830, Burrillville",
+     "phone": "401-568-8615",
+     "hours": "School district directs visitors to call the rink for current schedule updates.",
+     "url": "https://www.bsd-ri.net/about-us/building-use",
+     "src": "bsd-ri.net",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Rancho de las Tres Potrancas",
+     "blurb": "Scheduled tours introduce a variety of farm animals, with pony rides offered separately. A numerical best-age range is not published for the family visits. Has: outdoor, farm animals, pony rides, scheduled tours.",
+     "address": "1871 Victory Highway, Glendale, RI, Burrillville",
+     "phone": "401-419-5121",
+     "hours": "Farm tours Saturday 11am and Sunday 1pm and 3pm; pony rides Sunday noon–4pm. · Farm tour $5 per person.",
+     "url": "https://www.trespotrancasri.com/",
+     "src": "trespotrancasri.com",
+     "town": "Burrillville"
+    },
+    {
+     "name": "Spring Lake Arcade",
+     "blurb": "Vintage coin-operated machines and newer games sit beside Spring Lake's recreation area. The attraction is described for children and adults across generations, with no numerical best-age recommendation. Has: indoor, arcade, vintage games, seasonal beach complex.",
+     "address": "52 Old Hillside Drive, Glendale, RI 02826, Burrillville",
+     "phone": "401-568-8288",
+     "hours": "",
+     "url": "https://tourblackstone.com/listing/spring-lake-arcade/1096/",
+     "src": "tourblackstone.com",
+     "town": "Burrillville"
     },
     {
      "name": "Frosty Drew Observatory & Science Center",
@@ -17238,6 +17235,326 @@
      "src": "frostydrew.org"
     },
     {
+     "name": "Frosty Drew Observatory and Science Center",
+     "blurb": "Public astronomy evenings combine telescope viewing with science exhibits and educational presentations. Some event tickets distinguish ages 5 and older, but a general recommended age range is not published. Has: indoor, outdoor, observatory, science exhibits, weather dependent.",
+     "address": "61–62 Park Lane, Charlestown, RI",
+     "phone": "401-859-1450",
+     "hours": "Friday public stargazing, weather permitting; published November 6, 13 and 20, 2026 sessions 7pm–9pm; summer hours differ. · Selected advertised stargazing events $5 for ages 5+; confirm the chosen event's ticket terms.",
+     "url": "https://frostydrew.org/observatory/visiting.php",
+     "src": "frostydrew.org",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Kettle Pond Visitor Center",
+     "blurb": "Habitat dioramas introduce Rhode Island wildlife before visitors explore nearby refuge trails. The center offers environmental education, but a recommended age range is not published. Has: indoor, outdoor, nature center, science exhibits, trails, parking.",
+     "address": "50 Bend Road, Charlestown, RI 02813",
+     "phone": "401-364-9124",
+     "hours": "Visitor center daily 10am–4pm; refuge trails sunrise–sunset.",
+     "url": "https://www.fws.gov/refuge/ninigret/visit-us",
+     "src": "fws.gov",
+     "town": "Charlestown"
+    },
+    {
+     "name": "Little Lattes Play Cafe",
+     "blurb": "A supervised play area shares space with a cafe for accompanying adults. Caregivers must remain responsible for their children, and the reviewed admission page does not specify best ages. Has: indoor, cafe, birthday parties, socks required, waiver required.",
+     "address": "57 Sandy Bottom Road, Coventry, RI 02816",
+     "phone": "401-578-1430",
+     "hours": "Monday–Tuesday 9am–1pm; Wednesday–Sunday 9am–2pm; private events may affect availability. · Two-hour open play $18; ten-visit package $140.",
+     "url": "https://www.littlelattesplaycafe.com/play",
+     "src": "littlelattesplaycafe.com",
+     "town": "Coventry"
+    },
+    {
+     "name": "Bowlero Cranston",
+     "blurb": "A large bowling center combines 58 lanes with arcade games and event rooms. The operator explicitly welcomes all ages and skill levels. Has: indoor, bowling, arcade, accessible, birthday parties, food, online reservations.",
+     "address": "1450 Elmwood Avenue, Cranston, RI 02910",
+     "phone": "401-467-8850",
+     "hours": "Monday 4pm–11pm; Tuesday 11am–11pm; Wednesday 10am–11pm; Thursday 4pm–11pm; Friday 4pm–midnight; Saturday 10am–midnight; Sunday 11am–11pm. · Weekend Family Unlimited Saturday–Sunday 11am–3pm $15.99 per person including shoes, walk-in only and subject to availability; other prices depend on reservation or promotion.",
+     "url": "https://www.bowlero.com/location/bowlero-cranston",
+     "src": "bowlero.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Cranston Veterans Memorial Ice Rink",
+     "blurb": "Public ice-skating sessions and Rock'n Skate are scheduled separately from hockey and adult-only ice. Family public skating includes younger children, with a reduced rate for those under 6. Has: indoor, ice skating, skate rentals, session calendar.",
+     "address": "900 Phenix Avenue, Cranston, RI 02921",
+     "phone": "401-944-8690",
+     "hours": "Public skating follows the dated rink calendar; general building hours are not public-skate hours. · Public skating $10; children under 6 and seniors $5; skate rental $10.",
+     "url": "https://www.cvmrink.com/public",
+     "src": "cvmrink.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Fawn & Cub Play Space",
+     "blurb": "Woodland-themed imaginative-play stations provide a small-scale playroom for young children and caregivers. The space is designed for ages 6 months–5 years, and open play is limited to children 5 and younger. Has: indoor, toddler play, birthday parties, caregiver supervision, conflicting published hours.",
+     "address": "687 Park Avenue, Cranston, RI 02910",
+     "phone": "401-423-4424",
+     "hours": "Open play $15 per child; ages 10 months and younger accompanying a paid sibling no charge; two adults per family included; additional adults $5; published 2026 cash prices.",
+     "url": "https://www.fawnandcubplayspace.com/open-play",
+     "src": "fawnandcubplayspace.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Kids Empire Cranston",
+     "blurb": "An indoor maze combines slides, climbing routes, ball pits and a dance area. The play zones are designed for ages 1–12, with a separate toddler area for ages 1–3. Has: indoor, playground, toddler area, parking, birthday parties, socks required, waiver required.",
+     "address": "1400 Oaklawn Avenue, Cranston, RI",
+     "phone": "401-250-0435",
+     "hours": "Monday–Thursday 10am–8pm; Friday–Sunday 10am–10pm. · Ages 1–17 $19.90 with two adults included; additional adult $5; infants under 1 accompanying a sibling no charge.",
+     "url": "https://www.kidsempire.com/store-locator/kids-empire-cranston",
+     "src": "kidsempire.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Lang's Bowlarama",
+     "blurb": "This retro-styled bowling center offers lane reservations and family bowling. The reviewed operator page does not specify a recommended age range. Has: indoor, tenpin bowling, online reservations.",
+     "address": "225 Niantic Avenue, Cranston, RI 02907",
+     "phone": "401-944-0500",
+     "hours": "Published home-page fall/winter hours: Monday 4pm–10pm; Tuesday 3pm–11pm; Wednesday 9am–11pm; Thursday–Friday noon–midnight; Saturday 9am–midnight; Sunday 9am–10pm.",
+     "url": "https://www.langsbowlarama.com/",
+     "src": "langsbowlarama.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Legion Bowl",
+     "blurb": "Classic duckpin bowling is paired with arcade games and party facilities. The operator welcomes families and describes its arcade as serving all age groups. Has: indoor, duckpin bowling, arcade, birthday parties, conflicting published hours.",
+     "address": "661 Park Avenue, Cranston, RI",
+     "phone": "",
+     "hours": "Published weekday special: 90 minutes of bowling with shoes $15 per person.",
+     "url": "https://www.pubonparkri.com/legion-bowl/",
+     "src": "pubonparkri.com",
+     "town": "Cranston"
+    },
+    {
+     "name": "Adams Farm",
+     "blurb": "Animal areas, playgrounds and seasonal farm activities offer several ways to explore the property. Children of all ages are admitted, with ages 2 and younger entering at no charge and separate restrictions on individual attractions. Has: outdoor, petting farm, playgrounds, corn mazes, hayrides, bounce pad, birthday parties.",
+     "address": "Fall entrance: 495 Sumner Brown Road, Cumberland, RI 02864; spring/summer entrance: 158 Burnt Swamp Road, Cumberland, RI",
+     "phone": "401-333-5001",
+     "hours": "2026 fall season September 12–November 1: Monday–Friday 9am–5pm; Saturday–Sunday 9am–6pm; selected attractions 10am–4pm. Summer dates and entrance differ. · Weekday Farmyard online $16.95 or gate $18.95; weekend Farmyard online $18.95 or gate $21.95; weekend Mega online $27.95 or gate $30.95; ages 0–2 no charge.",
+     "url": "https://adamsfarm.simpletix.com/",
+     "src": "adamsfarm.simpletix.com",
+     "town": "Cumberland"
+    },
+    {
+     "name": "Go Play — East Greenwich",
+     "blurb": "Indoor play areas provide a weather-independent family outing. Published admission groups cover babies, toddlers and children through age 12, with a separate accompanying-visitor rate for older children. Has: indoor, playground, toddler play, socks required, birthday parties.",
+     "address": "2727 South County Trail, East Greenwich, RI 02818",
+     "phone": "",
+     "hours": "Monday–Thursday 9am–6:30pm; Friday–Saturday 9am–8pm; Sunday 9am–6pm; check calendar for private closures. · Weekday/weekend-holiday: ages 7–11 months $11/$13; ages 1–3 $13/$17; ages 4–12 $16/$22; ages 0–6 months no charge; ages 13+ $2; two adults included per child, additional adults $2.",
+     "url": "https://goplayri.com/east-greenwich-location",
+     "src": "goplayri.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Shanks Clubhouse",
+     "blurb": "Golf simulators include virtual miniature golf and other golf-themed games. The operator does not publish a numerical best-age range, so families should confirm children's suitability when reserving. Has: indoor, golf simulators, virtual mini golf, advance reservation.",
+     "address": "5700 Post Road, East Greenwich, RI 02818",
+     "phone": "",
+     "hours": "By reservation only; Sunday–Wednesday 9am–11pm; Thursday–Saturday 9am–midnight. · $50 per hour per golf bay; no per-person charge.",
+     "url": "https://www.shanksclubhouse.com/about-us",
+     "src": "shanksclubhouse.com",
+     "town": "East Greenwich"
+    },
+    {
+     "name": "Crescent Park Looff Carousel",
+     "blurb": "Ride a historic carved carousel on the Riverside waterfront. Young children are accommodated, with ages 3 and younger riding alongside a paying adult. Has: carousel, covered, sensory-friendly sessions, seasonal.",
+     "address": "700 Bullocks Point Avenue, Riverside, RI 02915, East Providence",
+     "phone": "401-435-7518",
+     "hours": "Closed for the regular 2026 season; seasonal sensory-friendly Saturdays noon–3pm operate with the band organ off. · $2 per ticket; ages 3 and younger ride with a paying adult at no charge; card convenience fee applies.",
+     "url": "https://www.crescentparkcarousel.org/hours",
+     "src": "crescentparkcarousel.org",
+     "town": "East Providence"
+    },
+    {
+     "name": "East Providence Lanes",
+     "blurb": "Bowling lanes and video games provide an indoor option for family groups. The operator offers family packages and children's birthday parties but does not specify best ages. Has: indoor, tenpin bowling, arcade, birthday parties, cosmic bowling.",
+     "address": "80 Newport Avenue, East Providence, RI 02916",
+     "phone": "401-438-2300",
+     "hours": "Monday, Wednesday, Thursday and Sunday 9am–11pm; Tuesday 3pm–11pm; Friday noon–midnight; Saturday 9am–midnight; school-vacation Tuesday opens 11am. · Shoe rental $5; Saturday–Sunday noon–4pm family special $74.95 for two hours, five shoe rentals and a $20 game card.",
+     "url": "https://eastprovidencelanes.com/hours-and-rates/",
+     "src": "eastprovidencelanes.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "FUNdamentals",
+     "blurb": "Children can explore movement and imaginative activities in a caregiver-supervised play space. The operator lists open play for birth through age 9. Has: indoor, open play, classes, socks required, waiver required, conflicting published hours.",
+     "address": "1365 Wampanoag Trail, Riverside, RI 02915, East Providence",
+     "phone": "401-206-4030",
+     "hours": "Open play $17 for one child and $10 each additional child; infants under 12 months with a paid sibling no charge; maximum two hours.",
+     "url": "https://www.playatfundamentals.com/open-play",
+     "src": "playatfundamentals.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Sky Zone Providence",
+     "blurb": "An indoor trampoline park offers jump sessions and hosted birthday parties. Attraction-specific age guidance should be checked in the booking calendar because a general best-age range is not published on the reviewed location page. Has: indoor, trampolines, birthday parties, session calendar.",
+     "address": "70 Pawtucket Avenue, East Providence, RI 02916",
+     "phone": "401-358-0575",
+     "hours": "Posted week: Monday and Wednesday–Thursday noon–8pm; Tuesday November 3 special hours 10am–8pm; Friday 11am–10pm; Saturday 9am–10pm; Sunday 10am–8pm.",
+     "url": "https://www.skyzone.com/providence/",
+     "src": "skyzone.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "The Bowling Academy",
+     "blurb": "This East Providence duckpin center is listed with youth bowling and party facilities. Current hours, prices and best ages remain unconfirmed because the operator website could not be accessed. Has: indoor, duckpin bowling, current details unconfirmed.",
+     "address": "354 Taunton Avenue, East Providence, RI 02914",
+     "phone": "401-434-5839",
+     "hours": "",
+     "url": "https://www.strikespots.com/bowling-centers/duckpin/united-states/rhode-island/",
+     "src": "strikespots.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "United Skates of America — Rumford",
+     "blurb": "Roller skating shares the venue with arcade games, laser tag and a children's indoor playground. Skating lessons accommodate children and adults, while the playground is designed for ages 12 and younger. Has: indoor, roller skating, arcade, laser tag, playground, birthday parties, skate rentals.",
+     "address": "75 New Road, Rumford, RI 02916, East Providence",
+     "phone": "401-438-9898",
+     "hours": "Public sessions follow the dated operator calendar. · Pass options advertised from $25.99; individual-session admission and rentals vary.",
+     "url": "https://www.unitedskates.com/rumford/",
+     "src": "unitedskates.com",
+     "town": "East Providence"
+    },
+    {
+     "name": "Green River Alpacas",
+     "blurb": "Appointment-based visits introduce the farm's alpacas and fiber products. The operator does not publish a numerical best-age range for visiting children. Has: outdoor, alpacas, appointments, farm shop.",
+     "address": "115 Hallville Road, Exeter, RI",
+     "phone": "401-330-8015",
+     "hours": "Weekend visits by appointment only.",
+     "url": "https://greenriveralpacas.com/",
+     "src": "greenriveralpacas.com",
+     "town": "Exeter"
+    },
+    {
+     "name": "Cucumber Hill Farm",
+     "blurb": "A seasonal corn maze and hayrides are joined by scheduled pony experiences. Pony sessions are advertised for ages 5 and older, while hayrides also admit younger children. Has: outdoor, corn maze, hayrides, ponies, pumpkins.",
+     "address": "39 Cucumber Hill Road, Foster, RI",
+     "phone": "401-397-7500",
+     "hours": "2026 fall season September 19–October 31; Friday 5pm–9pm, Saturday 10am–9pm and Sunday 10am–6pm; activities have separate hours. · Hayride $6 ages 6+ and no charge under 6; one-on-one pony experience $15.",
+     "url": "https://www.cucumberhillfarm.com/",
+     "src": "cucumberhillfarm.com",
+     "town": "Foster"
+    },
+    {
+     "name": "Festival Farm",
+     "blurb": "Visit a farmyard animal collection alongside the farm's seasonal produce and activities. The farmyard is described as open to visitors of all ages. Has: outdoor, petting zoo, seasonal pony rides, seasonal hayrides.",
+     "address": "2 Canonchet Road, Hope Valley, RI, Hopkinton",
+     "phone": "",
+     "hours": "Farmyard open during daylight hours; pony rides and hayrides offered on selected weekends. · Petting zoo has no charge; ride prices not confirmed.",
+     "url": "https://www.festivalfarmri.com/",
+     "src": "festivalfarmri.com",
+     "town": "Hopkinton"
+    },
+    {
+     "name": "Watson Farm",
+     "blurb": "Walk through a working coastal farm with heritage livestock and views across its pastures. Family admission is available, but the operator does not specify best ages. Has: outdoor, working farm, cattle, sheep, walking trails.",
+     "address": "455 North Road, Jamestown, RI",
+     "phone": "401-423-0005",
+     "hours": "Self-guided visits Thursday and Saturday 1pm–4pm, June–mid-October. · Adults $10; seniors $9; students $5; family $25.",
+     "url": "https://www.historicnewengland.org/property/watson-farm/",
+     "src": "historicnewengland.org",
+     "town": "Jamestown"
+    },
+    {
+     "name": "Gather Farm — Goat Experiences",
+     "blurb": "Book a guided goat hike or a quieter goat-cuddling session on the farm. Hikes admit supervised young children, but children under 10 do not hold a leash and cuddling sessions start at age 8. Has: outdoor, goats, guided hikes, animal encounters, advance booking.",
+     "address": "380 Greenville Avenue, Johnston, RI",
+     "phone": "401-380-4302",
+     "hours": "Scheduled experiences by advance booking; check the event calendar. · Goat hikes ages 10+ $30, under 10 $20, supervised children under 5 no charge; goat cuddles $35; seasonal adult baby-goat experience $45.",
+     "url": "https://www.gatherfarm.com/goats",
+     "src": "gatherfarm.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "Pezza Farm",
+     "blurb": "Meet and feed farm animals, with additional hayrides offered during the fall season. Children must be supervised by adults, and the operator does not specify a numerical best-age range. Has: outdoor, farm animals, animal feeding, seasonal hayrides.",
+     "address": "2279 Plainfield Pike, Johnston, RI",
+     "phone": "401-943-2707",
+     "hours": "Animal area Thursday–Monday 10am–3pm; closed Tuesday–Wednesday according to the dedicated animal page. Hayrides operate on fall weekends. · Animal area $3.50 including feed; fall hayrides $10 per person, ages 0–1 no charge.",
+     "url": "https://www.pezzafarm.com/animals.html",
+     "src": "pezzafarm.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "The Sensory Play Place",
+     "blurb": "Sensory activities and climbing features encourage hands-on exploration and movement. The operator specifies ages 6 months–9 years. Has: indoor, sensory play, birthday parties, classes, socks required, waiver required.",
+     "address": "1395 Atwood Avenue, Unit 109, Johnston, RI 02919",
+     "phone": "401-203-3157",
+     "hours": "Fall/winter Monday–Saturday 9am–2pm; Sunday reserved for parties and events. · First child $17; additional siblings $8; children under 1 with a paid sibling no charge; adults included; socks $2 if needed.",
+     "url": "https://sensoryplayplace.com/open-play",
+     "src": "sensoryplayplace.com",
+     "town": "Johnston"
+    },
+    {
+     "name": "BattleGroundZ",
+     "blurb": "An indoor entertainment center combines laser tag with arcade games and other separately priced activities. Laser tag starts at age 5, while other attractions have their own eligibility requirements. Has: indoor, laser tag, arcade, birthday parties, age restrictions, closed-toe shoes required.",
+     "address": "100 Higginson Avenue, Lincoln, RI",
+     "phone": "401-305-3600",
+     "hours": "Sunday–Thursday noon–10pm; Friday noon–midnight; Saturday 11:30am–midnight. · Laser tag: one game $10, two $18, three $25, four $32 or five $38; games approximately ten minutes.",
+     "url": "https://battlegroundz.net/lazer-wars/",
+     "src": "battlegroundz.net",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Butterfly Farm",
+     "blurb": "Open-farm events introduce livestock such as cattle, sheep, pigs and chickens. A recommended age range is not published, and animal visits should be tied to an announced event. Has: outdoor, farm animals, scheduled events.",
+     "address": "679 Great Road, Lincoln, RI",
+     "phone": "401-837-3300",
+     "hours": "Farm visits during announced open-farm events; check the operator's event updates.",
+     "url": "https://www.butterflyfarmri.com/farm-life",
+     "src": "butterflyfarmri.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "CW Lanes & Games",
+     "blurb": "Published family listings describe bowling, arcade games and laser tag beside the movie theater. Current operator hours, prices and recommended ages could not be verified. Has: indoor, bowling, arcade, laser tag, current details unconfirmed.",
+     "address": "622 George Washington Highway, Lincoln, RI 02865",
+     "phone": "401-288-3543",
+     "hours": "",
+     "url": "https://providence.kidcityguide.com/places/cw-lanes-games/",
+     "src": "providence.kidcityguide.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "R1 Indoor Karting",
+     "blurb": "Indoor electric kart racing sits within a larger entertainment venue with interactive games. Mini karting is for ages 6–11 and main karting starts at 12, with additional height and skill requirements by race. Has: indoor, go-karts, arcade, interactive games, age restrictions, height restrictions, waiver required.",
+     "address": "100 Higginson Avenue, Suite 10, Lincoln, RI 02865",
+     "phone": "401-721-5554",
+     "hours": "Main karting: Monday–Thursday noon–11pm; Friday noon–midnight; Saturday 9am–midnight; Sunday 9am–11pm. Mini karting: Monday–Thursday noon–11pm; Friday noon–6pm; Saturday–Sunday 9am–noon. · Individual kart race $27; five-race bundle $110 for one driver; online booking fee 7%.",
+     "url": "https://r1indoorkarting.com/karting",
+     "src": "r1indoorkarting.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Rock Spot Climbing — Lincoln",
+     "blurb": "Indoor climbing walls offer an active outing with rental equipment available. Youth visitors need appropriate supervision, and a numerical best-age range is not published on the location page. Has: indoor, climbing, gear rentals, waiver required, adaptive equipment by advance arrangement.",
+     "address": "100 Higginson Avenue, Lincoln, RI 02865",
+     "phone": "401-727-1704",
+     "hours": "Monday and Friday 9am–11pm; Tuesday–Thursday 11am–11pm; Saturday–Sunday 9am–9pm. · Day pass with gear $33; ages 23 and under, military/veterans and ages 65+ $31.",
+     "url": "https://rockspotclimbing.com/locations/ri/lincoln/",
+     "src": "rockspotclimbing.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Hope Alpaca Farm",
+     "blurb": "Arrange a farm visit to meet alpacas and learn about the animals and their fiber. A recommended age range is not published, so families should confirm suitability when booking. Has: outdoor, alpacas, appointments, farm shop.",
+     "address": "134 Maple Avenue, Little Compton, RI",
+     "phone": "401-924-2894",
+     "hours": "Tours by appointment; open-farm events on selected dates.",
+     "url": "https://www.hopealpacafarm.com/",
+     "src": "hopealpacafarm.com",
+     "town": "Little Compton"
+    },
+    {
+     "name": "Newport Mini Golf",
+     "blurb": "A themed miniature-golf course offers an outdoor activity on Aquidneck Island. The operator publishes an all-ages admission rate and welcomes beginners as well as experienced players. Has: outdoor, mini golf, weather dependent.",
+     "address": "40 Valley Road, Middletown, RI 02842",
+     "phone": "401-324-7231",
+     "hours": "Current posted hours: Friday 4pm–8pm; Saturday noon–8pm; Sunday noon–7pm; Monday–Thursday closed; weather dependent. · General admission $16 for all ages.",
+     "url": "https://www.newportminigolf.com/",
+     "src": "newportminigolf.com",
+     "town": "Middletown"
+    },
+    {
      "name": "Norman Bird Sanctuary",
      "blurb": "Trails, nature programs, and a hands-on Curiosity Lab. Check in at the Welcome Center before hiking. Note: Dogs and trail cycling are prohibited; service-animal provisions apply.",
      "address": "Middletown",
@@ -17245,6 +17562,605 @@
      "hours": "",
      "url": "https://normanbirdsanctuary.org/visit/",
      "src": "normanbirdsanctuary.org"
+    },
+    {
+     "name": "Simmons Family Farm",
+     "blurb": "Visit the petting zoo at a flower and vegetable farm on Aquidneck Island. The operator describes the farm as family-friendly but does not publish a numerical best-age range. Has: outdoor, petting zoo, farm store.",
+     "address": "1942 West Main Road, Middletown, RI 02842",
+     "phone": "401-341-0640",
+     "hours": "Petting zoo daily 9am–dusk; farm-store hours differ.",
+     "url": "https://www.simmons-family-farm.com/contact-us",
+     "src": "simmons-family-farm.com",
+     "town": "Middletown"
+    },
+    {
+     "name": "Adventureland Family Fun Park",
+     "blurb": "Miniature golf, go-karts, bumper boats, bumper cars and a carousel provide several outdoor family activities. Mini golf welcomes all ages, while rides use specific age and height limits. Has: outdoor, mini golf, go-karts, carousel, bumper boats, bumper cars, birthday parties.",
+     "address": "112 Point Judith Road, Narragansett, RI",
+     "phone": "401-789-0030",
+     "hours": "Closed for the 2026 season; dated 2027 hours appear on the operator calendar. · Published 2026 packages: $35 for riders 44 inches and taller; $25 under 44 inches; spectators no charge; carousel $5; child mini golf $12 ages 6–9 and $6 ages 5 and under; adult mini-golf pages conflict.",
+     "url": "https://adventurelandri.com/pricing/",
+     "src": "adventurelandri.com",
+     "town": "Narragansett"
+    },
+    {
+     "name": "South County Museum",
+     "blurb": "Explore traditional trades, historic buildings and a heritage flock with other farm animals. School groups and families are welcomed, but a recommended age range is not published. Has: museum, farm animals, indoor, outdoor, parking, restrooms, partial wheelchair access.",
+     "address": "115 Strathmore Street, Narragansett, RI 02882",
+     "phone": "401-786-2442",
+     "hours": "Closed for the 2026 season. Published in-season hours Thursday–Saturday 10am–4pm, last admission 3pm; special events and group visits by arrangement. · Adults $12; seniors and students $10; children over 6 $5; members no charge.",
+     "url": "https://www.southcountymuseum.org/explore",
+     "src": "southcountymuseum.org",
+     "town": "Narragansett"
+    },
+    {
+     "name": "The 1661 Animal Farm / Abrams Animal Farm",
+     "blurb": "Explore gardens and a collection of domestic and exotic animals at the resort's publicly accessible farm. The operator welcomes families but does not publish a numerical best-age range. Has: outdoor, farm animals, exotic animals, gardens, animal feeding.",
+     "address": "Spring Street, Block Island, RI, New Shoreham",
+     "phone": "401-466-2421",
+     "hours": "Year-round daily dawn–dusk.",
+     "url": "https://www.blockislandresorts.com/amenities/the-animal-farm",
+     "src": "blockislandresorts.com",
+     "town": "New Shoreham"
+    },
+    {
+     "name": "Ryan Family Amusements — Newport",
+     "blurb": "A downtown arcade provides indoor games and a prize counter. It is marketed to families, but a numerical best-age range is not published. Has: indoor, arcade, prize redemption, birthday parties.",
+     "address": "268 Thames Street, Newport, RI 02840",
+     "phone": "401-846-5774",
+     "hours": "Monday–Thursday noon–9pm; Friday–Saturday 10am–11pm; Sunday 10am–9pm; holiday hours may vary.",
+     "url": "https://ryanfamily.com/locations/newport/",
+     "src": "ryanfamily.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Save The Bay's Hamilton Family Aquarium",
+     "blurb": "Meet Narragansett Bay animals in an aquarium on the ground floor of Newport's Gateway Center. Families with children of all ages are admitted, including children age 2 and younger at no charge. Has: aquarium, indoor, accessible, stroller access, nearby public parking.",
+     "address": "23 America's Cup Avenue, First Floor, Newport, RI 02840",
+     "phone": "401-324-6020",
+     "hours": "Daily 10am–4pm; closed Easter, Thanksgiving, Christmas and New Year's Day. · General admission $15; ages 65+ $13; ages 0–2 no charge; eligible SNAP/EBT visitors and three guests no charge.",
+     "url": "https://savebay.org/family-fun/aquarium/admission/",
+     "src": "savebay.org",
+     "town": "Newport"
+    },
+    {
+     "name": "Seaview Lanes Bowling Center",
+     "blurb": "A twelve-lane bowling center offers automatic bumpers and parties for eligible patrons with valid military-base access. Children are accommodated, with a published learn-to-bowl event for ages 5–12 rather than a universal best-age recommendation. Has: indoor, tenpin bowling, bumpers, birthday parties, food, restricted base access, cashless.",
+     "address": "656 Whipple Street, Building 656, Newport, RI 02841",
+     "phone": "401-841-4293",
+     "hours": "Thursday–Friday 4pm–8pm; Saturday–Sunday noon–8pm; holidays noon–6pm; Monday–Wednesday closed except special events. · $3.50 per person per game; shoe rental $2.25.",
+     "url": "https://www.navymwrnewport.com/programs/a1fd0e9e-e5fd-4c14-8e75-72cc50137db9",
+     "src": "navymwrnewport.com",
+     "town": "Newport"
+    },
+    {
+     "name": "Biomes Marine Biology Center",
+     "blurb": "See marine animals from local waters and watch scheduled feeding demonstrations. Children of all ages are admitted, with discounted tickets for ages 3–12. Has: aquarium, indoor, feedings, demonstrations, birthday parties.",
+     "address": "6640 Post Road, North Kingstown, RI 02852",
+     "phone": "401-885-4690",
+     "hours": "Daily noon–5pm; closed Thanksgiving and Christmas. Demonstrations on weekends and Rhode Island school vacation days during the school year. · Adults $15; ages 3–12 and ages 65+ $12; ages 0–2 and members no charge.",
+     "url": "https://www.biomescenter.com/public-walk-ins",
+     "src": "biomescenter.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Casey Farm",
+     "blurb": "Guided visits introduce a working farm, its historic setting and farm animals that visitors may observe without feeding or touching. Children are included in tour admission, but no numerical best-age range is published. Has: outdoor, farm animals, guided tours, unpaved paths.",
+     "address": "2325 Boston Neck Road, Saunderstown, RI, North Kingstown",
+     "phone": "401-295-1030",
+     "hours": "2026 guided tours: Saturdays May 16–October 31 at 9am, 10am and 11am; Tuesdays June–October 15 at 1pm, 2pm and 3pm. · Adults $10; seniors $9; students and children $5; family $25; North Kingstown residents and Historic New England members no charge.",
+     "url": "https://www.historicnewengland.org/property/casey-farm/",
+     "src": "historicnewengland.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Kingstown Bowl",
+     "blurb": "Automated bowling lanes are accompanied by games and party packages. The operator explicitly offers parties for both children and adults, without a numerical best-age recommendation. Has: indoor, bowling, games, birthday parties.",
+     "address": "6125 Post Road, North Kingstown, RI 02852",
+     "phone": "401-884-4450",
+     "hours": "Posted hours: Monday–Thursday 5pm–10pm; Friday–Saturday 6pm–midnight; Sunday 5pm–8pm.",
+     "url": "https://kbowl.com/",
+     "src": "kbowl.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Rhode Island Computer Museum",
+     "blurb": "Computer-history displays and a learning lab connect older technology with hands-on exploration. Children's workshops are offered, but best ages depend on the individual program. Has: indoor, science, technology, computer museum, workshops.",
+     "address": "1051 Ten Rod Road, North Kingstown, RI",
+     "phone": "",
+     "hours": "Tuesday–Friday noon–4pm; Saturday 10am–5pm; Sunday noon–4pm.",
+     "url": "https://www.ricomputermuseum.org/",
+     "src": "ricomputermuseum.org",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Wickford Lanes",
+     "blurb": "This duckpin bowling venue appears in Rhode Island's tourism directory as a family activity. Current operating details and best ages require confirmation because the reviewed listings disagree on the street number. Has: indoor, duckpin bowling, current details unconfirmed.",
+     "address": "North Kingstown",
+     "phone": "401-294-9886",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/wickford-lanes/8164/",
+     "src": "visitrhodeisland.com",
+     "town": "North Kingstown"
+    },
+    {
+     "name": "Rhode Island Sports Center",
+     "blurb": "An indoor rink offers learn-to-skate programs alongside youth and adult hockey. Age suitability depends on the selected program, and families should verify public-session access before arriving. Has: indoor, ice skating, learn-to-skate, concessions, pro shop.",
+     "address": "1186 Eddie Dowling Highway, North Smithfield, RI",
+     "phone": "401-762-1588",
+     "hours": "Ice use follows the online facility schedule; current casual public-skate sessions not confirmed.",
+     "url": "https://risportscenter.com/",
+     "src": "risportscenter.com",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Wright's Dairy Farm — Milking Viewing",
+     "blurb": "Watch the working dairy's afternoon milking through viewing windows. Families can observe together, but no best-age range is published and visitors must not touch or feed the cows. Has: working farm, animal viewing, dairy, bakery.",
+     "address": "200 Woonsocket Hill Road, North Smithfield, RI",
+     "phone": "",
+     "hours": "Milking viewing daily 3pm–4:30pm. · Milking viewing has no charge.",
+     "url": "https://www.wrightsri.com/our-milk",
+     "src": "wrightsri.com",
+     "town": "North Smithfield"
+    },
+    {
+     "name": "Daggett Farm",
+     "blurb": "Small farm animals and gardens create a compact stop inside Slater Memorial Park. Families are welcomed, but no numerical best-age range is published. Has: outdoor, farm animals, gardens, accessible paths, parking, picnic.",
+     "address": "Slater Memorial Park, 401 Newport Avenue, Pawtucket, RI",
+     "phone": "",
+     "hours": "Daily 9am–4pm. · No charge.",
+     "url": "https://www.friendsofdaggettfarm.org/visit",
+     "src": "friendsofdaggettfarm.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Dennis M. Lynch Arena",
+     "blurb": "The year-round arena supports public skating and learn-to-skate programs alongside organized ice use. The operator does not publish a general best-age range or current public-session timetable on the reviewed pages. Has: indoor, ice skating, learn-to-skate, concessions.",
+     "address": "25 Andrew D Ferland Way, Pawtucket, RI 02860",
+     "phone": "",
+     "hours": "",
+     "url": "https://lyncharena.com/about/",
+     "src": "lyncharena.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Electromagnetic Pinball Museum and Restoration",
+     "blurb": "Play working pinball machines and arcade games while exploring a collection maintained by restoration enthusiasts. The museum welcomes family visitors but does not publish a numerical best-age range. Has: indoor, pinball, arcade, museum, parking, birthday parties.",
+     "address": "881 Main Street, Pawtucket, RI",
+     "phone": "401-743-8067",
+     "hours": "Wednesday–Sunday 10am–9pm; Monday–Tuesday closed except announced special openings. · $10 per person for all-day unlimited games.",
+     "url": "https://www.electromagneticpinballmuseum.com/",
+     "src": "electromagneticpinballmuseum.com",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Slater Park Looff Carousel",
+     "blurb": "A historic stationary-animal carousel stands within Slater Memorial Park. The preservation organization promotes it for the whole family but does not publish a numerical best-age range. Has: carousel, covered, park setting.",
+     "address": "825 Armistice Boulevard, Pawtucket, RI 02861",
+     "phone": "",
+     "hours": "Posted weekends Saturday–Sunday 11am–4:45pm; weekdays closed.",
+     "url": "https://www.looffcarouselslaterpark.org/",
+     "src": "looffcarouselslaterpark.org",
+     "town": "Pawtucket"
+    },
+    {
+     "name": "Escobar's Highland Farm Corn Maze",
+     "blurb": "A working farm offers a seasonal corn maze, hayrides and a cow-themed train. The maze admits all ages, with separate prices for ages 4–10 and younger children. Has: outdoor, working farm, corn maze, hayrides, cow train.",
+     "address": "255 Middle Road, Portsmouth, RI",
+     "phone": "401-835-8813",
+     "hours": "2026 fall hours Friday–Sunday 10am–6pm, last maze entry 5pm; closes November 15 at 3pm. Weekend hayrides 11am–5pm. · Maze ages 11+ $10; ages 4–10 $8; ages 0–3 no charge; hayride $6, under 3 no charge; cow train $4.",
+     "url": "https://www.escobarcornmaze.com/",
+     "src": "escobarcornmaze.com",
+     "town": "Portsmouth"
+    },
+    {
+     "name": "Carousel Village",
+     "blurb": "Ride the enclosed carousel and visit the adjacent Hasbro Boundless Playground. The attraction welcomes all ages, and children under 4 must ride with an adult. Has: carousel, indoor, outdoor, accessible playground, birthday parties.",
+     "address": "Roger Williams Park, Providence, RI",
+     "phone": "401-785-3510 ext. 316",
+     "hours": "November–December and February–March weekends noon–4pm; January closed except private events. April–June weekdays noon–6pm and weekends 11am–6pm; July–Labor Day daily 11am–6pm; after Labor Day–October 31 daily noon–4pm; school-holiday exceptions. · Carousel $2 per ride or $20 for 12 rides; members $15 for 12 rides.",
+     "url": "https://www.rwpzoo.org/carousel-village/",
+     "src": "rwpzoo.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Dave & Buster's — Providence",
+     "blurb": "A large arcade pairs skill and video games with dining and party bookings inside Providence Place. The operator describes games for all ages, with location-specific supervision rules for minors. Has: indoor, arcade, birthday parties, food, mall parking.",
+     "address": "40 Providence Place, Providence, RI 02903",
+     "phone": "401-270-4555",
+     "hours": "",
+     "url": "https://www.daveandbusters.com/us/en/about/locations/providence",
+     "src": "daveandbusters.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Ladd Observatory",
+     "blurb": "Brown University's historic observatory opens for scheduled public telescope viewing. A numerical best-age range is not published for family visitors. Has: observatory, indoor, outdoor, astronomy, advance reservation, weather dependent.",
+     "address": "210 Doyle Avenue, Providence, RI",
+     "phone": "401-863-2641",
+     "hours": "Tuesday evenings when weather permits, with advance reservation; published November 10, 2026 session 7pm–9pm; closed November 3. · Public observing has no charge; reservation required.",
+     "url": "https://physics.brown.edu/about/ladd-observatory",
+     "src": "physics.brown.edu",
+     "town": "Providence"
+    },
+    {
+     "name": "Meehan Auditorium — Recreational Skating",
+     "blurb": "Brown's ice arena offers designated recreational skating hours outside team use. Day-pass visitors must be at least 17, and access for younger children depends on university family-membership rules. Has: indoor, ice skating, restricted membership access, session calendar.",
+     "address": "235 Hope Street, Providence, RI 02912",
+     "phone": "401-863-5100",
+     "hours": "University recreational skating follows the dated rink calendar; no recreational sessions during semester breaks or holidays. · Brown Recreation day pass $20 for eligible visitors age 17+; membership and family-access terms require confirmation.",
+     "url": "https://brownrec.com/facilities/meehan-auditorium/5",
+     "src": "brownrec.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Museum of Natural History and Planetarium",
+     "blurb": "Natural-history galleries cover wildlife, geology and space, with a separate dome-theater astronomy program. Planetarium admission is limited to ages 4 and older, and ages 4–15 must attend with an adult. Has: science, natural history, planetarium, indoor.",
+     "address": "1000 Elmwood Avenue, Providence, RI 02907",
+     "phone": "401-680-7221",
+     "hours": "Museum daily 10am–4pm; last admission 3:30pm. Planetarium Saturday–Sunday 2pm; holiday closures and occasional early closings are listed online. · Museum $2; ages 0–3 no charge. Planetarium plus museum $5; members no charge.",
+     "url": "https://www.providenceri.gov/museum/plan-your-visit/",
+     "src": "providenceri.gov",
+     "town": "Providence"
+    },
+    {
+     "name": "Providence Children's Museum",
+     "blurb": "Hands-on exhibits encourage children to experiment, build and learn through play. Its published learning resources focus on preschool and early elementary ages, and children must attend with an adult. Has: children's museum, indoor, birthday parties, hands-on learning.",
+     "address": "100 South Street, Providence, RI 02903",
+     "phone": "401-273-5437",
+     "hours": "Daily 9:30am–4:30pm. · Adults and children $20; under 12 months no charge; eligible EBT admission $5 per person for up to four people.",
+     "url": "https://providencechildrensmuseum.org/plan-your-visit/",
+     "src": "providencechildrensmuseum.org",
+     "town": "Providence"
+    },
+    {
+     "name": "Roger Williams Park Zoo",
+     "blurb": "Explore animal habitats and keeper presentations at Rhode Island's principal zoo. Families with children of all ages can visit, with separate ticket categories for toddlers and older children. Has: zoo, outdoor, indoor exhibits, animal encounters, accessible.",
+     "address": "1000 Elmwood Avenue, Providence, RI 02907",
+     "phone": "401-785-3510",
+     "hours": "Current season: Thursday–Monday 10am–4pm; last admission 3:30pm; closed Tuesday–Wednesday except Providence school vacations. Closed Thanksgiving, December 24–25 and the last Saturday in June. · Adults $25; ages 2–12 $19; ages 62+ $21; ages 0–1 and members no charge.",
+     "url": "https://www.rwpzoo.org/visit/",
+     "src": "rwpzoo.org",
+     "town": "Providence"
+    },
+    {
+     "name": "The Dusty Planet",
+     "blurb": "An artist-built indoor miniature-golf course pairs a space theme with arcade games. Children must be supervised, and the operator recommends families visit earlier in the day because evening programming is adult-oriented and some holes challenge younger children. Has: indoor, mini golf, arcade, accessible, street parking, adult supervision required.",
+     "address": "39 Troy Street, Providence, RI 02909",
+     "phone": "401-441-8750",
+     "hours": "Tuesday–Thursday 3pm–10pm; Friday 3pm–11pm; Saturday 11am–11pm; Sunday 11am–10pm; private-event changes possible. · Mini golf adults $12; children $9; replay $4.",
+     "url": "https://www.thedustyplanet.com/",
+     "src": "thedustyplanet.com",
+     "town": "Providence"
+    },
+    {
+     "name": "The Providence Rink",
+     "blurb": "Downtown outdoor skating changes from roller sessions in warmer months to ice skating and separately booked ice bumper cars in winter. Children age 12 and younger must have an adult present for roller skating, and individual attractions have additional eligibility rules. Has: outdoor, ice skating, roller skating, skate rentals, helmet rentals, skate aids, ice bumper cars.",
+     "address": "2 Kennedy Plaza, Providence, RI",
+     "phone": "401-680-7390",
+     "hours": "2026–2027 winter ice season late November–early March: daily 10am–10pm, weather permitting, with special-event changes. Summer roller skating Friday 5pm–10pm and selected Saturdays June–October. · Skating adults $9; ages 12 and younger and ages 65+ $6; skate rental $8.41 plus tax; helmet $2 plus tax; skate aid $9 plus tax; bumper cars separately ticketed.",
+     "url": "https://theprovidencerink.com/skating/",
+     "src": "theprovidencerink.com",
+     "town": "Providence"
+    },
+    {
+     "name": "Seagrave Memorial Observatory",
+     "blurb": "Volunteer astronomers host public observing nights at a historic observatory. Best ages are not specified, so families should check the selected event's arrangements before attending. Has: observatory, outdoor, astronomy, weather dependent, scheduled events.",
+     "address": "47 Peep Toad Road, North Scituate, RI",
+     "phone": "",
+     "hours": "Selected Saturday public observing nights, weather permitting; consult the dated calendar.",
+     "url": "https://theskyscrapers.org/",
+     "src": "theskyscrapers.org",
+     "town": "Scituate"
+    },
+    {
+     "name": "Play Time RI",
+     "blurb": "Themed dramatic-play stations let children explore everyday roles with their caregivers nearby. The operator specifies ages 6 months–6 years. Has: indoor, pretend play, birthday parties, private play, conflicting published hours.",
+     "address": "151 Douglas Pike, Smithfield, RI 02917",
+     "phone": "401-243-5744",
+     "hours": "Open play $16.50 per child including one or two adults; additional adult $5; children under 1 accompanying a paying sibling no charge.",
+     "url": "https://playtimeri.com/",
+     "src": "playtimeri.com",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Smithfield Municipal Ice Rink",
+     "blurb": "The municipal rink offers scheduled public skating with rental skates. The town explicitly identifies its Tuesday and Friday public sessions as open to all ages. Has: indoor, ice skating, skate rentals, cash or check.",
+     "address": "109 Pleasant View Avenue, Smithfield, RI 02917",
+     "phone": "401-233-1051",
+     "hours": "Public skating Tuesday and Friday noon–1:30pm; Sunday sessions follow the town's posted schedule. · Admission $5; skate rental $5; cash or check only for public sessions.",
+     "url": "https://www.smithfieldri.gov/departments/ice-rink/information-and-rates",
+     "src": "smithfieldri.gov",
+     "town": "Smithfield"
+    },
+    {
+     "name": "Boss Ice Arena",
+     "blurb": "The arena provides recreational public skating separately from hockey and figure-skating practice. Public skate is open to all ages, including first-time skaters. Has: indoor, ice skating, skate rentals, session calendar.",
+     "address": "1 Keaney Road, Kingston, RI 02881, South Kingstown",
+     "phone": "401-874-4988",
+     "hours": "Public skating follows the arena's dated program calendar. · General public $10; URI students, faculty and staff with valid ID $5; skate rental $5.",
+     "url": "https://www.bossicearena.com/public-skating-programs",
+     "src": "bossicearena.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Clark Farms — Fall Fest",
+     "blurb": "Fall activities combine a petting zoo with mazes, pedal carts and play features. The farm promotes activities for all ages, including a smaller maze for toddlers. Has: outdoor, petting zoo, corn maze, pedal carts, toddler activities.",
+     "address": "2984 Commodore Perry Highway, Matunuck, RI, South Kingstown",
+     "phone": "",
+     "hours": "2026 season September 12–November 1; weekend Saturday 9am–6pm and Sunday 9am–5pm; selected attractions begin at 10am. · Weekday admission $15; weekend admission $20.",
+     "url": "https://clarkfarms.com/attractions/fall-fest/",
+     "src": "clarkfarms.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Old Mountain Lanes",
+     "blurb": "Bowling and a prize-redemption arcade share this South County entertainment center. The operator offers birthday gatherings but does not publish a recommended age range. Has: indoor, bowling, arcade, birthday parties, food.",
+     "address": "756 Kingstown Road, Wakefield, RI 02879, South Kingstown",
+     "phone": "401-783-5511",
+     "hours": "Bowling daily 10am–1am.",
+     "url": "https://oldmountainlanesri.com/",
+     "src": "oldmountainlanesri.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "Pow! Science! Activity Center",
+     "blurb": "The educational toy store runs an activity room with science classes, mineral mining and rotating hands-on play. Kinder Science is designed for ages 3–6 with an adult, and the indoor coaster has an 80-pound weight limit. Has: indoor, science activities, workshops, birthday parties, toy store.",
+     "address": "Wakefield Mall, 160 Old Tower Hill Road, Wakefield, RI 02879, South Kingstown",
+     "phone": "401-788-1024",
+     "hours": "Store Monday–Saturday 10am–7pm and Sunday 10am–5pm; activities follow the calendar; Kinder Science Wednesday 10am. · Mineral mining $4.95 per bag or two for $6 on Mondays; Kinder Science $10 per child with adults included; Tuesday coaster activity has no charge.",
+     "url": "https://www.powsciencetoys.com/daily-happenings/",
+     "src": "powsciencetoys.com",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "The Gentle Farm",
+     "blurb": "Small farm animals provide opportunities for calm encounters arranged with the farm. The organization explicitly welcomes visitors of all ages and abilities. Has: outdoor, farm animals, appointments, donations.",
+     "address": "South Kingstown",
+     "phone": "401-486-2694",
+     "hours": "Visits arranged by call or text. · Visits have no charge; donations accepted.",
+     "url": "https://www.thegentlefarmri.org/visit",
+     "src": "thegentlefarmri.org",
+     "town": "South Kingstown"
+    },
+    {
+     "name": "The Play Zone",
+     "blurb": "Local listings describe an indoor imaginative-play space that held a grand opening in February 2026. Reports emphasize babies, toddlers and preschoolers, but current operator age rules, hours and prices could not be confirmed. Has: indoor, pretend play, current details unconfirmed.",
+     "address": "1719 Stafford Road, Tiverton, RI 02878",
+     "phone": "401-425-1158",
+     "hours": "",
+     "url": "https://theplayzoneri.com/",
+     "src": "theplayzoneri.com",
+     "town": "Tiverton"
+    },
+    {
+     "name": "West Place Animal Sanctuary",
+     "blurb": "Guided visits introduce rescued farm animals and the work involved in their care. Tours can be tailored to a group's ages, and children 12 and younger have a separate walking-tour rate. Has: outdoor, animal sanctuary, guided tours, advance booking, driving tours.",
+     "address": "3198 Main Road, Tiverton, RI",
+     "phone": "401-228-6800",
+     "hours": "Private tours by advance booking, at least one week ahead; earliest tour 9:30am; public visitors weekends on selected dates. · Private walking tour adults $24 and children 12 and under $15, $240 minimum; private driving tour $295 for up to five.",
+     "url": "https://www.westplace.org/private-tours",
+     "src": "westplace.org",
+     "town": "Tiverton"
+    },
+    {
+     "name": "Dudek Bowling Lanes",
+     "blurb": "Duckpin bowling uses smaller balls, with bumper lanes available for family visits. The operator welcomes all ages and offers junior as well as adult leagues. Has: indoor, duckpin bowling, bumpers, parking, accessible, birthday parties.",
+     "address": "409 Child Street, Warren, RI",
+     "phone": "401-245-9471",
+     "hours": "Monday–Thursday 9am–10pm; Friday 9am–11pm; Saturday 10am–11pm; Sunday 10am–9pm. · $4.75 per person per game or $26 per lane per hour; shoe rental $3.",
+     "url": "https://dudekbowling.com/",
+     "src": "dudekbowling.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Play Station 653",
+     "blurb": "A train-station theme connects imaginative play areas with different pretend destinations. The space is designed for ages 6 months–7 years. Has: indoor, pretend play, birthday parties.",
+     "address": "653 Metacom Avenue, Warren, RI",
+     "phone": "401-655-1782",
+     "hours": "",
+     "url": "https://www.playstation653.com/",
+     "src": "playstation653.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Warren Family Fun Center",
+     "blurb": "The state tourism directory lists a nine-hole miniature-golf course beside a driving range. Current operating details and best ages could not be verified from an operator source. Has: outdoor, mini golf, driving range, current details unconfirmed.",
+     "address": "326 Market Street, Warren, RI 02885",
+     "phone": "",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/warren-family-fun-center/12520/",
+     "src": "visitrhodeisland.com",
+     "town": "Warren"
+    },
+    {
+     "name": "Chuck E. Cheese — Warwick",
+     "blurb": "Children's arcade games, pizza and birthday programs are joined by a trampoline zone. The trampoline area is limited to children under 56 inches tall, rather than a stated numerical age range. Has: indoor, arcade, trampolines, birthday parties, food, height restriction.",
+     "address": "650 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-823-1203",
+     "hours": "Monday–Thursday 11am–9pm; Friday 11am–10pm; Saturday 10am–10pm; Sunday 11am–9pm. · Published six-child birthday package $99.99; general game and trampoline prices vary by package.",
+     "url": "https://www.chuckecheese.com/warwick-ri/",
+     "src": "chuckecheese.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Greenwood Credit Union City Hall Plaza",
+     "blurb": "The outdoor plaza offers winter ice skating and seasonal roller skating, with bumper cars separately scheduled. Family admission includes children of all ages, and skate aids are available for beginners. Has: outdoor, ice skating, roller skating, bumper cars, skate rentals, skate aids, concessions.",
+     "address": "3275 Post Road, Warwick, RI 02886",
+     "phone": "401-384-7106",
+     "hours": "Winter skating Wednesday–Sunday in 90-minute sessions; 2026–2027 times not yet posted. Seasonal roller-skating hours are published separately. · Ice skating ages 13+ $8; ages 6–12, ages 62+ and eligible military/students $5; ages 0–5 no charge; skate rental $10; skate aids no charge; card fee 3%.",
+     "url": "https://cityhall-plaza.com/ice-skating",
+     "src": "cityhall-plaza.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Kidz Kastle",
+     "blurb": "Reserve the indoor playground exclusively for a birthday party or private group playdate. The operator designs its play experience for ages 1–10. Has: indoor, private booking only, birthday parties, toddler play.",
+     "address": "5 Soule Street, Warwick, RI 02886",
+     "phone": "401-921-5911",
+     "hours": "Private parties and group playdates by advance reservation only; no walk-ins.",
+     "url": "https://www.kidzkastleri.com/",
+     "src": "kidzkastleri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Launch Family Entertainment — Warwick",
+     "blurb": "Trampolines, obstacle attractions, laser tag, bowling and arcade games share one indoor facility. Dedicated Toddler Time is for ages 5 and younger, while laser tag requires a minimum height of 42 inches. Has: indoor, trampolines, bowling, laser tag, arcade, birthday parties, toddler sessions.",
+     "address": "920 Bald Hill Road, Warwick, RI 02886",
+     "phone": "401-828-5867",
+     "hours": "Fall: Tuesday–Thursday 4pm–8pm; Friday 3pm–10pm; Saturday 8am–10pm; Sunday 10am–9pm; Monday closed. Saturday Toddler Time 8am–10am; holiday exceptions. · Unlimited Action Pass $29.99; bowling per person per hour $12 Monday–Thursday or $15 Friday–Sunday, shoes $4; required grip socks extra; prices include tax.",
+     "url": "https://launchfamilyentertainment.com/warwick/",
+     "src": "launchfamilyentertainment.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Meadowbrook Lanes",
+     "blurb": "A longstanding duckpin center offers open bowling and bumper lanes. The operator promotes bowling for all ages, with youth leagues and children's parties available. Has: indoor, duckpin bowling, bumpers, birthday parties.",
+     "address": "2530 Warwick Avenue, Warwick, RI 02889",
+     "phone": "401-737-5402",
+     "hours": "Open bowling: Monday, Tuesday and Thursday 9am–6pm; Wednesday 11am–6pm; Friday 9am–10pm; Saturday 11am–10pm; Sunday 1pm–7pm. · $4 per person per game; bumper bowling $4.50; $22 per lane per hour for up to six; shoe rental $3.",
+     "url": "https://bowlri.com/Home/Hours-Pricing",
+     "src": "bowlri.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Thayer / Warburton Ice Arenas",
+     "blurb": "Warwick's arena complex offers scheduled public skating and introductory skating programs. The city serves both youth and adult visitors, with the appropriate session determining age eligibility. Has: indoor, ice skating, learn-to-skate, session schedule.",
+     "address": "975 Sandy Lane, Warwick, RI 02889",
+     "phone": "401-921-9602",
+     "hours": "Building daily 7am–11pm; public skating only during separately posted sessions.",
+     "url": "https://www.warwickri.gov/359/Thayer-Warburton-Ice-Arenas",
+     "src": "warwickri.gov",
+     "town": "Warwick"
+    },
+    {
+     "name": "Urban Air Adventure Park — Warwick",
+     "blurb": "An indoor adventure park combines active attractions under a single admission system. Eligibility is attraction- and height-dependent, with a separate ticket for children 40 inches and shorter rather than a universal age recommendation. Has: indoor, trampolines, adventure attractions, birthday parties, height restrictions, grip socks required.",
+     "address": "300 Quaker Lane, Warwick, RI 02886",
+     "phone": "401-227-0103",
+     "hours": "Unlimited Play $39.99; children 40 inches and under $19.99; eligible accompanying parent ticket $19.99; required socks $4.49; tax additional.",
+     "url": "https://www.urbanair.com/rhode-island-warwick/",
+     "src": "urbanair.com",
+     "town": "Warwick"
+    },
+    {
+     "name": "Benny Magiera Memorial Ice Rink",
+     "blurb": "The civic-center rink is documented for public skating, hockey and group rentals. Current public-session hours, prices and age guidance could not be verified from a current operator schedule. Has: indoor, ice skating, current public sessions unconfirmed.",
+     "address": "100 Factory Street, West Warwick, RI 02893",
+     "phone": "401-615-8241",
+     "hours": "",
+     "url": "https://planning.ri.gov/sites/g/files/xkgbur826/files/documents/comp/2020/West-Warwick-Comp-Plan-2020.pdf",
+     "src": "planning.ri.gov",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Mac's Bowlaway Lanes",
+     "blurb": "A regional bowling directory lists this West Warwick duckpin center with youth bowling and party facilities. Current public access and recommended ages could not be confirmed from an operator source. Has: indoor, duckpin bowling, current details unconfirmed.",
+     "address": "890 Main Street, West Warwick, RI 02893",
+     "phone": "401-828-3279",
+     "hours": "",
+     "url": "https://www.strikespots.com/bowling-centers/duckpin/united-states/rhode-island/",
+     "src": "strikespots.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "SharkBay Playspace",
+     "blurb": "Admission covers the playroom and Sensory Bay, with an outdoor play area available seasonally. Infants are explicitly accommodated, but the reviewed operator page does not publish a full recommended age range. Has: indoor, seasonal outdoor area, sensory-friendly sessions, birthday parties, waiver required.",
+     "address": "320 Washington Street, West Warwick, RI 02893",
+     "phone": "401-615-3517",
+     "hours": "Monday–Saturday 9am–2pm; Friday also 4pm–6pm; Thursday sensory-friendly play 4pm–6pm. Outdoor Oasis closed fall and winter. · $15 per child with two adults included; children under 9 months with a paid sibling no charge; additional adult $5.",
+     "url": "https://www.sharkbayplay.com/",
+     "src": "sharkbayplay.com",
+     "town": "West Warwick"
+    },
+    {
+     "name": "Flying Horse Merry-Go-Round",
+     "blurb": "A historic seasonal children’s carousel in the village. Check current rider restrictions and opening dates.",
+     "address": "Westerly / Watch Hill",
+     "phone": "",
+     "hours": "",
+     "url": "https://watchhillfiredistrict.org/merry-go-round/",
+     "src": "watchhillfiredistrict.org"
+    },
+    {
+     "name": "Alley Katz Bowling Center",
+     "blurb": "A bowling center offers open play, cosmic sessions and food packages for family groups. Children's parties are available, while a specific best-age range is not published. Has: indoor, bowling, birthday parties, cosmic bowling, food.",
+     "address": "116 Granite Street, Westerly, RI 02891",
+     "phone": "401-596-7474",
+     "hours": "Sunday–Thursday 9am–10pm; Friday–Saturday 9am–11pm. · $6 per person per game on weekdays or $6.50 weekends; shoe rental $4; family party pack $89.95 per lane includes two hours, up to six shoe rentals, a soft-drink pitcher and pizza or nachos.",
+     "url": "https://alleykatzri.com/SPECIALS",
+     "src": "alleykatzri.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Atlantic Beach Park",
+     "blurb": "This Misquamicut attraction combines a historic carousel with arcade entertainment beside the beach. The carousel is promoted for children and adults, though detailed rider restrictions should be confirmed. Has: carousel, arcade, indoor, outdoor, seasonal.",
+     "address": "321 Atlantic Avenue, Westerly, RI 02891",
+     "phone": "401-322-0504",
+     "hours": "Seasonal arcade; operator asks visitors to call for current amusement hours.",
+     "url": "https://www.atlanticbeachpark.com/",
+     "src": "atlanticbeachpark.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Flying Horse Carousel",
+     "blurb": "Suspended horses carry children around a historic carousel beside Watch Hill's beach entrance. Riders must be ages 2–12 and weigh no more than 100 pounds. Has: carousel, outdoor, seasonal, age restrictions, weight restrictions.",
+     "address": "151–153 Bay Street, Watch Hill, RI 02891, Westerly",
+     "phone": "401-622-4125",
+     "hours": "2026 season: June 13–August 29 daily 10am–8pm; August 30 closes 6pm; selected weekends May 23–June 7 and September 5–13 10am–6pm. Closed for the season. · Inside horse $2; outside horse with brass-ring game $5.",
+     "url": "https://merrygoroundbeach.com/",
+     "src": "merrygoroundbeach.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Living Sharks Museum",
+     "blurb": "Shark-history artifacts and educational displays explore the animals and their conservation rather than housing a live aquarium. The museum does not publish a numerical best-age recommendation. Has: indoor, natural history, shark exhibits.",
+     "address": "47 High Street, Westerly, RI",
+     "phone": "",
+     "hours": "Seasonal operation Memorial Day–Labor Day; current daily timetable not confirmed. · Admission has no charge.",
+     "url": "https://www.livingsharks.org/visit",
+     "src": "livingsharks.org",
+     "town": "Westerly"
+    },
+    {
+     "name": "Washington Trust Community Skating Center",
+     "blurb": "An outdoor community rink provides winter skating in downtown Westerly with rental equipment. Families can attend public sessions, but the current season's age categories and timetable require confirmation. Has: outdoor, ice skating, skate rentals, restrooms, concessions.",
+     "address": "61 Main Street, Westerly, RI 02891",
+     "phone": "401-637-7902",
+     "hours": "",
+     "url": "https://www.visitrhodeisland.com/listing/the-washington-trust-community-skating-center/8168/",
+     "src": "visitrhodeisland.com",
+     "town": "Westerly"
+    },
+    {
+     "name": "Adelard Arena",
+     "blurb": "The arena on the Mount Saint Charles campus offers public skating, lessons and group outings. Programs include youth and adult participation, but general public-skate best ages are not specified. Has: indoor, ice skating, skate rentals, learn-to-skate, group bookings.",
+     "address": "800 Logee Street, Woonsocket, RI 02895",
+     "phone": "",
+     "hours": "Public skating follows the arena's monthly calendar; advance online registration offered. · Group public-skate package $6 per person including rentals for groups of at least 20; individual-session prices not confirmed.",
+     "url": "https://www.adelardarena.com/group-events",
+     "src": "adelardarena.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Blue Elephant Play Place",
+     "blurb": "An imaginative indoor playroom provides activities for children and accompanying adults. The operator identifies ages 8 months–6 years as its intended range. Has: indoor, pretend play, socks required.",
+     "address": "Woonsocket",
+     "phone": "401-488-4201",
+     "hours": "Monday and Friday 9am–2pm; Tuesday–Thursday 9am–5pm; Saturday–Sunday 9am–1pm. · Ages 1+ $16; under 12 months $10; one adult included per child; extra adult $5; socks $3.",
+     "url": "https://blueelephantplayplace.com/open-play",
+     "src": "blueelephantplayplace.com",
+     "town": "Woonsocket"
+    },
+    {
+     "name": "Ryan's Walnut Hill",
+     "blurb": "The former Walnut Hill Bowl now combines 24 tenpin lanes with a renovated arcade and prize counter. Families and children's parties are welcomed, although best ages are not numerically specified. Has: indoor, tenpin bowling, arcade, prize redemption, birthday parties, food.",
+     "address": "1666 Diamond Hill Road, Woonsocket, RI 02895",
+     "phone": "401-762-9300",
+     "hours": "Monday noon–10pm; Tuesday–Wednesday 4pm–10pm; Thursday 9am–noon and 4pm–10pm; Friday 9am–11pm; Saturday noon–11pm; Sunday 10am–10pm.",
+     "url": "https://ryanfamily.com/locations/ryans-walnut-hill/",
+     "src": "ryanfamily.com",
+     "town": "Woonsocket"
     }
    ]
   },
