@@ -42390,6 +42390,82 @@
      "town": "Westerly"
     }
    ]
+  },
+  {
+   "key": "casinos",
+   "title": "Casinos & Racing",
+   "items": [
+    {
+     "name": "Suffolk Downs Simulcasting",
+     "blurb": "Suffolk Downs operates simulcast wagering lounges showing races from other tracks. Live racing at the historic Boston track has ended. Has: minimum wagering age 18, photo identification required, simulcast horse-racing wagering, pari-mutuel betting windows, racing programs, parking, ramps.",
+     "address": "525 McClellan Highway, East Boston, MA 02128, Boston (East Boston), Massachusetts",
+     "phone": "617-567-3900",
+     "hours": "Wednesday-Sunday from 11 AM; closing generally 5:30 PM-8 PM according to the race schedule. Closed Monday-Tuesday. Posted closing time for November 1, 2026: approximately 6 PM. Wagering windows open 30 minutes before the first simulcast race. · Regular admission and parking: no charge. Special events may have admission and parking charges.",
+     "url": "https://suffolkdowns.com/racing/",
+     "src": "suffolkdowns.com",
+     "town": "Boston (East Boston), Massachusetts"
+    },
+    {
+     "name": "Encore Boston Harbor",
+     "blurb": "Encore Boston Harbor is a waterfront casino resort in Everett with slots, live table games, poker and a sportsbook. Its nongaming amenities include a hotel, restaurants, retail shops and the public Harborwalk. Has: minimum casino floor and gambling age 21, valid identification required, slots, video poker, live table games, electronic table games, dedicated poker room in The Loft.",
+     "address": "1 Broadway, Everett, MA 02149",
+     "phone": "857-770-7000",
+     "hours": "Casino and poker room: 24 hours daily. Restaurants, shops, shuttles and ticketed events follow separate schedules. · Self-parking and valet parking: no charge, subject to availability. Overnight parking is limited to registered hotel guests for the duration of their stay.",
+     "url": "https://www.encorebostonharbor.com/",
+     "src": "encorebostonharbor.com",
+     "town": "Everett, Massachusetts"
+    },
+    {
+     "name": "Foxwoods Resort Casino",
+     "blurb": "Foxwoods combines casino gaming and high-stakes bingo with hotels, theaters, outlet shopping and family activities. Its attractions include an arcade and bowling, with a separate Great Wolf Lodge water park resort adjacent to the casino property. Has: minimum age 21 for casino gaming and sports wagering, minimum bingo age 18, slots, live table games, dedicated poker room, DraftKings Sportsbook, racebook.",
+     "address": "350 Trolley Line Boulevard, Mashantucket, CT 06338-3777, Ledyard (Mashantucket), Connecticut",
+     "phone": "860-312-3000",
+     "hours": "Slots: 24 hours daily. Poker room: Sunday-Thursday 8 AM-2 AM; Friday-Saturday 8 AM-4 AM; last hands begin 30 minutes before closing. DraftKings sportsbook cashiers and in-room kiosks: Monday-Friday 10 AM-11 PM; Saturday-Sunday 9:30 AM-midnight; event-dependent changes apply. Other sportsbook kiosks throughout the resort operate 24 hours. Tree House Arcade: Wednesday-Thursday noon-10 PM; Friday-Sunday 10 AM-11 PM; closed Monday-Tuesday. · Self-parking and valet parking: no charge. Foxwoods Rewards membership: no charge. Next Level Treehouse console gaming: no charge.",
+     "url": "https://foxwoods.com/",
+     "src": "foxwoods.com",
+     "town": "Ledyard (Mashantucket), Connecticut"
+    },
+    {
+     "name": "Bally's Twin River Lincoln Casino Resort",
+     "blurb": "This Lincoln casino combines slots, live table games, a poker room and sports wagering with an on-site hotel. Bally's Event Center presents touring performers and other ticketed events. Has: minimum casino age 18, slots and video lottery terminals, live table games, electronic table games, dedicated poker room, sportsbook, simulcast racebook.",
+     "address": "100 Twin River Road, Lincoln, RI 02865",
+     "phone": "844-922-5597; 401-723-3200",
+     "hours": "Casino: 24 hours daily. Sportsbook and sports betting kiosks: 24 hours daily, subject to volume and seasonal changes. Shows and restaurants follow their individual schedules. · Self-parking: no charge. Bally Rewards membership: no charge.",
+     "url": "https://casinos.ballys.com/lincoln/",
+     "src": "casinos.ballys.com",
+     "town": "Lincoln"
+    },
+    {
+     "name": "Mohegan Sun",
+     "blurb": "Mohegan Sun has two casino areas, a poker room and a sportsbook alongside hotels, shopping and major entertainment venues. Family activities include bowling, arcade games, supervised children's activities and hotel pools. Has: minimum gaming and sportsbook age 21, slots, live table games, dedicated poker room, FanDuel Sportsbook, racebook, Mohegan Sun Arena.",
+     "address": "1 Mohegan Sun Boulevard, Uncasville, CT 06382, Montville (Uncasville), Connecticut",
+     "phone": "888-226-7711",
+     "hours": "Casino: 24 hours daily. Poker room: 9 AM-4 AM daily; last hands at 3:30 AM. FanDuel sportsbook venue: Sunday 9 AM-midnight; Monday-Thursday 10 AM-midnight; Friday 10 AM-1 AM; Saturday 9 AM-1 AM. Sports betting kiosks: 24 hours daily. Game On: Monday-Thursday 4 PM-9:30 PM; Friday 4 PM-midnight; Saturday noon-midnight; Sunday noon-8 PM. · General self-parking and advertised valet service: no charge. Riverview Reserved Parking requires a paid advance reservation. Momentum membership: no charge.",
+     "url": "https://mohegansun.com/",
+     "src": "mohegansun.com",
+     "town": "Montville (Uncasville), Connecticut"
+    },
+    {
+     "name": "Plainridge Park Casino",
+     "blurb": "Plainridge Park pairs slots, video poker and electronic table games with a sportsbook and harness racing. The operator lists nearby partner hotels for overnight stays. Has: minimum gaming floor age 21, valid identification required, slots, video poker, electronic blackjack roulette and craps, slots-parlor license rather than a live-table casino license, no dedicated live poker room.",
+     "address": "301 Washington Street, Plainville, MA 02762",
+     "phone": "508-576-4500",
+     "hours": "Casino: 24 hours daily. Sportsbook writers: Monday-Friday 10 AM-midnight; Saturday-Sunday 9 AM-midnight. Simulcasting: Sunday 11 AM-10 PM; Monday-Thursday noon-9 PM; Friday-Saturday 11 AM-11 PM. Live harness racing runs April-November; November post time is 1 PM on scheduled race days. · On-site parking: no charge.",
+     "url": "https://www.plainridgeparkcasino.com/",
+     "src": "plainridgeparkcasino.com",
+     "town": "Plainville, Massachusetts"
+    },
+    {
+     "name": "Bally's Tiverton Casino",
+     "blurb": "Bally's Tiverton offers slots, live table games and a sportsbook near the Massachusetts border. The casino is open, but its on-site hotel remains closed according to October 30 reporting of Bally's statements to state regulators. Has: minimum casino age 18, slots and video lottery terminals, live table games, electronic stadium gaming, sportsbook, no dedicated poker room, Casino Café & Grille.",
+     "address": "777 Tiverton Casino Boulevard, Tiverton, RI 02878",
+     "phone": "401-816-6000",
+     "hours": "Casino and sportsbook kiosks: 24 hours daily. Sportsbook counter: Monday 10 AM-midnight; Tuesday-Wednesday 10 AM-8:30 PM; Thursday-Friday 10 AM-midnight; Saturday-Sunday 9 AM-midnight. Sportsbook hours may change with volume and season. · Self-parking: no charge. Bally Rewards membership: no charge.",
+     "url": "https://casinos.ballys.com/tiverton/",
+     "src": "casinos.ballys.com",
+     "town": "Tiverton"
+    }
+   ]
   }
  ]
 }
