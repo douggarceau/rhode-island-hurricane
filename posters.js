@@ -274,6 +274,6 @@ new MutationObserver(()=>requestAnimationFrame(dress)).observe(document.document
 /* Address bar and tab title follow the story being read; each story counts as its own page in Analytics */
 (function(){let last=null;setInterval(()=>{if(!window.__epT0)window.__epT0=document.title;let s='';try{if(STATE.view==='read'&&STATE.story&&typeof STORIES!=='undefined'&&STORIES.some(x=>x.slug===STATE.story))s=STATE.story}catch(_){return}
  if(s===last)return;last=s;
- const q=new URLSearchParams(location.search);if((q.get('story')||'')!==s){if(s)q.set('story',s);else q.delete('story');const qs=q.toString();try{history.replaceState(history.state,'',location.pathname+(qs?'?'+qs:'')+location.hash)}catch(_){}}
+ const q=new URLSearchParams(location.search);q.delete('story');const qs=q.toString();const want=(s?'/s/'+s+'/':'/')+(qs?'?'+qs:'');if(location.pathname+location.search!==want){try{history.replaceState(history.state,'',want+location.hash)}catch(_){}}
  const st=s&&STORIES.find(x=>x.slug===s);document.title=st?st.title+' | '+window.__epT0:window.__epT0;
  try{if(s&&typeof gtag==='function')gtag('event','page_view',{page_title:document.title,page_location:location.href})}catch(_){}},700)})();
