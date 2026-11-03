@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-03T09:45:00-05:00",
+ "asof": "2026-11-03T11:15:00-05:00",
  "items": [
   {
    "h": "Rhode Island Today and Tonight: Gatsby, Swing Night and Galleries",
@@ -78,6 +78,15 @@
    "town": "Newport",
    "date": "2026-10-31",
    "rank": 3
+  },
+  {
+   "h": "Poe's Providence love story gets a walking tour",
+   "sum": "A walk from the John Reynolds House on Benefit Street focuses on the romantic side of Edgar Allan Poe's time in Providence.",
+   "outlet": "Ocean State Media",
+   "url": "https://www.oceanstatemedia.org/weekend401/2026-10-28/forget-the-horror-discover-edgar-allan-poes-providence-love-story-weekend-401",
+   "town": "Providence",
+   "date": "2026-10-28",
+   "rank": 5
   }
  ]
 }
