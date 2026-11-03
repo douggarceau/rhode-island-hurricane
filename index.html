@@ -1265,7 +1265,7 @@ h2.room{text-shadow:0 2px 0 #000,0 0 30px rgba(0,0,0,.7)!important;filter:satura
     <button class="nb elnb" type="button" data-story="rhode-island-election-day-2026" data-until="2026-11-07T23:59:00-05:00">Rhode Island Election News</button>
     <button class="nb" data-go="stories">Rhode Island Stories</button>
     <button class="nb" data-go="bars">Rhode Island News</button>
-    <button class="nb" data-go="crime"><img class="cwmark xs" src="img/prowler-mark.jpg" alt="">Crime Watch</button>
+    <button class="nb" data-go="crime" hidden style="display:none"><img class="cwmark xs" src="img/prowler-mark.jpg" alt="">Crime Watch</button>
     <button class="nb pmnb" data-go="tech">Tech &amp; AI</button>
     <button class="nb" data-go="cal">Rhode Island Event Calendar</button>
     <button class="nb" data-go="visit">Visit Rhode Island</button>
@@ -1497,7 +1497,7 @@ function evCard(e){return `<a class="ev" style="--gc:${KIND[e.kind]||'#8b949c'}"
 function vFront(){setTimeout(()=>{cwFill();cwLoad()},0);
   const [lead,...rest]=STORIES.filter(x=>x.slug!=='ballard-light-rail-2042-forum');
   const wk=up.filter(e=>e.date<=addDays(todayKey,7)).slice(0,6);
-  return `${crimeBanner()}<div class="front">
+  return `<div class="front">
     <div class="stack">
       <section class="box" style="--c:#d9a400"><div class="bh"><b>The wire · nightlife &amp; scene</b><span>${BARS.length} items</span></div>
         <div class="bwl">${BARS.slice(0,7).map(b=>{const k=BK[b.kind]||BK.other;return `<a class="bwr" href="${esc(b.url)}" target="_blank" rel="noopener"><span class="gtag" style="--gc:${k[0]}">${k[1]}</span><span class="bwt"><b>${esc(b.headline)}</b><span>${esc(b.venue)}${b.hood?' · '+esc(b.hood):''} · ${shortDay(b.date)}</span></span></a>`}).join('')||'<div class="empty">The wire is loading.</div>'}</div>
@@ -2835,7 +2835,7 @@ const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
 new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=23">
-<link rel="stylesheet" href="polish.css?v=46"><script src="whatson.js?v=22" defer></script>
+<link rel="stylesheet" href="polish.css?v=47"><script src="whatson.js?v=22" defer></script>
 <script src="recovery.js?v=1" defer></script>
 <script>(()=>{const go=()=>{const nav=document.getElementById("nav");if(!nav||document.getElementById("nbSub"))return;const b=document.createElement("button");b.className="nb";b.id="nbSub";b.type="button";b.textContent="Subscribe";nav.appendChild(b);b.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();const s=document.getElementById("subBox");if(!s)return;if(s.parentNode!==document.body)document.body.appendChild(s);s.classList.toggle("sbpop");if(s.classList.contains("sbpop")){const i=s.querySelector("input:not([hidden])");i&&i.focus()}});document.addEventListener("click",e=>{const s=document.getElementById("subBox");if(s&&s.classList.contains("sbpop")&&!s.contains(e.target)&&e.target!==b)s.classList.remove("sbpop")})};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",go):go()})();</script><script>setInterval(()=>{try{const n=new Date(),M=n.toLocaleDateString("en-US",{month:"short",timeZone:"America/New_York"}).toUpperCase(),D=String(+n.toLocaleDateString("en-US",{day:"numeric",timeZone:"America/New_York"}));document.querySelectorAll("#view a.sh").forEach(a=>{const dt=a.querySelector(".dt");if(!dt||dt.dataset.tf===M+D)return;dt.dataset.tf=M+D;const old=dt.querySelector(".tflag");old&&old.remove();const m=(dt.querySelector("small")||{}).textContent,d=(dt.querySelector("b")||{}).textContent;if(String(m).trim().toUpperCase()!==M||String(d).trim()!==D)return;const tm=(a.querySelector(".who span")||{}).textContent||"";const x=tm.match(/(\d{1,2})(?::\d{2})?\s*(AM|PM)/i);let h=x?(+x[1]%12)+(/pm/i.test(x[2])?12:0):-1;const f=document.createElement("span");f.className="tflag";f.textContent=h>=17?"Tonight":"Today";dt.appendChild(f)})}catch(_){}},400)</script><script>(function(){var b=document.querySelector(".elnb");if(b&&Date.now()>Date.parse(b.dataset.until))b.remove()})()</script>
 </body>
