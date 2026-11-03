@@ -1,16 +1,36 @@
 {
- "asof": "2026-10-31T07:30:00-04:00",
+ "asof": "2026-11-03T09:45:00-05:00",
  "items": [
   {
-   "h": "Halloween in Rhode Island: Today and Tonight",
-   "sum": "Trick-or-treat in Warren, a parade in Jamestown, pumpkins at the zoo, then costume parties in Pawtucket, Newport, Jamestown and Providence. Plus 45 more picks for the weekend.",
+   "h": "Rhode Island Today and Tonight: Gatsby, Swing Night and Galleries",
+   "sum": "Tonight's best picks are The Great Gatsby at 7:00 PM at PPAC and a Fall Into Swing social at 8:00 PM in Pawtucket.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=halloween-weekend-rhode-island-2026",
-   "story": "halloween-weekend-rhode-island-2026",
-   "box": true,
+   "url": "?story=today-and-tonight-2026-11-03",
+   "story": "today-and-tonight-2026-11-03",
    "town": "Statewide",
-   "date": "2026-10-31",
+   "date": "2026-11-03",
    "rank": 1
+  },
+  {
+   "h": "The Great Gatsby Musical Roars Into PPAC, Nov. 3–8",
+   "sum": "The Tony-winning Broadway musical brings the Roaring Twenties to downtown Providence for eight performances.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=great-gatsby-ppac",
+   "story": "great-gatsby-ppac",
+   "box": true,
+   "town": "Providence",
+   "date": "2026-11-03",
+   "rank": 2
+  },
+  {
+   "h": "Chorus of Westerly Rings In the Season With Vaughan Williams' Hodie",
+   "sum": "Saturday, November 14 at 6 p.m. and Sunday, November 15 at 3 p.m. at George Kent Performance Hall in Westerly.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=chorus-of-westerly-hodie-vaughan-williams-2026",
+   "story": "chorus-of-westerly-hodie-vaughan-williams-2026",
+   "town": "Westerly",
+   "date": "2026-11-03",
+   "rank": 3
   },
   {
    "h": "Rhode Island Comic Con takes over Providence, Nov. 6–8",
@@ -39,15 +59,6 @@
    "town": "Newport",
    "date": "2026-10-29",
    "rank": 3
-  },
-  {
-   "h": "Newport preservation projects receive Rhody Awards recognition",
-   "sum": "Honorees include Castle Hill’s fire restoration, a lead-paint guidance project, and Salve Regina’s Michael Semenza; public voting continues through noon October 30.",
-   "outlet": "What's Up Newp",
-   "url": "https://whatsupnewp.com/2026/10/three-newport-projects-honored-at-2026-rhody-awards-public-voting-open-through-friday/",
-   "town": "Newport",
-   "date": "2026-10-26",
-   "rank": 6
   },
   {
    "h": "Big Brothers Big Sisters of Rhode Island marks 60 years",
