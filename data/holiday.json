@@ -6,6 +6,8 @@
  "sections": [
   {
    "label": "The Big Shows",
+   "img": "img/holiday/big-shows.jpg",
+   "alt": "A family in winter coats arriving at a golden theater door, a little girl holding a nutcracker as tickets are handed to the usher",
    "items": [
     {
      "t": "'Twas the Night Before... by Cirque du Soleil",
@@ -372,6 +374,8 @@
   },
   {
    "label": "Strolls, Markets and Town Celebrations",
+   "img": "img/holiday/harbor-market.jpg",
+   "alt": "A family choosing a toy sailboat ornament at a snowy holiday market beside the harbor",
    "items": [
     {
      "t": "Chepachet Candlelight Shopping",
@@ -465,6 +469,8 @@
   },
   {
    "label": "Christmas at Church",
+   "img": "img/holiday/christmas-at-church.jpg",
+   "alt": "Families singing carols by candlelight in the snow outside a white church with a wreath over the open doors",
    "items": [
     {
      "t": "Nine Lessons and Carols: Christmas on the Hill",
