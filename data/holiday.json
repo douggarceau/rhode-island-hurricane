@@ -243,6 +243,8 @@
   },
   {
    "label": "Lights and Tree Lightings",
+   "img": "img/holiday/main-street-snow.jpg",
+   "alt": "Teenagers carrying gifts down a snowy brick sidewalk past shop windows hung with garlands and lights",
    "items": [
     {
      "t": "Holiday Lights Spectacular",
@@ -314,6 +316,8 @@
   },
   {
    "label": "Santa and the Kids",
+   "img": "img/holiday/santa-wagon.jpg",
+   "alt": "Santa waving from a horse-drawn wagon as teenagers and families cheer on a snowy town street",
    "items": [
     {
      "t": "Santa and Mrs. Claus Arrive by Boat",
