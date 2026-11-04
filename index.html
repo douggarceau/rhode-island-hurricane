@@ -1907,7 +1907,7 @@ function vSearch(q){
   ${!S.length&&!C.length&&!E.length?'<div class="empty">Nothing found. Try a band, a venue or a neighborhood.</div>':''}`;
 }
 
-const STATE={blist:'top_100_bands',bq:'',bsel:null,vnc:'all',vnmore:12,vcat:'all',vreg:'all',vq:'',vsel:null,view:'cal',bk:'all',topic:'all',genre:'all',kind:'all',hood:'all',cq:'',prev:'front',story:null};
+const STATE={blist:'top_100_bands',bq:'',bsel:null,vnc:'all',vnmore:12,vcat:'all',vreg:'all',vq:'',vsel:null,view:'front',bk:'all',topic:'all',genre:'all',kind:'all',hood:'all',cq:'',prev:'front',story:null};
 let INBOX={ideas:[],photos:[]},DB=null,ASSETS=null,OWNER=false;
 // ===== Comments: the argument =====
 const CM={slug:null,list:[],unsub:null,sort:'top',me:null,reply:null,ready:false};
@@ -2815,7 +2815,7 @@ const slugs=()=>{return [];const S=[];try{const n=Date.now();STORIES.forEach(x=>
 const deco=()=>{const want=new Set();slugs().forEach(k=>{const el=[...document.querySelectorAll(`button[data-story="${k}"]`)].find(e=>!e.closest('article,.reader')&&!e.classList.contains('spr')&&e.offsetParent);if(el)want.add(el)});
 document.querySelectorAll('.cop').forEach(el=>{if(!want.has(el))el.classList.remove('cop')});want.forEach(el=>el.classList.add('cop'))};
 new MutationObserver(()=>{clearTimeout(window.__cp);window.__cp=setTimeout(deco,80)}).observe(document.documentElement,{childList:true,subtree:true});deco()})();</script><link rel="stylesheet" href="posters.css?v=23">
-<link rel="stylesheet" href="polish.css?v=48"><script src="whatson.js?v=22" defer></script>
+<link rel="stylesheet" href="polish.css?v=49"><script src="whatson.js?v=22" defer></script>
 <script src="recovery.js?v=1" defer></script>
 <script>(()=>{const go=()=>{const nav=document.getElementById("nav");if(!nav||document.getElementById("nbSub"))return;const b=document.createElement("button");b.className="nb";b.id="nbSub";b.type="button";b.textContent="Subscribe";nav.appendChild(b);b.addEventListener("click",e=>{e.preventDefault();e.stopPropagation();const s=document.getElementById("subBox");if(!s)return;if(s.parentNode!==document.body)document.body.appendChild(s);s.classList.toggle("sbpop");if(s.classList.contains("sbpop")){const i=s.querySelector("input:not([hidden])");i&&i.focus()}});document.addEventListener("click",e=>{const s=document.getElementById("subBox");if(s&&s.classList.contains("sbpop")&&!s.contains(e.target)&&e.target!==b)s.classList.remove("sbpop")})};document.readyState==="loading"?document.addEventListener("DOMContentLoaded",go):go()})();</script><script>setInterval(()=>{try{const n=new Date(),M=n.toLocaleDateString("en-US",{month:"short",timeZone:"America/New_York"}).toUpperCase(),D=String(+n.toLocaleDateString("en-US",{day:"numeric",timeZone:"America/New_York"}));document.querySelectorAll("#view a.sh").forEach(a=>{const dt=a.querySelector(".dt");if(!dt||dt.dataset.tf===M+D)return;dt.dataset.tf=M+D;const old=dt.querySelector(".tflag");old&&old.remove();const m=(dt.querySelector("small")||{}).textContent,d=(dt.querySelector("b")||{}).textContent;if(String(m).trim().toUpperCase()!==M||String(d).trim()!==D)return;const tm=(a.querySelector(".who span")||{}).textContent||"";const x=tm.match(/(\d{1,2})(?::\d{2})?\s*(AM|PM)/i);let h=x?(+x[1]%12)+(/pm/i.test(x[2])?12:0):-1;const f=document.createElement("span");f.className="tflag";f.textContent=h>=17?"Tonight":"Today";dt.appendChild(f)})}catch(_){}},400)</script><script>(function(){var b=document.querySelector(".elnb");if(b&&Date.now()>Date.parse(b.dataset.until))b.remove()})()</script>
 </body>
