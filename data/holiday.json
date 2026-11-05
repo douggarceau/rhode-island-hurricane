@@ -67,7 +67,7 @@
      "start": "2026-12-13",
      "end": "2026-12-13",
      "when": "Sun, Dec 13",
-     "time": "",
+     "time": "3 and 7 PM",
      "where": "Providence Performing Arts Center",
      "town": "Providence",
      "url": "https://www.ppacri.org/events/detail/boston-pops-holiday-concert-with-keith-lockhart",
@@ -94,6 +94,17 @@
      "town": "Providence",
      "url": "https://thevets.evenue.net/events/NT26",
      "note": "Ballet RI presents The Nutcracker at The VETS, bringing professional company dancers together with young performers from the community."
+    },
+    {
+     "t": "Disney On Ice: Magic in the Stars",
+     "start": "2026-12-23",
+     "end": "2026-12-28",
+     "when": "Dec 23–28",
+     "time": "Several times",
+     "where": "Amica Mutual Pavilion",
+     "town": "Providence",
+     "url": "https://www.amicamutualpavilion.com/events/detail/disney-on-ice-presents-magic-in-the-stars",
+     "note": "Frozen 2, Moana, Encanto, Toy Story and more on ice, with no Christmas Day show."
     }
    ]
   },
@@ -243,6 +254,39 @@
    "label": "Lights and Tree Lightings",
    "items": [
     {
+     "t": "Sparkling Lights at The Breakers",
+     "start": "2026-11-21",
+     "end": "2026-12-27",
+     "when": "Selected nights through Dec 27",
+     "time": "Entry 4–6 PM",
+     "where": "The Breakers",
+     "town": "Newport",
+     "url": "https://www.newportmansions.org/events/sparkling-lights-at-the-breakers-2026/",
+     "note": "An illuminated walk plus the decorated mansion. Timed ticket required."
+    },
+    {
+     "t": "Sparkle! at Blithewold",
+     "start": "2026-11-24",
+     "end": "2027-01-03",
+     "when": "Through Jan 3",
+     "time": "4–7 PM, Tue.–Sun.",
+     "where": "Blithewold",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/event/sparkle-3/",
+     "note": "Evening lights inside the manor and across the gardens. Closed Nov. 26 and Dec. 24–25."
+    },
+    {
+     "t": "Rhode Island Lights Festival",
+     "start": "2026-11-27",
+     "end": "2027-01-03",
+     "when": "Through Jan 3",
+     "time": "5–10 PM",
+     "where": "Centreville Bank Stadium",
+     "town": "Pawtucket",
+     "url": "https://www.rhodeislandfc.com/news/centreville-bank-stadium-to-host-first-ever-rhode-island-lights-festival/",
+     "note": "A first-time festival with displays on the field, shows in the seating bowl and visits with Santa. Closed Dec. 24 and 25."
+    },
+    {
      "t": "Holiday Lights Spectacular",
      "start": "2026-12-01",
      "end": "2027-01-01",
@@ -265,6 +309,17 @@
      "note": "Lights synchronize with holiday music."
     },
     {
+     "t": "Wickford Festival of Lights",
+     "start": "2026-12-03",
+     "end": "2026-12-06",
+     "when": "Dec 3–6",
+     "time": "",
+     "where": "Wickford Village",
+     "town": "North Kingstown",
+     "url": "https://wickfordvillage.org/pages/events",
+     "note": "The 41st annual festival, with Santa arriving by boat and an Elf Parade."
+    },
+    {
      "t": "Bowen's Wharf Christmas Tree Lighting",
      "start": "2026-12-05",
      "end": "2026-12-05",
@@ -274,6 +329,17 @@
      "town": "Newport",
      "url": "https://bowenswharf.com/events/annual-tree-lighting/",
      "note": "Santa visits and musical performances lead to the 6:00 PM tree lighting."
+    },
+    {
+     "t": "Pawtucket Winter Wonderland",
+     "start": "2026-12-05",
+     "end": "2026-12-13",
+     "when": "Dec 5–6, 12–13",
+     "time": "4–8 PM",
+     "where": "Slater Park",
+     "town": "Pawtucket",
+     "url": "https://pawtucketri.gov/wp-content/uploads/2025/12/PAWTUCKET-2026-CALENDAR.pdf",
+     "note": "Hundreds of decorated trees, a miniature village and visits with Santa."
     },
     {
      "t": "Providence Tree Lighting Ceremony",
@@ -313,6 +379,17 @@
   {
    "label": "Santa and the Kids",
    "items": [
+    {
+     "t": "The Polar Express",
+     "start": "2026-11-06",
+     "end": "2026-12-20",
+     "when": "Weekends through Dec 20",
+     "time": "Several times",
+     "where": "Blackstone Valley train depot",
+     "town": "Woonsocket",
+     "url": "https://bvtcri.org/polar-express",
+     "note": "A three-hour outing with a train ride, the story, hot chocolate and Santa."
+    },
     {
      "t": "Santa and Mrs. Claus Arrive by Boat",
      "start": "2026-12-05",
@@ -374,6 +451,17 @@
    "label": "Strolls, Markets and Town Celebrations",
    "items": [
     {
+     "t": "Holidays at the Newport Mansions",
+     "start": "2026-11-21",
+     "end": "2027-01-03",
+     "when": "Through Jan 3",
+     "time": "Daytime",
+     "where": "The Breakers, Marble House, Chateau-sur-Mer",
+     "town": "Newport",
+     "url": "https://www.newportmansions.org/events/holidays-at-the-newport-mansions-2026/",
+     "note": "Nearly 30 decorated trees, including a 15-foot poinsettia tree in the Great Hall. Closed Nov. 26 and Dec. 25."
+    },
+    {
      "t": "Chepachet Candlelight Shopping",
      "start": "2026-12-03",
      "end": "2026-12-17",
@@ -427,6 +515,17 @@
      "town": "Bristol",
      "url": "https://www.bristolchristmas.com/s-projects-side-by-side",
      "note": "Vendors, live entertainment and children's activities celebrate Christmas."
+    },
+    {
+     "t": "Bristol Grand Illumination",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "when": "Sat, Dec 5",
+     "time": "",
+     "where": "Burnside Building",
+     "town": "Bristol",
+     "url": "https://www.bristolri.gov/m/calendar/event/detail/938",
+     "note": "Rain date Dec. 6. Start time not yet posted."
     },
     {
      "t": "Christmas on the Hill",
