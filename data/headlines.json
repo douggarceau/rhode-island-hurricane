@@ -2,6 +2,17 @@
  "asof": "2026-11-05T07:30:00-05:00",
  "items": [
   {
+   "h": "Rhode Island's 2026 Christmas Season Events Guide",
+   "sum": "Dates, times and prices for Trinity Rep, Cirque du Soleil, the Boston Pops, The Nutcracker, the Newport mansions, tree lightings and light displays statewide.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=rhode-island-christmas-2026-schedule",
+   "story": "rhode-island-christmas-2026-schedule",
+   "box": true,
+   "town": "Statewide",
+   "date": "2026-11-05",
+   "rank": 1
+  },
+  {
    "h": "Rhode Island Today and Tonight: Gatsby, Almost, Maine and Storytime",
    "sum": "Tonight's best picks are The Great Gatsby at 7:30 p.m. at PPAC and Almost, Maine at 7:30 p.m. in West Warwick, with family options from storytime to a LEGO club.",
    "outlet": "Rhode Island Hurricane",
@@ -29,8 +40,7 @@
    "story": "great-gatsby-ppac",
    "town": "Providence",
    "date": "2026-11-05",
-   "rank": 2,
-   "box": true
+   "rank": 2
   },
   {
    "h": "Newport County holiday-assistance registration is open",

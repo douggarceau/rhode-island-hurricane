@@ -234,9 +234,13 @@ def main():
     for x in L:
         h = hashlib.sha1((x['title'] + '|' + str(x.get('topic')) + '|v2').encode()).hexdigest()[:8]
         img = f'img/share/{x["slug"]}-{h}.jpg'
-        keep_i.add(os.path.basename(img)); keep_s.add(x['slug'])
-        if not os.path.exists(os.path.join(ROOT, img)):
-            card(x, os.path.join(ROOT, img))
+        keep_s.add(x['slug'])
+        if x.get('share') and os.path.exists(os.path.join(ROOT, x['share'])):
+            img = x['share']  # owner-supplied share picture
+        else:
+            keep_i.add(os.path.basename(img))
+            if not os.path.exists(os.path.join(ROOT, img)):
+                card(x, os.path.join(ROOT, img))
         d = os.path.join(ROOT, 's', x['slug']); os.makedirs(d, exist_ok=True)
         p = os.path.join(d, 'index.html'); new = page(x, img)
         if not os.path.exists(p) or open(p, encoding='utf-8').read() != new:
