@@ -224,20 +224,20 @@ window.factsCard=function(e){const d=e.date?new Date(e.date+'T12:00:00'):null;
  return '<span class="fc"><span class="fc-k">The details</span><span class="fc-t">'+H5(t)+'</span><span class="fc-big"><b>'+H5(d?d.toLocaleDateString('en-US',{month:'short'}).toUpperCase():'')+'</b><i>'+DY+'</i><small>'+H5(e.time||'')+'</small></span><span class="fc-rows">'+rows.map(r=>'<span class="fc-r"><em>'+H5(r[0])+'</em><span>'+H5(r[1])+'</span></span>').join('')+'</span>'+(e.blurb?'<span class="fc-b">'+H5(e.blurb)+'</span>':'')+'<span class="fc-go">'+(e.url?'Tickets &amp; info →':'See the calendar →')+'</span></span>'};
 function turn(el,fn){el.style.transition='transform .34s ease-in';el.style.transform='perspective(1600px) rotateY(90deg)';
  setTimeout(()=>{fn();el.style.transition='none';el.style.transform='perspective(1600px) rotateY(-90deg)';requestAnimationFrame(()=>requestAnimationFrame(()=>{el.style.transition='transform .34s ease-out';el.style.transform='';setTimeout(()=>{el.style.transition=''},380)}))},350)}
-function rotator(getHost,pick,ms,start,opts){let i=start||0,face=0,cur=null;
+function rotator(getHost,pick,ms,start,opts){let i=start||0,face=0,cur=null,artLast=false;
  const host=()=>{const h=getHost();if(!h)return null;let o=h.querySelector(':scope>.rot');if(!o){o=document.createElement('span');o.className='rot';h.appendChild(o);h.classList.add('has-rot');
-   o.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();ev.stopImmediatePropagation();const u=o.dataset.href;if(u&&/^https?:/.test(u))window.open(u,'_blank','noopener');else{try{go('cal')}catch(_){location.hash='cal'}}},true)}return o};
- const show=(o,first)=>{const L=pick();if(!L.length)return;
+   o.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();ev.stopImmediatePropagation();const u=o.dataset.href;if(u&&/^https?:/.test(u))window.open(u,'_blank','noopener');else if(u&&u[0]==='?')location.href=u;else{try{go('cal')}catch(_){location.hash='cal'}}},true)}return o};
+ const show=(o,first)=>{const A=opts&&opts.art;if(face===0&&A&&!artLast){artLast=true;const put=()=>{o.innerHTML='<img class="rot-art" src="'+H5(A.img)+'" alt="'+H5(A.alt||'')+'">';o.dataset.href=A.href||'';o.dataset.face='a'};first?put():turn(o,put);return}artLast=false;const L=pick();if(!L.length)return;
   if(face===0&&(i%4===2)&&!(opts&&opts.noweek)){const wk=window.weekPoster&&window.weekPoster(region(),L);if(wk){i++;const put=()=>{o.innerHTML=wk;o.dataset.href='';o.dataset.face='k'};first?put():turn(o,put);return}}
   if(face===0&&opts&&opts.worship&&(i%5===4)){const w=window.worshipPoster&&window.worshipPoster(region());if(w){i++;const put=()=>{o.innerHTML=w;o.dataset.href='';o.dataset.face='w'};first?put():turn(o,put);return}}
   if(face===0){cur=L[i++%L.length];const h=window.bigPoster&&window.bigPoster(cur,region());if(!h)return;const put=()=>{o.innerHTML=h;o.dataset.href=cur.url||'';o.dataset.face='p';requestAnimationFrame(()=>{try{window.epFit&&window.epFit()}catch(_){}})};first?put():turn(o,put);face=1}
   else{const put=()=>{o.innerHTML=window.factsCard(cur);o.dataset.face='f'};turn(o,put);face=0}};
- let started=false;const kick=setInterval(()=>{if(started){clearInterval(kick);return}const o=host();if(o&&pick().length){started=true;show(o,true);clearInterval(kick)}},400);
+ let started=false;if(opts&&opts.art)setInterval(()=>{if(!started)return;const h=getHost();if(h&&!h.querySelector(':scope>.rot')){const o=host();if(o){artLast=false;face=0;show(o,true)}}},300);const kick=setInterval(()=>{if(started){clearInterval(kick);return}const o=host();if(o&&(pick().length||(opts&&opts.art))){started=true;show(o,true);clearInterval(kick)}},400);
  setInterval(()=>{const o=host();if(!o)return;if(!started){started=true;show(o,true);return}if(document.hidden||o.matches(':hover'))return;show(o,false)},ms)}
 /* the box under the cover: every show, poster then facts */
 rotator(()=>{const b=document.querySelector('.cvr .pbx');if(b)b._busy=true;return b},()=>evs(),8000,window.EP_COVER_POSTERS?7:0,{worship:1,noweek:!!window.EP_COVER_POSTERS});
 /* the cover itself becomes a poster rotator when the page opts in */
-if(window.EP_COVER_POSTERS)rotator(()=>document.querySelector('.cvr .cimg'),()=>{const E=evs();const big=E.filter(e=>BIG.test(e.venue||''));return big.length>=3?big:E},9000);
+if(window.EP_COVER_POSTERS){const CA=window.EP_COVER_ART;const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});rotator(()=>document.querySelector('.cvr .cimg'),()=>{const E=evs();const big=E.filter(e=>BIG.test(e.venue||''));return big.length>=3?big:E},9000,0,CA&&CA.img&&!(CA.until&&CA.until<td)?{art:CA}:undefined)}
 })();
 /* Variety: shuffle the event pool each visit, spread across venues and kinds, so the same few shows don't loop */
 window.epMix=function(L){try{
