@@ -1,15 +1,25 @@
 {
- "asof": "2026-11-04T07:30:00-05:00",
+ "asof": "2026-11-05T07:30:00-05:00",
  "items": [
   {
-   "h": "Rhode Island Today and Tonight: Gatsby, Jazz and Storytime",
-   "sum": "Tonight's best picks: The Great Gatsby at 7:00 PM at PPAC in Providence and RI Jazz Collective at 6:00 PM at Narragansett Café in Jamestown.",
+   "h": "Rhode Island Today and Tonight: Gatsby, Almost, Maine and Storytime",
+   "sum": "Tonight's best picks are The Great Gatsby at 7:30 p.m. at PPAC and Almost, Maine at 7:30 p.m. in West Warwick, with family options from storytime to a LEGO club.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-04",
-   "story": "today-and-tonight-2026-11-04",
+   "url": "?story=today-and-tonight-2026-11-05",
+   "story": "today-and-tonight-2026-11-05",
    "town": "Statewide",
-   "date": "2026-11-04",
+   "date": "2026-11-05",
    "rank": 1
+  },
+  {
+   "h": "Rhode Island Comic Con takes over Providence, Nov. 6–8",
+   "sum": "Three days of pop culture at the Rhode Island Convention Center and Amica Mutual Pavilion.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=rhode-island-comic-con-2026-amica-weekend",
+   "story": "rhode-island-comic-con-2026-amica-weekend",
+   "town": "Providence",
+   "date": "2026-10-31",
+   "rank": 2
   },
   {
    "h": "The Great Gatsby Musical Roars Into PPAC, Nov. 3–8",
@@ -17,19 +27,28 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=great-gatsby-ppac",
    "story": "great-gatsby-ppac",
-   "box": true,
    "town": "Providence",
-   "date": "2026-11-04",
-   "rank": 2
+   "date": "2026-11-05",
+   "rank": 2,
+   "box": true
   },
   {
-   "h": "Ballet RI's In Motion Comes to Westerly's United Theatre, Nov. 6",
-   "sum": "Friday, November 6 at 7:30 p.m. at the United Theatre in Westerly, with three works including a company premiere.",
+   "h": "Newport County holiday-assistance registration is open",
+   "sum": "The MLK Community Center is accepting in-person applications for holiday food and children’s gifts; Thanksgiving registration ends November 13.",
+   "outlet": "MLK Community Center",
+   "url": "https://mlkccenter.org/holiday-help/",
+   "town": "Newport",
+   "date": "2026-10-29",
+   "rank": 3
+  },
+  {
+   "h": "Newport Classical's holiday concerts bring choral music to December",
+   "sum": "Christmas with Cantus, Messiah at the Mansion and Frisson play Dec. 5, 6 and 12.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=ballet-ri-in-motion-westerly-2026",
-   "story": "ballet-ri-in-motion-westerly-2026",
-   "town": "Westerly",
-   "date": "2026-11-04",
+   "url": "?story=newport-classical-holiday-concerts-2026",
+   "story": "newport-classical-holiday-concerts-2026",
+   "town": "Newport",
+   "date": "2026-10-31",
    "rank": 3
   },
   {
@@ -43,32 +62,44 @@
    "rank": 3
   },
   {
-   "h": "Rhode Island Comic Con takes over Providence, Nov. 6–8",
-   "sum": "Three days of pop culture at the Rhode Island Convention Center and Amica Mutual Pavilion.",
+   "h": "Ballet RI's In Motion Comes to Westerly's United Theatre, Nov. 6",
+   "sum": "Friday, November 6 at 7:30 p.m. at the United Theatre in Westerly, with three works including a company premiere.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=rhode-island-comic-con-2026-amica-weekend",
-   "story": "rhode-island-comic-con-2026-amica-weekend",
-   "town": "Providence",
-   "date": "2026-10-31",
-   "rank": 2
-  },
-  {
-   "h": "Rhode Island documentary “The Pizza Principal” announces its premiere",
-   "sum": "Filmmaker Kirk Benttinen’s November 20 Providence screening will introduce the film alongside shorts through his RI Docs project.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/more-than-a-night-at-the-movies-the-pizza-principal-world-premiere-community-event-planned-nov-20/",
-   "town": "Providence",
-   "date": "2026-10-28",
-   "rank": 1
-  },
-  {
-   "h": "Newport County holiday-assistance registration is open",
-   "sum": "The MLK Community Center is accepting in-person applications for holiday food and children’s gifts; Thanksgiving registration ends November 13.",
-   "outlet": "MLK Community Center",
-   "url": "https://mlkccenter.org/holiday-help/",
-   "town": "Newport",
-   "date": "2026-10-29",
+   "url": "?story=ballet-ri-in-motion-westerly-2026",
+   "story": "ballet-ri-in-motion-westerly-2026",
+   "town": "Westerly",
+   "date": "2026-11-04",
    "rank": 3
+  },
+  {
+   "h": "Providence Singers Sing American Voices in Warren and Providence",
+   "sum": "Choral concerts Nov. 21 in Warren and Nov. 22 in Providence, with Copland, folk songs and a bluegrass Mass.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=providence-singers-american-voices-2026",
+   "story": "providence-singers-american-voices-2026",
+   "town": "Warren",
+   "date": "2026-11-05",
+   "rank": 3
+  },
+  {
+   "h": "Holiday Premiere: Handmade Gifts at WaterFire Arts Center",
+   "sum": "A day of local makers, coffee and food trucks, with no-charge admission on Sunday, Nov. 15.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=providence-artisans-holiday-premiere-2026",
+   "story": "providence-artisans-holiday-premiere-2026",
+   "town": "Providence",
+   "date": "2026-11-05",
+   "rank": 4
+  },
+  {
+   "h": "Providence Winter Farmers Market Opens Its Season Saturday",
+   "sum": "Local farm and food vendors open the winter market at 10 Sims Avenue on Saturday, Nov. 7.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=providence-winter-farmers-market-opening-2026",
+   "story": "providence-winter-farmers-market-opening-2026",
+   "town": "Providence",
+   "date": "2026-11-05",
+   "rank": 6
   },
   {
    "h": "Big Brothers Big Sisters of Rhode Island marks 60 years",
@@ -78,25 +109,6 @@
    "town": "Lincoln",
    "date": "2026-10-29",
    "rank": 7
-  },
-  {
-   "h": "Newport Classical's holiday concerts bring choral music to December",
-   "sum": "Christmas with Cantus, Messiah at the Mansion and Frisson play Dec. 5, 6 and 12.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=newport-classical-holiday-concerts-2026",
-   "story": "newport-classical-holiday-concerts-2026",
-   "town": "Newport",
-   "date": "2026-10-31",
-   "rank": 3
-  },
-  {
-   "h": "Poe's Providence love story gets a walking tour",
-   "sum": "A walk from the John Reynolds House on Benefit Street focuses on the romantic side of Edgar Allan Poe's time in Providence.",
-   "outlet": "Ocean State Media",
-   "url": "https://www.oceanstatemedia.org/weekend401/2026-10-28/forget-the-horror-discover-edgar-allan-poes-providence-love-story-weekend-401",
-   "town": "Providence",
-   "date": "2026-10-28",
-   "rank": 5
   }
  ]
 }
