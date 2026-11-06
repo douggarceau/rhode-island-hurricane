@@ -283,6 +283,18 @@
      "addr": "30 Fenner St., Providence"
     },
     {
+     "t": "Very Merry Dickens Carolers at Island Cemetery and Belmont Chapel",
+     "start": "2026-12-13",
+     "end": "2026-12-13",
+     "when": "Sun, Dec 13",
+     "time": "",
+     "where": "Island Cemetery and Belmont Chapel",
+     "town": "Newport",
+     "url": "",
+     "note": "A seasonal caroling appearance; the listing does not give a time.",
+     "addr": ""
+    },
+    {
      "t": "A Musical Retelling of ‘A Christmas Carol’ with Christine Baranski",
      "start": "2026-12-17",
      "end": "2026-12-17",
@@ -992,6 +1004,18 @@
      "addr": ""
     },
     {
+     "t": "Salve Regina Festival of Lights",
+     "start": "2026-12-03",
+     "end": "2026-12-03",
+     "when": "Thu, Dec 3",
+     "time": "",
+     "where": "Ochre Court, Salve Regina University",
+     "town": "Newport",
+     "url": "",
+     "note": "A multi-faith gathering with music, dance and prayers reflecting traditions of light and themes of mercy and care for the Earth.",
+     "addr": ""
+    },
+    {
      "t": "Mingle and Jingle Trunk Show",
      "start": "2026-12-04",
      "end": "2026-12-06",
@@ -1013,6 +1037,30 @@
      "town": "Providence",
      "url": "https://www.pvdholidayfest.org/",
      "note": "A lighted procession led by the Providence Drum Troupe and pop-up performers, heading to the Downcity Holiday Market."
+    },
+    {
+     "t": "Jamestown Holiday Arts Market Pre-Party",
+     "start": "2026-12-04",
+     "end": "2026-12-04",
+     "when": "Fri, Dec 4",
+     "time": "5:30–7:30 PM",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "",
+     "note": "An advance shopping evening before the main market.",
+     "addr": ""
+    },
+    {
+     "t": "Mistletoe Madness",
+     "start": "2026-12-04",
+     "end": "2026-12-04",
+     "when": "Fri, Dec 4",
+     "time": "7–11 PM",
+     "where": "Glen Manor House",
+     "town": "Portsmouth",
+     "url": "",
+     "note": "A holiday evening at the historic house, catered by Russell Morin. Check the organizer for admission and age requirements.",
+     "addr": ""
     },
     {
      "t": "Jamestown Village Holiday Stroll",
@@ -1083,6 +1131,18 @@
      "url": "https://www.thecraftmap.com/fair/the-intentional-celebration-holiday-edition-providence-ri",
      "note": "Indoor market with local makers, food trucks, music, children’s activities and Santa.",
      "addr": "475 Valley St., Providence"
+    },
+    {
+     "t": "Jamestown Holiday Arts Market",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "10 AM–4 PM",
+     "where": "Jamestown Arts Center",
+     "town": "Jamestown",
+     "url": "",
+     "note": "Holiday shopping from local makers.",
+     "addr": ""
     },
     {
      "t": "Christmas at Whitehall",
@@ -1182,6 +1242,30 @@
      "note": "75-minute caroling cruises on the Coastal Queen.",
      "addr": "5 Bowen’s Wharf Landing, Newport",
      "price": "$44 adults; $39 seniors and military; $34 children and youth"
+    },
+    {
+     "t": "“Quaker, Whaler, Traitor, Spy!” book signing",
+     "start": "2026-12-17",
+     "end": "2026-12-17",
+     "when": "Thu, Dec 17",
+     "time": "4–6 PM",
+     "where": "Colony House, Washington Square",
+     "town": "Newport",
+     "url": "",
+     "note": "A holiday-season author event.",
+     "addr": ""
+    },
+    {
+     "t": "Holiday Floral Arranging",
+     "start": "2026-12-18",
+     "end": "2026-12-18",
+     "when": "Fri, Dec 18",
+     "time": "11 AM–Noon",
+     "where": "Blithewold",
+     "town": "Bristol",
+     "url": "",
+     "note": "A seasonal flower-arranging workshop.",
+     "addr": ""
     }
    ]
   },
