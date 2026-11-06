@@ -191,7 +191,7 @@
      "where": "Rosecliff",
      "town": "Newport",
      "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
-     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue.",
+     "note": "Handel’s Messiah in the Rosecliff ballroom, sung by Ensemble Altera and the Professional Choristers of the Choir School of Newport County.",
      "addr": "548 Bellevue Ave., Newport",
      "price": "$60–$75"
     },
@@ -216,6 +216,19 @@
      "town": "Warwick",
      "url": "https://oceanstatepops.org/",
      "note": "The orchestra presents a holiday pops concert."
+    },
+    {
+     "t": "The Irish Tenors: A Family Christmas",
+     "start": "2026-12-10",
+     "end": "2026-12-10",
+     "when": "Thu, Dec 10",
+     "time": "7:30 PM",
+     "where": "Jane Pickens Theater",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "The Irish Tenors bring their family Christmas show to Washington Square.",
+     "addr": "49 Touro St., Newport",
+     "price": "From $79"
     },
     {
      "t": "Classical Christmas with Frisson",
@@ -268,6 +281,18 @@
      "note": "The Gregorian Concert Choir and Festival Orchestra perform Advent and Christmas music. Proceeds go to the Diocese of Providence’s Keep the Heat On program.",
      "price": "$20",
      "addr": "30 Fenner St., Providence"
+    },
+    {
+     "t": "A Musical Retelling of ‘A Christmas Carol’ with Christine Baranski",
+     "start": "2026-12-17",
+     "end": "2026-12-17",
+     "when": "Thu, Dec 17",
+     "time": "7:00 PM",
+     "where": "The Breakers",
+     "town": "Newport",
+     "url": "https://wbsm.com/newport-mansions-christmas-events-guide/",
+     "note": "One night only: the vocal ensemble Skylark sings the story, narrated by actress Christine Baranski.",
+     "addr": "44 Ochre Point Ave., Newport"
     },
     {
      "t": "Chorus of Westerly: Christmas Pops",
@@ -651,10 +676,34 @@
    "label": "Strolls, Markets and Town Celebrations",
    "items": [
     {
+     "t": "Make a Snowman Ornament",
+     "start": "2026-11-10",
+     "end": "2026-11-10",
+     "when": "Tue, Nov 10",
+     "time": "6–8 PM",
+     "where": "The Craftery",
+     "town": "Warren",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "A hands-on Winter Wonder Workshop to make a snowman ornament.",
+     "addr": "450 Main St., Unit A, Warren"
+    },
+    {
+     "t": "Holiday Sip & Shop at Mount Hope Farm",
+     "start": "2026-11-19",
+     "end": "2026-11-19",
+     "when": "Thu, Nov 19",
+     "time": "5:30–8 PM",
+     "where": "Mount Hope Farm",
+     "town": "Bristol",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "An evening of holiday shopping at the farm.",
+     "addr": "250 Metacom Ave., Bristol"
+    },
+    {
      "t": "Bristol Holiday Preview",
      "start": "2026-11-20",
-     "end": "2026-11-20",
-     "when": "Fri, Nov 20",
+     "end": "2026-11-22",
+     "when": "Nov 20–22",
      "time": "Evening",
      "where": "Downtown Bristol",
      "town": "Bristol",
@@ -672,6 +721,18 @@
      "url": "https://allevents.in/west-warwick/rhode-island-christmas-festival-2026/200029736519931",
      "note": "More than 150 vendors, entertainment and food trucks at an indoor family holiday festival.",
      "addr": "100 Factory St., West Warwick"
+    },
+    {
+     "t": "Lili Bunny’s Quest book signing",
+     "start": "2026-11-21",
+     "end": "2026-11-21",
+     "when": "Sat, Nov 21",
+     "time": "10 AM–Noon",
+     "where": "Colony House",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Author Lisa Goddard signs her children’s holiday book.",
+     "addr": "Washington Square, Newport"
     },
     {
      "t": "The Good Trade Makers Market",
@@ -696,6 +757,58 @@
      "town": "Newport",
      "url": "https://www.newportmansions.org/events/holidays-at-the-newport-mansions-2026/",
      "note": "The Breakers, Marble House and Chateau-sur-Mer decorated with Christmas trees, wreaths, flowers and period table settings."
+    },
+    {
+     "t": "Christmas Preparations with the 1910 Household Staff",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "when": "Sun, Nov 22",
+     "time": "5–6:30 PM or 6:30–8 PM",
+     "where": "Blithewold Manor",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Costumed household staff show how the manor got ready for a 1910 Christmas, then you tour the decorated house on your own.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Two timed sessions; check Blithewold for tickets."
+    },
+    {
+     "t": "A Moment with Santa",
+     "start": "2026-11-22",
+     "end": "2026-11-22",
+     "when": "Sun, Nov 22",
+     "time": "",
+     "where": "Artistry Beauty Collective",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "A visit with Santa, co-hosted with Lorelei’s for Littles.",
+     "addr": "32 Franklin St., Newport",
+     "more": "Time not listed; check before you go."
+    },
+    {
+     "t": "A Rough Point Holiday: After Dark",
+     "start": "2026-11-27",
+     "end": "2026-12-26",
+     "when": "Fridays and Saturdays, Nov 27–Dec 26",
+     "time": "4–5:30 PM",
+     "where": "Rough Point",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Doris Duke’s oceanfront house decorated for the season and open after dark, with warm drinks and jazz.",
+     "addr": "680 Bellevue Ave., Newport",
+     "price": "$35; $15 Newport County residents"
+    },
+    {
+     "t": "Holiday Jazz Tea with Chelley Knight’s Quartet",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "11 AM–1 PM",
+     "where": "Blithewold Manor dining room",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Live jazz with afternoon tea in the manor dining room.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Rain date Nov 29."
     },
     {
      "t": "Christkindlmarkt",
@@ -723,6 +836,19 @@
      "addr": "60 Rhodes Place, Cranston"
     },
     {
+     "t": "Brunch with Santa",
+     "start": "2026-11-29",
+     "end": "2026-12-13",
+     "when": "Sun, Nov 29 and Sun, Dec 13",
+     "time": "Noon–2 PM",
+     "where": "Newport Harbor Island Resort",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "A holiday brunch with Santa on Goat Island.",
+     "addr": "1 Goat Island, Newport",
+     "price": "$45 adults; $19 children under 12"
+    },
+    {
      "t": "Westerly Holiday Stroll and Luminaria",
      "start": "2026-12-02",
      "end": "2026-12-02",
@@ -732,6 +858,19 @@
      "town": "Westerly",
      "url": "https://sorhodeisland.com/stories/special-events,36253",
      "note": "Sidewalks lined with luminaria, hayrides with Santa, strolling carolers, and hot chocolate and a cookie while you shop downtown Westerly-Pawcatuck."
+    },
+    {
+     "t": "Blithewold Wreath-Making Workshop",
+     "start": "2026-12-03",
+     "end": "2026-12-04",
+     "when": "Thu, Dec 3 and Fri, Dec 4",
+     "time": "10 AM–Noon",
+     "where": "Blithewold Education Space",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Make a holiday wreath with Blithewold’s horticulture team.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Check Blithewold for supplies and price."
     },
     {
      "t": "Chepachet Candlelight Shopping",
@@ -757,6 +896,19 @@
      "addr": "Grant’s Block Park and Westminster St., Providence"
     },
     {
+     "t": "Wreath Decorating Workshop at Mount Hope Farm",
+     "start": "2026-12-03",
+     "end": "2026-12-04",
+     "when": "Thu, Dec 3 and Fri, Dec 4",
+     "time": "6–8 PM",
+     "where": "Mount Hope Farm barn",
+     "town": "Bristol",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "An evening wreath-decorating workshop in the farm’s barn.",
+     "addr": "250 Metacom Ave., Bristol",
+     "more": "Confirm price and registration with the farm."
+    },
+    {
      "t": "Foundry Artists Holiday Show",
      "start": "2026-12-03",
      "end": "2026-12-13",
@@ -766,6 +918,18 @@
      "town": "Pawtucket",
      "url": "https://www.foundryshow.com/show-info",
      "note": "Artists sell handmade holiday gifts."
+    },
+    {
+     "t": "Mingle and Jingle Trunk Show",
+     "start": "2026-12-04",
+     "end": "2026-12-06",
+     "when": "Dec 4–6",
+     "time": "10 AM–6 PM",
+     "where": "Colony House",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Holiday shopping inside the historic Colony House.",
+     "addr": "Washington Square, Newport"
     },
     {
      "t": "Illuminate PVD Holiday Stroll",
@@ -788,6 +952,19 @@
      "town": "Jamestown",
      "url": "https://www.jamestownrichamber.com/eventsjtn/jamestown-village-holiday-stroll-cznzs",
      "note": "Village shops and craft fairs celebrate the season, with Santa arriving by boat at 1 PM."
+    },
+    {
+     "t": "Holiday Wreath-Making Workshop",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "10 AM–Noon",
+     "where": "The Breakers Greenhouse",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Make a fresh wreath with the Preservation Society’s greenhouse staff.",
+     "addr": "53 Coggeshall Ave., Newport",
+     "price": "$40 members; $50 non-members"
     },
     {
      "t": "Christmas on the Hill",
@@ -859,6 +1036,18 @@
      "note": "The manor opens to the public in its holiday decorations."
     },
     {
+     "t": "Behind the Scenes: Holiday Decorations",
+     "start": "2026-12-10",
+     "end": "2026-12-17",
+     "when": "Thu, Dec 10 and Thu, Dec 17",
+     "time": "10–11 AM",
+     "where": "The Breakers (Dec 10), Marble House (Dec 17)",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "A morning tour of how the mansions are decorated for the holidays.",
+     "price": "$20"
+    },
+    {
      "t": "Glocester Christmas Parade",
      "start": "2026-12-11",
      "end": "2026-12-11",
@@ -880,6 +1069,47 @@
      "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
      "note": "The museum’s 10th annual open house, with eggnog and cookies.",
      "addr": "648 Thames St., Newport"
+    },
+    {
+     "t": "Pictures with Santa and ‘A Visit from St. Nicholas’",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "when": "Sat, Dec 12",
+     "time": "Noon–2 PM",
+     "where": "Colony House",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Photos with Santa, with readings of the poem at noon, 12:30 and 1, plus a Spanish-language reading at 1:30.",
+     "addr": "Washington Square, Newport",
+     "price": "No charge",
+     "more": "RSVP recommended."
+    },
+    {
+     "t": "Music in the Living Room at Blithewold",
+     "start": "2026-12-12",
+     "end": "2026-12-13",
+     "when": "Sat, Dec 12 and Sun, Dec 13",
+     "time": "1–2 PM",
+     "where": "Blithewold Manor",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "Holiday music in the decorated manor: mezzo-soprano Nancy Hood on Dec 12 and jazz pianist Laszlo Gardony on Dec 13.",
+     "addr": "101 Ferry Road, Bristol",
+     "price": "Ticket includes manor and grounds admission",
+     "more": "Registration required to reserve a seat."
+    },
+    {
+     "t": "Holiday Cruises with the Dickens Carolers from Newport",
+     "start": "2026-12-13",
+     "end": "2026-12-20",
+     "when": "Sun, Dec 13 and Sun, Dec 20",
+     "time": "1:00 PM",
+     "where": "Coastal Queen, Bowen’s Wharf",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "75-minute caroling cruises on the Coastal Queen.",
+     "addr": "5 Bowen’s Wharf Landing, Newport",
+     "price": "$44 adults; $39 seniors and military; $34 children and youth"
     }
    ]
   },
@@ -936,6 +1166,18 @@
      "addr": "Parish hall, North Main St., Providence"
     },
     {
+     "t": "St. Vincent de Paul Harvest Bazaar",
+     "start": "2026-11-14",
+     "end": "2026-11-14",
+     "when": "Sat, Nov 14",
+     "time": "8:30 AM–4 PM",
+     "where": "St. Vincent de Paul Church",
+     "town": "Coventry",
+     "url": "https://dioceseofprovidence.org/",
+     "note": "Homemade crafts, baked goods, jewelry, a basket raffle, grocery bingo and roll-up tables.",
+     "addr": "6 St. Vincent de Paul St., Coventry"
+    },
+    {
      "t": "Holy Trinity Church Christmas Bazaar",
      "start": "2026-11-14",
      "end": "2026-11-14",
@@ -960,6 +1202,19 @@
      "addr": "Church hall, 2804 Atwood Ave., Johnston"
     },
     {
+     "t": "St. Cecilia Church Hall Christmas Bazaar",
+     "start": "2026-11-20",
+     "end": "2026-11-21",
+     "when": "Nov 20–21",
+     "time": "Fri 9 AM–8 PM; Sat 9 AM–2 PM",
+     "where": "St. Cecilia Church Hall",
+     "town": "Pawtucket",
+     "url": "https://www.saintjohnpaulri.com/",
+     "note": "Food, raffles, a silent auction, books, crafts, tools, plants and vendors, from St. John Paul II Parish.",
+     "addr": "755 Central Ave., Pawtucket",
+     "more": "Saturday ticket sales end at 1:30 p.m."
+    },
+    {
      "t": "The Wonder of Christmas Bazaar",
      "start": "2026-11-20",
      "end": "2026-11-21",
@@ -982,6 +1237,39 @@
      "url": "https://new.stfranciswakefield.com",
      "note": "Crafters, vendors, a silent auction, bake sale and café, for the parish.",
      "addr": "Father Greenan Center, 114 High St., Wakefield"
+    },
+    {
+     "t": "Phillips Memorial Baptist Church Holiday Bazaar",
+     "start": "2026-11-21",
+     "end": "2026-11-21",
+     "when": "Sat, Nov 21",
+     "time": "9 AM–1 PM",
+     "where": "Phillips Memorial Baptist Church",
+     "town": "Cranston",
+     "url": "https://www.phillipschurch.org/",
+     "note": "Handmade gifts, baked goods and family activities."
+    },
+    {
+     "t": "St. Martin de Porres Center Holiday Bazaar",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "9 AM–2 PM",
+     "where": "St. Martin de Porres Center",
+     "town": "Providence",
+     "url": "https://dioceseofprovidence.org/",
+     "note": "Handmade crafts, home décor, holiday items and gifts. Open to all."
+    },
+    {
+     "t": "Seniors’ Christmas Party with Bishop Lewandowski",
+     "start": "2026-12-16",
+     "end": "2026-12-16",
+     "when": "Wed, Dec 16",
+     "time": "Noon",
+     "where": "St. Martin de Porres Center",
+     "town": "Providence",
+     "url": "https://dioceseofprovidence.org/",
+     "note": "Food, fellowship and holiday cheer for seniors. All are welcome."
     }
    ]
   },
@@ -1020,6 +1308,37 @@
      "town": "Providence",
      "url": "https://www.gracechurchprovidence.org/wp-content/uploads/2026/09/Music-at-Grace-2026-27-with-organ.pdf",
      "note": "A festive Eucharist follows prelude music beginning at 9:00 PM."
+    }
+   ]
+  },
+  {
+   "label": "Hanukkah",
+   "items": [
+    {
+     "t": "Menorah Makers",
+     "start": "2026-11-29",
+     "end": "2026-11-29",
+     "when": "Sun, Nov 29",
+     "time": "2–3:30 PM",
+     "where": "Harbor Creative Arts",
+     "town": "North Kingstown",
+     "url": "https://www.jewishallianceri.org/",
+     "note": "Families make their own hanukkiah, with PJ Library and Harbor Creative Arts.",
+     "addr": "7592 Post Road, North Kingstown",
+     "price": "$18 per family, kit included; extra kits $18",
+     "more": "Register by Nov 22."
+    },
+    {
+     "t": "Jewish Alliance Hanukkah Sale Pop-Up",
+     "start": "2026-11-30",
+     "end": "2026-11-30",
+     "when": "Mon, Nov 30",
+     "time": "",
+     "where": "Jewish Alliance of Greater Rhode Island",
+     "town": "Providence",
+     "url": "https://www.jewishallianceri.org/",
+     "note": "A Hanukkah shopping pop-up.",
+     "more": "Check the Alliance calendar for place and hours."
     }
    ]
   },
