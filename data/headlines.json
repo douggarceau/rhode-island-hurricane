@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-05T07:30:00-05:00",
+ "asof": "2026-11-06T07:25:00-05:00",
  "items": [
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
@@ -7,7 +7,6 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=rhode-island-christmas-2026-schedule",
    "story": "rhode-island-christmas-2026-schedule",
-   "box": true,
    "town": "Statewide",
    "date": "2026-11-05",
    "rank": 1
@@ -33,16 +32,6 @@
    "rank": 2
   },
   {
-   "h": "Rhode Island Today and Tonight: Gatsby, Almost, Maine and Storytime",
-   "sum": "Tonight's best picks are The Great Gatsby at 7:30 p.m. at PPAC and Almost, Maine at 7:30 p.m. in West Warwick, with family options from storytime to a LEGO club.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-05",
-   "story": "today-and-tonight-2026-11-05",
-   "town": "Statewide",
-   "date": "2026-11-05",
-   "rank": 1
-  },
-  {
    "h": "Rhode Island Comic Con takes over Providence, Nov. 6–8",
    "sum": "Three days of pop culture at the Rhode Island Convention Center and Amica Mutual Pavilion.",
    "outlet": "Rhode Island Hurricane",
@@ -51,25 +40,6 @@
    "town": "Providence",
    "date": "2026-10-31",
    "rank": 2
-  },
-  {
-   "h": "The Great Gatsby Musical Roars Into PPAC, Nov. 3–8",
-   "sum": "The Tony-winning Broadway musical brings the Roaring Twenties to downtown Providence for eight performances.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=great-gatsby-ppac",
-   "story": "great-gatsby-ppac",
-   "town": "Providence",
-   "date": "2026-11-05",
-   "rank": 2
-  },
-  {
-   "h": "Newport County holiday-assistance registration is open",
-   "sum": "The MLK Community Center is accepting in-person applications for holiday food and children’s gifts; Thanksgiving registration ends November 13.",
-   "outlet": "MLK Community Center",
-   "url": "https://mlkccenter.org/holiday-help/",
-   "town": "Newport",
-   "date": "2026-10-29",
-   "rank": 3
   },
   {
    "h": "Newport Classical's holiday concerts bring choral music to December",
@@ -132,15 +102,6 @@
    "rank": 6
   },
   {
-   "h": "Big Brothers Big Sisters of Rhode Island marks 60 years",
-   "sum": "Its anniversary breakfast in Lincoln raised more than $100,000 for mentoring programs.",
-   "outlet": "The Local Insider News",
-   "url": "https://thelocalinsidernews.com/big-brothers-big-sisters-of-ri-celebrates-60-years-of-mentorship/",
-   "town": "Lincoln",
-   "date": "2026-10-29",
-   "rank": 7
-  },
-  {
    "h": "Almost, Maine Brings Northern Lights Romance to West Warwick",
    "sum": "The Arctic Playhouse stages John Cariani's comedy on evenings and Sunday afternoons through Nov. 22.",
    "outlet": "Rhode Island Hurricane",
@@ -169,6 +130,37 @@
    "town": "Bristol",
    "date": "2026-11-05",
    "rank": 5
+  },
+  {
+   "h": "The Great Gatsby Musical Roars Into PPAC, Nov. 3–8",
+   "sum": "The Tony-winning Broadway musical brings the Roaring Twenties to downtown Providence for eight performances.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=great-gatsby-ppac",
+   "story": "great-gatsby-ppac",
+   "box": true,
+   "town": "Providence",
+   "date": "2026-11-06",
+   "rank": 2
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Gatsby, Stargazing and Almost, Maine",
+   "sum": "Friday, Nov. 6: The Great Gatsby at 7:30 PM at PPAC, Stargazing Nights at Frosty Drew from 7 PM and Almost, Maine at 7:30 PM in West Warwick.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-06",
+   "story": "today-and-tonight-2026-11-06",
+   "town": "Statewide",
+   "date": "2026-11-06",
+   "rank": 1
+  },
+  {
+   "h": "Stargazing Fridays at Frosty Drew Observatory",
+   "sum": "Telescopes, the Sky Theatre and astronomers on Friday nights in Charlestown, weather permitting.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=frosty-drew-stargazing-nights-2026",
+   "story": "frosty-drew-stargazing-nights-2026",
+   "town": "Charlestown",
+   "date": "2026-11-06",
+   "rank": 4
   }
  ]
 }
