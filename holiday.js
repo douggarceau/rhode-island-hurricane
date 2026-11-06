@@ -17,7 +17,7 @@
   const RX=/holiday|christmas|santa|tree light|nutcracker|messiah|carol|new year|festival of lights/i;
   const st=(typeof STORIES!=='undefined'?STORIES:[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).filter(x=>x&&x.slug&&RX.test(x.title||'')&&(!x.until||x.until>=d)&&x.topic!=='crime').slice(0,10);
   return '<section class="box hg"><div class="hg-head"><h2>'+X(G.title)+'</h2><p>'+X(G.intro)+'</p></div>'+
-   (st.length?'<details class="hg-sec" open><summary>Holiday Stories <span>'+st.length+' stories</span></summary><div class="hg-list">'+st.map(x=>'<button type="button" class="hg-row hg-story" data-story="'+X(x.slug)+'"><div class="hg-body"><b>'+X(x.title)+'</b><p class="hg-note">'+X(x.dek||'')+'</p><span class="hg-link">Read the story ›</span></div></button>').join('')+'</div></details>':'')+
+   (st.length?'<details class="hg-sec" open><summary>Holiday Articles <span>'+st.length+' articles</span></summary><div class="hg-list">'+st.map(x=>'<button type="button" class="hg-row hg-story" data-story="'+X(x.slug)+'"><div class="hg-body"><b>'+X(x.title)+'</b><p class="hg-note">'+X(x.dek||'')+'</p><span class="hg-link">Read the article ›</span></div></button>').join('')+'</div></details>':'')+
    secs.map((s,k)=>'<details class="hg-sec"'+(k?'':' open')+'><summary>'+X(s.label)+' <span>'+s.items.length+' events</span></summary><div class="hg-list">'+s.items.map(card).join('')+'</div></details>').join('')+
    '<p class="hg-foot">Dates, times and prices come from each organizer’s listing. Check before you go.</p></section>'};
  const css=document.createElement('style');css.id='holidayCss';css.textContent=`
