@@ -1814,6 +1814,66 @@
      "more": "Confirm the Dec 31 schedule and space."
     },
     {
+     "t": "Mass at St. Gregory the Great",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "8:30 AM",
+     "where": "St. Gregory the Great, 360 Cowesett Road",
+     "town": "Warwick",
+     "url": "https://stgregorychurchri.com/aggregateStream/EVENT?numberItems=20&startItem=20&startMonth=2026-12-01",
+     "note": "Listed on the parish calendar; confirm the holiday schedule.",
+     "addr": ""
+    },
+    {
+     "t": "Lewis Family Christmas Light Show: last night",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "5:30–8:55 PM",
+     "where": "12 Shenandoah Road",
+     "town": "Warwick",
+     "url": "https://lewischristmas.com/",
+     "note": "No charge; tune to 106.9 FM for the music.",
+     "addr": ""
+    },
+    {
+     "t": "Bilingual New Year’s Eve Mass, St. Michael the Archangel",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "6 PM (2025 time)",
+     "where": "St. Michael the Archangel Church",
+     "town": "Providence",
+     "url": "https://saintmichaelprovidence.net/wp-content/uploads/2026/02/Parish-Bulletin-New-Version-12-14-2025-Final.pdf",
+     "note": "Listed in the December 2025 bulletin; confirm the 2026 time.",
+     "addr": ""
+    },
+    {
+     "t": "Social Security at Newport Playhouse",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "",
+     "where": "Newport Playhouse",
+     "town": "Newport",
+     "url": "https://playhousekitchenri.com/",
+     "note": "Comedy; showtime and price not posted. The theater says it will close on Dec. 31, 2026.",
+     "addr": ""
+    },
+    {
+     "t": "Down City Band at the Narragansett Cafe",
+     "start": "2026-12-31",
+     "end": "2026-12-31",
+     "when": "Thu, Dec 31",
+     "time": "8:30–11:59 PM",
+     "where": "Narragansett Cafe",
+     "town": "Jamestown",
+     "url": "https://narragansettcaferi.com/events/month/2027-01/",
+     "note": "Price and age limits not posted.",
+     "addr": ""
+    },
+    {
      "t": "New Year’s Day Polar Plunge",
      "start": "2027-01-01",
      "end": "2027-01-01",
@@ -1825,6 +1885,54 @@
      "note": "Hundreds of plungers run into the ocean at noon to raise money for A Wish Come True, which grants wishes to children with life-threatening illnesses.",
      "addr": "175 Memorial Blvd., Newport",
      "more": "Held every New Year’s Day; 2027 details are not posted yet. Parking is limited, so arrive early."
+    },
+    {
+     "t": "First Day Hike at Goddard Memorial State Park",
+     "start": "2027-01-01",
+     "end": "2027-01-01",
+     "when": "Fri, Jan 1",
+     "time": "10 AM–1 PM (past listing)",
+     "where": "Goddard Memorial State Park, 1095 Ives Road",
+     "town": "Warwick",
+     "url": "https://riparks.ri.gov/events/first-day-hike",
+     "note": "A 1.5-mile loop held in a prior year; the 2027 hike is not confirmed.",
+     "addr": ""
+    },
+    {
+     "t": "Frozen Clam Dip and Obsta-Plunge",
+     "start": "2027-01-01",
+     "end": "2027-01-01",
+     "when": "Fri, Jan 1",
+     "time": "11 AM–1 PM",
+     "where": "Goddard State Park Beach, 1095 Ives Road",
+     "town": "Warwick",
+     "url": "https://mentorri.org/event/frozen-clam-dip-and-obstaplunge/",
+     "note": "MENTOR Rhode Island fundraiser with an obstacle course, a plunge, or both.",
+     "addr": ""
+    },
+    {
+     "t": "Holiday Lights Spectacular on New Year’s Day",
+     "start": "2027-01-01",
+     "end": "2027-01-01",
+     "when": "Fri, Jan 1",
+     "time": "5–9:30 PM",
+     "where": "Roger Williams Park Zoo, 1000 Elmwood Ave.",
+     "town": "Providence",
+     "url": "https://www.rwpzoo.org/event/holiday-lights-spectacular/",
+     "note": "Advance online tickets $13–$15.",
+     "addr": ""
+    },
+    {
+     "t": "New Year’s Day Mass, St. Michael the Archangel",
+     "start": "2027-01-01",
+     "end": "2027-01-01",
+     "when": "Fri, Jan 1",
+     "time": "Noon (2025 time)",
+     "where": "St. Michael the Archangel Church",
+     "town": "Providence",
+     "url": "https://saintmichaelprovidence.net/wp-content/uploads/2026/02/Parish-Bulletin-New-Version-12-14-2025-Final.pdf",
+     "note": "Bilingual Mass listed in the December 2025 bulletin; confirm the 2027 time.",
+     "addr": ""
     }
    ]
   }
