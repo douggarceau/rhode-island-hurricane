@@ -567,6 +567,18 @@
      "note": "A three-hour outing with a train ride, the story, hot chocolate and Santa."
     },
     {
+     "t": "Seasonal skating at The Providence Rink",
+     "start": "2026-12-03",
+     "end": "2026-12-06",
+     "when": "Daily during the festival season",
+     "time": "",
+     "where": "The Providence Rink",
+     "town": "Providence",
+     "url": "",
+     "note": "Listed as open daily during the festival season. Check the rink calendar for hours, tickets and bumper-car sessions.",
+     "addr": ""
+    },
+    {
      "t": "Ice Theatre of New York at The Providence Rink",
      "start": "2026-12-04",
      "end": "2026-12-04",
@@ -688,6 +700,18 @@
      "addr": "450 Main St., Unit A, Warren"
     },
     {
+     "t": "Garden City Center Holiday Farmers Market",
+     "start": "2026-11-15",
+     "end": "2026-11-22",
+     "when": "Nov 15–22",
+     "time": "",
+     "where": "Garden City Center",
+     "town": "Cranston",
+     "url": "",
+     "note": "Holiday pop-up market presented with Rhode Island Night Market. Check the listing for daily hours and vendors.",
+     "addr": ""
+    },
+    {
      "t": "Holiday Sip & Shop at Mount Hope Farm",
      "start": "2026-11-19",
      "end": "2026-11-19",
@@ -785,6 +809,30 @@
      "more": "Time not listed; check before you go."
     },
     {
+     "t": "Holiday Charcuterie Skills Workshop",
+     "start": "2026-11-23",
+     "end": "2026-11-23",
+     "when": "Mon, Nov 23",
+     "time": "",
+     "where": "Blithewold Manor",
+     "town": "Bristol",
+     "url": "",
+     "note": "Seasonal workshop led by the mansion's private-events manager.",
+     "addr": ""
+    },
+    {
+     "t": "Winter Afternoon Tea at Blithewold",
+     "start": "2026-11-24",
+     "end": "2026-12-18",
+     "when": "Tue–Fri, Nov 24–Dec 18",
+     "time": "Seatings from 11 AM",
+     "where": "Blithewold Manor",
+     "town": "Bristol",
+     "url": "",
+     "note": "Check Blithewold's booking page for available dates and seats.",
+     "addr": ""
+    },
+    {
      "t": "A Rough Point Holiday: After Dark",
      "start": "2026-11-27",
      "end": "2026-12-26",
@@ -847,6 +895,18 @@
      "note": "A holiday brunch with Santa on Goat Island.",
      "addr": "1 Goat Island, Newport",
      "price": "$45 adults; $19 children under 12"
+    },
+    {
+     "t": "Newport Christmas Doorway Competition",
+     "start": "2026-12-01",
+     "end": "2026-12-31",
+     "when": "December",
+     "time": "",
+     "where": "Around Newport",
+     "town": "Newport",
+     "url": "",
+     "note": "A seasonal decorating competition. Discover Newport is inviting participation for the 2026 program.",
+     "addr": ""
     },
     {
      "t": "Westerly Holiday Stroll and Luminaria",
@@ -918,6 +978,18 @@
      "town": "Pawtucket",
      "url": "https://www.foundryshow.com/show-info",
      "note": "Artists sell handmade holiday gifts."
+    },
+    {
+     "t": "PVD Holiday Festival weekend",
+     "start": "2026-12-03",
+     "end": "2026-12-06",
+     "when": "Dec 3–6",
+     "time": "",
+     "where": "Downtown Providence",
+     "town": "Providence",
+     "url": "",
+     "note": "The weekend brings together the Downcity market, tree lighting, skating, workshops, entertainment and trolley service. Check the festival site for lineup updates.",
+     "addr": ""
     },
     {
      "t": "Mingle and Jingle Trunk Show",
