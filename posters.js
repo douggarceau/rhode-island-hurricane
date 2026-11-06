@@ -88,19 +88,19 @@ const STPAL=[['#0b1f3a','#e8b818'],['#3a0b1f','#ff8fb1'],['#0b3a2e','#7fffd4'],[
 window.artCard=function(a,s){try{
  if(s.story&&!s.ext&&typeof STORIES!=='undefined'&&STORIES.some(x=>x.slug===s.story)){const st=STORIES.find(x=>x.slug===s.story);const box=a.parentNode;box.classList.add('evp');['border','border-top','outline'].forEach(x=>box.style.setProperty(x,'0','important'));
   const mast=window.EP_MAST||{};const L=String(st.title).length;
-  a.innerHTML='<span class="ep os'+(mast.img?' os-img':'')+'" style="'+(mast.img?'--osimg:url('+mast.img+')':'')+'">'+(mast.img?'':'<span class="os-m"><i>'+H(mast.top||'')+'</i><b>'+H(mast.name||'')+'</b></span>')+'<span class="os-tag">Our story</span><span class="os-t'+(L>70?' sm':'')+'">'+H(st.title)+'</span><span class="os-go">Read the story →</span></span>';return}
+  a.innerHTML='<span class="ep os'+(mast.img?' os-img':'')+'" style="'+(mast.img?'--osimg:url('+mast.img+')':'')+'">'+(mast.img?'':'<span class="os-m"><i>'+H(mast.top||'')+'</i><b>'+H(mast.name||'')+'</b></span>')+'<span class="os-tag">Our article</span><span class="os-t'+(L>70?' sm':'')+'">'+H(st.title)+'</span><span class="os-go">Read the article →</span></span>';return}
  const t=String(s.bigText||s.name||'').trim();if(!t)return;const h=hash(t);
  const st=(typeof STORIES!=='undefined'&&s.story)?STORIES.find(x=>x.slug===s.story):null;
  const ext=!st&&s.ext;const topic=st?String(st.topic||''):'news';
  let v=ext?'press':/music/.test(topic)?'vinyl':/stage|comedy|theat/.test(topic)?'stage':/family|people|community/.test(topic)||(st&&st.theme==='halloween')?'party':'cover';
  const L=t.length,sz=L<=34?'s1':L<=56?'s2':L<=80?'s3':'s4';
- const kick=H(String(s.tag||'').replace(/^RHODE ISLAND NEWS|^FEATURED STORY/i,m=>m.toLowerCase().includes('news')?'Local news':'Featured story'));
+ const kick=H(String(s.tag||'').replace(/^RHODE ISLAND NEWS|^FEATURED STORY/i,m=>m.toLowerCase().includes('news')?'Local news':'Featured article'));
  const outlet=H(s.name||'');let b,sty='';
  if(v==='press')b='<span class="ac-mast">'+outlet+'</span><span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read it at '+outlet+' ↗</span>';
- else if(v==='vinyl'){const P=STPAL[h%STPAL.length];sty='--bg:'+P[0]+';--ac:'+P[1];b=vinyl(P[1])+'<span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the story →</span>'}
- else if(v==='stage')b='<span class="beam b1"></span>'+masks('#e8b818')+'<span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the story →</span>';
- else if(v==='party')b=confetti(h)+'<span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the story →</span>';
- else{const P=GALPAL[h%3];sty='--c1:'+P[0]+';--c2:'+P[1];b='<span class="ac-band"></span><span class="ac-dot"></span><span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the story →</span>'}
+ else if(v==='vinyl'){const P=STPAL[h%STPAL.length];sty='--bg:'+P[0]+';--ac:'+P[1];b=vinyl(P[1])+'<span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the article →</span>'}
+ else if(v==='stage')b='<span class="beam b1"></span>'+masks('#e8b818')+'<span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the article →</span>';
+ else if(v==='party')b=confetti(h)+'<span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the article →</span>';
+ else{const P=GALPAL[h%3];sty='--c1:'+P[0]+';--c2:'+P[1];b='<span class="ac-band"></span><span class="ac-dot"></span><span class="ac-k">'+kick+'</span><span class="ac-t '+sz+'">'+H(t)+'</span><span class="ac-go">Read the article →</span>'}
  const box=a.parentNode;box.classList.add('evp');['border','border-top','outline'].forEach(x=>box.style.setProperty(x,'0','important'));
  a.innerHTML='<span class="ep ac ac-'+v+'" style="'+sty+'">'+b+'</span>';
 }catch(_){}};
@@ -141,7 +141,7 @@ function details(slug){const s=(typeof STORIES!=='undefined'&&STORIES.find(x=>x.
  const near=E.filter(e=>e.date===td||e.date===tm).slice(0,8);if(!near.length)return null;
  return {head:'Also tonight & tomorrow',rows:near.map(e=>[(e.date===td?'Tonight':'Tomorrow')+(e.time?' · '+e.time:''),String(e.artists||'').split(/\s+[|@]\s+/)[0],e.venue||''])}}
 function itnHTML(slug,title){const D=details(slug);if(!D)return null;
- return '<span class="itn-in"><span class="itn-k">The details</span><span class="itn-h">'+H4(D.head)+'</span><span class="itn-st">'+H4(title)+'</span><span class="itn-rows">'+D.rows.map(r=>r[0]==='§'?'<span class="itn-sec">'+H4(r[1])+'</span>':'<span class="itn-r"><b>'+H4(r[0])+'</b><span><i>'+H4(r[1])+'</i>'+(r[2]?'<small>'+H4(r[2])+'</small>':'')+'</span></span>').join('')+'</span><span class="itn-go">Read the full story →</span></span>'}
+ return '<span class="itn-in"><span class="itn-k">The details</span><span class="itn-h">'+H4(D.head)+'</span><span class="itn-st">'+H4(title)+'</span><span class="itn-rows">'+D.rows.map(r=>r[0]==='§'?'<span class="itn-sec">'+H4(r[1])+'</span>':'<span class="itn-r"><b>'+H4(r[0])+'</b><span><i>'+H4(r[1])+'</i>'+(r[2]?'<small>'+H4(r[2])+'</small>':'')+'</span></span>').join('')+'</span><span class="itn-go">Read the full article →</span></span>'}
 function layer(box,cls){let o=box.querySelector(':scope>.'+cls);if(!o){o=document.createElement('span');o.className=cls;box.appendChild(o);
  if(cls==='bpx')o.addEventListener('click',e=>{if(!box.classList.contains('bpx-on'))return;e.preventDefault();e.stopPropagation();const u=o.dataset.href;if(u&&/^https?:/.test(u))window.open(u,'_blank','noopener');else{try{go('cal')}catch(_){location.hash='cal'}}},true)}return o}
 function turn(box,fn){box.style.transition='transform .33s ease-in';box.style.transform='perspective(1600px) rotateY(90deg)';
@@ -267,7 +267,7 @@ function pick(s){const x=((s.title||'')+' '+(s.dek||'')+' '+(s.topic||'')).toLow
 const seen=new WeakSet();const esc3=x=>String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function dress(){return;/* owner: no auto artwork in stories; only art he supplies (story img) */
  document.querySelectorAll('article.reader').forEach(a=>{if(a.querySelector(':scope>.rart'))return;let cur='';try{cur=STATE.story}catch(_){}const s=STORIES.find(x=>x.slug===cur);if(!s)return;
-  const u=pick(s);const d=document.createElement('div');d.className='rart';d.style.setProperty('--art','url('+u+')');const key=u.replace(/^.*\/|\.jpg$/g,'');const T=String(s.title).split(/:\s|\s[–—-]\s/)[0];d.innerHTML='<span class="rart-p r2"></span><span class="rart-p rp-'+key.replace(/2$/,'')+(/2$/.test(key)?' rp-alt':'')+'"><span class="rp-k">'+esc3((typeof tl==='function'?tl(s.topic):s.topic)||'Story')+'</span><span class="rp-t">'+esc3(T)+'</span></span>';d.setAttribute('aria-hidden','true');const k=a.querySelector('.kick');a.insertBefore(d,k||a.firstChild.nextSibling)});
+  const u=pick(s);const d=document.createElement('div');d.className='rart';d.style.setProperty('--art','url('+u+')');const key=u.replace(/^.*\/|\.jpg$/g,'');const T=String(s.title).split(/:\s|\s[–—-]\s/)[0];d.innerHTML='<span class="rart-p r2"></span><span class="rart-p rp-'+key.replace(/2$/,'')+(/2$/.test(key)?' rp-alt':'')+'"><span class="rp-k">'+esc3((typeof tl==='function'?tl(s.topic):s.topic)||'Article')+'</span><span class="rp-t">'+esc3(T)+'</span></span>';d.setAttribute('aria-hidden','true');const k=a.querySelector('.kick');a.insertBefore(d,k||a.firstChild.nextSibling)});
  document.querySelectorAll('.sgrid .sc[data-story],.hll a,.sea-g button[data-story]').forEach(b=>{if(seen.has(b))return;const s=STORIES.find(x=>x.slug===b.dataset.story);if(!s)return;seen.add(b);b.classList.add('has-art');b.style.setProperty('--art','url('+pick(s)+')')})}
 new MutationObserver(()=>requestAnimationFrame(dress)).observe(document.documentElement,{childList:true,subtree:true});
 })();
