@@ -4,16 +4,16 @@
  const today=()=>new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
  let G=null,asked=false;
  function load(){if(asked)return;asked=true;fetch('data/holiday.json?'+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(!j)return;G=j;if(j.through&&today()>j.through){const b=document.querySelector('#nav [data-go="holiday"]');if(b)b.remove()}if(typeof STATE!=='undefined'&&STATE.view==='holiday')render()}).catch(()=>{})}
- const card=i=>{const inner='<span class="hg-when">'+X(i.when)+(i.time?' · '+X(i.time):'')+'</span><b>'+X(i.t)+'</b><span class="hg-where">'+X(i.where)+(i.town&&i.town!==i.where?', '+X(i.town):'')+'</span>'+(i.note?'<span class="hg-note">'+X(i.note)+'</span>':'');
+ const card=i=>{const inner='<span class="hg-when">'+X(i.when)+(i.time?' · '+X(i.time):'')+'</span><b>'+X(i.t)+'</b><span class="hg-where">'+X(i.where)+(i.town&&i.town!==i.where?', '+X(i.town):'')+'</span>'+(i.note?'<span class="hg-note">'+X(i.note)+'</span>':'')+(i.more?'<span class="hg-note hg-more">'+X(i.more)+'</span>':'')+(i.addr?'<span class="hg-fact"><em>Address</em> '+X(i.addr)+'</span>':'')+(i.price?'<span class="hg-fact"><em>Cost</em> '+X(i.price)+'</span>':'');
   return i.url?'<a class="hg-card" href="'+X(i.url)+'" target="_blank" rel="noopener">'+inner+'</a>':'<div class="hg-card">'+inner+'</div>'};
  window.vHoliday=function(){load();if(!G)return '<section class="box hg"><div class="hg-head"><h2>Holiday Guide</h2><p>Loading…</p></div></section>';
   const d=today();const secs=(G.sections||[]).map(s=>({label:s.label,items:(s.items||[]).filter(i=>(i.end||i.start||'')>=d)})).filter(s=>s.items.length);
-  const RX=/holiday|christmas|santa|tree light|nutcracker|messiah|carol|new year/i;
-  const st=(typeof STORIES!=='undefined'?STORIES:[]).filter(x=>x&&x.slug&&RX.test(x.title||'')&&(!x.until||x.until>=d)&&x.topic!=='crime').slice(0,6);
+  const RX=/holiday|christmas|santa|tree light|nutcracker|messiah|carol|new year|festival of lights/i;
+  const st=(typeof STORIES!=='undefined'?STORIES:[]).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).filter(x=>x&&x.slug&&RX.test(x.title||'')&&(!x.until||x.until>=d)&&x.topic!=='crime').slice(0,10);
   return '<section class="box hg"><div class="hg-head"><h2>'+X(G.title)+'</h2><p>'+X(G.intro)+'</p></div>'+
    (st.length?'<div class="hg-sec"><h3>Holiday Stories</h3><div class="hg-grid">'+st.map(x=>'<button type="button" class="hg-card hg-story" data-story="'+X(x.slug)+'"><b>'+X(x.title)+'</b><span class="hg-note">'+X(x.dek||'')+'</span></button>').join('')+'</div></div>':'')+
    secs.map(s=>'<div class="hg-sec"><h3>'+X(s.label)+'</h3><div class="hg-grid">'+s.items.map(card).join('')+'</div></div>').join('')+
-   '<p class="hg-foot">Dates and times come from each organizer’s listing. Check before you go.</p></section>'};
+   '<p class="hg-foot">Dates, times and prices come from each organizer’s listing. Check before you go.</p></section>'};
  const css=document.createElement('style');css.id='holidayCss';css.textContent=`
 #nav>[data-go="holiday"]{order:-5!important;color:#fff!important;background:#14532d!important;border-color:#e8c15a!important}
 .hg{--hg-gold:#e8c15a;border-top-color:#b5001a!important;padding-bottom:16px}
@@ -24,6 +24,7 @@
 a.hg-card:hover,.hg-story:hover{background:#ffffff16}
 .hg-card b{font:700 16px/1.25 "Playfair Display",Georgia,serif;color:#fff}.hg-when{font:800 11px/1.3 "Libre Franklin",system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase;color:var(--hg-gold)}
 .hg-where{font:600 13px/1.3 "Libre Franklin",system-ui,sans-serif;color:#d9cfb8}.hg-note{font:400 13.5px/1.4 Georgia,serif;color:#e7dfcc}
+.hg-more{color:#d6ccb6}.hg-fact{font:600 13px/1.4 "Libre Franklin",system-ui,sans-serif;color:#efe6d2}.hg-fact em{font-style:normal;font-weight:800;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--hg-gold);margin-right:5px}
 .hg-story{border-left-color:var(--hg-gold)}.hg-foot{margin:14px 18px 0;font:italic 12px/1.4 Georgia,serif;color:#b9b09c}`;document.head.appendChild(css);
  load();
 })();

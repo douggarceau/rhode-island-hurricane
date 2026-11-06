@@ -1,22 +1,36 @@
 {
  "title": "Rhode Island Holiday Guide",
- "intro": "Our December suggestions across the state, through New Year's Day.",
- "through": "2027-01-01",
- "asof": "2026-11-04",
+ "intro": "Holiday shows, concerts, lights, Santa, markets and church bazaars across Rhode Island, from early November through New Year’s Day, with times, places and prices.",
+ "through": "2027-01-03",
+ "asof": "2026-11-06",
  "sections": [
   {
    "label": "The Big Shows",
    "items": [
     {
+     "t": "A Christmas Carol (Trinity Rep)",
+     "start": "2026-11-05",
+     "end": "2026-12-26",
+     "when": "Nov 5–Dec 31",
+     "time": "Times vary",
+     "where": "Trinity Rep, Dowling Theater",
+     "town": "Providence",
+     "url": "https://www.broadwayworld.com/article/THE-GETAWAY-DRIVER-CYRANO-More-Set-for-Trinity-Rep-2026-27-Season-20260507",
+     "note": "Trinity Rep’s 50th-anniversary production of its holiday classic.",
+     "addr": "Dowling Theater, 201 Washington St., Providence"
+    },
+    {
      "t": "'Twas the Night Before... by Cirque du Soleil",
-     "start": "2026-12-01",
+     "start": "2026-11-24",
      "end": "2026-12-06",
-     "when": "Through Dec 6",
-     "time": "",
+     "when": "Nov 24–Dec 6",
+     "time": "Several times",
      "where": "Providence Performing Arts Center",
      "town": "Providence",
      "url": "https://www.ppacri.org/news/detail/ppac-unveils-the-20262027-broadway-season",
-     "note": "Cirque du Soleil's holiday show. Check PPAC for showtimes."
+     "note": "Cirque du Soleil’s holiday family show: acrobatics, dance, characters and Christmas music.",
+     "more": "Shows: Nov 24 and 25 at 7; Nov 27 at 4 and 7:30; Nov 28 at 1, 4 and 7:30; Nov 29 at noon, 3 and 6:30; Dec 2 at 7; Dec 3 and 4 at 7:30; Dec 5 at 1, 4 and 7:30; Dec 6 at noon and 3. PPAC has a family-ticket offer.",
+     "addr": "220 Weybosset St., Providence"
     },
     {
      "t": "Sara Evans: Holiday Road Tour with Braden Hull",
@@ -28,28 +42,6 @@
      "town": "Cranston",
      "url": "https://theparkri.com/venue/the-historic-park-theatre-event-center/",
      "note": "Sara Evans brings her holiday tour to Cranston."
-    },
-    {
-     "t": "Terry Fator: A Very Terry Christmas",
-     "start": "2026-12-04",
-     "end": "2026-12-04",
-     "when": "Fri, Dec 4",
-     "time": "",
-     "where": "Stadium Theatre",
-     "town": "Woonsocket",
-     "url": "Not published / not captured",
-     "note": "The ventriloquist and comedian brings his holiday show to Woonsocket."
-    },
-    {
-     "t": "A Christmas Carol (Trinity Rep)",
-     "start": "2026-12-05",
-     "end": "2026-12-26",
-     "when": "Through Dec 31",
-     "time": "",
-     "where": "Trinity Rep, Dowling Theater",
-     "town": "Providence",
-     "url": "https://www.broadwayworld.com/article/THE-GETAWAY-DRIVER-CYRANO-More-Set-for-Trinity-Rep-2026-27-Season-20260507",
-     "note": "Check Trinity Rep for showtimes."
     },
     {
      "t": "Vienna Boys Choir: Christmas in Vienna",
@@ -71,7 +63,8 @@
      "where": "Providence Performing Arts Center",
      "town": "Providence",
      "url": "https://www.ppacri.org/events/detail/boston-pops-holiday-concert-with-keith-lockhart",
-     "note": "The Boston Pops perform seasonal favorites with a sing-along and Santa."
+     "note": "Keith Lockhart leads “Sleigh Ride,” seasonal arrangements, a sing-along and a visit from Santa. The afternoon show was added after the evening sold well.",
+     "addr": "220 Weybosset St., Providence"
     },
     {
      "t": "Irish Christmas in America",
@@ -85,7 +78,7 @@
      "note": "Irish music and dance celebrate Christmas traditions."
     },
     {
-     "t": "The Nutcracker",
+     "t": "Ballet Rhode Island’s The Nutcracker",
      "start": "2026-12-17",
      "end": "2026-12-27",
      "when": "Dec 17–27",
@@ -93,7 +86,9 @@
      "where": "The VETS",
      "town": "Providence",
      "url": "https://thevets.evenue.net/events/NT26",
-     "note": "Ballet RI presents The Nutcracker at The VETS, bringing professional company dancers together with young performers from the community."
+     "note": "Clara’s Christmas Eve story with Tchaikovsky’s score, Ballet RI dancers and local young performers. Some matinees offer a post-show “Meet the Stars.”",
+     "price": "From $36",
+     "more": "Shows: Dec 17 and 18 at 7; Dec 19 and 20 at 1 and 6:30; Dec 23 at 6:30; Dec 26 at 1 and 6:30; Dec 27 at 1."
     },
     {
      "t": "Disney On Ice: Magic in the Stars",
@@ -113,14 +108,17 @@
    "items": [
     {
      "t": "The Newport Nutcracker at Rosecliff",
-     "start": "2026-12-01",
+     "start": "2026-11-25",
      "end": "2026-12-04",
-     "when": "Through Dec 4",
-     "time": "",
+     "when": "Nov 25–Dec 4",
+     "time": "Matinee and evening",
      "where": "Rosecliff",
      "town": "Newport",
      "url": "https://newportcontemporaryballet.org/performance/newport-nutcracker-at-rosecliff-2/",
-     "note": "An immersive Nutcracker moves through Rosecliff’s rooms."
+     "note": "Newport Contemporary Ballet’s Nutcracker moves through Rosecliff’s rooms, with a Newport-themed second act.",
+     "addr": "548 Bellevue Ave., Newport",
+     "price": "From $159",
+     "more": "Opens Nov 25 at 5:30; then two shows a day Nov 27–29 and Dec 1–4. Ages 6 and up."
     },
     {
      "t": "A Christmas Carol",
@@ -177,32 +175,36 @@
      "end": "2026-12-05",
      "when": "Sat, Dec 5",
      "time": "1 PM and 3:30 PM",
-     "where": "Newport",
+     "where": "Emmanuel Church",
      "town": "Newport",
      "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
-     "note": "Holiday concert from Newport Classical's December series; the vocal program is listed at 1 and 3:30 p.m. Check the ticket page for the venue."
-    },
-    {
-     "t": "Advent Lessons and Carols",
-     "start": "2026-12-06",
-     "end": "2026-12-06",
-     "when": "Sun, Dec 6",
-     "time": "4:00 PM",
-     "where": "St. Dominic Chapel, Providence College",
-     "town": "Providence",
-     "url": "https://dioceseofprovidence.org/aggregateStream/EVENT?numberItems=20&startItem=20&startMonth=2026-12-01",
-     "note": "College choirs sing carols and choral works for Advent."
+     "note": "Beloved carols and contemporary choral works, presented by Newport Classical.",
+     "addr": "42 Dearborn St., Newport",
+     "price": "$45–$62"
     },
     {
      "t": "Messiah at the Mansion",
      "start": "2026-12-06",
      "end": "2026-12-06",
      "when": "Sun, Dec 6",
-     "time": "1 PM",
-     "where": "Newport",
+     "time": "1 PM and 3:30 PM",
+     "where": "Rosecliff",
      "town": "Newport",
      "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
-     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue."
+     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue.",
+     "addr": "548 Bellevue Ave., Newport",
+     "price": "$60–$75"
+    },
+    {
+     "t": "Advent Lessons and Carols",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "when": "Sun, Dec 6",
+     "time": "4–5:15 PM",
+     "where": "St. Dominic Chapel, Providence College",
+     "town": "Providence",
+     "url": "https://dioceseofprovidence.org/aggregateStream/EVENT?numberItems=20&startItem=20&startMonth=2026-12-01",
+     "note": "The Providence College Chorus and Liturgical Choir, followed by hot chocolate and cookies."
     },
     {
      "t": "Ocean State Pops Orchestra: Holiday Pops",
@@ -221,10 +223,23 @@
      "end": "2026-12-12",
      "when": "Sat, Dec 12",
      "time": "1 PM and 3:30 PM",
-     "where": "Newport",
+     "where": "Emmanuel Church",
      "town": "Newport",
      "url": "https://newportclassical.org/newport-classical-announces-2026-2027-chamber-series-with-twelve-concerts-starting-in-september/",
-     "note": "Holiday concert from Newport Classical's December series, performed by a mixed ensemble. Check the ticket page for the venue."
+     "note": "Music from The Nutcracker, Vivaldi’s Winter, “Carol of the Bells” and a Christmas sing-along.",
+     "addr": "42 Dearborn St., Newport",
+     "price": "$35–$55"
+    },
+    {
+     "t": "Westerly Band Holiday Concert: Tribute to America and the Holidays",
+     "start": "2026-12-13",
+     "end": "2026-12-13",
+     "when": "Sun, Dec 13",
+     "time": "2:00 PM",
+     "where": "Westerly Armory",
+     "town": "Westerly",
+     "url": "",
+     "note": "The Westerly Band’s holiday concert."
     },
     {
      "t": "Handel's Messiah",
@@ -238,15 +253,39 @@
      "note": "The Rhode Island Philharmonic and Providence Singers perform the holiday classic."
     },
     {
+     "t": "The Sounds of the Season",
+     "start": "2026-12-13",
+     "end": "2026-12-13",
+     "when": "Sun, Dec 13",
+     "time": "3:00 PM",
+     "where": "Cathedral of Saints Peter and Paul",
+     "town": "Providence",
+     "url": "",
+     "note": "The Gregorian Concert Choir and Festival Orchestra perform Advent and Christmas music. Proceeds go to the Diocese of Providence’s Keep the Heat On program.",
+     "price": "$20"
+    },
+    {
      "t": "Chorus of Westerly: Christmas Pops",
      "start": "2026-12-19",
      "end": "2026-12-20",
      "when": "Dec 19–20",
-     "time": "Several times",
+     "time": "Sat 6 PM; Sun 3 PM",
      "where": "George Kent Performance Hall",
      "town": "Westerly",
      "url": "https://www.chorusofwesterly.org/events",
-     "note": "The chorus performs holiday favorites."
+     "note": "Holiday favorites, old and new."
+    },
+    {
+     "t": "A Christmas Carol, read by Michael Langlois",
+     "start": "2026-12-20",
+     "end": "2026-12-20",
+     "when": "Sun, Dec 20",
+     "time": "6:30 PM",
+     "where": "Blithewold Manor dining room",
+     "town": "Bristol",
+     "url": "https://www.blithewold.org/",
+     "note": "A theatrical reading of Dickens’s story in the mansion’s dining room.",
+     "addr": "101 Ferry Road, Bristol"
     }
    ]
   },
@@ -262,29 +301,94 @@
      "where": "The Breakers",
      "town": "Newport",
      "url": "https://www.newportmansions.org/events/sparkling-lights-at-the-breakers-2026/",
-     "note": "An illuminated walk plus the decorated mansion. Timed ticket required."
+     "note": "A half-mile path of holiday lights at The Breakers, with a look inside the decorated mansion on the same timed ticket.",
+     "addr": "44 Ochre Point Ave., Newport",
+     "more": "Nights: Nov 21, 22, 27, 28, 29; Dec 3–6, 10–13, 18, 20–23, 26, 27. Grounds close at 8."
     },
     {
-     "t": "Sparkle! at Blithewold",
+     "t": "Christmas at Blithewold and Sparkle!",
      "start": "2026-11-24",
      "end": "2027-01-03",
-     "when": "Through Jan 3",
-     "time": "4–7 PM, Tue.–Sun.",
+     "when": "Nov 24–Jan 3",
+     "time": "Tue–Sun, 11 AM–7 PM",
      "where": "Blithewold",
      "town": "Bristol",
      "url": "https://www.blithewold.org/event/sparkle-3/",
-     "note": "Evening lights inside the manor and across the gardens. Closed Nov. 26 and Dec. 24–25."
+     "note": "The Bristol mansion decorated for Christmas, with the evening Sparkle! light display on the grounds.",
+     "addr": "101 Ferry Road, Bristol",
+     "more": "Closed Thanksgiving and Christmas."
     },
     {
      "t": "Rhode Island Lights Festival",
      "start": "2026-11-27",
      "end": "2027-01-03",
-     "when": "Through Jan 3",
+     "when": "Nov 27–Jan 3",
      "time": "5–10 PM",
      "where": "Centreville Bank Stadium",
      "town": "Pawtucket",
      "url": "https://www.rhodeislandfc.com/news/centreville-bank-stadium-to-host-first-ever-rhode-island-lights-festival/",
-     "note": "A first-time festival with displays on the field, shows in the seating bowl and visits with Santa. Closed Dec. 24 and 25."
+     "note": "Light displays, a makers village, seasonal food and drink, entertainment and Santa visits."
+    },
+    {
+     "t": "Newport Illuminated Boat Parade",
+     "start": "2026-11-27",
+     "end": "2026-11-27",
+     "when": "Fri, Nov 27",
+     "time": "6:00 PM",
+     "where": "Newport Harbor",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Decorated boats circle the harbor competing for best display.",
+     "price": "No charge",
+     "more": "Good views from Perrotti Park, Bowen’s Wharf and Bannister’s Wharf."
+    },
+    {
+     "t": "Lewis Family Christmas Light Show",
+     "start": "2026-11-27",
+     "end": "2026-12-31",
+     "when": "Nov 27–Dec 31",
+     "time": "Hours vary",
+     "where": "Lewis Family Christmas Light Show",
+     "town": "Warwick",
+     "url": "https://lewischristmas.com/",
+     "note": "Free synchronized light show you watch from your car; tune to 106.9 FM. Donations support The Autism Project.",
+     "addr": "12 Shenandoah Road, Warwick"
+    },
+    {
+     "t": "Light Up Garden City Center",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "2–6 PM",
+     "where": "Garden City Center",
+     "town": "Cranston",
+     "url": "",
+     "note": "Community activities, a project benefiting Adoption Rhode Island, samples, and Santa arriving in a vintage car around 4:30."
+    },
+    {
+     "t": "Santa Magic at Long Wharf",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "4–6 PM",
+     "where": "Shops at Long Wharf",
+     "town": "Newport",
+     "url": "",
+     "note": "Tree lighting with Santa, photos, children’s crafts, letters to Santa and music.",
+     "price": "No charge",
+     "more": "Rain date Nov 29."
+    },
+    {
+     "t": "Lighting of the Lighthouse",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "5:00 PM",
+     "where": "Newport Harbor Island Resort",
+     "town": "Newport",
+     "url": "",
+     "note": "Carolers, seasonal decorations, hot chocolate for the children and cider as the Goat Island lighthouse lights up.",
+     "addr": "1 Goat Island, Newport"
     },
     {
      "t": "Holiday Lights Spectacular",
@@ -298,18 +402,7 @@
      "note": "Explore illuminated holiday displays."
     },
     {
-     "t": "Lewis Family Christmas Light Show",
-     "start": "2026-12-01",
-     "end": "2026-12-31",
-     "when": "Through Dec 31",
-     "time": "Several times",
-     "where": "Lewis Family Christmas Light Show",
-     "town": "Warwick",
-     "url": "https://lewischristmas.com/",
-     "note": "Lights synchronize with holiday music."
-    },
-    {
-     "t": "Wickford Festival of Lights",
+     "t": "41st Wickford Festival of Lights",
      "start": "2026-12-03",
      "end": "2026-12-06",
      "when": "Dec 3–6",
@@ -317,7 +410,41 @@
      "where": "Wickford Village",
      "town": "North Kingstown",
      "url": "https://wickfordvillage.org/pages/events",
-     "note": "The 41st annual festival, with Santa arriving by boat and an Elf Parade."
+     "note": "Tree lighting at Updike Park Thursday; Santa arrives by boat at the Town Dock on selected afternoons, with carols and hayrides; Elf Parade Saturday. Some shops open until 9 p.m. Friday and Saturday."
+    },
+    {
+     "t": "Luminaria Display at Salve Regina",
+     "start": "2026-12-03",
+     "end": "2026-12-03",
+     "when": "Thu, Dec 3",
+     "time": "Evening",
+     "where": "Ochre Court, Salve Regina University",
+     "town": "Newport",
+     "url": "",
+     "note": "The campus glows with 1,000 luminarias."
+    },
+    {
+     "t": "Richmond Christmas Tree Lighting",
+     "start": "2026-12-04",
+     "end": "2026-12-04",
+     "when": "Fri, Dec 4",
+     "time": "",
+     "where": "Richmond",
+     "town": "Richmond",
+     "url": "",
+     "note": "The town’s annual tree lighting.",
+     "more": "Check the Ocean Community Chamber listing for the venue."
+    },
+    {
+     "t": "Festival of Trees",
+     "start": "2026-12-04",
+     "end": "2027-01-03",
+     "when": "Dec 4–Jan 3",
+     "time": "",
+     "where": "South Kingstown",
+     "town": "South Kingstown",
+     "url": "",
+     "note": "Decorated trees, children’s activities, caroling, music, cocoa and handmade local gifts."
     },
     {
      "t": "Bowen's Wharf Christmas Tree Lighting",
@@ -328,7 +455,8 @@
      "where": "Bowen's Wharf",
      "town": "Newport",
      "url": "https://bowenswharf.com/events/annual-tree-lighting/",
-     "note": "Santa visits and musical performances lead to the 6:00 PM tree lighting."
+     "note": "The 56th annual lighting: Santa and live music from about 12:30, local musicians and choruses through the afternoon, and the tree lighting at 6 p.m. Santa and Mrs. Claus arrive by boat, weather permitting.",
+     "price": "No charge"
     },
     {
      "t": "Pawtucket Winter Wonderland",
@@ -339,18 +467,31 @@
      "where": "Slater Park",
      "town": "Pawtucket",
      "url": "https://pawtucketri.gov/wp-content/uploads/2025/12/PAWTUCKET-2026-CALENDAR.pdf",
-     "note": "Hundreds of decorated trees, a miniature village and visits with Santa."
+     "note": "Decorated trees, a miniature village, a talking snowman, carousel and train rides, horse-drawn hayrides, Santa, face painting and children’s crafts. Opening night has the mayor’s tree lighting, with Santa arriving by fire truck."
     },
     {
      "t": "Providence Tree Lighting Ceremony",
      "start": "2026-12-05",
      "end": "2026-12-05",
      "when": "Sat, Dec 5",
-     "time": "4:00 PM",
+     "time": "4–7 PM",
      "where": "Providence City Hall",
      "town": "Providence",
      "url": "https://www.providenceri.gov/city-of-providence-searches-for-the-perfect-christmas-tree-4/",
-     "note": "Providence celebrates its holiday tree with music, refreshments, and family activities."
+     "note": "Community choirs, Santa’s parade into downtown, live bands, family activities, food trucks and an ice-skating DJ party.",
+     "addr": "25 Dorrance St., Providence"
+    },
+    {
+     "t": "Coventry Winter Wonderland and Tree Lighting",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "when": "Sun, Dec 6",
+     "time": "1:30–6:30 PM",
+     "where": "Town Hall Annex",
+     "town": "Coventry",
+     "url": "",
+     "note": "Indoor craft fair, Santa photos at no charge, horse-and-buggy rides, food trucks, a 5:30 tree lighting with a choir, and Santa arriving around 6:15.",
+     "more": "Rain date Dec 7. The organizer lists it as Saturday, Dec 6; Dec 6 is a Sunday, so confirm the day."
     },
     {
      "t": "WaterFire Holiday Basin Lighting",
@@ -391,6 +532,18 @@
      "note": "A three-hour outing with a train ride, the story, hot chocolate and Santa."
     },
     {
+     "t": "Ice Theatre of New York at The Providence Rink",
+     "start": "2026-12-04",
+     "end": "2026-12-04",
+     "when": "Fri, Dec 4",
+     "time": "7 PM and 8:15 PM",
+     "where": "The Providence Rink",
+     "town": "Providence",
+     "url": "",
+     "note": "Ice-dance performances, followed by a public skating dance party with a DJ.",
+     "price": "No charge to watch"
+    },
+    {
      "t": "Santa and Mrs. Claus Arrive by Boat",
      "start": "2026-12-05",
      "end": "2026-12-05",
@@ -400,6 +553,18 @@
      "town": "Jamestown",
      "url": "https://www.jamestownrichamber.com/eventsjtn",
      "note": "Welcome Santa and Mrs. Claus at the wharf before their fire-truck ride to the Conanicut Gift Shop."
+    },
+    {
+     "t": "Cookies, Cocoa and Claus",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "",
+     "where": "Westerly",
+     "town": "Westerly",
+     "url": "",
+     "note": "A Santa event for families.",
+     "more": "Check the organizer for location and times."
     },
     {
      "t": "Santa Cares",
@@ -444,12 +609,47 @@
      "town": "Bristol",
      "url": "https://www.blithewold.org/event/sing-along-santa-2/",
      "note": "Carol singing and a Christmas reading accompany Santa's visit."
+    },
+    {
+     "t": "Santa Meet-and-Greet Cruises",
+     "start": "2026-12-14",
+     "end": "2026-12-23",
+     "when": "Dec 14–23",
+     "time": "Several sailings",
+     "where": "Coastal Queen, Bowen’s Wharf",
+     "town": "Newport",
+     "url": "https://cruiseri.com/cruises-tours/event-cruises/",
+     "note": "About an hour on a decorated boat with Santa, hot chocolate and holiday music.",
+     "addr": "5 Bowen’s Wharf Landing, Newport",
+     "more": "Sailings: Dec 14 at 2; Dec 19 at 11; Dec 20 at 11 and 1; Dec 21, 22 and 23 at 11. Book: 401-423-9900."
+    },
+    {
+     "t": "Christmas Pageant at St. Francis Church",
+     "start": "2026-12-20",
+     "end": "2026-12-20",
+     "when": "Sun, Dec 20",
+     "time": "10:00 AM",
+     "where": "St. Francis of Assisi Church",
+     "town": "Wakefield",
+     "url": "",
+     "note": "The children’s Christmas pageant, after the 9 a.m. Mass."
     }
    ]
   },
   {
    "label": "Strolls, Markets and Town Celebrations",
    "items": [
+    {
+     "t": "Bristol Holiday Preview",
+     "start": "2026-11-20",
+     "end": "2026-11-20",
+     "when": "Fri, Nov 20",
+     "time": "Evening",
+     "where": "Downtown Bristol",
+     "town": "Bristol",
+     "url": "",
+     "note": "Shops stay open late for an early holiday-shopping night."
+    },
     {
      "t": "Holidays at the Newport Mansions",
      "start": "2026-11-21",
@@ -459,18 +659,86 @@
      "where": "The Breakers, Marble House, Chateau-sur-Mer",
      "town": "Newport",
      "url": "https://www.newportmansions.org/events/holidays-at-the-newport-mansions-2026/",
-     "note": "Nearly 30 decorated trees, including a 15-foot poinsettia tree in the Great Hall. Closed Nov. 26 and Dec. 25."
+     "note": "The Breakers, Marble House and Chateau-sur-Mer decorated with Christmas trees, wreaths, flowers and period table settings."
+    },
+    {
+     "t": "The Good Trade Makers Market",
+     "start": "2026-11-21",
+     "end": "2026-11-22",
+     "when": "Nov 21–22",
+     "time": "",
+     "where": "WaterFire Arts Center",
+     "town": "Providence",
+     "url": "",
+     "note": "A local-makers market in its sixth year; about half the businesses are from Rhode Island."
+    },
+    {
+     "t": "Rhode Island Christmas Festival",
+     "start": "2026-11-21",
+     "end": "2026-11-22",
+     "when": "Nov 21–22",
+     "time": "",
+     "where": "West Warwick Civic Center",
+     "town": "West Warwick",
+     "url": "",
+     "note": "An indoor holiday shopping festival."
+    },
+    {
+     "t": "Christkindlmarkt",
+     "start": "2026-11-28",
+     "end": "2026-11-28",
+     "when": "Sat, Nov 28",
+     "time": "Noon–5 PM",
+     "where": "German American Cultural Society",
+     "town": "Pawtucket",
+     "url": "",
+     "note": "More than 25 artisans with pottery, ornaments, soaps, jewelry, textiles, wreaths and holiday greens."
+    },
+    {
+     "t": "Fez-tival of Trees",
+     "start": "2026-11-28",
+     "end": "2026-12-31",
+     "when": "Opens Nov 28",
+     "time": "",
+     "where": "Rhodes on the Pawtuxet",
+     "town": "Cranston",
+     "url": "",
+     "note": "A holiday tree display and market.",
+     "more": "Check the venue for hours and tickets."
+    },
+    {
+     "t": "Westerly Holiday Stroll and Luminaria",
+     "start": "2026-12-02",
+     "end": "2026-12-02",
+     "when": "Wed, Dec 2",
+     "time": "5:00 PM",
+     "where": "Downtown Westerly",
+     "town": "Westerly",
+     "url": "",
+     "note": "Downtown lined with luminaria, with Santa photos."
     },
     {
      "t": "Chepachet Candlelight Shopping",
      "start": "2026-12-03",
      "end": "2026-12-17",
      "when": "Dec 3–17",
-     "time": "5:00 PM",
+     "time": "5–9 PM",
      "where": "Chepachet Village",
      "town": "Glocester",
      "url": "https://www.candlelightshopping.com/calendar.html",
-     "note": "Caroling and seasonal shopping fill the village."
+     "note": "Thursdays Dec 3, 10 and 17: village shopping, Santa photos and open-mic Christmas caroling. Dec 3 adds the tree lighting at Kent Field at 6, crafts at Manton Library and dinner at Chepachet Union Church."
+    },
+    {
+     "t": "PVD Downcity Holiday Market",
+     "start": "2026-12-03",
+     "end": "2026-12-06",
+     "when": "Dec 3–6",
+     "time": "Thu–Fri 5–9 PM; Sat noon–8; Sun noon–5",
+     "where": "Grant's Block Park",
+     "town": "Providence",
+     "url": "https://www.downtownparks.org/events/pvd-downcity-holiday-market/",
+     "note": "Local makers, food, seasonal activities and pop-up entertainment.",
+     "addr": "Grant’s Block Park and Westminster St., Providence"
     },
     {
      "t": "Foundry Artists Holiday Show",
@@ -484,17 +752,6 @@
      "note": "Artists sell handmade holiday gifts."
     },
     {
-     "t": "PVD Downcity Holiday Market",
-     "start": "2026-12-03",
-     "end": "2026-12-05",
-     "when": "Dec 3–5",
-     "time": "Several times",
-     "where": "Grant's Block Park",
-     "town": "Providence",
-     "url": "https://www.downtownparks.org/events/pvd-downcity-holiday-market/",
-     "note": "Local artisans and pop-up performers fill an outdoor holiday market."
-    },
-    {
      "t": "Illuminate PVD Holiday Stroll",
      "start": "2026-12-04",
      "end": "2026-12-04",
@@ -503,40 +760,7 @@
      "where": "Biltmore Park and Providence Rink to Grant's Block",
      "town": "Providence",
      "url": "https://www.pvdholidayfest.org/",
-     "note": "The Providence Drum Troupe leads an illuminated holiday procession."
-    },
-    {
-     "t": "Bristol Christmas Festival",
-     "start": "2026-12-05",
-     "end": "2026-12-06",
-     "when": "Dec 5–6",
-     "time": "",
-     "where": "Bristol",
-     "town": "Bristol",
-     "url": "https://www.bristolchristmas.com/s-projects-side-by-side",
-     "note": "Vendors, live entertainment and children's activities celebrate Christmas."
-    },
-    {
-     "t": "Bristol Grand Illumination",
-     "start": "2026-12-05",
-     "end": "2026-12-06",
-     "when": "Sat, Dec 5",
-     "time": "",
-     "where": "Burnside Building",
-     "town": "Bristol",
-     "url": "https://www.bristolri.gov/m/calendar/event/detail/938",
-     "note": "Rain date Dec. 6. Start time not yet posted."
-    },
-    {
-     "t": "Christmas on the Hill",
-     "start": "2026-12-05",
-     "end": "2026-12-05",
-     "when": "Sat, Dec 5",
-     "time": "2:00 PM",
-     "where": "Atwells Avenue, Federal Hill",
-     "town": "Providence",
-     "url": "https://federalhillprov.com/festivals/christmas-on-the-hill/",
-     "note": "Live music, dance and festive lighting animate Federal Hill."
+     "note": "A lighted procession led by the Providence Drum Troupe and pop-up performers, heading to the Downcity Holiday Market."
     },
     {
      "t": "Jamestown Village Holiday Stroll",
@@ -550,6 +774,74 @@
      "note": "Village shops and craft fairs celebrate the season, with Santa arriving by boat at 1 PM."
     },
     {
+     "t": "Christmas on the Hill",
+     "start": "2026-12-05",
+     "end": "2026-12-05",
+     "when": "Sat, Dec 5",
+     "time": "2:00 PM",
+     "where": "Atwells Avenue, Federal Hill",
+     "town": "Providence",
+     "url": "https://federalhillprov.com/festivals/christmas-on-the-hill/",
+     "note": "Live music, dance and festive lighting animate Federal Hill."
+    },
+    {
+     "t": "Bristol Christmas Festival and European Market",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "when": "Dec 5–6",
+     "time": "",
+     "where": "Bristol",
+     "town": "Bristol",
+     "url": "https://www.bristolchristmas.com/s-projects-side-by-side",
+     "note": "Vendor huts, holiday food, crafts, stage and street entertainment, Santa, wreath decorating and children’s crafts."
+    },
+    {
+     "t": "Bristol Grand Illumination",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "when": "Sat, Dec 5",
+     "time": "",
+     "where": "Burnside Building",
+     "town": "Bristol",
+     "url": "https://www.bristolri.gov/m/calendar/event/detail/938",
+     "note": "Town tree lighting at the Burnside Building, Hope and Court streets, with local school performers.",
+     "more": "Rain date Dec 6."
+    },
+    {
+     "t": "The Intentional Celebration: Holiday Edition",
+     "start": "2026-12-05",
+     "end": "2026-12-06",
+     "when": "Dec 5–6",
+     "time": "",
+     "where": "WaterFire Arts Center",
+     "town": "Providence",
+     "url": "",
+     "note": "Indoor market with local makers, food trucks, music, children’s activities and Santa."
+    },
+    {
+     "t": "Christmas at Whitehall",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "when": "Sun, Dec 6",
+     "time": "1–3 PM",
+     "where": "Whitehall Museum House",
+     "town": "Middletown",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "Colonial decorations, live music, traditional wassail and treats from the Colonial Dames.",
+     "addr": "311 Berkeley Ave., Middletown"
+    },
+    {
+     "t": "Glen Manor Christmas Open House",
+     "start": "2026-12-06",
+     "end": "2026-12-06",
+     "when": "Sun, Dec 6",
+     "time": "1:30–4 PM",
+     "where": "Glen Manor House",
+     "town": "Portsmouth",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "The manor opens to the public in its holiday decorations."
+    },
+    {
      "t": "Glocester Christmas Parade",
      "start": "2026-12-11",
      "end": "2026-12-11",
@@ -558,7 +850,114 @@
      "where": "West Glocester Fire Station to Ponaganset High School",
      "town": "Glocester",
      "url": "https://www.candlelightshopping.com/calendar.html",
-     "note": "A Christmas parade travels through Chepachet Village."
+     "note": "Runs east on Route 44 through Chepachet, then Sawmill Road and Snake Hill Road to Ponaganset High School."
+    },
+    {
+     "t": "Christmas Open House at the Irish Museum",
+     "start": "2026-12-12",
+     "end": "2026-12-12",
+     "when": "Sat, Dec 12",
+     "time": "Noon–4:30 PM",
+     "where": "Museum of Newport Irish History",
+     "town": "Newport",
+     "url": "https://www.discovernewport.org/blog/post/christmas-in-newport/",
+     "note": "The museum’s 10th annual open house, with eggnog and cookies.",
+     "addr": "648 Thames St., Newport"
+    }
+   ]
+  },
+  {
+   "label": "Church Bazaars",
+   "items": [
+    {
+     "t": "St. Anthony Church Holiday Bazaar",
+     "start": "2026-11-07",
+     "end": "2026-11-08",
+     "when": "Nov 7–8",
+     "time": "Sat 8–3; Sun 8–2",
+     "where": "St. Anthony Church",
+     "town": "North Providence",
+     "url": "",
+     "note": "The 35th annual bazaar, for the Religious Education Program. Sunday parish breakfast 8–11:45; Santa visits 9:30–12:30."
+    },
+    {
+     "t": "St. Thomas Church Christmas Bazaar",
+     "start": "2026-11-07",
+     "end": "2026-11-07",
+     "when": "Sat, Nov 7",
+     "time": "9 AM–6 PM",
+     "where": "St. Thomas Church",
+     "town": "Providence",
+     "url": "",
+     "note": "Crafts, baked goods, raffles, games and food, including the pastor’s pierogis."
+    },
+    {
+     "t": "Greek Food Fair and Christmas Bazaar",
+     "start": "2026-11-07",
+     "end": "2026-11-08",
+     "when": "Nov 7–8",
+     "time": "",
+     "where": "Church of the Annunciation",
+     "town": "Cranston",
+     "url": "https://preservation.ri.gov/events/greek-food-fair-christmas-bazaar-2024",
+     "note": "Greek food and pastries, coffee, crafts, raffles and a white elephant sale, for the Philoptochos Society’s charity work.",
+     "addr": "175 Oaklawn Ave., Cranston"
+    },
+    {
+     "t": "St. Raymond’s Church Christmas Bazaar",
+     "start": "2026-11-07",
+     "end": "2026-11-08",
+     "when": "Nov 7–8",
+     "time": "",
+     "where": "St. Raymond’s Church Hall",
+     "town": "Providence",
+     "url": "",
+     "note": "Hot food, baked goods, raffles, a penny social, crafts, knitted goods, wreaths, greenery and a boutique.",
+     "price": "No charge to enter"
+    },
+    {
+     "t": "Holy Trinity Church Christmas Bazaar",
+     "start": "2026-11-14",
+     "end": "2026-11-14",
+     "when": "Sat, Nov 14",
+     "time": "9 AM–4 PM",
+     "where": "Holy Trinity Church",
+     "town": "Woonsocket",
+     "url": "",
+     "note": "Handmade crafts, baked goods, children’s crafts, photos with Santa, raffles, a penny social and a lunch kitchen."
+    },
+    {
+     "t": "St. Robert Bellarmine Holiday Bazaar",
+     "start": "2026-11-14",
+     "end": "2026-11-14",
+     "when": "Sat, Nov 14",
+     "time": "",
+     "where": "St. Robert Bellarmine Church",
+     "town": "Johnston",
+     "url": "",
+     "note": "Vendor tables, food, raffles and a silent auction, for the parish food shelf and outreach."
+    },
+    {
+     "t": "The Wonder of Christmas Bazaar",
+     "start": "2026-11-20",
+     "end": "2026-11-21",
+     "when": "Nov 20–21",
+     "time": "Fri noon–7; Sat 9–6",
+     "where": "St. Theresa Church Hall",
+     "town": "Burrillville",
+     "url": "",
+     "note": "Bingo, raffles, food, a penny social and caroling by Missy Ducharme Friday from 5 to 6:30."
+    },
+    {
+     "t": "St. Francis of Assisi Holiday Bazaar",
+     "start": "2026-11-21",
+     "end": "2026-11-21",
+     "when": "Sat, Nov 21",
+     "time": "9 AM–2 PM",
+     "where": "St. Francis of Assisi Church",
+     "town": "Wakefield",
+     "url": "",
+     "note": "Crafters, vendors, a silent auction, bake sale and café, for the parish."
     }
    ]
   },
@@ -577,17 +976,6 @@
      "note": "Trinity Church and its Choir School sing the traditional service of lessons and carols."
     },
     {
-     "t": "Christmas Eve Choral Eucharist with String Quartet",
-     "start": "2026-12-24",
-     "end": "2026-12-24",
-     "when": "Thu, Dec 24",
-     "time": "10:00 PM",
-     "where": "Grace Episcopal Church",
-     "town": "Providence",
-     "url": "https://www.gracechurchprovidence.org/wp-content/uploads/2026/09/Music-at-Grace-2026-27-with-organ.pdf",
-     "note": "A festive Eucharist follows prelude music beginning at 9:00 PM."
-    },
-    {
      "t": "Christmas Lessons and Carols with Choral Holy Eucharist",
      "start": "2026-12-24",
      "end": "2026-12-24",
@@ -597,6 +985,17 @@
      "town": "Providence",
      "url": "https://www.gracechurchprovidence.org/wp-content/uploads/2026/09/Music-at-Grace-2026-27-with-organ.pdf",
      "note": "The church’s choirs lead this seasonal liturgy."
+    },
+    {
+     "t": "Christmas Eve Choral Eucharist with String Quartet",
+     "start": "2026-12-24",
+     "end": "2026-12-24",
+     "when": "Thu, Dec 24",
+     "time": "10:00 PM",
+     "where": "Grace Episcopal Church",
+     "town": "Providence",
+     "url": "https://www.gracechurchprovidence.org/wp-content/uploads/2026/09/Music-at-Grace-2026-27-with-organ.pdf",
+     "note": "A festive Eucharist follows prelude music beginning at 9:00 PM."
     }
    ]
   },
