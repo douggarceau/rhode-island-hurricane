@@ -1,6 +1,17 @@
 {
- "asof": "2026-11-06T07:25:00-05:00",
+ "asof": "2026-11-07T07:35:00-05:00",
  "items": [
+  {
+   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
+   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
+   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
+   "lead": true,
+   "town": "Providence",
+   "date": "2026-11-07",
+   "rank": 1
+  },
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
    "sum": "Dates, times and prices for Trinity Rep, Cirque du Soleil, the Boston Pops, The Nutcracker, the Newport mansions, tree lightings and light displays statewide.",
@@ -9,6 +20,16 @@
    "story": "rhode-island-christmas-2026-schedule",
    "town": "Statewide",
    "date": "2026-11-05",
+   "rank": 1
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Gatsby, WaterFire and Almost, Maine",
+   "sum": "Saturday, Nov. 7: The Great Gatsby at 7:30 p.m. at PPAC in Providence, WaterFire's Salute to Veterans from 4:32 p.m. and Almost, Maine at 7:30 p.m. in West Warwick.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-07",
+   "story": "today-and-tonight-2026-11-07",
+   "town": "Statewide",
+   "date": "2026-11-07",
    "rank": 1
   },
   {
@@ -32,13 +53,33 @@
    "rank": 2
   },
   {
-   "h": "Rhode Island Comic Con takes over Providence, Nov. 6–8",
-   "sum": "Three days of pop culture at the Rhode Island Convention Center and Amica Mutual Pavilion.",
+   "h": "The Great Gatsby Musical Roars Into PPAC, Nov. 3–8",
+   "sum": "The Tony-winning Broadway musical brings the Roaring Twenties to downtown Providence for eight performances.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=great-gatsby-ppac",
+   "story": "great-gatsby-ppac",
+   "town": "Providence",
+   "date": "2026-11-06",
+   "rank": 2
+  },
+  {
+   "h": "Rhode Island Comic Con Takes Over Providence, Nov. 6–8",
+   "sum": "Friday through Sunday at the Rhode Island Convention Center and Amica Mutual Pavilion, with the Sunday session starting at 10 a.m.",
    "outlet": "Rhode Island Hurricane",
    "url": "?story=rhode-island-comic-con-2026-amica-weekend",
    "story": "rhode-island-comic-con-2026-amica-weekend",
+   "box": true,
    "town": "Providence",
-   "date": "2026-10-31",
+   "date": "2026-11-07",
+   "rank": 2
+  },
+  {
+   "h": "Dave Matthews Band plays Amica Mutual Pavilion on Nov. 9",
+   "sum": "The 7:30 p.m. show is part of a tour that focuses on composting, recycling and donation.",
+   "outlet": "Rhode Island Monthly",
+   "url": "https://www.rimonthly.com/?p=279119",
+   "town": "Providence",
+   "date": "2026-11-02",
    "rank": 2
   },
   {
@@ -62,16 +103,6 @@
    "rank": 3
   },
   {
-   "h": "Ballet RI's In Motion Comes to Westerly's United Theatre, Nov. 6",
-   "sum": "Friday, November 6 at 7:30 p.m. at the United Theatre in Westerly, with three works including a company premiere.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=ballet-ri-in-motion-westerly-2026",
-   "story": "ballet-ri-in-motion-westerly-2026",
-   "town": "Westerly",
-   "date": "2026-11-04",
-   "rank": 3
-  },
-  {
    "h": "Providence Singers Sing American Voices in Warren and Providence",
    "sum": "Choral concerts Nov. 21 in Warren and Nov. 22 in Providence, with Copland, folk songs and a bluegrass Mass.",
    "outlet": "Rhode Island Hurricane",
@@ -79,6 +110,26 @@
    "story": "providence-singers-american-voices-2026",
    "town": "Warren",
    "date": "2026-11-05",
+   "rank": 3
+  },
+  {
+   "h": "Sheila Isham: Between Worlds at the Newport Art Museum Through Jan. 4",
+   "sum": "Open Monday and Wednesday through Sunday, 11 a.m. to 4 p.m., at the Newport Art Museum, 76 Bellevue Avenue, Newport, with the exhibition running through Jan. 4, 2027.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=sheila-isham-between-worlds-newport-art-museum-2026",
+   "story": "sheila-isham-between-worlds-newport-art-museum-2026",
+   "town": "Newport",
+   "date": "2026-11-07",
+   "rank": 3
+  },
+  {
+   "h": "Environmental Currents: Art and Ocean Science at URI's Studio Blue",
+   "sum": "Open Monday through Friday, 9 a.m. to 5 p.m., at Studio Blue on URI's Narragansett Bay Campus in Narragansett, through Nov. 18, with no charge admission.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=environmental-currents-studio-blue-uri-2026",
+   "story": "environmental-currents-studio-blue-uri-2026",
+   "town": "Narragansett",
+   "date": "2026-11-07",
    "rank": 3
   },
   {
@@ -92,14 +143,24 @@
    "rank": 4
   },
   {
-   "h": "Providence Winter Farmers Market Opens Its Season Saturday",
-   "sum": "Local farm and food vendors open the winter market at 10 Sims Avenue on Saturday, Nov. 7.",
+   "h": "Stargazing Fridays at Frosty Drew Observatory",
+   "sum": "Telescopes, the Sky Theatre and astronomers on Friday nights in Charlestown, weather permitting.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=providence-winter-farmers-market-opening-2026",
-   "story": "providence-winter-farmers-market-opening-2026",
-   "town": "Providence",
-   "date": "2026-11-05",
-   "rank": 6
+   "url": "?story=frosty-drew-stargazing-nights-2026",
+   "story": "frosty-drew-stargazing-nights-2026",
+   "town": "Charlestown",
+   "date": "2026-11-06",
+   "rank": 4
+  },
+  {
+   "h": "Armenian Fest Returns to Rhodes on the Pawtuxet in Cranston",
+   "sum": "Saturday, Nov. 14, noon to 8 p.m., and Sunday, Nov. 15, noon to 7 p.m., at Sts. Vartanantz Armenian Apostolic Church's Rhodes on the Pawtuxet, 60 Rhodes Place, Cranston.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=armenian-fest-cranston-2026",
+   "story": "armenian-fest-cranston-2026",
+   "town": "Cranston",
+   "date": "2026-11-07",
+   "rank": 4
   },
   {
    "h": "Almost, Maine Brings Northern Lights Romance to West Warwick",
@@ -132,35 +193,71 @@
    "rank": 5
   },
   {
-   "h": "The Great Gatsby Musical Roars Into PPAC, Nov. 3–8",
-   "sum": "The Tony-winning Broadway musical brings the Roaring Twenties to downtown Providence for eight performances.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=great-gatsby-ppac",
-   "story": "great-gatsby-ppac",
-   "box": true,
+   "h": "RISD's Photography Department Triennial is on view in Providence",
+   "sum": "Work from the department is at Woods-Gerry Gallery through Nov. 15, after a Nov. 5 reception.",
+   "outlet": "RISD",
+   "url": "https://involved.risd.edu/event/12602311",
    "town": "Providence",
-   "date": "2026-11-06",
-   "rank": 2
+   "date": "2026-11-05",
+   "rank": 5
   },
   {
-   "h": "Rhode Island Today and Tonight: Gatsby, Stargazing and Almost, Maine",
-   "sum": "Friday, Nov. 6: The Great Gatsby at 7:30 PM at PPAC, Stargazing Nights at Frosty Drew from 7 PM and Almost, Maine at 7:30 PM in West Warwick.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-06",
-   "story": "today-and-tonight-2026-11-06",
-   "town": "Statewide",
-   "date": "2026-11-06",
-   "rank": 1
+   "h": "RISD's Illustration faculty show opens at the ISB Gallery",
+   "sum": "Work by Illustration faculty is on view Nov. 6 through Dec. 4 at One Washington Place.",
+   "outlet": "RISD",
+   "url": "https://involved.risd.edu/event/12955718",
+   "town": "Providence",
+   "date": "2026-11-05",
+   "rank": 5
   },
   {
-   "h": "Stargazing Fridays at Frosty Drew Observatory",
-   "sum": "Telescopes, the Sky Theatre and astronomers on Friday nights in Charlestown, weather permitting.",
+   "h": "Providence Winter Farmers Market Opens Its Season Saturday",
+   "sum": "Local farm and food vendors open the winter market at 10 Sims Avenue on Saturday, Nov. 7.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=frosty-drew-stargazing-nights-2026",
-   "story": "frosty-drew-stargazing-nights-2026",
-   "town": "Charlestown",
-   "date": "2026-11-06",
-   "rank": 4
+   "url": "?story=providence-winter-farmers-market-opening-2026",
+   "story": "providence-winter-farmers-market-opening-2026",
+   "town": "Providence",
+   "date": "2026-11-05",
+   "rank": 6
+  },
+  {
+   "h": "Joe Parillo and the New Ensemble Bring Lily Pads Jazz to Peace Dale",
+   "sum": "Sunday, Nov. 15, doors at 3 p.m. and the show from 3:30 to 5:30 p.m., at the Unitarian Universalist Congregation of South County in Peace Dale.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=lily-pads-jazz-joe-parillo-peace-dale-2026",
+   "story": "lily-pads-jazz-joe-parillo-peace-dale-2026",
+   "town": "South Kingstown",
+   "date": "2026-11-07",
+   "rank": 6
+  },
+  {
+   "h": "Newport Restaurant Week runs Nov. 6–15 with fixed-price menus",
+   "sum": "Participating Newport restaurants offer special lunch and dinner menus through Nov. 15.",
+   "outlet": "Rhode Island Monthly",
+   "url": "https://www.rimonthly.com/?p=279119",
+   "town": "Newport",
+   "date": "2026-11-02",
+   "rank": 6
+  },
+  {
+   "h": "Happy Mail: Jamestown Library Makes Thank-You Postcards on Nov. 14",
+   "sum": "Saturday, Nov. 14, 10 a.m. to 1 p.m. in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=jamestown-library-happy-mail-postcards-2026",
+   "story": "jamestown-library-happy-mail-postcards-2026",
+   "town": "Jamestown",
+   "date": "2026-11-07",
+   "rank": 8
+  },
+  {
+   "h": "Rusty Pens: A Weekly Writing Workshop for Jamestown Beginners",
+   "sum": "Mondays from Nov. 9 through Feb. 22, 10:30 to 11:30 a.m., in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=rusty-pens-writing-workshop-jamestown-2026",
+   "story": "rusty-pens-writing-workshop-jamestown-2026",
+   "town": "Jamestown",
+   "date": "2026-11-07",
+   "rank": 10
   }
  ]
 }
