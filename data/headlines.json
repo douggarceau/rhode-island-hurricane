@@ -258,6 +258,46 @@
    "town": "Jamestown",
    "date": "2026-11-07",
    "rank": 10
+  },
+  {
+   "h": "An Evening on Abstract Art in Newport",
+   "sum": "A guided Nov. 18 program at the Newport Art Museum pairs Sheila Isham's exhibition with close-looking exercises.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=experiencing-the-abstract-newport-art-museum-evening",
+   "story": "experiencing-the-abstract-newport-art-museum-evening",
+   "town": "Newport",
+   "date": "2026-11-07",
+   "rank": 5
+  },
+  {
+   "h": "Round Panels Open at Jamestown Arts Center",
+   "sum": "Molly Kugler Dickinson's Of Longing and Loss opens with a Nov. 20 reception and runs through Jan. 9.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=jamestown-arts-center-molly-kugler-dickinson-longing-loss",
+   "story": "jamestown-arts-center-molly-kugler-dickinson-longing-loss",
+   "town": "Jamestown",
+   "date": "2026-11-07",
+   "rank": 5
+  },
+  {
+   "h": "Young Performers Take the Mic in Westerly",
+   "sum": "Youth On the Mic brings student singers and musicians to The Knick Music Lab on Sunday, Nov. 22, with no charge for admission.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=youth-on-the-mic-westerly-knick-sunday",
+   "story": "youth-on-the-mic-westerly-knick-sunday",
+   "town": "Westerly",
+   "date": "2026-11-07",
+   "rank": 5
+  },
+  {
+   "h": "RISD Museum Traces 150 Years of Collecting",
+   "sum": "In the Making opens Nov. 21 and shows how the museum's works arrived, on view through Aug. 1, 2027.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=risd-museum-in-the-making-150-years",
+   "story": "risd-museum-in-the-making-150-years",
+   "town": "Providence",
+   "date": "2026-11-07",
+   "rank": 5
   }
  ]
 }
