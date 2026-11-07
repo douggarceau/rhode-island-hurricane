@@ -11,9 +11,18 @@ const SEC=new Proxy(SEC0,{get:(o,k)=>k==='news'?'Local & State News':o[k]});
 const css=`
 #paper{position:fixed;inset:0;z-index:9999;background:#2b2b2b;overflow:auto;-webkit-overflow-scrolling:touch}
 #paper .pp-bar{position:sticky;top:0;z-index:3;display:flex;gap:8px;align-items:center;justify-content:center;padding:8px;background:#111;border-bottom:1px solid #444;font:700 14px/1 Georgia,serif;color:#eee}
-#paper .pp-bar button{all:unset;cursor:pointer;padding:9px 14px;border:1px solid #777;border-radius:4px;color:#fff;background:#222;font:700 14px/1 Georgia,serif}
+#paper .pp-bar button{all:unset;cursor:pointer;white-space:nowrap;padding:9px 14px;border:1px solid #777;border-radius:4px;color:#fff;background:#222;font:700 14px/1 Georgia,serif}
 #paper .pp-bar button:hover{background:#444}#paper .pp-bar .pp-x{margin-left:auto}#paper .pp-bar .pp-pg{min-width:150px;text-align:center}
-#paper .sheet *{box-sizing:border-box}#paper .sheet{max-width:1180px;margin:18px auto 40px;background:#f6f4ee;color:#111;padding:22px 30px 34px;box-shadow:0 10px 40px #000a;font-family:Georgia,"Times New Roman",serif}
+#paper .pp-wrap{display:grid;grid-template-columns:210px minmax(0,1180px);gap:18px;justify-content:center;align-items:start;padding:18px 12px 40px}
+#paper .pp-side{position:sticky;top:64px;background:#f6f4ee;color:#111;padding:14px 14px 16px;box-shadow:0 10px 30px #0009;font-family:Georgia,serif}
+#paper .pp-side h4{margin:0 0 8px;padding-bottom:6px;border-bottom:3px double #111;font:900 20px/1.1 "Playfair Display",Georgia,serif}
+#paper .pp-side button{all:unset;box-sizing:border-box;cursor:pointer;display:flex;justify-content:space-between;gap:8px;width:100%;padding:9px 4px;border-bottom:1px solid #bbb;font:700 16px/1.25 Georgia,serif;color:#b0001a;text-decoration:underline;text-underline-offset:2px}
+#paper .pp-side button span{color:#111;text-decoration:none;font:700 13px/1.25 "Libre Franklin",Arial,sans-serif;white-space:nowrap}
+#paper .pp-side button.on{background:#111;color:#fff;text-decoration:none;padding-left:8px;padding-right:8px}#paper .pp-side button.on span{color:#fff}
+#paper .pp-side small{display:block;margin-top:10px;font:400 12.5px/1.4 Georgia,serif;color:#444}
+#paper .pp-bar i{font-style:normal}#paper .pp-bar .sm{display:none}@media(max-width:700px){#paper .pp-bar{gap:6px;padding:6px}#paper .pp-bar button{padding:10px 10px;font-size:14px}#paper .pp-bar .lg{display:none}#paper .pp-bar .sm{display:inline}#paper .pp-bar .pp-pg{display:none}#paper .pp-bar .pp-x{margin-left:0}}
+#paper .pp-bar .pp-home{background:#b0001a;border-color:#ff4d5e;font-size:16px;padding:11px 18px}#paper .pp-bar .pp-home:hover{background:#d4001f}
+#paper .sheet *{box-sizing:border-box}#paper .sheet{max-width:1180px;margin:0;background:#f6f4ee;color:#111;padding:22px 30px 34px;box-shadow:0 10px 40px #000a;font-family:Georgia,"Times New Roman",serif}
 #paper .ear{display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
 #paper .ear .ppbox{flex:0 0 190px;border:1px solid #111;padding:7px 9px;font:400 12.5px/1.35 Georgia,serif}
 #paper .ear .ppbox b{display:block;font:800 10.5px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;margin-bottom:3px}
@@ -56,10 +65,18 @@ const css=`
 #paper .agate p{margin:0 0 4px;break-inside:avoid}#paper .agate p b{font-weight:700}
 #paper .ft{margin-top:20px;padding-top:6px;border-top:1px solid #111;display:flex;justify-content:space-between;font:700 11px/1.2 "Libre Franklin",Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase}
 #paper .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px}#paper .grid2>div:first-child{border-right:1px solid #999;padding-right:22px}
+@media(max-width:980px){#paper .pp-wrap{grid-template-columns:minmax(0,1fr);padding:0}#paper .pp-side{position:static;box-shadow:none;border-bottom:3px double #111}#paper .pp-side .pp-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:14px}}
 @media(max-width:820px){#paper .sheet{padding:14px 14px 24px;margin:0}#paper .ear .ppbox{display:none}#paper .fp,#paper .fold,#paper .grid2{grid-template-columns:minmax(0,1fr)}#paper .pplead,#paper .rail,#paper .fold>div,#paper .grid2>div:first-child{grid-column:auto;border-right:0;padding-right:0}#paper .c2,#paper .c3{column-count:1}#paper .agate{column-count:2}#paper .rail{margin-top:16px;padding-top:12px;border-top:3px double #111}#paper .fold>div{margin-bottom:14px;padding-bottom:12px;border-bottom:1px solid #999}#paper .pp-bar .pp-pg{min-width:0}}
 @media(max-width:460px){#paper .agate{column-count:1}}
-@media print{body>*:not(#paper){display:none!important}#paper{position:static;background:#fff}#paper .pp-bar{display:none}#paper .sheet{box-shadow:none;margin:0;max-width:none}}`;
-let pages=[],cur=0,EV=null;
+#paper .pp-printall{display:none}
+@media print{@page{size:letter;margin:0}html,body{background:#fff!important;overflow:visible!important}body>*:not(#paper){display:none!important}#paper{position:static!important;background:#fff!important;overflow:visible!important}#paper .pp-printall,#paper .pp-printall .sheet{background:#fff!important}#paper .pp-bar,#paper .pp-wrap{display:none!important}#paper .pp-printall{display:block}#paper .pp-printall .sheet{box-shadow:none;margin:0;max-width:none;padding:0.4in!important;min-height:11in;break-after:page;page-break-after:always}#paper .pp-printall .sheet:last-child{break-after:auto;page-break-after:auto}#paper .pp-printall .jump{display:none}#paper a.jl,#paper button.jl{color:#111}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+html::before,html::after,body::before,body::after{display:none!important;content:none!important}
+#paper .pp-printall .sheet{font-size:12px}#paper .pp-printall .fp{grid-template-columns:repeat(6,minmax(0,1fr))!important}#paper .pp-printall .pplead{grid-column:1/5!important;border-right:1px solid #999!important;padding-right:16px!important}#paper .pp-printall .rail{grid-column:5/7!important;margin-top:0!important;padding-top:0!important;border-top:0!important}
+#paper .pp-printall .fold{grid-template-columns:repeat(3,minmax(0,1fr))!important}#paper .pp-printall .fold>div{border-right:1px solid #999!important;padding-right:16px!important;margin-bottom:0!important;border-bottom:0!important}#paper .pp-printall .fold>div:last-child{border-right:0!important}#paper .pp-printall .fold.one{grid-template-columns:minmax(0,1fr)!important}#paper .pp-printall .fold.one>div{border-right:0!important;padding-right:0!important}
+#paper .pp-printall .c3{column-count:3!important}#paper .pp-printall .c2{column-count:2!important}#paper .pp-printall .agate{column-count:4!important;font-size:10.5px}#paper .pp-printall .ear .ppbox{display:block!important}
+#paper .pp-printall .txt{font-size:11.5px;line-height:1.42}#paper .pp-printall h2.hd{font-size:30px}#paper .pp-printall .dk{font-size:14px}#paper .pp-printall .brief p{font-size:11.5px}
+#paper .pp-printall figure,#paper .pp-printall table,#paper .pp-printall .brief,#paper .pp-printall h2,#paper .pp-printall h3{break-inside:avoid}}`;
+let pages=[],cur=0,EV=null,depth=0;
 const stories=()=>{const k=TD();return (typeof STORIES!=='undefined'?STORIES:[]).filter(s=>s&&s.slug&&s.title&&s.body&&!(s.until&&s.until<k)&&!(s.date&&s.date>k)).slice().sort((a,b)=>(b.date||'').localeCompare(a.date||''))};
 const para=(b,dc)=>{const o=[];let first=true;for(const p of b){if(typeof p!=='string'||p.startsWith('@go ')||p.startsWith('= '))continue;
  if(p.startsWith('## ')){o.push('<h5>'+H(p.slice(3))+'</h5>');continue}
@@ -84,7 +101,7 @@ function build(){
  let A1=top(d)+'<div class="fp"><div class="pplead">';
  if(lead)A1+=`<div class="kk">${H(SEC[lead.topic]||'Local')}</div><h2 class="hd">${H(lead.title)}</h2>${lead.dek?'<p class="dk">'+H(lead.dek)+'</p>':''}${by(lead)}${ph(lead)}<div class="txt c3">${teaser(lead,1400).map((p,i)=>'<p'+(i?'':' class="dc"')+'>'+H(p)+'</p>').join('')}</div>${jl(lead)}`;
  A1+='</div><div class="rail"><div class="idx"><b>Inside today</b>'+[['Front page news','A2'],['Arts & Entertainment','B1'],['Event listings','C1'],['Holiday Guide','D1']].map(([a,b])=>`<div data-pp="${b}"><span>${H(a)}</span><span>${b}</span></div>`).join('')+'</div><div class="kk">In brief</div>'+briefs.map(s=>`<div class="brief"><h4 class="hd">${H(s.title)}</h4><p>${H(s.dek||'')} <button class="jl" data-story="${H(s.slug)}">Read more ›</button></p></div>`).join('')+'</div></div>';
- if(second)A1+=`<div class="fold" style="grid-template-columns:minmax(0,1fr)"><div><div class="kk">${H(SEC[second.topic]||'Local')}</div><h2 class="hd" style="font-size:36px">${H(second.title)}</h2>${second.dek?'<p class="dk">'+H(second.dek)+'</p>':''}${by(second)}<div class="txt c3">${teaser(second,900).map((p,i)=>'<p'+(i?'':' class="dc"')+'>'+H(p)+'</p>').join('')}</div>${jl(second)}</div></div>`;
+ if(second)A1+=`<div class="fold one" style="grid-template-columns:minmax(0,1fr)"><div><div class="kk">${H(SEC[second.topic]||'Local')}</div><h2 class="hd" style="font-size:36px">${H(second.title)}</h2>${second.dek?'<p class="dk">'+H(second.dek)+'</p>':''}${by(second)}<div class="txt c3">${teaser(second,900).map((p,i)=>'<p'+(i?'':' class="dc"')+'>'+H(p)+'</p>').join('')}</div>${jl(second)}</div></div>`;
  if(fold.length)A1+='<div class="fold">'+fold.map(s=>`<div><div class="kk">${H(SEC[s.topic]||'Local')}</div><h3 class="hd">${H(s.title)}</h3>${by(s)}<div class="txt">${teaser(s,420).map(p=>'<p>'+H(p)+'</p>').join('')}</div>${jl(s)}</div>`).join('')+'</div>';
  pages.push({id:'A1',name:'Front Page',html:A1+foot('A1')});
  [lead,second,...fold].forEach(s=>{if(!s)return;const pg=jumps[s.slug];pages.push({id:pg,name:'Front Page News',html:sh('News',pg)+`<div class="kk">${H(SEC[s.topic]||'Local')} · Continued from Page A1</div><h2 class="hd">${H(s.title)}</h2>${s.dek?'<p class="dk">'+H(s.dek)+'</p>':''}${by(s)}<div class="txt c3">${para(s.body,true)}</div>${(s.sources&&s.sources.length)?'<div class="by" style="border:0;margin-top:10px">Sources: '+s.sources.map(x=>'<a class="jl" href="'+H(x.url)+'" target="_blank" rel="noopener">'+H(x.outlet)+'</a>').join(' · ')+'</div>':''}<div class="jump"><button class="jl" data-pp="A1">‹ Back to the front page</button> · <button class="jl" data-story="${H(s.slug)}">Open this article on the website ›</button></div>`+foot(pg)})});
@@ -102,21 +119,28 @@ function build(){
  if(window.__ppHol&&window.__ppHol.sections){const G=window.__ppHol;let h='';G.sections.forEach(s=>{h+='<div class="day">'+H(s.label)+'</div>';s.items.forEach(i=>{h+='<p><b>'+H(i.t)+'</b>. '+H(i.when||'')+(i.time?', '+H(i.time):'')+'. '+H(i.where||'')+(i.town&&i.town!==i.where?', '+H(i.town):'')+(i.price?'. '+H(i.price):'')+'.</p>'})});
   pages.push({id:'D1',name:'Holiday Guide',html:sh('Holiday Guide','D1')+'<div class="agate">'+h+'</div>'+foot('D1')})}
 }
-function show(){const P=document.getElementById('paper');const p=pages[cur];P.querySelector('.sheet').innerHTML=p.html;P.querySelector('.pp-pg').textContent='Page '+p.id+' · '+(cur+1)+' of '+pages.length;P.scrollTop=0}
+function side(){const P=document.getElementById('paper');const L=[];const seen={};pages.forEach((p,i)=>{const k=p.id==='A1'?'Front Page':p.name;if(seen[k]){seen[k].last=p.id;return}seen[k]={i,first:p.id,last:p.id,k};L.push(seen[k])});
+ P.querySelector('.pp-list').innerHTML=L.map(x=>{const on=pages[cur].id===x.first||(x.k===(pages[cur].id==='A1'?'Front Page':pages[cur].name));return '<button data-ppgo="'+x.i+'" class="'+(on?'on':'')+'">'+H(x.k)+'<span>'+H(x.first===x.last?x.first:x.first+'–'+x.last)+'</span></button>'}).join('')}
+function go_(i,push){cur=(i+pages.length)%pages.length;show();if(push!==false){try{depth++;history.pushState({pp:cur,d:depth},'')}catch(_){}}}
+function show(){const P=document.getElementById('paper');const p=pages[cur];side();P.querySelector('.sheet').innerHTML=p.html;P.querySelector('.pp-pg').textContent='Page '+p.id+' · '+(cur+1)+' of '+pages.length;P.scrollTop=0}
 async function open(){
  if(!document.getElementById('ppCss')){const st=document.createElement('style');st.id='ppCss';st.textContent=css;document.head.appendChild(st)}
  try{if(!EV){const j=await fetch('data/cal.json',{cache:'no-cache'}).then(r=>r.json());EV=j.events||[]}}catch(_){EV=[]}
  try{if(!window.__ppHol){window.__ppHol=await fetch('data/holiday.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null)}}catch(_){}
  build();cur=0;
  let P=document.getElementById('paper');if(!P){P=document.createElement('div');P.id='paper';P.setAttribute('role','dialog');P.setAttribute('aria-label','Newspaper mode');
-  P.innerHTML='<div class="pp-bar"><button class="pp-p">‹ Previous page</button><span class="pp-pg"></span><button class="pp-n">Next page ›</button><button class="pp-x">Close newspaper ✕</button></div><div class="sheet"></div>';document.body.appendChild(P);
-  P.addEventListener('click',e=>{const t=e.target.closest('button,[data-pp]');if(!t)return;
-   if(t.classList.contains('pp-x'))return close();if(t.classList.contains('pp-p')){cur=(cur-1+pages.length)%pages.length;return show()}if(t.classList.contains('pp-n')){cur=(cur+1)%pages.length;return show()}
-   if(t.dataset.pp){const k=pages.findIndex(p=>p.id===t.dataset.pp);if(k>=0){cur=k;show()}return}
+  P.innerHTML='<div class="pp-bar"><button class="pp-home">⌂ <i class="lg">Back to </i>Page One</button><button class="pp-p">‹ <i class="lg">Previous page</i><i class="sm">Back</i></button><span class="pp-pg"></span><button class="pp-n"><i class="lg">Next page</i><i class="sm">Next</i> ›</button><button class="pp-print-btn">🖨 <i class="lg">Print or save as PDF</i><i class="sm">Print</i></button><button class="pp-x"><i class="lg">Close newspaper</i><i class="sm">Close</i> ✕</button></div><div class="pp-wrap"><nav class="pp-side" aria-label="Sections of the newspaper"><h4>Sections</h4><div class="pp-list"></div><small>Tap a section to go there. The browser back button goes to the page you were on before.</small></nav><div class="sheet"></div></div>';document.body.appendChild(P);
+  P.addEventListener('click',e=>{const t=e.target.closest('button,[data-pp]');if(!t||!P.contains(t))return;e.stopPropagation();if(!t)return;
+   if(t.classList.contains('pp-x'))return close();if(t.classList.contains('pp-print-btn'))return printAll();if(t.classList.contains('pp-home'))return go_(0);if(t.classList.contains('pp-p'))return go_(cur-1);if(t.classList.contains('pp-n'))return go_(cur+1);if(t.dataset.ppgo!=null)return go_(+t.dataset.ppgo);
+   if(t.dataset.pp){const k=pages.findIndex(p=>p.id===t.dataset.pp);if(k>=0)go_(k);return}
    if(t.dataset.story){e.preventDefault();e.stopPropagation();close();try{STATE.story=t.dataset.story;STATE.prev='front';STATE.view='read';render();scrollTo(0,0)}catch(_){location.href='?story='+t.dataset.story}}});
-  addEventListener('keydown',e=>{if(!document.getElementById('paper')||document.getElementById('paper').hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowRight'){cur=(cur+1)%pages.length;show()}if(e.key==='ArrowLeft'){cur=(cur-1+pages.length)%pages.length;show()}})}
- P.hidden=false;document.documentElement.style.overflow='hidden';show()}
-function close(){const P=document.getElementById('paper');if(P)P.hidden=true;document.documentElement.style.overflow=''}
+  addEventListener('keydown',e=>{if(!document.getElementById('paper')||document.getElementById('paper').hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowRight')go_(cur+1);if(e.key==='ArrowLeft')go_(cur-1)})}
+ P.hidden=false;document.documentElement.style.overflow='hidden';show();depth=1;try{history.pushState({pp:0,d:1},'')}catch(_){}}
+addEventListener('popstate',e=>{const P=document.getElementById('paper');if(!P)return;const st=e.state;if(st&&typeof st.pp==='number'){if(P.hidden){P.hidden=false;document.documentElement.style.overflow='hidden'}depth=st.d||1;cur=Math.min(st.pp,pages.length-1);show()}else{depth=0;if(!P.hidden){P.hidden=true;document.documentElement.style.overflow=''}}});
+function printAll(){const P=document.getElementById('paper');let A=P.querySelector('.pp-printall');if(!A){A=document.createElement('div');A.className='pp-printall';P.appendChild(A)}
+ A.innerHTML=pages.map(p=>'<div class="sheet">'+p.html+'</div>').join('');
+ const imgs=[...A.querySelectorAll('img')];Promise.all(imgs.map(i=>i.complete?0:new Promise(r=>{i.onload=i.onerror=r}))).then(()=>{try{window.print()}catch(_){}});}
+function close(){const P=document.getElementById('paper');if(P)P.hidden=true;document.documentElement.style.overflow='';const n=depth;depth=0;if(n>0){try{history.go(-n)}catch(_){}}}
 window.openNewspaper=open;
 const btn=()=>{const h=document.querySelector('header.mast');if(!h||document.getElementById('paperBtn'))return;const b=document.createElement('button');b.id='paperBtn';b.type='button';b.textContent='Newspaper Mode';b.addEventListener('click',open);h.appendChild(b)};
 btn();addEventListener('DOMContentLoaded',btn);
