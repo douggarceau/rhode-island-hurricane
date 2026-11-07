@@ -10,7 +10,7 @@
     {
      "t": "A Christmas Carol (Trinity Rep)",
      "start": "2026-11-05",
-     "end": "2026-12-26",
+     "end": "2026-12-31",
      "when": "Nov 5–Dec 31",
      "time": "Times vary",
      "where": "Trinity Rep, Dowling Theater",
@@ -426,9 +426,9 @@
     },
     {
      "t": "Holiday Lights Spectacular",
-     "start": "2026-12-01",
-     "end": "2027-01-01",
-     "when": "Through Jan 1",
+     "start": "2026-11-27",
+     "end": "2027-01-03",
+     "when": "Nov 27–Jan 3",
      "time": "5:00 PM",
      "where": "Roger Williams Park Zoo",
      "town": "Providence",
@@ -1485,17 +1485,6 @@
    "label": "New Year’s Eve and New Year’s Day",
    "items": [
     {
-     "t": "Noon Year’s Eve at Discovery Lab",
-     "start": "2026-12-31",
-     "end": "2026-12-31",
-     "when": "Thu, Dec 31",
-     "time": "9:30 AM–Noon",
-     "where": "Discovery Lab",
-     "town": "Cranston",
-     "url": "https://www.discoverylab.org/noon-years-eve",
-     "note": "Discovery Lab’s Noon Year’s Eve program in Cranston gives children a countdown on their own daytime schedule on December 31, from 9:30 a.m. to noon. The children’s science center’s announcement establishes a countdown event, while the fuller activity program and admission arrangements are left to its booking page. Check registration and tickets before attending, rather than assuming the event is included in an ordinary visit."
-    },
-    {
      "t": "Noon Year’s Eve at Providence Children’s Museum",
      "start": "2026-12-31",
      "end": "2026-12-31",
@@ -1581,12 +1570,12 @@
      "t": "Charlestown New Year’s Eve Bonfire",
      "start": "2026-12-31",
      "end": "2026-12-31",
-     "when": "Thu, Dec 31",
-     "time": "4:30–7 PM",
+     "when": "Thu, Dec 31 (2026 unconfirmed)",
+     "time": "Not confirmed",
      "where": "Ninigret Park",
      "town": "Charlestown",
      "url": "https://charlestowncitizens.org/2025/12/28/ring-in-new-year-with-bonfire",
-     "note": "Charlestown’s New Year’s Eve Bonfire is listed for December 31, from 4:30 to 7 p.m, at Ninigret Park, 5 Park Lane. The gathering centers on a community bonfire, offering an outdoor early-evening alternative to a late-night dinner or party. The page does not establish admission, age restrictions or a fuller program. Confirm the town or organizer’s current announcement, including weather arrangements, before heading to the park.",
+     "note": "A Charlestown New Year’s Eve bonfire at Ninigret Park, 5 Park Lane, is listed for December 31. The only source we found is a December 2025 announcement for a Wednesday, December 31 bonfire at 5 p.m., so the 2026 date and time are unconfirmed. The gathering centers on a community bonfire, offering an outdoor early-evening alternative to a late-night dinner or party. The page does not establish admission, age restrictions or a fuller program. Confirm the town or organizer’s current announcement, including weather arrangements, before heading to the park.",
      "addr": "5 Park Lane, Charlestown",
      "price": "No charge"
     },
