@@ -17,11 +17,11 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FONTS = os.path.join(ROOT, 'tools', 'fonts')
 LABEL = {'crime': 'Crime Watch', 'streets': 'Rhode Island News', 'politics': 'State House', 'housing': 'Homes',
          'culture': 'Arts & Culture', 'music': 'Music', 'food': 'Food & Drink', 'people': 'People',
-         'cover': 'Rhode Island Articles', 'sports': 'Sports', 'stage': 'On Stage', 'business': 'Business',
+         'cover': 'Entertainment', 'sports': 'Sports', 'stage': 'On Stage', 'business': 'Business',
          'news': 'Rhode Island News', 'transit': 'Getting Around'}
 MASTHEAD = os.path.join(ROOT, 'img', 'hurricane-masthead.png')
 NAME = 'Rhode Island Hurricane'
-DEFLABEL = 'Rhode Island Articles'
+DEFLABEL = 'Entertainment'
 NAVY, GOLD, CREAM = (10, 26, 51), (232, 184, 24), (248, 244, 234)
 
 
