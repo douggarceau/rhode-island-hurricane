@@ -92,9 +92,9 @@ const sh=(name,pg)=>`<div class="sh"><b>${H(name)}</b><span>${H(SITE())} · ${H(
 const foot=pg=>`<div class="ft"><span>${H(SITE())}</span><span>Page ${H(pg)}</span></div>`;
 function build(){
  const S=stories(),d=TD();pages=[];const jumps={};
- const NW=S.filter(s=>s.news).slice(0,2);const feat=S.filter(s=>!s.news);
+ const NW=S.filter(s=>s.news).slice(0,4);const feat=S.filter(s=>!s.news);
  const lead=NW[0]||feat[0];const second=NW[1]||null;const rest=feat.filter(s=>s!==lead);
- const fold=rest.slice(0,3),briefs=rest.slice(3,9);
+ const fold=NW.slice(2,4).concat(rest).slice(0,3),briefs=rest.filter(s=>!fold.includes(s)).slice(0,6);
  let pgA=2;[lead,second,...fold].forEach(s=>{if(s)jumps[s.slug]='A'+(pgA++)});
  const jl=s=>`<div class="jump"><button class="jl" data-pp="${H(jumps[s.slug])}">Continued on Page ${H(jumps[s.slug])} ›</button></div>`;
  const hl=(window.H&&window.H.items)||[];
