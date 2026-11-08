@@ -1,6 +1,7 @@
 /* Show posters: margin boxes (evPoster) and the big flipping box under the cover (bigPoster).
    Everything is drawn from the calendar entry; no invented facts. */
 (function(){
+const PLACE=/jamestown/i.test(location.hostname+document.title)?'Jamestown':'Rhode Island';
 const H=x=>String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const hash=s=>{let h=7;for(const c of String(s))h=(h*31+c.charCodeAt(0))>>>0;return h};
 const clean=t=>String(t||'').split(/\s+[|@]\s+/)[0].split(/\s+[-–—]\s+(?=.*\b(tour|live|presents|show|concert)\b)/i)[0].replace(/\s*\b(all ages|21\+|18\+)\b.*$/i,'').replace(/\s*\((also|rescheduled)[^)]*\)/i,'').trim();
@@ -33,6 +34,10 @@ function bunting(h){const C=['#B5123A','#0F4C9A','#ffffff','#0F4C9A','#D4ECF5','
 function bauhaus(p,h){const r=h%3;return '<svg class="art bau" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><circle cx="'+(r===0?68:34)+'" cy="34" r="30" fill="'+p[0]+'"/><rect x="'+(r===1?52:8)+'" y="56" width="40" height="40" fill="'+p[1]+'"/><path d="M'+(r===2?40:58)+' 96 L'+(r===2?70:88)+' 44 L'+(r===2?100:118)+' 96z" fill="'+p[2]+'"/><rect x="0" y="0" width="100" height="3" fill="#111"/></svg>'}
 function eq(n){let s='<span class="art eq" aria-hidden="true">';for(let i=0;i<n;i++)s+='<i style="animation-delay:-'+((i*0.37)%1.4).toFixed(2)+'s;height:'+(20+((i*53)%70))+'%"></i>';return s+'</span>'}
 function sax(){return '<svg class="art horn" viewBox="0 0 100 160" aria-hidden="true"><path d="M58 4h10v8l-6 2v70c0 30-8 52-30 60-14 5-28-2-28-16 0-9 7-15 16-15 10 0 14 6 14 14l0 4c8-4 12-16 12-34V14l-6-2z" fill="#e8b818"/><g fill="#0b2a5b">'+[30,44,58,72].map(y=>'<circle cx="62" cy="'+y+'" r="3"/>').join('')+'</g></svg>'}
+/* Island scene backgrounds (owner's art, Nov 7 2026): shown on about half of the fair and gallery posters, alternating hourly */
+const SCN=[['02-windmill',84],['03-harbor',70],['04-lighthouse',88],['05-mist',62],['06-redlight',84],['07-springlight',86],['08-lighthouse-cottage',16],['09-stonelight',10],['10-spring-harbor',40],['11-lobster-dock',82],['12-winter-boat',62],['13-ferry',72],['14-fort-bunker',80],['15-tide-cove',72],['16-shore-cottage',80],['17-winter-bridge',30],['18-autumn-village',75],['19-fort-wall',40],['20-ruin-point',15],['21-surf-beach',30],['22-misty-cove-path',60],['23-beach-chair',82],['24-dune-inlet',50],['25-winter-beach',60],['26-bicycle-fence',80],['27-mooring-bridge',80],['28-catboat-light',82],['29-winter-yacht',78],['30-spring-ferry',80],['31-schooner',80],['32-autumn-yacht',80],['33-lobster-launch',80],['34-dawn-cruiser',78]];window.__SCN=SCN;
+/* Nov 7 2026: owner wants only real art. Every poster uses an island painting, except the jazz and live-band posters, which carry their own painted art. */
+const useScene=(st,h)=>!(st==='blue'||st==='gig');
 /* --- margin poster (landscape ~300x180) --- */
 window.evPoster=function(a,s){try{
  const e=s.ev||{},t=clean(s.bigText);if(!t)return;const st=kind(e,t),h=hash(t),w=when(e);
@@ -47,8 +52,9 @@ window.evPoster=function(a,s){try{
  else if(st==='club')h2=eq(18)+k+title+'<span class="ep-foot"><span><span class="ep-d" style="display:block">'+H(dl)+'</span><span class="ep-v" style="display:block">'+vl+'</span></span>'+cta+'</span>';
  else if(st==='fair')h2=bunting(h)+k+title+'<span class="ep-d">'+H(dl)+(ven?' · '+ven:'')+'</span>';
  else h2=bauhaus(GALPAL[h%3],h)+k+title+'<span class="ep-foot"><span class="ep-d">'+H(dl)+'</span><span class="ep-v">'+vl+'</span></span>';
+ let stc=st;if(useScene(st,h)){const S=SCN[h%SCN.length];h2='<span class="ep-sc" style="background-image:url(img/scenes/'+S[0]+'-640.webp);background-position:'+S[1]+'% 100%"></span><span class="ep-k">'+H(w.DW||w.dw||'')+' · '+PLACE+'</span>'+title+'<span class="ep-d">'+H(dl)+'</span><span class="ep-v">'+vl+'</span>';sty='';stc='scene'}
  const box=a.parentNode;box.classList.add('evp');['border','border-top','outline'].forEach(x=>box.style.setProperty(x,'0','important'));
- a.innerHTML='<span class="ep ep-'+st+' pv'+(h%4)+'" style="'+sty+'">'+h2+'</span>';
+ a.innerHTML='<span class="ep ep-'+stc+' pv'+(h%4)+'" style="'+sty+'">'+h2+'</span>';
 }catch(_){}};
 /* --- big poster (portrait 2:3, the flipping box under the cover) --- */
 window.bigPoster=function(e,region){try{
@@ -58,6 +64,7 @@ window.bigPoster=function(e,region){try{
  const title='<span class="bp-t '+sz+'">'+H(t)+'</span>';const reg=H(region||'');
  const go='<span class="bp-go">'+(e.url?'Tickets &amp; info':'See the calendar')+' →</span>';
  let b,sty='';
+ if(useScene(st,h)){const S=SCN[h%SCN.length];return '<span class="bp bp-scene pv'+(h%4)+'"><span class="bp-sc" style="background-image:url(img/scenes/'+S[0]+'-1200.webp);background-position:'+S[1]+'% 100%"></span><span class="bp-k">'+H(w.DW)+' · '+PLACE+'</span>'+title+'<span class="bp-d">'+H(w.MON)+' '+w.DY+(w.tm?' · '+H(w.tm):'')+'</span><span class="bp-v">'+ven+'</span>'+go+'</span>'}
  if(st==='gala')b='<span class="bp-frame"></span>'+fan('#D4ECF5')+'<span class="bp-k">'+KICK.gala+' · '+reg+'</span>'+title+rule('#D4ECF5')+'<span class="bp-d">'+H(w.DW)+'<br>'+H(w.MON)+' '+w.DY+(w.tm?' · '+H(w.tm):'')+'</span><span class="bp-v">'+ven+(addr?'<small>'+addr+'</small>':'')+'</span>'+go;
  else if(st==='marquee')b='<span class="cur l"></span><span class="cur r"></span><span class="beam b1"></span><span class="beam b2"></span><span class="bp-sign"><span>'+(/comed/i.test(t)?'Live Comedy':'Now Playing')+'</span></span>'+title+'<span class="bp-d">'+H(w.dw)+' · '+H(w.MO)+' '+w.DY+(w.tm?' · '+H(w.tm):'')+'</span><span class="bp-v">'+ven+(hood?'<small>'+hood+'</small>':'')+'</span>'+go;
  else if(st==='gig'){const P=GIGPAL[h%GIGPAL.length];sty='--bg:'+P.bg+';--ink:'+P.ink+';--acc:'+P.acc;b='<span class="bp-k">'+reg+' · Live</span>'+title+speaker(P.ink)+'<span class="bp-tear"><b>'+H(w.dw)+'</b><b class="n">'+H(w.MO)+' '+w.DY+'</b>'+(w.tm?'<b>'+H(w.tm)+'</b>':'')+'</span><span class="bp-v">'+ven+(hood?' · '+hood:'')+'</span>'+go}
@@ -88,7 +95,8 @@ const STPAL=[['#0F1F36','#D4ECF5'],['#0F1F36','#B5123A'],['#0F1F36','#D4ECF5'],[
 window.artCard=function(a,s){try{
  if(s.story&&!s.ext&&typeof STORIES!=='undefined'&&STORIES.some(x=>x.slug===s.story)){const st=STORIES.find(x=>x.slug===s.story);const box=a.parentNode;box.classList.add('evp');['border','border-top','outline'].forEach(x=>box.style.setProperty(x,'0','important'));
   const mast=window.EP_MAST||{};const L=String(st.title).length;
-  a.innerHTML='<span class="ep os'+(mast.img?' os-img':'')+'" style="'+(mast.img?'--osimg:url('+mast.img+')':'')+'">'+(mast.img?'':'<span class="os-m"><i>'+H(mast.top||'')+'</i><b>'+H(mast.name||'')+'</b></span>')+'<span class="os-tag">Our article</span><span class="os-t'+(L>70?' sm':'')+'">'+H(st.title)+'</span><span class="os-go">Read the article →</span></span>';return}
+  const RW=['lighthouse','harbor','mainstreet','autumn','ferry','beavertail','sunset-bridge','ferry2','harbor2','windmill','baymap'],tt=String(st.title||''),rk=st.theme==='christmas'?'christmas':/beavertail|lighthouse/i.test(tt)?'beavertail':/ferry/i.test(tt)?'ferry2':/windmill/i.test(tt)?'windmill':/bridge|pell/i.test(tt)?'sunset-bridge':RW[hash(st.slug)%RW.length];
+  a.innerHTML='<span class="ep os os-rw'+(mast.img?' os-img':'')+'" style="--osart:url(img/rockwell/'+rk+'.jpg);'+(mast.img?'--osimg:url('+mast.img+')':'')+'">'+(mast.img?'':'<span class="os-m"><i>'+H(mast.top||'')+'</i><b>'+H(mast.name||'')+'</b></span>')+'<span class="os-tag">Our article</span><span class="os-t'+(L>70?' sm':'')+'">'+H(st.title)+'</span><span class="os-go">Read the article →</span></span>';return}
  const t=String(s.bigText||s.name||'').trim();if(!t)return;const h=hash(t);
  const st=(typeof STORIES!=='undefined'&&s.story)?STORIES.find(x=>x.slug===s.story):null;
  const ext=!st&&s.ext;const topic=st?String(st.topic||''):'news';
@@ -148,7 +156,7 @@ function turn(box,fn){box.style.transition='transform .33s ease-in';box.style.tr
  setTimeout(()=>{fn();box.style.transition='none';box.style.transform='perspective(1600px) rotateY(-90deg)';void box.offsetWidth;setTimeout(()=>{box.style.transition='transform .33s ease-out';box.style.transform='';setTimeout(()=>{box.style.transition=''},360)},20)},340)}
 function tick(){const box=document.querySelector('.cvr .cvbrk');if(!box||document.hidden||box.matches(':hover'))return;
  const slug=box.dataset.story,title=(box.querySelector('b')||{}).textContent||'';const phase=step++%4;
- if(phase===0){const h=itnHTML(slug,title);if(!h){step++;return tick()}const o=layer(box,'itn');turn(box,()=>{o.innerHTML=h;box.classList.remove('bpx-on');box.classList.add('itn-on');requestAnimationFrame(()=>{const R=o.querySelector('.itn-rows');let g=0;while(R&&R.scrollHeight>R.clientHeight+1&&g++<30){const k=R.lastElementChild;if(!k)break;k.remove();const l=R.lastElementChild;if(l&&l.classList.contains('itn-sec'))l.remove()}})})}
+ if(phase===0){return /* plain brown 'The details' panel retired Nov 7, 2026 */}
  else if(phase===1){turn(box,()=>box.classList.remove('itn-on'))}
  else if(phase===2){const L=bigList();if(!L.length)return;const e=L[pi++%L.length];const h=window.bigPoster&&window.bigPoster(e,region());if(!h)return;const o=layer(box,'bpx');o.innerHTML=h;o.dataset.href=e.url||'';box.classList.remove('itn-on');box.classList.add('bpx-on');requestAnimationFrame(()=>{try{window.epFit&&window.epFit()}catch(_){}})}
  else{const F=feats(box);const _t=F[0]||{},_td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'}),_lim=new Date(Date.now()+2*864e5).toLocaleDateString('en-CA',{timeZone:'America/New_York'});const _pin=_t.until&&_t.until>=_td&&_t.until<=_lim;if(F.length>1&&!_pin){if(fi===0){oi=oi%(F.length-1)+1;fi=oi}else fi=0;const s=F[fi];turn(box,()=>{box.classList.remove('bpx-on');setStory(box,s,fi===0)})}else box.classList.remove('bpx-on')}}
@@ -221,23 +229,25 @@ window.factsCard=function(e){const d=e.date?new Date(e.date+'T12:00:00'):null;
  const DW=d?d.toLocaleDateString('en-US',{weekday:'long'}):'',MON=d?d.toLocaleDateString('en-US',{month:'long'}):'',DY=d?d.getDate():'';
  const rows=[['When',[DW+(MON?', '+MON+' '+DY:''),e.time].filter(Boolean).join(' · ')],['Where',e.venue||''],['Address',String(e.address||'').replace(/,?\s*\d{5}(-\d{4})?\s*$/,'')],['Doors / hours',e.hours||''],['Tickets',e.price||''],['Ages',e.ages||'']].filter(r=>r[1]);
  const t=String(e.artists||'').split(/\s+[|@]\s+/)[0];
- return '<span class="fc"><span class="fc-k">The details</span><span class="fc-t">'+H5(t)+'</span><span class="fc-big"><b>'+H5(d?d.toLocaleDateString('en-US',{month:'short'}).toUpperCase():'')+'</b><i>'+DY+'</i><small>'+H5(e.time||'')+'</small></span><span class="fc-rows">'+rows.map(r=>'<span class="fc-r"><em>'+H5(r[0])+'</em><span>'+H5(r[1])+'</span></span>').join('')+'</span>'+(e.blurb?'<span class="fc-b">'+H5(e.blurb)+'</span>':'')+'<span class="fc-go">'+(e.url?'Tickets &amp; info →':'See the calendar →')+'</span></span>'};
+ return '<span class="fc"><span class="fc-t">'+H5(t)+'</span>'+(e.blurb?'<span class="fc-b">'+H5(e.blurb)+'</span>':'')+'<span class="fc-k">Event details</span><span class="fc-big"><b>'+H5(d?d.toLocaleDateString('en-US',{month:'short'}).toUpperCase():'')+'</b><i>'+DY+'</i><small>'+H5(e.time||'')+'</small></span><span class="fc-rows">'+rows.map(r=>'<span class="fc-r"><em>'+H5(r[0])+'</em><span>'+H5(r[1])+'</span></span>').join('')+'</span>'+'<span class="fc-go">'+(e.url?'Tickets &amp; info →':'See the calendar →')+'</span></span>'};
 function turn(el,fn){el.style.transition='transform .34s ease-in';el.style.transform='perspective(1600px) rotateY(90deg)';
  setTimeout(()=>{fn();el.style.transition='none';el.style.transform='perspective(1600px) rotateY(-90deg)';requestAnimationFrame(()=>requestAnimationFrame(()=>{el.style.transition='transform .34s ease-out';el.style.transform='';setTimeout(()=>{el.style.transition=''},380)}))},350)}
-function rotator(getHost,pick,ms,start,opts){let i=start||0,face=0,cur=null,artLast=false;
+function rotator(getHost,pick,ms,start,opts){let i=start||0,face=0,cur=null;
  const host=()=>{const h=getHost();if(!h)return null;let o=h.querySelector(':scope>.rot');if(!o){o=document.createElement('span');o.className='rot';h.appendChild(o);h.classList.add('has-rot');
-   o.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();ev.stopImmediatePropagation();const u=o.dataset.href;if(u&&/^https?:/.test(u))window.open(u,'_blank','noopener');else if(u&&u[0]==='?')location.href=u;else{try{go('cal')}catch(_){location.hash='cal'}}},true)}return o};
- const show=(o,first)=>{const A=opts&&opts.art;if(face===0&&A&&!artLast){artLast=true;const put=()=>{o.innerHTML='<img class="rot-art" src="'+H5(A.img)+'" alt="'+H5(A.alt||'')+'">';o.dataset.href=A.href||'';o.dataset.face='a'};first?put():turn(o,put);return}artLast=false;const L=pick();if(!L.length)return;
-  if(face===0&&(i%4===2)&&!(opts&&opts.noweek)){const wk=window.weekPoster&&window.weekPoster(region(),L);if(wk){i++;const put=()=>{o.innerHTML=wk;o.dataset.href='';o.dataset.face='k'};first?put():turn(o,put);return}}
-  if(face===0&&opts&&opts.worship&&(i%5===4)){const w=window.worshipPoster&&window.worshipPoster(region());if(w){i++;const put=()=>{o.innerHTML=w;o.dataset.href='';o.dataset.face='w'};first?put():turn(o,put);return}}
-  if(face===0){cur=L[i++%L.length];const h=window.bigPoster&&window.bigPoster(cur,region());if(!h)return;const put=()=>{o.innerHTML=h;o.dataset.href=cur.url||'';o.dataset.face='p';requestAnimationFrame(()=>{try{window.epFit&&window.epFit()}catch(_){}})};first?put():turn(o,put);face=1}
-  else{const put=()=>{o.innerHTML=window.factsCard(cur);o.dataset.face='f'};turn(o,put);face=0}};
- let started=false;if(opts&&opts.art)setInterval(()=>{if(!started)return;const h=getHost();if(h&&!h.querySelector(':scope>.rot')){const o=host();if(o){artLast=false;face=0;show(o,true)}}},300);const kick=setInterval(()=>{if(started){clearInterval(kick);return}const o=host();if(o&&(pick().length||(opts&&opts.art))){started=true;show(o,true);clearInterval(kick)}},400);
+   o.addEventListener('click',ev=>{ev.preventDefault();ev.stopPropagation();ev.stopImmediatePropagation();const u=o.dataset.href;if(u&&/^https?:/.test(u))window.open(u,'_blank','noopener');else{try{go('cal')}catch(_){location.hash='cal'}}},true)}return o};
+ const lab=(o,s)=>{const h=o.parentElement;if(h&&h.matches('button,a')){h.setAttribute('aria-label',s);const im=h.querySelector(':scope>img');if(im)im.alt=''}o.setAttribute('aria-hidden','true')};
+ const evl=(c,k)=>{const d=c&&c.date?new Date(c.date+'T12:00:00').toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'}):'';return (k||'')+String(c&&c.artists||'Event').split(/\s+[|@]\s+/)[0]+(d?', '+d:'')+(c&&c.time?', '+c.time:'')+(c&&c.venue?', '+c.venue:'')+'. '+(c&&c.url?'Opens tickets and info in a new tab':'Opens the event calendar')};
+ const show=(o,first)=>{const L=pick();if(!L.length)return;
+  if(false&&face===0&&(i%4===2)&&!(opts&&opts.noweek)){const wk=window.weekPoster&&window.weekPoster(region(),L);if(wk){i++;const put=()=>{o.innerHTML=wk;o.dataset.href='';o.dataset.face='k';lab(o,'This week in Jamestown. Opens the event calendar')};first?put():turn(o,put);return}}
+  if(false&&face===0&&opts&&opts.worship&&(i%5===4)){const w=window.worshipPoster&&window.worshipPoster(region());if(w){i++;const put=()=>{o.innerHTML=w;o.dataset.href='';o.dataset.face='w';lab(o,'Worship services this week. Opens the event calendar')};first?put():turn(o,put);return}}
+  if(face===0){cur=L[i++%L.length];const h=window.bigPoster&&window.bigPoster(cur,region());if(!h)return;const put=()=>{o.innerHTML=h;o.dataset.href=cur.url||'';o.dataset.face='p';lab(o,evl(cur,'Event poster: '));requestAnimationFrame(()=>{try{window.epFit&&window.epFit()}catch(_){}})};first?put():turn(o,put);face=1}
+  else{face=0;show(o,false) /* brown facts card retired: go straight to the next poster */}};
+ let started=false;const kick=setInterval(()=>{if(started){clearInterval(kick);return}const o=host();if(o&&pick().length){started=true;show(o,true);clearInterval(kick)}},400);
  setInterval(()=>{const o=host();if(!o)return;if(!started){started=true;show(o,true);return}if(document.hidden||o.matches(':hover'))return;show(o,false)},ms)}
 /* the box under the cover: every show, poster then facts */
 rotator(()=>{const b=document.querySelector('.cvr .pbx');if(b)b._busy=true;return b},()=>evs(),8000,window.EP_COVER_POSTERS?7:0,{worship:1,noweek:!!window.EP_COVER_POSTERS});
 /* the cover itself becomes a poster rotator when the page opts in */
-if(window.EP_COVER_POSTERS){const CA=window.EP_COVER_ART;const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});rotator(()=>document.querySelector('.cvr .cimg'),()=>{const E=evs();const big=E.filter(e=>BIG.test(e.venue||''));return big.length>=3?big:E},9000,0,CA&&CA.img&&!(CA.until&&CA.until<td)?{art:CA}:undefined)}
+if(window.EP_COVER_POSTERS)rotator(()=>document.querySelector('.cvr .cimg'),()=>{const E=evs();const big=E.filter(e=>BIG.test(e.venue||''));return big.length>=3?big:E},9000);
 })();
 /* Variety: shuffle the event pool each visit, spread across venues and kinds, so the same few shows don't loop */
 window.epMix=function(L){try{
@@ -253,7 +263,7 @@ window.epMix=function(L){try{
 /* Story art: every story gets a matching artwork that slowly moves (reader header + story cards) */
 (function(){
 const coast=()=>!!window.EP_COAST;
-function pick(s){const x=((s.title||'')+' '+(s.dek||'')+' '+(s.topic||'')).toLowerCase();const c=coast()&&Math.random()<.5;let k;
+function pick(s){if(s.img)return s.img;const x=((s.title||'')+' '+(s.dek||'')+' '+(s.topic||'')).toLowerCase();const c=coast()&&Math.random()<.5;let k;
  const ti=(s.title||'').toLowerCase();if(/\bmass\b|worship|vespers|hymn|prayer|church service|sunday service/.test(ti)&&!/parade|halloween|costume|fair|festival|party|concert/.test(x))k=c?'church2':'church';
  else if(/symphon|orchestra|philharmon|opera|ballet|nutcracker|choral|chorus|messiah|quartet|chamber|recital|baroque|classical/.test(x))k=c?'gala2':'gala';
  else if(/jazz|blues|swing|sax/.test(x))k=c?'jazz2':'jazz';
@@ -266,7 +276,7 @@ function pick(s){const x=((s.title||'')+' '+(s.dek||'')+' '+(s.topic||'')).toLow
  return 'img/posters/'+k+'.jpg'}
 const seen=new WeakSet();const esc3=x=>String(x==null?'':x).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 function dress(){return;/* owner: no auto artwork in stories; only art he supplies (story img) */
- document.querySelectorAll('article.reader').forEach(a=>{if(a.querySelector(':scope>.rart'))return;let cur='';try{cur=STATE.story}catch(_){}const s=STORIES.find(x=>x.slug===cur);if(!s)return;
+ document.querySelectorAll('article.reader').forEach(a=>{if(a.querySelector(':scope>.rart'))return;let cur='';try{cur=STATE.story}catch(_){}const s=STORIES.find(x=>x.slug===cur);if(!s||s.img)return;
   const u=pick(s);const d=document.createElement('div');d.className='rart';d.style.setProperty('--art','url('+u+')');const key=u.replace(/^.*\/|\.jpg$/g,'');const T=String(s.title).split(/:\s|\s[–—-]\s/)[0];d.innerHTML='<span class="rart-p r2"></span><span class="rart-p rp-'+key.replace(/2$/,'')+(/2$/.test(key)?' rp-alt':'')+'"><span class="rp-k">'+esc3((typeof tl==='function'?tl(s.topic):s.topic)||'Article')+'</span><span class="rp-t">'+esc3(T)+'</span></span>';d.setAttribute('aria-hidden','true');const k=a.querySelector('.kick');a.insertBefore(d,k||a.firstChild.nextSibling)});
  document.querySelectorAll('.sgrid .sc[data-story],.hll a,.sea-g button[data-story]').forEach(b=>{if(seen.has(b))return;const s=STORIES.find(x=>x.slug===b.dataset.story);if(!s)return;seen.add(b);b.classList.add('has-art');b.style.setProperty('--art','url('+pick(s)+')')})}
 new MutationObserver(()=>requestAnimationFrame(dress)).observe(document.documentElement,{childList:true,subtree:true});
@@ -303,3 +313,7 @@ const was=history.state;
 if(was&&was.ep&&(was.view!=='read'||STORIES.some(s=>s.slug===was.story))&&(was.view!==STATE.view||was.story!==STATE.story))restore(was);
 else{try{history.replaceState(snap(window.scrollY),'')}catch(_){}}
 })(0);
+
+/* paintings keep changing: every poster steps to the next scene every 8 seconds */
+(function(){if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;let n=0;
+setInterval(()=>{n++;document.querySelectorAll('.ep-sc,.bp-sc').forEach((el,k)=>{const big=el.classList.contains('bp-sc');const L=window.__SCN||[];if(!L.length)return;const S=L[(k*5+n)%L.length];el.style.transition='opacity .6s';el.style.opacity='0';setTimeout(()=>{el.style.backgroundImage='url(img/scenes/'+S[0]+(big?'-1200':'-640')+'.webp)';el.style.backgroundPosition=S[1]+'% 100%';el.style.opacity='1'},600)})},8000)})();

@@ -479,3 +479,26 @@ html body article.reader>.rart .rart-p{display:flex!important}
 
 .bp-gallery.art.alt{padding-top:74cqw!important}.bp-gallery.alt .bp-t{-webkit-line-clamp:2}
 html.ep-cov .cvr .cimg>img{visibility:hidden}
+
+/* Rockwell-era art behind "Our story" cards */
+.ep.os.os-rw{background:linear-gradient(180deg,#EEE9E5F2 0,#EEE9E5E6 55%,#EEE9E566 82%,#EEE9E522 100%),var(--osart) center bottom/cover no-repeat,#EEE9E5}
+.ep.os.os-rw.os-img{background:url(img/posters/story-mast-clear.png) top 3% center/96% auto no-repeat,linear-gradient(180deg,#EEE9E5EE 0,#EEE9E5DD 30%,#EEE9E599 55%,#EEE9E533 85%,#EEE9E500 100%),var(--osart) center bottom/cover no-repeat,#EEE9E5}
+.ep.os.os-rw .os-go{position:relative;z-index:1;align-self:flex-start;background:#EEE9E5E6;padding:3px 6px;border-radius:3px}.ep.os.os-rw .os-t{text-shadow:0 0 6px #EEE9E5,0 0 2px #EEE9E5}
+
+/* Nov 7 audit: headline first and largest, details quieter */
+.fc-t{font-size:10cqw!important;font-style:normal!important;font-weight:700!important}.fc-k{font-size:2.2cqw!important;box-shadow:none!important;padding:1.2cqw 2cqw!important}.fc-big i{font-size:11cqw!important}
+
+/* Island scene posters (owner's backgrounds) */
+.bp.bp-scene{background:#EEE9E5;color:#0F1F36;justify-content:flex-start;gap:2.4cqw;padding:9cqw 8cqw 7cqw}
+.bp-scene .bp-sc,.ep-scene .ep-sc{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;z-index:0}
+.bp-scene>*:not(.bp-sc),.ep-scene>*:not(.ep-sc){position:relative;z-index:1}
+.bp-scene .bp-k{background:none!important;color:#8A9DA1!important;margin-top:0!important;opacity:1!important;letter-spacing:.3em;font-size:3cqw}
+.bp-scene .bp-t{color:#0F1F36!important;font-style:normal!important;font-weight:600!important;margin:2cqw 0 1cqw!important;text-shadow:0 0 4cqw rgba(238,233,229,.9)}
+.bp-scene .bp-d{color:#0F1F36!important;font-family:"Helvetica Neue",Arial,sans-serif!important;font-weight:800!important;letter-spacing:.16em}
+.bp-scene .bp-v{color:#002D57!important;font-family:"Helvetica Neue",Arial,sans-serif!important;letter-spacing:.12em}
+.bp-scene .bp-go{margin-top:auto!important;background:#0F1F36!important;color:#EEE9E5!important;border-color:#0F1F36!important}
+.ep.ep-scene{background:#EEE9E5;color:#0F1F36;padding:14px 16px;align-content:start;grid-template-rows:auto auto auto auto;row-gap:4px}
+.ep-scene .ep-k{color:#8A9DA1!important;font:800 9px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.24em;text-transform:uppercase}
+.ep-scene .ep-t{color:#0F1F36!important;font-family:EpPlayfair,Georgia,serif!important;font-style:normal!important;font-weight:600!important;text-shadow:0 0 10px rgba(238,233,229,.9);max-width:78%}
+.ep-scene .ep-d{color:#0F1F36!important;font:800 10px/1.2 "Helvetica Neue",Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.ep-scene .ep-v{color:#002D57!important;font:600 10px/1.2 "Helvetica Neue",Arial,sans-serif;letter-spacing:.08em}
