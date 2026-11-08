@@ -1,17 +1,6 @@
 {
- "asof": "2026-11-07T07:35:00-05:00",
+ "asof": "2026-11-08T07:30:00-05:00",
  "items": [
-  {
-   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
-   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
-   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
-   "lead": true,
-   "town": "Providence",
-   "date": "2026-11-07",
-   "rank": 1
-  },
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
    "sum": "Dates, times and prices for Trinity Rep, Cirque du Soleil, the Boston Pops, The Nutcracker, the Newport mansions, tree lightings and light displays statewide.",
@@ -20,16 +9,6 @@
    "story": "rhode-island-christmas-2026-schedule",
    "town": "Statewide",
    "date": "2026-11-05",
-   "rank": 1
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Gatsby, WaterFire and Almost, Maine",
-   "sum": "Saturday, Nov. 7: The Great Gatsby at 7:30 p.m. at PPAC in Providence, WaterFire's Salute to Veterans from 4:32 p.m. and Almost, Maine at 7:30 p.m. in West Warwick.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-07",
-   "story": "today-and-tonight-2026-11-07",
-   "town": "Statewide",
-   "date": "2026-11-07",
    "rank": 1
   },
   {
@@ -53,22 +32,11 @@
    "rank": 2
   },
   {
-   "h": "The Great Gatsby Musical Roars Into PPAC, Nov. 3–8",
-   "sum": "The Tony-winning Broadway musical brings the Roaring Twenties to downtown Providence for eight performances.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=great-gatsby-ppac",
-   "story": "great-gatsby-ppac",
-   "town": "Providence",
-   "date": "2026-11-06",
-   "rank": 2
-  },
-  {
    "h": "Rhode Island Comic Con Takes Over Providence, Nov. 6–8",
    "sum": "Friday through Sunday at the Rhode Island Convention Center and Amica Mutual Pavilion, with the Sunday session starting at 10 a.m.",
    "outlet": "Rhode Island Hurricane",
    "url": "?story=rhode-island-comic-con-2026-amica-weekend",
    "story": "rhode-island-comic-con-2026-amica-weekend",
-   "box": true,
    "town": "Providence",
    "date": "2026-11-07",
    "rank": 2
@@ -81,16 +49,6 @@
    "town": "Providence",
    "date": "2026-11-02",
    "rank": 2
-  },
-  {
-   "h": "Newport Classical's holiday concerts bring choral music to December",
-   "sum": "Christmas with Cantus, Messiah at the Mansion and Frisson play Dec. 5, 6 and 12.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=newport-classical-holiday-concerts-2026",
-   "story": "newport-classical-holiday-concerts-2026",
-   "town": "Newport",
-   "date": "2026-10-31",
-   "rank": 3
   },
   {
    "h": "Chorus of Westerly Rings In the Season With Vaughan Williams' Hodie",
@@ -211,16 +169,6 @@
    "rank": 5
   },
   {
-   "h": "Providence Winter Farmers Market Opens Its Season Saturday",
-   "sum": "Local farm and food vendors open the winter market at 10 Sims Avenue on Saturday, Nov. 7.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=providence-winter-farmers-market-opening-2026",
-   "story": "providence-winter-farmers-market-opening-2026",
-   "town": "Providence",
-   "date": "2026-11-05",
-   "rank": 6
-  },
-  {
    "h": "Joe Parillo and the New Ensemble Bring Lily Pads Jazz to Peace Dale",
    "sum": "Sunday, Nov. 15, doors at 3 p.m. and the show from 3:30 to 5:30 p.m., at the Unitarian Universalist Congregation of South County in Peace Dale.",
    "outlet": "Rhode Island Hurricane",
@@ -298,6 +246,134 @@
    "town": "Providence",
    "date": "2026-11-07",
    "rank": 5
+  },
+  {
+   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
+   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
+   "town": "Providence",
+   "date": "2026-11-08",
+   "rank": 2,
+   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
+   "lead": true
+  },
+  {
+   "h": "The Great Gatsby Roars Into PPAC, Nov. 3–8",
+   "sum": "Tonight's 6:30 p.m. curtain keeps the Broadway musical's Providence run going.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=great-gatsby-ppac",
+   "town": "Providence",
+   "date": "2026-11-08",
+   "rank": 2,
+   "story": "great-gatsby-ppac",
+   "box": true
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Gatsby, Gratitude and Almost, Maine",
+   "sum": "Gatsby's 6:30 p.m. curtain at PPAC leads today's picks, with Almost, Maine at 2 p.m. in West Warwick and a 3 p.m. gratitude concert in Warren.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-08",
+   "town": "Statewide",
+   "date": "2026-11-08",
+   "rank": 1,
+   "story": "today-and-tonight-2026-11-08"
+  },
+  {
+   "h": "Gamm Stages Arthur Miller's A View From the Bridge This November",
+   "sum": "This November at the Gamm Theatre in Warwick, with dates and curtain times listed on the theatre's season page.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=gamm-view-from-the-bridge-2026",
+   "town": "Warwick",
+   "date": "2026-11-08",
+   "rank": 3,
+   "story": "gamm-view-from-the-bridge-2026"
+  },
+  {
+   "h": "RIC Chorus Sings Carols and Light in Sapinsley Hall on Nov. 13",
+   "sum": "Friday, Nov. 13 at 7:30 p.m. in Sapinsley Hall at the Nazarian Center, 115 First Avenue, Providence, with paid admission.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=ric-chorus-carols-and-light-2026",
+   "town": "Providence",
+   "date": "2026-11-08",
+   "rank": 3,
+   "story": "ric-chorus-carols-and-light-2026"
+  },
+  {
+   "h": "Songs of Gratitude Mark St. Mary of the Bay's 175th Anniversary",
+   "sum": "Michael DiMucci sings a gratitude program on Sunday afternoon at the Warren parish.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=st-mary-of-the-bay-songs-of-gratitude-2026",
+   "town": "Warren",
+   "date": "2026-11-08",
+   "rank": 4,
+   "story": "st-mary-of-the-bay-songs-of-gratitude-2026"
+  },
+  {
+   "h": "NaBSCO Community Orchestra Opens Its Season in East Providence",
+   "sum": "Sunday's season opener is pay what you can, at 3 p.m. at East Providence High School.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=nabsco-season-opener-east-providence-2026",
+   "town": "East Providence",
+   "date": "2026-11-08",
+   "rank": 6,
+   "story": "nabsco-season-opener-east-providence-2026"
+  },
+  {
+   "h": "Greek Food Fair and Christmas Bazaar Opens Sunday in Cranston",
+   "sum": "Admission is no charge at the Church of the Annunciation fair, which opens at 11 a.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=greek-food-fair-christmas-bazaar-cranston-2026",
+   "town": "Cranston",
+   "date": "2026-11-08",
+   "rank": 8,
+   "story": "greek-food-fair-christmas-bazaar-cranston-2026"
+  },
+  {
+   "h": "Everybody Chorus Welcomes Jamestown Singers of All Ages",
+   "sum": "An informal, all-ages singing hour meets at the Jamestown Recreation Center on Nov. 14.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=everybody-chorus-jamestown-2026",
+   "town": "Jamestown",
+   "date": "2026-11-08",
+   "rank": 10,
+   "story": "everybody-chorus-jamestown-2026"
+  },
+  {
+   "h": "A Dying Tree Becomes Art at Weaver Library",
+   "sum": "Sculptor Anthony Heinz May turns dying or fallen trees into art, which he calls shared authorship.",
+   "outlet": "Ocean State Media",
+   "url": "https://www.oceanstatemedia.org/weekend401/2026-11-05/a-beloved-tree-was-dying-so-weaver-library-turned-it-into-a-piece-of-art",
+   "town": "Statewide",
+   "date": "2026-11-05",
+   "rank": 4
+  },
+  {
+   "h": "Newport's Illuminated Boat Parade Returns Nov. 27",
+   "sum": "The 27th annual harbor parade can be watched at no charge, and a non-perishable food donation is requested.",
+   "outlet": "What'sUpNewp",
+   "url": "https://whatsupnewp.com/2026/11/newport-illuminated-boat-parade-returns-nov-27/",
+   "town": "Newport",
+   "date": "2026-11-03",
+   "rank": 6
+  },
+  {
+   "h": "Jane Pickens Brings Ski Films by Warren Miller and Teton Gravity Research",
+   "sum": "Three snowsport film screenings are set in Newport this month, starting at 7:30 p.m.",
+   "outlet": "What'sUpNewp",
+   "url": "https://whatsupnewp.com/2026/11/jane-pickens-brings-warren-miller-and-teton-gravity-research-to-newport-this-month/",
+   "town": "Newport",
+   "date": "2026-11-02",
+   "rank": 8
+  },
+  {
+   "h": "Salve's Ochre Court Opens Season 4 of The Gilded Age",
+   "sum": "The Richard Morris Hunt mansion doubles as a castle in the season premiere, with Salve students among the extras.",
+   "outlet": "What'sUpNewp",
+   "url": "https://whatsupnewp.com/2026/11/salves-ochre-court-opens-season-4-of-the-gilded-age/",
+   "town": "Newport",
+   "date": "2026-11-02",
+   "rank": 7
   }
  ]
 }
