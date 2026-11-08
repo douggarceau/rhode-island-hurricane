@@ -1,0 +1,24 @@
+name: Clean calendar
+on:
+  push:
+    paths: ['data/cal.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Merge duplicate listings and fix wrong-date ticket links
+        run: |
+          python3 tools/clean_cal.py 20
+          python3 tools/fix_ticket_dates.py .
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet data/cal.json; then
+            git config user.name "Site Update"
+            git config user.email "douggarceau@users.noreply.github.com"
+            git commit -am "Calendar clean-up (automatic)"
+            git push
+          fi
