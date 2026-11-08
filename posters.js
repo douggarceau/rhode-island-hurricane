@@ -247,7 +247,7 @@ function rotator(getHost,pick,ms,start,opts){let i=start||0,face=0,cur=null;
 /* the box under the cover: every show, poster then facts */
 rotator(()=>{const b=document.querySelector('.cvr .pbx');if(b)b._busy=true;return b},()=>evs(),8000,window.EP_COVER_POSTERS?7:0,{worship:1,noweek:!!window.EP_COVER_POSTERS});
 /* the cover itself becomes a poster rotator when the page opts in */
-if(window.EP_COVER_POSTERS)rotator(()=>document.querySelector('.cvr .cimg'),()=>{const E=evs();const big=E.filter(e=>BIG.test(e.venue||''));return big.length>=3?big:E},9000);
+if(window.EP_COVER_POSTERS)rotator(()=>document.querySelector('.cvr .cimg:not(.artBox)'),()=>{const E=evs();const big=E.filter(e=>BIG.test(e.venue||''));return big.length>=3?big:E},9000);
 })();
 /* Variety: shuffle the event pool each visit, spread across venues and kinds, so the same few shows don't loop */
 window.epMix=function(L){try{
