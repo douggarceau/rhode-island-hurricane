@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-08T07:30:00-05:00",
+ "asof": "2026-11-09T07:30:00-05:00",
  "items": [
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
@@ -29,25 +29,6 @@
    "story": "rhode-island-thanksgiving-2026",
    "town": "Statewide",
    "date": "2026-11-06",
-   "rank": 2
-  },
-  {
-   "h": "Rhode Island Comic Con Takes Over Providence, Nov. 6–8",
-   "sum": "Friday through Sunday at the Rhode Island Convention Center and Amica Mutual Pavilion, with the Sunday session starting at 10 a.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=rhode-island-comic-con-2026-amica-weekend",
-   "story": "rhode-island-comic-con-2026-amica-weekend",
-   "town": "Providence",
-   "date": "2026-11-07",
-   "rank": 2
-  },
-  {
-   "h": "Dave Matthews Band plays Amica Mutual Pavilion on Nov. 9",
-   "sum": "The 7:30 p.m. show is part of a tour that focuses on composting, recycling and donation.",
-   "outlet": "Rhode Island Monthly",
-   "url": "https://www.rimonthly.com/?p=279119",
-   "town": "Providence",
-   "date": "2026-11-02",
    "rank": 2
   },
   {
@@ -248,38 +229,6 @@
    "rank": 5
   },
   {
-   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
-   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
-   "town": "Providence",
-   "date": "2026-11-08",
-   "rank": 2,
-   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
-   "lead": true
-  },
-  {
-   "h": "The Great Gatsby Roars Into PPAC, Nov. 3–8",
-   "sum": "Tonight's 6:30 p.m. curtain keeps the Broadway musical's Providence run going.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=great-gatsby-ppac",
-   "town": "Providence",
-   "date": "2026-11-08",
-   "rank": 2,
-   "story": "great-gatsby-ppac",
-   "box": true
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Gatsby, Gratitude and Almost, Maine",
-   "sum": "Gatsby's 6:30 p.m. curtain at PPAC leads today's picks, with Almost, Maine at 2 p.m. in West Warwick and a 3 p.m. gratitude concert in Warren.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-08",
-   "town": "Statewide",
-   "date": "2026-11-08",
-   "rank": 1,
-   "story": "today-and-tonight-2026-11-08"
-  },
-  {
    "h": "Gamm Stages Arthur Miller's A View From the Bridge This November",
    "sum": "This November at the Gamm Theatre in Warwick, with dates and curtain times listed on the theatre's season page.",
    "outlet": "Rhode Island Hurricane",
@@ -298,36 +247,6 @@
    "date": "2026-11-08",
    "rank": 3,
    "story": "ric-chorus-carols-and-light-2026"
-  },
-  {
-   "h": "Songs of Gratitude Mark St. Mary of the Bay's 175th Anniversary",
-   "sum": "Michael DiMucci sings a gratitude program on Sunday afternoon at the Warren parish.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=st-mary-of-the-bay-songs-of-gratitude-2026",
-   "town": "Warren",
-   "date": "2026-11-08",
-   "rank": 4,
-   "story": "st-mary-of-the-bay-songs-of-gratitude-2026"
-  },
-  {
-   "h": "NaBSCO Community Orchestra Opens Its Season in East Providence",
-   "sum": "Sunday's season opener is pay what you can, at 3 p.m. at East Providence High School.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=nabsco-season-opener-east-providence-2026",
-   "town": "East Providence",
-   "date": "2026-11-08",
-   "rank": 6,
-   "story": "nabsco-season-opener-east-providence-2026"
-  },
-  {
-   "h": "Greek Food Fair and Christmas Bazaar Opens Sunday in Cranston",
-   "sum": "Admission is no charge at the Church of the Annunciation fair, which opens at 11 a.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=greek-food-fair-christmas-bazaar-cranston-2026",
-   "town": "Cranston",
-   "date": "2026-11-08",
-   "rank": 8,
-   "story": "greek-food-fair-christmas-bazaar-cranston-2026"
   },
   {
    "h": "Everybody Chorus Welcomes Jamestown Singers of All Ages",
@@ -394,6 +313,78 @@
    "town": "Pawtucket",
    "date": "2026-11-08",
    "rank": 5
+  },
+  {
+   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
+   "sum": "The Providence company's golden-anniversary production plays Nov. 5 through Dec. 31 in the Dowling Theater.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
+   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
+   "town": "Providence",
+   "date": "2026-11-09",
+   "rank": 2,
+   "lead": true
+  },
+  {
+   "h": "Dave Matthews Band Plays Amica Mutual Pavilion Tonight",
+   "sum": "Monday's Providence show is the fourth stop on the band's seven-date fall run.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=dave-matthews-band-amica-mutual-pavilion-2026-11-09",
+   "story": "dave-matthews-band-amica-mutual-pavilion-2026-11-09",
+   "town": "Providence",
+   "date": "2026-11-09",
+   "rank": 2,
+   "box": true
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Dave Matthews, LEGO and Bobcats",
+   "sum": "Monday's best picks, with a LEGO club at 3 p.m. and a Bobcat talk at 6 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-09",
+   "story": "today-and-tonight-2026-11-09",
+   "town": "Statewide",
+   "date": "2026-11-09",
+   "rank": 1
+  },
+  {
+   "h": "Jamestown Arts Center Opens Its 2026 Members' Show",
+   "sum": "Reception Friday, Nov. 20, 5:30 to 7:30 p.m.; on view through Jan. 9, 2027.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=jamestown-arts-center-members-show-2026",
+   "story": "jamestown-arts-center-members-show-2026",
+   "town": "Jamestown",
+   "date": "2026-11-09",
+   "rank": 3
+  },
+  {
+   "h": "Museum Reads Turns to Paul Gauguin in Newport",
+   "sum": "Thursday, Nov. 19 at noon, in person at the museum or on Zoom.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=museum-reads-gauguin-newport-art-museum-2026",
+   "story": "museum-reads-gauguin-newport-art-museum-2026",
+   "town": "Newport",
+   "date": "2026-11-09",
+   "rank": 3
+  },
+  {
+   "h": "Jamestown Community Theatre Opens Merrily We Roll Along",
+   "sum": "Performances Nov. 19 through 22, with a Sondheim musical told in reverse.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=merrily-we-roll-along-jamestown-community-theatre-2026",
+   "story": "merrily-we-roll-along-jamestown-community-theatre-2026",
+   "town": "Jamestown",
+   "date": "2026-11-09",
+   "rank": 6
+  },
+  {
+   "h": "Local Makers Fill the Stadium Theatre for a Holiday Market",
+   "sum": "Saturday, Nov. 14, 11 a.m. to 4 p.m., in Woonsocket, with raffles and a book swap.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=stadium-theatre-makers-market-woonsocket-2026",
+   "story": "stadium-theatre-makers-market-woonsocket-2026",
+   "town": "Woonsocket",
+   "date": "2026-11-09",
+   "rank": 8
   }
  ]
 }
