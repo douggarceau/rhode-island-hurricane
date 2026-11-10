@@ -188,11 +188,23 @@ pubg['benefits'] = {'statewide_costs': [c for c in bn.get('statewide_costs', [])
 if pubg.get('assessment'):
     pubg['assessment'] = {'intro': pubg['assessment'].get('intro'), 'items': [{'agency': i['agency'], 'call': i.get('call')} for i in pubg['assessment'].get('items', [])], 'caveats': pubg['assessment'].get('caveats')}
 json.dump(pubg, open(os.path.join(REPO, 'data', 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+# ---- free-account layer (any signed-in reader): findings, reasoning, benefits, budget detail; still no names or direct contacts
+reg = copy.deepcopy(pubg); reg['tier'] = 'registered'
+reg['insights'] = gov.get('insights'); reg['assessment'] = gov.get('assessment'); reg['benefits'] = gov.get('benefits')
+reg['extra_budgets'] = gov.get('extra_budgets', [])
+fullb = {a['id']: a.get('budget') for a in gov['agencies']}
+for a in reg['agencies']:
+    if fullb.get(a['id']): a['budget'] = fullb[a['id']]
+os.makedirs(os.path.join(PREM, 'registered'), exist_ok=True)
+json.dump(reg, open(os.path.join(PREM, 'registered', 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 cc = L('ccri.json')
 if cc:
     cc.update({'title': 'CCRI, Made Simple', 'intro': 'The Community College of Rhode Island in one clear view: key dates, who to call, every campus, upcoming events and the links students use most.', 'checked': today})
     PREM2 = sys.argv[4] if len(sys.argv) > 4 else os.path.join(os.path.dirname(os.path.abspath(PD)), 'premium-out')
     json.dump(cc, open(os.path.join(PREM2, 'ccri.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    os.makedirs(os.path.join(PREM2, 'registered'), exist_ok=True)
+    rc = copy.deepcopy(cc); rc['tier'] = 'registered'
+    json.dump(rc, open(os.path.join(PREM2, 'registered', 'ccri.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     pc = copy.deepcopy(cc); pc['tier'] = 'free'
     for cp in pc.get('campuses', []): cp.pop('phone', None)
     for o in pc.get('offices', []):
