@@ -56,7 +56,7 @@ def side(name, pk, bk, extra):
 ja = next((a for a in agencies if a.get('id') == 'judiciary'), None)
 agencies = [a for a in agencies if a.get('id') != 'judiciary']
 jud['admin'] = side('Rhode Island Judiciary: staff and budget', 'judicial', 'judiciary', {k: ja.get(k) for k in ('leader', 'phone', 'address', 'url', 'source', 'does', 'divisions')} if ja else {})
-leg['admin'] = side('General Assembly: staff and budget', 'legislative', 'legislature', {'does': 'Legislators, legislative staff and the Joint Committee on Legislative Services.', 'url': leg.get('url')})
+leg['admin'] = side('General Assembly: staff and budget', 'legislative', 'legislature', {'id': 'legislature', 'does': 'Legislators, legislative staff and the Joint Committee on Legislative Services.', 'url': leg.get('url')})
 leg_members = st.get('legislators', [])
 if leg_members:
     leg.setdefault('offices', [])
@@ -68,10 +68,34 @@ EXTRA = {'ripd': ('Office of the Public Defender', 'public-defender', 'publicdef
  'ohe': ('Office of the Postsecondary Commissioner', 'higher-education', 'ohhe'), 'ccc': ('Cannabis Control Commission', None, 'cannabis'), 'auditor-general': ('Office of the Auditor General', None, None)}
 dirs = st.get('directories', [])
 for d in dirs: d['agency_match'] = SM.get(d.get('agency_match'), d.get('agency_match'))
+import csv
+CSVP = os.path.join(RD, 'gpt_contacts.csv')
+PA = {'COMMUNITY COLLEGE OF R I': 'ccri', 'R I COLLEGE': 'ric', 'U R I': 'uri', 'DEM': 'dem', 'ADMINISTRATION': 'doa', 'LEGISLATIVE': 'legislature', 'BHDDH': 'bhddh', 'JUDICIAL': 'courts',
+ 'PUBLIC UTILITIES': 'puc', 'EMERGENCY MANAGEMENT': 'riema', 'HIGHER EDUCATION': 'ohe', 'BUSINESS REGULATIONS': 'dbr', 'HUMAN SERVICES': 'dhs', 'CORRECTIONS': 'doc', 'C.R.M.C.': 'crmc',
+ 'OFFICE OF ENERGY': 'oer', 'HOUSING': 'eoh', 'TREASURY': 'treasury', 'HISTORICAL PRESERVATION': 'hphc', 'HEALTH': 'ridoh', 'COMMISSION HUMAN RIGHTS': 'hrc', 'DLT': 'dlt',
+ 'GOVERNORS OFFICE': 'governor', 'PUBLIC SAFETY': 'dps', 'BOARD OF ELECTIONS': 'boe', 'RI COUNCIL ON THE ARTS': 'risca', 'ATTORNEY GENERAL': 'ag', 'CHILD ADVOCATE': 'oca', 'EDUCATION': 'ride',
+ 'SECRETARY OF STATE': 'sos', 'R I ETHICS COMMISSION': 'ethics', 'LIEUTENANT GOVERNOR': 'ltgov', 'COMM.ON DISABILITIES': 'disabilities', 'DEPT OF REVENUE': 'dor', 'COMM ON DEAF/HEARING': 'deaf',
+ 'TRANSPORTATION': 'ridot', 'HEALTH AND HUMAN SERVICES': 'eohhs', 'ATOMIC ENERGY COMMISSION': 'atomic', 'EXECUTIVE OFF OF COMMERCE': 'commerce', 'MENTAL HEALTH ADVOCATE': 'mha', 'PUBLIC DEFENDER': 'ripd'}
+if os.path.exists(CSVP):
+    blocks = {}
+    nz = lambda v: '' if (v or '').strip().lower() == 'not published' else (v or '').strip()
+    for r in csv.DictReader(open(CSVP, encoding='utf-8-sig')):
+        s = r['employment_status'].lower()
+        if 'emeritus' in s or 'nonemployee' in s: continue
+        m = PA.get(r['payroll_agency'])
+        if not m: continue
+        b = blocks.setdefault((m, r['source']), {'agency': r['agency'], 'agency_match': m, 'source': r['source'], 'checked': r['as_of'], 'people': []})
+        b['people'].append({'name': nz(r['name']), 'title': nz(r['title']), 'division': nz(r['unit']), 'email': nz(r['work_email']), 'phone': nz(r['work_phone'])})
+    dirs.extend(blocks.values())
+    print('gpt contact blocks', len(blocks), sum(len(b['people']) for b in blocks.values()))
+EXTRA.update({'uri': ('University of Rhode Island', 'u-r-i', 'uri', 'Education'), 'ric': ('Rhode Island College', 'r-i-college', 'ric', 'Education'), 'ccri': ('Community College of Rhode Island', 'community-college-of-r-i', 'ccri', 'Education'),
+ 'disabilities': ("Governor's Commission on Disabilities", 'comm-on-disabilities', 'disabilities'), 'deaf': ('Commission on the Deaf & Hard of Hearing', 'comm-on-deaf-hearing', 'deaf'), 'atomic': ('RI Atomic Energy Commission', 'atomic-energy-commission', 'atomic')})
 ids = {a['id'] for a in agencies}
-for m, (nm, pk, bk) in EXTRA.items():
-    if m in ids or not any(d['agency_match'] == m for d in dirs): continue
-    x = side(nm, pk, bk, {'id': m, 'group': 'Other agencies', 'source': next(d['source'] for d in dirs if d['agency_match'] == m)})
+for m, v in EXTRA.items():
+    nm, pk, bk = v[:3]; grp = v[3] if len(v) > 3 else 'Other agencies'
+    if m in ids or not (any(d['agency_match'] == m for d in dirs) or grp == 'Education'): continue
+    src = next((d['source'] for d in dirs if d['agency_match'] == m), '')
+    x = side(nm, pk, bk, {'id': m, 'group': grp, 'source': src})
     agencies.append(x)
 for d in dirs:
     if d['agency_match'] == 'courts': d['agency_match'] = 'courts'

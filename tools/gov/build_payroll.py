@@ -48,7 +48,7 @@ for r in R:
     if r['fiscal_year'] == FULL: fullD[r['department']].append(r)
 index = {'source': 'RI Transparency Portal, State Employee Payroll (transparency.ri.gov/payroll)', 'source_url': 'https://transparency.ri.gov/payroll/',
  'downloaded': datetime.date.today().isoformat(), 'cur_year': CUR, 'full_year': FULL,
- 'note': f'Portal year {CUR} is the year in progress (pay so far). Portal year {FULL} is the last complete year. "Pay rate" is the annual salary rate the state lists.',
+ 'source_updated': '2025-10-09', 'note': f'The state last updated this file on Oct. 9, 2025. Fiscal year {CUR} figures cover pay through that date only; fiscal year {FULL} (July {int(FULL)-1}–June {FULL}) is the last complete year. "Pay rate" is the annual salary rate the state lists. People hired or gone since then are not reflected.',
  'years': {y: {'people': sum(1 for r in R if r['fiscal_year'] == y), 'paid': round(sum(f(r['total']) for r in R if r['fiscal_year'] == y)), 'overtime': round(sum(f(r['overtime']) for r in R if r['fiscal_year'] == y))} for y in years},
  'active': len(active), 'active_rate_sum': round(sum(f(r['annual']) for r in active)), 'depts': []}
 def person(r):
