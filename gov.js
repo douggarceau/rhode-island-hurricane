@@ -286,4 +286,6 @@
 .gv-btn{all:unset;cursor:pointer}.gv-key li{padding:10px 0;font-size:15px}.gv-key b{display:block;font:700 17px/1.3 "Playfair Display",Georgia,serif}
 .gv-node[hidden]{display:none!important}
 @media(max-width:560px){.gv-branch{margin:10px 6px 0}.gv-branch>.gv-sub,.gv-branch>.gv-bars,.gv-branch>.gv-comm,.gv-branch>.gv-band,.gv-branch>details{margin-left:6px;margin-right:6px}.gv-nb{padding-left:9px;margin-left:3px}}`;document.head.appendChild(css);
+ /* a ?go=gov link can render before this file loads: draw it now */
+ try{if(typeof STATE!=='undefined'&&(STATE.view==='gov'||STATE.view==='ccri')&&typeof render==='function')render()}catch(_){}
 })();
