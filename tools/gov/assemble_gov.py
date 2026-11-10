@@ -1,7 +1,7 @@
 """Assemble data/gov.json, data/ccri.json and data/payroll/* for RI Hurricane's Government and CCRI tabs.
 usage: python3 -I assemble_gov.py <research_dir> <payroll_out_dir> <repo_dir> [premium_out_dir]
 Name-level payroll goes ONLY to premium_out_dir (uploaded to the members-only Supabase bucket), never into the public repo."""
-import json, os, sys, shutil, re, datetime
+import json, os, sys, shutil, re, datetime, copy
 RD, PD, REPO = sys.argv[1:4]
 def L(n):
     p = os.path.join(RD, n)
@@ -114,7 +114,10 @@ def expired(d):
 slim = [[b['name'], b.get('url', ''), b.get('authority', ''), b.get('seats'), b.get('vacancies'),
          [[flip(m['name']), m.get('role', ''), m.get('appointed_by', ''), m.get('term_ends', ''), 1 if expired(m.get('term_ends')) else 0] for m in b['members']]] for b in BB]
 slim.sort(key=lambda x: x[0].lower())
-json.dump({'source': 'https://opengov.sos.ri.gov/boards', 'checked': today, 'boards': slim}, open(os.path.join(REPO, 'data', 'boards.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+PREM = sys.argv[4] if len(sys.argv) > 4 else os.path.join(os.path.dirname(os.path.abspath(PD)), 'premium-out')
+os.makedirs(PREM, exist_ok=True)
+json.dump({'source': 'https://opengov.sos.ri.gov/boards', 'checked': today, 'boards': slim}, open(os.path.join(PREM, 'boards.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+json.dump({'source': 'https://opengov.sos.ri.gov/boards', 'checked': today, 'boards': [[b[0], b[1], b[2], b[3], b[4], len(b[5]), sum(m[4] for m in b[5])] for b in slim]}, open(os.path.join(REPO, 'data', 'boards.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 allb = L('boards.json').get('boards', [])
 BS = {'boards': len(allb), 'with_members': len(BB), 'members': sum(len(b['members']) for b in BB), 'expired': sum(x[4] for b in slim for x in b[5]), 'vacancies': sum(b.get('vacancies') or 0 for b in allb)}
 print('boards', BS, os.path.getsize(os.path.join(REPO, 'data', 'boards.json')))
@@ -138,12 +141,49 @@ json.dump({'top_rate': P.pop('top_rate', []), 'top_ot': P.pop('top_ot', []), 'to
           open(os.path.join(PREM, 'lists.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 for d in P['depts']: d.pop('top', None)
 OT['over_base_count'] = len(OT.pop('over_base', [])); OT['top_count'] = len(OT.pop('top', [])); OT['repeat_count'] = len(OT.pop('repeat_top100', []))
+# staff work emails/phones are members-only: public copy keeps name, title, division and an id
+cmap = {}; n = 0
+for d in dirs:
+    for pp in d.get('people', []):
+        n += 1; pp['id'] = n
+        if pp.get('email') or pp.get('phone'): cmap[n] = [pp.get('email', ''), pp.get('phone', '')]
+        pp['h'] = (1 if pp.get('email') else 0) + (2 if pp.get('phone') else 0)
+        pp.pop('email', None); pp.pop('phone', None)
+json.dump(cmap, open(os.path.join(PREM, 'staff.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+print('staff contacts moved to premium', len(cmap))
 pub = os.path.join(REPO, 'data', 'payroll')
 if os.path.isdir(pub): shutil.rmtree(pub)  # name-level rosters are members-only now
 print('premium files', len(os.listdir(os.path.join(PREM, 'payroll'))), 'in', PREM)
-json.dump(gov, open(os.path.join(REPO, 'data', 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+# ---- members get the full copy (private bucket); the public file keeps only the free layer
+import copy
+json.dump(gov, open(os.path.join(PREM, 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+pubg = copy.deepcopy(gov)
+pubg['tier'] = 'free'
+for a in pubg['agencies']:
+    for d in a.get('divisions', []) or []:
+        for k in ('head', 'phone', 'email'): d.pop(k, None)
+    if a.get('budget'): a['budget'] = {'fy': a['budget'].get('fy'), 'all_funds': a['budget'].get('all_funds')}
+for blk in (pubg['judicial'].get('admin') or {}, pubg['legislative'].get('admin') or {}):
+    if blk.get('budget'): blk['budget'] = {'fy': blk['budget'].get('fy'), 'all_funds': blk['budget'].get('all_funds')}
+pubg['extra_budgets'] = []
+P2 = pubg['payroll']
+pubg['payroll'] = {k: P2.get(k) for k in ('source', 'source_url', 'downloaded', 'source_updated', 'note', 'cur_year', 'full_year', 'active')}
+pubg['payroll']['depts'] = [{'key': d['key'], 'name': d['name'], 'portal_name': d['portal_name'], 'people': d['people'], 'titles': [[x[0], x[1]] for x in d['titles']]} for d in P2['depts']]
+pubg['overtime'] = None; pubg['insights'] = None
+bn = pubg.get('benefits') or {}
+pubg['benefits'] = {'statewide_costs': [c for c in bn.get('statewide_costs', []) if '% of salaries' in c.get('item', '') or 'example' in c.get('item', '').lower()]} if bn else None
+if pubg.get('assessment'):
+    pubg['assessment'] = {'intro': pubg['assessment'].get('intro'), 'items': [{'agency': i['agency'], 'call': i.get('call')} for i in pubg['assessment'].get('items', [])], 'caveats': pubg['assessment'].get('caveats')}
+json.dump(pubg, open(os.path.join(REPO, 'data', 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 cc = L('ccri.json')
 if cc:
     cc.update({'title': 'CCRI, Made Simple', 'intro': 'The Community College of Rhode Island in one clear view: key dates, who to call, every campus, upcoming events and the links students use most.', 'checked': today})
-    json.dump(cc, open(os.path.join(REPO, 'data', 'ccri.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    PREM2 = sys.argv[4] if len(sys.argv) > 4 else os.path.join(os.path.dirname(os.path.abspath(PD)), 'premium-out')
+    json.dump(cc, open(os.path.join(PREM2, 'ccri.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+    pc = copy.deepcopy(cc); pc['tier'] = 'free'
+    for o in pc.get('offices', []):
+        for k in ('phone', 'email', 'hours'): o.pop(k, None)
+    up = sorted((d for d in pc.get('dates', []) if (d.get('end') or d.get('date', '')) >= today), key=lambda d: d['date'])
+    pc['dates'] = up[:3]
+    json.dump(pc, open(os.path.join(REPO, 'data', 'ccri.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 print('gov.json', os.path.getsize(os.path.join(REPO, 'data', 'gov.json')), 'agencies', len(agencies), 'with payroll', sum(1 for a in agencies if a.get('payroll')), 'with budget', sum(1 for a in agencies if a.get('budget')), 'towns', len(towns))
