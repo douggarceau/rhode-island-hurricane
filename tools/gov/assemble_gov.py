@@ -76,6 +76,23 @@ for m, (nm, pk, bk) in EXTRA.items():
 for d in dirs:
     if d['agency_match'] == 'courts': d['agency_match'] = 'courts'
 jud['admin']['id'] = 'courts'
+# ---- boards: slim copy loaded only when its drop-down opens
+def flip(n):
+    n = re.sub(r'\s+', ' ', n or '').strip()
+    if ',' in n:
+        last, rest = n.split(',', 1); return (rest.strip() + ' ' + last.strip()).strip()
+    return n
+BB = [b for b in L('boards.json').get('boards', []) if b.get('members')]
+def expired(d):
+    m = re.match(r'(\d{1,2})/(\d{1,2})/(\d{4})', d or '')
+    return bool(m) and (m.group(3), m.group(1).zfill(2), m.group(2).zfill(2)) < tuple(today.split('-'))
+slim = [[b['name'], b.get('url', ''), b.get('authority', ''), b.get('seats'), b.get('vacancies'),
+         [[flip(m['name']), m.get('role', ''), m.get('appointed_by', ''), m.get('term_ends', ''), 1 if expired(m.get('term_ends')) else 0] for m in b['members']]] for b in BB]
+slim.sort(key=lambda x: x[0].lower())
+json.dump({'source': 'https://opengov.sos.ri.gov/boards', 'checked': today, 'boards': slim}, open(os.path.join(REPO, 'data', 'boards.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+allb = L('boards.json').get('boards', [])
+BS = {'boards': len(allb), 'with_members': len(BB), 'members': sum(len(b['members']) for b in BB), 'expired': sum(x[4] for b in slim for x in b[5]), 'vacancies': sum(b.get('vacancies') or 0 for b in allb)}
+print('boards', BS, os.path.getsize(os.path.join(REPO, 'data', 'boards.json')))
 gov = {
  'title': 'Rhode Island Government, Mapped',
  'intro': 'The whole system on one page: every branch, department, division, authority, court and town, with who runs it, how to reach them, what it costs and who works there, down to the last job title on the state payroll.',
@@ -85,7 +102,7 @@ gov = {
  'budget': bu.get('state', {}), 'functions': bu.get('functions', []), 'extra_budgets': extra,
  'benefits': be or None, 'sites': si.get('sites', []), 'staff': dirs,
  'jobs': {j['payroll_title']: j.get('summary', '') for j in jb.get('jobs', []) if j.get('summary')},
- 'payroll': P, 'overtime': OT, 'boards': L('boards.json').get('boards', []), 'insights': json.load(open(os.path.join(PD, 'insights.json'))) if os.path.exists(os.path.join(PD, 'insights.json')) else None, 'assessment': L('assessment.json') or None,
+ 'payroll': P, 'overtime': OT, 'boards_summary': BS, 'insights': json.load(open(os.path.join(PD, 'insights.json'))) if os.path.exists(os.path.join(PD, 'insights.json')) else None, 'assessment': L('assessment.json') or None,
 }
 os.makedirs(os.path.join(REPO, 'data', 'payroll'), exist_ok=True)
 for f in os.listdir(PD):
