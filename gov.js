@@ -28,7 +28,7 @@
   else{const S=['Management titles grew '+bl(Dg(2)+'%')+' while the workforce grew '+bl(Dg(1)+'%')+'.','The top 10% of overtime earners took '+bl(Dg(2)+'%')+' of all overtime.','Hiring would equal '+bl(Dg(3))+' more officers at '+bl(L(6)+' '+L(8))+'.'];S.forEach(s=>rows.push('<li><b>'+s+'</b></li>'))}
   return '<div class="gv-prev"><em>Preview</em><ul class="gv-people">'+rows.join('')+'</ul></div>'}
  const kindOf=w=>/email|phone|contact|direct line/i.test(w)?'contacts':/overtime/i.test(w)?'ot':/board member/i.test(w)?'boards':/calendar|date/i.test(w)?'dates':/office/i.test(w)&&/CCRI/.test(w)?'offices':/budget/i.test(w)?'budget':/name|employee|roster|paycheck|pay rate/i.test(w)?'payroll':'findings';
- const lockBox=what=>'<div class="gv-lock"><b>Members only</b><p>'+X(what)+'</p>'+preview(kindOf(what))+'<button type="button" class="gv-join">Become a member, $9.99 a month</button>'+(userOn()?'':' <a href="#" data-join="gov">Already a member? Log in</a>')+'</div>';
+ const lockBox=what=>'';const __lb=what=>'<div class="gv-lock"><b>Members only</b><p>'+X(what)+'</p>'+preview(kindOf(what))+'<button type="button" class="gv-join">Become a member, $9.99 a month</button>'+(userOn()?'':' <a href="#" data-join="gov">Already a member? Log in</a>')+'</div>';
  document.addEventListener('click',e=>{const b=e.target.closest('.gv-join');if(!b)return;e.preventDefault();const u=window.SS_USER,PAY=window.GV_PAY_LINK||'';
   if(!u){const j=document.createElement('a');j.dataset.join='gov';j.href='#';document.body.appendChild(j);j.click();j.remove();return}
   if(PAY)location.href=PAY+(PAY.includes('?')?'&':'?')+'prefilled_email='+encodeURIComponent(u.email||'');else alert('Memberships open soon.')});
@@ -79,7 +79,7 @@
  const rerender=v=>{try{if(typeof STATE!=='undefined'&&STATE.view===v&&typeof render==='function'){const y=scrollY;render();scrollTo(0,y)}}catch(_){}};
  function load(k){upgrade(k);if(asked[k])return;asked[k]=1;fetch('data/'+k+'.json?'+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j&&!(D[k]&&D[k].tier!=='free')){D[k]=j;rerender(k)}}).catch(()=>{})}
  const UP={};function upgrade(k){const want=isMem()?'member':(userOn()?'registered':'');if(!want||UP[k]===want||(UP[k]==='member'&&!PV))return;UP[k]=want;prem((want==='member'?'':'registered/')+k+'.json').then(j=>{D[k]=j;rerender(k)}).catch(()=>{UP[k]=''})}
- const regBox=what=>'<div class="gv-lock gv-reglock"><b>Free with a reader account</b><p>'+X(what)+'</p>'+preview(kindOf(what))+'<button type="button" class="gv-regjoin">Create a free account</button> <a href="#" data-join="gov">Log in</a></div>';
+ const regBox=what=>'';const __rb=what=>'<div class="gv-lock gv-reglock"><b>Free with a reader account</b><p>'+X(what)+'</p>'+preview(kindOf(what))+'<button type="button" class="gv-regjoin">Create a free account</button> <a href="#" data-join="gov">Log in</a></div>';
  document.addEventListener('click',e=>{const b=e.target.closest('.gv-regjoin');if(!b)return;e.preventDefault();const j=document.createElement('a');j.dataset.join='gov';j.href='#';document.body.appendChild(j);j.click();j.remove()});
  const LONG=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
  const MO=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
@@ -127,8 +127,8 @@
   if(!isMem()){const h=b.closest('.gv-head');let x=h.querySelector('.gv-lock');if(!x){h.insertAdjacentHTML('beforeend',lockBox('Spreadsheet downloads of every published contact and every board member.'))}return}
   const G=D.gov;if(b.dataset.dl==='contacts'){const A={};(G.agencies||[]).forEach(a=>A[a.id]=a.name);prem('staff.json').then(C=>csvDl('ri-government-contacts.csv',['Agency','Division','Name','Title','Email','Phone','Source'],[].concat(...(G.staff||[]).map(s=>(s.people||[]).map(p=>{const c=C[p.id]||['',''];return [A[s.agency_match]||s.agency,p.division,p.name,p.title,c[0],c[1],s.source]})))))}
   else prem('boards.json').then(J=>csvDl('ri-boards-members.csv',['Board','Member','Role','Appointed by','Term ends','Term ended'],[].concat(...J.boards.map(b=>b[5].map(m=>[b[0],m[0],m[1],m[2],m[3],m[4]?'yes':''])))))});
- const memNote=s=>'<p class="gv-memnote">🔒 '+X(s)+' <button type="button" class="gv-join gv-join-s">Members · $9.99/mo</button></p>';
- const regNote=s=>'<p class="gv-memnote gv-regnote">🔓 '+X(s)+' <button type="button" class="gv-regjoin gv-join-s">Free account</button></p>';
+ const memNote=s=>'';const __mn=s=>'<p class="gv-memnote">🔒 '+X(s)+' <button type="button" class="gv-join gv-join-s">Members · $9.99/mo</button></p>';
+ const regNote=s=>'';const __rn=s=>'<p class="gv-memnote gv-regnote">🔓 '+X(s)+' <button type="button" class="gv-regjoin gv-join-s">Free account</button></p>';
  const LK={agency:'Department phone lines, email and office hours',town:'Clerk, tax office and police lines, tax rates, the FY2027 town and school budgets, and the superintendent’s line',court:'Clerk phone numbers for every courthouse'};
  /* ---- Nov 10 research on cards ---- */
  const T1=()=>GD().gov&&GD().gov.tier;
@@ -435,7 +435,7 @@ html.gv-user .gv-rg{display:none!important}
 .gv-mo,.gv-rg,.gv-hid{cursor:help}
 .gv-prev{position:relative;margin:4px 0 12px;padding:8px 10px;border-radius:6px;background:#0A142899;border:1px dashed #D4ECF544}.gv-prev em{position:absolute;top:6px;right:8px;font:800 10px/1 "Libre Franklin",system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;font-style:normal;color:#E9C46A}.gv-prev li{border-bottom-color:#ffffff0d!important}
 .gv-blur{filter:blur(4.5px);user-select:none;-webkit-user-select:none;pointer-events:none}
-.gv-mo::before{content:"🔒 "}.gv-mo::after{content:" · $9.99/mo"}
+.gv-mo,.gv-rg,.gv-hid,.gv-hidreg,.gv-lock,.gv-reglock,.gv-slock,.gv-memnote,.gv-regnote,.gv-join,.gv-regjoin,.gv-prev,.gv-blur,.gv-dls,.gv-pay>b,#gvTip,.gv-fact:has(.gv-hid){display:none!important} .gv-mo::before{content:""}.gv-mo::after{content:""}
 .gv-memnote{margin:6px 0 2px;font:600 14px/1.4 "Libre Franklin",system-ui,sans-serif;color:#C9D6DF}.gv-join-s{padding:6px 10px!important;font-size:12px!important;margin-left:6px;vertical-align:middle}
 .gv-mo{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:3px;background:#B5123A;color:#fff!important;font:800 10px/1.4 "Libre Franklin",system-ui,sans-serif!important;letter-spacing:.08em;text-transform:uppercase}
 .gv-dls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 0}.gv-dl,.gr-dl{all:unset;cursor:pointer;padding:9px 12px;border:1px solid #D4ECF566;border-radius:5px;font:700 14px/1 "Libre Franklin",system-ui,sans-serif;color:#fff}.gv-dl:hover,.gr-dl:hover{background:#ffffff14}
@@ -445,3 +445,13 @@ html.gv-user .gv-rg{display:none!important}
  /* a ?go=gov link can render before this file loads: draw it now */
  try{if(typeof STATE!=='undefined'&&(STATE.view==='gov'||STATE.view==='ccri')&&typeof render==='function')render()}catch(_){}
 })();
+
+/* search feedback: show how many matches and jump to them */
+document.addEventListener('input',e=>{if(e.target.id!=='gvQ')return;const box=e.target;setTimeout(()=>{const root=box.closest('.gv');if(!root)return;
+ let s=document.getElementById('gvHits');if(!s){s=document.createElement('p');s.id='gvHits';s.style.cssText='margin:6px 0 0;font:600 14px/1.4 "Libre Franklin",system-ui,sans-serif;color:#D4ECF5';(box.closest('label')||box).insertAdjacentElement('afterend',s)}
+ const q=box.value.trim();if(!q){s.textContent='';return}
+ const hits=[...root.querySelectorAll('[data-q]')].filter(r=>r.offsetParent!==null&&!r.querySelector('[data-q]:not([hidden])'));
+ if(!hits.length){s.textContent='No matches for “'+q+'”.';return}
+ s.innerHTML=hits.length+' match'+(hits.length===1?'':'es')+' for “'+q.replace(/[<>&]/g,'')+'” · <a href="#" id="gvGo" style="color:#E9C46A">Show results ↓</a>';
+ document.getElementById('gvGo').onclick=ev=>{ev.preventDefault();hits[0].scrollIntoView({behavior:'smooth',block:'center'})};
+},60)});
