@@ -187,10 +187,37 @@ bn = pubg.get('benefits') or {}
 pubg['benefits'] = {'statewide_costs': [c for c in bn.get('statewide_costs', []) if '% of salaries' in c.get('item', '') or 'example' in c.get('item', '').lower()]} if bn else None
 if pubg.get('assessment'):
     pubg['assessment'] = {'intro': pubg['assessment'].get('intro'), 'items': [{'agency': i['agency'], 'call': i.get('call')} for i in pubg['assessment'].get('items', [])], 'caveats': pubg['assessment'].get('caveats')}
+pubg['hype'] = {'employees': P['active'], 'contacts': len(cmap), 'board_members': BS['members'], 'boards': BS['with_members'], 'expired_terms': BS['expired'],
+    'ot_people': OT.get('people_with_ot'), 'ot_100k': OT.get('over_100k'), 'ot_over_base': OT.get('over_base_count'), 'agencies': len(P['depts']),
+    'titles': sum(len(d['titles']) for d in P['depts']), 'years': len(P['years']), 'verdicts': len((gov.get('assessment') or {}).get('items', [])),
+    'pension_groups': len(((gov.get('benefits') or {}).get('pension') or {}).get('plans', [])), 'unions': len((gov.get('benefits') or {}).get('unions', [])), 'tracked': (gov.get('insights') or {}).get('people_tracked')}
 json.dump(pubg, open(os.path.join(REPO, 'data', 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 # ---- free-account layer (any signed-in reader): findings, reasoning, benefits, budget detail; still no names or direct contacts
 reg = copy.deepcopy(pubg); reg['tier'] = 'registered'
-reg['insights'] = gov.get('insights'); reg['assessment'] = gov.get('assessment'); reg['benefits'] = gov.get('benefits')
+# RULE: free = who runs it + front door; free account = every service desk + how the money works; members = the people and the payroll
+reg['benefits'] = gov.get('benefits')
+FA = {a['id']: a for a in gov['agencies']}
+for a in reg['agencies']:
+    src = FA.get(a['id'], {})
+    for k in ('other_phones', 'email', 'hours'):
+        if src.get(k): a[k] = src[k]
+    a.pop('locked', None)
+FT = {x['name']: x for x in gov['towns']}
+for tw in reg['towns']:
+    src = FT.get(tw['name'], {})
+    for k in ('clerk_phone', 'tax_phone', 'police_nonemergency', 'tax_rate_res', 'tax_rate_comm', 'budget', 'hours'):
+        if src.get(k): tw[k] = src[k]
+    tw.pop('locked', None)
+FC = {c['name']: c for c in gov['judicial'].get('courts', [])}
+for c in reg['judicial'].get('courts', []):
+    for i, l in enumerate(c.get('locations', [])):
+        try: l['clerk_phone'] = FC[c['name']]['locations'][i].get('clerk_phone', '')
+        except Exception: pass
+FS = {(s.get('agency_match'), s.get('name')): s for s in gov.get('sites', [])}
+for s in reg.get('sites', []):
+    src = FS.get((s.get('agency_match'), s.get('name')), {})
+    for k in ('address', 'phone', 'staff_note'):
+        if src.get(k): s[k] = src[k]
 reg['extra_budgets'] = gov.get('extra_budgets', [])
 fullb = {a['id']: a.get('budget') for a in gov['agencies']}
 for a in reg['agencies']:
@@ -206,6 +233,7 @@ if cc:
     rc = copy.deepcopy(cc); rc['tier'] = 'registered'
     json.dump(rc, open(os.path.join(PREM2, 'registered', 'ccri.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     pc = copy.deepcopy(cc); pc['tier'] = 'free'
+    pc['hype'] = {'dates': len(cc.get('dates', [])), 'offices': len(cc.get('offices', [])), 'campuses': len(cc.get('campuses', []))}
     for cp in pc.get('campuses', []): cp.pop('phone', None)
     for o in pc.get('offices', []):
         for k in ('phone', 'email', 'hours'): o.pop(k, None)
