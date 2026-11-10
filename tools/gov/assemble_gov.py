@@ -156,6 +156,10 @@ if os.path.isdir(pub): shutil.rmtree(pub)  # name-level rosters are members-only
 print('premium files', len(os.listdir(os.path.join(PREM, 'payroll'))), 'in', PREM)
 # ---- members get the full copy (private bucket); the public file keeps only the free layer
 import copy
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import v2_import
+V2 = os.path.join(os.path.dirname(os.path.abspath(PD)), 'v2-b90')
+if os.path.isdir(V2): v2_import.apply(gov, V2); print('v2 research applied')
 json.dump(gov, open(os.path.join(PREM, 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 pubg = copy.deepcopy(gov)
 pubg['tier'] = 'free'
@@ -177,6 +181,17 @@ for c in pubg['judicial'].get('courts', []):
 for tw in pubg['towns']:
     for k in ('clerk_phone', 'tax_phone', 'police_nonemergency', 'tax_rate_res', 'tax_rate_comm', 'budget', 'hours'): tw.pop(k, None)
     tw['locked'] = 'town'
+for q in pubg.get('quasi', []): q.pop('auth_money', None); q.pop('auth_people', None)
+pubg.pop('payees', None); pubg.pop('contracts', None); pubg.pop('regional_districts', None)
+for a in pubg['agencies']:
+    if a.get('heads'): a['heads_n'] = len(a['heads'])
+    a.pop('heads', None)
+for q in pubg.get('quasi', []):
+    pass
+for tw in pubg['towns']:
+    tw.pop('budget27', None); tw.pop('school27', None)
+    if tw.get('district'): tw['district'] = {k: tw['district'].get(k) for k in ('name', 'regional', 'super', 'source')}
+for b in (pubg.get('keyboards') or {}).get('boards', {}).values(): b.pop('pay', None); b.pop('staff', None)
 for s in pubg.get('sites', []):
     for k in ('address', 'phone', 'staff_note'): s.pop(k, None)
 P2 = pubg['payroll']
@@ -219,6 +234,20 @@ for s in reg.get('sites', []):
     for k in ('address', 'phone', 'staff_note'):
         if src.get(k): s[k] = src[k]
 reg['extra_budgets'] = gov.get('extra_budgets', [])
+for a in reg['agencies']:
+    src = FA.get(a['id'], {})
+    if src.get('heads'): a['heads_n'] = len(src['heads'])
+for k in ('payees', 'contracts', 'regional_districts'):
+    if gov.get(k) is not None: reg[k] = gov[k]
+FQ = {q.get('name'): q for q in gov.get('quasi', [])}
+for q in reg.get('quasi', []):
+    if FQ.get(q.get('name'), {}).get('auth_money'): q['auth_money'] = FQ[q['name']]['auth_money']
+FT2 = {x['name']: x for x in gov['towns']}
+for tw in reg['towns']:
+    src = FT2.get(tw['name'], {})
+    for k in ('budget27', 'school27', 'district'):
+        if src.get(k) is not None: tw[k] = src[k]
+if gov.get('keyboards'): reg['keyboards'] = gov['keyboards']
 fullb = {a['id']: a.get('budget') for a in gov['agencies']}
 for a in reg['agencies']:
     if fullb.get(a['id']): a['budget'] = fullb[a['id']]
