@@ -95,6 +95,7 @@
    '<label class="hp-wide">Search<input data-hp="q" type="search" placeholder="e.g. heating, Medicare, property tax" value="'+X(st.q)+'"></label>'+
    '<label class="hp-chk"><input type="checkbox" data-hp="closed"'+(st.closed?' checked':'')+'> Include closed and historical programs</label></div>'+
    '<p class="hp-count"><b>'+L.length+'</b> programs'+(st.view?' · '+X(BV[st.view]):'')+'. Program pages don’t prove money is left or that you qualify; check with the administrator.</p>'+L.map(benCard).join('')}
+ window.hpOpen=function(o){Object.assign(st,o||{});save();if(typeof go==='function')go('help')};
  window.vHelp=function(){load();
   const head='<div class="hp-head"><h2>Help &amp; Benefits'+(JT?' for Jamestown':' for Rhode Islanders')+'</h2><p>Free to use. Find practical help near you, and the benefits and programs you may qualify for. Independent and privately run by '+(JT?'Jamestown Island News':'Rhode Island Hurricane')+'; not a government agency.</p>'+
    '<p class="hp-urgent"><b>Emergency? Call 911.</b> For help finding services any time, call <a class="hp-tel" href="tel:211">211</a>.</p>'+
