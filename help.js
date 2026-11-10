@@ -11,7 +11,7 @@
  const mail=e=>np(e)||!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e)?'':'<a href="mailto:'+X(e)+'">'+X(e)+'</a>';
  const JT=/jamestown/i.test(location.hostname+document.title);
  let H=null,asked=false;
- const st={tab:'find',town:JT?'Jamestown':'',cat:'',age:'',cost:'',home:false,ride:false,role:'',strict:false,prudence:'',zip:'',view:'',bcat:'',q:'',closed:false};
+ const st={ccat:'',cstage:'',ctype:'',cage:'',cscope:'',croute:'',cmode:'',cstat:'',cq:'',cnoinc:false,tab:'find',town:JT?'Jamestown':'',cat:'',age:'',cost:'',home:false,ride:false,role:'',strict:false,prudence:'',zip:'',view:'',bcat:'',q:'',closed:false};
  try{const s=JSON.parse(sessionStorage.getItem('hpState')||'null');if(s)Object.assign(st,s,{town:s.town||st.town})}catch(_){}
  const save=()=>{try{sessionStorage.setItem('hpState',JSON.stringify({tab:st.tab,town:st.town,cat:st.cat,view:st.view}))}catch(_){}};
  function load(){if(asked)return;asked=true;fetch('data/help.json?'+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(r=>r.json()).then(j=>{H=j;try{if(typeof STATE!=='undefined'&&STATE.view==='help'&&typeof render==='function')render()}catch(_){}}).catch(()=>{asked=false})}
@@ -95,14 +95,14 @@
    '<label class="hp-wide">Search<input data-hp="q" type="search" placeholder="e.g. heating, Medicare, property tax" value="'+X(st.q)+'"></label>'+
    '<label class="hp-chk"><input type="checkbox" data-hp="closed"'+(st.closed?' checked':'')+'> Include closed and historical programs</label></div>'+
    '<p class="hp-count"><b>'+L.length+'</b> programs'+(st.view?' · '+X(BV[st.view]):'')+'. Program pages don’t prove money is left or that you qualify; check with the administrator.</p>'+L.map(benCard).join('')}
- window.hpOpen=function(o){Object.assign(st,o||{});save();if(typeof go==='function')go('help')};
+ window.__hpRedraw=()=>{try{redraw()}catch(_){}};window.hpOpen=function(o){Object.assign(st,o||{});save();if(typeof go==='function')go('help')};
  window.vHelp=function(){load();
   const head='<div class="hp-head"><h2>Help &amp; Benefits'+(JT?' for Jamestown':' for Rhode Islanders')+'</h2><p>Free to use. Find practical help near you, and the benefits and programs you may qualify for. Independent and privately run by '+(JT?'Jamestown Island News':'Rhode Island Hurricane')+'; not a government agency.</p>'+
    '<p class="hp-urgent"><b>Emergency? Call 911.</b> For help finding services any time, call <a class="hp-tel" href="tel:211">211</a>.</p>'+
-   '<div class="hp-tabs"><button type="button" data-hpt="find" class="'+(st.tab==='find'?'on':'')+'">Find help near me</button><button type="button" data-hpt="benefits" class="'+(st.tab==='benefits'?'on':'')+'">Benefits &amp; programs</button></div></div>';
+   '<div class="hp-tabs"><button type="button" data-hpt="find" class="'+(st.tab==='find'?'on':'')+'">Find help near me</button><button type="button" data-hpt="benefits" class="'+(st.tab==='benefits'?'on':'')+'">Benefits &amp; programs</button><button type="button" data-hpt="cancer" class="'+(st.tab==='cancer'?'on':'')+'">Cancer help &amp; recovery</button></div></div>';
   if(!H)return '<section class="box hp">'+head+'<p class="hp-note">Loading…</p></section>';
-  return '<section class="box hp">'+head+'<div id="hpBody">'+(st.tab==='find'?vFind():vBen())+'</div><p class="hp-foot">Research of official published information as of Nov. 10, 2026. Nothing you choose here is saved on a server or sent to any provider. Always confirm with the provider before you go.</p></section>'};
- const redraw=()=>{const b=document.getElementById('hpBody');if(!b||!H)return;const f=document.activeElement&&document.activeElement.dataset?document.activeElement.dataset.hp:null;b.innerHTML=st.tab==='find'?vFind():vBen();if(f){const e=b.querySelector('[data-hp="'+f+'"]');if(e&&e.tagName==='INPUT'&&e.type!=='checkbox'&&e.type!=='radio'){e.focus();const v=e.value;try{e.setSelectionRange(v.length,v.length)}catch(_){}}}save()};
+  return '<section class="box hp">'+head+'<div id="hpBody">'+((st.tab==='cancer'?(window.hpCancer?hpCancer(st,H):''):st.tab==='find'?vFind():vBen()))+'</div><p class="hp-foot">Research of official published information as of Nov. 10, 2026. Nothing you choose here is saved on a server or sent to any provider. Always confirm with the provider before you go.</p></section>'};
+ const redraw=()=>{const b=document.getElementById('hpBody');if(!b||!H)return;const f=document.activeElement&&document.activeElement.dataset?document.activeElement.dataset.hp:null;b.innerHTML=(st.tab==='cancer'?(window.hpCancer?hpCancer(st,H):''):st.tab==='find'?vFind():vBen());if(f){const e=b.querySelector('[data-hp="'+f+'"]');if(e&&e.tagName==='INPUT'&&e.type!=='checkbox'&&e.type!=='radio'){e.focus();const v=e.value;try{e.setSelectionRange(v.length,v.length)}catch(_){}}}save()};
  document.addEventListener('input',e=>{const k=e.target.dataset&&e.target.dataset.hp;if(!k||!e.target.closest('.hp'))return;const el=e.target;
   if(el.type==='checkbox')st[k]=el.checked;else if(el.type==='radio')st[k]=el.value;else st[k]=el.value;
   if(k==='zip'){st.zip=el.value.replace(/\D/g,'').slice(0,5);if(st.zip==='02835')st.town='Jamestown'}

@@ -1,0 +1,1099 @@
+CLAUDE HANDOFF — NATIONWIDE CANCER HELP & RECOVERY
+Project: Rhode Island Hurricane / existing Help & Benefits section
+Prepared: November 10, 2026
+Research snapshot: November 10, 2026
+Deliverable type: Implementation brief plus complete source research
+Source inventory: 72 numbered assistance programs, benefits and navigation routes
+
+PART 1 — ASSIGNMENT
+
+Build a substantial, searchable Cancer Help & Recovery section inside the existing project, using the full research appended to this file. Inspect the current application, data conventions, navigation and project instructions before choosing implementation details. Use the site's existing Help & Benefits section if present. The proposed section name is "Cancer Help & Recovery"; adapt the exact route to the project.
+
+The audience is people in active treatment, people recovering after treatment, people living with lasting effects or recurrence, and caregivers. Cover all ages and cancer types. The geographic scope is nationwide. Rhode Island residents must be able to find nationally accessible help and identify the separately labeled New England resource.
+
+The owner specifically wants a practical list: money, grants, disability, bill relief, food, utilities, housing, transportation, home help and recovery services. Lead with those actions. Use the research to implement the directory, not merely to write another overview or planning response.
+
+The complete 72-entry research is embedded in Part 3. Do not ask the owner to resend it. Treat it as a dated source dataset with explicit limitations. There has been no live-site implementation in this handoff, no application submitted, and no determination that an individual qualifies.
+
+PART 2 — IMPLEMENTATION SPECIFICATION
+
+A. CONTENT PRIORITIES
+
+Provide these user-facing categories, adapting to the site's established navigation:
+- Money and living-expense grants.
+- Disability and income replacement.
+- Medical bills, insurance and prescription costs.
+- Food, housing and utilities.
+- Rides, airfare and places to stay.
+- Help at home and caregiver assistance.
+- Recovery, rehabilitation and emotional support.
+- Help for a specific cancer or age group.
+- An advocate who can help apply.
+
+Preserve eligibility after treatment as a first-class field. Clearly distinguish a program that accepts survivors from one limited to active treatment, a recent-completion window, active surveillance, or continuing functional disability.
+
+A helpful starting view for users should answer:
+1. What does this program actually provide?
+2. Could someone in my treatment/recovery stage use it?
+3. Are there diagnosis, age, income, insurance or location restrictions?
+4. Is the fund accepting applications, closed, waitlisted, or not confirmed?
+5. Can I apply myself, or does my care team have to submit?
+6. What is the verified application link or telephone contact?
+
+Cross-link this section with existing Senior Benefits, Mental Health & Self-Help, transportation, home assistance and disability pages when those destinations actually exist. Keep cancer assistance accessible to younger adults and families too.
+
+B. DIRECTORY EXPERIENCE
+
+Use readable cards or rows with a compact summary and an expandable eligibility/details area. Match the site's current design. Prioritize legibility for older readers, comfortable touch targets, keyboard access and a usable mobile layout.
+
+Offer search across organization, program name, cancer type and assistance purpose. Useful optional filters:
+- Type of help.
+- Active treatment / recovering / longer-term survivor / caregiver.
+- Cancer type, including all cancers.
+- National / state-administered / regional / local-match service.
+- Age restrictions.
+- Income or insurance requirements.
+- Self-application / professional referral required.
+- Open / waitlist / closed / ended / availability not confirmed.
+- Online or telephone help / in-person or location-dependent help.
+
+Do not implement an eligibility verdict or tell users that they qualify based on a few filters. Search results identify potentially relevant resources. Do not add a clinical profile, benefits application or sensitive-record upload flow.
+
+For each entry show:
+- Program and organization.
+- Concrete assistance provided.
+- Amount or cost, where published.
+- Major eligibility limitations.
+- Whether help can continue after treatment.
+- Geographic restrictions.
+- How to apply.
+- Telephone and/or official application link.
+- Funding/application status and its source date.
+- Official source links.
+
+Use action labels that match the destination: "Apply", "Check eligibility", "Find a local provider", "Call", "Contact a navigator", or "Get reopening alerts". A closed or discontinued fund must not receive a misleading "Apply now" label. Use "No charge" when the evidence supports it; preserve "low or no cost" or other qualifications when appropriate.
+
+C. DATA MODEL AND IMPORT
+
+Adapt to the existing application schema. Preserve at least these concepts:
+
+{
+  "id": "stable-program-id",
+  "research_entry_ids": [1],
+  "organization": "published organization name",
+  "program_name": "published program name",
+  "categories": ["income_disability"],
+  "assistance_types": ["cash_benefit"],
+  "summary": "plain-language description",
+  "benefit_amount_text": "published amount, range, or not published",
+  "cost_text": "published cost or not published",
+  "cancer_types": ["all"],
+  "treatment_stage_notes": "source-supported rules",
+  "post_treatment_eligibility": "yes|conditional|no|not_published",
+  "post_treatment_notes": "exact restrictions or time window",
+  "age_notes": "published criteria or not published",
+  "income_notes": "published criteria or not published",
+  "insurance_notes": "published criteria or not published",
+  "geographic_scope": "national|state_administered|regional|local_network|not_published",
+  "geographic_notes": "specific limits",
+  "eligibility_text": "complete summary of material conditions",
+  "application_route": "self|professional|either|not_published",
+  "application_instructions": "what the applicant should do",
+  "application_url": null,
+  "phone": null,
+  "application_status": "open|waitlist|closed|ended|variable|not_confirmed",
+  "application_status_notes": "what the source actually says",
+  "status_as_of": null,
+  "source_reviewed_at": "2026-11-10",
+  "last_reverified_at": null,
+  "sources": [
+    {
+      "url": "exact official source URL",
+      "supports": ["eligibility", "benefit", "application_status"],
+      "evidence_method": "direct_page|official_indexed_text|not_recorded",
+      "checked_at": "2026-11-10"
+    }
+  ],
+  "verification_notes": "limitations, conflicts or pending confirmation"
+}
+
+This is a schema example, not a filled record. Do not assign an evidence method or specific field-level claim unless supported by the research or your own review. Some original entries list multiple source pages without a per-field mapping; retain that limitation until checked.
+
+Use null for unknown machine-readable values and display "Not published" or "Check with program" as appropriate. Never infer an email address, telephone number, intake URL, cash award, opening date, service area or income threshold.
+
+Keep program-level records rather than combining materially different services under one organization's name. Conversely, several source entries are benefit pathways or groups of related awards rather than standalone grant programs. Preserve their meaning. Maintain a mapping from all 72 source entries to imported records, grouped subprograms or a documented verification/closure record. Do not silently drop entries to make the count cleaner, and do not advertise 72 currently open cash grants.
+
+Deduplicate with the existing site's content. Cleaning for a Reason may already be present: reuse the canonical record and add the cancer category or relationship as appropriate. Prevent duplicate grant pools when importing legacy names.
+
+D. REQUIRED FACTUAL QUALIFICATIONS
+
+Retain these dated findings from the supplied research unless a newer official source supersedes them:
+
+1. PAN Foundation and PAF Co-Pay Relief new/renewal assistance moved to TotalAssist in July 2026. Do not show three independent new grant pools.
+2. Cancer Cartel was closed; its official grant page projected February 1, 2027, 9 a.m. Pacific as the next opening. Keep "projected". Its older FAQ mentioned October; the more current grant-information page controlled the research snapshot.
+3. SAMFund was closed, with a January 2027 cycle announced. It serves qualifying young adult survivors ages 21-39.
+4. Colorectal Cancer Alliance's Blue Hope Financial Assistance Award ended February 23, 2026. The organization's navigation services remain useful.
+5. HealthWell's Prostate Cancer Medicare Access fund was closed to new patients at direct review. Its listed maximum award is not money available to every prostate survivor.
+6. TotalAssist prostate-related funds were listed closed in official indexed results. Recheck current status rather than copying a third-party reopening claim.
+7. Family Reach's reviewed available grant list focused on multiple myeloma and specified clinical trials. Do not present an open all-cancer household grant without new evidence.
+8. Cancer and Careers resume-review intake was paused; educational resources were still available.
+9. CancerCare national resource navigation is distinct from individual counseling, whose reviewed page specified New York/New Jersey. Its post-treatment online group specified completion within 18 months.
+10. Cleaning for a Reason includes certain recovery situations, but the research did not establish a universal long-term-survivor eligibility window.
+11. The YMCA's national LIVESTRONG page said low or no cost; branch-specific pricing and availability require confirmation.
+12. Joe Andruzzi Foundation is a New England resource. Its transportation program was specifically Massachusetts/Rhode Island.
+13. SSDI is not automatic after cancer. It requires work-insurance eligibility and SSA's disability standard; lasting treatment effects can be relevant. SSI is a separate means-tested benefit.
+14. Compassionate Allowances is a faster disability review pathway, not an extra cash grant.
+15. Navigation, grants, health coverage, wage replacement and donated services should have distinct labels.
+16. A grant maximum, reimbursement limit or published possible expense is not a guaranteed award.
+17. Funders' definitions of "active treatment" are administrative eligibility rules. Do not generalize them into clinical definitions.
+18. Source date, application status and actual local capacity are different facts. "Program described on official website" does not establish that applications are open.
+
+E. VERIFICATION BEFORE PUBLICATION
+
+Use official administering organizations and government sources. The research contains source URLs for each entry and records when direct page access was unavailable. Preserve the November 10, 2026 research date. Set a newer verification date only after actually checking the relevant source.
+
+Prioritize fresh checks for funding status, award amounts, income thresholds, intake routes, phone numbers and future opening dates. If a page is blocked, conflicting or unclear, retain an explicit qualification and use the official contact route. Avoid converting unavailable information into a confident claim.
+
+Keep closed and ended programs out of a default "available now" list while preserving a clearly marked status record or reopening option. "Availability not confirmed" must remain distinguishable from "open". Do not create a recurring paid monitoring service or promise automated checking as part of this content import; use any existing authorized refresh workflow.
+
+Do not turn this national guide into a claim of exhaustive coverage of every local program in all 50 states. State-administered benefits require the correct state application route. National networks may depend on local volunteers, providers or rooms.
+
+F. IMPLEMENTATION AND VALIDATION
+
+Proceed through normal reversible implementation work using the existing project workflow. Complete the data import, directory interface and navigation integration as far as the available repository and environment allow. Deployment follows the project's existing release process and authorization.
+
+Validate:
+- Every one of the 72 source entries is accounted for in the import mapping.
+- Official URLs and source review dates are retained.
+- No closed/ended fund appears as available now.
+- Search and filters work with combinations such as "prostate + after treatment", "all cancers + rides", and "childhood cancer + household bills".
+- Active-treatment restrictions are visible before users attempt to apply.
+- National versus regional coverage remains clear.
+- Maximum award amounts are not presented as guaranteed.
+- Telephone/application buttons use verified destinations.
+- Existing assistance records are reused where appropriate.
+- Mobile and keyboard navigation remain usable.
+- Relevant project checks pass.
+
+Do not publish personal information about the site owner, including diagnosis details, treatment history, age, medications, finances, family or clinician relationships. This directory serves the public.
+
+G. COMPLETION REPORT TO THE OWNER
+
+Report the concrete result: section/route implemented, number of source entries accounted for, number of public records, any grouped or duplicated entries, closed/ended resources, unresolved verification items, checks completed, and deployment status. Provide the resulting files and preview/site link when available. Do not describe the section as live until publication is actually confirmed.
+
+PART 3 — COMPLETE SOURCE RESEARCH
+
+The original research follows in full. Its instructions to applicants and dated program descriptions are source material for the directory. Preserve the eligibility and status qualifications during import.
+
+----- BEGIN COMPLETE 72-RESOURCE RESEARCH -----
+
+
+NATIONWIDE CANCER ASSISTANCE
+72 programs, benefits and practical assistance routes
+Official-source review: November 10, 2026 (America/New_York)
+
+PURPOSE
+Help people in active cancer treatment, recovering after treatment, living with lasting effects, and their caregivers identify money, bill relief and practical services. Entries distinguish cash benefits, grants, bills paid to vendors, donated services, insurance coverage and navigation.
+
+SCOPE AND VERIFICATION
+This is a broad national resource guide assembled from official agency, nonprofit, hospital-program and program-partner pages. It includes national programs, state-administered benefit pathways, and one clearly labeled New England entry useful to Rhode Island residents. It does not certify availability in every ZIP code or every state-administered program.
+Public program information was reviewed on the date above. No applications were submitted, providers contacted by telephone, or personal eligibility decisions obtained. Where direct page retrieval was blocked, official indexed text supplied the stated evidence. Dynamic grant status, service capacity and eligibility must be checked at application.
+An award maximum is a ceiling, not an entitlement. Navigation organizations help find assistance but do not necessarily provide cash. Treatment, recovery, remission and active surveillance have different definitions across funders.
+
+GOOD STARTING POINTS FOR SOMEONE RECOVERING FROM PROSTATE CANCER
+- ZERO360 (#61): prostate-specific insurance, bill and disability navigation.
+- CancerCare navigation (#63), plus its post-treatment group (#56) if within the 18-month window.
+- Hospital assistance/Dollar For (#8-9) for remaining hospital debt.
+- Survivorship rehabilitation and LIVESTRONG at the YMCA (#52-53) for recovery needs.
+- SSDI/SSI screening (#1-2) when current functional limitations and the relevant work/financial rules apply.
+- General food, home-energy and housing benefits (#35-40) when financially eligible.
+- ZERO peer support and Reel Recovery (#54, #57) for connection after treatment.
+
+DISABILITY: WHAT MAKES AN APPLICATION USEFUL
+Document what cancer and treatment effects prevent you from doing: sustained attendance, sitting/standing/walking, lifting, concentration and other work functions. Include relevant medical records, treatment dates, clinical assessments and expected duration. Remission does not automatically rule out disability, and cancer history alone does not establish it. SSA evaluates residual impairments when treatment has been effective.
+For someone who has stopped working, ask SSA to examine insured status and disability onset. For a denial, follow the notice: SSA generally requires an appeal within 60 days after receipt.
+Sources:
+https://www.ssa.gov/disability/professionals/bluebook/13.00-NeoplasticDiseases-Malignant-Adult.htm
+https://www.ssa.gov/benefits/disability/qualify.html
+https://www.ssa.gov/appeals/appeals_process.html
+
+APPLICATION PREPARATION
+Prepare diagnosis/treatment confirmation, dates of treatment completion and ongoing care, the specific bill or expense, insurance information, household size/current income documentation, and the care team's contact. Each program may request additional evidence.
+Ask the oncology social worker to screen for grants that require professional submission. Cancer Cartel, Family Reach, Joe Andruzzi and several transplant/pediatric programs use professional or navigator routes.
+Suggested request: "Please screen me for financial assistance, disability benefits, hospital bill reductions, medication help, transportation, home services and survivorship rehabilitation. Please check programs that accept people after treatment, and tell me which applications your office must submit."
+
+RESOURCE DIRECTORY
+
+INCOME, DISABILITY AND WORK PROTECTIONS
+
+1. Social Security Disability Insurance (SSDI)
+Help: Monthly income when a qualifying impairment prevents substantial work.
+Eligibility: Requires enough recent covered work and SSA's disability standard: inability to perform substantial gainful work expected to last at least 12 consecutive months or result in death. A cancer diagnosis alone is insufficient. Retirement from work does not itself establish disability; ask SSA about the date last insured.
+After treatment: Possible after successful cancer treatment when documented residual impairments still meet SSA's rules. No need to wait 12 months to apply if the duration requirement is expected to be met.
+Amount/cost: Based on the worker's earnings record; generally a five-month waiting period.
+Apply/contact: Apply through SSA; 800-772-1213. Request an assessment of work credits, insured status and potential onset date.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.ssa.gov/benefits/disability/qualify.html
+https://www.ssa.gov/disability/professionals/bluebook/13.00-NeoplasticDiseases-Malignant-Adult.htm
+
+2. Supplemental Security Income (SSI)
+Help: Monthly means-tested cash assistance for basic needs.
+Eligibility: Low income and limited countable resources, plus qualifying disability/blindness or age 65+. No prior work record required. Ordinary countable-resource limits are $2,000 individual/$3,000 couple; exclusions and household rules apply.
+After treatment: Possible after treatment if disability or age-based eligibility and financial criteria are met.
+Amount/cost: Varies with countable income, living arrangements and possible state supplements.
+Apply/contact: Apply through SSA; 800-772-1213.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.ssa.gov/ssi/eligibility
+
+3. SSA Compassionate Allowances
+Help: Faster disability claim identification and processing for listed serious conditions.
+Eligibility: Specific diagnoses/severity are required. The prostate entry is hormone-refractory disease or visceral metastases; it does not cover every prostate cancer diagnosis.
+After treatment: Only if the exact qualifying condition applies; other disability evaluation remains available for lasting impairments.
+Amount/cost: Not an additional grant or separate benefit, and not a universal waiver of payment waiting rules.
+Apply/contact: Tell SSA the exact diagnosis and provide pathology, staging and treatment records.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://secure.ssa.gov/apps10/poms.nsf/links/0423022080
+https://www.ssa.gov/benefits/disability/qualify.html
+
+4. Employer or private short-term/long-term disability coverage
+Help: Income replacement under an existing disability policy.
+Eligibility: Coverage must apply under the actual policy; medical definition, coverage dates, exclusions, filing deadlines and offsets differ. Request the Summary Plan Description or policy from the plan administrator.
+After treatment: Possible if treatment effects meet the policy definition, even after active treatment ends.
+Amount/cost: Policy-specific; not the same program as SSDI.
+Apply/contact: Contact the insurer/benefits administrator. DOL EBSA assistance: 866-444-3272.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.dol.gov/node/63367
+https://www.dol.gov/agencies/ebsa/key-topics/health-and-other-employee-benefits/disability-benefits
+
+5. State paid medical leave or temporary disability; paid family leave
+Help: Partial wage replacement for qualifying workers, and in some states caregivers.
+Eligibility: State-specific employment, wage and contribution rules; these benefits are not available under one nationwide policy. A retired person without qualifying covered employment should not assume eligibility.
+After treatment: May cover a medically certified recovery period or qualifying caregiving leave.
+Amount/cost: State- and earnings-specific.
+Apply/contact: Use your state's labor agency. Ask separately about your own medical leave and caregiver leave.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.dol.gov/agencies/whd/fmla/workplace-protections-for-individuals-cancer
+
+6. VA disability compensation and cancer-related health benefits
+Help: Tax-free disability compensation and potentially VA health care for service-connected disease.
+Eligibility: Military service and connection/presumption requirements apply. Prostate cancer is on VA's Agent Orange presumptive list for qualifying exposure; PACT Act coverage depends on applicable service/exposure rules.
+After treatment: Ask VA to assess ongoing residuals and current entitlement; a history of cancer does not by itself fix the payment level.
+Amount/cost: Based on VA rating and circumstances.
+Apply/contact: VA: 800-698-2411; apply through VA or an accredited veterans representative.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.va.gov/disability/eligibility/hazardous-materials-exposure/agent-orange/
+https://www.va.gov/resources/the-pact-act-and-your-va-benefits/
+
+7. FMLA leave and ADA workplace accommodations
+Help: Job protection, continued health coverage under qualifying FMLA leave, and reasonable workplace adjustments.
+Eligibility: Employee/employer eligibility and legal standards apply. FMLA generally provides up to 12 workweeks of unpaid protected leave; it is not a cash benefit. ADA accommodations depend on need and undue-hardship rules.
+After treatment: Can remain relevant during remission and for lasting treatment limitations.
+Amount/cost: Protection rather than a grant; paid leave may run alongside it.
+Apply/contact: Employer HR; DOL Wage and Hour Division: 866-487-9243. Triage Cancer can help explain options.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.dol.gov/agencies/whd/fmla/workplace-protections-for-individuals-cancer
+
+
+MEDICAL BILLS, MEDICINES AND INSURANCE
+
+8. Hospital charity care / financial assistance policy
+Help: Free or discounted medically necessary hospital care and potential reduction of unpaid hospital debt.
+Eligibility: Tax-exempt hospitals must maintain written assistance policies. Income, household size and hardship criteria differ; having insurance does not automatically prevent help. Separate physician bills may not be covered.
+After treatment: Yes: ask about outstanding bills even after treatment and, where relevant, bills in collections.
+Amount/cost: May reduce or eliminate qualifying balances; no national dollar amount.
+Apply/contact: Ask the hospital billing office for its financial assistance application, plain-language policy and list of covered providers.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps
+https://www.usa.gov/help-with-medical-bills
+https://www.consumerfinance.gov/ask-cfpb/is-there-financial-help-for-my-medical-bills-en-2124/
+
+9. Dollar For
+Help: Free help pursuing hospital financial assistance and bill forgiveness.
+Eligibility: Hospital bills only; its intake excludes standalone dental, ambulance, pharmacy and other non-hospital bills. Hospital policy determines financial eligibility.
+After treatment: Yes: potentially useful for debt from completed treatment.
+Amount/cost: No cash award; potential hospital-balance reduction.
+Apply/contact: Start through dollarfor.org/help or its official contact form.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://forms.dollarfor.org/external/web_contact_form.php
+https://expectmiraclesfoundation.org/dollar-for/
+
+10. Patient Advocate Foundation TotalAssist
+Help: Disease-specific help with eligible out-of-pocket treatment costs, insurance premiums and other covered expenses.
+Eligibility: Match diagnosis, insurance, income and treatment requirements to the fund. Many funds use up to 500% FPL adjusted for local cost of living. General eligibility pages and fund-specific rules must be read together.
+After treatment: Some funds include recent treatment and active surveillance; verify the particular fund instead of assuming all survivors qualify.
+Amount/cost: Fund-specific; restricted expense coverage rather than unrestricted cash.
+Apply/contact: 866-512-3861; https://totalassist.org/funds/ . Sign up for fund-opening notices when closed.
+Status: New/renewal PAN and PAF Co-Pay Relief assistance moved to TotalAssist July 1, 2026. Official indexed listings reviewed showed prostate, prostate health equity and metastatic prostate funds closed; recheck before applying.
+Reviewed: 2026-11-10
+Official sources:
+https://totalassist.org/terms-conditions/
+https://totalassist.org/how-totalassist-helps-you/
+https://totalassist.org/funds/
+https://uniting.patientadvocate.org/patients/
+
+11. HealthWell Foundation
+Help: Disease-specific medication copay/premium assistance and certain other costs.
+Eligibility: Insured patients whose medication and diagnosis meet fund rules; income limits vary by fund, commonly 300%-500% FPL. Treatment must be in the United States.
+After treatment: Only if there is an eligible ongoing expense and covered diagnosis/treatment; not general recovery income.
+Amount/cost: Fund-specific. Prostate Cancer Medicare Access lists a $6,000 maximum, not a guaranteed payment.
+Apply/contact: 800-675-8416; use the fund list and alerts.
+Status: Prostate Cancer Medicare Access directly reviewed: closed to new patients. Other funds have separate status.
+Reviewed: 2026-11-10
+Official sources:
+https://www.healthwellfoundation.org/patients/
+https://www.healthwellfoundation.org/fund/prostate-cancer-medicare-access/
+
+12. CancerCare Co-Payment Assistance Foundation
+Help: Help with eligible medication copays, coinsurance and deductibles.
+Eligibility: Insured patients with a covered cancer/medication and qualifying income, generally up to 500% FPL; some funds restrict insurance types. This program does not cover general scans, radiation, lab bills or premiums.
+After treatment: Usually tied to covered active treatment or a treatment plan rather than a cancer history alone.
+Amount/cost: Varies by diagnosis; some qualifying first-time applicants may receive eligible reimbursement up to 60 days before approval.
+Apply/contact: 866-552-6729; select the diagnosis on the official fund page.
+Status: Fund openings change. Closed funds offer reopening email notifications, not a waiting list.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancercare.org/copayfoundation
+
+13. The Assistance Fund (TAF)
+Help: Disease-specific prescription copay help and, for certain programs, additional treatment expenses.
+Eligibility: Application requires diagnosis, income/household and insurance information. Covered expenses and criteria depend on the disease program.
+After treatment: Ask whether current expenses and treatment meet the disease-program rules.
+Amount/cost: Varies by program; assistance operates on a calendar-year basis.
+Apply/contact: Use TAF's online disease program and enrollment portal.
+Status: Program-specific availability; most closed programs offer a time-stamped waitlist. Reenrollment occurs in November/December.
+Reviewed: 2026-11-10
+Official sources:
+https://apply.tafcares.org/s/enrollment-info
+
+14. Good Days
+Help: Copayment assistance for covered disease treatments.
+Eligibility: Generally income at or below 500% FPL, insurance covering at least 50% of treatment, valid Social Security number, U.S. treatment and an eligible FDA-approved medicine. Fund must accept enrollment.
+After treatment: Only when ongoing covered treatment/expenses meet criteria.
+Amount/cost: Fund-specific; calendar-year award or until funds exhausted.
+Apply/contact: 877-968-7233; review covered diseases and apply.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://mygooddays.org/patients/how-to-apply/qualify/
+https://mygooddays.org/about/faq/
+
+15. Drug manufacturer patient assistance programs
+Help: Free medication or financial assistance for eligible people who cannot afford a prescribed drug.
+Eligibility: Manufacturer-, drug-, income- and coverage-specific. Free-drug programs and commercial insurance copay cards are different; Medicare eligibility must be assessed under the particular program.
+After treatment: Potentially, if an eligible medicine is still needed for cancer or related illness.
+Amount/cost: Drug-specific; may supply medicine instead of money.
+Apply/contact: Ask the oncology pharmacist to check the manufacturer's current patient assistance program; CMS explains how free-drug PAPs can operate for Part D enrollees.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cms.gov/medicare/coverage/prescription-drug-coverage/patient-assistance-program
+
+16. Medicaid and CHIP
+Help: Free or low-cost health coverage for eligible adults and children.
+Eligibility: State residency and state/category-specific income, age, pregnancy or disability criteria. Applications can be made year-round.
+After treatment: Yes if financial/categorical eligibility is met; active cancer is not required.
+Amount/cost: Health coverage rather than a general cash grant.
+Apply/contact: Apply to your state Medicaid agency or through the Marketplace screening route.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.usa.gov/medicaid-chip-insurance
+
+17. ACA Marketplace coverage and financial-help screening
+Help: Access to individual health plans and an application that determines available financial help.
+Eligibility: Eligibility, enrollment windows and state exchange apply. Compare actual oncology providers and prescription coverage before selecting a plan; do not assume all policies cover the same network.
+After treatment: Yes; not limited to people receiving treatment.
+Amount/cost: Application-specific; do not use old subsidy figures without a current quote.
+Apply/contact: HealthCare.gov routes applicants to the applicable Marketplace; free enrollment help is available.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.healthcare.gov/apply-and-enroll/how-to-apply/
+https://www.usa.gov/benefits
+
+18. Medicare Savings Programs
+Help: Help paying Medicare Part A/Part B premiums and, under QMB, covered deductibles and cost sharing.
+Eligibility: Medicare and state financial criteria. State rules can be more generous than federal published limits.
+After treatment: Yes; based on Medicare/financial eligibility.
+Amount/cost: Depends on QMB, SLMB, QI or QDWI eligibility.
+Apply/contact: Apply through state Medicaid; SHIP can assist.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.medicare.gov/basics/costs/help/medicare-savings-programs
+
+19. Medicare Part D Extra Help
+Help: Help paying prescription coverage premiums, deductibles and drug cost sharing.
+Eligibility: Medicare and limited income/resources; some Medicaid, MSP or SSI recipients qualify automatically. Territorial rules differ and Extra Help itself is not available in U.S. territories.
+After treatment: Yes; ongoing prescription needs can qualify after cancer treatment.
+Amount/cost: Individualized savings; official page separates 2026 eligibility from upcoming 2027 drug-cost information.
+Apply/contact: Apply through SSA/Medicare or get SHIP help.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.medicare.gov/basics/costs/help/drug-costs
+
+20. State Health Insurance Assistance Programs (SHIP)
+Help: Free objective Medicare counseling, benefit applications, coverage comparisons, appeals and complaints.
+Eligibility: Medicare-eligible people, families and caregivers; available through a national network of state/territorial programs.
+After treatment: Yes.
+Amount/cost: No charge; navigation rather than a grant.
+Apply/contact: 877-839-2675; find the local SHIP through shiphelp.org.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.shiphelp.org/what-we-do/about-ships/
+
+
+LIVING-EXPENSE GRANTS
+
+21. CancerCare financial assistance
+Help: Limited grants for specified costs such as transportation, home care, childcare and other funded needs.
+Eligibility: Cancer confirmation, active treatment, U.S./Puerto Rico residence and financial criteria. Available aid is diagnosis- and location-dependent; home/childcare help should not be assumed nationwide.
+After treatment: General grant program is principally active-treatment based; ask a social worker about exact current criteria.
+Amount/cost: No universal award amount published on the reviewed general page.
+Apply/contact: 800-813-4673; social-worker screening starts the application.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancercare.org/financial
+https://faportal.cancercare.org/FAQ
+
+22. Cancer Cartel Warrior grant
+Help: One-time unrestricted assistance with everyday expenses.
+Eligibility: Current treatment or within 12 months of completion. Only an approved hospital/cancer-center social worker, case manager or navigator can submit; medical documentation required.
+After treatment: Yes, but within the 12-month treatment-completion window and subject to the rules when applications reopen.
+Amount/cost: $1,000 one-time grant.
+Apply/contact: Ask the oncology social-work team to review the current portal and submit when available.
+Status: Portal closed on review. Next opening projected February 1, 2027, 9 a.m. Pacific; projected, not guaranteed. The grant-information page supersedes older October-opening wording.
+Reviewed: 2026-11-10
+Official sources:
+https://cancercartel.org/please-read-cancer-warrior-faq
+https://cancercartel.org/warriorgrantinfo
+
+23. Family Reach
+Help: Grants for non-medical needs such as housing, utilities, groceries and transportation.
+Eligibility: Active treatment in the U.S./territories, generally household income within 300% FPL, and an available matching fund. Healthcare-team member must apply. Its administrative active-treatment definition excludes long-term hormonal therapy and certain other categories; this is an eligibility rule, not a medical definition.
+After treatment: Generally not a broad post-treatment grant.
+Amount/cost: Fund-specific; bills may be paid to vendors.
+Apply/contact: 973-394-1411; ask the treatment team to review and apply through the official financial-assistance page.
+Status: Reviewed page listed multiple-myeloma and specified clinical-trial funds. Do not advertise general grants as open for every cancer.
+Reviewed: 2026-11-10
+Official sources:
+https://familyreach.org/get-help/financial-assistance/
+https://apply.familyreach.org/apply/
+
+24. Blood Cancer United financial assistance (formerly Leukemia & Lymphoma Society)
+Help: Patient aid, urgent needs, travel, copays/premiums and certain local grants for blood cancers.
+Eligibility: Program-specific rules. Patient Aid has no income limit and can include surveillance before or after treatment; other funds impose financial, diagnosis and availability rules.
+After treatment: Yes for some programs, explicitly including post-treatment surveillance.
+Amount/cost: Patient Aid: one-time $100. Listed urgent-need/travel/local programs: $500 each, subject to separate criteria. Pre-CAR-T travel program lists $2,500.
+Apply/contact: 877-557-2672 for financial-assistance intake; use the official program selector.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://bloodcancerunited.org/financial-assistance
+https://bloodcancerunited.org/financial-assistance/patient-aid-program
+
+25. SAMFund financial assistance
+Help: Support for eligible young adult survivors' housing, vehicle payments, continuing education and specified cancer-related needs.
+Eligibility: U.S. residents ages 21-39, not tax dependents, with defined remission/stable-disease criteria and prior-award limits. Active chemotherapy/radiation is ineligible. Review exclusions; it is not a general medical-debt or utility grant.
+After treatment: Designed for survivorship.
+Amount/cost: Award amount not fixed on reviewed page.
+Apply/contact: 617-938-3484; use Expect Miracles Foundation's grant page and prepare the required medical/tax documentation.
+Status: Closed on direct review; spring cycle announced to open January 2027.
+Reviewed: 2026-11-10
+Official sources:
+https://expectmiraclesfoundation.org/financial-assistance-grant/
+
+26. Joe Andruzzi Foundation — regional exception relevant to Rhode Island
+Help: Household bills, grocery cards, selected extraordinary needs and treatment transportation.
+Eligibility: New England residents in active treatment for household/food assistance; medical-team application required. Transportation program is Massachusetts/Rhode Island only.
+After treatment: Core programs focus on active treatment; confirm any exceptional circumstances.
+Amount/cost: Household grants up to $800; grocery cards $150 for one person, $250 for 2-4, $300 for 5+; extraordinary-needs grants up to $4,000.
+Apply/contact: Oncology social worker/navigator applies. Rides: ttp@joeandruzzifoundation.org; grants: grants@joeandruzzifoundation.org.
+Status: Regional, not nationwide. Grant amounts are maximums or household-based amounts, not automatic entitlement.
+Reviewed: 2026-11-10
+Official sources:
+https://joeandruzzifoundation.org/how-we-help/assistance/
+https://joeandruzzifoundation.org/how-we-help/
+
+
+DIAGNOSIS-SPECIFIC AND PEDIATRIC ASSISTANCE
+
+27. Pink Fund
+Help: Up to 90 days of non-medical living-expense assistance for breast cancer.
+Eligibility: Active treatment as Pink Fund defines it; patient or spouse/partner working at diagnosis with lost work income; household income within 300% FPL; diagnosis within two years. Long-term hormonal therapy/reconstruction alone do not qualify as active treatment.
+After treatment: Usually no once qualifying active treatment has ended.
+Amount/cost: Up to 90 days of approved expenses; not a universal monthly check.
+Apply/contact: Complete the Pink Fund online prequalification and application.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://apply.pinkfund.org/qualification/intro
+https://pinkfund.org/about/
+
+28. Project Purple
+Help: Payment of approved medical and everyday bills for pancreatic cancer.
+Eligibility: U.S. residents, or Canadian residents treated in the U.S.; bills in patient's name and required medical/financial documents.
+After treatment: Explicitly may include remission with post-treatment complications and continuing medical care.
+Amount/cost: Committee-determined; pays creditors directly, not reimbursements or cash to patients. May reapply after 12 months.
+Apply/contact: 203-714-6052; download the application and current program guide.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.projectpurple.org/patients-families/patient-financial-aid/
+
+29. NMDP transplant and clinical-trial grants
+Help: Pre-/post-transplant, chronic GVHD, crisis and clinical-trial travel assistance.
+Eligibility: Grant-specific transplant/donor criteria and generally income below 350% FPL. Some grants require an NMDP-facilitated transplant; professional/navigator application.
+After treatment: Yes: post-transplant aid can extend up to three years; GVHD and crisis programs have separate criteria.
+Amount/cost: Most grants described as averaging $1,000-$1,500; exact amount and type vary.
+Apply/contact: Call/text 888-999-6743 or ask the transplant social worker.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.nmdp.org/patients/transplant-support/financial-support
+https://network.nmdp.org/services-support/patient-support/patient-financial-assistance-program
+
+30. Mission4Maureen
+Help: Bill assistance for people with brain tumors or brain cancer.
+Eligibility: All ages, all 50 states, treatment in the U.S.; financial need and hospital diagnostic report required. Northeast Ohio priority. Application includes a photo/publicity release.
+After treatment: Ask about current treatment/recovery eligibility; a broad post-treatment window is not stated on the reviewed page.
+Amount/cost: Up to three bills totaling $1,500 per application.
+Apply/contact: 440-655-1506; official application linked on mission4maureen.org.
+Status: Site includes both application link and older 'coming soon' wording; verify intake if the form is unavailable.
+Reviewed: 2026-11-10
+Official sources:
+https://mission4maureen.org/
+
+31. Sarcoma Alliance second-opinion grant
+Help: Reimbursement for sarcoma-specialist consultation and associated travel.
+Eligibility: U.S. reimbursement address; completed consultation, receipts and physician confirmation. Not ongoing treatment reimbursement; do not seek duplicate reimbursement.
+After treatment: May support evaluation of diagnosis, treatment or follow-up when the consultation qualifies.
+Amount/cost: Up to $1,000.
+Apply/contact: Use the Second Opinion Grants application; 415-381-7236.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://sarcomaalliance.org/second-opinion-grants/
+https://sarcomaalliance.org/second-opinion-grant-application-form/
+
+32. National Ovarian Cancer Coalition assistance
+Help: Treatment-related non-medical grants and clinical-trial travel/lodging assistance.
+Eligibility: Ovarian cancer; financial/resource team screens current eligibility and funding. Patient, authorized caregiver or care team may apply.
+After treatment: Ask the financial team; no blanket long-term survivorship eligibility stated.
+Amount/cost: Current award sizes not published on reviewed page; do not reuse older PDF amounts as current.
+Apply/contact: 888-682-7426, Monday-Friday 10 a.m.-5 p.m. Eastern.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://ovarian.org/programs-and-resources/support-services/financial-assistance/
+
+33. Pinky Swear All-Star Fund
+Help: Family rent/mortgage, utilities, vehicle payments/insurance, groceries and gas.
+Eligibility: Child 18 or younger in treatment, living with parent/guardian in the U.S., approved pediatric oncology social worker, and specific Orange Envelope/diagnosis timing requirements.
+After treatment: Active treatment required for this fund.
+Amount/cost: Award-specific; bills paid to creditors or gift cards.
+Apply/contact: Apply online with pediatric oncology social-worker details and clear bills.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://pinkyswear.org/childhood-cancer-financial-assistance
+
+34. National Children's Cancer Society financial assistance
+Help: Treatment travel/lodging and emergency family-expense help.
+Eligibility: Diagnosis by age 18 and treatment before age 21, medical/residency criteria and guardian accessible-bank-balance limit under $5,000. Emergency fund requires a qualifying 30-day inpatient/away period.
+After treatment: Primarily treatment related; separate survivor scholarship below.
+Amount/cost: Emergency fund lists $300 per year; transportation amounts depend on assistance.
+Apply/contact: Apply through the NCCS financial-assistance page with the pediatric care team.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://thenccs.org/financial-assistance/
+
+
+FOOD, HOUSING, UTILITIES AND HOME HELP
+
+35. SNAP, including medical-expense deductions
+Help: Monthly food-purchasing benefits; qualifying medical expenses can improve the calculation for older/disabled households.
+Eligibility: State-administered financial rules. For qualifying members age 60+ or disabled under SNAP rules, unreimbursed medical expenses over $35 monthly may be deductible.
+After treatment: Yes; cancer treatment status is not the deciding factor.
+Amount/cost: Household-specific monthly benefit.
+Apply/contact: Apply through the state SNAP office; explicitly report qualifying medical expenses, insurance premiums and treatment-travel costs for review.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.fna.usda.gov/snap/eligibility/elderly-disabled-special-rules
+https://www.fna.usda.gov/snap/recipient/apply-for-benefits
+
+36. Emergency food programs and 211
+Help: Connections to food pantries, community meals and emergency assistance.
+Eligibility: Local program criteria; immediate availability varies. This is not a cancer-only benefit.
+After treatment: Yes.
+Amount/cost: Often food rather than cash.
+Apply/contact: Dial 211 or the National Hunger Hotline, 866-348-6479; ask for food delivery if disability limits travel.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.usa.gov/emergency-food-assistance
+
+37. Meals on Wheels
+Help: Home-delivered meals and, in some locations, other supportive services.
+Eligibility: Usually age 60+ with mobility or functional barriers to shopping/cooking; age, eligibility and availability vary by provider.
+After treatment: Yes if needs meet local criteria.
+Amount/cost: May be free, suggested-donation or sliding-scale; not universally no charge.
+Apply/contact: Use the national ZIP-code provider finder and request local eligibility screening.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.mealsonwheelsamerica.org/find-meals-and-services/
+
+38. LIHEAP energy assistance
+Help: Help paying heating/cooling costs and eligible energy crises.
+Eligibility: Income and state/territorial rules, application periods and funding apply.
+After treatment: Yes; not dependent on active treatment.
+Amount/cost: State- and household-specific.
+Apply/contact: Contact the state's LIHEAP office via USAGov.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.usa.gov/help-with-energy-bills
+
+39. Weatherization Assistance Program (WAP)
+Help: Eligible home energy improvements that can reduce utility expenses.
+Eligibility: Income or qualifying benefit status and state assessment; not a general remodeling grant.
+After treatment: Yes.
+Amount/cost: Approved work rather than unrestricted money.
+Apply/contact: Contact the state WAP office through USAGov's energy-assistance page.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.usa.gov/help-with-energy-bills
+
+40. HUD/local housing agency assistance
+Help: Housing Choice Vouchers, public/subsidized housing and certain disability-specific rental assistance.
+Eligibility: Income and local housing-agency criteria; some disability vouchers target people under 62. Availability and waiting lists depend on the housing authority.
+After treatment: Yes if income/disability/household requirements apply.
+Amount/cost: Rent subsidy; not immediate guaranteed cash.
+Apply/contact: Contact your local public housing agency; HUD information line 800-955-2232.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.usa.gov/rent-help-groups
+
+41. Cleaning for a Reason
+Help: Two donated home cleanings, normally one a month for two months.
+Eligibility: All cancers/genders; treatment, surgery recovery or hospice are explicitly covered. Application page also describes treatment recovery more broadly; longer-term survivors should confirm their stage fits.
+After treatment: Some recovery is covered; there is no verified universal year-after-treatment window.
+Amount/cost: No charge for matched cleaning; not deep/spring cleaning.
+Apply/contact: Apply on the official patient page; 877-337-3348.
+Status: National network, but a local cleaner match is not guaranteed.
+Reviewed: 2026-11-10
+Official sources:
+https://cleaningforareason.org/faqs/
+https://cleaningforareason.org/patients/learn-more-apply-now/
+
+42. CancerCare Pet Assistance & Wellness (PAW)
+Help: Limited assistance for pet food, veterinary care, boarding, walking/sitting and related cat/dog needs; resource directory.
+Eligibility: Financial grants are for qualified people in active cancer treatment with a cat or dog.
+After treatment: Cash aid is active-treatment restricted; educational resources can still be useful afterward.
+Amount/cost: Limited grant; fixed amount not published on reviewed page.
+Apply/contact: 800-813-4673; ask specifically about PAW and Helping Paws.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancercare.org/paw
+
+43. Medicaid home/community services and paid-family-caregiver options
+Help: Personal assistance and other supports at home; some state self-directed programs allow payment to a relative.
+Eligibility: Medicaid financial, functional and program requirements; family/spouse payment rules vary. No automatic nationwide paid-caregiver benefit.
+After treatment: Possible when lasting limitations meet state rules.
+Amount/cost: Authorized services/budget; state-specific.
+Apply/contact: Request a long-term-services/HCBS assessment from state Medicaid and ask whether self-direction and the particular relative are allowed.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.medicaid.gov/medicaid/home-community-based-services
+https://www.medicaid.gov/medicaid/home-community-based-services/home-community-based-services-authorities/self-directed-personal-assistant-services-1915-j
+https://www.usa.gov/disability-caregiver
+
+44. Medicare home health
+Help: Eligible intermittent skilled nursing, therapy, medical social services and limited aide care.
+Eligibility: Requires qualifying skilled need, homebound status, provider order and a Medicare-certified agency. Does not cover standalone housekeeping, meal delivery or round-the-clock custodial care.
+After treatment: Yes when recovery or lasting effects create a qualifying need.
+Amount/cost: Covered home health services generally have no patient charge; equipment may have cost sharing.
+Apply/contact: Ask the treating clinician for a home-health assessment; check the Medicare/Medicare Advantage coverage arrangement.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.medicare.gov/coverage/home-health-services
+
+45. Eldercare Locator and aging/disability service networks
+Help: Connections to home care, meals, transportation, caregiver education and respite; disability-related housing/legal resources.
+Eligibility: Local service-specific age, need and financial criteria; navigation does not guarantee funded care.
+After treatment: Yes.
+Amount/cost: Referral is free; service charges vary.
+Apply/contact: 800-677-1116; ask for the Area Agency on Aging or aging/disability resource center serving your ZIP code.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://acl.gov/help
+https://acl.gov/nwd/find-help
+
+
+TRANSPORTATION AND LODGING
+
+46. American Cancer Society Road To Recovery
+Help: Volunteer rides to cancer-related medical appointments.
+Eligibility: Local drivers and patient safety/ambulatory requirements; minors or people needing physical help may need a caregiver. Request in advance.
+After treatment: Ask about the particular follow-up appointment; official eligibility refers to cancer-related appointments.
+Amount/cost: No charge.
+Apply/contact: 800-227-2345; request several business days ahead when possible.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancer.org/support-programs-and-services/road-to-recovery.html
+
+47. American Cancer Society Hope Lodge
+Help: Lodging near cancer care for eligible patients/caregivers traveling away from home.
+Eligibility: Outpatient cancer-related care, site eligibility and available rooms; caregiver rules should be checked with the location.
+After treatment: Possible only when a qualifying care-related stay meets facility rules.
+Amount/cost: No charge for accepted Hope Lodge stays; lodging is subject to site eligibility and room availability.
+Apply/contact: 800-227-2345; use the official Hope Lodge locator/referral process.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancer.org/support-programs-and-services/patient-lodging/hope-lodge.html
+
+48. Mercy Medical Angels
+Help: Longer-distance medical travel assistance through gas cards, bus/train tickets and flight arrangements.
+Eligibility: Medical/financial/distance requirements. Ground generally 50+ miles one way or 100+ monthly; air generally 200+ miles. Usually 7-10 days' notice, appointment within 45 days. Some regional pilot programs have different financial-document rules.
+After treatment: Yes: eligible follow-up and rehabilitation travel can qualify.
+Amount/cost: Travel assistance; commercial passengers may still owe mandatory airline taxes/fees.
+Apply/contact: Start a request through the official eligibility page. Do not purchase travel expecting automatic reimbursement.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.mercymedical.org/patients/eligibility
+https://mercymedical.org/patients/ground-transportation
+https://mercymedical.org/patients/air-transportation
+
+49. Corporate Angel Network
+Help: Donated seats on corporate aircraft for eligible cancer-related care travel.
+Eligibility: No financial-need test. Travel within continental U.S. to recognized treatment centers; medically stable and independently able to manage aircraft stairs, with no onboard medical assistance/oxygen needs. Flights depend on matches.
+After treatment: Yes: checkups, consultations and second opinions are included.
+Amount/cost: No charge for arranged flights.
+Apply/contact: Request at least 10 business days before the appointment through the patient eligibility page; keep backup travel arrangements.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.corpangelnetwork.org/patient-eligibility
+
+50. Joe's House
+Help: Directory and negotiated lodging discounts near hospitals nationwide.
+Eligibility: Patients/families traveling for medical care; not a cash-grant organization. Discounts and booking rules vary.
+After treatment: Potentially for ongoing medical travel; confirm hotel terms.
+Amount/cost: Discounted rates, not universally free rooms.
+Apply/contact: Use joeshouse.org to locate lodging and obtain the correct booking instructions.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.joeshouse.org/
+https://www.joeshouse.org/partners/
+
+51. Medicaid non-emergency medical transportation (NEMT)
+Help: Transportation to eligible medical appointments.
+Eligibility: Medicaid enrollment and state/plan authorization rules; use the member's own broker/plan, not one number nationwide.
+After treatment: Yes for covered appointments after treatment.
+Amount/cost: Free or low-cost depending on the program.
+Apply/contact: Call the Medicaid plan/member-services number and request NEMT. Some Medicare Advantage plans offer separate limited transportation benefits.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancer.org/cancer/financial-insurance-matters/programs-and-resources.html
+
+
+RECOVERY, COUNSELING AND PRACTICAL HEALTH NEEDS
+
+52. LIVESTRONG at the YMCA
+Help: Structured cancer-survivor fitness program with strength, conditioning, flexibility and balance work.
+Eligibility: Adults 18+, physician referral/clearance, local participating YMCA and available cohort.
+After treatment: Explicitly for people living with, through or beyond cancer.
+Amount/cost: 12-week program at low or no cost; ask the actual branch rather than assuming every YMCA is free.
+Apply/contact: Use the national YMCA LIVESTRONG page to locate a participating branch.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.ymca.org/what-we-do/healthy-living/fitness/livestrong
+
+53. Oncology survivorship and rehabilitation services
+Help: Assessment/referrals for late effects, fatigue, physical/occupational therapy, nutrition, emotional health, sexual health and functional problems.
+Eligibility: Services are arranged through treating centers/clinicians; coverage and copays depend on the service and insurance. This is clinical care, not a national free-service entitlement.
+After treatment: Specifically relevant after treatment, including years later.
+Amount/cost: Insurance-dependent; ask for both clinical referral and financial-assistance screening.
+Apply/contact: Request a survivorship care plan and rehabilitation/supportive-care assessment from oncology.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancer.gov/about-cancer/coping/survivorship/follow-up-care
+https://cancercontrol.cancer.gov/ocs/special-focus-areas/national-standards-cancer-survivorship-care
+
+54. Reel Recovery
+Help: Small-group fly-fishing retreat with professionally facilitated cancer-support conversations.
+Eligibility: Men with any cancer in treatment, recovery or remission; medical clearance. One retreat, limited places, no prior fishing experience needed.
+After treatment: Yes, including full remission.
+Amount/cost: Meals, lodging and fishing equipment provided at no charge; participant pays transportation.
+Apply/contact: Apply/find a retreat through reelrecovery.org.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.reelrecovery.org/overview
+
+55. Imerman Angels
+Help: Matched one-to-one volunteer support from someone with a similar cancer/caregiver experience.
+Eligibility: Patients, survivors, previvors and caregivers; matching availability varies. Peer support is not psychotherapy.
+After treatment: Yes.
+Amount/cost: No charge.
+Apply/contact: Complete the official mentor-request registration.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://imermanangels.org/find-mentor-angel/
+
+56. CancerCare post-treatment online support group
+Help: Social-worker-led 15-week survivor support through a private message board.
+Eligibility: U.S./territories; completion of treatment within the past 18 months; screening and registration. Other cancer/caregiver groups have their own criteria.
+After treatment: Yes, within this group's 18-month window.
+Amount/cost: No charge.
+Apply/contact: Register through the post-treatment group page or call 800-813-4673.
+Status: Reviewed page lists October 1, 2026 start and acceptance of new members after start; intake still subject to group capacity/cycle.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancercare.org/services/support_groups/post-treatment-survivorship-support-group
+
+57. ZERO prostate cancer support groups and MENtor
+Help: In-person/virtual peer groups and one-to-one prostate cancer survivor mentorship.
+Eligibility: People affected by prostate cancer, survivors and caregivers; select appropriate group/matching format.
+After treatment: Yes.
+Amount/cost: No charge.
+Apply/contact: Use ZERO's Help and Support page to find a group or MENtor.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://zerocancer.org/help-and-support
+
+58. LIVESTRONG Fertility
+Help: Discounts at participating fertility clinics and eligible free fertility stimulation medications.
+Eligibility: Cancer-related fertility risk, oncology involvement, partner clinic, lawful U.S. presence, financial/insurance criteria. Family-building support is not universal free fertility treatment.
+After treatment: Ask whether planned post-treatment services qualify under the specific program.
+Amount/cost: At least 25% off qualifying services through partner clinics; approved medication assistance separately.
+Apply/contact: Complete the official eligibility checklist before the application.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://livestrong.org/how-we-help/livestrong-fertility/
+
+59. Dental Lifeline Network — Donated Dental Services
+Help: Donated comprehensive dental treatment through volunteer providers.
+Eligibility: Financial need plus age 65+, permanent disability or medically necessary dental care; available benefits must be exhausted. Not emergency dentistry; often lengthy waitlists.
+After treatment: Potentially if qualifying medical need or disability remains.
+Amount/cost: No charge for accepted donated treatment; treatment scope is dentist-dependent.
+Apply/contact: Apply through the state program at dentallifeline.org/help; have oncology document medically necessary dental needs.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://dentallifeline.org/help/
+https://dentallifeline.org/help/faq/
+
+60. Ostomy supply assistance routes
+Help: Manufacturer assistance and emergency donated-supply resources.
+Eligibility: Supplier-specific need/insurance rules; UOAA itself does not distribute supplies from its national office.
+After treatment: Yes for people with ongoing ostomy needs.
+Amount/cost: Free or donated supplies in some programs; shipping/donation charges may apply elsewhere.
+Apply/contact: Use UOAA's emergency-supplies page. Listed manufacturer contacts: Convatec 800-422-8811; Hollister 888-808-7456; Coloplast 877-858-2656.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.ostomy.org/emergency-supplies/
+
+
+FREE ADVOCATES AND APPLICATION HELP
+
+61. ZERO360 prostate cancer navigation
+Help: Help with billing, insurance appeals, treatment costs, disability applications and connections to living-expense resources.
+Eligibility: Prostate cancer patients/families. Navigation is free; any resulting grants have separate income/treatment/funding rules. Ask the case manager to confirm suitability for long-term recovery.
+After treatment: Worth requesting for survivorship-related access/financial needs; screening determines case acceptance.
+Amount/cost: No charge for navigation; not a promised cash grant.
+Apply/contact: ZERO currently publishes 844-937-6360; its PAF-operated careline also publishes 844-244-1309. Monday-Friday 8:30 a.m.-5 p.m. Eastern.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://zerocancer.org/help-and-support/ZERO360
+https://zero360.pafcareline.org/2020/01/28/contact-us/
+
+62. Patient Advocate Foundation case management
+Help: One-to-one assistance with access, insurance denials, medical/household-cost resources and disability issues.
+Eligibility: U.S. citizen/permanent resident receiving U.S./territorial treatment; active treatment, treatment starting in 60 days, or completed in past six months. Daily new-case capacity is limited; condition-specific carelines may differ.
+After treatment: General program normally limited to six months after treatment; do not assume it accepts all long-term survivors.
+Amount/cost: No charge for case management.
+Apply/contact: 800-532-5274; explain the exact treatment dates and present problem.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.patientadvocate.org/connect-with-services/case-management-services-and-carelines/
+
+63. CancerCare nationwide resource navigation
+Help: Social-worker/resource-navigation help locating financial aid, transportation, support and practical services.
+Eligibility: People affected by cancer throughout the U.S., Puerto Rico and territories; includes patients, post-treatment survivors and caregivers.
+After treatment: Explicitly yes.
+Amount/cost: No charge.
+Apply/contact: 800-813-4673. Individual counseling is a different service with geographic licensing restrictions; current counseling page lists New York/New Jersey.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancercare.org/resourcenavigation
+https://www.cancercare.org/counseling
+
+64. Cancer Support Community helpline
+Help: Personalized navigation, financial-resource guidance, support/lodging/travel referrals and specialized assistance.
+Eligibility: Primarily people in the U.S./Canada affected by cancer and loved ones. Helpline does not provide individual psychotherapy or make direct medical decisions.
+After treatment: Yes for cancer-related needs; describe current circumstances.
+Amount/cost: No charge for helpline navigation.
+Apply/contact: 888-793-9355; Monday-Thursday 9 a.m.-7 p.m., Friday 9 a.m.-6 p.m. Eastern.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancersupportcommunity.org/cancer-support-helpline
+
+65. Triage Cancer legal and financial navigation
+Help: Individual information about insurance, disability benefits, work rights, finances and estate-planning questions.
+Eligibility: Patients/caregivers and others facing these issues. Does not provide cash assistance or legal representation.
+After treatment: Yes.
+Amount/cost: No charge for navigation.
+Apply/contact: Use the online navigation intake; current process begins with its online tool and can lead to a staff appointment.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://triagecancer.org/legal-and-financial-navigation-program
+
+66. Colorectal Cancer Alliance navigation
+Help: One-to-one help locating treatment/living-expense resources and care support.
+Eligibility: Colorectal cancer patients/caregivers; external programs have their own eligibility.
+After treatment: Ask the navigator about post-treatment needs.
+Amount/cost: Navigation; do not list Blue Hope treatment award as available.
+Apply/contact: 877-422-2030.
+Status: Blue Hope Financial Assistance Award ended February 23, 2026. Navigation remains available.
+Reviewed: 2026-11-10
+Official sources:
+https://colorectalcancer.org/resources-support/resources/financial-resource-assistance
+
+67. PanCAN Patient Services
+Help: Pancreatic-cancer case managers, information and connections to relevant support/resources.
+Eligibility: People facing pancreatic cancer and caregivers.
+After treatment: Can guide ongoing pancreatic-cancer needs; financial programs have separate criteria.
+Amount/cost: No charge for navigation; not a direct general cash-grant promise.
+Apply/contact: 877-272-6226; Monday-Friday 7 a.m.-5 p.m. Pacific.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://pancan.org/facing-pancreatic-cancer/patient-services/contact-us/
+
+68. Cancer and Careers
+Help: Job-search education, tools and career-coaching resources for patients/survivors.
+Eligibility: Cancer patients/survivors considering work; individual services have capacity restrictions.
+After treatment: Yes.
+Amount/cost: Free published job-search resources.
+Apply/contact: Use cancerandcareers.org; consult current availability before submitting a resume.
+Status: Resume-review submission page says temporarily paused. Do not promise an available resume-review appointment; educational materials remain accessible.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cancerandcareers.org/en/jobsearch
+https://www.cancerandcareers.org/resume_reviews/new
+
+
+SPECIAL ELIGIBILITY AND EDUCATION
+
+69. World Trade Center Health Program
+Help: Medical monitoring and treatment for certified 9/11-related conditions, including qualifying cancers.
+Eligibility: Specific presence/activity/location/time rules and certification; not limited to first responders. Current residence can be outside New York through the Nationwide Provider Network.
+After treatment: Potentially for certified ongoing needs; certification and network rules apply.
+Amount/cost: Covered program care; not a general cash payment or replacement for all health insurance.
+Apply/contact: Apply through CDC's WTC program after reviewing eligibility.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.cdc.gov/wtc/apply.html
+https://www.cdc.gov/wtc/requirements.html
+
+70. September 11th Victim Compensation Fund
+Help: Compensation for qualifying losses from 9/11-related physical conditions.
+Eligibility: Separate VCF registration and claim required; presence, condition and individual deadline rules apply. WTC Health Program enrollment does not register a VCF claim.
+After treatment: Potentially, based on qualifying harm/loss and deadlines.
+Amount/cost: Case-specific compensation.
+Apply/contact: 855-885-1555; review individual registration deadlines promptly.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.vcf.gov/policy/eligibility-criteria-and-deadlines
+
+71. Energy Employees Occupational Illness Compensation (EEOICPA)
+Help: Compensation and related medical benefits for qualifying occupational exposure disease.
+Eligibility: Covered DOE/atomic-weapons employment, covered period and illness/exposure standards; separate Part B/Part E rules.
+After treatment: May apply to qualifying former workers and lasting illness; certain family survivor claims also exist.
+Amount/cost: Part B can provide $150,000 plus medical benefits; Part E has different wage-loss/impairment rules and caps.
+Apply/contact: 866-888-3322; DOL energy-program resource center.
+Status: Program described on official website; individual eligibility and capacity not confirmed.
+Reviewed: 2026-11-10
+Official sources:
+https://www.dol.gov/agencies/owcp/energy/regs/compliance/claimant_medprovider_resources/claimant_resources
+https://www.cdc.gov/niosh/ocas/faqsact.html
+
+72. NCCS Beyond the Cure Ambassador Scholarship
+Help: Higher-education scholarships for childhood cancer survivors.
+Eligibility: Applicant must meet the cycle's survivor, education and other published criteria; review the next application rather than assuming eligibility.
+After treatment: Specifically for survivors.
+Amount/cost: Competitive scholarship; current award amount not stated on reviewed overview.
+Apply/contact: Use NCCS scholarship page; questions: scholarships@theNCCS.org.
+Status: 2026-2027 application closed; next window announced January 1-March 31, 2027.
+Reviewed: 2026-11-10
+Official sources:
+https://thenccs.org/scholarship
+
+CURRENT CHANGES AND QUALIFICATIONS TO PRESERVE IN ANY PUBLIC DIRECTORY
+- Use TotalAssist for new/renewal PAN and PAF Co-Pay Relief financial assistance; do not duplicate these as three independent grant pools.
+- Cancer Cartel: portal closed; projected reopening February 1, 2027, 9 a.m. Pacific.
+- SAMFund: closed; next cycle announced January 2027; ages 21-39.
+- Blue Hope Financial Assistance Award: ended February 23, 2026; Colorectal Cancer Alliance navigation continues.
+- HealthWell Prostate Cancer Medicare Access: closed to new applicants at direct review.
+- TotalAssist prostate-related funds: official indexed listings showed closed; status requires a fresh check.
+- Family Reach: current reviewed grant list focused on multiple myeloma/specified trials; no verified universal all-cancer open grant.
+- Cancer and Careers resume review: paused; do not promise active intake.
+- CancerCare nationwide navigation and online groups are distinct from individual counseling currently limited to NY/NJ.
+- Cleaning for a Reason covers certain recovery situations; obtain program confirmation for a long-term survivor.
+- YMCA LIVESTRONG national page says low or no cost; verify each branch.
+- NMDP, Project Purple and some Blood Cancer United programs are examples of financial assistance that can extend beyond active initial treatment.
+Sources are attached to the corresponding directory entries.
+
+END OF GUIDE
+
+
+----- END COMPLETE 72-RESOURCE RESEARCH -----

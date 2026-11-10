@@ -1,0 +1,73 @@
+research_entry,title,public_record_id,disposition,status,reused_existing_records
+1,Social Security Disability Insurance (SSDI),ca-01-social-security-disability-insurance-ssdi,imported as own record,not_confirmed,b:F005
+2,Supplemental Security Income (SSI),ca-02-supplemental-security-income-ssi,imported as own record,not_confirmed,b:F006
+3,SSA Compassionate Allowances,ca-03-ssa-compassionate-allowances,imported as own record,not_confirmed,
+4,Employer or private short-term/long-term disability coverage,ca-04-employer-or-private-short-term-long-term-disability-coverage,imported as own record,not_confirmed,
+5,State paid medical leave or temporary disability; paid family leave,ca-05-state-paid-medical-leave-or-temporary-disability-paid-family,imported as own record,not_confirmed,b:RI006
+6,VA disability compensation and cancer-related health benefits,ca-06-va-disability-compensation-and-cancer-related-health-benefit,imported as own record,not_confirmed,
+7,FMLA leave and ADA workplace accommodations,ca-07-fmla-leave-and-ada-workplace-accommodations,imported as own record,not_confirmed,
+8,Hospital charity care / financial assistance policy,ca-08-hospital-charity-care-financial-assistance-policy,imported as own record,not_confirmed,
+9,Dollar For,ca-09-dollar-for,imported as own record,not_confirmed,
+10,Patient Advocate Foundation TotalAssist,ca-10-patient-advocate-foundation-totalassist,imported as own record,variable,
+11,HealthWell Foundation,ca-11-healthwell-foundation,imported as own record,variable,
+12,CancerCare Co-Payment Assistance Foundation,ca-12-cancercare-co-payment-assistance-foundation,imported as own record,variable,
+13,The Assistance Fund (TAF),ca-13-the-assistance-fund-taf,imported as own record,variable,
+14,Good Days,ca-14-good-days,imported as own record,variable,
+15,Drug manufacturer patient assistance programs,ca-15-drug-manufacturer-patient-assistance-programs,imported as own record,not_confirmed,
+16,Medicaid and CHIP,ca-16-medicaid-and-chip,imported as own record,open,b:RI015;b:RI012
+17,ACA Marketplace coverage and financial-help screening,ca-17-aca-marketplace-coverage-and-financial-help-screening,imported as own record,not_confirmed,b:RI016;b:RI017
+18,Medicare Savings Programs,ca-18-medicare-savings-programs,imported as own record,not_confirmed,b:RI010;b:RI011
+19,Medicare Part D Extra Help,ca-19-medicare-part-d-extra-help,imported as own record,not_confirmed,b:F009
+20,State Health Insurance Assistance Programs (SHIP),ca-20-state-health-insurance-assistance-programs-ship,imported as own record,not_confirmed,s:ri-shn-ship-counseling
+21,CancerCare financial assistance,ca-21-cancercare-financial-assistance,imported as own record,not_confirmed,
+22,Cancer Cartel Warrior grant,ca-22-cancer-cartel-warrior-grant,imported as own record,closed,
+23,Family Reach,ca-23-family-reach,imported as own record,variable,
+24,Blood Cancer United financial assistance (formerly Leukemia & Lymphoma Society),ca-24-blood-cancer-united-financial-assistance-formerly-leukemia-l,imported as own record,not_confirmed,
+25,SAMFund financial assistance,ca-25-samfund-financial-assistance,imported as own record,closed,
+26,Joe Andruzzi Foundation — regional exception relevant to Rhode Island,ca-26-joe-andruzzi-foundation-regional-exception-relevant-to-rhode,imported as own record,open,
+27,Pink Fund,ca-27-pink-fund,imported as own record,not_confirmed,
+28,Project Purple,ca-28-project-purple,imported as own record,not_confirmed,
+29,NMDP transplant and clinical-trial grants,ca-29-nmdp-transplant-and-clinical-trial-grants,imported as own record,not_confirmed,
+30,Mission4Maureen,ca-30-mission4maureen,imported as own record,not_confirmed,
+31,Sarcoma Alliance second-opinion grant,ca-31-sarcoma-alliance-second-opinion-grant,imported as own record,not_confirmed,
+32,National Ovarian Cancer Coalition assistance,ca-32-national-ovarian-cancer-coalition-assistance,imported as own record,not_confirmed,
+33,Pinky Swear All-Star Fund,ca-33-pinky-swear-all-star-fund,imported as own record,not_confirmed,
+34,National Children's Cancer Society financial assistance,ca-34-national-children-s-cancer-society-financial-assistance,imported as own record,not_confirmed,
+35,"SNAP, including medical-expense deductions",ca-35-snap-including-medical-expense-deductions,imported as own record,not_confirmed,b:RI008
+36,Emergency food programs and 211,ca-36-emergency-food-programs-and-211,imported as own record,not_confirmed,s:ri-shn-211-navigation
+37,Meals on Wheels,ca-37-meals-on-wheels,imported as own record,not_confirmed,b:RG001;s:ri-shn-mow-grant-meals
+38,LIHEAP energy assistance,ca-38-liheap-energy-assistance,imported as own record,not_confirmed,b:EN001
+39,Weatherization Assistance Program (WAP),ca-39-weatherization-assistance-program-wap,imported as own record,not_confirmed,s:ri-shn-wap-statewide
+40,HUD/local housing agency assistance,ca-40-hud-local-housing-agency-assistance,imported as own record,not_confirmed,b:F010;b:F012
+41,Cleaning for a Reason,ca-41-cleaning-for-a-reason,imported as own record; reuses existing ri-shn-cancer-cleaning,not_confirmed,s:ri-shn-cancer-cleaning
+42,CancerCare Pet Assistance & Wellness (PAW),ca-42-cancercare-pet-assistance-wellness-paw,imported as own record,not_confirmed,
+43,Medicaid home/community services and paid-family-caregiver options,ca-43-medicaid-home-community-services-and-paid-family-caregiver-o,imported as own record,not_confirmed,b:RI013
+44,Medicare home health,ca-44-medicare-home-health,imported as own record,not_confirmed,
+45,Eldercare Locator and aging/disability service networks,ca-45-eldercare-locator-and-aging-disability-service-networks,imported as own record,not_confirmed,
+46,American Cancer Society Road To Recovery,ca-46-american-cancer-society-road-to-recovery,imported as own record,not_confirmed,
+47,American Cancer Society Hope Lodge,ca-47-american-cancer-society-hope-lodge,imported as own record,not_confirmed,
+48,Mercy Medical Angels,ca-48-mercy-medical-angels,imported as own record,not_confirmed,
+49,Corporate Angel Network,ca-49-corporate-angel-network,imported as own record,not_confirmed,
+50,Joe's House,ca-50-joe-s-house,imported as own record,not_confirmed,
+51,Medicaid non-emergency medical transportation (NEMT),ca-51-medicaid-non-emergency-medical-transportation-nemt,imported as own record,not_confirmed,b:RI030;s:ri-shn-mtm-medicaid
+52,LIVESTRONG at the YMCA,ca-52-livestrong-at-the-ymca,imported as own record,not_confirmed,
+53,Oncology survivorship and rehabilitation services,ca-53-oncology-survivorship-and-rehabilitation-services,imported as own record,not_confirmed,
+54,Reel Recovery,ca-54-reel-recovery,imported as own record,not_confirmed,
+55,Imerman Angels,ca-55-imerman-angels,imported as own record,not_confirmed,
+56,CancerCare post-treatment online support group,ca-56-cancercare-post-treatment-online-support-group,imported as own record,open,
+57,ZERO prostate cancer support groups and MENtor,ca-57-zero-prostate-cancer-support-groups-and-mentor,imported as own record,not_confirmed,
+58,LIVESTRONG Fertility,ca-58-livestrong-fertility,imported as own record,not_confirmed,
+59,Dental Lifeline Network — Donated Dental Services,ca-59-dental-lifeline-network-donated-dental-services,imported as own record,not_confirmed,b:RI048
+60,Ostomy supply assistance routes,ca-60-ostomy-supply-assistance-routes,imported as own record,not_confirmed,
+61,ZERO360 prostate cancer navigation,ca-61-zero360-prostate-cancer-navigation,imported as own record,not_confirmed,
+62,Patient Advocate Foundation case management,ca-62-patient-advocate-foundation-case-management,imported as own record,not_confirmed,
+63,CancerCare nationwide resource navigation,ca-63-cancercare-nationwide-resource-navigation,imported as own record,not_confirmed,
+64,Cancer Support Community helpline,ca-64-cancer-support-community-helpline,imported as own record,not_confirmed,
+65,Triage Cancer legal and financial navigation,ca-65-triage-cancer-legal-and-financial-navigation,imported as own record,not_confirmed,
+66,Colorectal Cancer Alliance navigation,ca-66-colorectal-cancer-alliance-navigation,imported as own record,open,
+67,PanCAN Patient Services,ca-67-pancan-patient-services,imported as own record,not_confirmed,
+68,Cancer and Careers,ca-68-cancer-and-careers,imported as own record,variable,
+69,World Trade Center Health Program,ca-69-world-trade-center-health-program,imported as own record,not_confirmed,
+70,September 11th Victim Compensation Fund,ca-70-september-11th-victim-compensation-fund,imported as own record,not_confirmed,
+71,Energy Employees Occupational Illness Compensation (EEOICPA),ca-71-energy-employees-occupational-illness-compensation-eeoicpa,imported as own record,not_confirmed,
+72,NCCS Beyond the Cure Ambassador Scholarship,ca-72-nccs-beyond-the-cure-ambassador-scholarship,imported as own record,closed,
