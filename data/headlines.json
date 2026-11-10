@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-09T07:30:00-05:00",
+ "asof": "2026-11-10T07:30:00-05:00",
  "items": [
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
@@ -9,6 +9,16 @@
    "story": "rhode-island-christmas-2026-schedule",
    "town": "Statewide",
    "date": "2026-11-05",
+   "rank": 1
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Library Movie Night and Swing Dancing",
+   "sum": "Rocky at the Jamestown library at 1:30 p.m., trivia at 7 p.m. in Jamestown and swing dancing at 8 p.m. in Pawtucket.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-10",
+   "story": "today-and-tonight-2026-11-10",
+   "town": "Statewide",
+   "date": "2026-11-10",
    "rank": 1
   },
   {
@@ -29,6 +39,17 @@
    "story": "rhode-island-thanksgiving-2026",
    "town": "Statewide",
    "date": "2026-11-06",
+   "rank": 2
+  },
+  {
+   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
+   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
+   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
+   "lead": true,
+   "town": "Providence",
+   "date": "2026-11-10",
    "rank": 2
   },
   {
@@ -72,12 +93,71 @@
    "rank": 3
   },
   {
+   "h": "Gamm Stages Arthur Miller's A View From the Bridge This November",
+   "sum": "This November at the Gamm Theatre in Warwick, with dates and curtain times listed on the theatre's season page.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=gamm-view-from-the-bridge-2026",
+   "town": "Warwick",
+   "date": "2026-11-08",
+   "rank": 3,
+   "story": "gamm-view-from-the-bridge-2026"
+  },
+  {
+   "h": "RIC Chorus Sings Carols and Light in Sapinsley Hall on Nov. 13",
+   "sum": "Friday, Nov. 13 at 7:30 p.m. in Sapinsley Hall at the Nazarian Center, 115 First Avenue, Providence, with paid admission.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=ric-chorus-carols-and-light-2026",
+   "town": "Providence",
+   "date": "2026-11-08",
+   "rank": 3,
+   "story": "ric-chorus-carols-and-light-2026"
+  },
+  {
+   "h": "Jamestown Arts Center Opens Its 2026 Members' Show",
+   "sum": "Reception Friday, Nov. 20, 5:30 to 7:30 p.m.; on view through Jan. 9, 2027.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=jamestown-arts-center-members-show-2026",
+   "story": "jamestown-arts-center-members-show-2026",
+   "town": "Jamestown",
+   "date": "2026-11-09",
+   "rank": 3
+  },
+  {
+   "h": "Museum Reads Turns to Paul Gauguin in Newport",
+   "sum": "Thursday, Nov. 19 at noon, in person at the museum or on Zoom.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=museum-reads-gauguin-newport-art-museum-2026",
+   "story": "museum-reads-gauguin-newport-art-museum-2026",
+   "town": "Newport",
+   "date": "2026-11-09",
+   "rank": 3
+  },
+  {
+   "h": "Korean Ceramic Artists Demonstrate at RISD Museum on Nov. 11",
+   "sum": "Visiting artists show their ceramic processes from 10:30 a.m. to 4 p.m., followed by a 6:30 p.m. panel.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=shared-earth-risd-museum-korean-ceramics-2026",
+   "story": "shared-earth-risd-museum-korean-ceramics-2026",
+   "town": "Providence",
+   "date": "2026-11-10",
+   "rank": 3
+  },
+  {
    "h": "Holiday Premiere: Handmade Gifts at WaterFire Arts Center",
    "sum": "A day of local makers, coffee and food trucks, with no-charge admission on Sunday, Nov. 15.",
    "outlet": "Rhode Island Hurricane",
    "url": "?story=providence-artisans-holiday-premiere-2026",
    "story": "providence-artisans-holiday-premiere-2026",
    "town": "Providence",
+   "date": "2026-11-05",
+   "rank": 4
+  },
+  {
+   "h": "A Dying Tree Becomes Art at Weaver Library",
+   "sum": "Sculptor Anthony Heinz May turns dying or fallen trees into art, which he calls shared authorship.",
+   "outlet": "Ocean State Media",
+   "url": "https://www.oceanstatemedia.org/weekend401/2026-11-05/a-beloved-tree-was-dying-so-weaver-library-turned-it-into-a-piece-of-art",
+   "town": "Statewide",
    "date": "2026-11-05",
    "rank": 4
   },
@@ -99,6 +179,16 @@
    "story": "armenian-fest-cranston-2026",
    "town": "Cranston",
    "date": "2026-11-07",
+   "rank": 4
+  },
+  {
+   "h": "A Community Evening With Cloth of the Earth at RISD Museum",
+   "sum": "A drop-in evening on Nov. 12 with two gallery talks, one in Creole and one in English.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=risd-museum-cloth-of-the-earth-community-evening-2026",
+   "story": "risd-museum-cloth-of-the-earth-community-evening-2026",
+   "town": "Providence",
+   "date": "2026-11-10",
    "rank": 4
   },
   {
@@ -150,45 +240,6 @@
    "rank": 5
   },
   {
-   "h": "Joe Parillo and the New Ensemble Bring Lily Pads Jazz to Peace Dale",
-   "sum": "Sunday, Nov. 15, doors at 3 p.m. and the show from 3:30 to 5:30 p.m., at the Unitarian Universalist Congregation of South County in Peace Dale.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=lily-pads-jazz-joe-parillo-peace-dale-2026",
-   "story": "lily-pads-jazz-joe-parillo-peace-dale-2026",
-   "town": "South Kingstown",
-   "date": "2026-11-07",
-   "rank": 6
-  },
-  {
-   "h": "Newport Restaurant Week runs Nov. 6–15 with fixed-price menus",
-   "sum": "Participating Newport restaurants offer special lunch and dinner menus through Nov. 15.",
-   "outlet": "Rhode Island Monthly",
-   "url": "https://www.rimonthly.com/?p=279119",
-   "town": "Newport",
-   "date": "2026-11-02",
-   "rank": 6
-  },
-  {
-   "h": "Happy Mail: Jamestown Library Makes Thank-You Postcards on Nov. 14",
-   "sum": "Saturday, Nov. 14, 10 a.m. to 1 p.m. in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=jamestown-library-happy-mail-postcards-2026",
-   "story": "jamestown-library-happy-mail-postcards-2026",
-   "town": "Jamestown",
-   "date": "2026-11-07",
-   "rank": 8
-  },
-  {
-   "h": "Rusty Pens: A Weekly Writing Workshop for Jamestown Beginners",
-   "sum": "Mondays from Nov. 9 through Feb. 22, 10:30 to 11:30 a.m., in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=rusty-pens-writing-workshop-jamestown-2026",
-   "story": "rusty-pens-writing-workshop-jamestown-2026",
-   "town": "Jamestown",
-   "date": "2026-11-07",
-   "rank": 10
-  },
-  {
    "h": "An Evening on Abstract Art in Newport",
    "sum": "A guided Nov. 18 program at the Newport Art Museum pairs Sheila Isham's exhibition with close-looking exercises.",
    "outlet": "Rhode Island Hurricane",
@@ -229,72 +280,6 @@
    "rank": 5
   },
   {
-   "h": "Gamm Stages Arthur Miller's A View From the Bridge This November",
-   "sum": "This November at the Gamm Theatre in Warwick, with dates and curtain times listed on the theatre's season page.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=gamm-view-from-the-bridge-2026",
-   "town": "Warwick",
-   "date": "2026-11-08",
-   "rank": 3,
-   "story": "gamm-view-from-the-bridge-2026"
-  },
-  {
-   "h": "RIC Chorus Sings Carols and Light in Sapinsley Hall on Nov. 13",
-   "sum": "Friday, Nov. 13 at 7:30 p.m. in Sapinsley Hall at the Nazarian Center, 115 First Avenue, Providence, with paid admission.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=ric-chorus-carols-and-light-2026",
-   "town": "Providence",
-   "date": "2026-11-08",
-   "rank": 3,
-   "story": "ric-chorus-carols-and-light-2026"
-  },
-  {
-   "h": "Everybody Chorus Welcomes Jamestown Singers of All Ages",
-   "sum": "An informal, all-ages singing hour meets at the Jamestown Recreation Center on Nov. 14.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=everybody-chorus-jamestown-2026",
-   "town": "Jamestown",
-   "date": "2026-11-08",
-   "rank": 10,
-   "story": "everybody-chorus-jamestown-2026"
-  },
-  {
-   "h": "A Dying Tree Becomes Art at Weaver Library",
-   "sum": "Sculptor Anthony Heinz May turns dying or fallen trees into art, which he calls shared authorship.",
-   "outlet": "Ocean State Media",
-   "url": "https://www.oceanstatemedia.org/weekend401/2026-11-05/a-beloved-tree-was-dying-so-weaver-library-turned-it-into-a-piece-of-art",
-   "town": "Statewide",
-   "date": "2026-11-05",
-   "rank": 4
-  },
-  {
-   "h": "Newport's Illuminated Boat Parade Returns Nov. 27",
-   "sum": "The 27th annual harbor parade can be watched at no charge, and a non-perishable food donation is requested.",
-   "outlet": "What'sUpNewp",
-   "url": "https://whatsupnewp.com/2026/11/newport-illuminated-boat-parade-returns-nov-27/",
-   "town": "Newport",
-   "date": "2026-11-03",
-   "rank": 6
-  },
-  {
-   "h": "Jane Pickens Brings Ski Films by Warren Miller and Teton Gravity Research",
-   "sum": "Three snowsport film screenings are set in Newport this month, starting at 7:30 p.m.",
-   "outlet": "What'sUpNewp",
-   "url": "https://whatsupnewp.com/2026/11/jane-pickens-brings-warren-miller-and-teton-gravity-research-to-newport-this-month/",
-   "town": "Newport",
-   "date": "2026-11-02",
-   "rank": 8
-  },
-  {
-   "h": "Salve's Ochre Court Opens Season 4 of The Gilded Age",
-   "sum": "The Richard Morris Hunt mansion doubles as a castle in the season premiere, with Salve students among the extras.",
-   "outlet": "What'sUpNewp",
-   "url": "https://whatsupnewp.com/2026/11/salves-ochre-court-opens-season-4-of-the-gilded-age/",
-   "town": "Newport",
-   "date": "2026-11-02",
-   "rank": 7
-  },
-  {
    "h": "The Nutcracker Dances Into Woonsocket's Stadium Theatre",
    "sum": "Heritage Ballet performs three matinee and evening shows Nov. 28 and 29.",
    "outlet": "Rhode Island Hurricane",
@@ -315,78 +300,6 @@
    "rank": 5
   },
   {
-   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
-   "sum": "The Providence company's golden-anniversary production plays Nov. 5 through Dec. 31 in the Dowling Theater.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
-   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
-   "town": "Providence",
-   "date": "2026-11-09",
-   "rank": 2,
-   "lead": true
-  },
-  {
-   "h": "Dave Matthews Band Plays Amica Mutual Pavilion Tonight",
-   "sum": "Monday's Providence show is the fourth stop on the band's seven-date fall run.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=dave-matthews-band-amica-mutual-pavilion-2026-11-09",
-   "story": "dave-matthews-band-amica-mutual-pavilion-2026-11-09",
-   "town": "Providence",
-   "date": "2026-11-09",
-   "rank": 2,
-   "box": true
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Dave Matthews, LEGO and Bobcats",
-   "sum": "Monday's best picks, with a LEGO club at 3 p.m. and a Bobcat talk at 6 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-09",
-   "story": "today-and-tonight-2026-11-09",
-   "town": "Statewide",
-   "date": "2026-11-09",
-   "rank": 1
-  },
-  {
-   "h": "Jamestown Arts Center Opens Its 2026 Members' Show",
-   "sum": "Reception Friday, Nov. 20, 5:30 to 7:30 p.m.; on view through Jan. 9, 2027.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=jamestown-arts-center-members-show-2026",
-   "story": "jamestown-arts-center-members-show-2026",
-   "town": "Jamestown",
-   "date": "2026-11-09",
-   "rank": 3
-  },
-  {
-   "h": "Museum Reads Turns to Paul Gauguin in Newport",
-   "sum": "Thursday, Nov. 19 at noon, in person at the museum or on Zoom.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=museum-reads-gauguin-newport-art-museum-2026",
-   "story": "museum-reads-gauguin-newport-art-museum-2026",
-   "town": "Newport",
-   "date": "2026-11-09",
-   "rank": 3
-  },
-  {
-   "h": "Jamestown Community Theatre Opens Merrily We Roll Along",
-   "sum": "Performances Nov. 19 through 22, with a Sondheim musical told in reverse.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=merrily-we-roll-along-jamestown-community-theatre-2026",
-   "story": "merrily-we-roll-along-jamestown-community-theatre-2026",
-   "town": "Jamestown",
-   "date": "2026-11-09",
-   "rank": 6
-  },
-  {
-   "h": "Local Makers Fill the Stadium Theatre for a Holiday Market",
-   "sum": "Saturday, Nov. 14, 11 a.m. to 4 p.m., in Woonsocket, with raffles and a book swap.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=stadium-theatre-makers-market-woonsocket-2026",
-   "story": "stadium-theatre-makers-market-woonsocket-2026",
-   "town": "Woonsocket",
-   "date": "2026-11-09",
-   "rank": 8
-  },
-  {
    "h": "Jazz students play Ellington at the Greenwich Odeum",
    "sum": "The East Greenwich High School Jazz Ensemble performs Duke Ellington and Billy Strayhorn on Wednesday, Nov. 18, with no charge admission.",
    "outlet": "Rhode Island Hurricane",
@@ -405,6 +318,102 @@
    "town": "Westerly",
    "date": "2026-11-09",
    "rank": 5
+  },
+  {
+   "h": "Gallery Night Providence Opens Galleries Citywide on Nov. 19",
+   "sum": "A citywide evening of gallery openings and visits from 5 to 8 p.m. on Thursday, Nov. 19.",
+   "outlet": "RISD Museum",
+   "url": "https://risdmuseum.org/exhibitions-events/events/gallery-night-providence-20",
+   "town": "Providence",
+   "date": "2026-11-10",
+   "rank": 5
+  },
+  {
+   "h": "Newport's Illuminated Boat Parade Returns Nov. 27",
+   "sum": "The 27th annual harbor parade can be watched at no charge, and a non-perishable food donation is requested.",
+   "outlet": "What'sUpNewp",
+   "url": "https://whatsupnewp.com/2026/11/newport-illuminated-boat-parade-returns-nov-27/",
+   "town": "Newport",
+   "date": "2026-11-03",
+   "rank": 6
+  },
+  {
+   "h": "Joe Parillo and the New Ensemble Bring Lily Pads Jazz to Peace Dale",
+   "sum": "Sunday, Nov. 15, doors at 3 p.m. and the show from 3:30 to 5:30 p.m., at the Unitarian Universalist Congregation of South County in Peace Dale.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=lily-pads-jazz-joe-parillo-peace-dale-2026",
+   "story": "lily-pads-jazz-joe-parillo-peace-dale-2026",
+   "town": "South Kingstown",
+   "date": "2026-11-07",
+   "rank": 6
+  },
+  {
+   "h": "Jamestown Community Theatre Opens Merrily We Roll Along",
+   "sum": "Performances Nov. 19 through 22, with a Sondheim musical told in reverse.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=merrily-we-roll-along-jamestown-community-theatre-2026",
+   "story": "merrily-we-roll-along-jamestown-community-theatre-2026",
+   "town": "Jamestown",
+   "date": "2026-11-09",
+   "rank": 6
+  },
+  {
+   "h": "Bill Jacklin Leads a Printmaking Demonstration at Newport Art Museum",
+   "sum": "A lecture and demonstration on printmaking from 10 a.m. to 1 p.m. on Sunday, Nov. 22.",
+   "outlet": "Newport Art Museum",
+   "url": "https://newportartmuseum.org/classes/monotype-printing-demo-with-bill-jacklin/",
+   "town": "Newport",
+   "date": "2026-11-10",
+   "rank": 6
+  },
+  {
+   "h": "Leland Baker Jazz Trio Performs at the RISD Museum on Nov. 19",
+   "sum": "A live jazz performance from 6:30 to 7:30 p.m. on Thursday, Nov. 19.",
+   "outlet": "RISD Museum",
+   "url": "https://risdmuseum.org/exhibitions-events/events/leland-baker-jazz-trio",
+   "town": "Providence",
+   "date": "2026-11-10",
+   "rank": 7
+  },
+  {
+   "h": "Happy Mail: Jamestown Library Makes Thank-You Postcards on Nov. 14",
+   "sum": "Saturday, Nov. 14, 10 a.m. to 1 p.m. in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=jamestown-library-happy-mail-postcards-2026",
+   "story": "jamestown-library-happy-mail-postcards-2026",
+   "town": "Jamestown",
+   "date": "2026-11-07",
+   "rank": 8
+  },
+  {
+   "h": "Local Makers Fill the Stadium Theatre for a Holiday Market",
+   "sum": "Saturday, Nov. 14, 11 a.m. to 4 p.m., in Woonsocket, with raffles and a book swap.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=stadium-theatre-makers-market-woonsocket-2026",
+   "story": "stadium-theatre-makers-market-woonsocket-2026",
+   "town": "Woonsocket",
+   "date": "2026-11-09",
+   "rank": 8
+  },
+  {
+   "h": "Rusty Pens: A Weekly Writing Workshop for Jamestown Beginners",
+   "sum": "Mondays from Nov. 9 through Feb. 22, 10:30 to 11:30 a.m., in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=rusty-pens-writing-workshop-jamestown-2026",
+   "story": "rusty-pens-writing-workshop-jamestown-2026",
+   "town": "Jamestown",
+   "date": "2026-11-07",
+   "rank": 10
+  },
+  {
+   "h": "Everybody Chorus Welcomes Jamestown Singers of All Ages",
+   "sum": "An informal, all-ages singing hour meets at the Jamestown Recreation Center on Nov. 14.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=everybody-chorus-jamestown-2026",
+   "town": "Jamestown",
+   "date": "2026-11-08",
+   "rank": 10,
+   "story": "everybody-chorus-jamestown-2026"
   }
  ]
 }
