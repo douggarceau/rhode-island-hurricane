@@ -6,6 +6,17 @@
  const tel=p=>p?'<a class="gv-tel" href="tel:+1'+X(String(p).replace(/\D/g,'').replace(/^1(?=\d{10}$)/,''))+'">'+X(p)+'</a>':'';
  const ext=(u,t)=>u?'<a class="gv-go" href="'+X(u)+'" target="_blank" rel="noopener">'+X(t||'Official website')+' ›</a>':'';
  const D={gov:null,ccri:null},asked={};
+ /* ---- members-only data: name-level payroll lives in the private 'premium' Supabase bucket ---- */
+ const SBU='https://zldqymhtmhqyypzolxwq.supabase.co',SBK='sb_publishable_rve_mz40jFF8Af0DJQZL3g_2u994LyG';
+ const tokG=()=>{try{for(const k of Object.keys(localStorage))if(/^sb-.*-auth-token$/.test(k)){const v=JSON.parse(localStorage.getItem(k));const t=v&&(v.access_token||(v.currentSession&&v.currentSession.access_token));if(t)return t}}catch(_){}return null};
+ const isMem=()=>window.SS_MEMBER===true;const PC={};
+ const prem=path=>PC[path]||(PC[path]=fetch(SBU+'/storage/v1/object/authenticated/premium/'+path,{headers:{apikey:SBK,Authorization:'Bearer '+tokG()}}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).catch(e=>{delete PC[path];throw e}));
+ const lockBox=what=>'<div class="gv-lock"><b>Members only</b><p>'+X(what)+'</p><button type="button" class="gv-join">Become a member, $9.99 a month</button>'+(window.SS_USER?'':' <a href="#" data-join="gov">Already a member? Log in</a>')+'</div>';
+ document.addEventListener('click',e=>{const b=e.target.closest('.gv-join');if(!b)return;e.preventDefault();const u=window.SS_USER,PAY=window.GV_PAY_LINK||'';
+  if(!u){const j=document.createElement('a');j.dataset.join='gov';j.href='#';document.body.appendChild(j);j.click();j.remove();return}
+  if(PAY)location.href=PAY+(PAY.includes('?')?'&':'?')+'prefilled_email='+encodeURIComponent(u.email||'');else alert('Memberships open soon.')});
+ let lastMem=null;setInterval(()=>{const m=isMem();if(m!==lastMem){const was=lastMem;lastMem=m;if(was!==null)['gov','ccri'].forEach(v=>rerender(v))}},1500);
+ const csvDl=(name,head,rows)=>{const q=v=>'"'+String(v==null?'':v).replace(/"/g,'""')+'"';const b=new Blob([[head].concat(rows).map(r=>r.map(q).join(',')).join('\n')],{type:'text/csv'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download=name;document.body.appendChild(a);a.click();setTimeout(()=>{URL.revokeObjectURL(a.href);a.remove()},500)};
  const rerender=v=>{try{if(typeof STATE!=='undefined'&&STATE.view===v&&typeof render==='function'){const y=scrollY;render();scrollTo(0,y)}}catch(_){}};
  function load(k){if(asked[k])return;asked[k]=1;fetch('data/'+k+'.json?'+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j){D[k]=j;rerender(k)}}).catch(()=>{})}
  const LONG=d=>new Date(d+'T12:00:00').toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
@@ -38,13 +49,18 @@
   return '<span class="gv-facts">'+(T.length?fact('People who left, by year',T.map(t=>t[0]+': '+t[1]+'%').join(' · ')):'')+(x.raise_same_title!=null?fact('Median raise, same job, '+I.raise_window.join('–'),x.raise_same_title+'%'):'')+(x.raise_title_change!=null?fact('Median raise with a title change',x.raise_title_change+'% ('+x.title_changes+' people)'):'')+
    (x.since_first_year_pct!=null?fact('On the payroll since '+I.first_year,x.since_first_year_pct+'% of staff'):'')+(x.fte_cap?fact('Budgeted jobs vs. people paid now',(+x.fte_cap).toLocaleString()+' vs. '+x.on_payroll_now.toLocaleString()):'')+'</span>'}
  function fillWorkforce(el){if(el.dataset.done)return;el.dataset.done=1;const k=el.dataset.pr,box=el.querySelector('.gv-pr');
-  fetch('data/payroll/'+k+'.json?'+Math.floor(Date.now()/864e5)).then(r=>r.json()).then(j=>{const by={};j.people.forEach(p=>{(by[p[1]]=by[p[1]]||[]).push(p)});
+  if(!isMem()){const P=PI(),d=P&&P.depts.find(x=>x.key===k);box.innerHTML=lockBox('Every name, title, pay rate, FY2025 pay and overtime for the '+(d?d.people.toLocaleString():'')+' people at this agency.')+'<p class="gv-sub">Job titles at this agency:</p>'+(d?d.titles:[]).map(t=>'<details class="gv-node gv-n3" data-q="'+X(t[0].toLowerCase())+'"><summary><b>'+X(t[0])+'</b><span>'+t[1]+' · avg '+$M(t[2])+'</span></summary><div class="gv-nb">'+(jobs(t[0])?'<p>'+X(jobs(t[0]))+'</p>':'<p class="gv-sub">No official job description found.</p>')+'</div></details>').join('');delete el.dataset.done;return}
+  prem('payroll/'+k+'.json').then(j=>{const by={};j.people.forEach(p=>{(by[p[1]]=by[p[1]]||[]).push(p)});
    const T=Object.keys(by).sort((a,b)=>by[b].length-by[a].length);
    box.innerHTML='<p class="gv-sub">'+T.length+' job titles. Open one to see what the job is and everyone who holds it.</p>'+T.map(tt=>{const L=by[tt],avg=L.reduce((s,p)=>s+p[2],0)/L.length;
     return '<details class="gv-node gv-n3" data-q="'+X((tt+' '+L.map(p=>p[0]).join(' ')).toLowerCase())+'"><summary><b>'+X(tt)+'</b><span>'+L.length+' · avg '+$M(avg)+'</span></summary><div class="gv-nb">'+(jobs(tt)?'<p>'+X(jobs(tt))+'</p>':'')+'<ul class="gv-people">'+L.map(p=>'<li data-q="'+X(p[0].toLowerCase())+'"><b>'+X(p[0])+'</b> <i>'+$M(p[2])+' rate</i>'+(p[5]!=null?' <span>'+$M(p[5])+' paid in FY2025'+(p[6]?', '+$M(p[6])+' overtime':'')+'</span>':' <span>new in FY2026</span>')+'</li>').join('')+'</ul></div></details>'}).join('')})
-  .catch(()=>{box.innerHTML='<p class="gv-sub">Could not load. Close and reopen to try again.</p>';delete el.dataset.done})}
+  .catch(()=>{box.innerHTML='<p class="gv-sub">Could not load the member data. Log out and back in, then reopen.</p>';delete el.dataset.done})}
  document.addEventListener('click',e=>{const a=e.target.closest('summary a[href]');if(a){e.preventDefault();if(a.target==='_blank')open(a.href,'_blank','noopener');else location.href=a.href}},true);
  document.addEventListener('toggle',e=>{const el=e.target;if(el.matches&&el.matches('.gv-wf[open]'))fillWorkforce(el)},true);
+ document.addEventListener('click',e=>{const b=e.target.closest('.gv-dl');if(!b)return;e.preventDefault();
+  if(!isMem()){const h=b.closest('.gv-head');let x=h.querySelector('.gv-lock');if(!x){h.insertAdjacentHTML('beforeend',lockBox('Spreadsheet downloads of every published contact and every board member.'))}return}
+  const G=D.gov;if(b.dataset.dl==='contacts'){const A={};(G.agencies||[]).forEach(a=>A[a.id]=a.name);csvDl('ri-government-contacts.csv',['Agency','Division','Name','Title','Email','Phone','Source'],[].concat(...(G.staff||[]).map(s=>(s.people||[]).map(p=>[A[s.agency_match]||s.agency,p.division,p.name,p.title,p.email,p.phone,s.source]))))}
+  else fetch('data/boards.json').then(r=>r.json()).then(J=>csvDl('ri-boards-members.csv',['Board','Member','Role','Appointed by','Term ends','Term ended'],[].concat(...J.boards.map(b=>b[5].map(m=>[b[0],m[0],m[1],m[2],m[3],m[4]?'yes':''])))))});
  function card(a){
   const P=PI(),pd=P&&a.payroll&&(P.depts||[]).find(x=>x.key===a.payroll);const alias=/new shoreham/i.test(a.name)?' block island':'';
   return '<details class="gv-node" data-q="'+X([a.name,a.short,a.does,a.leader&&a.leader.name,a.leader&&a.leader.title,a.group,(a.divisions||[]).map(d=>d.name+' '+(d.does||'')+' '+(d.head||'')).join(' ')].join(' ').toLowerCase()+alias)+'">'+
@@ -58,21 +74,28 @@
   budget:t.budget,does:[t.tax_rate_res?'Tax rate: $'+t.tax_rate_res+' per $1,000 (residential)'+(t.tax_rate_comm&&t.tax_rate_comm!==t.tax_rate_res?', $'+t.tax_rate_comm+' (commercial)':''):'',t.county?t.county+' County':''].filter(Boolean).join(' · '),divisions:t.agendas_url?[{name:'Council and board meetings',does:'Agendas and minutes',url:t.agendas_url}]:[]})}
  function taskRow(t,A){const a=A[t.agency]||{};return '<div class="gv-row gv-task" data-q="'+X((t.task+' '+(a.name||'')+' '+(t.note||'')).toLowerCase())+'"><div class="gv-body"><b>'+X(t.task)+'</b><span class="gv-who">'+X(a.name||t.agency||'')+'</span>'+(t.note?'<p>'+X(t.note)+'</p>':'')+
   '<span class="gv-facts">'+fact('Call',tel(t.phone||a.phone))+'</span>'+ext(t.url,'Do it online')+'</div></div>'}
- const lst=(title,rows,f)=>'<details class="gv-divs gv-comm"><summary>'+X(title)+' (top '+rows.length+')</summary><ol class="gv-ol">'+rows.map(r=>{const [a,b,c]=f(r);return '<li data-q="'+X((a+' '+b).toLowerCase())+'"><b>'+X(a)+'</b> <span>'+X(b)+'</span> <i>'+X(c)+'</i></li>'}).join('')+'</ol></details>';
+ const LF={top_rate:r=>[r[0],r[1]+' · '+r[2],$M(r[3])+' a year'],top_ot:r=>[r[0],r[1]+' · '+r[2],$M(r[3])+' overtime of '+$M(r[4])+' total'],top_total:r=>[r[0],r[1]+' · '+r[2],$M(r[3])+' total'],
+  over_base:r=>[r[0],r[1]+' · '+r[2],$M(r[4])+' overtime on '+$M(r[3])+' base, '+$M(r[5])+' total'],ot_top:r=>[r[0],r[1]+' · '+r[2],$M(r[4])+' overtime on '+$M(r[3])+' base, '+$M(r[5])+' total'],
+  repeat_top100:r=>[r[0],r[1],r[2].map(y=>y[0]+': '+$M(y[1])).join(' · ')]};
+ const lst=(title,key,count,cls)=>'<details class="'+(cls||'gv-divs gv-comm')+' gv-pl" data-pl="'+key+'"><summary><b>'+X(title)+'</b>'+(count?' <span>'+X(count)+'</span>':'')+' <span class="gv-mo">Members</span></summary><div class="gv-plb gv-nb"></div></details>';
+ document.addEventListener('toggle',e=>{const el=e.target;if(!el.matches||!el.matches('.gv-pl[open]'))return;const b=el.querySelector('.gv-plb');
+  if(!isMem()){b.innerHTML=lockBox('The names behind these numbers.');return}if(el.dataset.done)return;el.dataset.done=1;b.innerHTML='<p class="gv-sub">Loading…</p>';
+  prem('lists.json').then(L=>{const k=el.dataset.pl,f=LF[k];b.innerHTML='<ol class="gv-ol">'+(L[k]||[]).map(r=>{const [a,c,d]=f(r);return '<li data-q="'+X((a+' '+c).toLowerCase())+'"><b>'+X(a)+'</b> <span>'+X(c)+'</span> <i>'+X(d)+'</i></li>'}).join('')+'</ol>'}).catch(()=>{b.innerHTML='<p class="gv-sub">Could not load the member data.</p>';delete el.dataset.done})},true);
  /* full roster overlay */
  function roster(k){const P=PI();const d=P&&P.depts.find(x=>x.key===k);if(!d)return;
   let O=document.getElementById('gvRoster');if(!O){O=document.createElement('div');O.id='gvRoster';O.setAttribute('role','dialog');O.setAttribute('aria-modal','true');document.body.appendChild(O)}
   O.innerHTML='<div class="gr-bar"><b>'+X(d.name)+'</b><button type="button" class="gr-x">Close ✕</button></div><div class="gr-in"><p class="gv-sub">Loading '+d.people.toLocaleString()+' people…</p></div>';O.hidden=false;document.documentElement.style.overflow='hidden';
-  fetch('data/payroll/'+k+'.json?'+Math.floor(Date.now()/864e5)).then(r=>r.json()).then(j=>{const ppl=j.people;let sort=2,q='',by='all';
+  if(!isMem()){O.querySelector('.gr-in').innerHTML=lockBox('The full sortable table of every '+d.name+' employee, with pay, FY2025 earnings and overtime, plus a spreadsheet download.');return}
+  prem('payroll/'+k+'.json').then(j=>{const ppl=j.people;let sort=2,q='',by='all';
    const titles=d.titles;
    const draw=()=>{const L=ppl.filter(p=>(!q||(p[0]+' '+p[1]).toLowerCase().includes(q))&&(by==='all'||p[1]===by)).sort((a,b)=>sort===0?a[0].split(' ').pop().localeCompare(b[0].split(' ').pop()):(b[sort]||0)-(a[sort]||0));
     O.querySelector('.gr-list').innerHTML='<p class="gv-sub">'+L.length.toLocaleString()+' of '+ppl.length.toLocaleString()+' people</p><table class="gv-tbl gr-tbl"><tr><th>Name and title</th><th>Pay rate</th><th>FY2025 pay</th><th>Overtime</th></tr>'+L.slice(0,1500).map(p=>'<tr><td><b>'+X(p[0])+'</b><br><small>'+X(p[1])+'</small></td><td>'+$M(p[2])+'</td><td>'+(p[5]!=null?$M(p[5]):'<small>new</small>')+'</td><td>'+(p[6]?$M(p[6]):'')+'</td></tr>').join('')+'</table>'+(L.length>1500?'<p class="gv-sub">Showing the first 1,500. Search to narrow.</p>':'')};
    O.querySelector('.gr-in').innerHTML='<div class="gr-sum">'+[['People',d.people.toLocaleString()],['Yearly salaries',$M(d.rate_sum)],['Median pay',$M(d.median_rate)],['$100k or more',d.over_100k.toLocaleString()],['Overtime, FY2025',$M(d.full_ot)]].map(([a,b])=>'<span><em>'+a+'</em>'+b+'</span>').join('')+'</div>'+
     '<details class="gv-divs gv-comm"><summary>Every job title ('+titles.length+')</summary><table class="gv-tbl"><tr><th>Title</th><th>People</th><th>Avg pay</th></tr>'+titles.map(t=>'<tr><td><a href="#" data-gt="'+X(t[0])+'">'+X(t[0])+'</a>'+(jobs(t[0])?'<br><small>'+X(jobs(t[0]))+'</small>':'')+'</td><td>'+t[1]+'</td><td>'+$M(t[2])+'</td></tr>').join('')+'</table></details>'+
     trendSvg(d.trend)+
-    '<div class="gr-ctl"><input type="search" class="gr-q" placeholder="Search a name or title"><select class="gr-s"><option value="2">Highest pay rate</option><option value="5">Highest FY2025 pay</option><option value="6">Most overtime</option><option value="0">Last name A–Z</option></select><button type="button" class="gr-all" hidden>All titles ✕</button></div><div class="gr-list"></div>'+
+    '<div class="gr-ctl"><input type="search" class="gr-q" placeholder="Search a name or title"><select class="gr-s"><option value="2">Highest pay rate</option><option value="5">Highest FY2025 pay</option><option value="6">Most overtime</option><option value="0">Last name A–Z</option></select><button type="button" class="gr-all" hidden>All titles ✕</button><button type="button" class="gr-dl">Download spreadsheet (CSV)</button></div><div class="gr-list"></div>'+
     '<p class="gv-sub">From the state payroll ('+X(P.source)+'), downloaded '+X(P.downloaded)+'. '+X(P.note)+'</p>';
-   O.querySelector('.gr-q').oninput=e=>{q=e.target.value.trim().toLowerCase();draw()};O.querySelector('.gr-s').onchange=e=>{sort=+e.target.value;draw()};
+   O.querySelector('.gr-dl').onclick=()=>csvDl(d.key+'-payroll-'+P.source_updated+'.csv',['Name','Title','Pay rate','FY2026 pay to date','FY2026 overtime to date','FY2025 pay','FY2025 overtime','FY2025 other pay'],ppl);O.querySelector('.gr-q').oninput=e=>{q=e.target.value.trim().toLowerCase();draw()};O.querySelector('.gr-s').onchange=e=>{sort=+e.target.value;draw()};
    O.querySelector('.gr-in').addEventListener('click',e=>{const a=e.target.closest('[data-gt]');if(a){e.preventDefault();by=a.dataset.gt;O.querySelector('.gr-all').hidden=false;O.querySelector('.gr-all').textContent=by+' ✕';draw();O.querySelector('.gr-ctl').scrollIntoView({behavior:'smooth'})}
     if(e.target.closest('.gr-all')){by='all';e.target.hidden=true;draw()}});
    draw()}).catch(()=>{O.querySelector('.gr-in').innerHTML='<p class="gv-sub">Could not load the roster. Try again.</p>'})}
@@ -106,9 +129,9 @@
   const work=P?'<details class="gv-branch" id="gv-work"><summary>The workforce</summary><p class="gv-sub"><b>'+P.active.toLocaleString()+'</b> people were on the state payroll in the state’s latest file (updated Oct. 9, 2025), with <b>'+$M(P.active_rate_sum)+'</b> in yearly salaries. In fiscal year 2025 (July 2024–June 2025), '+FY.people.toLocaleString()+' people were paid '+$M(FY.paid)+', including '+$M(FY.overtime)+' in overtime. '+P.ot_over_base+' employees earned more in overtime than their base salary. Source: <a href="'+X(P.source_url)+'" target="_blank" rel="noopener">'+X(P.source)+'</a>, downloaded '+X(P.downloaded)+'.</p>'+
    '<div class="gv-bars">'+P.bands.map(b=>'<div class="gv-bar" data-q="'+X(b[0].toLowerCase())+'"><span class="gv-bl">'+X(b[0])+'</span><span class="gv-bt"><i style="width:'+(b[1]/Math.max(...P.bands.map(x=>x[1]))*100).toFixed(1)+'%"></i></span><span class="gv-bv">'+b[1].toLocaleString()+' people</span></div>').join('')+'</div>'+
    '<details class="gv-divs gv-comm"><summary>Every agency by headcount ('+P.depts.length+')</summary><table class="gv-tbl"><tr><th>Agency</th><th>People</th><th>Salaries</th><th>Overtime*</th></tr>'+P.depts.map(d=>'<tr data-q="'+X(d.name.toLowerCase())+'"><td><a href="#" data-roster="'+X(d.key)+'">'+X(d.name)+'</a></td><td>'+d.people.toLocaleString()+'</td><td>'+$M(d.rate_sum)+'</td><td>'+$M(d.full_ot)+'</td></tr>').join('')+'</table><p class="gv-sub">*Fiscal year 2025 (July 2024–June 2025).</p></details>'+
-   lst('Highest pay rates',P.top_rate,r=>[r[0],r[1]+' · '+r[2],$M(r[3])+' a year'])+
-   lst('Most overtime, FY2025',P.top_ot,r=>[r[0],r[1]+' · '+r[2],$M(r[3])+' overtime of '+$M(r[4])+' total'])+
-   lst('Highest total pay, FY2025',P.top_total,r=>[r[0],r[1]+' · '+r[2],$M(r[3])+' total'])+
+   lst('Highest pay rates','top_rate','top 50')+
+   lst('Most overtime, FY2025','top_ot','top 50')+
+   lst('Highest total pay, FY2025','top_total','top 50')+
    '<p class="gv-sub">University payroll lines can include coaching contracts and other payments that the state records as overtime or other pay.</p></details>':'';
   const BN=j.benefits;const kv=(a,b)=>b?'<span class="gv-fact"><em>'+X(a)+'</em> '+X(b)+'</span>':'';
   const node=(title,sub,body)=>body?'<details class="gv-node"><summary><b>'+X(title)+'</b>'+(sub?'<span>'+X(sub)+'</span>':'')+'</summary><div class="gv-nb">'+body+'</div></details>':'';
@@ -129,18 +152,18 @@
    '</div></div></details>':'';
   const O=j.overtime;const OY=O?O.by_year.filter(y=>y[0]!==(P&&P.cur_year)):[];
   const otRow=r=>'<li data-q="'+X((r[0]+' '+r[1]+' '+r[2]).toLowerCase())+'"><b>'+X(r[0])+'</b> <span>'+X(r[1])+' · '+X(r[2])+'</span> <i>'+$M(r[4])+' overtime</i> <span>on '+$M(r[3])+' base, '+$M(r[5])+' total</span></li>';
-  const overtime=O?'<details class="gv-branch" id="gv-ot"><summary>Overtime review</summary><p class="gv-sub">In fiscal year '+X(O.full_year)+', the state paid <b>'+$M(OY.length?OY[OY.length-1][1]:0)+'</b> in overtime to '+O.people_with_ot.toLocaleString()+' people. '+O.over_100k+' people made $100,000 or more in overtime alone, and '+O.over_base.length+' made more in overtime than in base pay.</p>'+
+  const overtime=O?'<details class="gv-branch" id="gv-ot"><summary>Overtime review</summary><p class="gv-sub">In fiscal year '+X(O.full_year)+', the state paid <b>'+$M(OY.length?OY[OY.length-1][1]:0)+'</b> in overtime to '+O.people_with_ot.toLocaleString()+' people. '+O.over_100k+' people made $100,000 or more in overtime alone, and '+O.over_base_count+' made more in overtime than in base pay.</p>'+
    '<div class="gv-bars">'+OY.map(y=>'<div class="gv-bar" data-q="'+y[0]+'"><span class="gv-bl">Fiscal year '+y[0]+'</span><span class="gv-bt"><i style="width:'+(y[1]/Math.max(...OY.map(z=>z[1]))*100).toFixed(1)+'%"></i></span><span class="gv-bv">'+$M(y[1])+'</span></div>').join('')+'</div>'+
    '<div class="gv-band"><div class="gv-cards">'+
    node('By agency',O.by_agency.length+' agencies','<table class="gv-tbl"><tr><th>Agency</th><th>Overtime</th><th>% of base pay</th><th>People</th></tr>'+O.by_agency.map(a=>'<tr data-q="'+X(a[0].toLowerCase())+'"><td>'+X(a[0])+'</td><td>'+$M(a[1])+'</td><td>'+a[2]+'%</td><td>'+a[3].toLocaleString()+' of '+a[4].toLocaleString()+'</td></tr>').join('')+'</table>')+
    node('By job title','Top '+O.by_title.length,'<table class="gv-tbl"><tr><th>Title</th><th>Overtime</th><th>People</th><th>Average</th></tr>'+O.by_title.map(a=>'<tr data-q="'+X((a[0]+' '+a[1]).toLowerCase())+'"><td>'+X(a[0])+'<br><small>'+X(a[1])+'</small></td><td>'+$M(a[2])+'</td><td>'+a[3]+'</td><td>'+$M(a[4])+'</td></tr>').join('')+'</table>')+
-   node('Overtime bigger than base pay',O.over_base.length+' people','<ol class="gv-ol">'+O.over_base.map(otRow).join('')+'</ol>')+
-   node('Top 100 overtime earners','','<ol class="gv-ol">'+O.top.map(otRow).join('')+'</ol>')+
-   node('In the top 100 three years running',O.repeat_top100.length+' people','<ol class="gv-ol">'+O.repeat_top100.map(r=>'<li data-q="'+X((r[0]+' '+r[1]).toLowerCase())+'"><b>'+X(r[0])+'</b> <span>'+X(r[1])+'</span> <i>'+r[2].map(y=>y[0]+': '+$M(y[1])).join(' · ')+'</i></li>').join('')+'</ol>')+
+   lst('Overtime bigger than base pay','over_base',O.over_base_count+' people','gv-node')+
+   lst('Top 100 overtime earners','ot_top','','gv-node')+
+   lst('In the top 100 three years running','repeat_top100',O.repeat_count+' people','gv-node')+
    '</div></div><p class="gv-sub">From the state payroll file. Overtime is what the state paid; the file does not show hours or the reason for the overtime.</p></details>':'';
   const jump=[['exec','Governor & agencies'],['legis','General Assembly'],['courts','Courts'],['quasi','State authorities'],['fed','In Congress'],['towns','Cities & towns'],['money','The budget'],['work','The workforce'],['ot','Overtime review'],['benefits','Benefits & retirement'],['assess','Where to cut']];
   return '<section class="box gv"><div class="gv-head"><h2>'+X(j.title||'Rhode Island Government, Mapped')+'</h2><p>'+X(j.intro||'')+'</p>'+
-   '<label class="gv-search"><span>Search</span><input type="search" id="gvQ" placeholder="A name, an office, a town, or what you need" autocomplete="off"></label>'+
+   '<label class="gv-search"><span>Search</span><input type="search" id="gvQ" placeholder="A name, an office, a town, or what you need" autocomplete="off"></label>'+'<div class="gv-dls"><button type="button" class="gv-dl" data-dl="contacts">Download all contacts</button><button type="button" class="gv-dl" data-dl="boards">Download boards &amp; members</button><span class="gv-mo">Members</span></div>'+
    '<div class="gv-jump">'+jump.map(([k,l])=>'<a href="#gv-'+k+'" data-gvj="'+k+'">'+X(l)+'</a>').join('')+'</div>'+
    (j.help?'<div class="gv-help">'+j.help.map(h=>'<span><b>'+X(h.label)+'</b> '+(h.phone?tel(h.phone):'')+(h.note?' <i>'+X(h.note)+'</i>':'')+'</span>').join('')+'</div>':'')+'</div>'+
    '<details class="gv-branch" id="gv-exec" open><summary>Executive branch</summary>'+grid('officers','Statewide elected officers','Elected by all Rhode Islanders.',officers,1)+GROUPS.concat(['Other agencies']).map(g=>grid(g.replace(/\W+/g,'-').toLowerCase(),g,'',byG[g]||[],1)).join('')+boardsBand(j)+'</details>'+
@@ -288,7 +311,12 @@
 .gv-lead{font:700 14px/1.35 "Libre Franklin",system-ui,sans-serif!important;color:#fff!important}.gv-lead small{font-weight:600;color:#C9D6DF}
 .gv-cnt{display:flex;flex-direction:column;gap:2px;font:600 14px/1.4 "Libre Franklin",system-ui,sans-serif}.gv-cnt a{color:#D4ECF5!important;overflow-wrap:anywhere}
 @media(max-width:560px){.gv-band .gv-cards{grid-template-columns:minmax(0,1fr);padding:4px 4px 10px}}
-.gv-btn{all:unset;cursor:pointer}.gv-key li{padding:10px 0;font-size:15px}.gv-key b{display:block;font:700 17px/1.3 "Playfair Display",Georgia,serif}
+.gv-btn{all:unset;cursor:pointer}
+.gv-lock{margin:8px 0;padding:14px;border:2px solid #B5123A;border-radius:8px;background:#B5123A1a;color:#EEE9E5}.gv-lock b{display:block;font:800 13px/1.2 "Libre Franklin",system-ui,sans-serif;letter-spacing:.1em;text-transform:uppercase;color:#fff}.gv-lock p{margin:6px 0 10px;font:400 15px/1.45 Georgia,serif}
+.gv-join{all:unset;cursor:pointer;display:inline-block;padding:11px 16px;border-radius:5px;background:#B5123A;color:#fff;font:800 15px/1 "Libre Franklin",system-ui,sans-serif}.gv-lock a{margin-left:10px;color:#D4ECF5!important;font:600 14px/1 "Libre Franklin",system-ui,sans-serif}
+.gv-mo{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:3px;background:#B5123A;color:#fff!important;font:800 10px/1.4 "Libre Franklin",system-ui,sans-serif!important;letter-spacing:.08em;text-transform:uppercase}
+.gv-dls{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:10px 0 0}.gv-dl,.gr-dl{all:unset;cursor:pointer;padding:9px 12px;border:1px solid #D4ECF566;border-radius:5px;font:700 14px/1 "Libre Franklin",system-ui,sans-serif;color:#fff}.gv-dl:hover,.gr-dl:hover{background:#ffffff14}
+.gv-pl.gv-node>summary b{font:700 17px/1.25 "Playfair Display",Georgia,serif;color:#fff}.gv-key li{padding:10px 0;font-size:15px}.gv-key b{display:block;font:700 17px/1.3 "Playfair Display",Georgia,serif}
 .gv-node[hidden]{display:none!important}
 @media(max-width:560px){.gv-branch{margin:10px 6px 0}.gv-branch>.gv-sub,.gv-branch>.gv-bars,.gv-branch>.gv-comm,.gv-branch>.gv-band,.gv-branch>details{margin-left:6px;margin-right:6px}.gv-nb{padding-left:9px;margin-left:3px}}`;document.head.appendChild(css);
  /* a ?go=gov link can render before this file loads: draw it now */

@@ -1,5 +1,6 @@
 """Assemble data/gov.json, data/ccri.json and data/payroll/* for RI Hurricane's Government and CCRI tabs.
-usage: python3 -I assemble_gov.py <research_dir> <payroll_out_dir> <repo_dir>"""
+usage: python3 -I assemble_gov.py <research_dir> <payroll_out_dir> <repo_dir> [premium_out_dir]
+Name-level payroll goes ONLY to premium_out_dir (uploaded to the members-only Supabase bucket), never into the public repo."""
 import json, os, sys, shutil, re, datetime
 RD, PD, REPO = sys.argv[1:4]
 def L(n):
@@ -128,9 +129,18 @@ gov = {
  'jobs': {j['payroll_title']: j.get('summary', '') for j in jb.get('jobs', []) if j.get('summary')},
  'payroll': P, 'overtime': OT, 'boards_summary': BS, 'insights': json.load(open(os.path.join(PD, 'insights.json'))) if os.path.exists(os.path.join(PD, 'insights.json')) else None, 'assessment': L('assessment.json') or None,
 }
-os.makedirs(os.path.join(REPO, 'data', 'payroll'), exist_ok=True)
+PREM = sys.argv[4] if len(sys.argv) > 4 else os.path.join(os.path.dirname(os.path.abspath(PD)), 'premium-out')
+os.makedirs(os.path.join(PREM, 'payroll'), exist_ok=True)
 for f in os.listdir(PD):
-    if f not in ('index.json', 'overtime.json'): shutil.copy(os.path.join(PD, f), os.path.join(REPO, 'data', 'payroll', f))
+    if f.endswith('.json') and f not in ('index.json', 'overtime.json', 'signals.json', 'insights.json'): shutil.copy(os.path.join(PD, f), os.path.join(PREM, 'payroll', f))
+json.dump({'top_rate': P.pop('top_rate', []), 'top_ot': P.pop('top_ot', []), 'top_total': P.pop('top_total', []),
+           'over_base': OT.get('over_base', []), 'ot_top': OT.get('top', []), 'repeat_top100': OT.get('repeat_top100', []), 'repeat_years': OT.get('repeat_years', [])},
+          open(os.path.join(PREM, 'lists.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+for d in P['depts']: d.pop('top', None)
+OT['over_base_count'] = len(OT.pop('over_base', [])); OT['top_count'] = len(OT.pop('top', [])); OT['repeat_count'] = len(OT.pop('repeat_top100', []))
+pub = os.path.join(REPO, 'data', 'payroll')
+if os.path.isdir(pub): shutil.rmtree(pub)  # name-level rosters are members-only now
+print('premium files', len(os.listdir(os.path.join(PREM, 'payroll'))), 'in', PREM)
 json.dump(gov, open(os.path.join(REPO, 'data', 'gov.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
 cc = L('ccri.json')
 if cc:
