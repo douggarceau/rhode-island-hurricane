@@ -166,6 +166,19 @@ for a in pubg['agencies']:
 for blk in (pubg['judicial'].get('admin') or {}, pubg['legislative'].get('admin') or {}):
     if blk.get('budget'): blk['budget'] = {'fy': blk['budget'].get('fy'), 'all_funds': blk['budget'].get('all_funds')}
 pubg['extra_budgets'] = []
+for a in pubg['agencies']:
+    for k in ('deputy', 'email', 'other_phones', 'hours'): a.pop(k, None)
+    a['locked'] = 'agency'
+for blk in (pubg['judicial'].get('admin') or {},):
+    for d in blk.get('divisions', []) or []:
+        for k in ('head', 'phone', 'email'): d.pop(k, None)
+for c in pubg['judicial'].get('courts', []):
+    for l in c.get('locations', []): l.pop('clerk_phone', None)
+for tw in pubg['towns']:
+    for k in ('clerk_phone', 'tax_phone', 'police_nonemergency', 'tax_rate_res', 'tax_rate_comm', 'budget', 'hours'): tw.pop(k, None)
+    tw['locked'] = 'town'
+for s in pubg.get('sites', []):
+    for k in ('address', 'phone', 'staff_note'): s.pop(k, None)
 P2 = pubg['payroll']
 pubg['payroll'] = {k: P2.get(k) for k in ('source', 'source_url', 'downloaded', 'source_updated', 'note', 'cur_year', 'full_year', 'active')}
 pubg['payroll']['depts'] = [{'key': d['key'], 'name': d['name'], 'portal_name': d['portal_name'], 'people': d['people'], 'titles': [[x[0], x[1]] for x in d['titles']]} for d in P2['depts']]
@@ -181,6 +194,7 @@ if cc:
     PREM2 = sys.argv[4] if len(sys.argv) > 4 else os.path.join(os.path.dirname(os.path.abspath(PD)), 'premium-out')
     json.dump(cc, open(os.path.join(PREM2, 'ccri.json'), 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
     pc = copy.deepcopy(cc); pc['tier'] = 'free'
+    for cp in pc.get('campuses', []): cp.pop('phone', None)
     for o in pc.get('offices', []):
         for k in ('phone', 'email', 'hours'): o.pop(k, None)
     up = sorted((d for d in pc.get('dates', []) if (d.get('end') or d.get('date', '')) >= today), key=lambda d: d['date'])
