@@ -28,6 +28,6 @@ window.vRecovery=function(){
  '<div id="recov"><div class="rc-bar"><label>Day <select id="rcDay">'+DAYS.map((d,i)=>'<option value="'+i+'"'+(i===ST.day?' selected':'')+'>'+d+'</option>').join('')+'</select></label>'+(towns.length>1?'<label>Town <select id="rcTown"><option value="">All towns</option>'+towns.map(t=>'<option'+(t===ST.town?' selected':'')+'>'+H(t)+'</option>').join('')+'</select></label>':'')+'<span class="rc-c"><b>'+L.length+'</b> meetings</span></div>'+
  '<div class="rc-l">'+(rows||'<p class="rc-e">No meetings listed for this day and town.</p>')+'</div>'+(orgs?'<h3 class="rc-h">Help lines and organizations</h3><ul class="rc-o">'+orgs+'</ul>':'')+'</div>'};
 document.addEventListener('change',e=>{if(e.target.id==='rcDay'){ST.day=+e.target.value;render()}else if(e.target.id==='rcTown'){ST.town=e.target.value;render()}});
-function addBtn(){const nav=document.getElementById('nav');if(!nav||nav.querySelector('[data-go="recovery"]'))return;const b=document.createElement('button');b.className='nb';b.dataset.go='recovery';b.type='button';b.textContent='Recovery & Support Meetings';nav.appendChild(b)}
+function addBtn(){return;/* now reached through Help > Recovery meetings */const nav=document.getElementById('nav');if(!nav||nav.querySelector('[data-go="recovery"]'))return;const b=document.createElement('button');b.className='nb';b.dataset.go='recovery';b.type='button';b.textContent='Recovery & Support Meetings';nav.appendChild(b)}
 addBtn();document.addEventListener('DOMContentLoaded',addBtn);
 })();

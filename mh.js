@@ -178,7 +178,7 @@
   '<p><b>Kids’ Link RI</b> for children and teens, 24/7, no charge: <a class="mh-tel" href="tel:+18555435465">855-543-5465</a></p>'+
   '<p><b>Domestic violence helpline</b>, 24/7: <a class="mh-tel" href="tel:+18004948100">800-494-8100</a> · Other help any time: <a class="mh-tel" href="tel:211">211</a></p></div>';
  window.vMH=function(){load();try{window['ga-disable-'+GA]=true}catch(_){}
-  const head='<a class="mh-skip" href="#mhRes">Skip to listings</a><div class="mh-head"><h2>Mental Health &amp; Self-Help'+(JT?' for Jamestown':' in Rhode Island')+'</h2>'+CRISIS+
+  const head='<a class="mh-skip" href="#mhRes">Skip to listings</a><div class="mh-head">'+(window.helpBar?helpBar('mh'):'')+'<h2>Mental Health &amp; Self-Help'+(JT?' for Jamestown':' in Rhode Island')+'</h2>'+CRISIS+
    '<p>Free to use, no sign-up. Counseling, low-cost care, support groups, recovery, family and senior help across all 39 towns. This is a directory, not medical advice: it doesn’t diagnose or recommend treatment. Independent and privately run by '+(JT?'Jamestown Island News':'Rhode Island Hurricane')+'.</p></div>';
   if(!D)return '<section class="box mh">'+head+'<p class="mh-note">Loading…</p></section>';
   return '<section class="box mh">'+head+'<div id="mhBody">'+vList()+'</div><p class="mh-foot">'+D.meta.record_count+' listings ('+D.meta.counts_by_record_type.service+' services, '+D.meta.counts_by_record_type.meeting+' meeting listings, '+D.meta.counts_by_record_type.directory+' official finders) from '+D.meta.source_count+' sources, checked Nov. 10, 2026. No provider was called; “checked” means the official source was reviewed, not that anyone is accepting patients. Not a complete list of every clinician or meeting. “Not published” means the source didn’t say. Nothing you choose here is saved, put in the address bar or sent to analytics.</p></section>'};
@@ -193,7 +193,7 @@
   else if(c.dataset.mhrel)st.rel=c.dataset.mhrel;else st.cat=c.dataset.mhc;redraw()});
  const css=document.createElement('style');css.id='mhCss';css.textContent=`
 .mh{--mh-a:#D4ECF5;padding-bottom:16px}.mh-skip{position:absolute;left:-9999px}.mh-skip:focus{left:12px;top:12px;z-index:50;padding:10px 14px;background:#E9C46A;color:#0A1428!important;font-weight:800}
-.mh-head{padding:22px 18px 6px}.mh-head h2{margin:0 0 10px;font:700 clamp(26px,5vw,40px)/1.1 "Playfair Display",Georgia,serif;color:var(--mh-a)}.mh-head>p{margin:10px 0 4px;font:400 17px/1.5 Georgia,serif;color:#EEE9E5}
+.mh-head{padding:22px 18px 6px}.mh-head h2{margin:12px 0 10px;font:700 clamp(22px,4vw,30px)/1.15 "Playfair Display",Georgia,serif;color:var(--mh-a)}.mh-head>p{margin:10px 0 4px;font:400 17px/1.5 Georgia,serif;color:#EEE9E5}
 .mh-crisis{padding:12px 14px;border-left:5px solid #B5123A;background:#ffffff10;border-radius:4px}.mh-crisis p{margin:4px 0;font:400 16px/1.5 Georgia,serif;color:#EEE9E5}.mh-crisis b{color:#fff}.mh-crisis small{color:#C9D6DF}
 .mh .mh-sm{font:inherit;font-size:.92em;letter-spacing:0;text-transform:none;color:#C9D6DF}.mh-tel{font-weight:800;color:#fff!important;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
 .mh-cats{display:flex;flex-wrap:wrap;gap:8px;margin:14px 18px 4px}.mh-cats button{all:unset;cursor:pointer;min-height:24px;padding:10px 14px;border-radius:6px;border:2px solid #D4ECF566;font:800 15px/1.1 "Libre Franklin",system-ui,sans-serif;color:#fff}.mh-cats button small{font-weight:600;opacity:.8}.mh-cats button.on{background:#D4ECF5;color:#0A1428;border-color:#D4ECF5}

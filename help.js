@@ -95,11 +95,17 @@
    '<label class="hp-wide">Search<input data-hp="q" type="search" placeholder="e.g. heating, Medicare, property tax" value="'+X(st.q)+'"></label>'+
    '<label class="hp-chk"><input type="checkbox" data-hp="closed"'+(st.closed?' checked':'')+'> Include closed and historical programs</label></div>'+
    '<p class="hp-count"><b>'+L.length+'</b> programs'+(st.view?' · '+X(BV[st.view]):'')+'. Program pages don’t prove money is left or that you qualify; check with the administrator.</p>'+L.map(benCard).join('')}
+ window.helpBar=function(a){const T=[['find','Find help near me'],['benefits','Benefits'],['cancer','Cancer help'],['mh','Mental health'],['recovery','Recovery meetings']];if(document.querySelector('script[src^="seniors.js"]'))T.splice(1,0,['seniors','Seniors']);
+  return '<div class="hp-tabs" role="tablist" aria-label="Help sections">'+T.map(([k,v])=>'<button type="button" role="tab" data-hbar="'+k+'" aria-selected="'+(a===k)+'" class="'+(a===k?'on':'')+'">'+v+'</button>').join('')+'</div>'};
+ document.addEventListener('click',e=>{const t=e.target.closest&&e.target.closest('[data-hbar]');if(!t)return;e.preventDefault();const k=t.dataset.hbar;
+  if(k==='mh'||k==='seniors'||k==='recovery'){if(typeof go==='function')go(k);return}
+  if(typeof STATE!=='undefined'&&STATE.view!=='help'){window.hpOpen({tab:k});return}
+  st.tab=k;save();document.querySelectorAll('.hp-tabs button').forEach(b=>b.classList.toggle('on',b.dataset.hbar===k));redraw()});
  window.__hpRedraw=()=>{try{redraw()}catch(_){}};window.hpOpen=function(o){Object.assign(st,o||{});save();if(typeof go==='function')go('help')};
  window.vHelp=function(){load();
   const head='<div class="hp-head"><h2>Help &amp; Benefits'+(JT?' for Jamestown':' for Rhode Islanders')+'</h2><p>Free to use. Find practical help near you, and the benefits and programs you may qualify for. Independent and privately run by '+(JT?'Jamestown Island News':'Rhode Island Hurricane')+'; not a government agency.</p>'+
    '<p class="hp-urgent"><b>Emergency? Call 911.</b> For help finding services any time, call <a class="hp-tel" href="tel:211">211</a>.</p>'+
-   '<div class="hp-tabs"><button type="button" data-hpt="find" class="'+(st.tab==='find'?'on':'')+'">Find help near me</button><button type="button" data-hpt="benefits" class="'+(st.tab==='benefits'?'on':'')+'">Benefits &amp; programs</button><button type="button" data-hpt="cancer" class="'+(st.tab==='cancer'?'on':'')+'">Cancer help &amp; recovery</button></div></div>';
+   helpBar(st.tab)+'</div>';
   if(!H)return '<section class="box hp">'+head+'<p class="hp-note">Loading…</p></section>';
   return '<section class="box hp">'+head+'<div id="hpBody">'+((st.tab==='cancer'?(window.hpCancer?hpCancer(st,H):''):st.tab==='find'?vFind():vBen()))+'</div><p class="hp-foot">Research of official published information as of Nov. 10, 2026. Nothing you choose here is saved on a server or sent to any provider. Always confirm with the provider before you go.</p></section>'};
  const redraw=()=>{const b=document.getElementById('hpBody');if(!b||!H)return;const f=document.activeElement&&document.activeElement.dataset?document.activeElement.dataset.hp:null;b.innerHTML=(st.tab==='cancer'?(window.hpCancer?hpCancer(st,H):''):st.tab==='find'?vFind():vBen());if(f){const e=b.querySelector('[data-hp="'+f+'"]');if(e&&e.tagName==='INPUT'&&e.type!=='checkbox'&&e.type!=='radio'){e.focus();const v=e.value;try{e.setSelectionRange(v.length,v.length)}catch(_){}}}save()};
