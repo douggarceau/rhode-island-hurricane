@@ -60,6 +60,22 @@ leg['admin'] = side('General Assembly: staff and budget', 'legislative', 'legisl
 leg_members = st.get('legislators', [])
 if leg_members:
     leg.setdefault('offices', [])
+# ---- staff directories: point each block at an agency card; give small offices their own card
+SM = {'dcamm': 'doa', 'hr': 'doa', 'omb': 'doa', 'purchasing': 'doa', 'municipal-finance': 'dor', 'housing': 'eoh', 'richr': 'hrc', 'rihphc': 'hphc'}
+EXTRA = {'ripd': ('Office of the Public Defender', 'public-defender', 'publicdefender'), 'risca': ('RI State Council on the Arts', 'ri-council-on-the-arts', 'arts'),
+ 'hphc': ('Historical Preservation & Heritage Commission', 'historical-preservation', 'historic'), 'oca': ('Office of the Child Advocate', 'child-advocate', 'childadvocate'),
+ 'mha': ('Office of the Mental Health Advocate', 'mental-health-advocate', 'mhadvocate'), 'national-guard': ('Military Staff (RI National Guard)', 'military-staff', 'military'),
+ 'ohe': ('Office of the Postsecondary Commissioner', 'higher-education', 'ohhe'), 'ccc': ('Cannabis Control Commission', None, 'cannabis'), 'auditor-general': ('Office of the Auditor General', None, None)}
+dirs = st.get('directories', [])
+for d in dirs: d['agency_match'] = SM.get(d.get('agency_match'), d.get('agency_match'))
+ids = {a['id'] for a in agencies}
+for m, (nm, pk, bk) in EXTRA.items():
+    if m in ids or not any(d['agency_match'] == m for d in dirs): continue
+    x = side(nm, pk, bk, {'id': m, 'group': 'Other agencies', 'source': next(d['source'] for d in dirs if d['agency_match'] == m)})
+    agencies.append(x)
+for d in dirs:
+    if d['agency_match'] == 'courts': d['agency_match'] = 'courts'
+jud['admin']['id'] = 'courts'
 gov = {
  'title': 'Rhode Island Government, Mapped',
  'intro': 'The whole system on one page: every branch, department, division, authority, court and town, with who runs it, how to reach them, what it costs and who works there, down to the last job title on the state payroll.',
@@ -67,7 +83,7 @@ gov = {
  'agencies': agencies, 'statewide': [s for s in ag.get('statewide', []) if s.get('name')], 'legislative': leg, 'legislators': leg_members, 'judicial': jud,
  'quasi': br.get('quasi', []), 'federal': br.get('federal', []), 'towns': towns,
  'budget': bu.get('state', {}), 'functions': bu.get('functions', []), 'extra_budgets': extra,
- 'benefits': be or None, 'sites': si.get('sites', []), 'staff': st.get('directories', []),
+ 'benefits': be or None, 'sites': si.get('sites', []), 'staff': dirs,
  'jobs': {j['payroll_title']: j.get('summary', '') for j in jb.get('jobs', []) if j.get('summary')},
  'payroll': P, 'overtime': OT, 'boards': L('boards.json').get('boards', []), 'insights': json.load(open(os.path.join(PD, 'insights.json'))) if os.path.exists(os.path.join(PD, 'insights.json')) else None, 'assessment': L('assessment.json') or None,
 }
