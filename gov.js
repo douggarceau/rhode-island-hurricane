@@ -72,6 +72,10 @@
  document.addEventListener('mouseover',e=>{const el=e.target.closest&&e.target.closest(TSEL);if(el&&el.closest('.gv'))tipShow(el);else if(!(e.target.closest&&e.target.closest('#gvTip')))tipHide()});
  document.addEventListener('click',e=>{const el=e.target.closest&&e.target.closest('.gv-mo,.gv-rg,.gv-hid');if(el&&el.closest('.gv')&&matchMedia('(hover:none)').matches){e.preventDefault();e.stopPropagation();tipShow(el)}else if(!(e.target.closest&&e.target.closest('#gvTip')))tipHide()},true);
  addEventListener('scroll',tipHide,{passive:true});
+ /* ---- section links: a story button "@go gov:ot" (or ?go=gov&sec=ot) opens the tab at that section ---- */
+ const openSec=s=>{let n=0;const tryOpen=()=>{const el=document.getElementById('gv-'+s);if(el){let p=el;while(p){if(p.tagName==='DETAILS')p.open=true;p=p.parentElement}el.scrollIntoView({block:'start'});if(!D.gov&&n<40){n++;setTimeout(tryOpen,250)}}else if(++n<40)setTimeout(tryOpen,200)};setTimeout(tryOpen,300)};
+ document.addEventListener('click',e=>{const b=e.target.closest&&e.target.closest('[data-go^="gov:"],[data-go^="ccri:"]');if(!b)return;e.preventDefault();e.stopImmediatePropagation();const [v,s]=b.dataset.go.split(':');try{go(v)}catch(_){location.href='?go='+v+'&sec='+s;return}if(s)openSec(s)},true);
+ try{const q=new URLSearchParams(location.search);if(/^(gov|ccri)$/.test(q.get('go')||'')&&q.get('sec'))openSec(q.get('sec').replace(/[^a-z]/g,''))}catch(_){}
  const rerender=v=>{try{if(typeof STATE!=='undefined'&&STATE.view===v&&typeof render==='function'){const y=scrollY;render();scrollTo(0,y)}}catch(_){}};
  function load(k){upgrade(k);if(asked[k])return;asked[k]=1;fetch('data/'+k+'.json?'+Math.floor(Date.now()/6e5),{cache:'no-store'}).then(r=>r.ok?r.json():null).then(j=>{if(j&&!(D[k]&&D[k].tier!=='free')){D[k]=j;rerender(k)}}).catch(()=>{})}
  const UP={};function upgrade(k){const want=isMem()?'member':(userOn()?'registered':'');if(!want||UP[k]===want||(UP[k]==='member'&&!PV))return;UP[k]=want;prem((want==='member'?'':'registered/')+k+'.json').then(j=>{D[k]=j;rerender(k)}).catch(()=>{UP[k]=''})}
