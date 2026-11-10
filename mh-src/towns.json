@@ -1,0 +1,197 @@
+{
+"Barrington": {
+"ccbhc": "East Bay Community Action Program",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 1
+},
+"Bristol": {
+"ccbhc": "East Bay Community Action Program",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 0
+},
+"Burrillville": {
+"ccbhc": "Community Care Alliance",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"Central Falls": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"Charlestown": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"Coventry": {
+"ccbhc": "Thrive Behavioral Health",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"Cranston": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 2
+},
+"Cumberland": {
+"ccbhc": "Community Care Alliance",
+"mrss": "Tides Family Services",
+"local_clinical": 0
+},
+"East Greenwich": {
+"ccbhc": "Thrive Behavioral Health",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"East Providence": {
+"ccbhc": "East Bay Community Action Program",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 3
+},
+"Exeter": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"Foster": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 1
+},
+"Glocester": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 0
+},
+"Hopkinton": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 0
+},
+"Jamestown": {
+"ccbhc": "Newport Mental Health",
+"mrss": "Newport Mental Health",
+"local_clinical": 0
+},
+"Johnston": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 2
+},
+"Lincoln": {
+"ccbhc": "Community Care Alliance",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"Little Compton": {
+"ccbhc": "Newport Mental Health",
+"mrss": "Newport Mental Health",
+"local_clinical": 0
+},
+"Middletown": {
+"ccbhc": "Newport Mental Health",
+"mrss": "Newport Mental Health",
+"local_clinical": 3
+},
+"Narragansett": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 0
+},
+"New Shoreham": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 1
+},
+"Newport": {
+"ccbhc": "Newport Mental Health",
+"mrss": "Newport Mental Health",
+"local_clinical": 2
+},
+"North Kingstown": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 2
+},
+"North Providence": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 2
+},
+"North Smithfield": {
+"ccbhc": "Community Care Alliance",
+"mrss": "Tides Family Services",
+"local_clinical": 0
+},
+"Pawtucket": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 4
+},
+"Portsmouth": {
+"ccbhc": "Newport Mental Health",
+"mrss": "Newport Mental Health",
+"local_clinical": 0
+},
+"Providence": {
+"ccbhc": "The Providence Center",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 10
+},
+"Richmond": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 0
+},
+"Scituate": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 1
+},
+"Smithfield": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 0
+},
+"South Kingstown": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 4
+},
+"Tiverton": {
+"ccbhc": "Newport Mental Health",
+"mrss": "Newport Mental Health",
+"local_clinical": 0
+},
+"Warren": {
+"ccbhc": "East Bay Community Action Program",
+"mrss": "Family Service of Rhode Island",
+"local_clinical": 0
+},
+"Warwick": {
+"ccbhc": "Thrive Behavioral Health",
+"mrss": "Tides Family Services",
+"local_clinical": 6
+},
+"West Greenwich": {
+"ccbhc": "Thrive Behavioral Health",
+"mrss": "Tides Family Services",
+"local_clinical": 0
+},
+"West Warwick": {
+"ccbhc": "Thrive Behavioral Health",
+"mrss": "Tides Family Services",
+"local_clinical": 1
+},
+"Westerly": {
+"ccbhc": "Gateway Healthcare",
+"mrss": "Tides Family Services",
+"local_clinical": 0
+},
+"Woonsocket": {
+"ccbhc": "Community Care Alliance",
+"mrss": "Tides Family Services",
+"local_clinical": 2
+}
+}
