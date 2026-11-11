@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-10T07:30:00-05:00",
+ "asof": "2026-11-11T07:30:00-05:00",
  "items": [
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
@@ -9,16 +9,6 @@
    "story": "rhode-island-christmas-2026-schedule",
    "town": "Statewide",
    "date": "2026-11-05",
-   "rank": 1
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Library Movie Night and Swing Dancing",
-   "sum": "Rocky at the Jamestown library at 1:30 p.m., trivia at 7 p.m. in Jamestown and swing dancing at 8 p.m. in Pawtucket.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-10",
-   "story": "today-and-tonight-2026-11-10",
-   "town": "Statewide",
-   "date": "2026-11-10",
    "rank": 1
   },
   {
@@ -40,27 +30,6 @@
    "town": "Statewide",
    "date": "2026-11-06",
    "rank": 2
-  },
-  {
-   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
-   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
-   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
-   "lead": true,
-   "town": "Providence",
-   "date": "2026-11-10",
-   "rank": 2
-  },
-  {
-   "h": "Chorus of Westerly Rings In the Season With Vaughan Williams' Hodie",
-   "sum": "Saturday, November 14 at 6 p.m. and Sunday, November 15 at 3 p.m. at George Kent Performance Hall in Westerly.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=chorus-of-westerly-hodie-vaughan-williams-2026",
-   "story": "chorus-of-westerly-hodie-vaughan-williams-2026",
-   "town": "Westerly",
-   "date": "2026-11-03",
-   "rank": 3
   },
   {
    "h": "Providence Singers Sing American Voices in Warren and Providence",
@@ -320,24 +289,6 @@
    "rank": 5
   },
   {
-   "h": "Gallery Night Providence Opens Galleries Citywide on Nov. 19",
-   "sum": "A citywide evening of gallery openings and visits from 5 to 8 p.m. on Thursday, Nov. 19.",
-   "outlet": "RISD Museum",
-   "url": "https://risdmuseum.org/exhibitions-events/events/gallery-night-providence-20",
-   "town": "Providence",
-   "date": "2026-11-10",
-   "rank": 5
-  },
-  {
-   "h": "Newport's Illuminated Boat Parade Returns Nov. 27",
-   "sum": "The 27th annual harbor parade can be watched at no charge, and a non-perishable food donation is requested.",
-   "outlet": "What'sUpNewp",
-   "url": "https://whatsupnewp.com/2026/11/newport-illuminated-boat-parade-returns-nov-27/",
-   "town": "Newport",
-   "date": "2026-11-03",
-   "rank": 6
-  },
-  {
    "h": "Joe Parillo and the New Ensemble Bring Lily Pads Jazz to Peace Dale",
    "sum": "Sunday, Nov. 15, doors at 3 p.m. and the show from 3:30 to 5:30 p.m., at the Unitarian Universalist Congregation of South County in Peace Dale.",
    "outlet": "Rhode Island Hurricane",
@@ -414,6 +365,67 @@
    "date": "2026-11-08",
    "rank": 10,
    "story": "everybody-chorus-jamestown-2026"
+  },
+  {
+   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
+   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
+   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
+   "town": "Providence",
+   "date": "2026-11-11",
+   "rank": 2,
+   "lead": true
+  },
+  {
+   "h": "John Crist Live Sunday Night at The VETS in Providence",
+   "sum": "Sunday, Nov. 15 at 7 p.m. at The VETS in Providence, comedian John Crist brings his stand-up and viral sketch comedy tour, with doors at 6 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=john-crist-live-the-vets-sunday-2026",
+   "story": "john-crist-live-the-vets-sunday-2026",
+   "town": "Providence",
+   "date": "2026-11-11",
+   "rank": 2,
+   "box": true
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Korean Ceramics and Live Jazz",
+   "sum": "Korean ceramic artists demonstrate at the RISD Museum from 10:30 a.m. to 4 p.m., with an artists' panel at 6:30 p.m., and the RI Jazz Collective plays at 6 p.m. in Jamestown.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-11",
+   "story": "today-and-tonight-2026-11-11",
+   "town": "Statewide",
+   "date": "2026-11-11",
+   "rank": 1
+  },
+  {
+   "h": "Vienna Boys Choir Brings Christmas to Cranston's Park Theatre",
+   "sum": "Saturday, Dec. 5 at 7:30 p.m. at the Historic Park Theatre, 848 Park Avenue in Cranston, with resale tickets listed from $114.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
+   "story": "vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
+   "town": "Cranston",
+   "date": "2026-11-11",
+   "rank": 3
+  },
+  {
+   "h": "Gallery Night Providence Throws Open Its Doors on Nov. 19",
+   "sum": "Thursday, Nov. 19 from 5 to 8 p.m., with galleries across Providence hosting openings and visits, starting with the RISD Museum at 20 North Main Street.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=gallery-night-providence-november-2026",
+   "story": "gallery-night-providence-november-2026",
+   "town": "Providence",
+   "date": "2026-11-11",
+   "rank": 3
+  },
+  {
+   "h": "National Black Storytelling Festival Wraps Up in Warwick",
+   "sum": "The 44th annual festival returned to Rhode Island for the first time in 23 years, with performances, workshops and youth programs.",
+   "outlet": "NBC 10",
+   "url": "https://turnto10.com/newsletter-daily/national-black-storytelling-festival-wraps-up-in-rhode-island-44th-annual-festival-and-conference-performances-workships-and-youth-programming-nov-8-2026",
+   "town": "Warwick",
+   "date": "2026-11-08",
+   "rank": 3
   }
  ]
 }
