@@ -1,0 +1,808 @@
+[
+ {
+  "name": "State of Rhode Island",
+  "type": "state",
+  "town": "",
+  "page": "https://ri.wd5.myworkdayjobs.com/RI",
+  "feed": {
+   "kind": "workday_cxs",
+   "url": "https://ri.wd5.myworkdayjobs.com/wday/cxs/ri/RI/jobs",
+   "site_url": "https://ri.wd5.myworkdayjobs.com/RI",
+   "body": {
+    "appliedFacets": {},
+    "searchText": ""
+   }
+  }
+ },
+ {
+  "name": "University of Rhode Island",
+  "type": "college",
+  "town": "South Kingstown",
+  "page": "https://jobs.uri.edu/",
+  "feed": {
+   "kind": "atom",
+   "url": "https://jobs.uri.edu/postings/search.atom"
+  }
+ },
+ {
+  "name": "Rhode Island College",
+  "type": "college",
+  "town": "Providence",
+  "page": "https://employment.ric.edu/",
+  "feed": {
+   "kind": "atom",
+   "url": "https://employment.ric.edu/postings/search.atom"
+  }
+ },
+ {
+  "name": "Community College of Rhode Island",
+  "type": "college",
+  "town": "Warwick",
+  "page": "https://jobs.ccri.edu/",
+  "feed": {
+   "kind": "teamtailor_json",
+   "url": "https://jobs.ccri.edu/jobs.json"
+  }
+ },
+ {
+  "name": "Rhode Island Airport Corporation",
+  "type": "authority",
+  "town": "Warwick",
+  "page": "https://secure6.saashr.com/ta/6175713.careers",
+  "feed": {
+   "kind": "ukg_ready",
+   "url": "https://secure6.saashr.com/ta/rest/ui/recruitment/companies/%7C6175713/job-requisitions?offset=0&size=100&sort=desc&ein_id=&lang=en-US",
+   "job_url": "https://secure6.saashr.com/ta/6175713.careers?ShowJob={id}"
+  }
+ },
+ {
+  "name": "RIHousing",
+  "type": "authority",
+  "town": "Providence",
+  "page": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=25b512b3-b725-4bc6-9f6b-56b4f96f792f&ccId=19000101_000001&lang=en_US",
+  "feed": {
+   "kind": "adp_wfn",
+   "url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid=25b512b3-b725-4bc6-9f6b-56b4f96f792f&ccId=19000101_000001&lang=en_US&locale=en_US&$top=100"
+  }
+ },
+ {
+  "name": "Rhode Island Resource Recovery Corporation",
+  "type": "authority",
+  "town": "Johnston",
+  "page": "https://workforcenow.adp.com/mascsr/default/mdf/recruitment/recruitment.html?cid=4ce459e6-e012-4f3e-b73c-f9a12b6cb2ab&ccId=19000101_000001&lang=en_US",
+  "feed": {
+   "kind": "adp_wfn",
+   "url": "https://workforcenow.adp.com/mascsr/default/careercenter/public/events/staffing/v1/job-requisitions?cid=4ce459e6-e012-4f3e-b73c-f9a12b6cb2ab&ccId=19000101_000001&lang=en_US&locale=en_US&$top=100"
+  }
+ },
+ {
+  "name": "Rhode Island Public Transit Authority (RIPTA)",
+  "type": "authority",
+  "town": "Providence",
+  "page": "https://www.ripta.com/careers",
+  "feed": null
+ },
+ {
+  "name": "Rhode Island Commerce Corporation",
+  "type": "authority",
+  "town": "Providence",
+  "page": "https://commerceri.com/about-us/careers/",
+  "feed": null
+ },
+ {
+  "name": "Narragansett Bay Commission",
+  "type": "authority",
+  "town": "Providence",
+  "page": "https://www.narrabay.com/jobs/",
+  "feed": null
+ },
+ {
+  "name": "Rhode Island Turnpike and Bridge Authority",
+  "type": "authority",
+  "town": "Jamestown",
+  "page": "https://www.ritba.org/careers/",
+  "feed": null
+ },
+ {
+  "name": "Quonset Development Corporation",
+  "type": "authority",
+  "town": "North Kingstown",
+  "page": "https://quonset.com/quonset-is-hiring/",
+  "feed": null
+ },
+ {
+  "name": "Rhode Island Infrastructure Bank",
+  "type": "authority",
+  "town": "Providence",
+  "page": "https://www.riib.org/about/careers/",
+  "feed": null
+ },
+ {
+  "name": "Rhode Island Student Loan Authority",
+  "type": "authority",
+  "town": "Warwick",
+  "page": "https://www.risla.com/careers",
+  "feed": null
+ },
+ {
+  "name": "I-195 Redevelopment District Commission",
+  "type": "authority",
+  "town": "Providence",
+  "page": "https://www.195district.com/documents/",
+  "feed": null
+ },
+ {
+  "name": "Town of Barrington",
+  "type": "town",
+  "town": "Barrington",
+  "page": "https://www.barrington.ri.gov/247/Employment-Opportunities",
+  "feed": null
+ },
+ {
+  "name": "Town of Bristol",
+  "type": "town",
+  "town": "Bristol",
+  "page": "https://www.bristolri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.bristolri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of Burrillville",
+  "type": "town",
+  "town": "Burrillville",
+  "page": "https://www.burrillville.org/personnel-board/pages/employment-resources",
+  "feed": null
+ },
+ {
+  "name": "City of Central Falls",
+  "type": "town",
+  "town": "Central Falls",
+  "page": "https://www.centralfallsri.gov/human-resources",
+  "feed": null
+ },
+ {
+  "name": "Town of Charlestown",
+  "type": "town",
+  "town": "Charlestown",
+  "page": "https://charlestownri.gov/townjobs",
+  "feed": null
+ },
+ {
+  "name": "Town of Coventry",
+  "type": "town",
+  "town": "Coventry",
+  "page": "https://coventryri.gov/",
+  "feed": null
+ },
+ {
+  "name": "City of Cranston",
+  "type": "town",
+  "town": "Cranston",
+  "page": "https://www.cranstonri.gov/cranston-open-positions.aspx",
+  "feed": null
+ },
+ {
+  "name": "Town of Cumberland",
+  "type": "town",
+  "town": "Cumberland",
+  "page": "https://www.cumberlandri.gov/jobs",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.cumberlandri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of East Greenwich",
+  "type": "town",
+  "town": "East Greenwich",
+  "page": "https://www.eastgreenwichri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.eastgreenwichri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "City of East Providence",
+  "type": "town",
+  "town": "East Providence",
+  "page": "https://eastprovidenceri.gov/jobs",
+  "feed": null
+ },
+ {
+  "name": "Town of Exeter",
+  "type": "town",
+  "town": "Exeter",
+  "page": "https://www.exeterri.gov/",
+  "feed": null
+ },
+ {
+  "name": "Town of Foster",
+  "type": "town",
+  "town": "Foster",
+  "page": "https://www.townoffosterri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.townoffosterri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of Glocester",
+  "type": "town",
+  "town": "Glocester",
+  "page": "https://www.glocesterri.gov/jobpostings.htm",
+  "feed": null
+ },
+ {
+  "name": "Town of Hopkinton",
+  "type": "town",
+  "town": "Hopkinton",
+  "page": "https://www.hopkintonri.gov/employment",
+  "feed": null
+ },
+ {
+  "name": "Town of Jamestown",
+  "type": "town",
+  "town": "Jamestown",
+  "page": "https://www.jamestownri.gov/employment",
+  "feed": null
+ },
+ {
+  "name": "Town of Johnston",
+  "type": "town",
+  "town": "Johnston",
+  "page": "https://www.johnstonri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.johnstonri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of Lincoln",
+  "type": "town",
+  "town": "Lincoln",
+  "page": "https://www.lincolnri.gov/420/Career-Opportunities",
+  "feed": null
+ },
+ {
+  "name": "Town of Little Compton",
+  "type": "town",
+  "town": "Little Compton",
+  "page": "https://littlecomptonri.org/departments/human_resources_employment_opportunities.php",
+  "feed": null
+ },
+ {
+  "name": "Town of Middletown",
+  "type": "town",
+  "town": "Middletown",
+  "page": "https://www.middletownri.gov/472/Job-Opportunities",
+  "feed": null
+ },
+ {
+  "name": "Town of Narragansett",
+  "type": "town",
+  "town": "Narragansett",
+  "page": "https://www.narragansettri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.narragansettri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of New Shoreham",
+  "type": "town",
+  "town": "New Shoreham",
+  "page": "https://www.newshorehamri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.newshorehamri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "City of Newport",
+  "type": "town",
+  "town": "Newport",
+  "page": "https://www.newportri.gov/en-us/city-hall/departments/human-resources/city-employment-application/employment-opportunities",
+  "feed": null
+ },
+ {
+  "name": "Town of North Kingstown",
+  "type": "town",
+  "town": "North Kingstown",
+  "page": "https://www.northkingstownri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.northkingstownri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of North Providence",
+  "type": "town",
+  "town": "North Providence",
+  "page": "https://northprovidenceri.gov/employment/",
+  "feed": {
+   "kind": "rss",
+   "url": "https://northprovidenceri.gov/category/employment/feed/",
+   "max_age_days": 90
+  }
+ },
+ {
+  "name": "Town of North Smithfield",
+  "type": "town",
+  "town": "North Smithfield",
+  "page": "https://www.nsmithfieldri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.nsmithfieldri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "City of Pawtucket",
+  "type": "town",
+  "town": "Pawtucket",
+  "page": "https://pawtucketri.gov/human-resources-department/employment-opportunities/",
+  "feed": {
+   "kind": "neogov_rss",
+   "url": "https://www.governmentjobs.com/SearchEngine/JobsFeed?agency=pawtucketri"
+  }
+ },
+ {
+  "name": "Town of Portsmouth",
+  "type": "town",
+  "town": "Portsmouth",
+  "page": "https://www.portsmouthri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.portsmouthri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "City of Providence",
+  "type": "town",
+  "town": "Providence",
+  "page": "https://jobs.providenceri.gov/",
+  "feed": {
+   "kind": "rss",
+   "url": "https://jobs.providenceri.gov/feed/"
+  }
+ },
+ {
+  "name": "Town of Richmond",
+  "type": "town",
+  "town": "Richmond",
+  "page": "https://www.richmondri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.richmondri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of Scituate",
+  "type": "town",
+  "town": "Scituate",
+  "page": "https://scituateri.gov/how_do_i/view_bids_and_vacancies.php",
+  "feed": null
+ },
+ {
+  "name": "Town of Smithfield",
+  "type": "town",
+  "town": "Smithfield",
+  "page": "https://smithfieldri.bamboohr.com/careers",
+  "feed": {
+   "kind": "bamboohr",
+   "url": "https://smithfieldri.bamboohr.com/careers/list"
+  }
+ },
+ {
+  "name": "Town of South Kingstown",
+  "type": "town",
+  "town": "South Kingstown",
+  "page": "https://www.governmentjobs.com/careers/southkingstownri",
+  "feed": {
+   "kind": "neogov_rss",
+   "url": "https://www.governmentjobs.com/SearchEngine/JobsFeed?agency=southkingstownri"
+  }
+ },
+ {
+  "name": "Town of Tiverton",
+  "type": "town",
+  "town": "Tiverton",
+  "page": "https://www.tiverton.ri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.tiverton.ri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of Warren",
+  "type": "town",
+  "town": "Warren",
+  "page": "https://www.townofwarren-ri.gov/government/employment.php",
+  "feed": null
+ },
+ {
+  "name": "City of Warwick",
+  "type": "town",
+  "town": "Warwick",
+  "page": "https://www.warwickri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.warwickri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of West Greenwich",
+  "type": "town",
+  "town": "West Greenwich",
+  "page": "https://www.wgtownri.org/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.wgtownri.org/Jobs.aspx"
+  }
+ },
+ {
+  "name": "Town of West Warwick",
+  "type": "town",
+  "town": "West Warwick",
+  "page": "https://westwarwickri.gov/employment-opportunities",
+  "feed": null
+ },
+ {
+  "name": "Town of Westerly",
+  "type": "town",
+  "town": "Westerly",
+  "page": "https://www.westerlyri.gov/Jobs.aspx",
+  "feed": {
+   "kind": "civicplus",
+   "url": "https://www.westerlyri.gov/Jobs.aspx"
+  }
+ },
+ {
+  "name": "City of Woonsocket",
+  "type": "town",
+  "town": "Woonsocket",
+  "page": "https://www.woonsocketri.gov/364/Employment-Opportunities",
+  "feed": null
+ },
+ {
+  "name": "Barrington Public Schools",
+  "type": "school",
+  "town": "Barrington",
+  "page": "https://www.bpsk12.org/",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11369&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Bristol Warren Regional School District",
+  "type": "school",
+  "town": "Bristol",
+  "page": "https://www.bwrsd.org/departments1/human-resources/employment-opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-10613&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Burrillville School Department",
+  "type": "school",
+  "town": "Burrillville",
+  "page": "https://www.bsd-ri.net/about-us/employment",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11309&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Central Falls School District",
+  "type": "school",
+  "town": "Central Falls",
+  "page": "https://www.cfschools.net/page/employment",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11497&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Chariho Regional School District",
+  "type": "school",
+  "town": "Charlestown",
+  "page": "https://www.chariho.k12.ri.us/central_administration/human_resources/available_positions",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11098&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Coventry Public Schools",
+  "type": "school",
+  "town": "Coventry",
+  "page": "https://www.coventryschools.net/human-resources",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11139&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Cranston Public Schools",
+  "type": "school",
+  "town": "Cranston",
+  "page": "https://www.cpsed.net/apps/pages/index.jsp?uREC_ID=1649465&type=d&pREC_ID=1793331",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=cpsed.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Cumberland School Department",
+  "type": "school",
+  "town": "Cumberland",
+  "page": "https://cumberlandschools.org/human-resources-department/",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11159&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "East Greenwich School District",
+  "type": "school",
+  "town": "East Greenwich",
+  "page": "https://www.egsd.net/departments/human-resources/employment-opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-10815&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "East Providence School Department",
+  "type": "school",
+  "town": "East Providence",
+  "page": "https://www.epschoolsri.org/human-resources",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-10871&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Exeter-West Greenwich Regional School District",
+  "type": "school",
+  "town": "Exeter",
+  "page": "https://www.schoolspring.com/jobs/?employer=11201",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11201&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Foster-Glocester schools (Foster, Glocester, Ponaganset)",
+  "type": "school",
+  "town": "Glocester",
+  "page": "https://www.fg.k12.ri.us/employment/job_opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11538&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Jamestown School Department",
+  "type": "school",
+  "town": "Jamestown",
+  "page": "https://www.jamestownschools.org/apps/pages/index.jsp?uREC_ID=2282906&type=d&pREC_ID=2200377",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11084&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Johnston Public Schools",
+  "type": "school",
+  "town": "Johnston",
+  "page": "https://www.johnstonschools.org/human-resources",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-12055&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Lincoln Public Schools",
+  "type": "school",
+  "town": "Lincoln",
+  "page": "https://www.lincolnps.org/departments/human-resources",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11140&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Little Compton School Department (Wilbur & McMahon School)",
+  "type": "school",
+  "town": "Little Compton",
+  "page": "https://lcsd.k12.ri.us/hr",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11871&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Middletown Public Schools",
+  "type": "school",
+  "town": "Middletown",
+  "page": "https://www.mpsri.net/page/employment-opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-10611&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Narragansett School System",
+  "type": "school",
+  "town": "Narragansett",
+  "page": "https://www.nssk12.org/employment/employment_opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11450&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "New Shoreham School Department (Block Island School)",
+  "type": "school",
+  "town": "New Shoreham",
+  "page": "https://www.bischool.net/page/human-resources",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11161&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Newport Public Schools",
+  "type": "school",
+  "town": "Newport",
+  "page": "https://www.npsri.net/page/employment-opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-109539&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "North Kingstown School Department",
+  "type": "school",
+  "town": "North Kingstown",
+  "page": "https://nksd.tedk12.com/hire/index.aspx",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11099&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "North Providence School Department",
+  "type": "school",
+  "town": "North Providence",
+  "page": "https://nprovschools.org/human-resources",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11141&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "North Smithfield School Department",
+  "type": "school",
+  "town": "North Smithfield",
+  "page": "https://www.nsps.us/employment.html",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11144&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Pawtucket School Department",
+  "type": "school",
+  "town": "Pawtucket",
+  "page": "https://www.psdri.net/human-resources/",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11417&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Portsmouth School Department",
+  "type": "school",
+  "town": "Portsmouth",
+  "page": "https://www.portsmouthschoolsri.org/",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-10614&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Providence Public Schools",
+  "type": "school",
+  "town": "Providence",
+  "page": "https://teachpvd.providenceschools.org",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=providenceschools.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Scituate School Department",
+  "type": "school",
+  "town": "Scituate",
+  "page": "https://www.scituateschoolsri.net/page/employment-opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11650&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Smithfield Public Schools",
+  "type": "school",
+  "town": "Smithfield",
+  "page": "https://www.smithfield-ps.org/page/job-opportunities-external",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11142&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "South Kingstown School Department",
+  "type": "school",
+  "town": "South Kingstown",
+  "page": "https://www.skschools.net/our_district/employment_opportunities",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11200&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Tiverton School Department",
+  "type": "school",
+  "town": "Tiverton",
+  "page": "https://www.tivertonschools.org/",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11875&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Warwick Public Schools",
+  "type": "school",
+  "town": "Warwick",
+  "page": "https://warwickschools.tedk12.com/hire/index.aspx",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-12334&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "West Warwick Public Schools",
+  "type": "school",
+  "town": "West Warwick",
+  "page": "https://www.westwarwickpublicschools.com/district/central-office/human-resources-department",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-10762&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Westerly Public Schools",
+  "type": "school",
+  "town": "Westerly",
+  "page": "https://westerly.schoolspring.com/",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-106417&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ },
+ {
+  "name": "Woonsocket Education Department",
+  "type": "school",
+  "town": "Woonsocket",
+  "page": "https://www.woonsocketschools.com/office-of-human-resources-and-labor-relations.html",
+  "feed": {
+   "kind": "schoolspring",
+   "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-10982&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
+  }
+ }
+]

@@ -1,0 +1,29 @@
+name: Refresh job listings
+on:
+  schedule:
+    - cron: "15 11 * * *"   # every morning, about 6:15 a.m. Rhode Island time
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: refresh-jobs
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Pull open jobs from official job boards
+        run: python3 -I tools/jobs/refresh_jobs.py .
+      - name: Publish if anything changed
+        run: |
+          git config user.name "jobs-refresh"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/jobs.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Daily job listings refresh"
+          git push

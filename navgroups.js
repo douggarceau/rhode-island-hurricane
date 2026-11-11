@@ -41,7 +41,7 @@
  if(typeof window.render==='function'){const r0=window.render;window.render=function(){const out=r0.apply(this,arguments);try{after()}catch(_){}return out}}
  const css=document.createElement('style');css.textContent=`
 #ngPanel{flex-basis:100%;display:flex;flex-wrap:wrap;justify-content:center;gap:6px;padding:6px 0 2px}#ngPanel[hidden]{display:none!important}
-#nav>[data-go="front"]{order:1!important}#nav>.ng-main[data-ng="news"],#nav>[data-go="stories"]{order:2!important}#nav>.ng-main[data-ng="events"],#nav>[data-go="cal"]{order:3!important}#nav>[data-go="help"]{order:4!important}#nav>.ng-main[data-ng="govt"]{order:5!important}#nav>[data-go="visit"]{order:6!important}#nav>#nbSearch{order:7!important}#nav>#nbSub{order:8!important}#nav>#ngMore{order:9!important}#nav>#ngPanel{order:10!important}
+#nav>[data-go="front"]{order:1!important}#nav>.ng-main[data-ng="news"],#nav>[data-go="stories"]{order:2!important}#nav>.ng-main[data-ng="events"],#nav>[data-go="cal"]{order:3!important}#nav>[data-go="help"]{order:4!important}#nav>[data-go="jobs"]{order:4!important}#nav>.ng-main[data-ng="govt"]{order:5!important}#nav>[data-go="visit"]{order:6!important}#nav>#nbSearch{order:7!important}#nav>#nbSub{order:8!important}#nav>#ngMore{order:9!important}#nav>#ngPanel{order:10!important}
 .ng-bar{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 10px}.ng-bar button{all:unset;cursor:pointer;padding:7px 11px;border-radius:5px;border:1px solid #D4ECF566;font:700 13px/1 "Libre Franklin",system-ui,sans-serif;color:#fff}
 .ng-bar button.on{background:#D4ECF5;color:#0A1428;border-color:#D4ECF5}.ng-bar button:focus-visible{outline:3px solid #E9C46A;outline-offset:2px}`;document.head.appendChild(css);
  try{after()}catch(_){}

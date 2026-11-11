@@ -27,6 +27,7 @@
  window.vEmails=function(){setTimeout(()=>{load();const root=document.getElementById('emRoot');if(root){root.querySelector('#emQ').value=st.q;root.querySelector('#emOnly').checked=st.only}fill()},0);
   return '<section class="box em" id="emRoot"><h2>Government email directory</h2>'
    +'<p class="em-s">Published work emails and phones for state agencies, boards, cities and towns, and colleges, from official sources (checked Nov. 10, 2026). Not every employee is listed; “Not published” means no email was posted.</p>'
+   +'<p class="em-note"><b>Public records.</b> These are published work contacts from official government sources. People change jobs and offices update their directories: verify a contact with the office before relying on it.</p>'
    +'<div class="em-f"><input type="search" id="emQ" placeholder="Search a name, title, office or email" aria-label="Search the directory">'
    +'<select id="emWho" aria-label="Who"><option value="">Everyone</option></select>'
    +'<select id="emArea" aria-label="Area"><option value="">All areas</option></select>'
@@ -56,6 +57,7 @@
 #emRoot .em-cp{padding:0 5px;margin-left:4px}
 #emRoot #emMore{display:block;margin:8px auto}
 #emRoot .em-s{color:#B9CAD6}
+#emRoot .em-note{margin:4px 0 6px;padding-left:8px;border-left:2px solid #E9C46A;color:#D4ECF5}
 #emRoot table.em-t{width:100%;border-collapse:collapse}
 #emRoot .em-t th{text-align:left;color:#B9CAD6;border-bottom:1px solid #D4ECF544;padding:4px 6px}
 #emRoot .em-t td{vertical-align:top;border-bottom:1px solid #D4ECF51f;padding:4px 6px}
