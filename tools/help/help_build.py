@@ -2,6 +2,9 @@
 usage: python3 -I help_build.py <senior_services.json> <coverage_gaps.txt> <master_benefits.json> <out.json>
 Missing values stay the literal "not published"; nothing is converted to free, zero or no-limit."""
 import json, re, sys
+ISLAND = {"Jamestown": "Some county programs may not serve Jamestown. Confirm coverage for your address before applying; Newport County eligibility doesn’t automatically carry over.", "New Shoreham": "On Block Island, call ahead to confirm a provider can reach you. PACE does not serve New Shoreham.", "Portsmouth": "PACE does not serve Prudence Island. A program that serves Portsmouth may not reach the island; confirm before applying."}  # reader-facing rewrites of research cautions
+LINKFIX = {"https://www.stayathomeinlittlecompton.org/senior-transportation": "https://www.stayathomeinlittlecompton.org/sah-services", "https://www.southkingstownri.gov/255/Transportation": "https://www.southkingstownri.gov/", "https://our.ric.edu/documents/senior-citizen-tuition-waiver": "https://our.ric.edu/department-directory/office-bursar/tuition-waivers"}  # replacements for dead links (audit L01)
+
 svc_p, gaps_p, ben_p, out_p = sys.argv[1:5]
 NP = 'not published'
 sv = json.load(open(svc_p, encoding='utf-8'))
@@ -33,7 +36,7 @@ for block in re.split(r'\n(?=[A-Z][A-Z .]+\n)', txt):
     m = re.match(r'(.*?) — (.*?) \((\w+)\)$', rec.get('Local', ''))
     T[town] = {'local': m.group(1) if m else rec.get('Local', ''), 'local_phone': m.group(2) if m else NP, 'local_status': m.group(3) if m else NP,
                'local_source': rec.get('Local source', NP), 'cat_gaps': rec.get('Categories without a verified published direct/coordinated offer in this release', NP),
-               'task_gaps': rec.get('Task gaps', NP), 'island': rec.get('Island caution', NP)}
+               'task_gaps': rec.get('Task gaps', NP), 'island': ISLAND.get(town, rec.get('Island caution', NP))}
 bm = json.load(open(ben_p, encoding='utf-8'))
 B = []
 for p in bm['programs']:
@@ -50,5 +53,7 @@ for p in bm['programs']:
 meta = {'services_date': sv['metadata'].get('research_date'), 'benefits_date': bm['metadata'].get('as_of') or '2026-11-10',
         'categories': sv['categories'], 'towns_list': sorted(T.keys()) if len(T) == 39 else sv['municipalities'],
         'note': 'Online research of published offers, Nov. 10, 2026. Not a guarantee that help or an appointment is available. Call the provider to confirm.'}
-json.dump({'meta': meta, 'services': S, 'towns': T, 'benefits': B}, open(out_p, 'w', encoding='utf-8'), ensure_ascii=False, separators=(',', ':'))
+_s = json.dumps({'meta': meta, 'services': S, 'towns': T, 'benefits': B}, ensure_ascii=False, separators=(',', ':'))
+for _a, _b in LINKFIX.items(): _s = _s.replace(_a, _b)
+open(out_p, 'w', encoding='utf-8').write(_s)
 print('services', len(S), 'towns', len(T), 'benefits', len(B))

@@ -14,6 +14,11 @@ SRC = os.path.join(ROOT, 'mh-src', '02-RI-Mental-Health-Database-2026-11-10.json
 TOWNS = os.path.join(ROOT, 'mh-src', 'towns.json')
 OUT = os.path.join(ROOT, 'data', 'mh.json')
 NP = 'not published'
+DEAD_LINKS = {
+    'https://www.ricares.org/ripra': 'https://www.ricares.org/peer-recovery',
+    'https://ribhopenbeds.org/recovery-housing/': 'https://ribhddh.my.site.com/ProviderPortal/s/',
+    'https://www.unitedwayri.org/wp-content/uploads/2025/04/211-Generic.pdf': 'https://www.unitedwayri.org/get-help/',
+}
 
 CATS = ['Find Counseling', 'Free & Low-Cost Help', 'Support Groups', 'Addiction & Recovery', 'Meetings Calendar',
         'Crisis Assistance', 'Senior Mental Health', 'Family & Caregiver Support', 'Online & Telehealth',
@@ -78,7 +83,11 @@ def main():
                                           'safety_policy']}
     meta['categories'] = CATS
     meta['towns_list'] = sorted(towns)
-    json.dump({'meta': meta, 'records': out, 'routing': route}, open(OUT, 'w'), ensure_ascii=False, separators=(',', ':'))
+    # dead links found in the Nov. 10, 2026 audit, replaced with working official pages
+    s = json.dumps({'meta': meta, 'records': out, 'routing': route}, ensure_ascii=False, separators=(',', ':'))
+    for old, new in DEAD_LINKS.items():
+        s = s.replace(json.dumps(old), json.dumps(new))
+    open(OUT, 'w').write(s)
     print('records', len(out), 'towns', len(route), 'bytes', os.path.getsize(OUT))
 
 

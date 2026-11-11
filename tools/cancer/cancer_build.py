@@ -97,7 +97,7 @@ APPLY_URL = {9: 'https://forms.dollarfor.org/external/web_contact_form.php', 10:
              13: 'https://apply.tafcares.org/s/enrollment-info', 22: 'https://cancercartel.org/warriorgrantinfo',
              23: 'https://familyreach.org/get-help/financial-assistance/', 27: 'https://apply.pinkfund.org/qualification/intro',
              31: 'https://sarcomaalliance.org/second-opinion-grant-application-form/', 41: 'https://cleaningforareason.org/patients/learn-more-apply-now/',
-             48: 'https://www.mercymedical.org/patients/eligibility', 68: 'https://www.cancerandcareers.org/en/jobsearch',
+             48: 'https://www.mercymedical.org/patients/eligibility', 68: 'https://www.cancerandcareers.org/en/looking-for-work',
              20: 'https://www.shiphelp.org/what-we-do/about-ships/', 1: 'https://www.ssa.gov/benefits/disability/qualify.html'}
 
 # existing Help & Benefits records reused instead of duplicated (Rhode Island implementations or the same program)
