@@ -5,7 +5,7 @@
  const GROUPS=[
   {k:'news',label:'News',items:[['stories','Entertainment'],['bars','Rhode Island News'],['tech','Tech & AI'],['crime','Crime Watch']]},
   {k:'events',label:'Events',items:[['cal','Event Calendar'],['holiday','Holiday Guide'],['scene','Arts & Entertainment'],['venues','Venues'],['bands','Bands']]},
-  {k:'govt',label:'Government',items:[['gov','RI Government'],['ccri','CCRI Guide']]}];
+  {k:'govt',label:'Government',items:[['gov','RI Government'],['emails','Email directory'],['ccri','CCRI Guide']]}];
  const HELPV=['help','mh','seniors','recovery'];
  const UTIL=/^(Advertise|Share|Sister Publications|Directory)$/;
  const nav=document.getElementById('nav');if(!nav)return;

@@ -30,7 +30,7 @@
 html body #coverSlot .cvr .cvbrk b{font-size:18px!important;line-height:1.3!important}
 
 /* poster/promo grid stays off the information pages */
-html[data-v="gov"] .wrap>.lsrow,html[data-v="ccri"] .wrap>.lsrow,html[data-v="help"] .wrap>.lsrow,
+html[data-v="gov"] .wrap>.lsrow,html[data-v="ccri"] .wrap>.lsrow,html[data-v="help"] .wrap>.lsrow,html[data-v="emails"] .wrap>.lsrow,
 html[data-v="gov"] #view .lsrow,html[data-v="ccri"] #view .lsrow,html[data-v="help"] #view .lsrow{display:none!important}
 
 /* Events calendar: place/time line at full text color; "Today" shown inside the date box, no sticker */
