@@ -5,9 +5,10 @@
  let D=null,asked=false,err=false;
  const st={q:'',town:'',exp:'',drive:'',pay:''};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
  const NP=v=>!v||/^not published/i.test(v);
- const src=(u,t)=>u?'<a class="sj-src" href="'+X(u)+'" target="_blank" rel="noopener">'+(t||'source')+'</a>':'';
+ const src=(u,t)=>u?'<a class="sj-src" href="'+U(u)+'" target="_blank" rel="noopener">'+(t||'source')+'</a>':'';
  const tel=p=>'<a href="tel:'+X(p.replace(/[^0-9]/g,'').slice(0,10))+'">'+X(p)+'</a>';
  const linkify=s=>X(s).replace(/\b(\d{3}-\d{3}-\d{4})\b/g,(m)=>tel(m)).replace(/\b([\w.+-]+@[\w-]+(?:\.[\w-]+)+)\b/g,'<a href="mailto:$1">$1</a>');
  const day=s=>{if(!s)return '';const t=new Date(s+'T12:00:00');return isNaN(t)?s:t.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})};
@@ -30,7 +31,7 @@
   root.querySelector('#sjCount').textContent=jobs.length+' current job'+(jobs.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   const has=o=>!q||JSON.stringify(o).toLowerCase().includes(q);
   let h='<h3>Current jobs ('+jobs.length+')</h3><div class="sj-scroll"><table class="sj-t"><thead><tr><th>Job</th><th>Where</th><th>Pay · schedule</th><th>Experience · requirements</th><th>Physical duties</th></tr></thead><tbody>'
-   +(jobs.map(j=>'<tr><td><a href="'+X(j.apply_url||j.source_url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.employer)+'</span>'
+   +(jobs.map(j=>'<tr><td><a href="'+U(j.apply_url||j.source_url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.employer)+'</span>'
     +(j.senior_recruitment_evidence?'<br><span class="sj-ret">Posting mentions retirees</span>':'')+(j.hiring_signal?'<br><span class="sj-s">'+X(j.hiring_signal)+'</span>':'')+'</td>'
     +'<td>'+X(j.municipality)+(j.address?'<br><span class="sj-s">'+X(j.address)+'</span>':'')+'</td>'
     +'<td>'+(NP(j.pay)?'<span class="sj-s">Pay not published</span>':X(j.pay))+'<br><span class="sj-s">'+X(j.schedule)+'</span></td>'
@@ -39,7 +40,7 @@
   if(!st.town&&!st.exp&&!st.drive&&!st.pay){
    const camp=D.recruiting_campaigns.filter(has),lead=D.unverified_leads.filter(has),watch=D.employer_watchlist.filter(has),prog=D.programs.filter(has),inc=D.incentives.filter(has);
    if(camp.length)h+='<h3>Employers recruiting retirees and training pathways</h3><p class="sj-s">Ongoing hiring campaigns, not specific openings. Call to ask about a local assignment.</p><ul class="sj-l">'+camp.map(c=>'<li><b>'+X(c.employer)+': '+X(c.title)+'</b> <span class="sj-s">'+X(c.coverage)+'</span><br>'+X(c.requirements)+(c.experience?'. '+X(c.experience):'')+'. Pay '+(NP(c.pay)?'not published':X(c.pay))+'. '+(NP(c.contact_phone)?'':'Call '+tel(c.contact_phone)+'. ')+src(c.source_url)+'</li>').join('')+'</ul>';
-   if(lead.length)h+='<h3>Not yet confirmed</h3><p class="sj-s">Seen in employer listings, but the job page couldn’t be opened or checked. They may be closed: check before applying.</p><ul class="sj-l">'+lead.map(l=>'<li><a href="'+X(l.source_url)+'" target="_blank" rel="noopener">'+X(l.employer)+': '+X(l.title)+'</a> <span class="sj-s">'+X(l.town)+(NP(l.pay)?'':' · '+X(l.pay))+'</span></li>').join('')+'</ul>';
+   if(lead.length)h+='<h3>Not yet confirmed</h3><p class="sj-s">Seen in employer listings, but the job page couldn’t be opened or checked. They may be closed: check before applying.</p><ul class="sj-l">'+lead.map(l=>'<li><a href="'+U(l.source_url)+'" target="_blank" rel="noopener">'+X(l.employer)+': '+X(l.title)+'</a> <span class="sj-s">'+X(l.town)+(NP(l.pay)?'':' · '+X(l.pay))+'</span></li>').join('')+'</ul>';
    if(watch.length)h+='<h3>Employers worth checking</h3><ul class="sj-l">'+watch.map(w=>'<li><b>'+X(w.employer)+'</b> <span class="sj-s">Look for: '+X(w.roles_to_search.join(', '))+'</span><br><span class="sj-s">'+X(w.reason)+'</span> '+src(w.careers_url||w.source_url,'careers')+'</li>').join('')+'</ul>';
    if(prog.length)h+='<h3>Paid training, coaching and help for older workers</h3><ul class="sj-l">'+prog.map(p=>'<li><b>'+X(p.name)+'</b> <span class="sj-s">'+X(p.age)+'</span><br>'+X(p.benefit)+(p.eligibility?' <span class="sj-s">Who qualifies: '+X(p.eligibility)+'</span>':'')+(p.contact?'<br>'+linkify(p.contact):'')+(p.next_step?'<br><span class="sj-s">'+X(p.next_step)+'</span>':'')+(p.notes?'<br><span class="sj-s sj-n">'+X(p.notes)+'</span>':'')+' '+(p.sources||[]).map((u,i)=>src(u,i?'more':'source')).join(' ')+'</li>').join('')+'</ul>';
    if(inc.length)h+='<h3>Employer incentives (status as checked)</h3><ul class="sj-l">'+inc.map(i=>'<li><b>'+X(i.name)+'</b> <span class="sj-st">'+X(i.status.replace(/_/g,' '))+'</span><br>'+X(i.description)+(i.notes?' <span class="sj-s sj-n">'+X(i.notes)+'</span>':'')+(i.contact?' '+linkify(i.contact):'')+' '+(i.sources||[]).map((u,k)=>src(u,k?'more':'source')).join(' ')+'</li>').join('')+'</ul>';

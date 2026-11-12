@@ -3,7 +3,7 @@ usage: python3 -I tools/jobs/refresh_jobs.py <repo_dir>
 Reads tools/jobs/sources.json. Each source: {name,type,town,page,feed:{kind,url,...}|null}.
 Feed kinds: workday_cxs, atom, teamtailor_json, ukg_ready, adp_wfn, neogov_rss, rss.
 Polite: one host at a time, short pauses, browser User-Agent, no retries beyond one."""
-import json, os, re, sys, time, html, datetime, urllib.request, urllib.error
+import json, os, re, sys, time, html, datetime, urllib.request, urllib.error, urllib.parse
 import xml.etree.ElementTree as ET
 
 REPO = sys.argv[1]
@@ -58,6 +58,9 @@ def iso(s):
     return ''
 
 def job(src, title, url, posted='', closes='', pay='', pay_max=0, dept='', town=''):
+    # Only web links reach the page: resolve relative links against the employer's page, drop anything else.
+    url = urllib.parse.urljoin(src['page'], (url or '').strip())
+    if not re.match(r'https?://', url): url = src['page']
     return {'title': clean(title), 'employer': src['name'], 'type': src['type'], 'town': town or src.get('town') or '',
             'dept': clean(dept), 'posted': posted, 'closes': closes, 'pay': pay, 'pay_max': pay_max, 'url': url}
 
@@ -96,7 +99,7 @@ def f_atom(src, f):
     return out
 
 def f_teamtailor(src, f):
-    d = json.loads(get(f['url'])); items = d.get('items') or d.get('data') or d if isinstance(d, list) else d.get('items', [])
+    d = json.loads(get(f['url'])); items = d if isinstance(d, list) else (d.get('items') or d.get('data') or [])
     out = []
     for it in items:
         jp = it.get('_jobposting') or it.get('_jobPosting') or it.get('jobPosting') or it

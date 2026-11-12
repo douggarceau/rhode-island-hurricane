@@ -4,8 +4,9 @@
  let D=null,asked=false,err=false,lim=100;
  const st={q:'',geo:'',lvl:'',arr:'',type:'',cat:'',emp:'',sort:'geo'};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
- const day=s=>{if(!s)return '';const t=new Date(s.slice(0,10)+'T12:00:00');return isNaN(t)?s:t.toLocaleDateString('en-US',{month:'short',day:'numeric'})};
+ const day=s=>{if(!s)return '';const t=new Date(/T\d/.test(s)?s:s.slice(0,10)+'T12:00:00');return isNaN(t)?s:t.toLocaleDateString('en-US',{month:'short',day:'numeric'})};
  const LC={'0':'sj-none','1':'sj-none','2':'sj-pref','3':'sj-req','4':'sj-req','5':'sj-req','U':'sj-s'};
  const LORD={'0':0,'1':1,'2':2,'U':3,'3':4,'4':5,'5':6};
  function load(){if(asked)return;asked=true;fetch('data/aijobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{const c=j.cols;j.jobs=j.jobs.map(r=>{const o={};c.forEach((k,i)=>o[k]=r[i]);o._s=(o.emp+' '+o.title+' '+o.cat+' '+o.loc).toLowerCase();return o});D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
@@ -26,7 +27,7 @@
   else if(st.sort==='lvl')rows.sort((a,b)=>(LORD[a.lvl]-LORD[b.lvl])||(a.geo-b.geo));
   else rows.sort((a,b)=>(b.posted||'').localeCompare(a.posted||''));
   root.querySelector('#aiCount').textContent=rows.length.toLocaleString()+' listing'+(rows.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
-  B.innerHTML=rows.length?'<div class="sj-scroll"><table class="sj-t"><thead><tr><th>Job</th><th>Where</th><th>Level</th><th>Pay</th><th>Dates</th></tr></thead><tbody>'+rows.slice(0,lim).map(j=>'<tr><td><a href="'+X(j.url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.emp)+' · '+X(j.cat)+(j.type!=='Role posting'?' · <b>'+X(j.type)+'</b>':'')+'</span></td>'
+  B.innerHTML=rows.length?'<div class="sj-scroll"><table class="sj-t"><thead><tr><th>Job</th><th>Where</th><th>Level</th><th>Pay</th><th>Dates</th></tr></thead><tbody>'+rows.slice(0,lim).map(j=>'<tr><td><a href="'+U(j.url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.emp)+' · '+X(j.cat)+(j.type!=='Role posting'?' · <b>'+X(j.type)+'</b>':'')+'</span></td>'
    +'<td>'+X(j.loc.length>90?j.loc.slice(0,90)+'…':j.loc)+'<br><span class="sj-s">'+X(D.geos[j.geo])+(j.arr&&j.arr!=='Not published'?' · '+X(j.arr):'')+'</span>'+(j.elig?'<br><span class="sj-s sj-n">'+X(j.elig)+'</span>':'')+'</td>'
    +'<td><span class="sj-lv '+LC[j.lvl]+'">'+X(D.levels[j.lvl])+'</span>'+(j.exp?'<br><span class="sj-s">'+X(j.exp)+'</span>':'')+'</td>'
    +'<td>'+(j.pay?X(j.pay):'<span class="sj-s">not published</span>')+'</td>'

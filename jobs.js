@@ -6,6 +6,7 @@
  const HOME=window.JOBS_HOME||null;
  const st={q:'',type:'',town:HOME?'__near':'',sort:'new'};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
  const TYPES={state:'State of Rhode Island',town:'City or town',school:'School district',college:'College',authority:'State authority'};
  const fmt=d=>{if(!d)return '';const t=new Date(d+'T12:00:00');return isNaN(t)?d:t.toLocaleDateString('en-US',{month:'short',day:'numeric'})};
@@ -20,14 +21,15 @@
   if(T.options.length<2){const towns=uniq(D.listings.map(r=>r.town).concat(D.employers.map(e=>e.town)));T.innerHTML=(HOME?'<option value="__near">Jamestown & nearby</option>':'')+'<option value="">All of Rhode Island</option>'+towns.map(t=>'<option>'+X(t)+'</option>').join('')}
   T.value=st.town;root.querySelector('#jbType').value=st.type;root.querySelector('#jbSort').value=st.sort;
   const q=st.q.trim().toLowerCase();
-  let rows=D.listings.filter(r=>(!st.type||r.type===st.type)&&inTown(r,st.town)&&(!q||(r.title+' '+r.employer+' '+(r.town||'')+' '+(r.dept||'')).toLowerCase().includes(q)));
+  const td=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'});
+  let rows=D.listings.filter(r=>(!r.closes||String(r.closes).slice(0,10)>=td)&&(!st.type||r.type===st.type)&&inTown(r,st.town)&&(!q||(r.title+' '+r.employer+' '+(r.town||'')+' '+(r.dept||'')).toLowerCase().includes(q)));
   if(st.sort==='close')rows.sort((a,b)=>(a.closes||'9999').localeCompare(b.closes||'9999'));
   else if(st.sort==='pay')rows.sort((a,b)=>(b.pay_max||0)-(a.pay_max||0));
   else rows.sort((a,b)=>(b.posted||'').localeCompare(a.posted||''));
   C.textContent=rows.length.toLocaleString()+' open job'+(rows.length===1?'':'s');
-  L.innerHTML=rows.length?'<table class="jb-t"><thead><tr><th>Job</th><th>Employer</th><th>Pay</th><th>Posted</th><th>Closes</th></tr></thead><tbody>'+rows.slice(0,lim).map(r=>'<tr><td><a href="'+X(r.url)+'" target="_blank" rel="noopener"><b>'+X(r.title)+'</b></a>'+(r.dept?'<br><span class="jb-s">'+X(r.dept)+'</span>':'')+'</td><td>'+X(r.employer)+(r.town?'<br><span class="jb-s">'+X(r.town)+'</span>':'')+'</td><td class="jb-n">'+X(r.pay||'')+'</td><td class="jb-n">'+fmt(r.posted)+'</td><td class="jb-n">'+(r.closes?fmt(r.closes):'<span class="jb-s" title="No closing date posted: check the listing">—</span>')+'</td></tr>').join('')+'</tbody></table>'+(rows.length>lim?'<button type="button" id="jbMore">Show more ('+(rows.length-lim).toLocaleString()+' left)</button>':''):'<p>No open jobs match. Try fewer words, another town, or check the employer pages below.</p>';
-  const emps=D.employers.filter(e=>!e.feed&&(!st.type||e.type===st.type)&&inTown(e,st.town)&&(!q||(e.name+' '+(e.town||'')).toLowerCase().includes(q)));
-  E.innerHTML=emps.length?'<h3>Check these job pages directly ('+emps.length+')</h3><p class="jb-s">These employers post openings on their own sites without a feed we can read. The link goes to their official jobs page.</p><ul class="jb-e">'+emps.map(e=>'<li><a href="'+X(e.page)+'" target="_blank" rel="noopener">'+X(e.name)+'</a> <span class="jb-s">'+X(TYPES[e.type]||'')+'</span></li>').join('')+'</ul>':''}
+  L.innerHTML=rows.length?'<table class="jb-t"><thead><tr><th>Job</th><th>Employer</th><th>Pay</th><th>Posted</th><th>Closes</th></tr></thead><tbody>'+rows.slice(0,lim).map(r=>'<tr><td><a href="'+U(r.url)+'" target="_blank" rel="noopener"><b>'+X(r.title)+'</b></a>'+(r.dept?'<br><span class="jb-s">'+X(r.dept)+'</span>':'')+'</td><td>'+X(r.employer)+(r.town?'<br><span class="jb-s">'+X(r.town)+'</span>':'')+'</td><td class="jb-n">'+X(r.pay||'')+'</td><td class="jb-n">'+fmt(r.posted)+'</td><td class="jb-n">'+(r.closes?fmt(r.closes):'<span class="jb-s" title="No closing date posted: check the listing">—</span>')+'</td></tr>').join('')+'</tbody></table>'+(rows.length>lim?'<button type="button" id="jbMore">Show more ('+(rows.length-lim).toLocaleString()+' left)</button>':''):'<p>No open jobs match. Try fewer words, another town, or check the employer pages below.</p>';
+  const emps=D.employers.filter(e=>(!e.feed||!e.count)&&(!st.type||e.type===st.type)&&inTown(e,st.town)&&(!q||(e.name+' '+(e.town||'')).toLowerCase().includes(q)));
+  E.innerHTML=emps.length?'<h3>Check these job pages directly ('+emps.length+')</h3><p class="jb-s">We couldn’t read current openings from these employers today. The link goes to their official jobs page.</p><ul class="jb-e">'+emps.map(e=>'<li><a href="'+U(e.page)+'" target="_blank" rel="noopener">'+X(e.name)+'</a> <span class="jb-s">'+X(TYPES[e.type]||'')+'</span></li>').join('')+'</ul>':''}
  window.vJobs=function(){setTimeout(()=>{load();const r=document.getElementById('jbRoot');if(r)r.querySelector('#jbQ').value=st.q;fill()},0);
   return '<section class="box jb" id="jbRoot">'+(window.jobTabs?jobTabs('jobs'):'')+'<h2>Jobs: open positions in Rhode Island government</h2>'
    +'<p class="jb-s">Openings posted by the State of Rhode Island, cities and towns, school districts, public colleges and state authorities, pulled from their official job boards every morning. <span id="jbUpd"></span>.</p>'

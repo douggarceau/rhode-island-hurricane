@@ -4,6 +4,7 @@
  let D=null,asked=false,err=false;
  const st={q:'',status:''};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const linkify=s=>X(s).replace(/\b(\d{3}-\d{3}-\d{4})\b/g,m=>'<a href="tel:'+m.replace(/-/g,'')+'">'+m+'</a>').replace(/\b([\w.+-]+@[\w-]+(?:\.[\w-]+)+)\b/g,'<a href="mailto:$1">$1</a>');
  const STAT={verified:['Checked on the employer’s own job page','sj-none'],indexed:['On the employer’s site; page could not be opened, so reconfirm','sj-pref'],employer_ad:['Employer’s ad on LinkedIn; confirm on the employer’s site','sj-pref'],lead:['Lead: seen on a job board; confirm with the employer before applying','sj-req']};
  function load(){if(asked)return;asked=true;fetch('data/techjobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
@@ -15,13 +16,13 @@
   const jobs=D.jobs.filter(j=>(!st.status||(st.status==='ok'?j.status!=='lead':j.status==='lead'))&&(!q||JSON.stringify(j).toLowerCase().includes(q))).sort((a,b)=>a.rank-b.rank);
   root.querySelector('#tjCount').textContent=jobs.length+' job'+(jobs.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   let h='<div class="sj-scroll"><table class="sj-t"><thead><tr><th>#</th><th>Job</th><th>Experience · education</th><th>Pay</th><th>The work · conditions</th></tr></thead><tbody>'
-   +(jobs.map(j=>{const s=STAT[j.status];return '<tr><td class="tj-r">'+j.rank+'</td><td><a href="'+X(j.url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.employer)+' · '+X(j.location)+'</span>'+(j.job_id?'<br><span class="sj-s">Job ID '+X(j.job_id)+'</span>':'')+'<br><span class="sj-lv '+s[1]+'">'+s[0]+'</span>'
-    +(j.ad_url?'<br><a class="sj-src" href="'+X(j.ad_url)+'" target="_blank" rel="noopener">job-board ad</a>':'')+(j.apply_url?' <a class="sj-src" href="'+X(j.apply_url)+'" target="_blank" rel="noopener">employer application</a>':'')+(j.site_url?' <a class="sj-src" href="'+X(j.site_url)+'" target="_blank" rel="noopener">employer site</a>':'')+'</td>'
+   +(jobs.map(j=>{const s=STAT[j.status]||[X(j.status||''),'sj-s'];return '<tr><td class="tj-r">'+j.rank+'</td><td><a href="'+U(j.url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.employer)+' · '+X(j.location)+'</span>'+(j.job_id?'<br><span class="sj-s">Job ID '+X(j.job_id)+'</span>':'')+'<br><span class="sj-lv '+s[1]+'">'+s[0]+'</span>'
+    +(j.ad_url?'<br><a class="sj-src" href="'+U(j.ad_url)+'" target="_blank" rel="noopener">job-board ad</a>':'')+(j.apply_url?' <a class="sj-src" href="'+U(j.apply_url)+'" target="_blank" rel="noopener">employer application</a>':'')+(j.site_url?' <a class="sj-src" href="'+U(j.site_url)+'" target="_blank" rel="noopener">employer site</a>':'')+'</td>'
     +'<td><b>'+X(j.experience)+'</b><br><span class="sj-s">'+X(j.education||'')+'</span></td>'
     +'<td>'+X(j.pay)+'</td>'
     +'<td>'+X(j.work)+'<br><span class="sj-s">'+X(j.conditions||'')+'</span>'+(j.contact?'<br><span class="sj-s">'+linkify(j.contact)+'</span>':'')+'</td></tr>'}).join('')||'<tr><td colspan="5">No jobs match.</td></tr>')+'</tbody></table></div>';
   if(!st.status){const tr=D.training.filter(t=>!q||JSON.stringify(t).toLowerCase().includes(q));
-   if(tr.length)h+='<h3>Paid apprenticeships and training</h3><p class="sj-s">Routes into tech work. These are programs, not open jobs.</p><ul class="sj-l">'+tr.map(t=>'<li><b>'+X(t.name)+'</b><br>'+X(t.summary)+(t.contact?'<br>Contact: '+linkify(t.contact):'')+' '+t.links.map((u,i)=>'<a class="sj-src" href="'+X(u)+'" target="_blank" rel="noopener">'+(i?'more':'source')+'</a>').join(' ')+'</li>').join('')+'</ul>'}
+   if(tr.length)h+='<h3>Paid apprenticeships and training</h3><p class="sj-s">Routes into tech work. These are programs, not open jobs.</p><ul class="sj-l">'+tr.map(t=>'<li><b>'+X(t.name)+'</b><br>'+X(t.summary)+(t.contact?'<br>Contact: '+linkify(t.contact):'')+' '+t.links.map((u,i)=>'<a class="sj-src" href="'+U(u)+'" target="_blank" rel="noopener">'+(i?'more':'source')+'</a>').join(' ')+'</li>').join('')+'</ul>'}
   B.innerHTML=h}
  window.vTechJobs=function(){setTimeout(()=>{load();const r=document.getElementById('tjRoot');if(r)r.querySelector('#tjQ').value=st.q;fill()},0);
   return '<section class="box sj" id="tjRoot">'+(window.jobTabs?jobTabs('techjobs'):'')+'<h2>Rhode Island Tech Jobs: Entry Level</h2>'

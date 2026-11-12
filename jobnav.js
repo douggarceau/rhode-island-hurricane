@@ -7,7 +7,7 @@
    ?'<button type="button" class="on" aria-current="page"><b>'+l+'</b><small>'+d+'</small></button>'
    :'<button type="button" data-go="'+k+'"><b>'+l+'</b><small>'+d+'</small></button>').join('')+'</nav>';
  // Phone layout: label each cell with its column heading so the row can stack as a card.
- const SEL='table.jb-t,table.mj-t,table.sj-t,table.gr-t';
+ const SEL='table.jb-t,table.mj-t,table.sj-t,table.gr-t,table.em-t';
  function label(root){(root.querySelectorAll?root:document).querySelectorAll(SEL).forEach(t=>{const h=[...t.querySelectorAll('thead th')].map(th=>th.textContent.trim());
    t.querySelectorAll('tbody tr').forEach(tr=>[...tr.children].forEach((td,i)=>{if(h[i]&&!td.hasAttribute('data-label'))td.setAttribute('data-label',h[i])}))})}
  new MutationObserver(ms=>{for(const m of ms)if(m.addedNodes.length){label(document);break}}).observe(document.documentElement,{childList:true,subtree:true});

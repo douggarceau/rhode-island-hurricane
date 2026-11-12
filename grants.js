@@ -5,6 +5,7 @@
  let D=null,asked=false,err=false;
  const st={q:'',cat:'',kind:'',stat:''};
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+ const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
  const today=()=>{const n=new Date();return n.getFullYear()+'-'+String(n.getMonth()+1).padStart(2,'0')+'-'+String(n.getDate()).padStart(2,'0')};
  const day=s=>new Date(s+'T12:00:00').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
@@ -26,7 +27,7 @@
    +'<td>'+X(g.amount)+'</td>'
    +'<td>'+X(g.who)+(g.conditions?'<br><span class="gr-s">'+X(g.conditions)+'</span>':'')+(g.watch&&g.watch.length?'<br><span class="gr-w">Before you apply: '+X(g.watch.join('; '))+'</span>':'')+(g.source_issue?'<br><span class="gr-s gr-n">Sources disagree: '+X(g.source_issue)+'</span>':'')+'</td>'
    +'<td><span class="'+s[1]+'">'+X(s[0])+'</span>'+(g.deadline&&!passed(g)?'<br><b>Deadline '+X(day(g.deadline))+'</b>':'')+(g.note?'<br><span class="gr-s">'+X(g.note)+'</span>':'')
-   +'<br><a href="'+X(g.url)+'" target="_blank" rel="noopener">Official page</a>'+(g.sources||[]).map((u,i)=>' · <a href="'+X(u)+'" target="_blank" rel="noopener">source '+(i+2)+'</a>').join('')+(g.contact?'<br><span class="gr-s">'+tel(X(g.contact))+'</span>':'')+'</td></tr>'}
+   +'<br><a href="'+U(g.url)+'" target="_blank" rel="noopener">Official page</a>'+(g.sources||[]).map((u,i)=>' · <a href="'+U(u)+'" target="_blank" rel="noopener">source '+(i+2)+'</a>').join('')+(g.contact?'<br><span class="gr-s">'+tel(X(g.contact))+'</span>':'')+'</td></tr>'}
  const table=list=>'<div class="gr-scroll"><table class="gr-t"><thead><tr><th>Program</th><th>Money</th><th>Who and conditions</th><th>Status and how to apply</th></tr></thead><tbody>'+list.map(row).join('')+'</tbody></table></div>';
  function fill(){const root=document.getElementById('grRoot');if(!root)return;const B=root.querySelector('#grBody');
   if(err){B.innerHTML='<p>Couldn’t load the list. <button type="button" id="grRetry">Retry</button></p>';return}
@@ -43,7 +44,7 @@
    D.categories.forEach((c,i)=>{const L=live.filter(g=>g.cat===i);if(L.length)h+='<h3>'+X(c)+' <span class="gr-s">('+L.length+')</span></h3>'+table(L)});
    if(!live.length)h+='<p>Nothing open matches. Try fewer filters.</p>'}
   if(watch.length&&(!st.stat||st.stat==='watch'))h+='<h3>Watchlist: closed, suspended or between rounds <span class="gr-s">('+watch.length+')</span></h3><p class="gr-s">Not taking applications as of the review. Listed so you can watch for the next round.</p>'+table(watch);
-  if(!st.cat&&!st.kind&&!st.stat&&!q()&&D.held_out&&D.held_out.length)h+='<h3>Left out on purpose</h3><ul class="gr-l">'+D.held_out.map(x=>'<li><b>'+X(x.name)+'</b>: '+X(x.why)+' '+x.urls.map(u=>'<a class="gr-s" href="'+X(u)+'" target="_blank" rel="noopener">source</a>').join(' ')+'</li>').join('')+'</ul>';
+  if(!st.cat&&!st.kind&&!st.stat&&!q()&&D.held_out&&D.held_out.length)h+='<h3>Left out on purpose</h3><ul class="gr-l">'+D.held_out.map(x=>'<li><b>'+X(x.name)+'</b>: '+X(x.why)+' '+x.urls.map(u=>'<a class="gr-s" href="'+U(u)+'" target="_blank" rel="noopener">source</a>').join(' ')+'</li>').join('')+'</ul>';
   h+='<p class="gr-s"><button type="button" class="gr-copy" data-scope="all">Copy all</button> <button type="button" class="gr-copy" data-scope="shown">Copy what’s shown</button> <span id="grCopyMsg" role="status"></span> · <a href="data/grants.json" download="Rhode-Island-Grants-and-Free-Money.json">Download the data (JSON)</a></p>';
   B.innerHTML=h}
  function asText(list){return list.map(g=>{const s=passed(g)?'Deadline passed':(SL[g.status]||[g.status])[0];

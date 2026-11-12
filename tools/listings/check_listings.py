@@ -167,27 +167,32 @@ def main():
     archive['note'] = 'Listings removed by the daily check, kept 60 days so a removal can be undone.'
     summary, changed = [], False
     for f, d in files.items():
-        drop = {}   # (sec, idx) -> reason
+        drop = {}   # (sec, idx) -> reason, from the link check (subject to the safety hold)
+        ddrop = {}  # (sec, idx) -> reason, past deadline (always removed: no site outage can cause this)
         total = unver = 0
         for (wf, sec, i, u, dl) in work:
             if wf != f: continue
             total += 1
             day = parse_deadline(dl)
             if day and day < TODAY:
-                drop[(sec, i)] = f'deadline {day.isoformat()} passed'; continue
+                ddrop[(sec, i)] = f'deadline {day.isoformat()} passed'; continue
             st, why = res.get(u, ('unverified', 'no link'))
             if st == 'closed': drop[(sec, i)] = why
             elif st == 'unverified': unver += 1
         held = bool(drop) and len(drop) > MAX_SHARE * total
-        line = f'{f}: {total} checked, {len(drop)} closed, {unver} unverified'
+        line = f'{f}: {total} checked, {len(drop)} closed, {len(ddrop)} past deadline, {unver} unverified'
         if held:
             line += ' -> NOT removed (too many at once; probably a site problem)'
         summary.append(line); print(line)
         for (sec, i), why in sorted(drop.items()):
             print(f'   {"(held) " if held else ""}{sec}[{i}] {why}')
-        d['listing_check'] = {'date': TODAY.isoformat(), 'removed': 0 if held else len(drop),
+        for (sec, i), why in sorted(ddrop.items()):
+            print(f'   {sec}[{i}] {why}')
+        if held: drop = {}
+        drop.update(ddrop)
+        d['listing_check'] = {'date': TODAY.isoformat(), 'removed': len(drop),
                               'unverified': unver, 'held': held}
-        if drop and not held:
+        if drop:
             for sec in {s for s, _ in drop}:
                 keep, gone = [], []
                 for i, r in enumerate(d[sec]):
