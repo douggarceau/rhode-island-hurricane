@@ -18,7 +18,6 @@
   if(/train/.test(L)&&!/preferred/.test(L))return 'train';
   return 'pref'};
  const drives=j=>/driver|driving/i.test(j.title+' '+j.requirements);
- window.jobTabs=cur=>'<div class="mj-tabs">'+[['jobs','Government jobs'],['majors','Major RI Employers'],['seniorjobs','Senior Jobs'],['techjobs','Tech Jobs'],['aijobs','AI Jobs'],['remotejobs','Remote Jobs']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
  function load(){if(asked)return;asked=true;fetch('data/seniorjobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;D.jobs.forEach(x=>{x._exp=expOf(x);x._drive=drives(x)});fill()}).catch(()=>{err=true;asked=false;fill()})}
  function fill(){const root=document.getElementById('sjRoot');if(!root)return;const B=root.querySelector('#sjBody');
   if(err){B.innerHTML='<p>Couldn’t load Senior Jobs. <button type="button" id="sjRetry">Retry</button></p>';return}
@@ -51,7 +50,7 @@
   h+='<p class="sj-s"><button type="button" id="sjCopy">Copy all text</button> <a href="data/seniorjobs.json" download="Rhode-Island-Hurricane-Senior-Jobs.json">Download the data (JSON)</a></p>';
   B.innerHTML=h}
  window.vSeniorJobs=function(){setTimeout(()=>{load();const r=document.getElementById('sjRoot');if(r)r.querySelector('#sjQ').value=st.q;fill()},0);
-  return '<section class="box sj" id="sjRoot">'+jobTabs('seniorjobs')+'<h2>Senior Jobs: Part-Time Work, Retirement Jobs &amp; Paid Training in Rhode Island</h2>'
+  return '<section class="box sj" id="sjRoot">'+(window.jobTabs?jobTabs('seniorjobs'):'')+'<h2>Senior Jobs: Part-Time Work, Retirement Jobs &amp; Paid Training in Rhode Island</h2>'
    +'<p class="sj-s">Paid work across Rhode Island for older jobseekers, starting with jobs that need the least experience, offer training or are part time. Each job shows required experience, physical duties and pay. These jobs are open to all qualified applicants; only programs like SCSEP (55+) have an age rule.</p>'
    +'<p class="mj-note sj-note"><b>Public records, verify when needed.</b> Listings reflect public employer and official program information checked Nov. 12, 2026. An online posting is not a guarantee of an open position, interview, hiring speed, hours or benefits: confirm with the employer or program. Rhode Island Hurricane is not the employer and does not take applications.</p>'
    +'<div class="sj-f"><input type="search" id="sjQ" placeholder="Search a job, employer or town" aria-label="Search senior jobs">'

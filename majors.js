@@ -41,8 +41,8 @@
    html=showEmp.map(e=>{const J=jobs.filter(j=>j.employer_id===e.id),P=(D.pending_listings||[]).filter(p=>p.employer_id===e.id);
     return '<div class="mj-emp"><h3>'+X(e.name)+' <span class="mj-s">'+X(e.sector)+' · '+J.length+' current listing'+(J.length===1?'':'s')+'</span></h3>'
      +'<div><a href="'+X(e.career_url)+'" target="_blank" rel="noopener">Official careers site</a> <span class="mj-s">· apply here, not by phone or email</span></div>'
-     +'<div class="mj-s">'+e.locations.map(X).join(' · ')+'</div>'+contactList(e)+(e.notes?'<div class="mj-s mj-n">'+X(e.notes)+'</div>':'')
      +(J.length?'<div class="mj-scroll"><table class="mj-t"><thead><tr><th>Job</th><th>Where</th><th>Pay</th><th>Requirements</th><th>Dates</th></tr></thead><tbody>'+J.map(row).join('')+'</tbody></table></div>':'<div class="mj-s">No current entry-level listing confirmed. Check the careers site.</div>')
+     +'<details class="mj-more"><summary>Addresses, phone numbers and notes</summary><div class="mj-s">'+e.locations.map(X).join(' · ')+'</div>'+contactList(e)+(e.notes?'<div class="mj-s mj-n">'+X(e.notes)+'</div>':'')+'</details>'
      +(P.length&&!st.level?'<div class="mj-pend"><b>Not yet confirmed</b> <span class="mj-s">(seen in the employer’s listings but the job page wouldn’t open; may be closed)</span><ul>'+P.map(p=>'<li><a href="'+X(p.source_url)+'" target="_blank" rel="noopener">'+X(p.title)+'</a> <span class="mj-s">'+X(p.city)+(p.site?', '+X(p.site):'')+(p.shift?' · '+X(p.shift):'')+'</span></li>').join('')+'</ul></div>':'')
      +'</div>'}).join('')||'<p>No employers or jobs match. Try fewer words.</p>'}
   B.innerHTML=html}
@@ -86,6 +86,7 @@
 #mjRoot .mj-beginner_requirements{color:#9FC9E8}
 #mjRoot .mj-pend{margin-top:4px}
 #mjRoot .mj-pend ul{margin:2px 0;padding-left:18px}
-#mjRoot a{color:#D4ECF5}`;document.head.appendChild(css);
+#mjRoot a{color:#D4ECF5}
+#mjRoot details.mj-more{margin:4px 0 2px}#mjRoot details.mj-more summary{cursor:pointer;color:#B9CAD6}`;document.head.appendChild(css);
  if(typeof STATE!=='undefined'&&STATE.view==='majors'&&!document.getElementById('mjRoot')&&typeof render==='function')render();
 })();
