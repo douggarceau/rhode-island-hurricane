@@ -1,0 +1,69 @@
+{
+ "note": "Listings removed by the daily check, kept 60 days so a removal can be undone.",
+ "removed": [
+  {
+   "date": "2026-11-12",
+   "file": "majors.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "employer_id": "fidelity",
+    "requisition_id": "2131718",
+    "title": "Financial Customer Associate - Smithfield",
+    "city": "Smithfield",
+    "state": "RI",
+    "address": null,
+    "skill_level": "early_career_one_year",
+    "requirements": "One year customer service; high-school diploma/GED. Financial background not required; 14-week training cohort. No immigration sponsorship.",
+    "pay": null,
+    "employment_type": "full_time",
+    "hours_per_week": null,
+    "shift": "Mon–Fri. Training 8:30 a.m.–5:00 p.m.; then an eight-hour shift between 10:00 a.m. and midnight.",
+    "work_arrangement": "on_site_transition_confirm_schedule",
+    "posted_date": null,
+    "closing_date": null,
+    "status": "official_listing_available",
+    "application_instructions": "Open the official listing and use its Apply link.",
+    "source_url": "https://jobs.fidelity.com/en/jobs/2131718/financial-customer-associate-smithfield/",
+    "checked_on": "2026-11-12",
+    "quality_flags": [
+     "onsite_metadata_conflicts_with_body_schedule"
+    ],
+    "notes": "Header says 75–100% onsite; body describes one onsite week out of four during a move toward full-time onsite. Do not market as remote."
+   }
+  },
+  {
+   "date": "2026-11-12",
+   "file": "majors.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "employer_id": "fedex",
+    "requisition_id": "P25-94188-3",
+    "title": "Handler Warehouse - Part Time",
+    "city": "Warwick",
+    "state": "RI",
+    "address": "540 Airport Road",
+    "skill_level": "entry_no_experience",
+    "requirements": "Employer lists no education or experience minimum. Lift 50 lb unaided; move heavier parcels with assistance/equipment; safety training.",
+    "pay": {
+     "min": 19.47,
+     "max": 25.58,
+     "currency": "USD",
+     "period": "hour",
+     "note": "Additional posting information states $19.47/hour for this opening."
+    },
+    "employment_type": "part_time",
+    "hours_per_week": null,
+    "shift": "Mon–Fri: 5–9 a.m. or 3–9 p.m.",
+    "work_arrangement": "on_site",
+    "posted_date": null,
+    "closing_date": null,
+    "status": "official_listing_available",
+    "application_instructions": "Open the official listing and use its Apply link.",
+    "source_url": "https://careers.fedex.com/handler-warehouse-part-time-warehouse-like/job/P25-94188-3",
+    "checked_on": "2026-11-12"
+   }
+  }
+ ]
+}
