@@ -29,7 +29,7 @@
   const emps=D.employers.filter(e=>!e.feed&&(!st.type||e.type===st.type)&&inTown(e,st.town)&&(!q||(e.name+' '+(e.town||'')).toLowerCase().includes(q)));
   E.innerHTML=emps.length?'<h3>Check these job pages directly ('+emps.length+')</h3><p class="jb-s">These employers post openings on their own sites without a feed we can read. The link goes to their official jobs page.</p><ul class="jb-e">'+emps.map(e=>'<li><a href="'+X(e.page)+'" target="_blank" rel="noopener">'+X(e.name)+'</a> <span class="jb-s">'+X(TYPES[e.type]||'')+'</span></li>').join('')+'</ul>':''}
  window.vJobs=function(){setTimeout(()=>{load();const r=document.getElementById('jbRoot');if(r)r.querySelector('#jbQ').value=st.q;fill()},0);
-  return '<section class="box jb" id="jbRoot">'+(window.majorsTab?majorsTab():'')+'<h2>Jobs: open positions in Rhode Island government</h2>'
+  return '<section class="box jb" id="jbRoot">'+(window.jobTabs?jobTabs('jobs'):'')+'<h2>Jobs: open positions in Rhode Island government</h2>'
    +'<p class="jb-s">Openings posted by the State of Rhode Island, cities and towns, school districts, public colleges and state authorities, pulled from their official job boards every morning. <span id="jbUpd"></span>.</p>'
    +'<p class="jb-note"><b>Public records.</b> These listings come from public job postings. Titles, pay, dates and requirements can change or close early: verify every detail with the employer, and apply only on the employer’s official site. Rhode Island Hurricane is not the employer and does not take applications.</p>'
    +'<div class="jb-f"><input type="search" id="jbQ" placeholder="Search a job title, employer or town" aria-label="Search jobs">'

@@ -10,7 +10,7 @@
  const TYPE={full_time:'Full time',part_time:'Part time',per_diem:'Per diem',seasonal_part_time:'Seasonal part time'};
  const day=s=>{if(!s)return '';const t=new Date(s+'T12:00:00');return isNaN(t)?s:t.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})};
  const pay=p=>{if(!p||p.min==null)return NP;const f=n=>'$'+(+n).toFixed(2).replace(/\.00$/,'');return f(p.min)+(p.max?'–'+f(p.max):'+')+(p.period?'/'+p.period:' <span class="mj-s">(period not stated)</span>')};
- const tabs=()=>'<div class="mj-tabs"><button type="button" data-go="jobs">Government jobs</button><button type="button" class="on">Major RI Employers</button></div>';
+ const tabs=()=>window.jobTabs?jobTabs('majors'):'';
  function load(){if(asked)return;asked=true;fetch('data/majors.json?v=20261112a').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;D.E={};j.employers.forEach(e=>D.E[e.id]=e);fill()}).catch(()=>{err=true;asked=false;fill()})}
  function contactList(e){
   const rec=e.contacts.filter(c=>c.purpose==='recruiting'),oth=e.contacts.filter(c=>c.purpose!=='recruiting');
@@ -57,8 +57,7 @@
    +'<select id="mjSort" aria-label="Sort"><option value="emp">Group by employer</option><option value="pay">Highest starting pay</option></select>'
    +'<button type="button" id="mjClear">Clear</button> <span id="mjCount" class="mj-s"></span></div>'
    +'<div id="mjBody"></div></section>'};
- window.majorsTab=()=>'<div class="mj-tabs"><button type="button" class="on">Government jobs</button><button type="button" data-go="majors">Major RI Employers</button></div>';
- document.addEventListener('input',e=>{const t=e.target;if(!t.closest||!t.closest('#mjRoot'))return;
+  document.addEventListener('input',e=>{const t=e.target;if(!t.closest||!t.closest('#mjRoot'))return;
   if(t.id==='mjQ')st.q=t.value;else if(t.id==='mjEmp')st.emp=t.value;else if(t.id==='mjLevel')st.level=t.value;else if(t.id==='mjTown')st.town=t.value;else if(t.id==='mjSort')st.sort=t.value;else return;fill()});
  document.addEventListener('click',e=>{const t=e.target;if(!t.closest||!t.closest('#mjRoot'))return;
   if(t.id==='mjRetry'){err=false;load();fill()}else if(t.id==='mjClear'){Object.assign(st,{q:'',emp:'',level:'',town:'',sort:'emp'});document.getElementById('mjQ').value='';fill()}});
