@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-11T07:30:00-05:00",
+ "asof": "2026-11-12T07:39:51-05:00",
  "items": [
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
@@ -99,16 +99,6 @@
    "story": "museum-reads-gauguin-newport-art-museum-2026",
    "town": "Newport",
    "date": "2026-11-09",
-   "rank": 3
-  },
-  {
-   "h": "Korean Ceramic Artists Demonstrate at RISD Museum on Nov. 11",
-   "sum": "Visiting artists show their ceramic processes from 10:30 a.m. to 4 p.m., followed by a 6:30 p.m. panel.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=shared-earth-risd-museum-korean-ceramics-2026",
-   "story": "shared-earth-risd-museum-korean-ceramics-2026",
-   "town": "Providence",
-   "date": "2026-11-10",
    "rank": 3
   },
   {
@@ -367,38 +357,6 @@
    "story": "everybody-chorus-jamestown-2026"
   },
   {
-   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
-   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
-   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
-   "town": "Providence",
-   "date": "2026-11-11",
-   "rank": 2,
-   "lead": true
-  },
-  {
-   "h": "John Crist Live Sunday Night at The VETS in Providence",
-   "sum": "Sunday, Nov. 15 at 7 p.m. at The VETS in Providence, comedian John Crist brings his stand-up and viral sketch comedy tour, with doors at 6 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=john-crist-live-the-vets-sunday-2026",
-   "story": "john-crist-live-the-vets-sunday-2026",
-   "town": "Providence",
-   "date": "2026-11-11",
-   "rank": 2,
-   "box": true
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Korean Ceramics and Live Jazz",
-   "sum": "Korean ceramic artists demonstrate at the RISD Museum from 10:30 a.m. to 4 p.m., with an artists' panel at 6:30 p.m., and the RI Jazz Collective plays at 6 p.m. in Jamestown.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-11",
-   "story": "today-and-tonight-2026-11-11",
-   "town": "Statewide",
-   "date": "2026-11-11",
-   "rank": 1
-  },
-  {
    "h": "Vienna Boys Choir Brings Christmas to Cranston's Park Theatre",
    "sum": "Saturday, Dec. 5 at 7:30 p.m. at the Historic Park Theatre, 848 Park Avenue in Cranston, with resale tickets listed from $114.",
    "outlet": "Rhode Island Hurricane",
@@ -425,6 +383,58 @@
    "url": "https://turnto10.com/newsletter-daily/national-black-storytelling-festival-wraps-up-in-rhode-island-44th-annual-festival-and-conference-performances-workships-and-youth-programming-nov-8-2026",
    "town": "Warwick",
    "date": "2026-11-08",
+   "rank": 3
+  },
+  {
+   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
+   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
+   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
+   "lead": true,
+   "town": "Providence",
+   "date": "2026-11-12",
+   "rank": 2
+  },
+  {
+   "h": "John Crist Live Sunday Night at The VETS in Providence",
+   "sum": "Sunday, Nov. 15 at 7 p.m. at The VETS in Providence, comedian John Crist brings his stand-up and viral sketch comedy tour, with doors at 6 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=john-crist-live-the-vets-sunday-2026",
+   "story": "john-crist-live-the-vets-sunday-2026",
+   "box": true,
+   "town": "Providence",
+   "date": "2026-11-12",
+   "rank": 2
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Dark Star Orchestra and RISD Museum",
+   "sum": "Best picks for Thursday, Nov. 12: storytime at 10:15 a.m., Cloth of the Earth at the RISD Museum at 5:30 p.m. and Dark Star Orchestra at PPAC at 7:30 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-12",
+   "story": "today-and-tonight-2026-11-12",
+   "town": "Statewide",
+   "date": "2026-11-12",
+   "rank": 1
+  },
+  {
+   "h": "Unfurling: Newport Art Museum Previews Its 2027 Art Cup Sails",
+   "sum": "Through Dec. 31 at Griswold House, 76 Bellevue Ave., Newport, Monday, Wednesday through Saturday and Sunday from 11 a.m. to 4 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=newport-art-museum-unfurling-art-cup-2026",
+   "story": "newport-art-museum-unfurling-art-cup-2026",
+   "town": "Newport",
+   "date": "2026-11-12",
+   "rank": 3
+  },
+  {
+   "h": "Classical Christmas With Frisson Plays Emmanuel Church in Newport",
+   "sum": "Saturday, Dec. 12 at 1:00 and 3:30 p.m., Emmanuel Church, 42 Dearborn St., Newport.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=classical-christmas-frisson-newport-2026",
+   "story": "classical-christmas-frisson-newport-2026",
+   "town": "Newport",
+   "date": "2026-11-12",
    "rank": 3
   }
  ]
