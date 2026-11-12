@@ -7,22 +7,28 @@
  const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
  const GC=['sj-none','sj-none','sj-none','sj-pref','sj-req'];
- function load(){if(asked)return;asked=true;fetch('data/remotejobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{const c=j.cols;j.jobs=j.jobs.map(r=>{const o={};c.forEach((k,i)=>o[k]=r[i]);o._s=(o.emp+' '+o.title+' '+o.sub+' '+o.loc+' '+o.exp).toLowerCase();return o});D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
+ // Open to people in the U.S.? Yes if the location names the U.S., a U.S. state or city, the Americas, or worldwide;
+ // a bare "Remote" with no country is kept (unclear, not excluded). Everything else hires only in other countries.
+ const US_RE=/\b(united states|usa|u\.s\.?|us|americas?|amer|north america|world ?wide|global|anywhere|alabama|alaska|arizona|arkansas|california|colorado|connecticut|delaware|florida|hawaii|idaho|illinois|indiana|iowa|kansas|kentucky|louisiana|maine|maryland|massachusetts|michigan|minnesota|mississippi|missouri|montana|nebraska|nevada|new hampshire|new jersey|new mexico|new york|north carolina|north dakota|ohio|oklahoma|oregon|pennsylvania|rhode island|south carolina|south dakota|tennessee|texas|utah|vermont|virginia|washington|west virginia|wisconsin|wyoming|san francisco|los angeles|seattle|boston|chicago|austin|denver|atlanta|miami|portland|palo alto|sacramento|dallas|houston|phoenix|milwaukee|wilmington)\b|, (?:al|ak|az|ar|ca|co|ct|de|fl|ga|hi|id|il|in|ia|ks|ky|la|me|md|ma|mi|mn|ms|mo|mt|ne|nv|nh|nj|nm|ny|nc|nd|oh|ok|or|pa|ri|sc|sd|tn|tx|ut|vt|va|wa|wv|wi|wy|dc)\b/i;
+ const nonUS=j=>{const l=String(j.loc||'').trim();if(!l||/^remote\.?$/i.test(l))return false;
+  return !US_RE.test(l.replace(/new south wales|western australia|new delhi|nuevo le[oó]n/ig,''))};
+ const shown=j=>j.rif!==2&&!j.nonus;
+ function load(){if(asked)return;asked=true;fetch('data/remotejobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{const c=j.cols;j.jobs=j.jobs.map(r=>{const o={};c.forEach((k,i)=>o[k]=r[i]);o._s=(o.emp+' '+o.title+' '+o.sub+' '+o.loc+' '+o.exp).toLowerCase();o.nonus=nonUS(o);return o});D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  const opt=(id,k,first,vals,lab)=>{const s=document.getElementById(id);if(s.options.length<2)s.innerHTML='<option value="">'+first+'</option>'+vals.map(v=>'<option value="'+X(v)+'">'+X(lab?lab(v):v)+'</option>').join('');s.value=st[k]};
  function fill(){const root=document.getElementById('rmRoot');if(!root)return;const B=root.querySelector('#rmBody');
   if(err){B.innerHTML='<p>Couldn’t load remote jobs. <button type="button" id="rmRetry">Retry</button></p>';return}
   if(!D){B.innerHTML='<p>Loading remote jobs…</p>';return}
   opt('rmGrp','grp','Any experience level',['0','1','2','3','4'],k=>D.groups[k]);
   opt('rmSub','sub','All kinds of work',uniq(D.jobs.map(j=>j.sub)));
-  opt('rmEmp','emp','All employers',uniq(D.jobs.map(j=>j.emp)));
+  opt('rmEmp','emp','All employers',uniq(D.jobs.filter(j=>st.hideX!=='1'||shown(j)).map(j=>j.emp)));
   root.querySelector('#rmAgency').value=st.agency;root.querySelector('#rmHideX').checked=st.hideX==='1';root.querySelector('#rmSort').value=st.sort;
   const q=st.q.trim().toLowerCase();
-  const rows=D.jobs.filter(j=>(st.grp===''||String(j.grp)===st.grp)&&(!st.sub||j.sub===st.sub)&&(!st.emp||j.emp===st.emp)&&(!st.agency||String(j.agency)===st.agency)&&(st.hideX!=='1'||j.rif!==2)&&(!q||j._s.includes(q)));
+  const rows=D.jobs.filter(j=>(st.grp===''||String(j.grp)===st.grp)&&(!st.sub||j.sub===st.sub)&&(!st.emp||j.emp===st.emp)&&(!st.agency||String(j.agency)===st.agency)&&(st.hideX!=='1'||shown(j))&&(!q||j._s.includes(q)));
   if(st.sort==='easy')rows.sort((a,b)=>(a.grp-b.grp)||a.emp.localeCompare(b.emp));
   else if(st.sort==='pay')rows.sort((a,b)=>(!!b.pay-!!a.pay)||(a.grp-b.grp));
   else rows.sort((a,b)=>a.emp.localeCompare(b.emp)||a.title.localeCompare(b.title));
-  const hidden=st.hideX==='1'?D.jobs.filter(j=>j.rif===2).length:0;
-  root.querySelector('#rmCount').textContent=rows.length+' job'+(rows.length===1?'':'s')+(hidden?' ('+hidden+' that exclude Rhode Island hidden)':'')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
+  const hidden=st.hideX==='1'?D.jobs.filter(j=>!shown(j)).length:0;
+  root.querySelector('#rmCount').textContent=rows.length+' job'+(rows.length===1?'':'s')+(hidden?' ('+hidden+' hidden that hire only outside the U.S. or exclude Rhode Island)':'')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   B.innerHTML=rows.length?'<div class="sj-scroll"><table class="sj-t"><thead><tr><th>Job</th><th>Experience</th><th>Where you can work from</th><th>Pay · type</th></tr></thead><tbody>'+rows.slice(0,lim).map(j=>'<tr><td><a href="'+U(j.url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.emp)+(j.agency?' · <b>staffing agency</b>':'')+' · '+X(j.sub)+'</span>'+(j.links&&j.links.length>1?'<br><span class="sj-s">Also posted: '+j.links.slice(1).map((u,i)=>'<a class="sj-src" href="'+U(u)+'" target="_blank" rel="noopener">'+(i+2)+'</a>').join(' ')+'</span>':'')+'</td>'
    +'<td><span class="sj-lv '+GC[j.grp]+'">'+X(D.groups[j.grp])+'</span><br><span class="sj-s">'+X(j.exp)+'</span></td>'
    +'<td>'+X(j.loc)+'<br><span class="'+(j.rif===2?'sj-req':'sj-s')+'">Rhode Island: '+X(j.ri)+'</span>'+(j.notes?'<br><span class="sj-s sj-n">'+X(j.notes)+'</span>':'')+'</td>'
@@ -35,7 +41,7 @@
    +'<select id="rmGrp" aria-label="Experience"></select><select id="rmSub" aria-label="Kind of work"></select><select id="rmEmp" aria-label="Employer"></select>'
    +'<select id="rmAgency" aria-label="Employer type"><option value="">Employers and agencies</option><option value="0">Direct employers only</option><option value="1">Staffing agencies only</option></select>'
    +'<select id="rmSort" aria-label="Sort"><option value="easy">Least experience first</option><option value="pay">Pay published first</option><option value="emp">By employer</option></select>'
-   +'<label class="sj-s"><input type="checkbox" id="rmHideX" checked> Hide jobs that exclude Rhode Island</label>'
+   +'<label class="sj-s"><input type="checkbox" id="rmHideX" checked> Hide jobs only open outside the U.S. or closed to Rhode Island</label>'
    +'<button type="button" id="rmClear">Clear</button> <span id="rmCount" class="sj-s"></span></div>'
    +'<div id="rmBody"></div></section>'};
  document.addEventListener('input',e=>{const t=e.target;if(!t.closest||!t.closest('#rmRoot'))return;
