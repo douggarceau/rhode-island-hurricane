@@ -355,6 +355,7 @@ html body .lsrow .lspot.hasad{animation:hgAd 5s ease-in-out infinite}
 <script>window.EP_MAST={top:'Rhode Island',name:'Hurricane'}</script>
 <script>window.EP_COVER_ART={img:"img/christmas-guide-cover.jpg",href:"?go=holiday",until:"2027-01-03",alt:"Rhode Island Hurricane Christmas Events Guide: a snowy holiday street beneath The Outlet Company clock sign"};window.EP_COVER_POSTERS=true;document.documentElement.classList.add("ep-cov")</script>
 <script src="posters.js?v=45"></script>
+<style>a.sh.sh-nolink{cursor:default}a.sh.sh-nolink:hover{transform:none}</style>
 </head>
 <body>
 <noscript><p style="margin:0;padding:10px 14px;background:#B5123A;color:#fff;font:16px/1.5 Georgia,serif">Emergency: call 911. Crisis counseling 24/7: call or text 988 (988lifeline.org). Rhode Island BH Link, adults 18+: 401-414-5465. Kids&#8217; Link RI: 855-543-5465.</p></noscript>
@@ -1490,7 +1491,7 @@ function sty(slug){let f,c;if(STYLE_FIX[slug]){[f,c]=STYLE_FIX[slug];f%=SFONTS.l
 function storyCard(s){return `<button class="sc styled" style="--tc:${tc(s.topic)};${sty(s.slug)}" data-story="${s.slug}">
   <span class="kick" style="--tc:${tc(s.topic)}"><span class="dot"></span>${esc(tl(s.topic))}<time>${shortDay(s.date)}</time></span>
   <h4>${esc(s.title)}</h4><p>${esc(s.dek)}</p><span class="meta">${s.minutes} min read</span></button>`}
-function showRow(e){const d=pd(e.date);return `<a class="sh" href="${esc(e.url)}" target="_blank" rel="noopener">
+function showRow(e){const d=pd(e.date);const lk=/^https?:\/\//i.test(e.url||''); /* no published link: show the listing, but not as a dead link */ return `<a class="sh${lk?'':' sh-nolink'}"${lk?` href="${esc(e.url)}" target="_blank" rel="noopener"`:''}>
   <span class="dt"><small>${MON[d.getMonth()]}</small><b>${d.getDate()}</b><i>${DOW[d.getDay()]}</i></span>
   <span class="who"><b>${esc(e.artists)}</b><span>${esc(e.venue)}${e.hood?' · '+esc(e.hood):''}${e.time?' · '+esc(e.time):''}${e.doors_time?' · Doors '+esc(e.doors_time):''}${e.price?' · '+esc(e.price):''}${e.ages?' · '+esc(e.ages):''}</span>${e.blurb?'<i class="calb" title="'+esc(e.blurb)+'">'+esc(e.blurb)+'</i>':''}${(e.location_evidence||'').includes('official_club_calendar_default')?'<small style="display:block;color:var(--muted)">Venue inferred from the official Club Calendar; confirm with venue.</small>':''}</span>
   <span class="gtag" style="--gc:${GENRE[e.genre]||'#0F4C9A'}">${esc(e.genre)}</span></a>`}
