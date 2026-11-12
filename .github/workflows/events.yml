@@ -1,0 +1,35 @@
+name: Ticketmaster shows
+# Every morning: Rhode Island shows from the Ticketmaster Discovery API into data/tm.json, which the
+# event calendar merges in and the "On sale soon" box reads. Skips until the TICKETMASTER_KEY secret is set.
+on:
+  schedule:
+    - cron: "30 10 * * *"   # about 5:30 a.m. Rhode Island time
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: ticketmaster
+  cancel-in-progress: false
+jobs:
+  shows:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Collect Rhode Island shows
+        run: python3 -I tools/events/ticketmaster.py .
+        env:
+          TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
+      - name: Publish if anything changed
+        run: |
+          [ -f data/tm.json ] || { echo "No show data yet"; exit 0; }
+          git config user.name "ticketmaster-shows"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/tm.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Ticketmaster shows (automatic)"
+          for i in 1 2 3; do (git pull --rebase -q || { git rebase --abort; false; }) && git push && exit 0; sleep 10; done
+          exit 1

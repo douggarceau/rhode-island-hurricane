@@ -17,13 +17,23 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Pull open jobs from official job boards
+      - name: Pull open jobs from official job boards (federal jobs once the USAJOBS secrets are set)
         run: python3 -I tools/jobs/refresh_jobs.py .
+        env:
+          USAJOBS_KEY: ${{ secrets.USAJOBS_KEY }}
+          USAJOBS_EMAIL: ${{ secrets.USAJOBS_EMAIL }}
+      - name: All RI jobs from Adzuna (skips until the Adzuna secrets are set)
+        run: python3 -I tools/jobs/adzuna.py .
+        continue-on-error: true
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
       - name: Publish if anything changed
         run: |
           git config user.name "jobs-refresh"
           git config user.email "actions@users.noreply.github.com"
           git add data/jobs.json
+          if [ -f data/alljobs.json ]; then git add data/alljobs.json; fi
           if git diff --cached --quiet; then echo "No changes"; exit 0; fi
           git commit -m "Daily job listings refresh"
           for i in 1 2 3; do (git pull --rebase -q || { git rebase --abort; false; }) && git push && exit 0; sleep 10; done

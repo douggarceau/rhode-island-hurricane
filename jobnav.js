@@ -3,11 +3,15 @@
    Loaded before jobs.js so the tab row exists even when a job page is opened by direct link. */
 (function(){
  const LISTS=[['jobs','Government jobs','State, towns, schools'],['majors','Major RI Employers','Hospitals, utilities, retail'],['seniorjobs','Senior Jobs','Part-time, retirees'],['techjobs','Tech Jobs','Entry-level IT'],['aijobs','AI Jobs','RI, nearby, remote'],['remotejobs','Remote Jobs','Work from home']];
- window.jobTabs=cur=>'<nav class="jl-tabs" aria-label="Job lists"><span class="jl-lab">Job lists:</span>'+LISTS.map(([k,l,d])=>k===cur
+ // "All RI jobs" (Adzuna) shows only once its daily data file exists, so the tab never leads to an empty page.
+ const AJ=['alljobs','All RI jobs','Every job posted, daily'];let ajOn=false,ajAsked=false;
+ function ajCheck(){if(ajAsked)return;ajAsked=true;fetch('data/alljobs.json',{method:'HEAD',cache:'no-store'}).then(r=>{if(!r.ok)return;ajOn=true;
+   document.querySelectorAll('nav.jl-tabs[data-cur]').forEach(n=>{n.outerHTML=window.jobTabs(n.dataset.cur)})}).catch(()=>{})}
+ window.jobTabs=cur=>{ajCheck();const L=ajOn||cur==='alljobs'?[AJ,...LISTS]:LISTS;return '<nav class="jl-tabs" aria-label="Job lists" data-cur="'+cur+'"><span class="jl-lab">Job lists:</span>'+L.map(([k,l,d])=>k===cur
    ?'<button type="button" class="on" aria-current="page"><b>'+l+'</b><small>'+d+'</small></button>'
-   :'<button type="button" data-go="'+k+'"><b>'+l+'</b><small>'+d+'</small></button>').join('')+'</nav>';
+   :'<button type="button" data-go="'+k+'"><b>'+l+'</b><small>'+d+'</small></button>').join('')+'</nav>'};
  // Phone layout: label each cell with its column heading so the row can stack as a card.
- const SEL='table.jb-t,table.mj-t,table.sj-t,table.gr-t,table.em-t';
+ const SEL='table.jb-t,table.mj-t,table.sj-t,table.gr-t,table.em-t,table.aj-t';
  function label(root){(root.querySelectorAll?root:document).querySelectorAll(SEL).forEach(t=>{const h=[...t.querySelectorAll('thead th')].map(th=>th.textContent.trim());
    t.querySelectorAll('tbody tr').forEach(tr=>[...tr.children].forEach((td,i)=>{if(h[i]&&!td.hasAttribute('data-label'))td.setAttribute('data-label',h[i])}))})}
  new MutationObserver(ms=>{for(const m of ms)if(m.addedNodes.length){label(document);break}}).observe(document.documentElement,{childList:true,subtree:true});
@@ -29,6 +33,6 @@
  :is(${SEL}) td{display:block;border:0!important;padding:3px 0!important;white-space:normal!important;min-width:0!important}
  :is(${SEL}) td:empty{display:none!important}
  :is(${SEL}) td[data-label]:not(:first-child)::before{content:attr(data-label);display:block;font-size:.8em;font-weight:700;color:#B9CAD6;text-transform:uppercase;letter-spacing:.03em}
- :is(.jb-scroll,.mj-scroll,.sj-scroll,.gr-scroll){overflow:visible!important}
+ :is(.jb-scroll,.mj-scroll,.sj-scroll,.gr-scroll,.aj-scroll){overflow:visible!important}
 }`;document.head.appendChild(css);
 })();

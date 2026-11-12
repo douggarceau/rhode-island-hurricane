@@ -8,7 +8,7 @@
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
  const U=u=>{const t=String(u==null?'':u);return /^(javascript|data|vbscript):/i.test(t.replace(/[\s\x00-\x1f]/g,''))?'#':X(t)}; // links: never allow script URLs from outside data
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
- const TYPES={state:'State of Rhode Island',town:'City or town',school:'School district',college:'College',authority:'State authority'};
+ const TYPES={federal:'Federal government',state:'State of Rhode Island',town:'City or town',school:'School district',college:'College',authority:'State authority'};
  const fmt=d=>{if(!d)return '';const t=new Date(d+'T12:00:00');return isNaN(t)?d:t.toLocaleDateString('en-US',{month:'short',day:'numeric'})};
  function load(){if(asked)return;asked=true;fetch('data/jobs.json?'+Math.floor(Date.now()/36e5)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  const inTown=(r,t)=>t==='__near'?HOME.includes(r.town):(!t||r.town===t);

@@ -15,6 +15,20 @@
   }
  },
  {
+  "name": "Federal government (USAJOBS)",
+  "type": "federal",
+  "town": "",
+  "page": "https://www.usajobs.gov/search/results/?l=Rhode%20Island",
+  "needs_env": [
+   "USAJOBS_KEY",
+   "USAJOBS_EMAIL"
+  ],
+  "feed": {
+   "kind": "usajobs",
+   "location": "Rhode Island"
+  }
+ },
+ {
   "name": "University of Rhode Island",
   "type": "college",
   "town": "South Kingstown",

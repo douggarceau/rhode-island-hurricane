@@ -193,7 +193,40 @@ def f_bamboo(src, f):
     d = json.loads(get(f['url'])); base = f['url'].rsplit('/careers', 1)[0]
     return [job(src, r.get('jobOpeningName', ''), base + '/careers/' + str(r.get('id')), '', '', '', 0, r.get('departmentLabel', ''), town_of((r.get('location') or {}).get('city', ''))) for r in d.get('result') or []]
 
-FETCH = {'workday_cxs': f_workday, 'atom': f_atom, 'teamtailor_json': f_teamtailor, 'ukg_ready': f_ukg, 'adp_wfn': f_adp, 'neogov_rss': f_rss, 'rss': f_rss, 'schoolspring': f_schoolspring, 'civicplus': f_civicplus, 'bamboohr': f_bamboo}
+def f_usajobs(src, f):
+    # Federal jobs from the official USAJOBS Search API (needs USAJOBS_KEY and USAJOBS_EMAIL secrets).
+    key, email = os.environ.get('USAJOBS_KEY', '').strip(), os.environ.get('USAJOBS_EMAIL', '').strip()
+    hdr = {'Host': 'data.usajobs.gov', 'User-Agent': email, 'Authorization-Key': key, 'Accept': 'application/json'}
+    out, page, pages = [], 1, 1
+    while page <= pages and page <= 10:
+        url = 'https://data.usajobs.gov/api/search?' + urllib.parse.urlencode({'LocationName': f.get('location', 'Rhode Island'), 'ResultsPerPage': 500, 'Page': page})
+        with urllib.request.urlopen(urllib.request.Request(url, headers=hdr), timeout=60) as r:
+            d = json.load(r)
+        res = d.get('SearchResult') or {}
+        pages = int(((res.get('UserArea') or {}).get('NumberOfPages')) or 1)
+        for it in res.get('SearchResultItems') or []:
+            m = it.get('MatchedObjectDescriptor') or {}
+            locs = [l for l in m.get('PositionLocation') or [] if 'rhode island' in (str(l.get('CountrySubDivisionCode', '')) + ' ' + str(l.get('LocationName', ''))).lower()]
+            if not locs: continue   # nationwide postings that list RI among many places still count; others don't
+            rem = (m.get('PositionRemuneration') or [{}])[0]
+            lo, hi, per = rem.get('MinimumRange'), rem.get('MaximumRange'), {'PA': 'a year', 'PH': 'an hour', 'PM': 'a month', 'PW': 'a week', 'PD': 'a day'}.get(rem.get('RateIntervalCode', ''), '')
+            fm = lambda v: '$' + format(float(v), ',.0f') if float(v) >= 100 else '$' + format(float(v), ',.2f')
+            try: pay = (fm(lo) + ('–' + fm(hi) if hi and float(hi) != float(lo) else '') + (' ' + per if per else '')) if lo else ''
+            except ValueError: pay = ''
+            try: pmax = float(hi or lo or 0)
+            except ValueError: pmax = 0
+            who = (((m.get('UserArea') or {}).get('Details') or {}).get('WhoMayApply') or {}).get('Name', '')
+            who = 'Open to the public' if re.search(r'public|citizen', who, re.I) else ('Current or former federal employees' if who else '')
+            towns = sorted({town_of(l.get('CityName', ''), l.get('LocationName', '')) for l in locs} - {None, ''})
+            dept = ' · '.join(x for x in [m.get('DepartmentName', ''), who] if x)
+            j = job(src, m.get('PositionTitle', ''), m.get('PositionURI', ''),
+                    iso((m.get('PublicationStartDate') or '')[:10]), iso((m.get('ApplicationCloseDate') or '')[:10]), pay, pmax, dept, towns[0] if len(towns) == 1 else '')
+            j['employer'] = m.get('OrganizationName') or src['name']; j['src'] = src['name']
+            out.append(j)
+        page += 1; time.sleep(1)
+    return out
+
+FETCH = {'usajobs': f_usajobs, 'workday_cxs': f_workday, 'atom': f_atom, 'teamtailor_json': f_teamtailor, 'ukg_ready': f_ukg, 'adp_wfn': f_adp, 'neogov_rss': f_rss, 'rss': f_rss, 'schoolspring': f_schoolspring, 'civicplus': f_civicplus, 'bamboohr': f_bamboo}
 
 def main():
     out_path = os.path.join(REPO, 'data', 'jobs.json')
@@ -201,6 +234,8 @@ def main():
     listings, employers, report = [], [], []
     for s in SRC:
         f = s.get('feed')
+        if any(not os.environ.get(v, '').strip() for v in s.get('needs_env', [])):
+            print('%-60s skipped: secret not set yet' % s['name']); continue
         e = {'name': s['name'], 'type': s['type'], 'town': s.get('town', ''), 'page': s['page'], 'feed': bool(f)}
         if f and FETCH.get(f.get('kind')):
             try:
@@ -209,7 +244,7 @@ def main():
                     got = [j for j in got if re.search(s['filter_dept'], j['dept'] or '', re.I)]
                 listings += got; e['count'] = len(got); report.append((s['name'], len(got), 'ok'))
             except Exception as ex:
-                old = [j for j in prev.get('listings', []) if j.get('employer') == s['name']]
+                old = [j for j in prev.get('listings', []) if j.get('employer') == s['name'] or j.get('src') == s['name']]
                 listings += old; e['count'] = len(old); report.append((s['name'], len(old), 'kept previous: ' + str(ex)[:80]))
             time.sleep(1)
         employers.append(e)
