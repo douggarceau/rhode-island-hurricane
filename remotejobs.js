@@ -6,7 +6,7 @@
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
  const uniq=a=>[...new Set(a.filter(Boolean))].sort((x,y)=>x.localeCompare(y));
  const GC=['sj-none','sj-none','sj-none','sj-pref','sj-req'];
- function load(){if(asked)return;asked=true;fetch('data/remotejobs.json?v=20261112a').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{const c=j.cols;j.jobs=j.jobs.map(r=>{const o={};c.forEach((k,i)=>o[k]=r[i]);o._s=(o.emp+' '+o.title+' '+o.sub+' '+o.loc+' '+o.exp).toLowerCase();return o});D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
+ function load(){if(asked)return;asked=true;fetch('data/remotejobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{const c=j.cols;j.jobs=j.jobs.map(r=>{const o={};c.forEach((k,i)=>o[k]=r[i]);o._s=(o.emp+' '+o.title+' '+o.sub+' '+o.loc+' '+o.exp).toLowerCase();return o});D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  const opt=(id,k,first,vals,lab)=>{const s=document.getElementById(id);if(s.options.length<2)s.innerHTML='<option value="">'+first+'</option>'+vals.map(v=>'<option value="'+X(v)+'">'+X(lab?lab(v):v)+'</option>').join('');s.value=st[k]};
  function fill(){const root=document.getElementById('rmRoot');if(!root)return;const B=root.querySelector('#rmBody');
   if(err){B.innerHTML='<p>Couldn’t load remote jobs. <button type="button" id="rmRetry">Retry</button></p>';return}
@@ -21,7 +21,7 @@
   else if(st.sort==='pay')rows.sort((a,b)=>(!!b.pay-!!a.pay)||(a.grp-b.grp));
   else rows.sort((a,b)=>a.emp.localeCompare(b.emp)||a.title.localeCompare(b.title));
   const hidden=st.hideX==='1'?D.jobs.filter(j=>j.rif===2).length:0;
-  root.querySelector('#rmCount').textContent=rows.length+' job'+(rows.length===1?'':'s')+(hidden?' ('+hidden+' that exclude Rhode Island hidden)':'');
+  root.querySelector('#rmCount').textContent=rows.length+' job'+(rows.length===1?'':'s')+(hidden?' ('+hidden+' that exclude Rhode Island hidden)':'')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   B.innerHTML=rows.length?'<div class="sj-scroll"><table class="sj-t"><thead><tr><th>Job</th><th>Experience</th><th>Where you can work from</th><th>Pay · type</th></tr></thead><tbody>'+rows.slice(0,lim).map(j=>'<tr><td><a href="'+X(j.url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.emp)+(j.agency?' · <b>staffing agency</b>':'')+' · '+X(j.sub)+'</span>'+(j.links&&j.links.length>1?'<br><span class="sj-s">Also posted: '+j.links.slice(1).map((u,i)=>'<a class="sj-src" href="'+X(u)+'" target="_blank" rel="noopener">'+(i+2)+'</a>').join(' ')+'</span>':'')+'</td>'
    +'<td><span class="sj-lv '+GC[j.grp]+'">'+X(D.groups[j.grp])+'</span><br><span class="sj-s">'+X(j.exp)+'</span></td>'
    +'<td>'+X(j.loc)+'<br><span class="'+(j.rif===2?'sj-req':'sj-s')+'">Rhode Island: '+X(j.ri)+'</span>'+(j.notes?'<br><span class="sj-s sj-n">'+X(j.notes)+'</span>':'')+'</td>'

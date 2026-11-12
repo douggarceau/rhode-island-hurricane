@@ -19,7 +19,7 @@
   return 'pref'};
  const drives=j=>/driver|driving/i.test(j.title+' '+j.requirements);
  window.jobTabs=cur=>'<div class="mj-tabs">'+[['jobs','Government jobs'],['majors','Major RI Employers'],['seniorjobs','Senior Jobs'],['techjobs','Tech Jobs'],['aijobs','AI Jobs'],['remotejobs','Remote Jobs']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
- function load(){if(asked)return;asked=true;fetch('data/seniorjobs.json?v=20261112b').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;D.jobs.forEach(x=>{x._exp=expOf(x);x._drive=drives(x)});fill()}).catch(()=>{err=true;asked=false;fill()})}
+ function load(){if(asked)return;asked=true;fetch('data/seniorjobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;D.jobs.forEach(x=>{x._exp=expOf(x);x._drive=drives(x)});fill()}).catch(()=>{err=true;asked=false;fill()})}
  function fill(){const root=document.getElementById('sjRoot');if(!root)return;const B=root.querySelector('#sjBody');
   if(err){B.innerHTML='<p>Couldn’t load Senior Jobs. <button type="button" id="sjRetry">Retry</button></p>';return}
   if(!D){B.innerHTML='<p>Loading…</p>';return}
@@ -28,7 +28,7 @@
   const q=st.q.trim().toLowerCase();
   const jobs=D.jobs.filter(j=>(!st.town||j.municipality===st.town)&&(!st.exp||(st.exp==='easy'?['none','train'].includes(j._exp):j._exp===st.exp))&&(!st.drive||(st.drive==='no'?!j._drive:j._drive))&&(!st.pay||!NP(j.pay))&&(!q||JSON.stringify(j).toLowerCase().includes(q)))
    .sort((a,b)=>(a.priority-b.priority)||((b.posted_date||'').localeCompare(a.posted_date||'')));
-  root.querySelector('#sjCount').textContent=jobs.length+' current job'+(jobs.length===1?'':'s');
+  root.querySelector('#sjCount').textContent=jobs.length+' current job'+(jobs.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   const has=o=>!q||JSON.stringify(o).toLowerCase().includes(q);
   let h='<h3>Current jobs ('+jobs.length+')</h3><div class="sj-scroll"><table class="sj-t"><thead><tr><th>Job</th><th>Where</th><th>Pay · schedule</th><th>Experience · requirements</th><th>Physical duties</th></tr></thead><tbody>'
    +(jobs.map(j=>'<tr><td><a href="'+X(j.apply_url||j.source_url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.employer)+'</span>'

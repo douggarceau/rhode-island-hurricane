@@ -6,14 +6,14 @@
  const X=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
  const linkify=s=>X(s).replace(/\b(\d{3}-\d{3}-\d{4})\b/g,m=>'<a href="tel:'+m.replace(/-/g,'')+'">'+m+'</a>').replace(/\b([\w.+-]+@[\w-]+(?:\.[\w-]+)+)\b/g,'<a href="mailto:$1">$1</a>');
  const STAT={verified:['Checked on the employer’s own job page','sj-none'],indexed:['On the employer’s site; page could not be opened, so reconfirm','sj-pref'],employer_ad:['Employer’s ad on LinkedIn; confirm on the employer’s site','sj-pref'],lead:['Lead: seen on a job board; confirm with the employer before applying','sj-req']};
- function load(){if(asked)return;asked=true;fetch('data/techjobs.json?v=20261112a').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
+ function load(){if(asked)return;asked=true;fetch('data/techjobs.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;fill()}).catch(()=>{err=true;asked=false;fill()})}
  function fill(){const root=document.getElementById('tjRoot');if(!root)return;const B=root.querySelector('#tjBody');
   if(err){B.innerHTML='<p>Couldn’t load Tech Jobs. <button type="button" id="tjRetry">Retry</button></p>';return}
   if(!D){B.innerHTML='<p>Loading…</p>';return}
   root.querySelector('#tjStatus').value=st.status;
   const q=st.q.trim().toLowerCase();
   const jobs=D.jobs.filter(j=>(!st.status||(st.status==='ok'?j.status!=='lead':j.status==='lead'))&&(!q||JSON.stringify(j).toLowerCase().includes(q))).sort((a,b)=>a.rank-b.rank);
-  root.querySelector('#tjCount').textContent=jobs.length+' job'+(jobs.length===1?'':'s');
+  root.querySelector('#tjCount').textContent=jobs.length+' job'+(jobs.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   let h='<div class="sj-scroll"><table class="sj-t"><thead><tr><th>#</th><th>Job</th><th>Experience · education</th><th>Pay</th><th>The work · conditions</th></tr></thead><tbody>'
    +(jobs.map(j=>{const s=STAT[j.status];return '<tr><td class="tj-r">'+j.rank+'</td><td><a href="'+X(j.url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="sj-s">'+X(j.employer)+' · '+X(j.location)+'</span>'+(j.job_id?'<br><span class="sj-s">Job ID '+X(j.job_id)+'</span>':'')+'<br><span class="sj-lv '+s[1]+'">'+s[0]+'</span>'
     +(j.ad_url?'<br><a class="sj-src" href="'+X(j.ad_url)+'" target="_blank" rel="noopener">job-board ad</a>':'')+(j.apply_url?' <a class="sj-src" href="'+X(j.apply_url)+'" target="_blank" rel="noopener">employer application</a>':'')+(j.site_url?' <a class="sj-src" href="'+X(j.site_url)+'" target="_blank" rel="noopener">employer site</a>':'')+'</td>'

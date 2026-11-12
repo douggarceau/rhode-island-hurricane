@@ -1,0 +1,30 @@
+name: Remove closed job listings
+on:
+  schedule:
+    - cron: "45 11 * * *"   # every morning, about 6:45 a.m. Rhode Island time
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: check-listings
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check every listing link and deadline
+        run: python3 -I tools/listings/check_listings.py .
+      - name: Publish if anything changed
+        run: |
+          git config user.name "listing-check"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/*.json
+          if git diff --cached --quiet; then echo "No changes"; exit 0; fi
+          git commit -m "Daily check: remove closed listings"
+          for i in 1 2 3; do git pull --rebase -q && git push && exit 0; sleep 10; done
+          exit 1

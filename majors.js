@@ -11,7 +11,7 @@
  const day=s=>{if(!s)return '';const t=new Date(s+'T12:00:00');return isNaN(t)?s:t.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})};
  const pay=p=>{if(!p||p.min==null)return NP;const f=n=>'$'+(+n).toFixed(2).replace(/\.00$/,'');return f(p.min)+(p.max?'–'+f(p.max):'+')+(p.period?'/'+p.period:' <span class="mj-s">(period not stated)</span>')};
  const tabs=()=>window.jobTabs?jobTabs('majors'):'';
- function load(){if(asked)return;asked=true;fetch('data/majors.json?v=20261112a').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;D.E={};j.employers.forEach(e=>D.E[e.id]=e);fill()}).catch(()=>{err=true;asked=false;fill()})}
+ function load(){if(asked)return;asked=true;fetch('data/majors.json?d='+new Date().toISOString().slice(0,10)).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;D.E={};j.employers.forEach(e=>D.E[e.id]=e);fill()}).catch(()=>{err=true;asked=false;fill()})}
  function contactList(e){
   const rec=e.contacts.filter(c=>c.purpose==='recruiting'),oth=e.contacts.filter(c=>c.purpose!=='recruiting');
   const one=c=>{const v=c.channel==='email'?'<a href="mailto:'+X(c.value)+'">'+X(c.value)+'</a>':c.channel==='phone'?'<a href="tel:'+X(c.value.replace(/[^0-9]/g,'').slice(0,10))+'">'+X(c.value)+'</a>':'<a href="'+X(c.value)+'" target="_blank" rel="noopener">web form</a>';return v+' <span class="mj-s">'+X(c.label)+'</span>'};
@@ -26,7 +26,7 @@
   const q=st.q.trim().toLowerCase();
   const ok=j=>(!st.emp||j.employer_id===st.emp)&&(!st.level||j.skill_level===st.level)&&(!st.town||j.city===st.town)&&(!q||JSON.stringify([j,D.E[j.employer_id].name,D.E[j.employer_id].sector]).toLowerCase().includes(q));
   let jobs=D.jobs.filter(ok);
-  root.querySelector('#mjCount').textContent=jobs.length+' current listing'+(jobs.length===1?'':'s');
+  root.querySelector('#mjCount').textContent=jobs.length+' current listing'+(jobs.length===1?'':'s')+(D.listing_check?' · closed listings removed daily, last check '+D.listing_check.date:'');
   const row=j=>'<tr><td><a href="'+X(j.source_url)+'" target="_blank" rel="noopener"><b>'+X(j.title)+'</b></a><br><span class="mj-lv mj-'+X(j.skill_level)+'">'+X(LEVEL[j.skill_level]||j.skill_level)+'</span>'+(j.employer_stated_openings?' <span class="mj-s">· employer says '+j.employer_stated_openings+' openings</span>':'')+'</td>'
    +'<td>'+X(j.city)+'<br><span class="mj-s">'+X(j.address||'')+'</span></td>'
    +'<td class="mj-nw">'+pay(j.pay)+'<br><span class="mj-s">'+X(TYPE[j.employment_type]||j.employment_type||'')+(j.hours_per_week?', '+j.hours_per_week+' hrs/wk':'')+'</span></td>'
