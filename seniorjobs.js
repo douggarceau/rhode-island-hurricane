@@ -18,7 +18,7 @@
   if(/train/.test(L)&&!/preferred/.test(L))return 'train';
   return 'pref'};
  const drives=j=>/driver|driving/i.test(j.title+' '+j.requirements);
- window.jobTabs=cur=>'<div class="mj-tabs">'+[['jobs','Government jobs'],['majors','Major RI Employers'],['seniorjobs','Senior Jobs'],['techjobs','Tech Jobs'],['aijobs','AI Jobs']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
+ window.jobTabs=cur=>'<div class="mj-tabs">'+[['jobs','Government jobs'],['majors','Major RI Employers'],['seniorjobs','Senior Jobs'],['techjobs','Tech Jobs'],['aijobs','AI Jobs'],['remotejobs','Remote Jobs']].map(([k,l])=>k===cur?'<button type="button" class="on">'+l+'</button>':'<button type="button" data-go="'+k+'">'+l+'</button>').join('')+'</div>';
  function load(){if(asked)return;asked=true;fetch('data/seniorjobs.json?v=20261112b').then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(j=>{D=j;D.jobs.forEach(x=>{x._exp=expOf(x);x._drive=drives(x)});fill()}).catch(()=>{err=true;asked=false;fill()})}
  function fill(){const root=document.getElementById('sjRoot');if(!root)return;const B=root.querySelector('#sjBody');
   if(err){B.innerHTML='<p>Couldn’t load Senior Jobs. <button type="button" id="sjRetry">Retry</button></p>';return}
@@ -70,29 +70,29 @@
    const done=()=>{t.textContent='Copied';setTimeout(()=>t.textContent='Copy all text',1500)};
    if(navigator.clipboard)navigator.clipboard.writeText(txt).then(done,()=>{t.textContent='Copy failed'});else{const a=document.createElement('textarea');a.value=txt;document.body.appendChild(a);a.select();document.execCommand('copy');a.remove();done()}}});
  const css=document.createElement('style');css.textContent=`
-#view :is(#sjRoot,#tjRoot,#aiRoot){display:block!important}
-#aiRoot>*,#tjRoot>*,#sjRoot>*{width:auto;max-width:100%}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-f{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
-#view :is(#sjRoot,#tjRoot,#aiRoot) .sj-f>input[type=search]{width:auto!important;flex:1 1 220px!important;min-width:0;height:30px;padding:0 8px;border:1px solid #D4ECF544;border-radius:4px;background:#0A1428;color:#fff;margin:0!important}
-#view :is(#sjRoot,#tjRoot,#aiRoot) .sj-f>select{width:auto!important;flex:0 1 200px!important;height:30px;padding:0 6px;border:1px solid #D4ECF544;border-radius:4px;background:#0A1428;color:#fff;margin:0!important}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-f button,:is(#sjRoot,#tjRoot,#aiRoot) #sjRetry,:is(#sjRoot,#tjRoot,#aiRoot) #sjCopy{all:unset;cursor:pointer;padding:3px 8px;border:1px solid #D4ECF566;border-radius:4px;color:#D4ECF5}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-s{color:#B9CAD6}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-n{font-style:italic}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-st{color:#E9C46A}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-ret{color:#8FD694;font-weight:700}
-:is(#sjRoot,#tjRoot,#aiRoot) .mj-note{margin:4px 0 6px;padding-left:8px;border-left:2px solid #E9C46A;color:#D4ECF5}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-scroll{overflow-x:auto}
-:is(#sjRoot,#tjRoot,#aiRoot) table.sj-t{width:100%;border-collapse:collapse}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-t th{text-align:left;color:#B9CAD6;border-bottom:1px solid #D4ECF544;padding:3px 6px;font-weight:600}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-t td{border-bottom:1px solid #D4ECF51f;padding:4px 6px;vertical-align:top}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-lv{font-weight:700}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-none,:is(#sjRoot,#tjRoot,#aiRoot) .sj-train{color:#8FD694}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-pref{color:#9FC9E8}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-req{color:#E9C46A}
-:is(#sjRoot,#tjRoot,#aiRoot) .sj-src{font-size:.85em;color:#8FB8D0}
-:is(#sjRoot,#tjRoot,#aiRoot) ul.sj-l{margin:4px 0;padding-left:18px}
-:is(#sjRoot,#tjRoot,#aiRoot) ul.sj-l li{margin:5px 0}
-:is(#sjRoot,#tjRoot,#aiRoot) h3{margin:12px 0 4px}
-:is(#sjRoot,#tjRoot,#aiRoot) a{color:#D4ECF5}`;document.head.appendChild(css);
+#view :is(#sjRoot,#tjRoot,#aiRoot,#rmRoot){display:block!important}
+#rmRoot>*,#aiRoot>*,#tjRoot>*,#sjRoot>*{width:auto;max-width:100%}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-f{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0}
+#view :is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-f>input[type=search]{width:auto!important;flex:1 1 220px!important;min-width:0;height:30px;padding:0 8px;border:1px solid #D4ECF544;border-radius:4px;background:#0A1428;color:#fff;margin:0!important}
+#view :is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-f>select{width:auto!important;flex:0 1 200px!important;height:30px;padding:0 6px;border:1px solid #D4ECF544;border-radius:4px;background:#0A1428;color:#fff;margin:0!important}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-f button,:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) #sjRetry,:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) #sjCopy{all:unset;cursor:pointer;padding:3px 8px;border:1px solid #D4ECF566;border-radius:4px;color:#D4ECF5}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-s{color:#B9CAD6}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-n{font-style:italic}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-st{color:#E9C46A}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-ret{color:#8FD694;font-weight:700}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .mj-note{margin:4px 0 6px;padding-left:8px;border-left:2px solid #E9C46A;color:#D4ECF5}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-scroll{overflow-x:auto}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) table.sj-t{width:100%;border-collapse:collapse}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-t th{text-align:left;color:#B9CAD6;border-bottom:1px solid #D4ECF544;padding:3px 6px;font-weight:600}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-t td{border-bottom:1px solid #D4ECF51f;padding:4px 6px;vertical-align:top}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-lv{font-weight:700}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-none,:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-train{color:#8FD694}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-pref{color:#9FC9E8}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-req{color:#E9C46A}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) .sj-src{font-size:.85em;color:#8FB8D0}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) ul.sj-l{margin:4px 0;padding-left:18px}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) ul.sj-l li{margin:5px 0}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) h3{margin:12px 0 4px}
+:is(#sjRoot,#tjRoot,#aiRoot,#rmRoot) a{color:#D4ECF5}`;document.head.appendChild(css);
  if(typeof STATE!=='undefined'&&STATE.view==='seniorjobs'&&!document.getElementById('sjRoot')&&typeof render==='function')render();
 })();
