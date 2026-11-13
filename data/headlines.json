@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-12T07:39:51-05:00",
+ "asof": "2026-11-13T07:30:00-05:00",
  "items": [
   {
    "h": "Rhode Island's 2026 Christmas Season Events Guide",
@@ -138,16 +138,6 @@
    "story": "armenian-fest-cranston-2026",
    "town": "Cranston",
    "date": "2026-11-07",
-   "rank": 4
-  },
-  {
-   "h": "A Community Evening With Cloth of the Earth at RISD Museum",
-   "sum": "A drop-in evening on Nov. 12 with two gallery talks, one in Creole and one in English.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=risd-museum-cloth-of-the-earth-community-evening-2026",
-   "story": "risd-museum-cloth-of-the-earth-community-evening-2026",
-   "town": "Providence",
-   "date": "2026-11-10",
    "rank": 4
   },
   {
@@ -386,36 +376,14 @@
    "rank": 3
   },
   {
-   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
-   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
-   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
-   "lead": true,
-   "town": "Providence",
-   "date": "2026-11-12",
-   "rank": 2
-  },
-  {
    "h": "John Crist Live Sunday Night at The VETS in Providence",
    "sum": "Sunday, Nov. 15 at 7 p.m. at The VETS in Providence, comedian John Crist brings his stand-up and viral sketch comedy tour, with doors at 6 p.m.",
    "outlet": "Rhode Island Hurricane",
    "url": "?story=john-crist-live-the-vets-sunday-2026",
    "story": "john-crist-live-the-vets-sunday-2026",
-   "box": true,
    "town": "Providence",
    "date": "2026-11-12",
    "rank": 2
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Dark Star Orchestra and RISD Museum",
-   "sum": "Best picks for Thursday, Nov. 12: storytime at 10:15 a.m., Cloth of the Earth at the RISD Museum at 5:30 p.m. and Dark Star Orchestra at PPAC at 7:30 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-12",
-   "story": "today-and-tonight-2026-11-12",
-   "town": "Statewide",
-   "date": "2026-11-12",
-   "rank": 1
   },
   {
    "h": "Unfurling: Newport Art Museum Previews Its 2027 Art Cup Sails",
@@ -455,6 +423,87 @@
    "story": "sparkling-lights-breakers-newport-2026",
    "town": "Newport",
    "date": "2026-11-12",
+   "rank": 5
+  },
+  {
+   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
+   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
+   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
+   "town": "Providence",
+   "date": "2026-11-13",
+   "rank": 2,
+   "lead": true
+  },
+  {
+   "h": "Bert Kreischer Brings Stand-Up to The VETS Tonight",
+   "sum": "Friday, Nov. 13 at 7 p.m. at Veterans Memorial Auditorium, 1 Avenue of the Arts, Providence; doors open at 6 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=bert-kreischer-the-vets-2026-11-13",
+   "story": "bert-kreischer-the-vets-2026-11-13",
+   "town": "Providence",
+   "date": "2026-11-13",
+   "rank": 2,
+   "box": true
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Bert Kreischer and Almost Queen",
+   "sum": "Friday's best picks are Bert Kreischer at The VETS at 7 p.m. and Almost Queen at the Greenwich Odeum at 8 p.m., with Almost, Maine in West Warwick at 7:30 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-13",
+   "story": "today-and-tonight-2026-11-13",
+   "town": "Statewide",
+   "date": "2026-11-13",
+   "rank": 1
+  },
+  {
+   "h": "Handel's Messiah at Rosecliff Mansion in Newport, Dec. 6",
+   "sum": "Sunday, Dec. 6 at 1 p.m. and 3:30 p.m. at Rosecliff Mansion, 548 Bellevue Avenue, Newport; doors open at 12:30 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=messiah-at-the-mansion-rosecliff-newport-2026",
+   "story": "messiah-at-the-mansion-rosecliff-newport-2026",
+   "town": "Newport",
+   "date": "2026-11-13",
+   "rank": 3
+  },
+  {
+   "h": "Alicia Keys' Hell's Kitchen Runs at PPAC Dec. 15 Through 20",
+   "sum": "Tuesday, Dec. 15 through Sunday, Dec. 20 at the Providence Performing Arts Center, 220 Weybosset Street, Providence, with evening and weekend matinee performances.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
+   "story": "alicia-keys-hells-kitchen-ppac-2026",
+   "town": "Providence",
+   "date": "2026-11-13",
+   "rank": 3
+  },
+  {
+   "h": "Uncovering Napatree: A Geology Walk in Westerly, Nov. 14",
+   "sum": "Saturday, Nov. 14 from 9 to 10:30 a.m. at Napatree Point Conservation Area, Fort Road, Westerly; registration is required.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=napatree-geology-walk-westerly-2026",
+   "story": "napatree-geology-walk-westerly-2026",
+   "town": "Westerly",
+   "date": "2026-11-13",
+   "rank": 4
+  },
+  {
+   "h": "Fly Tying Nights at Louttit Library in West Greenwich",
+   "sum": "Thursdays from 6:30 to 8:30 p.m. through November and December at Louttit Library, West Greenwich; $5 per person per night.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=fly-tying-nights-louttit-library-west-greenwich-2026",
+   "story": "fly-tying-nights-louttit-library-west-greenwich-2026",
+   "town": "West Greenwich",
+   "date": "2026-11-13",
+   "rank": 6
+  },
+  {
+   "h": "Almost Queen: A Tribute to Queen Plays the Greenwich Odeum Tonight",
+   "sum": "The tribute show takes the East Greenwich stage at 8 p.m. on Friday.",
+   "outlet": "Greenwich Odeum",
+   "url": "https://ci.ovationtix.com/35158/production/1282307",
+   "town": "East Greenwich",
+   "date": "2026-11-13",
    "rank": 5
   }
  ]
