@@ -1465,7 +1465,7 @@
       "phone": "401-414-5465",
       "phone_role": "Crisis center",
       "professional_email": "not published",
-      "official_website": "https://www.bhlink.org/ ; rewritten summary of https://www.hhpartners.org/bh-link",
+      "official_website": "https://www.hhpartners.org/bh-link ; rewritten summary of https://www.hhpartners.org/bh-link",
       "application_url": "not published",
       "office_hours": "24/7",
       "meeting_schedule": "not published",
@@ -1473,13 +1473,13 @@
       "languages": "not published",
       "religious_affiliation_required": "not published",
       "source_urls": [
-        "https://www.bhlink.org/ ; rewritten summary of https://www.hhpartners.org/bh-link",
+        "https://www.hhpartners.org/bh-link ; rewritten summary of https://www.hhpartners.org/bh-link",
         "https://www.hhpartners.org/bh-link"
       ],
       "sources": [
         {
           "source_id": "src-4231d3c88f70",
-          "url": "https://www.bhlink.org/ ; rewritten summary of https://www.hhpartners.org/bh-link",
+          "url": "https://www.hhpartners.org/bh-link ; rewritten summary of https://www.hhpartners.org/bh-link",
           "title": "BH Link — Horizon Healthcare Partners (HHP)",
           "checked_at": "2026-11-10",
           "verification_method": "public website reviewed",
@@ -1528,7 +1528,7 @@
         "official_directory_url"
       ],
       "official_directory_url": "not published",
-      "source": "https://www.bhlink.org/ ; rewritten summary of https://www.hhpartners.org/bh-link",
+      "source": "https://www.hhpartners.org/bh-link ; rewritten summary of https://www.hhpartners.org/bh-link",
       "as_of": "2026-11-10",
       "contact_status": "published_phone_or_professional_email",
       "contact_privacy_note": "Only official organizational or explicitly published service/meeting contacts; no inferred email addresses.",
