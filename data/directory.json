@@ -35,7 +35,7 @@
    "a": "50 Exchange Street, Pawtucket, RI",
    "p": "401-305-5111",
    "e": "",
-   "w": "https://www.allnationsrevival.org",
+   "w": "",
    "wl": "Website",
    "b": "All Nations Revival Center is a Pentecostal (Church of God) worship community in Pawtucket.",
    "nt": [
@@ -44,7 +44,7 @@
    "s": [
     [
      "allnationsrevival.org",
-     "https://www.allnationsrevival.org"
+     ""
     ]
    ],
    "cl": false
@@ -819,7 +819,7 @@
    "a": "3 Houghton Street, Providence, RI",
    "p": "401-744-2187",
    "e": "",
-   "w": "https://centerofpraisecog.org",
+   "w": "",
    "wl": "Website",
    "b": "Center of Praise is a Pentecostal (Church of God) worship community in Providence.",
    "nt": [
@@ -828,7 +828,7 @@
    "s": [
     [
      "centerofpraisecog.org",
-     "https://centerofpraisecog.org"
+     ""
     ]
    ],
    "cl": false
@@ -901,7 +901,7 @@
    "a": "311 Maple Avenue, Barrington, RI",
    "p": "401-247-4747",
    "e": "",
-   "w": "https://www.jewishbarrington.com",
+   "w": "",
    "wl": "Website",
    "b": "Chabad of Barrington/East Bay is a Jewish (Chabad) worship community in Barrington.",
    "nt": [
@@ -910,7 +910,7 @@
    "s": [
     [
      "jewishbarrington.com",
-     "https://www.jewishbarrington.com"
+     ""
     ]
    ],
    "cl": false
@@ -2843,7 +2843,7 @@
    "a": "8 Church Street, Ashaway, Hopkinton, RI 02804",
    "p": "401-377-2123",
    "e": "",
-   "w": "http://www.hopkintonsdb.org",
+   "w": "",
    "wl": "Website",
    "b": "First Seventh Day Baptist Church of Hopkinton is a worship community in Hopkinton.",
    "nt": [
@@ -2852,7 +2852,7 @@
    "s": [
     [
      "hopkintonsdb.org",
-     "http://www.hopkintonsdb.org"
+     ""
     ]
    ],
    "cl": false
@@ -5489,14 +5489,14 @@
    "a": "100 Boone Street, North Kingstown, RI",
    "p": "",
    "e": "",
-   "w": "https://www.nklibrary.org/sites/nklibrary.org/files/article-attachments/January%202025_0.pdf",
+   "w": "https://www.nklibrary.org/",
    "wl": "Website",
    "b": "Mystery enthusiasts discuss selected crime novels. Meets at North Kingstown Public Library.",
    "nt": [],
    "s": [
     [
      "nklibrary.org",
-     "https://www.nklibrary.org/sites/nklibrary.org/files/article-attachments/January%202025_0.pdf"
+     "https://www.nklibrary.org/"
     ]
    ],
    "cl": false
@@ -6292,7 +6292,7 @@
    "a": "1340 South County Trail, East Greenwich, RI",
    "p": "401-528-7613",
    "e": "",
-   "w": "https://prcofri.com",
+   "w": "",
    "wl": "Website",
    "b": "Presbyterian Reformed Church of Rhode Island is a Presbyterian Reformed Church worship community in East Greenwich.",
    "nt": [
@@ -6301,7 +6301,7 @@
    "s": [
     [
      "prcofri.com",
-     "https://prcofri.com"
+     ""
     ]
    ],
    "cl": false
@@ -6405,7 +6405,7 @@
    "a": "131 Elmwood Avenue, Providence, RI",
    "p": "401-270-9996",
    "e": "",
-   "w": "http://www.psdac7.com/",
+   "w": "",
    "wl": "Website",
    "b": "Providence Spanish Seventh-day Adventist Church is a Seventh-day Adventist worship community in Providence. Regular schedule: Sabbath worship Saturday 11:00 AM (Spanish); Sabbath school Saturday 9:30 AM (Spanish); Prayer meeting Wednesday 7:30 PM (Spanish).",
    "nt": [
@@ -6414,7 +6414,7 @@
    "s": [
     [
      "psdac7.com",
-     "http://www.psdac7.com/"
+     ""
     ]
    ],
    "cl": false
@@ -8543,7 +8543,7 @@
    "a": "Spring St., New Shoreham(Block Island), RI, 02807-0279",
    "p": "401-466-5519",
    "e": "",
-   "w": "http://www.angelfire.com/ex/standrewschurch",
+   "w": "",
    "wl": "Website",
    "b": "St. Andrew is a Catholic worship community in New Shoreham. Regular schedule: Confession Saturday 4:15 PM; Saturday Vigil Mass (Summer, Fall, and Spring) Saturday 5:00 PM; Sunday Mass (Parish Center, Spring St.; October to May) Sunday 10:00 AM; Sunday Mass (Summer - Chapel Street Church) Sunday 10:00 AM; Sunday Mass (Summer - Chapel Street Church) Sunday 8:00 AM.",
    "nt": [
@@ -8552,7 +8552,7 @@
    "s": [
     [
      "angelfire.com",
-     "http://www.angelfire.com/ex/standrewschurch"
+     ""
     ]
    ],
    "cl": false
@@ -8580,7 +8580,7 @@
    "a": "182 Willow Avenue, Little Compton, RI 02837",
    "p": "401-635-2452",
    "e": "",
-   "w": "https://www.standrewslc.org/worship",
+   "w": "https://www.standrewslc.org/",
    "wl": "Website",
    "b": "St. Andrew's by-the-Sea is an Episcopal worship community in Little Compton.",
    "nt": [
@@ -8589,7 +8589,7 @@
    "s": [
     [
      "standrewslc.org",
-     "https://www.standrewslc.org/worship"
+     "https://www.standrewslc.org/"
     ]
    ],
    "cl": false
@@ -9740,14 +9740,14 @@
    "a": "2595 Pawtucket Ave., East Providence, RI, 02914-3224",
    "p": "401-434-4060",
    "e": "",
-   "w": "https://www.stmarthaschurch.com/",
+   "w": "",
    "wl": "Website",
    "b": "St. Martha is a Catholic worship community in East Providence. Regular schedule: Mass Monday 9:00 AM; Saturday Vigil Mass Saturday 4:00 PM; Sunday Mass Sunday 11:00 AM; Sunday Mass ((Sept.-May)) Sunday 5:00 PM; Sunday Mass Sunday 8:30 AM; Mass Thursday 9:00 AM; Mass Tuesday 9:00 AM; Mass Wednesday 9:00 AM.",
    "nt": [],
    "s": [
     [
      "stmarthaschurch.com",
-     "https://www.stmarthaschurch.com/"
+     ""
     ]
    ],
    "cl": false
@@ -12611,7 +12611,7 @@
    "a": "South Kingstown",
    "p": "",
    "e": "",
-   "w": "https://www.southcountyri.com/event/arts-and-eats-at-sons-of-liberty/18829/",
+   "w": "https://www.southcountyri.com/",
    "wl": "Website",
    "b": "Live music, artisan markets, food-truck events, and community festivals.",
    "nt": [],
