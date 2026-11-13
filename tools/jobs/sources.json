@@ -114,7 +114,7 @@
   "name": "Rhode Island Turnpike and Bridge Authority",
   "type": "authority",
   "town": "Jamestown",
-  "page": "https://www.ritba.org/careers/",
+  "page": "https://www.ritba.org/employment-opportunities/",
   "feed": null
  },
  {
@@ -583,7 +583,7 @@
   "name": "Exeter-West Greenwich Regional School District",
   "type": "school",
   "town": "Exeter",
-  "page": "https://www.schoolspring.com/jobs/?employer=11201",
+  "page": "https://www.ewgrsd.org/",
   "feed": {
    "kind": "schoolspring",
    "url": "https://api.schoolspring.com/api/Jobs/GetPagedJobsWithSearch?domainName=www.schoolspring.com&keyword=&location=&category=&gradelevel=&jobtype=&organization=e-11201&swLat=&swLon=&neLat=&neLon=&page=1&size=100&sortDateAscending=false"
