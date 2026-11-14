@@ -1,46 +1,6 @@
 {
- "asof": "2026-11-13T07:30:00-05:00",
+ "asof": "2026-11-14T07:45:00-05:00",
  "items": [
-  {
-   "h": "Rhode Island's 2026 Christmas Season Events Guide",
-   "sum": "Dates, times and prices for Trinity Rep, Cirque du Soleil, the Boston Pops, The Nutcracker, the Newport mansions, tree lightings and light displays statewide.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=rhode-island-christmas-2026-schedule",
-   "story": "rhode-island-christmas-2026-schedule",
-   "town": "Statewide",
-   "date": "2026-11-05",
-   "rank": 1
-  },
-  {
-   "h": "Ringing in 2027: Rhode Island's New Year's Eve guide",
-   "sum": "Noon countdowns, Providence's riverfront fireworks, tasting dinners, black-tie balls, live bands and comedy across the state on Thursday, Dec. 31.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=rhode-island-new-years-eve-2026",
-   "story": "rhode-island-new-years-eve-2026",
-   "town": "Statewide",
-   "date": "2026-11-06",
-   "rank": 2
-  },
-  {
-   "h": "Thanksgiving in Rhode Island: the 2026 guide",
-   "sum": "Turkey trots, community meals, places to volunteer, Thanksgiving Masses and about 30 restaurants serving dinner on Thursday, Nov. 26.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=rhode-island-thanksgiving-2026",
-   "story": "rhode-island-thanksgiving-2026",
-   "town": "Statewide",
-   "date": "2026-11-06",
-   "rank": 2
-  },
-  {
-   "h": "Providence Singers Sing American Voices in Warren and Providence",
-   "sum": "Choral concerts Nov. 21 in Warren and Nov. 22 in Providence, with Copland, folk songs and a bluegrass Mass.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=providence-singers-american-voices-2026",
-   "story": "providence-singers-american-voices-2026",
-   "town": "Warren",
-   "date": "2026-11-05",
-   "rank": 3
-  },
   {
    "h": "Sheila Isham: Between Worlds at the Newport Art Museum Through Jan. 4",
    "sum": "Open Monday and Wednesday through Sunday, 11 a.m. to 4 p.m., at the Newport Art Museum, 76 Bellevue Avenue, Newport, with the exhibition running through Jan. 4, 2027.",
@@ -72,16 +32,6 @@
    "story": "gamm-view-from-the-bridge-2026"
   },
   {
-   "h": "RIC Chorus Sings Carols and Light in Sapinsley Hall on Nov. 13",
-   "sum": "Friday, Nov. 13 at 7:30 p.m. in Sapinsley Hall at the Nazarian Center, 115 First Avenue, Providence, with paid admission.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=ric-chorus-carols-and-light-2026",
-   "town": "Providence",
-   "date": "2026-11-08",
-   "rank": 3,
-   "story": "ric-chorus-carols-and-light-2026"
-  },
-  {
    "h": "Jamestown Arts Center Opens Its 2026 Members' Show",
    "sum": "Reception Friday, Nov. 20, 5:30 to 7:30 p.m.; on view through Jan. 9, 2027.",
    "outlet": "Rhode Island Hurricane",
@@ -102,35 +52,6 @@
    "rank": 3
   },
   {
-   "h": "Holiday Premiere: Handmade Gifts at WaterFire Arts Center",
-   "sum": "A day of local makers, coffee and food trucks, with no-charge admission on Sunday, Nov. 15.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=providence-artisans-holiday-premiere-2026",
-   "story": "providence-artisans-holiday-premiere-2026",
-   "town": "Providence",
-   "date": "2026-11-05",
-   "rank": 4
-  },
-  {
-   "h": "A Dying Tree Becomes Art at Weaver Library",
-   "sum": "Sculptor Anthony Heinz May turns dying or fallen trees into art, which he calls shared authorship.",
-   "outlet": "Ocean State Media",
-   "url": "https://www.oceanstatemedia.org/weekend401/2026-11-05/a-beloved-tree-was-dying-so-weaver-library-turned-it-into-a-piece-of-art",
-   "town": "Statewide",
-   "date": "2026-11-05",
-   "rank": 4
-  },
-  {
-   "h": "Stargazing Fridays at Frosty Drew Observatory",
-   "sum": "Telescopes, the Sky Theatre and astronomers on Friday nights in Charlestown, weather permitting.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=frosty-drew-stargazing-nights-2026",
-   "story": "frosty-drew-stargazing-nights-2026",
-   "town": "Charlestown",
-   "date": "2026-11-06",
-   "rank": 4
-  },
-  {
    "h": "Armenian Fest Returns to Rhodes on the Pawtuxet in Cranston",
    "sum": "Saturday, Nov. 14, noon to 8 p.m., and Sunday, Nov. 15, noon to 7 p.m., at Sts. Vartanantz Armenian Apostolic Church's Rhodes on the Pawtuxet, 60 Rhodes Place, Cranston.",
    "outlet": "Rhode Island Hurricane",
@@ -139,54 +60,6 @@
    "town": "Cranston",
    "date": "2026-11-07",
    "rank": 4
-  },
-  {
-   "h": "Almost, Maine Brings Northern Lights Romance to West Warwick",
-   "sum": "The Arctic Playhouse stages John Cariani's comedy on evenings and Sunday afternoons through Nov. 22.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=almost-maine-arctic-playhouse-west-warwick",
-   "story": "almost-maine-arctic-playhouse-west-warwick",
-   "town": "West Warwick",
-   "date": "2026-11-05",
-   "rank": 5
-  },
-  {
-   "h": "Newport Classical Adds a Piano Debut and Guitar to November",
-   "sum": "Two Friday concerts at the Recital Hall, Nov. 6 and Nov. 20, bring a new pianist and Spanish and Latin guitar music.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=newport-classical-november-chamber-concerts-2026",
-   "story": "newport-classical-november-chamber-concerts-2026",
-   "town": "Newport",
-   "date": "2026-11-05",
-   "rank": 5
-  },
-  {
-   "h": "Blithewold's Expressions of Nature Reception Set for Nov. 15",
-   "sum": "Family programs on Nov. 7 and a gallery reception on Nov. 15 fill a busy fall stretch at the Bristol estate.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=blithewold-expressions-of-nature-november-2026",
-   "story": "blithewold-expressions-of-nature-november-2026",
-   "town": "Bristol",
-   "date": "2026-11-05",
-   "rank": 5
-  },
-  {
-   "h": "RISD's Photography Department Triennial is on view in Providence",
-   "sum": "Work from the department is at Woods-Gerry Gallery through Nov. 15, after a Nov. 5 reception.",
-   "outlet": "RISD",
-   "url": "https://involved.risd.edu/event/12602311",
-   "town": "Providence",
-   "date": "2026-11-05",
-   "rank": 5
-  },
-  {
-   "h": "RISD's Illustration faculty show opens at the ISB Gallery",
-   "sum": "Work by Illustration faculty is on view Nov. 6 through Dec. 4 at One Washington Place.",
-   "outlet": "RISD",
-   "url": "https://involved.risd.edu/event/12955718",
-   "town": "Providence",
-   "date": "2026-11-05",
-   "rank": 5
   },
   {
    "h": "An Evening on Abstract Art in Newport",
@@ -433,29 +306,7 @@
    "story": "trinity-rep-christmas-carol-50th-dowling-2026",
    "town": "Providence",
    "date": "2026-11-13",
-   "rank": 2,
-   "lead": true
-  },
-  {
-   "h": "Bert Kreischer Brings Stand-Up to The VETS Tonight",
-   "sum": "Friday, Nov. 13 at 7 p.m. at Veterans Memorial Auditorium, 1 Avenue of the Arts, Providence; doors open at 6 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=bert-kreischer-the-vets-2026-11-13",
-   "story": "bert-kreischer-the-vets-2026-11-13",
-   "town": "Providence",
-   "date": "2026-11-13",
-   "rank": 2,
-   "box": true
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Bert Kreischer and Almost Queen",
-   "sum": "Friday's best picks are Bert Kreischer at The VETS at 7 p.m. and Almost Queen at the Greenwich Odeum at 8 p.m., with Almost, Maine in West Warwick at 7:30 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-13",
-   "story": "today-and-tonight-2026-11-13",
-   "town": "Statewide",
-   "date": "2026-11-13",
-   "rank": 1
+   "rank": 2
   },
   {
    "h": "Handel's Messiah at Rosecliff Mansion in Newport, Dec. 6",
@@ -464,16 +315,6 @@
    "url": "?story=messiah-at-the-mansion-rosecliff-newport-2026",
    "story": "messiah-at-the-mansion-rosecliff-newport-2026",
    "town": "Newport",
-   "date": "2026-11-13",
-   "rank": 3
-  },
-  {
-   "h": "Alicia Keys' Hell's Kitchen Runs at PPAC Dec. 15 Through 20",
-   "sum": "Tuesday, Dec. 15 through Sunday, Dec. 20 at the Providence Performing Arts Center, 220 Weybosset Street, Providence, with evening and weekend matinee performances.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
-   "story": "alicia-keys-hells-kitchen-ppac-2026",
-   "town": "Providence",
    "date": "2026-11-13",
    "rank": 3
   },
@@ -498,15 +339,6 @@
    "rank": 6
   },
   {
-   "h": "Almost Queen: A Tribute to Queen Plays the Greenwich Odeum Tonight",
-   "sum": "The tribute show takes the East Greenwich stage at 8 p.m. on Friday.",
-   "outlet": "Greenwich Odeum",
-   "url": "https://ci.ovationtix.com/35158/production/1282307",
-   "town": "East Greenwich",
-   "date": "2026-11-13",
-   "rank": 5
-  },
-  {
    "h": "Boston Pops Holiday Concert Comes to PPAC on Dec. 13",
    "sum": "A holiday program with Keith Lockhart at the Providence Performing Arts Center, Sunday at 7 p.m.",
    "outlet": "Rhode Island Hurricane",
@@ -515,6 +347,48 @@
    "town": "Providence",
    "date": "2026-11-13",
    "rank": 5
+  },
+  {
+   "h": "PPAC Unveils Its 2026-27 Broadway Season, Opening With Alicia Keys' Hell's Kitchen",
+   "sum": "Alicia Keys' Hell's Kitchen plays the Providence Performing Arts Center for six days in December.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
+   "story": "alicia-keys-hells-kitchen-ppac-2026",
+   "lead": true,
+   "town": "Providence",
+   "date": "2026-11-14",
+   "rank": 2
+  },
+  {
+   "h": "LeAnn Rimes Brings an Acoustic Night to Woonsocket Tonight",
+   "sum": "The Stadium Theatre hosts LeAnn Rimes at 8 p.m. Saturday, with tickets from $69 to $99.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=leann-rimes-acoustic-stadium-theatre-woonsocket-2026-11-14",
+   "story": "leann-rimes-acoustic-stadium-theatre-woonsocket-2026-11-14",
+   "box": true,
+   "town": "Woonsocket",
+   "date": "2026-11-14",
+   "rank": 2
+  },
+  {
+   "h": "Rhode Island Today and Tonight: LeAnn Rimes, Hodie and Almost, Maine",
+   "sum": "Saturday's best picks are LeAnn Rimes at the Stadium Theatre at 8 p.m., Hodie with the Chorus of Westerly at 6 p.m. and Almost, Maine in West Warwick at 7:30 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-14",
+   "story": "today-and-tonight-2026-11-14",
+   "town": "Statewide",
+   "date": "2026-11-14",
+   "rank": 1
+  },
+  {
+   "h": "Contemporary Theater Company Brings A Christmas Carol to Wakefield",
+   "sum": "Contemporary Theater Company stages A Christmas Carol in Wakefield on select dates through Dec. 20.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=contemporary-theater-company-christmas-carol-wakefield-2026",
+   "story": "contemporary-theater-company-christmas-carol-wakefield-2026",
+   "town": "Wakefield",
+   "date": "2026-11-14",
+   "rank": 3
   }
  ]
 }
