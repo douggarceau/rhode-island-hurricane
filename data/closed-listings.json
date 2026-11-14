@@ -833,6 +833,182 @@
      "https://apply.workable.com/pavago/j/51E5F32A9E/"
     ]
    ]
+  },
+  {
+   "date": "2026-11-14",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "Cognition",
+    "Applied AI Transformation Manager - ANZ",
+    "2",
+    "Applied AI / customer solutions",
+    "Sydney",
+    2,
+    "Remote",
+    "Role posting",
+    "",
+    "Ideally 2+ years experience at a startup in a customer facing role preferred",
+    "",
+    "2026-08-05T13:31:12.601+00:00",
+    "https://jobs.ashbyhq.com/cognition/392b0b95-26e6-4fb8-841f-97e528acd711/application",
+    "US-person / citizenship condition mentioned",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "Perplexity",
+    "Internship - Machine Learning Research Engineer",
+    "1",
+    "AI research / machine learning",
+    "Berlin",
+    4,
+    "Hybrid",
+    "Role posting",
+    "",
+    "Early-career designation in employer title",
+    "",
+    "2026-09-02T10:35:02.552+00:00",
+    "https://jobs.ashbyhq.com/Perplexity/b9e1ff15-d52a-46d5-abf0-26460f2a116c/application",
+    "",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Twilio",
+    "Digital Sales Representative - Expansion",
+    4,
+    "2 years experience stated",
+    "Sales & business development",
+    "Remote - US",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "USD 35.34–49.04 per hour across location-specific bands; see source for exact band",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://job-boards.greenhouse.io/twilio/jobs/8327942",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/twilio/jobs/8327942"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Lever: posting removed",
+   "item": [
+    "RWS TrainAI",
+    "Search Engine Evaluator - Chinese Simplified (China)",
+    0,
+    "No prior experience required",
+    "AI training & data evaluation",
+    "Beijing",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Temporary/Contract",
+    "",
+    "Country/language-specific project; task volume and working hours are not guaranteed.; License or certification mentioned; check mandatory requirements; Contract / freelance wording in posting; confirm engagement terms",
+    "https://jobs.lever.co/rws/8a2d330e-0c71-4b92-8c68-33e755d6b4cd",
+    0,
+    "Not published / not normalized",
+    [
+     "https://jobs.lever.co/rws/8a2d330e-0c71-4b92-8c68-33e755d6b4cd"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Medical Customer Service Representative",
+    4,
+    "1 year experience stated",
+    "Customer service & technical support",
+    "Mexico; Colombia; Brazil",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Degree mentioned; required/preferred distinction is in source; Language proficiency requirement; see title and source",
+    "https://apply.workable.com/pavago/j/8154A54799/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/8154A54799/"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "SupportYourApp",
+    "(Fluent English) Customer Support Consultant (Argentina, remotely)",
+    4,
+    "1 year experience stated",
+    "Customer service & technical support",
+    "Córdoba, Córdoba Province, Argentina; Buenos Aires, Buenos Aires, Argentina; Rosario, Santa Fe Province, Argentina; La Plata, Buenos Aires Province, Argentina; ",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Contract",
+    "",
+    "Language proficiency requirement; see title and source; Contract / freelance wording in posting; confirm engagement terms",
+    "https://apply.workable.com/supportyourapp/j/DB5EC75968/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/supportyourapp/j/DB5EC75968/"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-14",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Virtual Assistant",
+    4,
+    "1–2 years as a virtual or administrative assistant",
+    "Administration, data entry & operations",
+    "United States",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Staffing agency; client employer not published",
+    "https://apply.workable.com/pavago/j/2D074B21D3/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/2D074B21D3/"
+    ]
+   ]
   }
  ]
 }
