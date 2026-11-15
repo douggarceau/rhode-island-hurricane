@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-14T07:45:00-05:00",
+ "asof": "2026-11-15T07:30:00-05:00",
  "items": [
   {
    "h": "Disney's Frozen Brings Its Broadway Musical to Woonsocket",
@@ -10,26 +10,6 @@
    "town": "Woonsocket",
    "date": "2026-11-14",
    "rank": 5
-  },
-  {
-   "h": "Sheila Isham: Between Worlds at the Newport Art Museum Through Jan. 4",
-   "sum": "Open Monday and Wednesday through Sunday, 11 a.m. to 4 p.m., at the Newport Art Museum, 76 Bellevue Avenue, Newport, with the exhibition running through Jan. 4, 2027.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=sheila-isham-between-worlds-newport-art-museum-2026",
-   "story": "sheila-isham-between-worlds-newport-art-museum-2026",
-   "town": "Newport",
-   "date": "2026-11-07",
-   "rank": 3
-  },
-  {
-   "h": "Environmental Currents: Art and Ocean Science at URI's Studio Blue",
-   "sum": "Open Monday through Friday, 9 a.m. to 5 p.m., at Studio Blue on URI's Narragansett Bay Campus in Narragansett, through Nov. 18, with no charge admission.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=environmental-currents-studio-blue-uri-2026",
-   "story": "environmental-currents-studio-blue-uri-2026",
-   "town": "Narragansett",
-   "date": "2026-11-07",
-   "rank": 3
   },
   {
    "h": "Gamm Stages Arthur Miller's A View From the Bridge This November",
@@ -60,56 +40,6 @@
    "town": "Newport",
    "date": "2026-11-09",
    "rank": 3
-  },
-  {
-   "h": "Armenian Fest Returns to Rhodes on the Pawtuxet in Cranston",
-   "sum": "Saturday, Nov. 14, noon to 8 p.m., and Sunday, Nov. 15, noon to 7 p.m., at Sts. Vartanantz Armenian Apostolic Church's Rhodes on the Pawtuxet, 60 Rhodes Place, Cranston.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=armenian-fest-cranston-2026",
-   "story": "armenian-fest-cranston-2026",
-   "town": "Cranston",
-   "date": "2026-11-07",
-   "rank": 4
-  },
-  {
-   "h": "An Evening on Abstract Art in Newport",
-   "sum": "A guided Nov. 18 program at the Newport Art Museum pairs Sheila Isham's exhibition with close-looking exercises.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=experiencing-the-abstract-newport-art-museum-evening",
-   "story": "experiencing-the-abstract-newport-art-museum-evening",
-   "town": "Newport",
-   "date": "2026-11-07",
-   "rank": 5
-  },
-  {
-   "h": "Round Panels Open at Jamestown Arts Center",
-   "sum": "Molly Kugler Dickinson's Of Longing and Loss opens with a Nov. 20 reception and runs through Jan. 9.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=jamestown-arts-center-molly-kugler-dickinson-longing-loss",
-   "story": "jamestown-arts-center-molly-kugler-dickinson-longing-loss",
-   "town": "Jamestown",
-   "date": "2026-11-07",
-   "rank": 5
-  },
-  {
-   "h": "Young Performers Take the Mic in Westerly",
-   "sum": "Youth On the Mic brings student singers and musicians to The Knick Music Lab on Sunday, Nov. 22, with no charge for admission.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=youth-on-the-mic-westerly-knick-sunday",
-   "story": "youth-on-the-mic-westerly-knick-sunday",
-   "town": "Westerly",
-   "date": "2026-11-07",
-   "rank": 5
-  },
-  {
-   "h": "RISD Museum Traces 150 Years of Collecting",
-   "sum": "In the Making opens Nov. 21 and shows how the museum's works arrived, on view through Aug. 1, 2027.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=risd-museum-in-the-making-150-years",
-   "story": "risd-museum-in-the-making-150-years",
-   "town": "Providence",
-   "date": "2026-11-07",
-   "rank": 5
   },
   {
    "h": "The Nutcracker Dances Into Woonsocket's Stadium Theatre",
@@ -152,16 +82,6 @@
    "rank": 5
   },
   {
-   "h": "Joe Parillo and the New Ensemble Bring Lily Pads Jazz to Peace Dale",
-   "sum": "Sunday, Nov. 15, doors at 3 p.m. and the show from 3:30 to 5:30 p.m., at the Unitarian Universalist Congregation of South County in Peace Dale.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=lily-pads-jazz-joe-parillo-peace-dale-2026",
-   "story": "lily-pads-jazz-joe-parillo-peace-dale-2026",
-   "town": "South Kingstown",
-   "date": "2026-11-07",
-   "rank": 6
-  },
-  {
    "h": "Jamestown Community Theatre Opens Merrily We Roll Along",
    "sum": "Performances Nov. 19 through 22, with a Sondheim musical told in reverse.",
    "outlet": "Rhode Island Hurricane",
@@ -188,46 +108,6 @@
    "town": "Providence",
    "date": "2026-11-10",
    "rank": 7
-  },
-  {
-   "h": "Happy Mail: Jamestown Library Makes Thank-You Postcards on Nov. 14",
-   "sum": "Saturday, Nov. 14, 10 a.m. to 1 p.m. in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=jamestown-library-happy-mail-postcards-2026",
-   "story": "jamestown-library-happy-mail-postcards-2026",
-   "town": "Jamestown",
-   "date": "2026-11-07",
-   "rank": 8
-  },
-  {
-   "h": "Local Makers Fill the Stadium Theatre for a Holiday Market",
-   "sum": "Saturday, Nov. 14, 11 a.m. to 4 p.m., in Woonsocket, with raffles and a book swap.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=stadium-theatre-makers-market-woonsocket-2026",
-   "story": "stadium-theatre-makers-market-woonsocket-2026",
-   "town": "Woonsocket",
-   "date": "2026-11-09",
-   "rank": 8
-  },
-  {
-   "h": "Rusty Pens: A Weekly Writing Workshop for Jamestown Beginners",
-   "sum": "Mondays from Nov. 9 through Feb. 22, 10:30 to 11:30 a.m., in the Sydney Wright Room of the Jamestown Philomenian Library, 26 North Road, Jamestown.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=rusty-pens-writing-workshop-jamestown-2026",
-   "story": "rusty-pens-writing-workshop-jamestown-2026",
-   "town": "Jamestown",
-   "date": "2026-11-07",
-   "rank": 10
-  },
-  {
-   "h": "Everybody Chorus Welcomes Jamestown Singers of All Ages",
-   "sum": "An informal, all-ages singing hour meets at the Jamestown Recreation Center on Nov. 14.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=everybody-chorus-jamestown-2026",
-   "town": "Jamestown",
-   "date": "2026-11-08",
-   "rank": 10,
-   "story": "everybody-chorus-jamestown-2026"
   },
   {
    "h": "Vienna Boys Choir Brings Christmas to Cranston's Park Theatre",
@@ -329,16 +209,6 @@
    "rank": 3
   },
   {
-   "h": "Uncovering Napatree: A Geology Walk in Westerly, Nov. 14",
-   "sum": "Saturday, Nov. 14 from 9 to 10:30 a.m. at Napatree Point Conservation Area, Fort Road, Westerly; registration is required.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=napatree-geology-walk-westerly-2026",
-   "story": "napatree-geology-walk-westerly-2026",
-   "town": "Westerly",
-   "date": "2026-11-13",
-   "rank": 4
-  },
-  {
    "h": "Fly Tying Nights at Louttit Library in West Greenwich",
    "sum": "Thursdays from 6:30 to 8:30 p.m. through November and December at Louttit Library, West Greenwich; $5 per person per night.",
    "outlet": "Rhode Island Hurricane",
@@ -359,38 +229,6 @@
    "rank": 5
   },
   {
-   "h": "PPAC Unveils Its 2026-27 Broadway Season, Opening With Alicia Keys' Hell's Kitchen",
-   "sum": "Alicia Keys' Hell's Kitchen plays the Providence Performing Arts Center for six days in December.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
-   "story": "alicia-keys-hells-kitchen-ppac-2026",
-   "lead": true,
-   "town": "Providence",
-   "date": "2026-11-14",
-   "rank": 2
-  },
-  {
-   "h": "LeAnn Rimes Brings an Acoustic Night to Woonsocket Tonight",
-   "sum": "The Stadium Theatre hosts LeAnn Rimes at 8 p.m. Saturday, with tickets from $69 to $99.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=leann-rimes-acoustic-stadium-theatre-woonsocket-2026-11-14",
-   "story": "leann-rimes-acoustic-stadium-theatre-woonsocket-2026-11-14",
-   "box": true,
-   "town": "Woonsocket",
-   "date": "2026-11-14",
-   "rank": 2
-  },
-  {
-   "h": "Rhode Island Today and Tonight: LeAnn Rimes, Hodie and Almost, Maine",
-   "sum": "Saturday's best picks are LeAnn Rimes at the Stadium Theatre at 8 p.m., Hodie with the Chorus of Westerly at 6 p.m. and Almost, Maine in West Warwick at 7:30 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-14",
-   "story": "today-and-tonight-2026-11-14",
-   "town": "Statewide",
-   "date": "2026-11-14",
-   "rank": 1
-  },
-  {
    "h": "Contemporary Theater Company Brings A Christmas Carol to Wakefield",
    "sum": "Contemporary Theater Company stages A Christmas Carol in Wakefield on select dates through Dec. 20.",
    "outlet": "Rhode Island Hurricane",
@@ -398,6 +236,48 @@
    "story": "contemporary-theater-company-christmas-carol-wakefield-2026",
    "town": "Wakefield",
    "date": "2026-11-14",
+   "rank": 3
+  },
+  {
+   "h": "Alicia Keys' Hell's Kitchen Runs at PPAC Dec. 15 Through 20",
+   "sum": "Tuesday, Dec. 15 through Sunday, Dec. 20 at the Providence Performing Arts Center, 220 Weybosset Street, Providence, with evening and weekend matinee performances.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
+   "story": "alicia-keys-hells-kitchen-ppac-2026",
+   "lead": true,
+   "town": "Providence",
+   "date": "2026-11-15",
+   "rank": 2
+  },
+  {
+   "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
+   "sum": "The holiday show runs Tuesday, Nov. 24, through Sunday, Dec. 6, at the Providence Performing Arts Center, 220 Weybosset Street, Providence.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=cirque-twas-the-night-before-ppac-2026",
+   "story": "cirque-twas-the-night-before-ppac-2026",
+   "box": true,
+   "town": "Providence",
+   "date": "2026-11-15",
+   "rank": 2
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Birdie, Hodie and Motown",
+   "sum": "Bye Bye Birdie opens at 2 p.m. in Pawtucket, Hodie sings in Westerly at 3 p.m., and That Motown Band plays the Greenwich Odeum at 4 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-15",
+   "story": "today-and-tonight-2026-11-15",
+   "town": "Statewide",
+   "date": "2026-11-15",
+   "rank": 1
+  },
+  {
+   "h": "The Newport Nutcracker Returns to Rosecliff Mansion for Late November",
+   "sum": "Newport Contemporary Ballet dances its ballroom Nutcracker on Nov. 25, 27 and 28 at Rosecliff in Newport.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=newport-nutcracker-rosecliff-2026",
+   "story": "newport-nutcracker-rosecliff-2026",
+   "town": "Newport",
+   "date": "2026-11-15",
    "rank": 3
   }
  ]
