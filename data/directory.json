@@ -43,8 +43,7 @@
    ],
    "s": [
     [
-     "allnationsrevival.org",
-     ""
+     "allnationsrevival.org"
     ]
    ],
    "cl": false
@@ -827,8 +826,7 @@
    ],
    "s": [
     [
-     "centerofpraisecog.org",
-     ""
+     "centerofpraisecog.org"
     ]
    ],
    "cl": false
@@ -909,8 +907,7 @@
    ],
    "s": [
     [
-     "jewishbarrington.com",
-     ""
+     "jewishbarrington.com"
     ]
    ],
    "cl": false
@@ -2851,8 +2848,7 @@
    ],
    "s": [
     [
-     "hopkintonsdb.org",
-     ""
+     "hopkintonsdb.org"
     ]
    ],
    "cl": false
@@ -6295,8 +6291,7 @@
    ],
    "s": [
     [
-     "prcofri.com",
-     ""
+     "prcofri.com"
     ]
    ],
    "cl": false
@@ -6408,8 +6403,7 @@
    ],
    "s": [
     [
-     "psdac7.com",
-     ""
+     "psdac7.com"
     ]
    ],
    "cl": false
@@ -8546,8 +8540,7 @@
    ],
    "s": [
     [
-     "angelfire.com",
-     ""
+     "angelfire.com"
     ]
    ],
    "cl": false
@@ -9741,8 +9734,7 @@
    "nt": [],
    "s": [
     [
-     "stmarthaschurch.com",
-     ""
+     "stmarthaschurch.com"
     ]
    ],
    "cl": false
@@ -10391,8 +10383,7 @@
    ],
    "s": [
     [
-     "sstrri.com",
-     ""
+     "sstrri.com"
     ]
    ],
    "cl": false
@@ -11272,7 +11263,7 @@
    "i": "005"
   },
   {
-   "n": "Providence Performing Arts Center (PPAC)",
+   "n": "PPAC",
    "c": "Entertainment venues",
    "a": "Providence",
    "p": "",
@@ -12692,19 +12683,6 @@
    "i": "049"
   },
   {
-   "n": "Jamestown Arts Center",
-   "c": "Entertainment venues",
-   "a": "Jamestown",
-   "p": "",
-   "e": "",
-   "w": "https://www.jamestownartcenter.org/events",
-   "wl": "Website",
-   "b": "Live music, dance, poetry, artist talks, and special screenings.",
-   "nt": [],
-   "s": [],
-   "i": "050"
-  },
-  {
    "n": "Newport Blues Café",
    "c": "Entertainment venues",
    "a": "Newport",
@@ -12926,7 +12904,7 @@
    "i": "067"
   },
   {
-   "n": "Four Corners Arts Center",
+   "n": "Tiverton Four Corners",
    "c": "Entertainment venues",
    "a": "Tiverton",
    "p": "",

@@ -25,7 +25,7 @@
      "end": "2026-12-06",
      "when": "Nov 24–Dec 6",
      "time": "Several times",
-     "where": "Providence Performing Arts Center",
+     "where": "PPAC",
      "town": "Providence",
      "url": "https://www.ppacri.org/events/detail/twas-the-night-before-by-cirque-du-soleil",
      "note": "Acrobatics, dance and Christmas music bring a familiar holiday poem to the stage when Cirque du Soleil presents ’Twas the Night Before… at PPAC in Providence. The family production combines its Christmas characters and story with the company’s physical performance style, offering a holiday outing built around movement and spectacle. PPAC advertises a family-ticket offer involving a child age 18 or younger and a regularly priced ticket; check the box office for the current terms and available seats.",
@@ -59,7 +59,7 @@
      "end": "2026-12-13",
      "when": "Sun, Dec 13",
      "time": "3 and 7 PM",
-     "where": "Providence Performing Arts Center",
+     "where": "PPAC",
      "town": "Providence",
      "url": "https://ppac.evenue.net/events/POPS",
      "note": "Keith Lockhart and the Boston Pops bring their holiday concert to PPAC in Providence, with a program that includes “Sleigh Ride,” seasonal arrangements and a sing-along. A visit from Santa is part of the festivities, giving the orchestral concert a family element alongside its music. There are afternoon and evening performances on the same day, so check the selected showtime carefully when reserving seats through PPAC.",
@@ -762,10 +762,10 @@
      "end": "2026-11-22",
      "when": "Nov 21–22",
      "time": "11 AM–5 PM",
-     "where": "WaterFire Arts Center",
+     "where": "WaterFire Providence",
      "town": "Providence",
      "url": "https://events.humanitix.com/thegoodtradepvd26",
-     "note": "The Good Trade Makers Market returns to WaterFire Arts Center in Providence, bringing independent makers together for its sixth year. The description says about half of the participating businesses are Rhode Island-based, connecting the wider market with local shopping. Visitors can browse handmade work and meet the people behind it rather than choosing from a single retailer’s stock. Check the organizer’s page for hours, admission and the full participant list.",
+     "note": "The Good Trade Makers Market returns to WaterFire Providence in Providence, bringing independent makers together for its sixth year. The description says about half of the participating businesses are Rhode Island-based, connecting the wider market with local shopping. Visitors can browse handmade work and meet the people behind it rather than choosing from a single retailer’s stock. Check the organizer’s page for hours, admission and the full participant list.",
      "addr": "475 Valley St., Providence"
     },
     {
@@ -1023,18 +1023,6 @@
      "note": "A lighted procession brings music and movement through downtown Providence on December 4 at 6:00 p.m, when Illuminate PVD’s Holiday Stroll heads toward the Downcity Holiday Market. The Providence Drum Troupe and pop-up performers lead the route from the Biltmore Park and Providence Rink area toward Grant’s Block Park. The walk connects the festival’s downtown gathering places, allowing visitors to follow the procession and continue into the market’s food, makers and seasonal activities."
     },
     {
-     "t": "Jamestown Holiday Arts Market Pre-Party",
-     "start": "2026-12-04",
-     "end": "2026-12-04",
-     "when": "Fri, Dec 4",
-     "time": "5:30–7:30 PM",
-     "where": "Jamestown Arts Center",
-     "town": "Jamestown",
-     "url": "",
-     "note": "An advance shopping evening before the main market.",
-     "addr": ""
-    },
-    {
      "t": "Mistletoe Madness",
      "start": "2026-12-04",
      "end": "2026-12-04",
@@ -1109,23 +1097,11 @@
      "end": "2026-12-06",
      "when": "Dec 5–6",
      "time": "",
-     "where": "WaterFire Arts Center",
+     "where": "WaterFire Providence",
      "town": "Providence",
      "url": "https://waterfire.org/events/intentional-celebration/",
-     "note": "The Intentional Celebration: Holiday Edition brings an indoor makers market and seasonal activities to WaterFire Arts Center in Providence. The program includes local makers, food trucks, music, children’s activities and Santa, combining shopping with a family outing. A separate VIP early-access hour is also advertised. Check the organizer’s booking page for general-entry hours, the VIP option and the day’s activity schedule before selecting tickets.",
+     "note": "The Intentional Celebration: Holiday Edition brings an indoor makers market and seasonal activities to WaterFire Providence in Providence. The program includes local makers, food trucks, music, children’s activities and Santa, combining shopping with a family outing. A separate VIP early-access hour is also advertised. Check the organizer’s booking page for general-entry hours, the VIP option and the day’s activity schedule before selecting tickets.",
      "addr": "475 Valley St., Providence"
-    },
-    {
-     "t": "Jamestown Holiday Arts Market",
-     "start": "2026-12-05",
-     "end": "2026-12-05",
-     "when": "Sat, Dec 5",
-     "time": "10 AM–4 PM",
-     "where": "Jamestown Arts Center",
-     "town": "Jamestown",
-     "url": "",
-     "note": "Holiday shopping from local makers.",
-     "addr": ""
     },
     {
      "t": "Christmas at Whitehall",
