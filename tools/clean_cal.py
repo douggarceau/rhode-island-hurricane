@@ -2,12 +2,17 @@
 - Merges the same event listed twice by two sources (same date, same start time,
   same or blank venue, very similar title). Keeps the organizer's own listing and
   fills any blank fields from the other copy.
+- Drops listings with no source link (placeholder text instead of a URL).
 - Turns placeholder times like "unknown" into "" (unknown stays unknown).
 - Files rehearsals under "community" so they do not count as concerts.
 Run: python3 tools/clean_cal.py   (prints what it merged)"""
 import json,re,difflib,sys
 P='data/cal.json'
 d=json.load(open(P));E=d['events']
+# Every listing needs a traceable source (owner rule): drop any without a real link
+# (placeholders like 'Not published / not captured' or 'See official event page').
+_n=len(E);E=[e for e in E if str(e.get('url') or e.get('source_url') or '').startswith(('http://','https://'))]
+if len(E)!=_n:print('dropped',_n-len(E),'listings with no source link')
 GENERIC={'Jamestown Public Calendar','jamestownri.gov',''}
 VSTOP=r"\b(saint|st|the|church|catholic|episcopal|chapel|parish|of|at|hall|center|centre)\b"
 def vnorm(v):
