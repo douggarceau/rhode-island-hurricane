@@ -469,6 +469,8 @@ article.reader>.rart .rart-p{display:flex;flex-direction:column;align-items:cent
 .os .os-t{flex:1;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;padding:6px 14px 0;font:700 19px/1.15 Georgia,"Times New Roman",serif;color:#0A1428;letter-spacing:-.005em;align-self:stretch}
 .ep.os.os-img .os-t{padding-top:2px}
 .os .os-t.sm{font-size:16px}
+/* text masthead (no masthead image): only ~62px left for the headline, so size it to fit three full lines */
+.ep.os:not(.os-img) .os-t{font-size:16px;line-height:1.12}.ep.os:not(.os-img) .os-t.sm{font-size:14.5px}
 .os .os-go{padding:0 14px 9px;font:800 9px/1 "Helvetica Neue",Arial,sans-serif;letter-spacing:.18em;text-transform:uppercase;color:#B5123A}
 .lspot.evp:hover .ep.os{filter:brightness(1.04)}
 @media (prefers-reduced-motion:reduce){.lsrow .lspot.evp:has(.os){animation:none}}
