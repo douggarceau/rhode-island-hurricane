@@ -1009,6 +1009,180 @@
      "https://apply.workable.com/pavago/j/2D074B21D3/"
     ]
    ]
+  },
+  {
+   "date": "2026-11-16",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Workday: posting removed",
+   "item": [
+    "CVS Health",
+    "Lead Solutions Architect - HR Technology & AI",
+    "3",
+    "Applied AI / customer solutions",
+    "AZ - Scottsdale; Work At Home-Idaho; Work At Home-Arkansas; Work At Home-Texas; Work At Home-Georgia; Work At Home-Montana; Work At Home-Iowa; Work At Home-Oregon; Work At Home-Wisconsin; Work At Home-Washington; Work At Home-New York; RI - Woonsocket; Work At Home-District of Columbia; Work At Home-Connecticut; Work At Home-Nebraska; Work At Home-Rhode Island; Work At Home-Kentucky; Work At Home-Tennessee; Work At Home-Ohio; Work At Home-West Virginia; Work At Home-Massachusetts; Work At Home-Maryland; Work At Home-South Carolina; Work At Home-Missouri; Work At Home - Utah; Work At Home-Arizona; Work At Home-South Dakota; Work At Home-Pennsylvania; Work At Home-New Hampshire; Work At Home-Vermont; Work At Home-Minnesota; Work At Home-New Mexico; Work At Home-Michigan; Work At Home-California; Work At Home-Maine; Work At Home-North Dakota; Work At Home-Kansas; Work At Home-New Jersey; Work At Home-Indiana; Work At Home-Nevada; Work At Home-Louisiana; Work At Home-Mississippi; Work At Home-Oklahoma; TX - Richardson; Work At Home-Alabama; Work At Home-Virginia; Work At Home-Illinois; Work At Home-North Carolina; Work At Home-Florida; Work At Home-Colorado; Work At Home-Wyoming; Work At Home-Delaware",
+    0,
+    "Remote / office options; inspect source",
+    "Role posting",
+    "$106,605.00 - $284,280.00",
+    "10+ years' hands-on experience with Software design and development",
+    "2026-11-16",
+    "2026-11-02",
+    "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/AZ---Scottsdale/Lead-Solutions-Architect---HR-Technology---AI_R1080513",
+    "",
+    "Full time"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "ElevenLabs",
+    "Full-Stack Engineer (Backend Leaning) - Payments Engineering",
+    "U",
+    "AI software / engineering",
+    "Remote; Ireland; Europe; United States; Poland; United Kingdom",
+    2,
+    "Remote",
+    "Role posting",
+    "",
+    "Employer seniority not established; do not label entry-level",
+    "",
+    "2026-11-02T19:36:35.946+00:00",
+    "https://jobs.ashbyhq.com/ElevenLabs/e4e0450f-d139-4f8e-b210-2f326a680d90/application",
+    "",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "ElevenLabs",
+    "Full-Stack Engineer (Backend Leaning) - Platform Engineering",
+    "U",
+    "AI infrastructure / MLOps",
+    "Remote; Ireland; Europe; United States; Poland; United Kingdom",
+    2,
+    "Remote",
+    "Role posting",
+    "",
+    "Employer seniority not established; do not label entry-level",
+    "",
+    "2026-11-02T19:36:14.051+00:00",
+    "https://jobs.ashbyhq.com/ElevenLabs/ce3d5a59-fb8c-482b-bc3f-60e44576c5e0/application",
+    "",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Twilio",
+    "Sales Development Representative",
+    4,
+    "1+ year experience stated",
+    "Sales & business development",
+    "Remote - Ireland; Remote - US",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.",
+    "https://job-boards.greenhouse.io/twilio/jobs/8261528",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/twilio/jobs/8261528",
+     "https://job-boards.greenhouse.io/twilio/jobs/8347887"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Lever: posting removed",
+   "item": [
+    "RWS TrainAI",
+    "Search Engine Evaluator - Arabic (Egypt)",
+    0,
+    "No prior experience required",
+    "AI training & data evaluation",
+    "Cairo",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Temporary/Contract",
+    "",
+    "Country/language-specific project; task volume and working hours are not guaranteed.; License or certification mentioned; check mandatory requirements; Contract / freelance wording in posting; confirm engagement terms",
+    "https://jobs.lever.co/rws/35ba33af-f24a-48de-afe8-cb10637f3433",
+    0,
+    "Not published / not normalized",
+    [
+     "https://jobs.lever.co/rws/35ba33af-f24a-48de-afe8-cb10637f3433"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Samsara",
+    "Account Development Representative - Canada",
+    4,
+    "6-12 months experience stated",
+    "Administration, data entry & operations",
+    "Remote - Quebec",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "$65,450 — $84,700 per year",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Assessment / qualification screening mentioned; Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://www.samsara.com/company/careers/roles/8207928?gh_jid=8207928",
+    0,
+    "Not published / not normalized",
+    [
+     "https://www.samsara.com/company/careers/roles/8207928?gh_jid=8207928"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Samsara",
+    "Account Executive, Commercial - Mexico",
+    4,
+    "1+ years experience stated",
+    "Sales & business development",
+    "Remote - Mexico",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.",
+    "https://www.samsara.com/company/careers/roles/7516554?gh_jid=7516554",
+    0,
+    "Not published / not normalized",
+    [
+     "https://www.samsara.com/company/careers/roles/7516554?gh_jid=7516554"
+    ]
+   ]
   }
  ]
 }
