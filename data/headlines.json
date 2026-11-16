@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-15T07:30:00-05:00",
+ "asof": "2026-11-16T07:30:00-05:00",
  "items": [
   {
    "h": "Newport Art Museum Hosts a Collage Workshop and a Printmaking Demo",
@@ -32,16 +32,6 @@
    "rank": 5
   },
   {
-   "h": "Gamm Stages Arthur Miller's A View From the Bridge This November",
-   "sum": "This November at the Gamm Theatre in Warwick, with dates and curtain times listed on the theatre's season page.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=gamm-view-from-the-bridge-2026",
-   "town": "Warwick",
-   "date": "2026-11-08",
-   "rank": 3,
-   "story": "gamm-view-from-the-bridge-2026"
-  },
-  {
    "h": "Museum Reads Turns to Paul Gauguin in Newport",
    "sum": "Thursday, Nov. 19 at noon, in person at the museum or on Zoom.",
    "outlet": "Rhode Island Hurricane",
@@ -50,26 +40,6 @@
    "town": "Newport",
    "date": "2026-11-09",
    "rank": 3
-  },
-  {
-   "h": "The Nutcracker Dances Into Woonsocket's Stadium Theatre",
-   "sum": "Heritage Ballet performs three matinee and evening shows Nov. 28 and 29.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=heritage-ballet-nutcracker-stadium-woonsocket-2026",
-   "story": "heritage-ballet-nutcracker-stadium-woonsocket-2026",
-   "town": "Woonsocket",
-   "date": "2026-11-08",
-   "rank": 5
-  },
-  {
-   "h": "Bye Bye Birdie Opens the Community Players' Season",
-   "sum": "The Pawtucket theatre group stages the 1960 musical at Jenks Auditorium, Nov. 13 to 22.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=bye-bye-birdie-community-players-pawtucket-2026",
-   "story": "bye-bye-birdie-community-players-pawtucket-2026",
-   "town": "Pawtucket",
-   "date": "2026-11-08",
-   "rank": 5
   },
   {
    "h": "Jazz students play Ellington at the Greenwich Odeum",
@@ -140,25 +110,6 @@
    "rank": 3
   },
   {
-   "h": "National Black Storytelling Festival Wraps Up in Warwick",
-   "sum": "The 44th annual festival returned to Rhode Island for the first time in 23 years, with performances, workshops and youth programs.",
-   "outlet": "NBC 10",
-   "url": "https://turnto10.com/newsletter-daily/national-black-storytelling-festival-wraps-up-in-rhode-island-44th-annual-festival-and-conference-performances-workships-and-youth-programming-nov-8-2026",
-   "town": "Warwick",
-   "date": "2026-11-08",
-   "rank": 3
-  },
-  {
-   "h": "John Crist Live Sunday Night at The VETS in Providence",
-   "sum": "Sunday, Nov. 15 at 7 p.m. at The VETS in Providence, comedian John Crist brings his stand-up and viral sketch comedy tour, with doors at 6 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=john-crist-live-the-vets-sunday-2026",
-   "story": "john-crist-live-the-vets-sunday-2026",
-   "town": "Providence",
-   "date": "2026-11-12",
-   "rank": 2
-  },
-  {
    "h": "Unfurling: Newport Art Museum Previews Its 2027 Art Cup Sails",
    "sum": "Through Dec. 31 at Griswold House, 76 Bellevue Ave., Newport, Monday, Wednesday through Saturday and Sunday from 11 a.m. to 4 p.m.",
    "outlet": "Rhode Island Hurricane",
@@ -177,16 +128,6 @@
    "town": "Newport",
    "date": "2026-11-12",
    "rank": 3
-  },
-  {
-   "h": "Youth and adult bands share a concert in North Scituate",
-   "sum": "Generations United pairs the RI Philharmonic Music School's youth wind ensembles with the adult RI Wind Ensemble on Friday, Nov. 15.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=generations-united-scituate-wind-bands-2026",
-   "story": "generations-united-scituate-wind-bands-2026",
-   "town": "North Scituate",
-   "date": "2026-11-12",
-   "rank": 5
   },
   {
    "h": "Sparkling Lights returns to The Breakers in Newport",
@@ -254,10 +195,10 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
    "story": "alicia-keys-hells-kitchen-ppac-2026",
-   "lead": true,
    "town": "Providence",
-   "date": "2026-11-15",
-   "rank": 2
+   "date": "2026-11-16",
+   "rank": 2,
+   "lead": true
   },
   {
    "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
@@ -265,20 +206,10 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=cirque-twas-the-night-before-ppac-2026",
    "story": "cirque-twas-the-night-before-ppac-2026",
-   "box": true,
    "town": "Providence",
-   "date": "2026-11-15",
-   "rank": 2
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Birdie, Hodie and Motown",
-   "sum": "Bye Bye Birdie opens at 2 p.m. in Pawtucket, Hodie sings in Westerly at 3 p.m., and That Motown Band plays the Greenwich Odeum at 4 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-15",
-   "story": "today-and-tonight-2026-11-15",
-   "town": "Statewide",
-   "date": "2026-11-15",
-   "rank": 1
+   "date": "2026-11-16",
+   "rank": 2,
+   "box": true
   },
   {
    "h": "The Newport Nutcracker Returns to Rosecliff Mansion for Late November",
@@ -289,6 +220,26 @@
    "town": "Newport",
    "date": "2026-11-15",
    "rank": 3
+  },
+  {
+   "h": "Warwick Symphony Orchestra Marks 60 Years With a Holiday Celebration",
+   "sum": "A Dec. 13 Diamond Jubilee concert in North Kingstown, with recorder soloist Michael Raymond.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=warwick-symphony-diamond-jubilee-holiday-2026",
+   "story": "warwick-symphony-diamond-jubilee-holiday-2026",
+   "town": "North Kingstown",
+   "date": "2026-11-16",
+   "rank": 3
+  },
+  {
+   "h": "The Chorus of Westerly Brings Its Christmas Pops to George Kent Hall",
+   "sum": "Holiday favorites, new and old, on Sunday, Dec. 20, at 5:30 p.m. in Westerly.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=chorus-of-westerly-christmas-pops-2026",
+   "story": "chorus-of-westerly-christmas-pops-2026",
+   "town": "Westerly",
+   "date": "2026-11-16",
+   "rank": 4
   }
  ]
 }
