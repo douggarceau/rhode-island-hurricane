@@ -1,6 +1,128 @@
 {
- "asof": "2026-11-16T07:30:00-05:00",
+ "asof": "2026-11-17T07:30:00-05:00",
  "items": [
+  {
+   "h": "Alicia Keys' Hell's Kitchen Runs at PPAC Dec. 15 Through 20",
+   "sum": "Tuesday, Dec. 15 through Sunday, Dec. 20 at PPAC, 220 Weybosset Street, Providence, with evening and weekend matinee performances.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
+   "story": "alicia-keys-hells-kitchen-ppac-2026",
+   "town": "Providence",
+   "date": "2026-11-17",
+   "rank": 2,
+   "lead": true
+  },
+  {
+   "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
+   "sum": "The holiday show runs Tuesday, Nov. 24, through Sunday, Dec. 6, at PPAC, 220 Weybosset Street, Providence.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=cirque-twas-the-night-before-ppac-2026",
+   "story": "cirque-twas-the-night-before-ppac-2026",
+   "town": "Providence",
+   "date": "2026-11-17",
+   "rank": 2,
+   "box": true
+  },
+  {
+   "h": "Vienna Boys Choir Brings Christmas to Cranston's Park Theatre",
+   "sum": "Saturday, Dec. 5 at 7:30 p.m. at the Historic Park Theatre, 848 Park Avenue in Cranston, with resale tickets listed from $114.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
+   "story": "vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
+   "town": "Cranston",
+   "date": "2026-11-11",
+   "rank": 3
+  },
+  {
+   "h": "Gallery Night Providence Throws Open Its Doors on Nov. 19",
+   "sum": "Thursday, Nov. 19 from 5 to 8 p.m., with galleries across Providence hosting openings and visits, starting with the RISD Museum at 20 North Main Street.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=gallery-night-providence-november-2026",
+   "story": "gallery-night-providence-november-2026",
+   "town": "Providence",
+   "date": "2026-11-11",
+   "rank": 3
+  },
+  {
+   "h": "Unfurling: Newport Art Museum Previews Its 2027 Art Cup Sails",
+   "sum": "Through Dec. 31 at Griswold House, 76 Bellevue Ave., Newport, Monday, Wednesday through Saturday and Sunday from 11 a.m. to 4 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=newport-art-museum-unfurling-art-cup-2026",
+   "story": "newport-art-museum-unfurling-art-cup-2026",
+   "town": "Newport",
+   "date": "2026-11-12",
+   "rank": 3
+  },
+  {
+   "h": "Classical Christmas With Frisson Plays Emmanuel Church in Newport",
+   "sum": "Saturday, Dec. 12 at 1:00 and 3:30 p.m., Emmanuel Church, 42 Dearborn St., Newport.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=classical-christmas-frisson-newport-2026",
+   "story": "classical-christmas-frisson-newport-2026",
+   "town": "Newport",
+   "date": "2026-11-12",
+   "rank": 3
+  },
+  {
+   "h": "Handel's Messiah at Rosecliff Mansion in Newport, Dec. 6",
+   "sum": "Sunday, Dec. 6 at 1 p.m. and 3:30 p.m. at Rosecliff Mansion, 548 Bellevue Avenue, Newport; doors open at 12:30 p.m.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=messiah-at-the-mansion-rosecliff-newport-2026",
+   "story": "messiah-at-the-mansion-rosecliff-newport-2026",
+   "town": "Newport",
+   "date": "2026-11-13",
+   "rank": 3
+  },
+  {
+   "h": "Contemporary Theater Company Brings A Christmas Carol to Wakefield",
+   "sum": "Contemporary Theater Company stages A Christmas Carol in Wakefield on select dates through Dec. 20.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=contemporary-theater-company-christmas-carol-wakefield-2026",
+   "story": "contemporary-theater-company-christmas-carol-wakefield-2026",
+   "town": "Wakefield",
+   "date": "2026-11-14",
+   "rank": 3
+  },
+  {
+   "h": "The Newport Nutcracker Returns to Rosecliff Mansion for Late November",
+   "sum": "Newport Contemporary Ballet dances its ballroom Nutcracker on Nov. 25, 27 and 28 at Rosecliff in Newport.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=newport-nutcracker-rosecliff-2026",
+   "story": "newport-nutcracker-rosecliff-2026",
+   "town": "Newport",
+   "date": "2026-11-15",
+   "rank": 3
+  },
+  {
+   "h": "Warwick Symphony Orchestra Marks 60 Years With a Holiday Celebration",
+   "sum": "A Dec. 13 Diamond Jubilee concert in North Kingstown, with recorder soloist Michael Raymond.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=warwick-symphony-diamond-jubilee-holiday-2026",
+   "story": "warwick-symphony-diamond-jubilee-holiday-2026",
+   "town": "North Kingstown",
+   "date": "2026-11-16",
+   "rank": 3
+  },
+  {
+   "h": "The Chorus of Westerly Brings Its Christmas Pops to George Kent Hall",
+   "sum": "Holiday favorites, new and old, on Sunday, Dec. 20, at 5:30 p.m. in Westerly.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=chorus-of-westerly-christmas-pops-2026",
+   "story": "chorus-of-westerly-christmas-pops-2026",
+   "town": "Westerly",
+   "date": "2026-11-16",
+   "rank": 4
+  },
+  {
+   "h": "Warren's Holiday Festival Lights Up Main Street on Nov. 27",
+   "sum": "A town-wide Friday of holiday events in downtown Warren, ending with the Main Street tree lighting.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=warren-holiday-festival-friday-2026",
+   "story": "warren-holiday-festival-friday-2026",
+   "town": "Warren",
+   "date": "2026-11-17",
+   "rank": 4
+  },
   {
    "h": "Cushing's Rediscovered Paintings Go on View in Newport",
    "sum": "Newport Art Museum reunites paintings by Howard Gardiner Cushing in a gallery show that runs through 2027.",
@@ -72,104 +194,6 @@
    "rank": 5
   },
   {
-   "h": "Museum Reads Turns to Paul Gauguin in Newport",
-   "sum": "Thursday, Nov. 19 at noon, in person at the museum or on Zoom.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=museum-reads-gauguin-newport-art-museum-2026",
-   "story": "museum-reads-gauguin-newport-art-museum-2026",
-   "town": "Newport",
-   "date": "2026-11-09",
-   "rank": 3
-  },
-  {
-   "h": "Jazz students play Ellington at the Greenwich Odeum",
-   "sum": "The East Greenwich High School Jazz Ensemble performs Duke Ellington and Billy Strayhorn on Wednesday, Nov. 18, with no charge admission.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=such-sweet-thunder-east-greenwich-odeum-2026",
-   "story": "such-sweet-thunder-east-greenwich-odeum-2026",
-   "town": "East Greenwich",
-   "date": "2026-11-09",
-   "rank": 5
-  },
-  {
-   "h": "A holiday pageant takes the stage in Westerly",
-   "sum": "The Best Christmas Pageant Ever runs daily at the Granite Theatre from Nov. 27 through Dec. 20.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=best-christmas-pageant-ever-granite-theatre-westerly-2026",
-   "story": "best-christmas-pageant-ever-granite-theatre-westerly-2026",
-   "town": "Westerly",
-   "date": "2026-11-09",
-   "rank": 5
-  },
-  {
-   "h": "Jamestown Community Theatre Opens Merrily We Roll Along",
-   "sum": "Performances Nov. 19 through 22, with a Sondheim musical told in reverse.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=merrily-we-roll-along-jamestown-community-theatre-2026",
-   "story": "merrily-we-roll-along-jamestown-community-theatre-2026",
-   "town": "Jamestown",
-   "date": "2026-11-09",
-   "rank": 6
-  },
-  {
-   "h": "Bill Jacklin Leads a Printmaking Demonstration at Newport Art Museum",
-   "sum": "A lecture and demonstration on printmaking from 10 a.m. to 1 p.m. on Sunday, Nov. 22.",
-   "outlet": "Newport Art Museum",
-   "url": "https://newportartmuseum.org/classes/monotype-printing-demo-with-bill-jacklin/",
-   "town": "Newport",
-   "date": "2026-11-10",
-   "rank": 6
-  },
-  {
-   "h": "Leland Baker Jazz Trio Performs at the RISD Museum on Nov. 19",
-   "sum": "A live jazz performance from 6:30 to 7:30 p.m. on Thursday, Nov. 19.",
-   "outlet": "RISD Museum",
-   "url": "https://risdmuseum.org/exhibitions-events/events/leland-baker-jazz-trio",
-   "town": "Providence",
-   "date": "2026-11-10",
-   "rank": 7
-  },
-  {
-   "h": "Vienna Boys Choir Brings Christmas to Cranston's Park Theatre",
-   "sum": "Saturday, Dec. 5 at 7:30 p.m. at the Historic Park Theatre, 848 Park Avenue in Cranston, with resale tickets listed from $114.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
-   "story": "vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
-   "town": "Cranston",
-   "date": "2026-11-11",
-   "rank": 3
-  },
-  {
-   "h": "Gallery Night Providence Throws Open Its Doors on Nov. 19",
-   "sum": "Thursday, Nov. 19 from 5 to 8 p.m., with galleries across Providence hosting openings and visits, starting with the RISD Museum at 20 North Main Street.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=gallery-night-providence-november-2026",
-   "story": "gallery-night-providence-november-2026",
-   "town": "Providence",
-   "date": "2026-11-11",
-   "rank": 3
-  },
-  {
-   "h": "Unfurling: Newport Art Museum Previews Its 2027 Art Cup Sails",
-   "sum": "Through Dec. 31 at Griswold House, 76 Bellevue Ave., Newport, Monday, Wednesday through Saturday and Sunday from 11 a.m. to 4 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=newport-art-museum-unfurling-art-cup-2026",
-   "story": "newport-art-museum-unfurling-art-cup-2026",
-   "town": "Newport",
-   "date": "2026-11-12",
-   "rank": 3
-  },
-  {
-   "h": "Classical Christmas With Frisson Plays Emmanuel Church in Newport",
-   "sum": "Saturday, Dec. 12 at 1:00 and 3:30 p.m., Emmanuel Church, 42 Dearborn St., Newport.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=classical-christmas-frisson-newport-2026",
-   "story": "classical-christmas-frisson-newport-2026",
-   "town": "Newport",
-   "date": "2026-11-12",
-   "rank": 3
-  },
-  {
    "h": "Sparkling Lights returns to The Breakers in Newport",
    "sum": "Timed evening entries run on selected dates from Nov. 21 through Dec. 27, with interior mansion access included.",
    "outlet": "Rhode Island Hurricane",
@@ -178,36 +202,6 @@
    "town": "Newport",
    "date": "2026-11-12",
    "rank": 5
-  },
-  {
-   "h": "Trinity Rep Marks 50 Years of A Christmas Carol",
-   "sum": "The Providence company's golden-anniversary production, directed by Taavon Gamble, plays Nov. 5 through Dec. 31 in the Dowling Theater.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-dowling-2026",
-   "story": "trinity-rep-christmas-carol-50th-dowling-2026",
-   "town": "Providence",
-   "date": "2026-11-13",
-   "rank": 2
-  },
-  {
-   "h": "Handel's Messiah at Rosecliff Mansion in Newport, Dec. 6",
-   "sum": "Sunday, Dec. 6 at 1 p.m. and 3:30 p.m. at Rosecliff Mansion, 548 Bellevue Avenue, Newport; doors open at 12:30 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=messiah-at-the-mansion-rosecliff-newport-2026",
-   "story": "messiah-at-the-mansion-rosecliff-newport-2026",
-   "town": "Newport",
-   "date": "2026-11-13",
-   "rank": 3
-  },
-  {
-   "h": "Fly Tying Nights at Louttit Library in West Greenwich",
-   "sum": "Thursdays from 6:30 to 8:30 p.m. through November and December at Louttit Library, West Greenwich; $5 per person per night.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=fly-tying-nights-louttit-library-west-greenwich-2026",
-   "story": "fly-tying-nights-louttit-library-west-greenwich-2026",
-   "town": "West Greenwich",
-   "date": "2026-11-13",
-   "rank": 6
   },
   {
    "h": "Boston Pops Holiday Concert Comes to PPAC on Dec. 13",
@@ -220,66 +214,42 @@
    "rank": 5
   },
   {
-   "h": "Contemporary Theater Company Brings A Christmas Carol to Wakefield",
-   "sum": "Contemporary Theater Company stages A Christmas Carol in Wakefield on select dates through Dec. 20.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=contemporary-theater-company-christmas-carol-wakefield-2026",
-   "story": "contemporary-theater-company-christmas-carol-wakefield-2026",
-   "town": "Wakefield",
-   "date": "2026-11-14",
-   "rank": 3
-  },
-  {
-   "h": "Alicia Keys' Hell's Kitchen Runs at PPAC Dec. 15 Through 20",
-   "sum": "Tuesday, Dec. 15 through Sunday, Dec. 20 at PPAC, 220 Weybosset Street, Providence, with evening and weekend matinee performances.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
-   "story": "alicia-keys-hells-kitchen-ppac-2026",
-   "town": "Providence",
-   "date": "2026-11-16",
-   "rank": 2,
-   "lead": true
-  },
-  {
-   "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
-   "sum": "The holiday show runs Tuesday, Nov. 24, through Sunday, Dec. 6, at PPAC, 220 Weybosset Street, Providence.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=cirque-twas-the-night-before-ppac-2026",
-   "story": "cirque-twas-the-night-before-ppac-2026",
-   "town": "Providence",
-   "date": "2026-11-16",
-   "rank": 2,
-   "box": true
-  },
-  {
-   "h": "The Newport Nutcracker Returns to Rosecliff Mansion for Late November",
-   "sum": "Newport Contemporary Ballet dances its ballroom Nutcracker on Nov. 25, 27 and 28 at Rosecliff in Newport.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=newport-nutcracker-rosecliff-2026",
-   "story": "newport-nutcracker-rosecliff-2026",
+   "h": "Bill Jacklin Leads a Printmaking Demonstration at Newport Art Museum",
+   "sum": "A lecture and demonstration on printmaking from 10 a.m. to 1 p.m. on Sunday, Nov. 22.",
+   "outlet": "Newport Art Museum",
+   "url": "https://newportartmuseum.org/classes/monotype-printing-demo-with-bill-jacklin/",
    "town": "Newport",
-   "date": "2026-11-15",
-   "rank": 3
+   "date": "2026-11-10",
+   "rank": 6
   },
   {
-   "h": "Warwick Symphony Orchestra Marks 60 Years With a Holiday Celebration",
-   "sum": "A Dec. 13 Diamond Jubilee concert in North Kingstown, with recorder soloist Michael Raymond.",
+   "h": "Fly Tying Nights at Louttit Library in West Greenwich",
+   "sum": "Thursdays from 6:30 to 8:30 p.m. through November and December at Louttit Library, West Greenwich; $5 per person per night.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=warwick-symphony-diamond-jubilee-holiday-2026",
-   "story": "warwick-symphony-diamond-jubilee-holiday-2026",
-   "town": "North Kingstown",
-   "date": "2026-11-16",
-   "rank": 3
+   "url": "?story=fly-tying-nights-louttit-library-west-greenwich-2026",
+   "story": "fly-tying-nights-louttit-library-west-greenwich-2026",
+   "town": "West Greenwich",
+   "date": "2026-11-13",
+   "rank": 6
   },
   {
-   "h": "The Chorus of Westerly Brings Its Christmas Pops to George Kent Hall",
-   "sum": "Holiday favorites, new and old, on Sunday, Dec. 20, at 5:30 p.m. in Westerly.",
+   "h": "Ocean State Artisans' Holiday Market Opens in Wakefield",
+   "sum": "Handmade goods and a food drive at South Kingstown High School on Nov. 27 and 28.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=chorus-of-westerly-christmas-pops-2026",
-   "story": "chorus-of-westerly-christmas-pops-2026",
-   "town": "Westerly",
-   "date": "2026-11-16",
-   "rank": 4
+   "url": "?story=ocean-state-artisans-holiday-market-2026",
+   "story": "ocean-state-artisans-holiday-market-2026",
+   "town": "Wakefield",
+   "date": "2026-11-17",
+   "rank": 6
+  },
+  {
+   "h": "Leland Baker Jazz Trio Performs at the RISD Museum on Nov. 19",
+   "sum": "A live jazz performance from 6:30 to 7:30 p.m. on Thursday, Nov. 19.",
+   "outlet": "RISD Museum",
+   "url": "https://risdmuseum.org/exhibitions-events/events/leland-baker-jazz-trio",
+   "town": "Providence",
+   "date": "2026-11-10",
+   "rank": 7
   }
  ]
 }
