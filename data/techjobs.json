@@ -122,21 +122,6 @@
    "status": "verified"
   },
   {
-   "rank": 9,
-   "employer": "General Dynamics Mission Systems",
-   "title": "Software Engineer – Entry Level",
-   "location": "Middletown",
-   "experience": "Graduate entry level; substantial programming skills required",
-   "pay": "Employer range $77,843–$86,358/year",
-   "education": "Bachelor's in software engineering, engineering, science or mathematics.",
-   "work": "Develop and maintain software for naval payload-control systems.",
-   "conditions": "Fully on site; C++, object-oriented design, networking and Git required; U.S. citizenship and Secret-clearance eligibility.",
-   "verification": "Employer job detail accessible; posting says open until filled.",
-   "url": "https://careers-gdms.icims.com/jobs/75205/software-engineer-%E2%80%93-entry-level/job?in_iframe=1",
-   "job_id": "2026-75205",
-   "status": "verified"
-  },
-  {
    "rank": 10,
    "employer": "Brown University Health",
    "title": "Service Desk Analyst",
@@ -186,8 +171,8 @@
   }
  ],
  "listing_check": {
-  "date": "2026-11-16",
-  "removed": 0,
+  "date": "2026-11-17",
+  "removed": 1,
   "unverified": 2,
   "held": false
  }

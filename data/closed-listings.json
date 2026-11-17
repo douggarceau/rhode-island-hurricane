@@ -1183,6 +1183,360 @@
      "https://www.samsara.com/company/careers/roles/7516554?gh_jid=7516554"
     ]
    ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "majors.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "employer_id": "brown_health",
+    "requisition_id": "JR-114806",
+    "title": "Dishwasher",
+    "city": "Providence",
+    "state": "RI",
+    "address": "164 Summit Avenue, Building C",
+    "skill_level": "entry_no_experience",
+    "requirements": "Food-service experience and high-school credential preferred, not required. English literacy; prolonged standing and handling heavy items.",
+    "pay": {
+     "min": 18,
+     "max": 25.82,
+     "currency": "USD",
+     "period": null,
+     "note": "Numeric employer pay range; period not labeled in extracted page. Confirm hourly basis."
+    },
+    "employment_type": "full_time",
+    "hours_per_week": 40,
+    "shift": "Day; 6:00 a.m.–2:30 p.m.",
+    "work_arrangement": "on_site",
+    "posted_date": "2026-10-14",
+    "closing_date": null,
+    "status": "official_listing_available",
+    "application_instructions": "Open the official listing and use its Apply link.",
+    "source_url": "https://jobs.brownhealth.org/search/jobdetails/dishwasher/35c60d46-75b6-43d9-af33-669cd4cef257",
+    "checked_on": "2026-11-12"
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "file": "seniorjobs.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "id": "JR-115163",
+    "employer": "Brown University Health / Brown Health Medical Group",
+    "title": "Patient Service Representative",
+    "municipality": "East Providence",
+    "state": "RI",
+    "pay": "$18.13–$29.90/hour",
+    "schedule": "20 hours/week, days; source also lists 8-hour daily shifts, confirm pattern",
+    "experience_label": "Experienced: two years healthcare experience required",
+    "requirements": "Medical terminology, computer skills and patient-facing communication",
+    "physical_duties": "Medical front-office registration, scheduling, insurance and payments; no driving",
+    "source_url": "https://jobs.brownhealth.org/search/jobdetails/patient-service-rep/2bd57f02-6626-4519-84b9-06cb25bc0725",
+    "apply_url": "https://jobs.brownhealth.org/search/jobdetails/patient-service-rep/2bd57f02-6626-4519-84b9-06cb25bc0725",
+    "source_type": "official_employer_or_authorized_ATS",
+    "status": "official_posting_present",
+    "last_checked": "2026-11-12",
+    "recruiting_phone": "not published",
+    "recruiting_email": "not published",
+    "address": "950 Warren Avenue",
+    "priority": 3,
+    "posted_date": "2026-10-21",
+    "notes": "Secondary option for retirees with healthcare experience; not a no-experience role."
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "file": "techjobs.json",
+   "section": "jobs",
+   "reason": "page returns 410",
+   "item": {
+    "rank": 9,
+    "employer": "General Dynamics Mission Systems",
+    "title": "Software Engineer – Entry Level",
+    "location": "Middletown",
+    "experience": "Graduate entry level; substantial programming skills required",
+    "pay": "Employer range $77,843–$86,358/year",
+    "education": "Bachelor's in software engineering, engineering, science or mathematics.",
+    "work": "Develop and maintain software for naval payload-control systems.",
+    "conditions": "Fully on site; C++, object-oriented design, networking and Git required; U.S. citizenship and Secret-clearance eligibility.",
+    "verification": "Employer job detail accessible; posting says open until filled.",
+    "url": "https://careers-gdms.icims.com/jobs/75205/software-engineer-%E2%80%93-entry-level/job?in_iframe=1",
+    "job_id": "2026-75205",
+    "status": "verified"
+   }
+  },
+  {
+   "date": "2026-11-17",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "redirects to the listings page",
+   "item": [
+    "Bryant University",
+    "Lecturer, Department of Information Systems and Analytics",
+    "3",
+    "AI education / training / academic leadership",
+    "Smithfield, Rhode Island",
+    0,
+    "Not published",
+    "Role posting",
+    "",
+    "Editorial inference from required graduate degree, professional expertise and teaching responsibilities",
+    "",
+    "",
+    "https://employment.bryant.edu/postings/4876",
+    "",
+    "Full Time"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Workday: posting removed",
+   "item": [
+    "CVS Health",
+    "Staff Backend Engineer - AI Platforms (Health100)",
+    "4",
+    "AI infrastructure / MLOps",
+    "Work At Home-Massachusetts; Work At Home-North Carolina; Work At Home-New York; Work At Home-Texas; Work At Home-Georgia; Work At Home-Illinois",
+    1,
+    "Remote",
+    "Role posting",
+    "$106,605.00 - $260,590.00",
+    "7+ years of experience in software engineering, delivering scalable, production-grade applications",
+    "2026-11-17",
+    "2026-11-10",
+    "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/Work-At-Home-Massachusetts/Staff-Backend-Engineer---AI-Platforms--Health100-_R1036640",
+    "",
+    "Full time"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Arize AI",
+    "DevOps Support Engineer (Argentina)",
+    "2",
+    "AI software / engineering",
+    "Remote (Buenos Aires)",
+    2,
+    "Remote",
+    "Role posting",
+    "",
+    "3+ years of experience in a DevOps, Infrastructure, or technical support role",
+    "",
+    "2026-09-21T14:32:34-04:00",
+    "https://job-boards.greenhouse.io/arizeai/jobs/6203648004",
+    "",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Arize AI",
+    "AI Solutions Manager, West",
+    "U",
+    "Applied AI / customer solutions",
+    "Remote (San Francisco)",
+    2,
+    "Remote",
+    "Role posting",
+    "$165,000-$215,000,",
+    "Employer seniority not established; do not label entry-level",
+    "",
+    "2026-01-29T14:01:57-05:00",
+    "https://job-boards.greenhouse.io/arizeai/jobs/5783026004",
+    "",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "deadline 2026-11-16 passed",
+   "item": [
+    "Fidelity Investments",
+    "Director, Product Management,  Wealth AI",
+    "5",
+    "AI product / program leadership",
+    "100 Crosby Pkwy, Covington KY",
+    3,
+    "Not published",
+    "Role posting",
+    "",
+    "Leadership title; editorial level mapping",
+    "2026-11-16",
+    "2026-11-10",
+    "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/100-Crosby-Pkwy-Covington-KY/Director--Product-Management---Wealth-AI_2133611",
+    "Sponsorship restriction mentioned",
+    "Full time"
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Keeper Security",
+    "Creative Localization Specialist",
+    4,
+    "2+ years experience stated",
+    "Languages & localization",
+    "Remote, US",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Degree mentioned; required/preferred distinction is in source; Assessment / qualification screening mentioned; Language proficiency requirement; see title and source; Contract / freelance wording in posting; confirm engagement terms",
+    "https://job-boards.greenhouse.io/keepersecurity/jobs/4444517009",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/keepersecurity/jobs/4444517009"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Canonical",
+    "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
+    2,
+    "Graduate / early career; education requirements apply",
+    "Software, IT & quality assurance",
+    "Home based - Worldwide",
+    "Global / worldwide wording",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Home-based; company events / travel may be required. See posting.; Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://job-boards.greenhouse.io/canonical/jobs/8249005",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/canonical/jobs/8249005"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "SupportYourApp",
+    "(Fluent English) Customer Support Consultant (Uruguay, remotely)",
+    4,
+    "1 year experience stated",
+    "Customer service & technical support",
+    "Montevideo, Montevideo Department, Uruguay; Salto, Salto Department, Uruguay; Ciudad de la Costa, Canelones Department, Uruguay; Las Piedras, Canelones Departme",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Contract",
+    "",
+    "Language proficiency requirement; see title and source; Contract / freelance wording in posting; confirm engagement terms",
+    "https://apply.workable.com/supportyourapp/j/58FA3768F0/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/supportyourapp/j/58FA3768F0/"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Toast",
+    "Inside Account Executive, SMB - Remote",
+    4,
+    "1+ years experience stated",
+    "Sales & business development",
+    "Remote",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Assessment / qualification screening mentioned; Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://careers.toasttab.com/jobs?gh_jid=6814934",
+    0,
+    "Not published / not normalized",
+    [
+     "https://careers.toasttab.com/jobs?gh_jid=6814934"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Lever: posting removed",
+   "item": [
+    "Welo Global / Welo Data",
+    "Multimedia Content Reviewer - es-MX",
+    4,
+    "2+ years experience stated",
+    "Writing, marketing & design",
+    "Mexico",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Full Time",
+    "",
+    "Degree mentioned; required/preferred distinction is in source; License or certification mentioned; check mandatory requirements; Language proficiency requirement; see title and source",
+    "https://jobs.lever.co/weloglobal/5cbad4eb-0e8b-45b7-a479-d73aa324b33b",
+    0,
+    "Not published / not normalized",
+    [
+     "https://jobs.lever.co/weloglobal/5cbad4eb-0e8b-45b7-a479-d73aa324b33b"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-17",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Technical Support Specialist",
+    4,
+    "1–2+ years in technical support or IT help desk",
+    "Customer service & technical support",
+    "United States",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Staffing agency; client employer not published",
+    "https://apply.workable.com/pavago/j/4579A07AAB/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/4579A07AAB/"
+    ]
+   ]
   }
  ]
 }

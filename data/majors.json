@@ -529,33 +529,6 @@
  "jobs": [
   {
    "employer_id": "brown_health",
-   "requisition_id": "JR-114806",
-   "title": "Dishwasher",
-   "city": "Providence",
-   "state": "RI",
-   "address": "164 Summit Avenue, Building C",
-   "skill_level": "entry_no_experience",
-   "requirements": "Food-service experience and high-school credential preferred, not required. English literacy; prolonged standing and handling heavy items.",
-   "pay": {
-    "min": 18,
-    "max": 25.82,
-    "currency": "USD",
-    "period": null,
-    "note": "Numeric employer pay range; period not labeled in extracted page. Confirm hourly basis."
-   },
-   "employment_type": "full_time",
-   "hours_per_week": 40,
-   "shift": "Day; 6:00 a.m.–2:30 p.m.",
-   "work_arrangement": "on_site",
-   "posted_date": "2026-10-14",
-   "closing_date": null,
-   "status": "official_listing_available",
-   "application_instructions": "Open the official listing and use its Apply link.",
-   "source_url": "https://jobs.brownhealth.org/search/jobdetails/dishwasher/35c60d46-75b6-43d9-af33-669cd4cef257",
-   "checked_on": "2026-11-12"
-  },
-  {
-   "employer_id": "brown_health",
    "requisition_id": "JR-114484",
    "title": "Environmental Services Aide",
    "city": "Newport",
@@ -1124,8 +1097,8 @@
   "excluded_listings": 5
  },
  "listing_check": {
-  "date": "2026-11-16",
-  "removed": 0,
+  "date": "2026-11-17",
+  "removed": 1,
   "unverified": 0,
   "held": false
  }
