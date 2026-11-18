@@ -128,27 +128,6 @@
    "priority": 1
   },
   {
-   "id": "1921834BR",
-   "employer": "Walgreens",
-   "title": "Customer Service Associate",
-   "municipality": "Providence",
-   "state": "RI",
-   "pay": "$16–$20.50/hour",
-   "schedule": "Part-time; flexible availability including evenings/weekends",
-   "experience_label": "Employer labels entry level; six months retail experience preferred",
-   "requirements": "English reading/writing/speaking; flexible schedule",
-   "physical_duties": "Checkout, stocking, displays, cleaning and order pickup",
-   "source_url": "https://jobs.walgreens.com/en/job/providence/customer-service-associate/1242/102776016784",
-   "apply_url": "https://jobs.walgreens.com/en/job/providence/customer-service-associate/1242/102776016784",
-   "source_type": "official_employer_or_authorized_ATS",
-   "status": "official_posting_present",
-   "last_checked": "2026-11-12",
-   "recruiting_phone": "not published",
-   "recruiting_email": "not published",
-   "address": "135 Pitman Street",
-   "priority": 1
-  },
-  {
    "id": "R0000469048",
    "employer": "Target",
    "title": "Guest Advocate / Cashier",
@@ -732,9 +711,9 @@
  },
  "disclaimer": "Listings reflect public employer and official program information checked November 12, 2026. An online posting is not a guarantee of an unfilled position, interview, hiring speed, hours or benefits. Confirm details with the employer or program.",
  "listing_check": {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "removed": 1,
-  "unverified": 2,
+  "unverified": 0,
   "held": false
  }
 }
