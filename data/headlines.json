@@ -1,28 +1,6 @@
 {
- "asof": "2026-11-17T07:30:00-05:00",
+ "asof": "2026-11-18T07:25:00-05:00",
  "items": [
-  {
-   "h": "Alicia Keys' Hell's Kitchen Runs at PPAC Dec. 15 Through 20",
-   "sum": "Tuesday, Dec. 15 through Sunday, Dec. 20 at PPAC, 220 Weybosset Street, Providence, with evening and weekend matinee performances.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
-   "story": "alicia-keys-hells-kitchen-ppac-2026",
-   "town": "Providence",
-   "date": "2026-11-17",
-   "rank": 2,
-   "lead": true
-  },
-  {
-   "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
-   "sum": "The holiday show runs Tuesday, Nov. 24, through Sunday, Dec. 6, at PPAC, 220 Weybosset Street, Providence.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=cirque-twas-the-night-before-ppac-2026",
-   "story": "cirque-twas-the-night-before-ppac-2026",
-   "town": "Providence",
-   "date": "2026-11-17",
-   "rank": 2,
-   "box": true
-  },
   {
    "h": "Vienna Boys Choir Brings Christmas to Cranston's Park Theatre",
    "sum": "Saturday, Dec. 5 at 7:30 p.m. at the Historic Park Theatre, 848 Park Avenue in Cranston, with resale tickets listed from $114.",
@@ -214,15 +192,6 @@
    "rank": 5
   },
   {
-   "h": "Bill Jacklin Leads a Printmaking Demonstration at Newport Art Museum",
-   "sum": "A lecture and demonstration on printmaking from 10 a.m. to 1 p.m. on Sunday, Nov. 22.",
-   "outlet": "Newport Art Museum",
-   "url": "https://newportartmuseum.org/classes/monotype-printing-demo-with-bill-jacklin/",
-   "town": "Newport",
-   "date": "2026-11-10",
-   "rank": 6
-  },
-  {
    "h": "Fly Tying Nights at Louttit Library in West Greenwich",
    "sum": "Thursdays from 6:30 to 8:30 p.m. through November and December at Louttit Library, West Greenwich; $5 per person per night.",
    "outlet": "Rhode Island Hurricane",
@@ -243,15 +212,6 @@
    "rank": 6
   },
   {
-   "h": "Leland Baker Jazz Trio Performs at the RISD Museum on Nov. 19",
-   "sum": "A live jazz performance from 6:30 to 7:30 p.m. on Thursday, Nov. 19.",
-   "outlet": "RISD Museum",
-   "url": "https://risdmuseum.org/exhibitions-events/events/leland-baker-jazz-trio",
-   "town": "Providence",
-   "date": "2026-11-10",
-   "rank": 7
-  },
-  {
    "h": "State Ballet of Rhode Island's Coppélia Dances at RIC on Dec. 12",
    "sum": "A holiday ballet of love and mischief with life-sized dancing dolls, one performance on Saturday, Dec. 12 at 2 p.m. in Roberts Hall, Providence.",
    "outlet": "Rhode Island Hurricane",
@@ -260,6 +220,48 @@
    "town": "Providence",
    "date": "2026-11-17",
    "rank": 5
+  },
+  {
+   "h": "Alicia Keys' Hell's Kitchen Runs at PPAC Dec. 15 Through 20",
+   "sum": "The Broadway musical comes to Providence's PPAC for a run in mid-December.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
+   "story": "alicia-keys-hells-kitchen-ppac-2026",
+   "lead": true,
+   "town": "Providence",
+   "date": "2026-11-18",
+   "rank": 2
+  },
+  {
+   "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
+   "sum": "The holiday show is on stage at PPAC through early December.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=cirque-twas-the-night-before-ppac-2026",
+   "story": "cirque-twas-the-night-before-ppac-2026",
+   "box": true,
+   "town": "Providence",
+   "date": "2026-11-18",
+   "rank": 2
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Crafts, Stories and a RISD Tour",
+   "sum": "Picks for today: a 10:15 a.m. storytime in Jamestown, a 10:30 a.m. turkey craft in Glocester and a 6 p.m. private collection tour at the RISD Museum.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-18",
+   "story": "today-and-tonight-2026-11-18",
+   "town": "Statewide",
+   "date": "2026-11-18",
+   "rank": 1
+  },
+  {
+   "h": "RICCO Brings Handel's Messiah to All Saints in Providence",
+   "sum": "Two December performances feature the Brown University Chorus and the chorale's professional orchestra.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=ricco-messiah-all-saints-providence-dec-2026",
+   "story": "ricco-messiah-all-saints-providence-dec-2026",
+   "town": "Providence",
+   "date": "2026-11-18",
+   "rank": 3
   }
  ]
 }
