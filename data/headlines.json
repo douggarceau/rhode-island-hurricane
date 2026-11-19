@@ -1,25 +1,15 @@
 {
- "asof": "2026-11-18T07:25:00-05:00",
+ "asof": "2026-11-19T07:30:00-05:00",
  "items": [
   {
-   "h": "Vienna Boys Choir Brings Christmas to Cranston's Park Theatre",
-   "sum": "Saturday, Dec. 5 at 7:30 p.m. at the Historic Park Theatre, 848 Park Avenue in Cranston, with resale tickets listed from $114.",
+   "h": "Rhode Island Today and Tonight: Gallery Night and Jazz at RISD",
+   "sum": "Tonight's best picks include Gallery Night Providence from 5 to 8 p.m. and the Leland Baker Jazz Trio at the RISD Museum from 6:30 p.m.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
-   "story": "vienna-boys-choir-christmas-in-vienna-park-theatre-2026",
-   "town": "Cranston",
-   "date": "2026-11-11",
-   "rank": 3
-  },
-  {
-   "h": "Gallery Night Providence Throws Open Its Doors on Nov. 19",
-   "sum": "Thursday, Nov. 19 from 5 to 8 p.m., with galleries across Providence hosting openings and visits, starting with the RISD Museum at 20 North Main Street.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=gallery-night-providence-november-2026",
-   "story": "gallery-night-providence-november-2026",
-   "town": "Providence",
-   "date": "2026-11-11",
-   "rank": 3
+   "url": "?story=today-and-tonight-2026-11-19",
+   "story": "today-and-tonight-2026-11-19",
+   "town": "Statewide",
+   "date": "2026-11-19",
+   "rank": 1
   },
   {
    "h": "Unfurling: Newport Art Museum Previews Its 2027 Art Cup Sails",
@@ -227,10 +217,10 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=alicia-keys-hells-kitchen-ppac-2026",
    "story": "alicia-keys-hells-kitchen-ppac-2026",
-   "lead": true,
    "town": "Providence",
-   "date": "2026-11-18",
-   "rank": 2
+   "date": "2026-11-19",
+   "rank": 2,
+   "lead": true
   },
   {
    "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
@@ -238,20 +228,10 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=cirque-twas-the-night-before-ppac-2026",
    "story": "cirque-twas-the-night-before-ppac-2026",
-   "box": true,
    "town": "Providence",
    "date": "2026-11-18",
-   "rank": 2
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Crafts, Stories and a RISD Tour",
-   "sum": "Picks for today: a 10:15 a.m. storytime in Jamestown, a 10:30 a.m. turkey craft in Glocester and a 6 p.m. private collection tour at the RISD Museum.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-18",
-   "story": "today-and-tonight-2026-11-18",
-   "town": "Statewide",
-   "date": "2026-11-18",
-   "rank": 1
+   "rank": 2,
+   "box": true
   },
   {
    "h": "RICCO Brings Handel's Messiah to All Saints in Providence",
@@ -262,6 +242,26 @@
    "town": "Providence",
    "date": "2026-11-18",
    "rank": 3
+  },
+  {
+   "h": "Foundry Artists' Holiday Show Brings 65 Artists to Pawtucket",
+   "sum": "Thursday, Dec. 3 at the Pawtucket Armory Center for the Arts, with original art and handmade gifts from 65 artists.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=foundry-artists-holiday-show-pawtucket-2026",
+   "story": "foundry-artists-holiday-show-pawtucket-2026",
+   "town": "Pawtucket",
+   "date": "2026-11-19",
+   "rank": 4
+  },
+  {
+   "h": "Christmas in the Valley Brings Fine Art and Craft to Foster",
+   "sum": "Friday, Nov. 27 through Sunday, Nov. 29 at the Foster Country Club, with fine art and fine craft exhibitors and no food booths.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=christmas-in-the-valley-foster-2026",
+   "story": "christmas-in-the-valley-foster-2026",
+   "town": "Foster",
+   "date": "2026-11-19",
+   "rank": 6
   }
  ]
 }
