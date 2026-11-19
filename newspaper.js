@@ -124,24 +124,65 @@ function side(){const P=document.getElementById('paper');const L=[];const seen={
 function go_(i,push){cur=(i+pages.length)%pages.length;show();if(push!==false){try{depth++;history.pushState({pp:cur,d:depth},'')}catch(_){}}}
 function show(){const P=document.getElementById('paper');const p=pages[cur];side();P.querySelector('.sheet').innerHTML=p.html;P.querySelector('.pp-pg').textContent='Page '+p.id+' · '+(cur+1)+' of '+pages.length;P.scrollTop=0}
 async function open(){
- if(!document.getElementById('ppCss')){const st=document.createElement('style');st.id='ppCss';st.textContent=css;document.head.appendChild(st)}
+ if(!document.getElementById('ppCss')){const st=document.createElement('style');st.id='ppCss';st.textContent=css+sendCss;document.head.appendChild(st)}
  try{if(!EV){const j=await fetch('data/cal.json',{cache:'no-cache'}).then(r=>r.json());EV=j.events||[]}}catch(_){EV=[]}
  try{if(!window.__ppHol){window.__ppHol=await fetch('data/holiday.json',{cache:'no-cache'}).then(r=>r.ok?r.json():null)}}catch(_){}
  build();cur=0;
  let P=document.getElementById('paper');if(!P){P=document.createElement('div');P.id='paper';P.setAttribute('role','dialog');P.setAttribute('aria-label','Newspaper mode');
-  P.innerHTML='<div class="pp-bar"><button class="pp-home">⌂ <i class="lg">Back to </i>Page One</button><button class="pp-p">‹ <i class="lg">Previous page</i><i class="sm">Back</i></button><span class="pp-pg"></span><button class="pp-n"><i class="lg">Next page</i><i class="sm">Next</i> ›</button><button class="pp-print-btn">🖨 <i class="lg">Print or save as PDF</i><i class="sm">Print</i></button><button class="pp-x"><i class="lg">Close newspaper</i><i class="sm">Close</i> ✕</button></div><div class="pp-wrap"><nav class="pp-side" aria-label="Sections of the newspaper"><h4>Sections</h4><div class="pp-list"></div><small>Tap a section to go there. The browser back button goes to the page you were on before.</small></nav><div class="sheet"></div></div>';document.body.appendChild(P);
+  P.innerHTML='<div class="pp-bar"><button class="pp-home">⌂ <i class="lg">Back to </i>Page One</button><button class="pp-p">‹ <i class="lg">Previous page</i><i class="sm">Back</i></button><span class="pp-pg"></span><button class="pp-n"><i class="lg">Next page</i><i class="sm">Next</i> ›</button><button class="pp-send" aria-label="Send to subscribers">✉<i class="lg"> Send to subscribers</i></button><button class="pp-print-btn">🖨 <i class="lg">Print or save as PDF</i><i class="sm">Print</i></button><button class="pp-x"><i class="lg">Close newspaper</i><i class="sm">Close</i> ✕</button></div><div class="pp-wrap"><nav class="pp-side" aria-label="Sections of the newspaper"><h4>Sections</h4><div class="pp-list"></div><small>Tap a section to go there. The browser back button goes to the page you were on before.</small></nav><div class="sheet"></div></div>';document.body.appendChild(P);
   P.addEventListener('click',e=>{const t=e.target.closest('button,[data-pp]');if(!t||!P.contains(t))return;e.stopPropagation();if(!t)return;
-   if(t.classList.contains('pp-x'))return close();if(t.classList.contains('pp-print-btn'))return printAll();if(t.classList.contains('pp-home'))return go_(0);if(t.classList.contains('pp-p'))return go_(cur-1);if(t.classList.contains('pp-n'))return go_(cur+1);if(t.dataset.ppgo!=null)return go_(+t.dataset.ppgo);
+   if(t.classList.contains('pp-x'))return close();if(t.classList.contains('pp-print-btn'))return printAll();if(t.classList.contains('pp-send'))return sendPanel();if(t.classList.contains('pp-home'))return go_(0);if(t.classList.contains('pp-p'))return go_(cur-1);if(t.classList.contains('pp-n'))return go_(cur+1);if(t.dataset.ppgo!=null)return go_(+t.dataset.ppgo);
    if(t.dataset.pp){const k=pages.findIndex(p=>p.id===t.dataset.pp);if(k>=0)go_(k);return}
    if(t.dataset.story){e.preventDefault();e.stopPropagation();close();try{STATE.story=t.dataset.story;STATE.prev='front';STATE.view='read';render();scrollTo(0,0)}catch(_){location.href='?story='+t.dataset.story}}});
   addEventListener('keydown',e=>{if(!document.getElementById('paper')||document.getElementById('paper').hidden)return;if(e.key==='Escape')close();if(e.key==='ArrowRight')go_(cur+1);if(e.key==='ArrowLeft')go_(cur-1)})}
- P.hidden=false;document.documentElement.style.overflow='hidden';show();depth=1;try{history.pushState({pp:0,d:1},'')}catch(_){}}
+ P.hidden=false;document.documentElement.style.overflow='hidden';show();isEditor().then(v=>P.classList.toggle('ed',!!v));depth=1;try{history.pushState({pp:0,d:1},'')}catch(_){}}
 addEventListener('popstate',e=>{const P=document.getElementById('paper');if(!P)return;const st=e.state;if(st&&typeof st.pp==='number'){if(P.hidden){P.hidden=false;document.documentElement.style.overflow='hidden'}depth=st.d||1;cur=Math.min(st.pp,pages.length-1);show()}else{depth=0;if(!P.hidden){P.hidden=true;document.documentElement.style.overflow=''}}});
 function printAll(){const P=document.getElementById('paper');let A=P.querySelector('.pp-printall');if(!A){A=document.createElement('div');A.className='pp-printall';P.appendChild(A)}
  A.innerHTML=pages.map((p,i)=>'<div class="sheet'+(i&&/1$/.test(p.id)?' brk':'')+'">'+p.html+'</div>').join('');
  const imgs=[...A.querySelectorAll('img')];Promise.all(imgs.map(i=>i.complete?0:new Promise(r=>{i.onload=i.onerror=r}))).then(()=>{try{window.print()}catch(_){}});}
 function close(){const P=document.getElementById('paper');if(P)P.hidden=true;document.documentElement.style.overflow='';const n=depth;depth=0;if(n>0){try{history.go(-n)}catch(_){}}}
+/* Send to subscribers (editors only). Emails today's edition through the site's send-edition function. */
+const SBU='https://zldqymhtmhqyypzolxwq.supabase.co',SBK='sb_publishable_rve_mz40jFF8Af0DJQZL3g_2u994LyG';
+const HOST=()=>location.hostname.replace(/^www\./,'');
+const tok=()=>{try{for(const k of Object.keys(localStorage))if(/^sb-.*-auth-token$/.test(k)){const v=JSON.parse(localStorage.getItem(k));const t=v&&(v.access_token||(v.currentSession&&v.currentSession.access_token));if(t)return t}}catch(_){}return null};
+let EDITOR=null;
+async function isEditor(){if(EDITOR!==null)return EDITOR;const t=tok();if(!t)return false;try{const r=await fetch(SBU+'/rest/v1/rpc/is_editor',{method:'POST',headers:{apikey:SBK,Authorization:'Bearer '+t,'Content-Type':'application/json'},body:'{}'});EDITOR=r.ok&&(await r.json())===true}catch(_){EDITOR=false}return EDITOR}
+const callSend=async b=>{const r=await fetch(SBU+'/functions/v1/send-edition',{method:'POST',headers:{apikey:SBK,Authorization:'Bearer '+tok(),'Content-Type':'application/json'},body:JSON.stringify({site:HOST(),...b})});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.error||('Error '+r.status));return j};
+function emailHtml(){const S=stories(),d=TD(),base='https://'+HOST()+'/';const NW=S.filter(s=>s.news),lead=NW[0]||S[0],rest=S.filter(s=>s!==lead).slice(0,10);
+ const link=s=>base+'s/'+encodeURIComponent(s.slug)+'/';
+ const F='font-family:Georgia,\'Times New Roman\',serif;',C='color:#0A1428;';
+ const P=t=>'<p style="margin:0 0 12px;'+F+C+'font-size:16px;line-height:1.55">'+H(t)+'</p>';
+ let h='<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+H(SITE())+'</title></head><body style="margin:0;padding:0;background:#EEF1F4">'
+ +'<div style="display:none;max-height:0;overflow:hidden">'+H(lead?lead.title:'')+'</div>'
+ +'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#EEF1F4"><tr><td align="center" style="padding:16px 8px">'
+ +'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="max-width:600px;background:#FFFFFF;border:1px solid #C9D2D6">'
+ +'<tr><td style="padding:22px 22px 10px;text-align:center;border-bottom:3px double #0A1428"><div style="'+F+C+'font-size:32px;font-weight:700;line-height:1.1">'+H(SITE())+'</div>'
+ +'<div style="'+F+'color:#46566A;font-size:13px;letter-spacing:.06em;text-transform:uppercase;margin-top:8px">'+H(LONG(d))+' · '+H(PLACE())+' Edition</div></td></tr>';
+ if(lead)h+='<tr><td style="padding:20px 22px 6px"><div style="'+F+'color:#B5123A;font-size:12px;font-weight:700;letter-spacing:.08em;text-transform:uppercase">'+H(SEC[lead.topic]||'Local')+'</div>'
+ +'<h1 style="margin:6px 0 8px;'+F+C+'font-size:28px;line-height:1.15"><a href="'+H(link(lead))+'" style="'+C+'text-decoration:none">'+H(lead.title)+'</a></h1>'
+ +(lead.dek?'<p style="margin:0 0 12px;'+F+'color:#33475B;font-size:18px;font-style:italic;line-height:1.4">'+H(lead.dek)+'</p>':'')
+ +teaser(lead,900).map(P).join('')
+ +'<p style="margin:4px 0 16px"><a href="'+H(link(lead))+'" style="'+F+'color:#B5123A;font-weight:700;font-size:16px">Read the full story ›</a></p></td></tr>';
+ if(rest.length)h+='<tr><td style="padding:6px 22px 4px;border-top:1px solid #C9D2D6"><div style="'+F+C+'font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding-top:12px">Also in today\'s edition</div></td></tr>'
+ +rest.map(s=>'<tr><td style="padding:10px 22px;border-bottom:1px solid #E3E8EB"><a href="'+H(link(s))+'" style="'+F+C+'font-size:19px;font-weight:700;line-height:1.25;text-decoration:none">'+H(s.title)+'</a>'+(s.dek?'<p style="margin:4px 0 0;'+F+'color:#33475B;font-size:15px;line-height:1.45">'+H(s.dek)+'</p>':'')+'</td></tr>').join('');
+ h+='<tr><td style="padding:20px 22px;text-align:center"><a href="'+H(base+'?edition=1')+'" style="display:inline-block;background:#0A1428;color:#FFFFFF;'+F+'font-size:16px;font-weight:700;text-decoration:none;padding:12px 20px;border-radius:4px">Open the full newspaper</a></td></tr>'
+ +'<tr><td style="padding:14px 22px 22px;text-align:center;border-top:1px solid #C9D2D6;'+F+'color:#5B6B7C;font-size:12px;line-height:1.5">You\'re getting this because you have a reader account at '+H(HOST())+'.<br><a href="{{UNSUB}}" style="color:#5B6B7C">Unsubscribe from the daily edition</a></td></tr>'
+ +'</table></td></tr></table></body></html>';
+ return {subject:SITE()+' · '+SHORT(d)+(lead?': '+lead.title:''),html:h}}
+function sendPanel(){const P=document.getElementById('paper');let M=P.querySelector('.pp-send-box');if(M){M.remove();return}
+ M=document.createElement('div');M.className='pp-send-box';M.setAttribute('role','dialog');M.setAttribute('aria-label','Send to subscribers');
+ M.innerHTML='<b>Send today\'s edition</b><p class="pp-s-msg">Counting subscribers…</p><div class="pp-s-row"><button class="pp-s-test" disabled>Send a test to me</button><button class="pp-s-all" disabled>Send to all</button><button class="pp-s-x">Cancel</button></div>';
+ P.appendChild(M);const msg=t=>{M.querySelector('.pp-s-msg').textContent=t};let n=0;
+ callSend({mode:'count'}).then(j=>{n=j.count;msg(j.ready?(n+' subscriber'+(n===1?'':'s')+' will get today\'s edition by email. Send yourself a test first.'):'Email isn\'t switched on yet (the Resend key is missing in Supabase). '+n+' subscribers are on the list.');if(j.ready){M.querySelector('.pp-s-test').disabled=false;M.querySelector('.pp-s-all').disabled=!n;M.querySelector('.pp-s-all').textContent='Send to all '+n}}).catch(e=>msg(e.message));
+ M.addEventListener('click',async e=>{const t=e.target.closest('button');if(!t)return;e.stopPropagation();
+  if(t.classList.contains('pp-s-x'))return M.remove();
+  const all=t.classList.contains('pp-s-all');if(all&&!confirm('Email today\'s edition to all '+n+' subscribers now? This can\'t be undone.'))return;
+  M.querySelectorAll('button').forEach(b=>b.disabled=true);msg(all?'Sending…':'Sending a test to your email…');
+  try{const j=await callSend({mode:all?'all':'test',...emailHtml()});msg(all?('Sent to '+j.sent+' of '+j.of+' subscribers.'+(j.errors&&j.errors.length?' Some failed: '+j.errors[0]:'')):'Test sent. Check your inbox.');M.querySelector('.pp-s-x').disabled=false;M.querySelector('.pp-s-x').textContent='Close';if(!all){M.querySelector('.pp-s-all').disabled=!n;M.querySelector('.pp-s-test').disabled=false}}
+  catch(err){msg(err.message);M.querySelectorAll('button').forEach(b=>b.disabled=false)}});}
+const sendCss='#paper .pp-bar .pp-send{display:none;background:#B5123A;border-color:#B5123A}#paper.ed .pp-bar .pp-send{display:inline-block}#paper .pp-send-box{position:fixed;z-index:10000;top:60px;left:50%;transform:translateX(-50%);width:min(420px,calc(100vw - 32px));box-sizing:border-box;background:#fff;color:#0A1428;border:2px solid #0A1428;border-radius:6px;padding:16px;box-shadow:0 10px 40px rgba(0,0,0,.4);font:16px/1.45 Georgia,serif}#paper .pp-send-box b{font-size:18px}#paper .pp-send-box p{margin:8px 0 12px}#paper .pp-s-row{display:flex;flex-wrap:wrap;gap:8px}#paper .pp-s-row button{all:unset;cursor:pointer;padding:10px 12px;border:1px solid #0A1428;border-radius:4px;font:700 15px/1 Georgia,serif}#paper .pp-s-row .pp-s-all{background:#B5123A;border-color:#B5123A;color:#fff}#paper .pp-s-row button[disabled]{opacity:.45;cursor:default}@media print{#paper .pp-send-box{display:none!important}}@media(max-width:700px){#paper.ed .pp-bar{gap:4px;padding:6px 4px}#paper.ed .pp-bar button{padding:10px 7px}#paper.ed .pp-bar .pp-home{padding:10px 8px;font-size:14px}#paper.ed .pp-bar .pp-print-btn .sm{display:none}}';
 window.openNewspaper=open;
 const btn=()=>{const h=document.querySelector('header.mast');if(!h||document.getElementById('paperBtn'))return;const b=document.createElement('button');b.id='paperBtn';b.type='button';b.textContent='Newspaper Mode';b.addEventListener('click',open);h.appendChild(b)};
 btn();addEventListener('DOMContentLoaded',btn);
+if(/[?&]edition=/.test(location.search)){const g=()=>setTimeout(open,400);document.readyState==='complete'?g():addEventListener('load',g)}
 })();

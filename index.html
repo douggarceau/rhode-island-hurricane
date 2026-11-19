@@ -2150,7 +2150,7 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
   const H={apikey:SB_KEY,Authorization:'Bearer '+SB_KEY,'Content-Type':'application/json'};
   const keep=(email,username,why)=>fetch(SB_URL+'/rest/v1/ideas',{method:'POST',headers:{...H,Prefer:'return=minimal'},body:JSON.stringify({kind:'signup',text:'[RI Hurricane] Sign-up waiting: '+why,email,name:username||null})}).then(r=>r.ok).catch(()=>false);
   const busy=m=>/rate limit|too many|not authori[sz]ed|sending|smtp|confirmation email|over_email|429|5\d\d|fetch|network/i.test(m||'');
-  async function restUp(email,password,username){const r=await fetch(SB_URL+'/auth/v1/signup',{method:'POST',headers:H,body:JSON.stringify({email,password,data:{username}})});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.msg||j.error_description||j.message||('HTTP '+r.status));return j}
+  async function restUp(email,password,username){const r=await fetch(SB_URL+'/auth/v1/signup',{method:'POST',headers:H,body:JSON.stringify({email,password,data:{username,site:location.hostname.replace(/^www\./,'')}})});const j=await r.json().catch(()=>({}));if(!r.ok)throw new Error(j.msg||j.error_description||j.message||('HTTP '+r.status));return j}
   $('subBox').onsubmit=async e=>{e.preventDefault();
     const email=$('sbEmail').value.trim(),password=$('sbPass').value,username=$('sbUser').value.trim();
     if(!/^\S+@\S+\.\S+$/.test(email))return msg('Enter a real email.','err');
@@ -2158,7 +2158,7 @@ const SFX=(function(){let ctx=null,out=null,on=true,last=0;try{on=localStorage.g
     if(mode==='up'&&!/^[A-Za-z0-9_.-]{3,32}$/.test(username))return msg('Username: 3–32 letters, numbers, _ . -','err');
     $('sbGo').disabled=true;msg('Working…');
     try{
-      if(mode==='up'){let data;if(sb){const r=await sb.auth.signUp({email,password,options:{data:{username},emailRedirectTo:location.origin+'/'}});if(r.error)throw r.error;data=r.data}else data=await restUp(email,password,username);
+      if(mode==='up'){let data;if(sb){const r=await sb.auth.signUp({email,password,options:{data:{username,site:location.hostname.replace(/^www\./,'')},emailRedirectTo:location.origin+'/'}});if(r.error)throw r.error;data=r.data}else data=await restUp(email,password,username);
         msg(data.session||data.access_token?'You\'re in. Welcome to the Report.':'Check your email to confirm, then log in.','ok')}
       else{if(!sb)throw new Error('Log-in is reconnecting. Refresh the page in a moment.');const {error}=await sb.auth.signInWithPassword({email,password});if(error)throw error;msg('')}
     }catch(err){const m=err&&err.message||'';
