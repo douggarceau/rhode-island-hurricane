@@ -32,20 +32,6 @@
    "status": "indexed"
   },
   {
-   "rank": 3,
-   "employer": "Best Buy",
-   "title": "Geek Squad Agent (Retail Store)",
-   "location": "Warwick",
-   "experience": "3 months retail or customer-service experience; prior IT employment not listed",
-   "pay": "$16.00–$20.80/hour",
-   "education": "No degree requirement listed in the reviewed advertisement.",
-   "work": "Customer intake, basic device setup and troubleshooting, repair coordination.",
-   "conditions": "Training provided. Nights, weekends and holidays. Body says part time; platform metadata says full time, so confirm hours.",
-   "verification": "Employer-branded LinkedIn advertisement accessible. Employer application portal availability not independently confirmed.",
-   "url": "https://www.linkedin.com/jobs/view/geek-squad-agent-retail-store-at-best-buy-4457236885",
-   "status": "employer_ad"
-  },
-  {
    "rank": 4,
    "employer": "Usherwood Office Technology",
    "title": "Tier 1 Managed IT Technician",
@@ -171,9 +157,9 @@
   }
  ],
  "listing_check": {
-  "date": "2026-11-19",
-  "removed": 0,
-  "unverified": 3,
+  "date": "2026-11-20",
+  "removed": 1,
+  "unverified": 2,
   "held": false
  }
 }

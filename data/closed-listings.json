@@ -2369,6 +2369,206 @@
      "https://apply.workable.com/pavago/j/FD8D12FDC7/"
     ]
    ]
+  },
+  {
+   "date": "2026-11-20",
+   "file": "techjobs.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "rank": 3,
+    "employer": "Best Buy",
+    "title": "Geek Squad Agent (Retail Store)",
+    "location": "Warwick",
+    "experience": "3 months retail or customer-service experience; prior IT employment not listed",
+    "pay": "$16.00–$20.80/hour",
+    "education": "No degree requirement listed in the reviewed advertisement.",
+    "work": "Customer intake, basic device setup and troubleshooting, repair coordination.",
+    "conditions": "Training provided. Nights, weekends and holidays. Body says part time; platform metadata says full time, so confirm hours.",
+    "verification": "Employer-branded LinkedIn advertisement accessible. Employer application portal availability not independently confirmed.",
+    "url": "https://www.linkedin.com/jobs/view/geek-squad-agent-retail-store-at-best-buy-4457236885",
+    "status": "employer_ad"
+   }
+  },
+  {
+   "date": "2026-11-20",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "SambaNova",
+    "Senior AI Performance Engineer",
+    "3",
+    "AI software / engineering",
+    "San Jose, California, United States",
+    3,
+    "Not published",
+    "Role posting",
+    "$180,000—$255,000 USD",
+    "3+ years of experience in one or more of the following areas:",
+    "",
+    "2025-11-21T04:51:31-05:00",
+    "https://sambanova.ai/sambanova-available-positions/?gh_jid=5719052004",
+    "",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "SambaNova",
+    "Inference Systems Performance Architect",
+    "4",
+    "AI infrastructure / MLOps",
+    "San Jose, California, United States",
+    3,
+    "Not published",
+    "Role posting",
+    "$245,000—$325,000 USD",
+    "12+ years of experience in performance engineering, with a demonstrated record of technical leadership on large-scale, complex systems",
+    "",
+    "2026-08-16T12:59:17-04:00",
+    "https://sambanova.ai/sambanova-available-positions/?gh_jid=6144835004",
+    "Doctoral background mentioned; check required versus preferred",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Muck Rack",
+    "Outbound Sales Development Representative (SDR)",
+    3,
+    "1+ year preferred",
+    "Sales & business development",
+    "Remote (United States)",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "USD 53,000 base salary; USD 68,000+ stated OTE",
+    "Remote with occasional travel stated; see employer details.; Assessment / qualification screening mentioned; Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://job-boards.greenhouse.io/muckrack/jobs/8895495002",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/muckrack/jobs/8895495002"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "ramp",
+    "Solutions Consultant, Commercial",
+    4,
+    "2+ years experience stated",
+    "Administration, data entry & operations",
+    "Remote (US); Remote (Canada); San Francisco, CA; New York, NY (HQ); Toronto, ON; Miami, FL",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Full time",
+    "$119K – $189K • Offers Equity • Multiple Ranges (employer range; location/level conditions apply)",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Degree mentioned; required/preferred distinction is in source; Assessment / qualification screening mentioned",
+    "https://jobs.ashbyhq.com/ramp/220e674a-fc70-439f-bacf-687553ca59c9",
+    0,
+    "Not published / not normalized",
+    [
+     "https://jobs.ashbyhq.com/ramp/220e674a-fc70-439f-bacf-687553ca59c9"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Accounts Receivable / Accounts Payable Specialist",
+    4,
+    "2+ years experience stated",
+    "Finance, billing & compliance",
+    "South Africa; United States; Pakistan",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Contract / freelance wording in posting; confirm engagement terms",
+    "https://apply.workable.com/pavago/j/BB53DF0A23/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/BB53DF0A23/",
+     "https://apply.workable.com/pavago/j/C7F21A0359/",
+     "https://apply.workable.com/pavago/j/122F60AA6D/"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Twilio",
+    "Compliance Operations Specialist",
+    4,
+    "1-2 years experience stated",
+    "Finance, billing & compliance",
+    "Remote - Colombia",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.",
+    "https://job-boards.greenhouse.io/twilio/jobs/8312421",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/twilio/jobs/8312421"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Animator / Motion Graphics Designer",
+    4,
+    "2+ years experience stated",
+    "Writing, marketing & design",
+    "Pakistan; Philippines; Colombia; Argentina; Brazil; Costa Rica",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "",
+    "https://apply.workable.com/pavago/j/48097851DB/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/48097851DB/",
+     "https://apply.workable.com/pavago/j/AD4842D0EB/",
+     "https://apply.workable.com/pavago/j/0424FD864F/"
+    ]
+   ]
   }
  ]
 }
