@@ -1,36 +1,6 @@
 {
- "asof": "2026-11-19T07:30:00-05:00",
+ "asof": "2026-11-20T08:00:00-05:00",
  "items": [
-  {
-   "h": "Rhode Island Today and Tonight: Gallery Night and Jazz at RISD",
-   "sum": "Tonight's best picks include Gallery Night Providence from 5 to 8 p.m. and the Leland Baker Jazz Trio at the RISD Museum from 6:30 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-19",
-   "story": "today-and-tonight-2026-11-19",
-   "town": "Statewide",
-   "date": "2026-11-19",
-   "rank": 1
-  },
-  {
-   "h": "Unfurling: Newport Art Museum Previews Its 2027 Art Cup Sails",
-   "sum": "Through Dec. 31 at Griswold House, 76 Bellevue Ave., Newport, Monday, Wednesday through Saturday and Sunday from 11 a.m. to 4 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=newport-art-museum-unfurling-art-cup-2026",
-   "story": "newport-art-museum-unfurling-art-cup-2026",
-   "town": "Newport",
-   "date": "2026-11-12",
-   "rank": 3
-  },
-  {
-   "h": "Classical Christmas With Frisson Plays Emmanuel Church in Newport",
-   "sum": "Saturday, Dec. 12 at 1:00 and 3:30 p.m., Emmanuel Church, 42 Dearborn St., Newport.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=classical-christmas-frisson-newport-2026",
-   "story": "classical-christmas-frisson-newport-2026",
-   "town": "Newport",
-   "date": "2026-11-12",
-   "rank": 3
-  },
   {
    "h": "Handel's Messiah at Rosecliff Mansion in Newport, Dec. 6",
    "sum": "Sunday, Dec. 6 at 1 p.m. and 3:30 p.m. at Rosecliff Mansion, 548 Bellevue Avenue, Newport; doors open at 12:30 p.m.",
@@ -152,26 +122,6 @@
    "rank": 5
   },
   {
-   "h": "Disney's Frozen Brings Its Broadway Musical to Woonsocket",
-   "sum": "Four performances from Friday, Nov. 20 through Sunday, Nov. 22 at the Stadium Theatre, with tickets from $29.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=frozen-broadway-musical-stadium-theatre-woonsocket-2026",
-   "story": "frozen-broadway-musical-stadium-theatre-woonsocket-2026",
-   "town": "Woonsocket",
-   "date": "2026-11-14",
-   "rank": 5
-  },
-  {
-   "h": "Sparkling Lights returns to The Breakers in Newport",
-   "sum": "Timed evening entries run on selected dates from Nov. 21 through Dec. 27, with interior mansion access included.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=sparkling-lights-breakers-newport-2026",
-   "story": "sparkling-lights-breakers-newport-2026",
-   "town": "Newport",
-   "date": "2026-11-12",
-   "rank": 5
-  },
-  {
    "h": "Boston Pops Holiday Concert Comes to PPAC on Dec. 13",
    "sum": "A holiday program with Keith Lockhart at PPAC, Sunday at 7 p.m.",
    "outlet": "Rhode Island Hurricane",
@@ -219,8 +169,7 @@
    "story": "alicia-keys-hells-kitchen-ppac-2026",
    "town": "Providence",
    "date": "2026-11-19",
-   "rank": 2,
-   "lead": true
+   "rank": 2
   },
   {
    "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
@@ -230,8 +179,7 @@
    "story": "cirque-twas-the-night-before-ppac-2026",
    "town": "Providence",
    "date": "2026-11-18",
-   "rank": 2,
-   "box": true
+   "rank": 2
   },
   {
    "h": "RICCO Brings Handel's Messiah to All Saints in Providence",
@@ -272,6 +220,47 @@
    "town": "Woonsocket",
    "date": "2026-11-19",
    "rank": 5
+  },
+  {
+   "h": "Frozen Thaws Woonsocket's Stadium Theatre With a Broadway Musical",
+   "sum": "Four performances from Friday, Nov. 20 at 7:30 p.m. through Sunday, Nov. 22 at 2 p.m. at the Stadium Theatre, 28 Monument Square, Woonsocket.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=frozen-broadway-musical-stadium-theatre-woonsocket-2026",
+   "story": "frozen-broadway-musical-stadium-theatre-woonsocket-2026",
+   "box": true,
+   "town": "Woonsocket",
+   "date": "2026-11-20",
+   "rank": 2
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Frozen and Jazz",
+   "sum": "Tonight's best picks: Disney's Frozen at 7:30 PM in Woonsocket and Vincent Ingala at 8 PM in East Greenwich.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-20",
+   "story": "today-and-tonight-2026-11-20",
+   "town": "Statewide",
+   "date": "2026-11-20",
+   "rank": 1
+  },
+  {
+   "h": "Trinity Rep's A Christmas Carol Celebrates Its 50th Anniversary",
+   "sum": "Trinity Repertory Company's 50th-anniversary A Christmas Carol runs through Dec. 31 at the Dowling Theater in Providence, directed by Taavon Gamble.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=trinity-rep-christmas-carol-50th-anniversary-2026",
+   "story": "trinity-rep-christmas-carol-50th-anniversary-2026",
+   "town": "Providence",
+   "date": "2026-11-20",
+   "rank": 3
+  },
+  {
+   "h": "Newport's Jessica Hagen Gallery Opens Its 21st Holiday Show",
+   "sum": "The annual holiday exhibition opens with a reception from 5 to 7 PM on Saturday, Nov. 21, at 9A Bridge Street in Newport.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=jessica-hagen-21st-holiday-show-newport-2026",
+   "story": "jessica-hagen-21st-holiday-show-newport-2026",
+   "town": "Newport",
+   "date": "2026-11-20",
+   "rank": 3
   }
  ]
 }
