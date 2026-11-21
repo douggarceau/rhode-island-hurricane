@@ -358,7 +358,7 @@ html body .lsrow .lspot.hasad{animation:hgAd 5s ease-in-out infinite}
 <style id="edge">
 html,html body{background:#000!important}
 html body .wrap,html body #view{background-color:transparent}
-html body .mast{background:#000!important;border-bottom:3px solid #C1121F!important;padding:0!important}
+html body .mast{background:linear-gradient(180deg,rgba(0,0,0,.15),rgba(0,0,0,.35)),url(img/mast-dome.jpg?v=3) center bottom/100% 100% no-repeat,#000!important;border-bottom:3px solid #C1121F!important}
 html body .mast img{filter:drop-shadow(0 3px 0 #000) drop-shadow(0 0 22px rgba(0,0,0,.85))}
 html body .lsrow .lspot[data-look]:not(.t-ad):not(.t-adimg):not(.hasad){background:linear-gradient(180deg,#0E0E10 0,#060607 100%)!important;border-top:3px solid #C1121F!important;border-radius:14px;box-shadow:inset 0 0 0 1px rgba(221,225,230,.1)!important}
 html body .lsrow .lspot[data-look]:not(.t-ad):not(.t-adimg):not(.hasad)::before,html body .lsrow .lspot[data-look]:not(.t-ad):not(.t-adimg):not(.hasad)::after{background:none!important}
@@ -1302,7 +1302,7 @@ h2.room{text-shadow:0 2px 0 #000000,0 0 30px rgba(0,0,0,.7)!important;filter:sat
 <div class="wrap">
   <header class="mast">
     <div>
-      <h1 class="logo lgimg"><img src="img/hurricane-masthead-dome.jpg?v=1" alt="Rhode Island Hurricane" width="1600" height="600"></h1>
+      <h1 class="logo lgimg"><img src="img/hurricane-masthead.png?v=4" alt="Rhode Island Hurricane" width="1440" height="392"></h1>
       
       
     </div>
@@ -3141,5 +3141,6 @@ go();addEventListener('DOMContentLoaded',go);setTimeout(go,1500)})();</script>
 <link rel="stylesheet" href="compact.css?v=20261112t">
 <script>/* mark the current page so compact.css can hide the promo grid on information pages */
 (function(){let last;const tick=()=>{const v=(typeof STATE!=="undefined"&&STATE.view)||"";if(v!==last){last=v;document.documentElement.dataset.v=v}};tick();setInterval(tick,250)})();</script>
+<style id="riMast">html body header.mast,html:not(#z) body header.mast{background:linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,.4)),url(img/mast-dome.jpg?v=3) center bottom/100% 100% no-repeat,#000!important;border-bottom:3px solid #C1121F!important}</style>
 </body>
 </html>
