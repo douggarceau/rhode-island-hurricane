@@ -1,16 +1,6 @@
 {
- "asof": "2026-11-20T08:00:00-05:00",
+ "asof": "2026-11-21T07:30:00-05:00",
  "items": [
-  {
-   "h": "Handel's Messiah at Rosecliff Mansion in Newport, Dec. 6",
-   "sum": "Sunday, Dec. 6 at 1 p.m. and 3:30 p.m. at Rosecliff Mansion, 548 Bellevue Avenue, Newport; doors open at 12:30 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=messiah-at-the-mansion-rosecliff-newport-2026",
-   "story": "messiah-at-the-mansion-rosecliff-newport-2026",
-   "town": "Newport",
-   "date": "2026-11-13",
-   "rank": 3
-  },
   {
    "h": "Contemporary Theater Company Brings A Christmas Carol to Wakefield",
    "sum": "Contemporary Theater Company stages A Christmas Carol in Wakefield on select dates through Dec. 20.",
@@ -122,26 +112,6 @@
    "rank": 5
   },
   {
-   "h": "Boston Pops Holiday Concert Comes to PPAC on Dec. 13",
-   "sum": "A holiday program with Keith Lockhart at PPAC, Sunday at 7 p.m.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=boston-pops-holiday-concert-ppac-2026",
-   "story": "boston-pops-holiday-concert-ppac-2026",
-   "town": "Providence",
-   "date": "2026-11-13",
-   "rank": 5
-  },
-  {
-   "h": "Fly Tying Nights at Louttit Library in West Greenwich",
-   "sum": "Thursdays from 6:30 to 8:30 p.m. through November and December at Louttit Library, West Greenwich; $5 per person per night.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=fly-tying-nights-louttit-library-west-greenwich-2026",
-   "story": "fly-tying-nights-louttit-library-west-greenwich-2026",
-   "town": "West Greenwich",
-   "date": "2026-11-13",
-   "rank": 6
-  },
-  {
    "h": "Ocean State Artisans' Holiday Market Opens in Wakefield",
    "sum": "Handmade goods and a food drive at South Kingstown High School on Nov. 27 and 28.",
    "outlet": "Rhode Island Hurricane",
@@ -227,30 +197,9 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=frozen-broadway-musical-stadium-theatre-woonsocket-2026",
    "story": "frozen-broadway-musical-stadium-theatre-woonsocket-2026",
-   "box": true,
    "town": "Woonsocket",
    "date": "2026-11-20",
    "rank": 2
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Frozen and Jazz",
-   "sum": "Tonight's best picks: Disney's Frozen at 7:30 PM in Woonsocket and Vincent Ingala at 8 PM in East Greenwich.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-20",
-   "story": "today-and-tonight-2026-11-20",
-   "town": "Statewide",
-   "date": "2026-11-20",
-   "rank": 1
-  },
-  {
-   "h": "Trinity Rep's A Christmas Carol Celebrates Its 50th Anniversary",
-   "sum": "Trinity Repertory Company's 50th-anniversary A Christmas Carol runs through Dec. 31 at the Dowling Theater in Providence, directed by Taavon Gamble.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-anniversary-2026",
-   "story": "trinity-rep-christmas-carol-50th-anniversary-2026",
-   "town": "Providence",
-   "date": "2026-11-20",
-   "rank": 3
   },
   {
    "h": "Newport's Jessica Hagen Gallery Opens Its 21st Holiday Show",
@@ -263,34 +212,73 @@
    "rank": 3
   },
   {
-   "h": "Anthropic Lands on Nasdaq With the Largest IPO on Record",
-   "sum": "The Claude maker priced shares at $83, raised about $81 billion and opened its first trading day near $111.",
+   "h": "Trinity Rep's A Christmas Carol Celebrates Its 50th Anniversary",
+   "sum": "Trinity Repertory Company's 50th-anniversary A Christmas Carol runs through Dec. 31 at the Dowling Theater in Providence, directed by Taavon Gamble.",
    "outlet": "Rhode Island Hurricane",
-   "url": "?story=tech-anthropic-nasdaq-debut-record-ipo-2026-11-21",
-   "story": "tech-anthropic-nasdaq-debut-record-ipo-2026-11-21",
-   "town": "National",
+   "url": "?story=trinity-rep-christmas-carol-50th-anniversary-2026",
+   "story": "trinity-rep-christmas-carol-50th-anniversary-2026",
+   "town": "Providence",
+   "date": "2026-11-21",
+   "rank": 2,
+   "lead": true
+  },
+  {
+   "h": "RI Philharmonic Plays 'Ride of the Valkyries!' at The VETS",
+   "sum": "Wagner, Clara Schumann's Piano Concerto, Dvorak and Ravel's La Valse, Saturday, Nov. 21 at 7:30 p.m. Tickets start at $25.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=ri-philharmonic-ride-of-the-valkyries",
+   "story": "ri-philharmonic-ride-of-the-valkyries",
+   "town": "Providence",
+   "date": "2026-11-21",
+   "rank": 2,
+   "box": true
+  },
+  {
+   "h": "Rhode Island Today and Tonight: Frozen, Sparkling Lights, Live Music",
+   "sum": "Frozen at 2 PM, Sparkling Lights at The Breakers at 4 PM, and John Cafferty and the Beaver Brown Band at 8 PM, with plenty more across the state.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-21",
+   "story": "today-and-tonight-2026-11-21",
+   "town": "Statewide",
+   "date": "2026-11-21",
+   "rank": 1
+  },
+  {
+   "h": "RISD Museum's Barkan Ceramics Show Runs Through March 2028",
+   "sum": "More than 100 works from the Barkan Contemporary Ceramic Collection are on view now at the RISD Museum in Providence.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=risd-museum-barkan-ceramics-shared-journey-2026",
+   "story": "risd-museum-barkan-ceramics-shared-journey-2026",
+   "town": "Providence",
    "date": "2026-11-21",
    "rank": 3
   },
   {
-   "h": "Voyager 1 Is Now One Light-Day From Earth",
-   "sum": "After more than 49 years in flight, NASA's farthest spacecraft has crossed a distance light needs a full day to travel.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=nat-voyager-1-one-light-day-from-earth-2026-11-21",
-   "story": "nat-voyager-1-one-light-day-from-earth-2026-11-21",
-   "town": "National",
+   "h": "Bowen's Wharf Lights Up Newport With Its 56th Christmas Tree Lighting",
+   "sum": "Santa arrives, local musicians and choruses perform, and the tree lights at 6 PM on Dec. 5.",
+   "outlet": "Visit Rhode Island",
+   "url": "https://www.visitrhodeisland.com/event/56th-annual-bowens-wharf-christmas-tree-lighting/109516/",
+   "town": "Newport",
    "date": "2026-11-21",
-   "rank": 3
+   "rank": 5
   },
   {
-   "h": "OpenAI's GPT-6.2 Astra and Sol Aim at Office Work, for Less",
-   "sum": "OpenAI's two new models promise better documents, code and design work at lower prices, as the race with Anthropic and Google tightens.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=tech-openai-gpt-6-2-astra-sol-release-2026-11-21",
-   "story": "tech-openai-gpt-6-2-astra-sol-release-2026-11-21",
-   "town": "National",
+   "h": "Bristol's Christmas Festival Returns to Unity Park on Dec. 5 and 6",
+   "sum": "Two days of live music, food trucks, a tree lighting and an outdoor market at no charge.",
+   "outlet": "Visit Rhode Island",
+   "url": "https://www.visitrhodeisland.com/event/bristol-christmas-festival/112606/",
+   "town": "Bristol",
    "date": "2026-11-21",
-   "rank": 3
+   "rank": 5
+  },
+  {
+   "h": "North Providence Library's Holiday Bazaar Brings 30 Vendors on Dec. 5",
+   "sum": "Handmade goods, Santa and the Grinch, live music and a thrift store at the library.",
+   "outlet": "Visit Rhode Island",
+   "url": "https://www.visitrhodeisland.com/event/holiday-bazaar-north-providence-library/112649/",
+   "town": "North Providence",
+   "date": "2026-11-21",
+   "rank": 6
   }
  ]
 }
