@@ -401,7 +401,7 @@ html body *[style*="background:#F2F1EC"],html body *[style*="background-color:#F
 </style><style id="noflags">html body #flagLine,html body .mast .fI{display:none!important}</style></head>
 <body>
 <noscript><p style="margin:0;padding:10px 14px;background:#C1121F;color:#fff;font:16px/1.5 Georgia,serif">Emergency: call 911. Crisis counseling 24/7: call or text 988 (988lifeline.org). Rhode Island BH Link, adults 18+: 401-414-5465. Kids&#8217; Link RI: 855-543-5465.</p></noscript>
-<title>Rhode Island Hurricane</title><script>window.T27={"a": "#2F7BFF", "k": "Rhode Island", "n": "HURRICANE", "tz": "America/New_York", "sis": [["New York City Scream", "https://newyorkcityscream.com/"], ["The Guitar Doug Report", "https://theguitardougreport.com/"], ["Jamestown Island News", "https://jamestownislandnews.com/"]]}</script><script src="theme27.js?v=12"></script>
+<title>Rhode Island Hurricane</title><script>window.T27={"a": "#2F7BFF", "k": "Rhode Island", "n": "HURRICANE", "tz": "America/New_York", "sis": [["New York City Scream", "https://newyorkcityscream.com/"], ["The Guitar Doug Report", "https://theguitardougreport.com/"], ["Jamestown Island News", "https://jamestownislandnews.com/"]]}</script><script src="theme27.js?v=14"></script>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1757,7 +1757,7 @@ async function cwLoad(force){if(!force&&Date.now()-CW.t<240000)return;const ago=
   if(Array.isArray(f))CW.fire=f;CW.t=Date.now();cwFill()}
 
 /* Front page: the week ahead in Rhode Island. Skips daily worship, meetings and services so real events stand out; one pick per event, grouped by day. */
-const JTSKIP=/^(worship|support|sports|drag)$/;const JTNOISE=/\b(mass|rosary|teen center|pantry|thrift|reconciliation|bible|prayer|morning glory|al-anon|aa meeting|step workshop|choir rehearsals?|chorus rehearsals?|rehearsals?|office hours)\b/i;
+const JTSKIP=/^(worship|support|sports|drag|recreation|community|volunteer|civic|family|fitness)$/;const JTNOISE=/\b(mass|rosary|teen center|pantry|thrift|reconciliation|bible|prayer|morning glory|al-anon|aa meeting|step workshop|choir rehearsals?|chorus rehearsals?|rehearsals?|office hours)\b/i;
 function jtWeekList(D,all){try{const end=addDays(todayKey,D||7);const now=new Date();const nowMin=now.getHours()*60+now.getMinutes();const mins=t=>{const v=window.__tm(t);return v==null?9999:v};const vn=v=>(v||'').toLowerCase().normalize('NFD').replace(/[^a-z]/g,'').replace(/^the/,'').slice(0,12);const seen=new Set(),per={};const out=[];
  for(const e of up){if(e.date<todayKey||e.date>end||JTSKIP.test(e.genre||'')||JTNOISE.test(e.artists||''))continue;if(e.date===todayKey&&mins(e.time)!==9999&&mins(e.time)<nowMin-30)continue;
   const k1=(e.artists||'').toLowerCase().replace(/\(.*?\)/g,'').replace(/[^a-z]/g,'').slice(0,24),k2=e.date+'|'+(e.time||'')+'|'+vn(e.venue);if(seen.has(k1)||seen.has(k2))continue;if(!all&&(per[e.date]||0)>=(D?6:2))continue;seen.add(k1);seen.add(k2);per[e.date]=(per[e.date]||0)+1;out.push(e);if(!all&&out.length>=(D?60:9))break}
@@ -3142,6 +3142,6 @@ go();addEventListener('DOMContentLoaded',go);setTimeout(go,1500)})();</script>
 <script>/* mark the current page so compact.css can hide the promo grid on information pages */
 (function(){let last;const tick=()=>{const v=(typeof STATE!=="undefined"&&STATE.view)||"";if(v!==last){last=v;document.documentElement.dataset.v=v}};tick();setInterval(tick,250)})();</script>
 <style id="riMast">html body header.mast,html:not(#z) body header.mast{background:linear-gradient(180deg,rgba(0,0,0,.1),rgba(0,0,0,.4)),url(img/mast-dome.jpg?v=4) center bottom/100% 100% no-repeat,#000!important;border-bottom:3px solid #C1121F!important}</style>
-<link rel="stylesheet" href="theme27.css?v=13">
+<link rel="stylesheet" href="theme27.css?v=14">
 </body>
 </html>
