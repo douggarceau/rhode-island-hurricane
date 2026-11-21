@@ -2569,6 +2569,153 @@
      "https://apply.workable.com/pavago/j/0424FD864F/"
     ]
    ]
+  },
+  {
+   "date": "2026-11-21",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Anduril",
+    "Mission Systems Program Manager, Autonomous Airpower ",
+    "4",
+    "Robotics / vision / autonomy",
+    "Costa Mesa, California, United States",
+    3,
+    "Not published",
+    "Role posting",
+    "$191,000—$254,000 USD",
+    "Minimum of 10 years experience managing the development of complex technical systems throughout the product lifecycle",
+    "",
+    "2026-11-03T15:02:30-05:00",
+    "https://boards.greenhouse.io/andurilindustries/jobs/5269855007?gh_jid=5269855007",
+    "Security clearance mentioned; inspect role-specific requirement",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Databricks",
+    "Software Engineer - New Grad (2027 Start) - Amsterdam",
+    "1",
+    "AI software / engineering",
+    "Amsterdam, Netherlands",
+    4,
+    "Not published",
+    "Role posting",
+    "",
+    "Early-career designation in employer title",
+    "",
+    "2023-09-01T07:35:12-04:00",
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=6866549002",
+    "",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Databricks",
+    "Software Engineer - New Grad (2027 Start) - Berlin",
+    "1",
+    "AI software / engineering",
+    "Berlin, Germany",
+    4,
+    "Not published",
+    "Role posting",
+    "",
+    "Early-career designation in employer title",
+    "",
+    "2023-09-01T07:36:46-04:00",
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=6886281002",
+    "",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "SeatGeek",
+    "Paid Social & Programmatic Analyst",
+    4,
+    "2+ years experience stated",
+    "Administration, data entry & operations",
+    "Remote - United States",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "USD 63,000–92,000 salary range; bonus separate",
+    "Degree mentioned; required/preferred distinction is in source; License or certification mentioned; check mandatory requirements",
+    "https://seatgeek.com/jobs/8180389?gh_jid=8180389",
+    0,
+    "Not published / not normalized",
+    [
+     "https://seatgeek.com/jobs/8180389?gh_jid=8180389"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Executive Assistant / Operations Assistant",
+    4,
+    "2+ years experience stated",
+    "Administration, data entry & operations",
+    "Colombia; Mexico; Peru; Argentina; Paraguay",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.",
+    "https://apply.workable.com/pavago/j/7B2DBEA3D4/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/7B2DBEA3D4/"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "SupportYourApp",
+    "(fluent English and Ukrainian) Legal Assistant (Ukraine)",
+    4,
+    "1+ year experience stated",
+    "Administration, data entry & operations",
+    "Ukraine; Kyiv, Kyiv city, Ukraine; Lviv Oblast, Ukraine; Odesa, Odesa Oblast, Ukraine; Cherkasy, Cherkasy Oblast, Ukraine",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Contract",
+    "",
+    "Advanced study mentioned; check program requirements; Contract / freelance wording in posting; confirm engagement terms",
+    "https://apply.workable.com/supportyourapp/j/393C34C738/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/supportyourapp/j/393C34C738/"
+    ]
+   ]
   }
  ]
 }
