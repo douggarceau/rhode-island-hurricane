@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-21T07:30:00-05:00",
+ "asof": "2026-11-22T07:30:00-05:00",
  "items": [
   {
    "h": "Haymitch Gets His Origin Story as Hunger Games Returns to Theaters",
@@ -9,16 +9,6 @@
    "story": "nat-hunger-games-sunrise-on-the-reaping-opens-2026-11-21",
    "town": "National",
    "date": "2026-11-21",
-   "rank": 3
-  },
-  {
-   "h": "Contemporary Theater Company Brings A Christmas Carol to Wakefield",
-   "sum": "Contemporary Theater Company stages A Christmas Carol in Wakefield on select dates through Dec. 20.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=contemporary-theater-company-christmas-carol-wakefield-2026",
-   "story": "contemporary-theater-company-christmas-carol-wakefield-2026",
-   "town": "Wakefield",
-   "date": "2026-11-14",
    "rank": 3
   },
   {
@@ -231,27 +221,6 @@
    "date": "2026-11-21",
    "rank": 2,
    "lead": true
-  },
-  {
-   "h": "RI Philharmonic Plays 'Ride of the Valkyries!' at The VETS",
-   "sum": "Wagner, Clara Schumann's Piano Concerto, Dvorak and Ravel's La Valse, Saturday, Nov. 21 at 7:30 p.m. Tickets start at $25.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=ri-philharmonic-ride-of-the-valkyries",
-   "story": "ri-philharmonic-ride-of-the-valkyries",
-   "town": "Providence",
-   "date": "2026-11-21",
-   "rank": 2,
-   "box": true
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Frozen, Sparkling Lights, Live Music",
-   "sum": "Frozen at 2 PM, Sparkling Lights at The Breakers at 4 PM, and John Cafferty and the Beaver Brown Band at 8 PM, with plenty more across the state.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-21",
-   "story": "today-and-tonight-2026-11-21",
-   "town": "Statewide",
-   "date": "2026-11-21",
-   "rank": 1
   },
   {
    "h": "RISD Museum's Barkan Ceramics Show Runs Through March 2028",
