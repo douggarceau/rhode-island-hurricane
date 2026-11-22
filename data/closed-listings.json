@@ -2716,6 +2716,75 @@
      "https://apply.workable.com/supportyourapp/j/393C34C738/"
     ]
    ]
+  },
+  {
+   "date": "2026-11-22",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "deadline 2026-11-21 passed",
+   "item": [
+    "Fidelity Investments",
+    "Director, AI Learning & Enablement",
+    "5",
+    "AI business / adoption / technical content",
+    "Boston, MA",
+    1,
+    "Not published",
+    "Role posting",
+    "$95,000-186,000 USD per year",
+    "Leadership title; editorial level mapping",
+    "2026-11-21",
+    "2026-11-06",
+    "https://fmr.wd1.myworkdayjobs.com/en-US/FidelityCareers/job/Boston-MA/Director--AI-Learning---Enablement_2137055-1",
+    "Sponsorship restriction mentioned",
+    "Full time"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "ElevenLabs",
+    "Research Engineer - Inference",
+    "U",
+    "AI research / machine learning",
+    "United Kingdom; United States; Poland; Bulgaria",
+    2,
+    "Remote",
+    "Role posting",
+    "",
+    "Employer seniority not established; do not label entry-level",
+    "",
+    "2026-08-28T10:12:39.272+00:00",
+    "https://jobs.ashbyhq.com/ElevenLabs/2d7f9a7c-a9e6-4877-bb38-34e4d989054c/application",
+    "",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-22",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Databricks",
+    "Director, Marketing Strategy and AI Transformation",
+    "5",
+    "AI business / adoption / technical content",
+    "United States",
+    3,
+    "Not published",
+    "Role posting",
+    "$221,800—$305,050 USD; $199,700—$274,550 USD; $188,600—$259,250 USD; $177,400—$244,000 USD",
+    "Leadership title; editorial level mapping",
+    "",
+    "2026-08-28T12:38:10-04:00",
+    "https://databricks.com/company/careers/open-positions/job?gh_jid=8735590002",
+    "",
+    "Not published"
+   ]
   }
  ]
 }
