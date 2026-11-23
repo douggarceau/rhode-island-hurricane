@@ -2785,6 +2785,81 @@
     "",
     "Not published"
    ]
+  },
+  {
+   "date": "2026-11-23",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "SambaNova",
+    "Design Verification Engineer",
+    "3",
+    "AI software / engineering",
+    "San Jose, California, United States",
+    3,
+    "Not published",
+    "Role posting",
+    "$120,000—$200,000 USD",
+    "5+ years relevant industry experience",
+    "",
+    "2026-08-18T15:26:58-04:00",
+    "https://sambanova.ai/sambanova-available-positions/?gh_jid=6146139004",
+    "",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Twilio",
+    "Sales Development Representative 2",
+    3,
+    "1+ year preferred",
+    "Sales & business development",
+    "Remote - United Kingdom",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Language proficiency requirement; see title and source",
+    "https://job-boards.greenhouse.io/twilio/jobs/8112239",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/twilio/jobs/8112239"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "SupportYourApp",
+    "(fluent English and Ukrainian) Legal Assistant (Poland)",
+    4,
+    "1+ year experience stated",
+    "Administration, data entry & operations",
+    "Poland; Warsaw, Masovian Voivodeship, Poland; Kraków, Lesser Poland Voivodeship, Poland; Gdańsk, Pomeranian Voivodeship, Poland; Wrocław, Lower Silesian Voivode",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Contract",
+    "",
+    "Advanced study mentioned; check program requirements; Contract / freelance wording in posting; confirm engagement terms",
+    "https://apply.workable.com/supportyourapp/j/8A296F920F/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/supportyourapp/j/8A296F920F/"
+    ]
+   ]
   }
  ]
 }
