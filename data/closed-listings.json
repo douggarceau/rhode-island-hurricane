@@ -2860,6 +2860,227 @@
      "https://apply.workable.com/supportyourapp/j/8A296F920F/"
     ]
    ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "seniorjobs.json",
+   "section": "jobs",
+   "reason": "page returns 410",
+   "item": {
+    "id": "2026-564493",
+    "employer": "Enterprise Mobility",
+    "title": "Part Time Driver – Cranston",
+    "municipality": "Cranston",
+    "state": "RI",
+    "pay": "$16.25/hour",
+    "schedule": "Three weekdays 8 a.m.–4:30 p.m.; one Saturday/month 8 a.m.–1 p.m.",
+    "experience_label": "Prior general experience required",
+    "requirements": "Unrestricted driver license and driving-record standards; at least six consecutive months prior work/organizational experience (source sentence incomplete)",
+    "physical_duties": "Drive fleet vehicles; may clean vehicles",
+    "source_url": "https://us-erac.icims.com/jobs/564493/part-time-driver---cranston/job?in_iframe=1",
+    "apply_url": "https://us-erac.icims.com/jobs/564493/part-time-driver---cranston/job?in_iframe=1",
+    "source_type": "official_employer_or_authorized_ATS",
+    "status": "official_posting_present",
+    "last_checked": "2026-11-12",
+    "recruiting_phone": "not published",
+    "recruiting_email": "not published",
+    "address": "10 Senator Street",
+    "priority": 3,
+    "notes": "Title says Cranston; description specifies Warwick worksite. Confirm actual reporting location and complete experience requirement."
+   }
+  },
+  {
+   "date": "2026-11-24",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Anduril",
+    "Winter 2027 Robotics Engineer Co-op",
+    "1",
+    "Robotics / vision / autonomy",
+    "Quincy, Massachusetts, United States",
+    1,
+    "Not published",
+    "Internship",
+    "$42—$60 USD",
+    "Employer identifies a student co-op",
+    "",
+    "2026-10-21T17:53:20-04:00",
+    "https://boards.greenhouse.io/andurilindustries/jobs/5271842007?gh_jid=5271842007",
+    "Student enrollment / degree timing mentioned; Security clearance mentioned; inspect role-specific requirement; US-person / citizenship condition mentioned",
+    "Co-op"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Anduril",
+    "Senior Quality Engineer, Applied AI",
+    "3",
+    "Applied AI / customer solutions",
+    "Boston, Massachusetts, United States",
+    1,
+    "Not published",
+    "Role posting",
+    "$146,000—$194,000 USD",
+    "5+ years of experience in software engineering, site reliability engineering, quality engineering, infrastructure engineering, or a closely related role in a fast-paced",
+    "",
+    "2026-09-29T14:54:22-04:00",
+    "https://boards.greenhouse.io/andurilindustries/jobs/5252222007?gh_jid=5252222007",
+    "Security clearance mentioned; inspect role-specific requirement; US-person / citizenship condition mentioned",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Snorkel AI",
+    "Research Lead, Open Benchmarks Grants",
+    "3",
+    "AI research / machine learning",
+    "New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
+    2,
+    "Remote",
+    "Role posting",
+    "$231,000—$390,000 USD",
+    "Senior/lead title; editorial level mapping",
+    "",
+    "2026-11-02T17:14:16-05:00",
+    "https://job-boards.greenhouse.io/snorkelai/jobs/6240913004",
+    "Doctoral background mentioned; check required versus preferred",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Snorkel AI",
+    "Director, Forward Deployed Researcher - Data as a Service",
+    "4",
+    "Applied AI / customer solutions",
+    "New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
+    2,
+    "Remote",
+    "Role posting",
+    "$228,800–$403,200,; $228,000—$403,200 USD",
+    "8+ years of experience in applied ML, AI solutions engineering, technical presales, or research-intensive customer-facing roles",
+    "",
+    "2026-03-25T16:12:31-04:00",
+    "https://job-boards.greenhouse.io/snorkelai/jobs/5837448004",
+    "",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Scale AI",
+    "Software Engineering Intern (Summer 2027) ",
+    "1",
+    "AI software / engineering",
+    "London, UK",
+    4,
+    "Not published",
+    "Internship",
+    "",
+    "Early-career designation in employer title",
+    "",
+    "2026-09-14T09:12:21-04:00",
+    "https://job-boards.greenhouse.io/scaleai/jobs/4730846005",
+    "",
+    "Internship"
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Affirm",
+    "Product Support Specialist I (Merchant Care)",
+    4,
+    "2+ years experience stated",
+    "Customer service & technical support",
+    "Remote Canada",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Degree mentioned; required/preferred distinction is in source; Language proficiency requirement; see title and source",
+    "https://job-boards.greenhouse.io/affirm/jobs/8013700003",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/affirm/jobs/8013700003"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "Quo",
+    "Junior Fullstack Engineer",
+    4,
+    "2 years experience stated",
+    "Software, IT & quality assurance",
+    "Remote - San Francisco; Remote - New York City; Remote - Vancouver; Remote - Toronto",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Full time",
+    "",
+    "",
+    "https://jobs.ashbyhq.com/quo/cfc3ade0-d34d-4d11-953e-637d3b88b6e1",
+    0,
+    "Not published / not normalized",
+    [
+     "https://jobs.ashbyhq.com/quo/cfc3ade0-d34d-4d11-953e-637d3b88b6e1"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Sword Health",
+    "QA Analyst, Mind",
+    4,
+    "1–2 years experience stated",
+    "Software, IT & quality assurance",
+    "Remote - Portugal",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "€24.150 — €37.950 (period: see posting)",
+    "Language proficiency requirement; see title and source",
+    "https://job-boards.greenhouse.io/swordhealth/jobs/4474149009",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/swordhealth/jobs/4474149009"
+    ]
+   ]
   }
  ]
 }
