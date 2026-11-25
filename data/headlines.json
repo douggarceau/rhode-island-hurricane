@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-24T07:27:17-05:00",
+ "asof": "2026-11-25T08:00:00-05:00",
  "items": [
   {
    "h": "Haymitch Gets His Origin Story as Hunger Games Returns to Theaters",
@@ -12,44 +12,15 @@
    "rank": 3
   },
   {
-   "h": "Warren's Holiday Festival Lights Up Main Street on Nov. 27",
-   "sum": "A town-wide Friday of holiday events in downtown Warren, ending with the Main Street tree lighting.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=warren-holiday-festival-friday-2026",
-   "story": "warren-holiday-festival-friday-2026",
-   "town": "Warren",
-   "date": "2026-11-17",
-   "rank": 4
-  },
-  {
-   "h": "Ocean State Artisans' Holiday Market Opens in Wakefield",
-   "sum": "Handmade goods and a food drive at South Kingstown High School on Nov. 27 and 28.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=ocean-state-artisans-holiday-market-2026",
-   "story": "ocean-state-artisans-holiday-market-2026",
-   "town": "Wakefield",
-   "date": "2026-11-17",
-   "rank": 6
-  },
-  {
-   "h": "State Ballet of Rhode Island's Coppélia Dances at RIC on Dec. 12",
-   "sum": "A holiday ballet of love and mischief with life-sized dancing dolls, one performance on Saturday, Dec. 12 at 2 p.m. in Roberts Hall, Providence.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=coppelia-state-ballet-roberts-hall-2026",
-   "story": "coppelia-state-ballet-roberts-hall-2026",
-   "town": "Providence",
-   "date": "2026-11-17",
-   "rank": 5
-  },
-  {
-   "h": "Cirque du Soleil's 'Twas the Night Before Plays PPAC Through Dec. 6",
-   "sum": "The holiday show is on stage at PPAC through early December.",
+   "h": "Cirque's 'Twas the Night Before Is Running at PPAC Through Dec. 6",
+   "sum": "The holiday show is on at the Providence Performing Arts Center tonight at 7 PM.",
    "outlet": "Rhode Island Hurricane",
    "url": "?story=cirque-twas-the-night-before-ppac-2026",
    "story": "cirque-twas-the-night-before-ppac-2026",
    "town": "Providence",
-   "date": "2026-11-18",
-   "rank": 2
+   "date": "2026-11-25",
+   "rank": 2,
+   "box": true
   },
   {
    "h": "RICCO Brings Handel's Messiah to All Saints in Providence",
@@ -100,16 +71,6 @@
    "town": "Newport",
    "date": "2026-11-20",
    "rank": 3
-  },
-  {
-   "h": "Trinity Rep's A Christmas Carol Celebrates Its 50th Anniversary",
-   "sum": "Trinity Repertory Company's 50th-anniversary A Christmas Carol runs through Dec. 31 at the Dowling Theater in Providence, directed by Taavon Gamble.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=trinity-rep-christmas-carol-50th-anniversary-2026",
-   "story": "trinity-rep-christmas-carol-50th-anniversary-2026",
-   "town": "Providence",
-   "date": "2026-11-21",
-   "rank": 2
   },
   {
    "h": "RISD Museum's Barkan Ceramics Show Runs Through March 2028",
@@ -184,21 +145,21 @@
    "outlet": "Rhode Island Hurricane",
    "url": "?story=perreoland-nicky-jam-amica-2026-11-28",
    "story": "perreoland-nicky-jam-amica-2026-11-28",
-   "lead": true,
    "town": "Providence",
-   "date": "2026-11-24",
-   "rank": 2
+   "date": "2026-11-25",
+   "rank": 2,
+   "lead": true
   },
   {
-   "h": "Cirque's 'Twas the Night Before Starts Its Run at PPAC Tonight",
-   "sum": "The holiday show plays PPAC through Dec. 6, with the first curtain at 7:00 PM tonight.",
+   "h": "Cirque's 'Twas the Night Before Is Running at PPAC Through Dec. 6",
+   "sum": "The holiday show is on at the Providence Performing Arts Center tonight at 7 PM.",
    "outlet": "Rhode Island Hurricane",
    "url": "?story=cirque-twas-the-night-before-ppac-2026",
    "story": "cirque-twas-the-night-before-ppac-2026",
-   "box": true,
    "town": "Providence",
-   "date": "2026-11-24",
-   "rank": 2
+   "date": "2026-11-25",
+   "rank": 2,
+   "box": true
   },
   {
    "h": "Turnover Stops at Fête's Ballroom on Dec. 1",
@@ -208,16 +169,6 @@
    "town": "Providence",
    "date": "2026-11-24",
    "rank": 4
-  },
-  {
-   "h": "Rhode Island Today and Tonight: Cirque at PPAC and a Gallery Morning",
-   "sum": "Gallery hours, a library film and the Cirque show, all on Tuesday.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-24",
-   "story": "today-and-tonight-2026-11-24",
-   "town": "Statewide",
-   "date": "2026-11-24",
-   "rank": 1
   },
   {
    "h": "Fusion Has Record Money. It Still Needs $80 Billion More.",
@@ -238,6 +189,16 @@
    "town": "National",
    "date": "2026-11-24",
    "rank": 3
+  },
+  {
+   "h": "Today and Tonight: Cirque at PPAC, a Gallery Morning and a Club Night",
+   "sum": "Four picks for Wednesday, from PPAC to the Providence club rooms.",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-25",
+   "story": "today-and-tonight-2026-11-25",
+   "town": "Statewide",
+   "date": "2026-11-25",
+   "rank": 1
   }
  ]
 }
