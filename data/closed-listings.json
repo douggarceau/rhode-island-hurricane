@@ -3081,6 +3081,324 @@
      "https://job-boards.greenhouse.io/swordhealth/jobs/4474149009"
     ]
    ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "majors.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "employer_id": "citizens",
+    "requisition_id": "50223",
+    "title": "Citizens Teller - Part Time",
+    "city": "Providence",
+    "state": "RI",
+    "address": "792 Hope Street",
+    "skill_level": "early_career_one_year",
+    "requirements": "High-school diploma/GED; at least one year of customer experience and six months processing payments. Video assessment follows application.",
+    "pay": {
+     "min": 20.67,
+     "max": 25.48,
+     "currency": "USD",
+     "period": "hour",
+     "note": "Posting advertises starting pay of $21/hour and up, alongside this broader range."
+    },
+    "employment_type": "part_time",
+    "hours_per_week": 20,
+    "shift": "Branch schedule; possible evenings/weekends",
+    "work_arrangement": "on_site",
+    "posted_date": "2026-11-02",
+    "closing_date": "2027-01-02",
+    "status": "official_listing_available",
+    "application_instructions": "Open the official listing and use its Apply link.",
+    "source_url": "https://jobs.citizensbank.com/en/job/providence/citizens-teller-part-time/288/102785840416",
+    "checked_on": "2026-11-12"
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "file": "seniorjobs.json",
+   "section": "jobs",
+   "reason": "page returns 404",
+   "item": {
+    "id": "50223",
+    "employer": "Citizens",
+    "title": "Citizens Teller – Part Time",
+    "municipality": "Providence",
+    "state": "RI",
+    "pay": "Headline $21+/hour; published range $20.67–$25.48/hour",
+    "schedule": "20 hours/week; branch needs may include evenings/weekends",
+    "experience_label": "Employer calls entry level but requires previous experience",
+    "requirements": "HS/GED; six months payment processing plus one year customer experience; video assessment",
+    "physical_duties": "Customer assistance and transactions; seated availability not stated",
+    "source_url": "https://jobs.citizensbank.com/job/providence/citizens-teller-part-time/288/102785840416",
+    "apply_url": "https://jobs.citizensbank.com/job/providence/citizens-teller-part-time/288/102785840416",
+    "source_type": "official_employer_or_authorized_ATS",
+    "status": "official_posting_present",
+    "last_checked": "2026-11-12",
+    "recruiting_phone": "not published",
+    "recruiting_email": "not published",
+    "address": "792 Hope Street",
+    "priority": 3,
+    "posted_date": "2026-11-02",
+    "closing_date": "2027-01-02",
+    "notes": "Retain both pay statements and confirm offer; no-experience badge is inappropriate."
+   }
+  },
+  {
+   "date": "2026-11-25",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Snorkel AI",
+    "Research Scientist",
+    "4",
+    "AI research / machine learning",
+    "New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
+    2,
+    "Remote",
+    "Role posting",
+    "$200,000—$375,000 USD",
+    "Specialist research scope and doctoral background mentioned; inferred",
+    "",
+    "2025-10-28T12:08:24-04:00",
+    "https://job-boards.greenhouse.io/snorkelai/jobs/5690608004",
+    "Doctoral background mentioned; check required versus preferred",
+    "Not published"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "ElevenLabs",
+    "Applied AI Engineer",
+    "U",
+    "Applied AI / customer solutions",
+    "United Kingdom; Dublin; Spain; Hungary; Bulgaria; Germany; Poland; Italy; Netherlands; France",
+    2,
+    "Remote",
+    "Role posting",
+    "",
+    "Employer seniority not established; do not label entry-level",
+    "",
+    "2026-10-21T14:47:12.926+00:00",
+    "https://jobs.ashbyhq.com/ElevenLabs/b8a111fa-9fd5-44d0-97ed-8fd1280be4ef/application",
+    "",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "ElevenLabs",
+    "Enterprise Solutions Engineer - USA",
+    "U",
+    "Applied AI / customer solutions",
+    "United States; New York; San Francisco",
+    2,
+    "Remote",
+    "Role posting",
+    "",
+    "Employer seniority not established; do not label entry-level",
+    "",
+    "2026-05-06T03:42:33.315+00:00",
+    "https://jobs.ashbyhq.com/ElevenLabs/275f43d0-b62d-401d-830c-7c1ac0e688aa/application",
+    "",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "Baseten",
+    "Sales Manager - AI Native (San Francisco)",
+    "2",
+    "AI business / adoption / technical content",
+    "San Francisco",
+    3,
+    "Hybrid",
+    "Role posting",
+    "$300K – $340K • Offers Equity • 50/50 split between base salary and variable compensation",
+    "4+ years of closing sales experience, with 2+ years in management leading high-performing teams.",
+    "",
+    "2025-12-09T17:57:37.179+00:00",
+    "https://jobs.ashbyhq.com/baseten/b1b5ab31-f90c-41f9-b9f2-13408b1c072b/application",
+    "",
+    "FullTime"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Coinbase",
+    "Specialist, Market Operations",
+    4,
+    "1+ years experience stated",
+    "Finance, billing & compliance",
+    "Remote - UK; Remote - Singapore; Remote - USA",
+    "US or Americas mentioned",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "GBP 81,630–90,700 annual base for primary UK posting; other country variants differ",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Degree mentioned; required/preferred distinction is in source; Contract / freelance wording in posting; confirm engagement terms",
+    "https://www.coinbase.com/careers/positions/8222267?gh_jid=8222267",
+    0,
+    "Not published / not normalized",
+    [
+     "https://www.coinbase.com/careers/positions/8222267?gh_jid=8222267",
+     "https://www.coinbase.com/careers/positions/8222264?gh_jid=8222264",
+     "https://www.coinbase.com/careers/positions/8222259?gh_jid=8222259"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Lever: posting removed",
+   "item": [
+    "Welo Global / Welo Data",
+    "Non-Linguistic Quality Control Specialists (Europe)",
+    4,
+    "6 months experience stated",
+    "AI training & data evaluation",
+    "Remote - Europe",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Freelance / independent contractor (description)",
+    "",
+    "License or certification mentioned; check mandatory requirements; Assessment / qualification screening mentioned; Language proficiency requirement; see title and source; Contract / freelance wording in posting; confirm engagement terms",
+    "https://jobs.lever.co/weloglobal/d57dcf1b-039a-4ed3-b683-3c0cb60e7e25",
+    0,
+    "Not published / not normalized",
+    [
+     "https://jobs.lever.co/weloglobal/d57dcf1b-039a-4ed3-b683-3c0cb60e7e25"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Accounting & Finance Coordinator",
+    4,
+    "2+ years experience stated",
+    "Finance, billing & compliance",
+    "Philippines; South Africa; Mexico; Colombia; Costa Rica; Brazil; Honduras",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://apply.workable.com/pavago/j/E454953771/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/E454953771/",
+     "https://apply.workable.com/pavago/j/B72C5BAD0B/",
+     "https://apply.workable.com/pavago/j/96EB6DBF51/"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Ashby: no longer on the board",
+   "item": [
+    "Headway",
+    "Business Development Associate, Care Partnerships",
+    4,
+    "1+ year experience stated",
+    "Healthcare administration & support",
+    "Remote",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Full time",
+    "$70K – $77K • Offers Equity • Offers Commission (employer range; location/level conditions apply)",
+    "Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://jobs.ashbyhq.com/headway/19d3bb5e-f5fc-4bd4-9a08-c479f5b0969e",
+    0,
+    "Not published / not normalized",
+    [
+     "https://jobs.ashbyhq.com/headway/19d3bb5e-f5fc-4bd4-9a08-c479f5b0969e"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Workable: no longer on the board",
+   "item": [
+    "Pavago",
+    "Appointment Setter",
+    4,
+    "2+ years experience stated",
+    "Sales & business development",
+    "Argentina; Mexico; Honduras; Brazil; Costa Rica; Peru; Colombia; Pakistan; Dubai, Dubai, United Arab Emirates; Abu Dhabi, Abu Dhabi, United Arab Emirates; Qatar",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "",
+    "https://apply.workable.com/pavago/j/FB3ED808DD/",
+    1,
+    "Not published / not normalized",
+    [
+     "https://apply.workable.com/pavago/j/FB3ED808DD/",
+     "https://apply.workable.com/pavago/j/251CBC3747/",
+     "https://apply.workable.com/pavago/j/218B73A334/",
+     "https://apply.workable.com/pavago/j/A5248DE0CA/"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Samsara",
+    "Commercial Account Executive",
+    4,
+    "1+ years experience stated",
+    "Sales & business development",
+    "Remote - Canada",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "$140,500 — $154,550 per year",
+    "Check any onboarding, event, or travel conditions in the employer posting.; Sales incentives / OTE mentioned; do not treat OTE as guaranteed base pay",
+    "https://www.samsara.com/company/careers/roles/7612493?gh_jid=7612493",
+    0,
+    "Not published / not normalized",
+    [
+     "https://www.samsara.com/company/careers/roles/7612493?gh_jid=7612493"
+    ]
+   ]
   }
  ]
 }

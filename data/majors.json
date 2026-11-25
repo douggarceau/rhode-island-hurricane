@@ -751,33 +751,6 @@
   },
   {
    "employer_id": "citizens",
-   "requisition_id": "50223",
-   "title": "Citizens Teller - Part Time",
-   "city": "Providence",
-   "state": "RI",
-   "address": "792 Hope Street",
-   "skill_level": "early_career_one_year",
-   "requirements": "High-school diploma/GED; at least one year of customer experience and six months processing payments. Video assessment follows application.",
-   "pay": {
-    "min": 20.67,
-    "max": 25.48,
-    "currency": "USD",
-    "period": "hour",
-    "note": "Posting advertises starting pay of $21/hour and up, alongside this broader range."
-   },
-   "employment_type": "part_time",
-   "hours_per_week": 20,
-   "shift": "Branch schedule; possible evenings/weekends",
-   "work_arrangement": "on_site",
-   "posted_date": "2026-11-02",
-   "closing_date": "2027-01-02",
-   "status": "official_listing_available",
-   "application_instructions": "Open the official listing and use its Apply link.",
-   "source_url": "https://jobs.citizensbank.com/en/job/providence/citizens-teller-part-time/288/102785840416",
-   "checked_on": "2026-11-12"
-  },
-  {
-   "employer_id": "citizens",
    "requisition_id": "50088",
    "title": "Citizens Teller",
    "city": "Warwick",
@@ -1097,8 +1070,8 @@
   "excluded_listings": 5
  },
  "listing_check": {
-  "date": "2026-11-24",
-  "removed": 0,
+  "date": "2026-11-25",
+  "removed": 1,
   "unverified": 0,
   "held": false
  }
