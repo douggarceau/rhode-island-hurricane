@@ -1070,8 +1070,8 @@
   "excluded_listings": 5
  },
  "listing_check": {
-  "date": "2026-11-25",
-  "removed": 1,
+  "date": "2026-11-26",
+  "removed": 0,
   "unverified": 0,
   "held": false
  }
