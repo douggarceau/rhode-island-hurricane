@@ -1,16 +1,6 @@
 {
- "asof": "2026-11-25T08:00:00-05:00",
+ "asof": "2026-11-26T07:30:00-05:00",
  "items": [
-  {
-   "h": "Haymitch Gets His Origin Story as Hunger Games Returns to Theaters",
-   "sum": "Sunrise on the Reaping is in theaters, with trackers betting it opens bigger than any Hunger Games film in a decade.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=nat-hunger-games-sunrise-on-the-reaping-opens-2026-11-21",
-   "story": "nat-hunger-games-sunrise-on-the-reaping-opens-2026-11-21",
-   "town": "National",
-   "date": "2026-11-21",
-   "rank": 3
-  },
   {
    "h": "Cirque's 'Twas the Night Before Is Running at PPAC Through Dec. 6",
    "sum": "The holiday show is on at PPAC tonight at 7 PM.",
@@ -21,16 +11,6 @@
    "date": "2026-11-25",
    "rank": 2,
    "box": true
-  },
-  {
-   "h": "RICCO Brings Handel's Messiah to All Saints in Providence",
-   "sum": "Two December performances feature the Brown University Chorus and the chorale's professional orchestra.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=ricco-messiah-all-saints-providence-dec-2026",
-   "story": "ricco-messiah-all-saints-providence-dec-2026",
-   "town": "Providence",
-   "date": "2026-11-18",
-   "rank": 3
   },
   {
    "h": "Foundry Artists' Holiday Show Brings 65 Artists to Pawtucket",
@@ -151,17 +131,6 @@
    "lead": true
   },
   {
-   "h": "Cirque's 'Twas the Night Before Is Running at PPAC Through Dec. 6",
-   "sum": "The holiday show is on at PPAC tonight at 7 PM.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=cirque-twas-the-night-before-ppac-2026",
-   "story": "cirque-twas-the-night-before-ppac-2026",
-   "town": "Providence",
-   "date": "2026-11-25",
-   "rank": 2,
-   "box": true
-  },
-  {
    "h": "Turnover Stops at Fête's Ballroom on Dec. 1",
    "sum": "The Down on Earth Tour plays Providence, according to the ticket listing.",
    "outlet": "Stereoboard",
@@ -189,16 +158,6 @@
    "town": "National",
    "date": "2026-11-24",
    "rank": 3
-  },
-  {
-   "h": "Today and Tonight: Cirque at PPAC, a Gallery Morning and a Club Night",
-   "sum": "Four picks for Wednesday, from PPAC to the Providence club rooms.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=today-and-tonight-2026-11-25",
-   "story": "today-and-tonight-2026-11-25",
-   "town": "Statewide",
-   "date": "2026-11-25",
-   "rank": 1
   },
   {
    "h": "Gemini 4 Neon Undercuts Its Big Brother as AI Models Start Looping",
