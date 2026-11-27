@@ -1,5 +1,5 @@
 {
- "asof": "2026-11-26T07:30:00-05:00",
+ "asof": "2026-11-27T08:00:00-05:00",
  "items": [
   {
    "h": "Cirque's 'Twas the Night Before Is Running at PPAC Through Dec. 6",
@@ -11,36 +11,6 @@
    "date": "2026-11-25",
    "rank": 2,
    "box": true
-  },
-  {
-   "h": "Foundry Artists' Holiday Show Brings 65 Artists to Pawtucket",
-   "sum": "Thursday, Dec. 3 at the Pawtucket Armory Center for the Arts, with original art and handmade gifts from 65 artists.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=foundry-artists-holiday-show-pawtucket-2026",
-   "story": "foundry-artists-holiday-show-pawtucket-2026",
-   "town": "Pawtucket",
-   "date": "2026-11-19",
-   "rank": 4
-  },
-  {
-   "h": "Christmas in the Valley Brings Fine Art and Craft to Foster",
-   "sum": "Friday, Nov. 27 through Sunday, Nov. 29 at the Foster Country Club, with fine art and fine craft exhibitors and no food booths.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=christmas-in-the-valley-foster-2026",
-   "story": "christmas-in-the-valley-foster-2026",
-   "town": "Foster",
-   "date": "2026-11-19",
-   "rank": 6
-  },
-  {
-   "h": "A Live Radio Play of It's a Wonderful Life Comes to Woonsocket",
-   "sum": "Dec. 3 through Dec. 6 at the Stadium Theatre, with a cast of a few dozen telling George Bailey's story as a 1940s radio broadcast.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=its-a-wonderful-life-radio-play-woonsocket-2026",
-   "story": "its-a-wonderful-life-radio-play-woonsocket-2026",
-   "town": "Woonsocket",
-   "date": "2026-11-19",
-   "rank": 5
   },
   {
    "h": "Newport's Jessica Hagen Gallery Opens Its 21st Holiday Show",
@@ -63,53 +33,6 @@
    "rank": 3
   },
   {
-   "h": "Bowen's Wharf Lights Up Newport With Its 56th Christmas Tree Lighting",
-   "sum": "Santa arrives, local musicians and choruses perform, and the tree lights at 6 PM on Dec. 5.",
-   "outlet": "Visit Rhode Island",
-   "url": "https://www.visitrhodeisland.com/event/56th-annual-bowens-wharf-christmas-tree-lighting/109516/",
-   "town": "Newport",
-   "date": "2026-11-21",
-   "rank": 5
-  },
-  {
-   "h": "Bristol's Christmas Festival Returns to Unity Park on Dec. 5 and 6",
-   "sum": "Two days of live music, food trucks, a tree lighting and an outdoor market at no charge.",
-   "outlet": "Visit Rhode Island",
-   "url": "https://www.visitrhodeisland.com/event/bristol-christmas-festival/112606/",
-   "town": "Bristol",
-   "date": "2026-11-21",
-   "rank": 5
-  },
-  {
-   "h": "North Providence Library's Holiday Bazaar Brings 30 Vendors on Dec. 5",
-   "sum": "Handmade goods, Santa and the Grinch, live music and a thrift store at the library.",
-   "outlet": "Visit Rhode Island",
-   "url": "https://www.visitrhodeisland.com/event/holiday-bazaar-north-providence-library/112649/",
-   "town": "North Providence",
-   "date": "2026-11-21",
-   "rank": 6
-  },
-  {
-   "h": "Xpeng Puts Its Iron Humanoid on Stage Wednesday. The Clock Is Ticking",
-   "sum": "The Chinese EV maker's AI Day on Nov. 25 is its last big show before its own deadline to mass-produce a walking robot.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=tech-xpeng-ai-day-iron-humanoid-robot-2026-11-22",
-   "story": "tech-xpeng-ai-day-iron-humanoid-robot-2026-11-22",
-   "town": "National",
-   "date": "2026-11-22",
-   "rank": 3
-  },
-  {
-   "h": "The Fockers Crash Thanksgiving, Up Against Disney and Haymitch",
-   "sum": "Focker-In-Law opens Wednesday against Disney's Hexed and a second weekend of the new Hunger Games.",
-   "outlet": "Rhode Island Hurricane",
-   "url": "?story=nat-focker-in-law-hexed-thanksgiving-box-office-2026-11-22",
-   "story": "nat-focker-in-law-hexed-thanksgiving-box-office-2026-11-22",
-   "town": "National",
-   "date": "2026-11-22",
-   "rank": 3
-  },
-  {
    "h": "Waymo Takes the Exit: Robotaxis Pulled Off Highways in Five Metros",
    "sum": "After California called its driverless highway runs a public safety hazard, Waymo stopped highway rides everywhere it offered them, with no restart date.",
    "outlet": "Rhode Island Hurricane",
@@ -129,15 +52,6 @@
    "date": "2026-11-25",
    "rank": 2,
    "lead": true
-  },
-  {
-   "h": "Turnover Stops at Fête's Ballroom on Dec. 1",
-   "sum": "The Down on Earth Tour plays Providence, according to the ticket listing.",
-   "outlet": "Stereoboard",
-   "url": "https://www.stereoboard.com/turnover-tickets/providence/2026-12-01",
-   "town": "Providence",
-   "date": "2026-11-24",
-   "rank": 4
   },
   {
    "h": "Fusion Has Record Money. It Still Needs $80 Billion More.",
@@ -208,6 +122,16 @@
    "town": "National",
    "date": "2026-11-26",
    "rank": 3
+  },
+  {
+   "h": "Friday Night Lineup: Cirque at PPAC, Shaun Cassidy and Ornament",
+   "sum": "Tonight's short list of shows, lights and markets, with times and towns",
+   "outlet": "Rhode Island Hurricane",
+   "url": "?story=today-and-tonight-2026-11-27",
+   "story": "today-and-tonight-2026-11-27",
+   "town": "Statewide",
+   "date": "2026-11-27",
+   "rank": 1
   }
  ]
 }
