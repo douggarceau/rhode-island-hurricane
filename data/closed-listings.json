@@ -3472,6 +3472,107 @@
      "https://apply.workable.com/supportyourapp/j/D7466C2FA1/"
     ]
    ]
+  },
+  {
+   "date": "2026-11-27",
+   "file": "aijobs.json",
+   "section": "jobs",
+   "reason": "Workday: posting removed",
+   "item": [
+    "CVS Health",
+    "Principal Software Development Engineer (PBM AI Solutions)",
+    "4",
+    "Applied AI / customer solutions",
+    "IL - Buffalo Grove",
+    2,
+    "Remote",
+    "Role posting",
+    "$144,200.00 - $288,400.00",
+    "5+ years in hands on experience as senior/principal/architect roles building cloud native applications with cloud technologies such as GCP, AWS, AZURE, GKE,",
+    "2026-11-27",
+    "2026-11-03",
+    "https://cvshealth.wd1.myworkdayjobs.com/en-US/CVS_Health_Careers/job/IL---Buffalo-Grove/Principal-Software-Development-Engineer--PBM-AI-Solutions-_R0907616",
+    "",
+    "Full time"
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Testlio",
+    "Freelance Software Tester (Remote in Martinique)",
+    0,
+    "No prior experience required",
+    "Software, IT & quality assurance",
+    "Remote in AMER",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Freelance / independent contractor (description)",
+    "USD 12 per hour",
+    "Contract / freelance wording in posting; confirm engagement terms",
+    "https://job-boards.greenhouse.io/testlio/jobs/8333847",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/testlio/jobs/8333847"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Testlio",
+    "Freelance Software Tester (Remote in Réunion, Monaco)",
+    0,
+    "No prior experience required",
+    "Software, IT & quality assurance",
+    "Remote in EMEA",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "Freelance / independent contractor (description)",
+    "USD 18 per hour",
+    "Contract / freelance wording in posting; confirm engagement terms",
+    "https://job-boards.greenhouse.io/testlio/jobs/8331513",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/testlio/jobs/8331513"
+    ]
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "file": "remotejobs.json",
+   "section": "jobs",
+   "reason": "Greenhouse: posting removed",
+   "item": [
+    "Twilio",
+    "Inside Sales - Representative (Active) 2",
+    4,
+    "1+ years experience stated",
+    "Sales & business development",
+    "Remote - United Kingdom",
+    "Country / region restricted or not fully specified",
+    0,
+    "Not confirmed; do not assume US remote includes Rhode Island",
+    "",
+    "",
+    "Check any onboarding, event, or travel conditions in the employer posting.",
+    "https://job-boards.greenhouse.io/twilio/jobs/8256373",
+    0,
+    "Not published / not normalized",
+    [
+     "https://job-boards.greenhouse.io/twilio/jobs/8256373"
+    ]
+   ]
   }
  ]
 }
