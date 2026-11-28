@@ -1017,22 +1017,6 @@
   },
   {
    "employer_id": "care_new_england",
-   "requisition_id": "8243",
-   "title": "Environmental Services Tech FT Eves",
-   "city": "Providence",
-   "site": "Butler Hospital",
-   "skill_level": "entry_training",
-   "employment_type": "full_time",
-   "hours_per_week": 40,
-   "shift": "4 p.m.–midnight; alternate weekends/holidays",
-   "pay": null,
-   "requirements": "Driver's license required; high-school credential preferred. Employer says job training provided.",
-   "source_url": "https://careers.carenewengland.org/careers-home/jobs/8243",
-   "reason": "Official indexed listing found; direct job page returned 403.",
-   "checked_on": "2026-11-12"
-  },
-  {
-   "employer_id": "care_new_england",
    "requisition_id": "7329",
    "title": "Environmental Services Aide 24E",
    "city": "Providence",
@@ -1070,8 +1054,8 @@
   "excluded_listings": 5
  },
  "listing_check": {
-  "date": "2026-11-27",
-  "removed": 0,
+  "date": "2026-11-28",
+  "removed": 1,
   "unverified": 0,
   "held": false
  }
